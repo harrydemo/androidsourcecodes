@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2011-06-28T03:19:08.074266Z"
+   url="https://oauthtest.googlecode.com/svn/trunk/OauthTest/res/drawable-mdpi"
+   last-author="bywuyu@gmail.com"
+   kind="dir"
+   repos="https://oauthtest.googlecode.com/svn"
+   revision="3"/>
+<entry
+   committed-rev="3"
+   name="icon.png"
+   text-time="2011-05-17T03:45:17.328334Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="d0e97c42f858de3ee5fcd4d723d3f4fb"
+   last-author="bywuyu@gmail.com"
+   kind="file"
+   prop-time="2011-06-28T03:19:06.312500Z"/>
+</wc-entries>

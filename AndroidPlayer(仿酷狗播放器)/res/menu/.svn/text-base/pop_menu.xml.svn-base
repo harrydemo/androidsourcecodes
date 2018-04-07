@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_add_to" android:id="@+id/pop_add_to" android:orderInCategory="1" android:title="@string/pop_menu_add_to" />
+    <item android:icon="@drawable/ic_menu_add_all_to" android:id="@+id/pop_add_all_to" android:orderInCategory="2" android:title="@string/pop_menu_add_all_to" />
+    <item android:icon="@drawable/ic_menu_delete" android:id="@+id/pop_delete" android:orderInCategory="3" android:title="@string/pop_menu_delete" />
+    <item android:icon="@drawable/ic_menu_create_list" android:id="@+id/pop_create_list" android:orderInCategory="4" android:title="@string/pop_menu_create_list" />
+    <item android:icon="@drawable/ic_menu_scan" android:id="@+id/pop_scan" android:orderInCategory="5" android:title="@string/pop_menu_scan" />
+    <item android:icon="@drawable/ic_menu_setting" android:id="@+id/pop_setting" android:orderInCategory="6" android:title="@string/pop_menu_setting" />
+    <item android:icon="@drawable/ic_menu_help_update" android:id="@+id/pop_help_update" android:orderInCategory="7" android:title="@string/pop_menu_help_update" />
+    <item android:icon="@drawable/ic_menu_exit" android:id="@+id/pop_exit" android:orderInCategory="8" android:title="@string/pop_menu_exit" />
+</menu>

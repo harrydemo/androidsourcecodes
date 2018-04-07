@@ -1,0 +1,161 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "all"=.\all.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name fog
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name lightmaterial
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name lightposition
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name projection
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name texture
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name transformation
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "fog"=.\fog.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name glm
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "glm"=.\glm.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "lightmaterial"=.\lightmaterial.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name glm
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "lightposition"=.\lightposition.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name glm
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "projection"=.\projection.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name glm
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "shapes"=.\shapes.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "texture"=.\texture.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name glm
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "transformation"=.\transformation.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name glm
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

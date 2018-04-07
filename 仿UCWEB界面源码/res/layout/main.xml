@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout_catalog" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<GridView android:id="@+id/GridView_toolbar"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_alignParentBottom="true"></GridView>
+	<ListView android:id="@+id/ListView_catalog"
+		android:layout_above="@id/GridView_toolbar" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</ListView>
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:id="@+id/mytest"
+    >
+	
+	<LinearLayout 
+		android:layout_width="fill_parent"    
+    	android:layout_height="wrap_content"    
+    	android:background="@drawable/title_background"    
+    	android:paddingLeft="5dip"    
+    	android:paddingRight="5dip" 
+    	android:paddingTop="5dip"
+    	android:paddingBottom="5dip" 
+    	android:gravity="center_vertical" 
+    	>
+		
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"
+			>
+		
+			<TextView 
+				android:textAppearance="?android:textAppearanceMedium"
+				android:layout_gravity="center_vertical" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="搜索 - 美食"
+				android:textColor="#ffffffff"
+				/>
+		
+			<TextView 
+				android:textAppearance="?android:textAppearanceMediumInverse"
+				android:layout_gravity="center_vertical" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="【共2345家】"
+				android:textColor="#ffffffff"
+				android:textSize="14.0sp"
+				/>
+			
+		</LinearLayout>
+		
+		<FrameLayout 
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="5"
+			>
+			<Button 
+				android:textAppearance="?android:textAppearanceMediumInverse"
+				android:layout_gravity="right|center_vertical"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="添加商户"
+				android:textColor="#ffffffff"
+				android:background="@drawable/btn_weight"
+				android:textSize="14.0sp"
+				/>
+		</FrameLayout>>
+			
+	</LinearLayout>
+	
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:background="@drawable/search_bar_background"
+		android:gravity="center_vertical"
+		android:padding="10px"
+		>
+		
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			>
+			
+			<Button 
+				android:id="@+id/id_area"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/btn_dropdown"
+				android:textColor="@color/yellow"
+				android:text="全部地区"
+				android:paddingTop="10dip"
+				android:paddingBottom="10dip"
+				/>
+			
+		</LinearLayout>
+		
+		<LinearLayout 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			>
+			
+			<Button 
+				android:id="@+id/id_type"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/btn_dropdown"
+				android:textColor="@color/yellow"
+				android:text="美食"
+				android:paddingTop="10dip"
+				android:paddingBottom="10dip"
+				/>
+				
+		</LinearLayout>
+		
+		<FrameLayout 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			>
+			
+			<ImageButton 
+				android:id="@+id/id_sort"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/btn_circle"
+				android:src="@drawable/ic_arrow_down"
+				android:layout_gravity="right"
+				/>
+			
+		</FrameLayout>
+
+	</LinearLayout>
+	
+	<ListView 
+		android:id="@+id/resultlist"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		>
+	
+	</ListView>
+
+</LinearLayout>

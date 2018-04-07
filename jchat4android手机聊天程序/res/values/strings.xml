@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- APPLICATION SPECIFIC PARAMETERS -->
+    <string name="app_name">JChat</string>
+    <string name="msn_service_desc_name">android-msn-service</string>
+    <string name="msn_service_desc_type">android-msn</string>
+    <string name="contacts_update_time">5000</string>
+    
+    <!-- UI SPECIFIC PARAMETERS -->
+   	<string name="toast_duration">2000</string>
+   	
+   	<!-- TAB NAMES -->
+   	<string name="contacts_tab_name"> Contacts</string>
+   	<string name="mapview_tab_name"> Map</string>
+   	
+   	<!-- MENU ITEM PARAMETERS -->
+   	<string name="menuitem_listview">List mode</string>
+   	<string name="menuitem_exit">Exit</string>
+   	<string name="menuitem_settings">Jade Settings</string>
+   	<string name="menuitem_connect">Connect to Jade!</string>
+   	
+   	<!--  CONTEXT MENU CONTACT LIST -->
+   	<string name="menu_item_chat">Chat</string>
+   	<string name="menu_item_call">Call</string>
+   	<string name="menu_item_sms">SMS</string>
+   
+    
+    <!-- LOCATION PROVIDER NAME -->
+    <string name="location_provider_name">gps </string>
+    
+	<!-- JADE PLATFORM CONNECTION PARAMETERS -->    
+    <string name="jade_platform_host">10.0.2.2</string>
+	<string name="jade_platform_port">1099</string>
+	
+	<!-- TEXT LABELS -->
+	  <string name="label_for_offline">Offline</string>
+	  <string name="label_toggle_satellite">Toggle satellite mode</string>
+	  <string name="label_toggle_map">Toggle map mode</string>
+	  <string name="label_params_title">Jade Connection settings</string>
+	  <string name="label_sms_title">Send SMS </string>
+	  <string name="label_map_tab_indicator"> Map </string>
+	  <string name="label_contacts_tab_indicator"> Contacts </string>
+
+    <!-- ERROR MESSAGES -->
+    <string name="error_msg_jadegw_connection">Error connecting to Jade Gateway</string>
+    <string name="error_msg_multiple_phonecalls">You cannot call more than one contact a time </string>
+    <string name="error_sms_empty"> Cannot send SMS with empty body! </string>
+
+	
+</resources>

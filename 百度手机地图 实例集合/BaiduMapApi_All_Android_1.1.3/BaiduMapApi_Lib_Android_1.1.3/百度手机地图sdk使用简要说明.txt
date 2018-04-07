@@ -1,0 +1,2 @@
+1.在项目Libraries里添加baidumapapi.jar，将libBMapApiEngine.so复制到工程目录下的libs\armeabi。
+2.地图、定位、搜索功能都需要BMapManager来管理，BMapManager提供四个接口，init, start, stop, destroy。建议在Application里生成BMapManager对象并初使化，在程序退出时调用destory，在需要使用sdk功能的activity的onCreate里调用start, onDestroy调用stop，或者onResume/onPause分别调用start和stop。

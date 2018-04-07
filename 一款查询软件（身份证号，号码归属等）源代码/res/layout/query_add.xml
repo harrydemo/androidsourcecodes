@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="#ffffff">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout1"
+		android:orientation="vertical" style="@style/query_condition_module_theme">
+		<EditText android:layout_width="match_parent" android:hint="@string/input_zip_no_desc"
+			android:layout_height="wrap_content" android:id="@id/query_q">
+		</EditText>
+		<Button android:text="@string/btn_query_text" android:layout_below="@id/query_q" android:layout_centerHorizontal="true" android:id="@id/query_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/query_btn_theme"></Button>
+	</RelativeLayout>
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout1"
+		android:orientation="vertical" style="@style/result_module_theme">
+		<TextView android:text="" android:id="@id/query_result"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" android:cacheColorHint="#00000000" style="@style/query_result_theme"></TextView>
+	</LinearLayout>
+</LinearLayout>

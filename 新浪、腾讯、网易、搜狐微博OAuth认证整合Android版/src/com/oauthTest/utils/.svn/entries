@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2011-06-28T03:19:08.074266Z"
+   url="https://oauthtest.googlecode.com/svn/trunk/OauthTest/src/com/oauthTest/utils"
+   last-author="bywuyu@gmail.com"
+   kind="dir"
+   repos="https://oauthtest.googlecode.com/svn"
+   revision="3"/>
+<entry
+   committed-rev="3"
+   name="ConfigUtil.java"
+   text-time="2011-06-28T02:54:41.484375Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="7700b3311ac8162d412df3cb2bcf48e7"
+   last-author="bywuyu@gmail.com"
+   kind="file"/>
+<entry
+   committed-rev="3"
+   name="Base64Encoder.java"
+   text-time="2011-06-28T02:54:41.437500Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="73f32afc36beb52e21dad6bc1cdb6064"
+   last-author="bywuyu@gmail.com"
+   kind="file"/>
+<entry
+   committed-rev="3"
+   name="HttpClientUtil.java"
+   text-time="2011-06-28T02:54:41.500000Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="f79c49a91da0b7775fed8fa72ab06c33"
+   last-author="bywuyu@gmail.com"
+   kind="file"/>
+</wc-entries>

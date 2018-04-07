@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@drawable/net_error" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" android:text="@string/net_error_info" />
+    <Button android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/btn_refresh" android:background="@drawable/bg_refresh_button" android:paddingTop="5.0dip" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:text="尝试重新连接" />
+</LinearLayout>

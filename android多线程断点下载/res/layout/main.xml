@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/path"
+    />
+    
+    <EditText  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+     android:text="http://xiazai.kugou.com/Down/kugou_1182.exe"
+    android:id="@+id/path"
+    />
+    
+    <Button  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/button"
+    android:id="@+id/button"
+    />
+    
+    <ProgressBar 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="20px"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:id="@+id/downloadbar"
+	    /> 
+    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:gravity="center"
+	    android:id="@+id/result"
+	    />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/qq_checkbox_text_color</item>
+        <item name="android:paddingLeft">28.0px</item>
+        <item name="android:button">@drawable/qq_btn_check</item>
+    </style>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@+id/main_tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="60px" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="60px" >
+
+            <LinearLayout
+                android:id="@+id/contactstabview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="10px" >
+
+                <TextView
+                    android:id="@+id/senderTxtView"
+                    style="@style/MyContactsStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Contacts" />
+
+                <view
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/contactsList"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    class="it.telecomitalia.jchat.MultiSelectionListView"
+                    android:focusableInTouchMode="true"
+                    android:longClickable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/maptabview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/switchMapBtn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text="@string/label_toggle_satellite" />
+
+                <view
+                    android:id="@+id/myMapView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    class="com.google.android.maps.MapView"
+                    android:apiKey="0uL-7NAiNEiQnTxkbyEox3BwZzVkaHVCMzjvDfA"
+                    android:focusableInTouchMode="true"
+                    android:longClickable="true" />
+            </LinearLayout>
+        </FrameLayout>
+    </TabHost>
+
+</LinearLayout>

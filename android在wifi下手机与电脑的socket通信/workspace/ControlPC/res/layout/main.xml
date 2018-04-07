@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        android:id = "@+id/clientLayout"
+        android:layout_marginTop="5dip" 
+		android:layout_width="match_parent" 		
+		android:layout_height="wrap_content" 
+		android:orientation="vertical">
+	    <TextView 
+	        android:id = "@+id/clientTextView"
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+	        android:text="手机扮演客户端："/>	        
+	    <RelativeLayout 
+	        android:id = "@+id/connectLayout"
+	        android:layout_below="@+id/clientTextView"
+			android:layout_width="match_parent" 		
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal">		   
+			   
+			<Button android:id="@+id/StartConnect"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 				
+				android:layout_alignParentRight = "true"
+				android:text="开始连接"/>
+			<EditText
+		         android:layout_width="fill_parent"
+		      	 android:layout_height = "wrap_content" 	
+		      	 android:hint = "请输入IP地址"		      	 
+		      	 android:layout_alignParentLeft = "true"
+		      	 android:layout_toLeftOf="@+id/StartConnect" 
+		      	 android:id = "@+id/IPText"/>  
+		</RelativeLayout> 		
+		<RelativeLayout 
+	        android:id = "@+id/connectSendLayout"
+	        android:layout_below="@+id/connectLayout"
+			android:layout_width="match_parent" 		
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal">		   
+			   
+			<Button android:id="@+id/SendButtonClient"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:layout_alignParentRight = "true"
+				android:text="发送信息"/>
+			<EditText
+		         android:layout_width="fill_parent"
+		      	 android:layout_height = "wrap_content" 	
+		      	 android:layout_alignParentLeft = "true"
+		      	 android:layout_toLeftOf="@+id/SendButtonClient" 
+		      	 android:hint = "请输入发送内容"
+		      	 android:id = "@+id/clientMessageText"/>  
+		</RelativeLayout>
+	</RelativeLayout> 
+	
+    <RelativeLayout 
+        android:id="@+id/ServerLayout"   
+        android:layout_below="@+id/clientLayout"
+        android:layout_marginTop="5dip"        
+		android:layout_width="match_parent" 		
+		android:layout_height="wrap_content" 
+		android:orientation="vertical">
+		<TextView 
+	        android:id = "@+id/serverTextView"
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+	        android:text="手机扮演服务端："/>
+		<Button 
+			android:id="@+id/CreateConnect"
+			android:layout_below="@+id/serverTextView"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:text="创建服务"/>	  
+		
+		<RelativeLayout 
+	        android:id = "@+id/serverSendLayout"
+	        android:layout_below="@+id/CreateConnect"	        
+			android:layout_width="match_parent" 		
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal">				
+		    <Button android:id="@+id/SendButtonServer"
+		        android:layout_alignParentRight = "true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:text="Server发送"/>	
+			<EditText
+		         android:layout_width="fill_parent"
+		      	 android:layout_height = "wrap_content" 	
+		      	 android:layout_alignParentLeft = "true"
+		      	 android:layout_toLeftOf="@+id/SendButtonServer" 
+		      	 android:hint = "请输入发送内容"
+		      	 android:id = "@+id/MessageText"/>
+		</RelativeLayout> 
+	</RelativeLayout> 
+	
+	<RelativeLayout 
+	    android:layout_below="@+id/ServerLayout"
+	    android:layout_marginTop="5dip" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="vertical">	    
+		<Button android:id="@+id/StartMouse"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:text="模拟鼠标"/>
+		<TextView
+			android:id="@+id/RecvText"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom = "true"
+			android:layout_below="@+id/StartMouse" 
+	        android:text="信息：\n"/>	 
+	</RelativeLayout>           
+</RelativeLayout>

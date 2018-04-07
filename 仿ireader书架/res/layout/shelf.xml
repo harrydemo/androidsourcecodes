@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/bookshelf_header_bg" >
+
+		<ImageView
+			android:id="@+id/shelf_image_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:background="@drawable/bookshelf_header_logo" />
+
+		<Button
+			android:id="@+id/shelf_image_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:background="@drawable/bookshelf_goto_bookcity_0" />
+	</RelativeLayout>
+
+	<ListView
+		android:id="@+id/shelf_list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="none"
+		android:divider="#00000000"
+		android:cacheColorHint="#00000000"/>
+
+</LinearLayout>

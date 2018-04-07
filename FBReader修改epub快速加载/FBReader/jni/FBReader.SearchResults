@@ -1,0 +1,36 @@
+---- ZLEncodingConverter Matches (39 in 14 files) ----
+DummyEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):class DummyEncodingConverter : public ZLEncodingConverter {
+DummyEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):shared_ptr<ZLEncodingConverter> DummyEncodingConverterProvider::createConverter() {
+DummyEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):shared_ptr<ZLEncodingConverter> DummyEncodingConverterProvider::createConverter(const std::string&) {
+DummyEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):#include "ZLEncodingConverter.h"
+DummyEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):	shared_ptr<ZLEncodingConverter> createConverter();
+DummyEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):	shared_ptr<ZLEncodingConverter> createConverter(const std::string &encoding);
+EncodedTextReader.h (nativeformats\fbreader\src\formats):#include <ZLEncodingConverter.h>
+EncodedTextReader.h (nativeformats\fbreader\src\formats):	shared_ptr<ZLEncodingConverter> myConverter;
+EncodingCollectionReader.h (nativeformats\zlibrary\core\src\encoding):#include "ZLEncodingConverter.h"
+HtmlReader.h (nativeformats\fbreader\src\formats\html):#include <ZLEncodingConverter.h>
+MyEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):class MyOneByteEncodingConverter : public ZLEncodingConverter {
+MyEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):class MyTwoBytesEncodingConverter : public ZLEncodingConverter {
+MyEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):shared_ptr<ZLEncodingConverter> MyEncodingConverterProvider::createConverter(const std::string &encoding) {
+MyEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):#include "ZLEncodingConverter.h"
+MyEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):	shared_ptr<ZLEncodingConverter> createConverter(const std::string &encoding);
+TxtReader.h (nativeformats\fbreader\src\formats\txt):#include <ZLEncodingConverter.h>
+ZLEncodingCollection.cpp (nativeformats\zlibrary\core\src\encoding):#include "ZLEncodingConverter.h"
+ZLEncodingCollection.cpp (nativeformats\zlibrary\core\src\encoding):shared_ptr<ZLEncodingConverter> ZLEncodingCollection::defaultConverter() {
+ZLEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):#include "ZLEncodingConverter.h"
+ZLEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):shared_ptr<ZLEncodingConverter> ZLEncodingConverterInfo::createConverter() const {
+ZLEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):ZLEncodingConverter::ZLEncodingConverter() {
+ZLEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):ZLEncodingConverter::~ZLEncodingConverter() {
+ZLEncodingConverter.cpp (nativeformats\zlibrary\core\src\encoding):void ZLEncodingConverter::convert(std::string &dst, const std::string &src) {
+ZLEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):class ZLEncodingConverter {
+ZLEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):	ZLEncodingConverter();
+ZLEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):	virtual ~ZLEncodingConverter();
+ZLEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):	ZLEncodingConverter(const ZLEncodingConverter&);
+ZLEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):	ZLEncodingConverter &operator = (const ZLEncodingConverter&);
+ZLEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):	shared_ptr<ZLEncodingConverter> createConverter() const;
+ZLEncodingConverter.h (nativeformats\zlibrary\core\src\encoding):	shared_ptr<ZLEncodingConverter> defaultConverter();
+ZLEncodingConverterProvider.h (nativeformats\zlibrary\core\src\encoding):class ZLEncodingConverter;
+ZLEncodingConverterProvider.h (nativeformats\zlibrary\core\src\encoding):	virtual shared_ptr<ZLEncodingConverter> createConverter(const std::string &encoding) = 0;
+ZLEncodingSet.cpp (nativeformats\zlibrary\core\src\encoding):#include "ZLEncodingConverter.h"
+ZLXMLReaderInternal.cpp (nativeformats\zlibrary\core\src\xml\expat):#include <ZLEncodingConverter.h>
+ZLXMLReaderInternal.cpp (nativeformats\zlibrary\core\src\xml\expat):		shared_ptr<ZLEncodingConverter> converter = info->createConverter();

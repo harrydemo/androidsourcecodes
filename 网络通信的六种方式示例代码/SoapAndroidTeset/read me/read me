@@ -1,0 +1,62 @@
+1.ProvinceActivity : 
+	[直辖市, 特别行政区, 黑龙江, 吉林, 辽宁, 内蒙古, 河北, 河南, 山东, 山西, 江苏, 
+	安徽, 陕西, 宁夏, 甘肃, 青海, 湖北, 湖南, 浙江, 江西, 福建, 贵州, 四川, 
+	广东, 广西, 云南, 海南, 新疆, 西藏, 台湾, 亚洲, 欧洲, 非洲, 北美洲, 南美洲, 大洋洲]
+
+2. WebServiceHelper(1024): 
+SoapObject result = (SoapObject) envelope.getResponse();
+	result = anyType{
+		string=查询结果为空！; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=2011-08-28 19:30:09; 
+		string=anyType{}; 
+		string=这城市或区域暂时不被支持。http://www.webxml.com.cn/; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		string=anyType{}; 
+		}
+
+
+
+3.当请求大连的天气情况时，返回的date是下面的值：
+	WebServiceHelper(954): 这城市或区域暂时不被支持。http://www.webxml.com.cn/
+	
+4. SoapFault - faultcode: 'soap:Client' faultstring: 
+'服务器未能识别 HTTP 头 SOAPAction 的值: http://WebXml.com.cn/getSupportProvince。' 
+faultactor: 'null' detail: org.kxml2.kdom.Node@44efd820
+
+
+
+  anyType{
+  string=直辖市; 
+  string=北京; 
+  string=54511; 
+  string=54511.jpg; 
+  string=2011-8-29 13:03:28; 
+  string=21℃/30℃; 
+  string=8月29日 多云转晴; 
+  string=无持续风向微风; 
+  string=1.gif; 
+  string=0.gif; 
+  string=今日天气实况：气温：28℃；
+     风向/风力：南风 2级；湿度：55%；
+     空气质量：中；
+     紫外线强度：中等; 
+  string=穿衣指数：天气炎热，建议着短衫、短裙、短裤、薄型T恤衫、敞领短袖棉衫等清凉夏季服装。
+     感冒指数：各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。
+  

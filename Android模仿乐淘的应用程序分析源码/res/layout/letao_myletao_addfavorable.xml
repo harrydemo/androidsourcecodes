@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffff">
+	<!-- 顶部标题 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+	<include layout="@layout/common_listview" />
+	<!-- 底部菜单 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+
+<!-- 中间内容部分 -->
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_above="@id/bottommenu"
+		android:layout_below="@id/title">
+		<EditText android:layout_width="250dip"
+			android:layout_height="wrap_content" android:layout_marginTop="50dip"
+			android:id="@+id/addcoupon_inputcoupon_edit" android:singleLine="true"
+			android:hint="@string/add_coupon_input_coupon" android:textSize="15sp"
+			android:layout_centerHorizontal="true" android:paddingLeft="15dip"
+			android:phoneNumber="true" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:background="@drawable/input_box" />
+		<TextView android:id="@+id/addcoupon_add_btn"
+			android:layout_width="120dip" android:layout_height="wrap_content"
+			android:text="@string/add_coupon_add" android:gravity="center"
+			android:layout_marginTop="30dip" android:layout_below="@id/addcoupon_inputcoupon_edit"
+			android:background="@drawable/btn_pink" android:layout_alignLeft="@id/addcoupon_inputcoupon_edit"
+			android:textColor="@color/white" android:textSize="20sp" />
+		<TextView android:id="@+id/addcoupon_cancel_btn"
+			android:layout_width="120dip" android:layout_height="wrap_content"
+			android:text="@string/add_coupon_cancel" android:gravity="center"
+			android:layout_below="@id/addcoupon_inputcoupon_edit"
+			android:layout_marginTop="30dip" android:background="@drawable/btn_blue"
+			android:layout_alignRight="@id/addcoupon_inputcoupon_edit"
+			android:textColor="@color/white" android:textSize="20sp" />
+	</RelativeLayout>
+	
+	</RelativeLayout>

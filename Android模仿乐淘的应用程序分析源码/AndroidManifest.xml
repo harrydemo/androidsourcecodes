@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.jclt.activity" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="8" />
+
+	<application android:icon="@drawable/jclt" android:label="@string/app_name">
+		<activity android:name=".FirstActivity" android:label="@string/app_name">
+		<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".NewProMarketActivity" android:label="@string/app_name" >
+		
+		</activity>
+		<activity android:name=".SecondActivity" android:label="@string/app_name" />
+		<activity android:name=".CommonActivity" android:label="@string/app_name" />
+		<activity android:name=".BoyShoesActivity" android:label="@string/app_name"/>
+		<activity android:name=".GirlShoesActivity" android:label="@string/app_name"/>
+		<activity android:name=".MoreShoesActivity" android:label="@string/app_name"/>
+		<activity android:name=".MoreInforActivity" android:label="@string/app_name" />
+		<activity android:name=".MyLetaoInforActivity" android:label="@string/app_name"/>
+		<!-- 底部菜单模块<更多>Activity -->
+		<activity android:name=".more.LetaoServceActivity" android:label="@string/app_name"/>
+		<activity android:name=".more.LetaoAboutActivity" android:label="@string/app_name"/>
+		<activity android:name=".more.LetaoHistoryActivity" android:label="@string/app_name"/>
+		<activity android:name=".more.LetaoHotLineActivity" android:label="@string/app_name" />
+		<activity android:name=".more.LetaoSuggestActivity" android:label="@string/app_name" android:windowSoftInputMode="adjustPan"/>
+		<activity android:name=".more.LetaoMicroBlogActivity" android:label="@string/app_name"/>
+		<!-- 底部菜单模块<我的乐淘>Activity -->
+		<activity android:name=".myletao.LetaoAddressActivity" android:label="@string/app_name"/>
+		<activity android:name=".myletao.LetaoCollectActivity" android:label="@string/app_name"/>
+		<activity android:name=".myletao.LetaoFavorableActivity" android:label="@string/app_name"/>
+		<activity android:name=".myletao.LetaoIndentActivity" android:label="@string/app_name"/>
+		<activity android:name=".myletao.LetaoPasswordActivity" android:label="@string/app_name"/>
+		<activity android:name=".myletao.ExitUserActivity" android:label="@string/app_name"/>
+		<activity android:name=".myletao.RegisterActivity" android:label="@string/app_name"/>
+		<activity android:name=".myletao.ReturnPasswordActivity" android:label="@string/app_name"/>
+		<activity android:name=".myletao.subclass.LetaoNewAddressActivity" android:label="@string/app_name" />
+		<activity android:name=".myletao.subclass.LetaoAddFavorableActivity" android:label="@string/app_name" />
+		<!-- 底部菜单模块<我的购物车>Activity -->
+		<activity android:name=".shopping.ShoppingCarActivity" android:label="@string/app_name"/>
+		<!-- 底部菜单模块<我的分类> -->
+		<activity android:name=".type.TypeLetaoActivity" android:label="@string/app_name" />
+		<activity android:name=".type.CommondityInforLetaoActivity" android:label="@string/app_name" >
+		
+		</activity>
+	</application>
+	<uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" /> 
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" /> 
+</manifest>

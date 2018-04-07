@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/label"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:hint="@string/label"
+    android:minHeight="48dip"
+    android:paddingLeft="@dimen/air_label_padding"
+    android:paddingRight="@dimen/air_label_padding"
+    android:singleLine="true"
+    android:textAppearance="?android:attr/textAppearanceMedium" />

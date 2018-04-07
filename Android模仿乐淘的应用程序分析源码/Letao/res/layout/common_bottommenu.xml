@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true" android:gravity="center">
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@color/menu_background_color" android:paddingTop="3dip">
+		
+		<LinearLayout android:orientation="vertical" android:id="@+id/menu_home"
+			android:layout_width="0dip" android:layout_weight="0.20"
+			android:layout_height="wrap_content" android:clickable="true"
+			android:background="@drawable/menu">
+			
+			<ImageView android:layout_width="wrap_content" android:id="@+id/menu_home_img"
+				android:layout_gravity="center_horizontal" android:layout_height="27dip"
+				android:layout_centerVertical="true" android:src="@drawable/menu_home_released" />
+				
+			<TextView android:id="@+id/menu_home_text"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="12sp" android:gravity="center_horizontal"
+				android:textColor="@color/white" android:text="@string/menu_home" />
+				
+		</LinearLayout>
+		
+		<LinearLayout android:orientation="vertical" android:id="@+id/menu_brand"
+			android:background="@drawable/menu" android:layout_width="0dip"
+			android:layout_weight="0.20" android:layout_height="wrap_content"
+			android:clickable="true">
+			
+			<ImageView android:layout_width="wrap_content" android:id="@+id/menu_brand_img"
+				android:layout_gravity="center_horizontal" android:layout_height="27dip"
+				android:layout_centerVertical="true" android:src="@drawable/menu_brand_released" />
+				
+			<TextView android:id="@+id/menu_brand_text"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="12sp" android:gravity="center_horizontal"
+				android:textColor="@color/white" android:text="@string/menu_brand" />
+				
+		</LinearLayout>
+		
+		<LinearLayout android:orientation="vertical"
+			android:id="@+id/menu_shopping_cart" android:background="@drawable/menu"
+			android:layout_width="0dip" android:layout_weight="0.20"
+			android:layout_height="wrap_content" android:clickable="true">
+			
+			<ImageView android:layout_width="wrap_content"
+				android:id="@+id/menu_shopping_cart_img" android:layout_gravity="center_horizontal"
+				android:layout_height="27dip" android:layout_centerVertical="true"
+				android:src="@drawable/menu_shopping_cart_released" />
+				
+			<TextView android:id="@+id/menu_shopping_cart_text"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="12sp" android:gravity="center_horizontal"
+				android:textColor="@color/white" android:text="@string/menu_shopping_cart" />
+				
+		</LinearLayout>
+		
+		<LinearLayout android:orientation="vertical" android:id="@+id/menu_my_letao"
+			android:background="@drawable/menu" android:layout_width="0dip"
+			android:layout_weight="0.20" android:layout_height="wrap_content"
+			android:clickable="true">
+			
+			<ImageView android:layout_width="wrap_content" android:id="@+id/menu_my_letao_img"
+				android:layout_gravity="center_horizontal" android:layout_height="27dip"
+				android:layout_centerVertical="true" android:src="@drawable/menu_my_letao_released" />
+				
+			<TextView android:id="@+id/menu_my_letao_text"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="12sp" android:gravity="center_horizontal"
+				android:textColor="@color/white" android:text="@string/menu_my_letao" />
+				
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:id="@+id/menu_more"
+			android:background="@drawable/menu" android:layout_width="0dip"
+			android:layout_weight="0.20" android:layout_height="wrap_content"
+			android:clickable="true">
+			
+			<ImageView android:layout_width="wrap_content" android:id="@+id/menu_more_img"
+				android:layout_gravity="center_horizontal" android:layout_height="27dip"
+				android:layout_centerVertical="true" android:src="@drawable/menu_more_released" />
+				
+			<TextView android:id="@+id/menu_more_text"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="12sp" android:gravity="center_horizontal"
+				android:textColor="@color/white" android:text="@string/menu_more" />
+				
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+	<TextView android:id="@+id/menu_shopping_cart_productnum_text"
+		android:visibility="gone" android:layout_width="20dip"
+		android:layout_height="20dip" android:textColor="@color/white"
+		android:textSize="12sp" android:gravity="center_horizontal"
+		android:layout_marginLeft="165dip" android:background="@drawable/paopao" />
+		
+</RelativeLayout>

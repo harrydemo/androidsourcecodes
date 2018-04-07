@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal" >
+    	<Button android:id="@+id/btStart"   android:layout_width= "120px" android:layout_height="80px" android:text="START Battery Dog Service"></Button>
+    	<Button android:id="@+id/btStop"    android:layout_width= "120px" android:layout_height="80px" android:textSize="14px" android:text="STOP Battery Dog Service"></Button>
+    </LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" >
+	    <Button android:id="@+id/btRawFormat"   android:layout_width="wrap_content"  android:layout_height="wrap_content" android:text="Raw Format"></Button>
+	    <Button android:id="@+id/btShowFormated"   android:layout_width="wrap_content"  android:layout_height="wrap_content" android:text="Show Formatted"></Button>
+	    <Button android:id="@+id/btGraph"   android:layout_width="wrap_content"  android:layout_height="wrap_content" android:text="Graph"></Button>
+    </LinearLayout>
+    <EditText android:id="@+id/output"
+        android:layout_width="fill_parent" android:autoText="true"
+        android:capitalize="sentences"
+        android:layout_weight="1"
+        android:freezesText="true" android:layout_height="0dip"
+        android:text="[press refresh]">
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

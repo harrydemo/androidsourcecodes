@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffff">
+	<!-- 顶部标题 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+	<!-- 底部菜单 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+	
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_above="@id/bottommenu"
+		android:layout_below="@id/title">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:src="@drawable/go_shopping_img"
+				android:layout_gravity="center_horizontal" android:layout_marginTop="50dip" />
+			<TextView android:id="@+id/go_shopping"
+				android:layout_gravity="center_horizontal" android:layout_width="200dip"
+				android:layout_height="wrap_content" android:background="@drawable/btn_blue"
+				android:layout_marginTop="40dip" android:gravity="center"
+				android:textColor="@color/white" android:text="@string/go_shopping_text"
+				android:textSize="20sp" />
+		</LinearLayout>
+	</ScrollView>
+	<include layout="@layout/common_listview" />
+	</RelativeLayout>

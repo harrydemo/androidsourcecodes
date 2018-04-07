@@ -1,0 +1,40 @@
+Android集成Maven
+
+准备工作
+JAVA JDK
+1.下载eclipse-jee-helios.
+2.下载Android SDK,SDK TOOLS,SDK Platform tool.
+3.Eclise 安装ADT plugin.(URL:https://dl-ssl.google.com/android/eclipse/)
+4.下载m2e integration plugin.(URL:http://download.eclipse.org/technology/m2e/releases/1.0/1.0.100.20110804-1717)
+5.下载android Configurator(URL:http://rgladwell.github.com/m2e-android/updates/)
+6.创建maven项目，添加archetype
+archetypeArtifactId=android-quickstart 
+archetypeGroupId=de.akquinet.android.archetypes 
+archetypeVersion=1.0.6 
+groupId=com.yourcompany.android 
+artifactId=android-quickstart
+基本上完工
+主要插件：Android Connector 
+
+https://github.com/akquinet/android-archetypes
+https://github.com/jayway/maven-android-plugin
+https://github.com/rgladwell/m2e-android
+
+
+The Android Configurator is an Maven Integration for Eclipse (m2e) plug-in that adds maven support for Android Developer Tools (ADT) and the Maven Android Plugin. It brings the power of Maven dependency management into the ADT.
+http://marshal.easymorse.com/archives/2728
+
+
+ ERROR: Unknown command 'crunch'
+ Android Asset Packaging Tool
+ 最近android developer官网给出了ADT 14的升级包，很多朋友选择了升级，然后在开发的时候，编译工程出现了下面的错误提示
+ 
+android ERROR:Unknown option '--no-crunch'
+ 
+Android Asset Packaging Tool
+ 
+Usage:
+ 
+aapt l[ist] [-v] [-a] file.{zip,jar,apk}
+ 
+   总结一下，原因就是只更新了ADT而没有对Android SDK tools 和Android SDK Platform-tools进行及时的更新，所以解决办法就是打开SDK manager,对tools文件夹下的两个插件进行更新，之后重启就可以解决问题了

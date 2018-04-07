@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffff">
+	<!-- 顶部标题 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+	<!-- 底部菜单 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+	<include layout="@layout/common_listview" />
+	<!-- tab选项 -->
+	<LinearLayout android:id="@+id/commoditysort_product_tab_layout"
+		android:layout_below="@+id/title" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:gravity="center_horizontal">
+		<TextView android:id="@+id/commoditysort_product_lefttab_btn"
+			android:layout_width="104dip" android:layout_height="35dip"
+			android:background="@drawable/btn_spikstatus" android:text="@string/commoditysort_new_str"
+			android:textColor="@color/home_list_color" android:textSize="14sp"
+			android:gravity="center_horizontal" />
+		<TextView android:id="@+id/commoditysort_product_centertab_btn"
+			android:layout_width="104dip" android:layout_height="35dip"
+			android:background="@drawable/btn_spikstatus" android:text="@string/commoditysort_hot_str"
+			android:textColor="@color/home_list_color" android:textSize="14sp"
+			android:gravity="center_horizontal" />
+			
+	     <TextView android:id="@+id/commoditysort_product_righttab_btn"
+	     		   android:layout_width="104dip" android:layout_height="35dip"
+	     		   android:background="@drawable/btn_spikstatus" android:text="@string/commoditysort_price_str"
+	     		   android:textColor="@color/home_list_color" android:textSize="14sp"
+	     		   android:gravity="center_horizontal" />
+	<!-- 	<LinearLayout android:id="@+id/commoditysort_product_righttab_layout"
+			android:layout_width="112dip" android:layout_height="35dip"
+			android:background="@drawable/btn_spikstatus" android:gravity="center">
+			<TextView android:id="@+id/commoditysort_product_righttab_btn"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/commoditysort_price_str" android:textColor="@color/home_list_color"
+				android:textSize="14sp" android:layout_marginRight="3dip" />
+			<ImageView android:id="@+id/commoditysort_product_righttab_image"
+				android:layout_width="13dip" android:layout_height="15dip" />
+		</LinearLayout>   -->
+	</LinearLayout>
+	
+					<GridView android:id="@+id/grid1" android:layout_width="fill_parent"
+						android:layout_height="1130dip" android:numColumns="3"
+					    android:fadingEdge="vertical" 
+						android:layout_above="@id/bottommenu" 
+						android:layout_below="@id/commoditysort_product_tab_layout"
+						android:background="#ffffff"
+						/>
+					
+</RelativeLayout>

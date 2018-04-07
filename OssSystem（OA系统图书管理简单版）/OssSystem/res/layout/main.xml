@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent" 
+    android:background="#d6ebf5" 
+    >  
+<LinearLayout
+     android:id="@+id/linearlayout1"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"  
+     android:layout_height="wrap_content"
+     android:background="@drawable/nav_bg">
+<ImageView
+     android:id="@+id/image_index"
+     android:layout_marginTop="5dp"
+     android:src="@drawable/first_index"
+     android:layout_width="wrap_content"  
+     android:layout_height="wrap_content"
+     ></ImageView>
+<TextView
+     style="@style/text_margin"
+     android:id="@+id/tv_first"
+     android:text="首页 "
+     android:background="@drawable/textview_bg"
+ ></TextView>
+<TextView
+     style="@style/text_margin"
+     android:textColor="#ffffff"
+     android:id="@+id/tv_flag"
+     android:text=">"
+   ></TextView>
+<ImageView
+     android:id="@+id/image_manager"
+     android:layout_marginTop="5dp"
+     android:src="@drawable/nav_knowledge"
+     android:layout_width="wrap_content"  
+     android:layout_height="wrap_content"
+     ></ImageView>
+<TextView
+     android:gravity="center"
+     android:id="@+id/tv_notice"
+     android:text="知识管理 "
+     android:background="@drawable/textview_bg"
+     style="@style/text_margin"
+  ></TextView>
+</LinearLayout>
+
+<LinearLayout
+     android:id="@+id/linearlayout"
+     android:layout_width="wrap_content"
+     android:layout_height="fill_parent"
+     android:orientation="vertical">
+     <Button
+     android:layout_marginLeft="10dp"
+     android:id="@+id/btlist"
+     android:text="@string/list_manager"
+     android:paddingTop="30dp"
+     android:background="@drawable/btn_mulu"
+     android:gravity="center_horizontal"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"></Button>
+     <Button
+     android:layout_marginLeft="10dp"
+     android:id="@+id/btknowmanager"
+     android:paddingTop="30dp"
+     android:text="@string/know_manager"
+     android:background="@drawable/btn_knowledgemanager"
+     android:gravity="center_horizontal"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"></Button>
+     <Button
+     android:layout_marginLeft="10dp"
+     android:id="@+id/btknowsearch"
+     android:paddingTop="30dp"
+     android:text="@string/know_search"
+     android:background="@drawable/btn_knowledgesearch"
+     android:gravity="center_horizontal"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
+</LinearLayout>
+ 

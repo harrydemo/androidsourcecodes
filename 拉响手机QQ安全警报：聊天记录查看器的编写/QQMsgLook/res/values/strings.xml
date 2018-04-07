@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="qqlist">本地登陆过的QQ列表</string>
+    <string name="qqfriend_list">QQ好友列表</string>
+    <string name="qqtroop_list">QQ群列表</string>
+    <string name="app_name">QQ聊天记录查看器</string>
+    <string name="app_title">QQ聊天记录查看器</string>
+	<string name="friends">好友列表</string>
+	<string name="troops">群列表</string>
+	<string name="msg"> 聊天记录</string>
+	<string name="friend_msg">好友聊天记录</string>
+	<string name="troop_msg">群聊天记录</string>
+	<string name="qqnumber">QQ号码</string>
+	<string name="qqmsg">QQ消息</string>
+	<string name="first">首页</string>
+	<string name="end">尾页</string>
+	<string name="prev">上一页</string>
+	<string name="next">下一页</string>
+</resources>

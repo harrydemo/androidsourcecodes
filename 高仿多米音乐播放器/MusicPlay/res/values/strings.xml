@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MSD音乐</string>
+    
+    <string name="default_title_name">欢迎加入Mesada音乐</string>
+    
+    
+    
+    
+ 	<string name="about_title_name">关于MSD音乐</string>
+ 	
+ 	<string name="about_content">
+	MSD音乐for Android\n
+	版本号:MSD1.1.1\n\n
+	温馨提示\n
+	MSD音乐为免费软件,不对用户收取任何费用,在使用过程中不涉及网络流量,敬请放心.\n\n
+	知识产权声明\n
+	MSD音乐高度重视网络传播中的知识产权保护,遵守中国各项知识产权法律.法规和具有约束力的
+	规范性文件,积极配合遏制盗版.本软件开源分享,旨在技术交流,不作商业用途.\n
+	MSD音乐图片素材取自多米音乐,仅此而已还望多米音乐海涵,若发现其内容侵犯其权益时,
+	应事先向作者发出书面的"权利通知",联系方式如下,届时MSD音乐将作相应调整.\n
+	MSD音乐作者QQ:505082622\n
+	MSD音乐客服QQ:暂无\n
+	MSD音乐网站:还未开放\n
+	MSD音乐微博:还未开通\n
+ 	</string>  
+    
+    
+</resources>

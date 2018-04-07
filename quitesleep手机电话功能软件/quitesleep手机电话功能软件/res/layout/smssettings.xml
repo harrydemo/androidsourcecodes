@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+	
+<!--  
+ 	Copyright 2010 Cesar Valiente Gordo
+ 
+ 	This file is part of QuiteSleep.
+
+    QuiteSleep is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    QuiteSleep is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with QuiteSleep.  If not, see <http://www.gnu.org/licenses/>.
+ -->	
+	
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black">
+    
+	<RelativeLayout		
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+	
+		<TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:id="@+id/smssettings.statement.savesms"            
+            android:text="@string/smssettings.statement.savesms"
+            android:layout_marginTop="5dip" />
+	
+		<EditText
+			android:layout_width="fill_parent"
+			android:layout_height= "100dp"
+			android:layout_below="@id/smssettings.statement.savesms"
+			android:id="@+id/smssettings.edittext.savesms"		
+			android:text="@string/smssettings.edittext.savesms" 
+			android:maxLength="160"/>			
+			
+		<View
+			android:id="@+id/smssettings.divider1"
+			android:layout_width="fill_parent"		
+			android:layout_height="5dip"		
+			android:layout_below="@id/smssettings.edittext.savesms"
+			android:background="@drawable/gradient_black"
+			android:layout_marginTop="5dp"		
+			android:layout_marginBottom="5dp" />	
+			
+		<Button  	  
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:layout_below="@id/smssettings.divider1"
+  			android:drawableLeft="@drawable/tick_yes"
+  			android:text="@string/smssettings.button.savesms"
+		  	android:id="@+id/smssettings.button.savesms" />			
+  			
+  		<View
+			android:id="@+id/smssettings.divider2"
+			android:layout_width="fill_parent"		
+			android:layout_height="3dip"		
+			android:layout_below="@id/smssettings.button.savesms"
+			android:background="@drawable/gradient_blue"
+			android:layout_marginTop="5dp"		
+			android:layout_marginBottom="5dp" />			
+			
+   	
+  		<ToggleButton
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"  	
+  			android:layout_below="@id/smssettings.divider2" 
+  			android:drawableLeft="@drawable/start_service"
+  			android:id="@+id/smssettings.togglebutton.smsservice"
+  			android:textOn="@string/smssettings.togglebutton.stop_sms"
+  			android:textOff="@string/smssettings.togglebutton.start_sms"/>										
+  			
+	</RelativeLayout>
+</ScrollView>
+
+

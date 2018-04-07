@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim
+END
+grow_from_topright_to_bottomleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/grow_from_topright_to_bottomleft.xml
+END
+grow_from_topleft_to_bottomright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/grow_from_topleft_to_bottomright.xml
+END
+grow_from_bottomright_to_topleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/grow_from_bottomright_to_topleft.xml
+END
+grow_from_bottomleft_to_topright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/grow_from_bottomleft_to_topright.xml
+END
+grow_from_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/grow_from_top.xml
+END
+grow_from_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/grow_from_bottom.xml
+END
+rail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/rail.xml
+END
+shrink_from_topright_to_bottomleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/shrink_from_topright_to_bottomleft.xml
+END
+shrink_from_topleft_to_bottomright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/shrink_from_topleft_to_bottomright.xml
+END
+shrink_from_bottomright_to_topleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/shrink_from_bottomright_to_topleft.xml
+END
+shrink_from_bottomleft_to_topright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/shrink_from_bottomleft_to_topright.xml
+END
+shrink_from_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/shrink_from_top.xml
+END
+pump_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/pump_top.xml
+END
+shrink_from_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/shrink_from_bottom.xml
+END
+pump_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/pump_bottom.xml
+END
+disappear.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/res/anim/disappear.xml
+END

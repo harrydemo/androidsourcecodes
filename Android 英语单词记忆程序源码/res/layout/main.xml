@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_back"
+    >
+    <LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/spinner"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/top_bar"
+    android:layout_marginTop="20px"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/pickBook1"
+    >
+    <Spinner 
+     
+     android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:background="#00000000"
+    android:id="@+id/pickBook"
+    />
+    <ImageView android:src="@drawable/go_detail"
+     android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" />
+    </LinearLayout>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_marginLeft="50px"
+  android:layout_marginRight="50px"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:background="@drawable/main_panel"
+  android:layout_centerHorizontal="true"
+  android:layout_marginTop="20px"
+  android:layout_below="@+id/pickBook1">
+     
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#000000"
+    android:id="@+id/bookinfo"
+    android:text="something"
+    android:paddingTop="10px"
+    android:paddingBottom="10px"
+    />
+     <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+ 
+  >
+  <TextView
+  android:id="@+id/learn_text"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:textColor="#000000"
+  android:text="已学习0/0" 
+    />
+  
+  <ProgressBar 
+  style="?android:attr/progressBarStyleHorizontal"
+  android:id="@+id/learn_progress"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" 
+  />
+  </LinearLayout>
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  
+  >
+  <TextView
+  android:id="@+id/review_text"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:textColor="#000000"
+  android:text="已复习0/0" 
+    />
+  
+  <ProgressBar 
+  style="?android:attr/progressBarStyleHorizontal"
+  android:id="@+id/review_progress"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" 
+  />
+  </LinearLayout>
+    
+    </LinearLayout>
+    <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:layout_alignParentBottom="true"
+  android:background="@drawable/main_nav_bar">
+  <Button
+		android:id="@+id/learn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/main_studys"
+		android:layout_marginLeft="20px"
+		android:layout_marginRight="20px"
+	></Button>
+	<Button
+		android:id="@+id/review"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/main_review_btn"
+		android:layout_marginLeft="20px"
+		android:layout_marginRight="20px"
+	></Button>
+	<Button
+		android:id="@+id/test"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/main_test_btn"
+		android:layout_marginLeft="20px"
+		android:layout_marginRight="20px"
+	></Button>
+	<Button
+		android:id="@+id/attention"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/main_attention_btn"
+		android:layout_marginLeft="20px"
+		android:layout_marginRight="20px"
+	></Button>
+  </LinearLayout>
+    <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:layout_alignParentTop="true"
+  android:id="@+id/top_bar" 
+  android:gravity="right"
+  >
+  <ImageButton
+		android:id="@+id/delete"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:src="@drawable/delete"
+		android:background="#00000000"
+	></ImageButton>
+	<ImageButton
+		android:id="@+id/reset"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:src="@drawable/reset"
+		android:background="#00000000"
+		
+		
+	></ImageButton>
+  </LinearLayout>
+</RelativeLayout>

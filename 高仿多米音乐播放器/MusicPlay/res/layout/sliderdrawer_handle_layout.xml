@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:id="@+id/handle"
+	  android:orientation="vertical" 
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:gravity="center_horizontal">
+	  
+		   <ImageButton  
+		   android:id="@+id/handler_icon"
+		   android:layout_width="fill_parent" 
+		   android:layout_height="wrap_content"
+		   android:background="@drawable/selector_handle_bar"
+		   android:src="@drawable/handle_up">
+		   </ImageButton>
+  
+		   <RelativeLayout 
+		   android:layout_width="fill_parent" 
+		   android:layout_height="wrap_content"
+		   android:background="@drawable/handlelayout_bg">
+		   	
+		   		
+		   	    <ImageButton  
+			    android:id="@+id/cutlineleft"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/cut_line"
+			    android:layout_marginLeft="50dp"
+			    android:layout_alignParentLeft="true">
+			    </ImageButton>
+			    
+			    
+			     <RelativeLayout 
+			     android:id="@+id/handle_panel"
+				 android:layout_width="wrap_content" 
+				 android:layout_height="wrap_content">				 			 
+				    <ImageButton  
+				    android:id="@+id/handler_play"
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+				    android:background="@drawable/handle_play_normal"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="5dp"
+				    android:layout_centerVertical="true"
+				    android:visibility="invisible">
+				    </ImageButton>
+				    
+				    <ImageButton  
+				    android:id="@+id/handler_pause"
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+				    android:background="@drawable/handle_pause_normal"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="5dp"
+				    android:layout_centerVertical="true"
+				    android:visibility="invisible">
+				    </ImageButton>			 				 
+				 </RelativeLayout>
+				   
+	    
+			    <ImageButton  
+		        android:id="@+id/cutlineright"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:background="@drawable/cut_line"
+			    android:layout_marginRight="50dp"
+			    android:layout_alignParentRight="true">
+			    </ImageButton>
+			   
+			   
+			
+			   
+			    <TextView 
+	   			android:id="@+id/textSongNum"   
+				android:layout_width="50dp"
+			    android:layout_height="wrap_content"	
+			    android:text="0/0"		 
+			    android:color="#999999" 
+			    android:layout_alignParentRight="true"
+			    android:layout_centerVertical="true"
+			    android:gravity="center"
+			    android:textStyle="bold"
+		        android:singleLine="true"
+		        ></TextView>
+		        
+		        
+		        
+	   			<TextView 
+	   			android:id="@+id/textPlaySong"   
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"	
+			    android:text="@string/default_title_name"		 
+			    android:color="#999999" 
+			    android:layout_centerInParent="true"
+			    android:layout_marginLeft="60dp"
+			  	android:layout_marginRight="60dp"
+			    android:ellipsize="marquee"
+			    android:textStyle="bold"
+			    android:textSize="18sp"
+		        android:singleLine="true"
+		        android:focusable="true" 
+		        android:focusableInTouchMode="true"></TextView>
+		   		
+		   </RelativeLayout>
+		   
+</LinearLayout>	

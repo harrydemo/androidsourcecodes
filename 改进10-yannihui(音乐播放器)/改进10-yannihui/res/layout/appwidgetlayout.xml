@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:background="@drawable/appbackground"
+  android:gravity="center">
+  
+  <TextView
+  	android:id="@+id/title"
+  	android:layout_width="90dip"
+  	android:layout_height="wrap_content"
+  	android:text="无歌曲播放"
+  	android:textColor="#ffffff"
+  	android:textSize="15dip"
+  	android:layout_marginLeft="30dip"
+  	/>
+  
+  <ImageButton
+  	android:id="@+id/lastButton"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:background="@drawable/latest_selecor"
+  	android:layout_marginRight="5dip"
+  	/>
+  
+  <ImageButton
+  	android:id="@+id/playButton"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:layout_marginRight="5dip"
+  	android:layout_marginLeft="5dip"
+
+  	/>
+  	
+  <ImageButton
+  	android:id="@+id/nextButton"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:background="@drawable/next_selecor"	
+  	android:layout_marginLeft="5dip"
+  	/>
+  
+</LinearLayout>

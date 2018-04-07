@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/phonetitlebar_bg"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_search"
+            android:drawableLeft="@drawable/edittext_search_image"
+            android:hint="@string/search_hit"
+            android:paddingLeft="15dip"
+            android:textSize="14dip" >
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_search_background"
+            android:text="@string/search_text" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_main_tree_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dip"
+        android:text="@string/hot_search"
+        android:textColor="#000000"
+        android:textSize="18dip" />
+
+    <GridView
+        android:id="@+id/hot_search_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="15dip"
+        android:layout_weight="1"
+        android:horizontalSpacing="50dip"
+        android:numColumns="2"
+        android:listSelector="@drawable/list_seletor_transparent" android:scrollbars="none">
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_main_tree_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dip"
+            android:text="@string/search_history"
+            android:textColor="#000000"
+            android:textSize="18dip" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/clear_but_background"
+            android:text="@string/clear_search_history"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/history_search_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="15dip"
+        android:layout_weight="1"
+        android:horizontalSpacing="50dip"
+        android:numColumns="2"
+        android:listSelector="@drawable/list_seletor_transparent" android:scrollbars="none">
+    </GridView>
+
+</LinearLayout>

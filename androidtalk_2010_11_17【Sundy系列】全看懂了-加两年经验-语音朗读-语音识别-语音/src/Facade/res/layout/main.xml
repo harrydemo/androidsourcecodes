@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/back">
+	
+	<TextView android:id="@+id/title" 
+	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"		
+		android:padding="10px"
+		android:layout_gravity="center_horizontal"
+		android:text="AndroidTalk">
+	</TextView>
+	<Button android:id="@+id/btn_speak"
+	 android:layout_width="205px"
+		android:layout_height="60px" 
+		android:padding="10px" 
+		android:layout_margin="20px"		
+		android:layout_gravity="center_horizontal">
+	</Button>
+	<Button android:id="@+id/btn_Ban" 
+	android:layout_width="205px"
+		android:layout_height="200px" 
+		android:padding="10px" 
+		
+		android:layout_gravity="center_horizontal">
+	</Button>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_margin="10px"		
+		>		
+		<TableRow>
+		<Button android:id="@+id/ibtn_read"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"	    
+	    >
+        </Button>
+	    <Button android:id="@+id/ibtn_command"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		>
+		
+	    </Button>
+	    <Button android:id="@+id/ibtn_help"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"		
+		>
+	    </Button>
+		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/text2" 
+			android:layout_width="106px"
+				android:layout_height="wrap_content" 
+				android:layout_gravity="center_horizontal"
+				android:text="Txt"
+				android:textColor="#FFFFFF"
+		      	>
+			</TextView>
+			<TextView android:id="@+id/text3" 
+			android:layout_width="106px"
+				android:layout_height="wrap_content"				
+				android:layout_gravity="center_horizontal"
+				android:text="Command"
+				android:textColor="#FFFFFF"
+				>
+			</TextView>
+			<TextView android:id="@+id/text4" 
+			android:layout_width="106px"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:text="Help"	
+				android:textColor="#FFFFFF"
+				>
+			</TextView>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

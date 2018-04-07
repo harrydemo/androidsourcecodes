@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/!svn/ver/240/trunk/libs
+END
+CWAC-Bus.jar
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/240/trunk/libs/CWAC-Bus.jar
+END
+CWAC-AdapterWrapper.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/240/trunk/libs/CWAC-AdapterWrapper.jar
+END
+CWAC-Task.jar
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/240/trunk/libs/CWAC-Task.jar
+END
+android-support-v4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/237/trunk/libs/android-support-v4.jar
+END

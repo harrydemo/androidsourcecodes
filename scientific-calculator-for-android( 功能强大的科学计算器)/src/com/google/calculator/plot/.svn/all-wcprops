@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6/trunk/src/com/google/calculator/plot
+END
+EquationPlotter.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/src/com/google/calculator/plot/EquationPlotter.java
+END
+EquationView.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/src/com/google/calculator/plot/EquationView.java
+END
+Equation.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/src/com/google/calculator/plot/Equation.java
+END
+EquationAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/src/com/google/calculator/plot/EquationAdapter.java
+END
+EquationEditorView.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/trunk/src/com/google/calculator/plot/EquationEditorView.java
+END
+PlotData.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/src/com/google/calculator/plot/PlotData.java
+END
+EquationPlotterView.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/trunk/src/com/google/calculator/plot/EquationPlotterView.java
+END
+EquationEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/trunk/src/com/google/calculator/plot/EquationEditor.java
+END

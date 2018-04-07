@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView 
+        android:id="@+id/view1"
+        android:background="@drawable/blue"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="这里是Tab1里的内容。"
+        />
+
+    <TextView 
+        android:id="@+id/view2"
+        android:background="@drawable/red"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="这里是Tab2，balabalal....。"
+        />
+
+    <TextView 
+        android:id="@+id/view3"
+        android:background="@drawable/green"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Tab3"
+        />
+
+</FrameLayout>

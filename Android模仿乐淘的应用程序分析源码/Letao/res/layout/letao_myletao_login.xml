@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffff">
+	<!-- 顶部标题 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+	<!-- 底部菜单 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_above="@id/bottommenu"
+		android:layout_below="@id/title">
+		<LinearLayout android:orientation="horizontal"
+			android:id="@+id/cell_phone_box" android:layout_width="250dip"
+			android:layout_height="wrap_content" android:layout_marginTop="50dip"
+			android:background="@drawable/input_box"
+			android:layout_centerHorizontal="true">
+			<TextView android:layout_width="wrap_content" android:text="@string/login_name"
+				android:textColor="@color/black" android:layout_gravity="center_vertical"
+				android:layout_height="wrap_content" android:layout_marginLeft="5dip" />
+			<EditText android:layout_width="wrap_content" android:id="@+id/cell_phone"
+				android:layout_weight="1" android:singleLine="true"
+				android:hint="@string/login_name_text" android:textSize="15sp"
+				android:layout_gravity="center_vertical" android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_height="wrap_content" android:background="@null" />
+		</LinearLayout>
+		<TextView android:id="@+id/login_hint" android:layout_width="250dip"
+			android:layout_height="wrap_content" android:layout_below="@id/cell_phone_box"
+			android:layout_marginTop="5dip" android:layout_centerHorizontal="true"
+			android:text="@string/login_username_hint_str" android:textColor="@color/home_list_color"
+			android:textSize="10sp" android:paddingLeft="20dip" />
+		<LinearLayout android:orientation="horizontal"
+			android:id="@+id/password_box" android:layout_width="250dip"
+			android:layout_height="wrap_content" android:layout_below="@id/login_hint"
+			android:layout_marginTop="5dip" android:background="@drawable/input_box"
+			android:layout_centerHorizontal="true">
+			<TextView android:layout_width="wrap_content" android:text="@string/login_password"
+				android:textColor="@color/black" android:layout_gravity="center_vertical"
+				android:layout_height="wrap_content" android:layout_marginLeft="5dip" />
+			<EditText android:layout_width="wrap_content"
+				android:singleLine="true" android:id="@+id/pwd"
+				android:layout_weight="1" android:inputType="textPassword"
+				android:hint="@string/login_password_text" android:textSize="15sp"
+				android:layout_gravity="center_vertical" android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_height="wrap_content" android:background="@null" />
+		</LinearLayout>
+
+
+		<TextView android:id="@+id/login" android:layout_width="250dip"
+			android:layout_below="@id/password_box" android:layout_height="wrap_content"
+			android:background="@drawable/btn_blue" android:text="@string/user_login"
+			android:gravity="center" android:layout_centerHorizontal="true"
+			android:layout_marginTop="40dip" android:textColor="@color/white"
+			android:textSize="20sp" />
+		<TextView android:id="@+id/forget_password"
+			android:layout_width="120dip" android:layout_height="wrap_content"
+			android:text="@string/login_return_btn" android:gravity="center"
+			android:layout_marginTop="15dip" android:layout_below="@id/login"
+			android:background="@drawable/btn_pink" android:layout_alignLeft="@id/login"
+			android:textColor="@color/white" android:textSize="20sp" />
+		<TextView android:id="@+id/register" android:layout_width="120dip"
+			android:layout_height="wrap_content" android:text="@string/login_register_btn"
+			android:gravity="center" android:layout_below="@id/login"
+			android:layout_marginTop="15dip" android:background="@drawable/btn_pink"
+			android:layout_alignRight="@id/login" android:textColor="@color/white"
+			android:textSize="20sp" />
+	</RelativeLayout>
+	<include layout="@layout/common_listview" />
+	
+	
+	
+</RelativeLayout>

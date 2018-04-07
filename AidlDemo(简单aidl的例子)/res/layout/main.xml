@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+     <Button
+        android:id="@+id/bindButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定服务" />
+    <Button
+        android:id="@+id/fuc01Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="测试接口01" />
+    <Button
+        android:id="@+id/fuc02Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="测试接口02(回调)" />
+     <Button
+        android:id="@+id/fuc03Button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="测试接口03(复杂数据类型)" />
+
+</LinearLayout>

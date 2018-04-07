@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">MainActivity</string>
+    <string name="app_name">短信气泡</string>
+
+</resources>

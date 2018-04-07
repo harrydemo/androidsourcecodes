@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+     Copyright 2010 Cesar Valiente Gordo
+ 
+     This file is part of QuiteSleep.
+
+    QuiteSleep is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    QuiteSleep is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with QuiteSleep.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+ 
+ 
+<!-- SPANISH -->
+<resources>   
+     <string name="app_name">QuiteSleep</string>
+   
+    <!-- ##############        TABS    ######################################## -->
+   
+     <!-- @@@@@@        Contacts Tab        @@@@@@@@@@ -->
+    <string name="contacts.tab.label">Contactos</string>
+    <string name="contacts.button.addBanned">Añadir contactos bloqueados</string>
+    <string name="contacts.button.deleteBanned">Quitar y editar contactos bloqueados</string>   
+    <string name="contacts.button.syncContacts">Sincronizar</string>       
+    <string name="contacts.separator.syncContacts">Sincronizar desde la lista de contactos del teléfono</string>
+    <string name="contacts.separator.addContact">Añadir contactos bloqueados</string>
+    <string name="contacts.separator.removeContact">Quitar o editar contactos bloqueados</string>
+   
+   
+    <!-- @@@@@@@    Schedule Tab        @@@@@@@@@@@ -->
+    <string name="schedule.tab.label">Horario</string>
+    <string name="schedule.button.setDate">Definir fecha</string>
+    <string name="schedule.button.startTime">Hora inicial</string>
+    <string name="schedule.button.endTime">Hora final</string>
+    <string name="schedule.button.daysweek">Confirmar días de la semana</string>
+    <string name="schedule.toast.startTime">Hora inicial establecida</string>
+    <string name="schedule.toast.endTime">Hora final establecida</string>
+    <string name="schedule.toast.daysweek.ok">Días de la semana establecidos</string>
+    <string name="schedule.toast.daysweek.ko">Ooops!!!No se han podido establecer los días de la semana.. ¿Ha establecido la hora inicial y final?</string>
+    <string name="schedule.separator.startTime">Elige la hora inicial</string>
+    <string name="schedule.separator.endTime">Elige la hora final</string>
+    <string name="schedule.separator.daysweek">Elige los días de la semana</string>
+   
+           
+       
+    <!-- @@@@@@@@    Settings Tab        @@@@@@@@@@@@@@@@@@@@@ -->
+    <string name="settings.tab.label">Configuración</string>
+    <string name="settings.separator.feedback">Feedback. Configurar respuestas automáticas</string>
+    <string name="settings.button.mail">Email</string>   
+    <string name="settings.button.sms">SMS</string>   
+    <string name="settings.separator.blockCallsConfiguration">Configuración del bloqueo de llamadas</string>
+    <string name="settings.button.blockCallsConfiguration">Tipo de bloqueo</string>   
+    <string name="settings.separator.muteOrHangup">Silenciar o colgar la llamada</string>
+    <string name="settings.radiobutton.mute">Silenciar</string>
+    <string name="settings.radiobutton.hangup">Colgar</string>
+    <string name="settings.label.services">Iniciar/Parar servicio QuiteSleep</string>
+    <string name="settings.label.start_service">Iniciar servicio QuiteSleep</string>
+    <string name="settings.label.stop_service">Parar servicio QuiteSleep</string>
+    <string name="settings.toast.start_service">El servicio QuiteSleep se ha iniciado...</string>
+    <string name="settings.toast.stop_service">El servicio QuiteSleep se ha parado...</string>   
+    <string name="settings.toast.fail_service">Ha ocurrido un error inesperado!!!</string>
+       
+   
+     <!-- @@@@@@@@@@@    Logs Tab    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <string name="logs.tab.label">Historial</string>
+   
+   
+    <!-- @@@@@@@@@@@@@@        SubActivities    @@@@@@@@@@@@@@@@@@@@@@@@@ -->
+   
+   
+    <!-- @@@@@@@@@        SMS Settings    @@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <string name="smssettings.statement.savesms">Escribe tu texto predefinido de SMS</string>
+    <string name="smssettings.edittext.savesms">Hola!! Estoy durmiendo, cuando me levante te llamo. Gracias!</string>
+    <string name="smssettings.button.savesms">Guardar configuración</string>
+    <string name="smssettings.button.cancel">Atrás</string>   
+    <string name="smssettings.togglebutton.start_sms">Activar envío de sms</string>
+    <string name="smssettings.togglebutton.stop_sms">Desactivar envío de sms</string>
+    <string name="smssettings.toast.start_service">El envío de SMS ha sido activado</string>
+    <string name="smssettings.toast.stop_service">El envío de SMS ha sido desactivado</string>   
+    <string name="smssettings.toast.fail_service">Ha ocurrido un error inesperado!!!</string>
+    <string name="smssettings.toast.save">La configuración de SMS ha sido guardada</string>
+              
+       
+     <!-- @@@@@@@@@@@@    MAIL Settings    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <string name="mailsettings.separator.user">Tu usuario de Gmail</string>
+    <string name="mailsettings.edittext.user">tu.nombre@gmail.com</string>
+    <string name="mailsettings.separator.passwd">Tu contraseña de Gmail</string>
+    <string name="mailsettings.edittext.passwd"></string>
+    <string name="mailsettings.separator.subject">Tu asunto predefinido para el email</string>
+    <string name="mailsettings.edittext.subject">Estoy durmiendo!!</string>
+    <string name="mailsettings.separator.body">Tu texto predefinido para el email</string>
+    <string name="mailsettings.edittext.body">Hola!! Estoy durmiendo, cuando me levante te llamo. Gracias!</string>
+    <string name="mailsettings.button.savemail">Guardar datos de configuración</string>   
+    <string name="mailsettings.button.cancel">Atrás</string>
+    <string name="mailsettings.togglebutton.start_mail">Activar envío de mail</string>
+    <string name="mailsettings.togglebutton.stop_mail">Desactivar envío de mail</string>
+    <string name="mailsettings.toast.start_service">El envío de email ha sido activado</string>
+    <string name="mailsettings.toast.stop_service">El envío de email ha sido desactivado</string>
+    <string name="mailsettings.toast.fail_service">Ha ocurrido un error inesperado!!!</string>
+    <string name="mailsettings.toast.save">La configuración de email ha sido guardada</string>
+   
+   
+       <!-- @@@@@@@@@@@@@@@    ContactDetails        @@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <string name="contactdetails.label.phonedetails">Nº Teléfonos. Escoja para enviar SMS</string>
+    <string name="contactdetails.label.maildetails">Direcciones de email. Escoja para enviar Email</string>
+    <string name="contactdetails.button.addcontact">Añadir contacto a bloqueados</string>
+    <string name="contactdetails.button.cancel">Atrás</string>
+    <string name="contactdetails.toast.added">Contacto añadido a la lista de bloqueados</string>
+    <string name="contactdetails.toast.fail">Oppps!!! Algo fue mal.. el contacto no se pudo añadir a la lista de bloqueados!</string>
+   
+   
+   
+    <!-- @@@@@@@@@@@@@@        EditContact    (RemoveContact)        @@@@@@@@@@@@@@ -->
+    <string name="editcontact.button.edit">Modificar contacto</string>
+    <string name="editcontact.button.remove">Quitar de la lista de bloqueados</string>
+     <string name="editcontact.toast.edit">Contacto modificado</string>
+     <string name="editcontact.toast.edit.fail">Oppps!!! Algo fue mal.. el contacto no se pudo modificar!</string>
+    <string name="editcontact.toast.remove">Contacto quitado de la lista de bloqueados</string>  
+    <string name="editcontact.toast.remove.fail">Oppps!!! Algo fue mal.. el contacto no se pudo quitar de la lista de bloqueados!</string>
+   
+   
+    <!-- @@@@@@@@@@@@    ConfigBlockCalls    @@@@@@@@@@@@@@@ -->
+    <string name="configothercalls.separator.blockall">Bloquear todas las llamadas</string>  
+    <string name="configothercalls.separator.block_blocked_contacts">Bloquear solo a contactos bloqueados</string>  
+    <string name="configothercalls.separator.blockunknown">Bloquear solo a desconocidos</string>       
+    <string name="configothercalls.separator.block_unknwown_and_blocked_contacts">Bloquear a desconocidos y bloqueados</string>      
+    
+   
+   
+    <!-- @@@@@@@@@@@@@@@@@        ABOUT        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  -->
+  
+   
+    <!-- ################################################################### -->
+   
+    <!-- #############        DIALOGS        #################################### -->
+   
+      <!-- @@@@@@@    Start Time Dialog    @@@@@@@@@@@@ -->   
+    <string name="starttimedialog.message.label">Tiempo Inicial</string>
+    <string name="starttimedialog.set.label">Ok</string>
+    <string name="starttimedialog.cancel.label">Cancelar</string>
+   
+    <!-- @@@@@@@    End Time Dialog    @@@@@@@@@@@@ -->   
+    <string name="endtimedialog.message.label">Tiempo Final</string>
+    <string name="endtimedialog.set.label">Ok</string>
+    <string name="endtimedialog.cancel.label">Cancelar</string>
+   
+   
+    <!-- @@@@@@@@@    Sync Contacts Dialog    @@@@@@@@@@@@@@@@@ -->
+    <string name="synccontactsdialog.message.firsttime.label">Sincronizando contactos por primera vez. Espera un momento por favor...</string>
+    <string name="syncconctactsdialog.message.anytime.label">Sincronizando contactos. Espera un momento por favor...</string>
+    <string name="synccontactsdialog.message.refresh.label">Actualizando contactos. Espera un momento por favor...</string>
+   
+   
+    <!-- @@@@@@@@@@@    AddAll Dialog    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <string name="addalldialog.dialog.label">Añadiendo contactos a la lista de bloqueados, espera un momento por favor...</string>
+   
+   
+    <!-- @@@@@@@@@@@    RemoveAllDialog        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <string name="removealldialog.dialog.label">Quitando contactos de la lista de bloqueados, espera un momento por favor...</string>
+   
+   
+    <!-- @@@@@@@@@@        Warning Dialog    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <string name="warningdialog.caution.label">Atención!!</string>
+    <string name="warningdialog.contactOperations.label">Esto puede tardar un tiempo. ¿Estás seguro?</string>   
+    <string name="warningdialog.synccontact.label">Esto eliminará la configuración anterior de tus contactos en QuiteSleep y llevará un tiempo. ¿Estás seguro?</string>
+    <string name="warningdialog.sms.label">Has activado esta opción que utiliza tu linea telefónica y puede tener un recargo según tu operador. Puedes desactivarla siempre que quieras</string>
+    <string name="warningdialog.mail.label">Has activado esta opción que utiliza tu conexión a Internet y puede tener un recargo según tu operador. Puedes desactivarla siempre que quieras</string>
+    <string name="warningdialog.yes.label">Si</string>
+    <string name="warningdialog.no.label">No</string>
+    <string name="warningdialog.ok.label">Ok</string>
+    <string name="warningdialog.calllog.remove.label">Esto eliminará toda la información de llamadas silenciadas. ¿Estás seguro?</string>
+    <string name="warningdialog.calllog.refresh.label">Esto actualizará la información de llamadas silenciadas. ¿Estás seguro?</string>
+    <string name="warningdialog.firstime.title">Bienvenido a QuiteSleep!!!</string>
+    <string name="warningdialog.firstime.message">Esta es la primera vez que QuiteSleep se va iniciar, ahora procederá a sincronizar los contactos de la base de datos. ¿Quieres hacerlo ahora?</string>   
+   
+   
+    <!-- @@@@@@@@@@@    CallLogDialog        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+    <string name="calllogdialog.dialog.remove.label">Borrando historial, espera un momento por favor...</string>
+    <string name="calllogdialog.dialog.refresh.label">Actualizando historial, espera un momento por favor...</string>
+   
+    <!-- ################################################################### -->
+   
+   
+    <!-- ##################        MENUS    #################################### -->
+   
+   <!-- @@@@@@@@@@    Menu Information    @@@@@@@@@@@@@@@@@@@@@@@@ -->
+   <string name="menu.information.about">Acerca de</string>
+   <string name="menu.information.help">Ayuda</string>
+  
+   <!-- @@@@@@@@@@@    Menu Add All    @@@@@@@@@@@@@@@@@@@@@@@@@ -->
+   <string name="menu.addall.label">Añadir todos los contactos</string>
+   <string name="menu.addall.toast.insertscount">contactos han sido añadidos a la lista de bloqueados</string>
+  
+   <!-- @@@@@@@@@@@    Menu Remove All    @@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+   <string name="menu.removeall.label">Quitar todos los contactos</string>
+   <string name="menu.removeall.toast.removecount">contactos han sido quitados de la lista de bloqueados</string>
+   
+   
+   <!-- @@@@@@@@@@@@@@        Menu Remove all Call Log        @@@@@@@@@@@@@@@@@ -->
+   <string name="menu.calllog.remove.label">Borrar</string>
+   <string name="menu.calllog.remove.toast">registros(s) han sido borrados de la lista de información</string>
+    <string name="menu.calllog.refresh.label">Actualizar</string>
+   <string name="menu.calllog.refresh.toast">Lista de llamadas actualizada</string>
+
+   
+      <!-- @@@@@@@@@@@        Notifications     @@@@@@@@@@@@@@@@@@@@@@@ -->
+    <string name="quitesleep.notification.start.message">QuiteSleep está activo</string>
+    <string name="quitesleep.notification.stop.message">QuiteSleep se ha parado</string>
+   
+   
+    <!-- ###############        OTHERS        ################################ -->
+   
+    <!-- @@@@@@@@@    Contact Details        @@@@@@@@@@@@@@@@@@ -->
+    <string name="contact.details.name">Nombre:</string>
+    <string name="contact.details.phones">Teléfono(s):</string>   
+    <string name="contact.details.mails">Mail(s):</string>
+   
+    <!--    Day weeks -->
+    <string name="monday">Lun</string>
+    <string name="tuesday">Mar</string>
+    <string name="wednesday">Mie</string>
+    <string name="thursday">Jue</string>
+    <string name="friday">Vie</string>
+    <string name="saturday">Sab</string>
+    <string name="sunday">Dom</string>
+   
+    <!-- ################################################################### -->
+   
+</resources>

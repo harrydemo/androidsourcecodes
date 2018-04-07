@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/292/trunk/src/org/wordpress/android/models
+END
+MediaFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/242/trunk/src/org/wordpress/android/models/MediaFile.java
+END
+Blog.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/263/trunk/src/org/wordpress/android/models/Blog.java
+END
+Post.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/292/trunk/src/org/wordpress/android/models/Post.java
+END

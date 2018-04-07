@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.poqop"
+      android:versionCode="1"
+      android:versionName="1.0">
+      <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="7"/>
+    <uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <application android:icon="@drawable/icon" android:label="PoQoP-PDF" android:debuggable="true">
+        <activity android:name="org.vudroid.pdfdroid.PdfViewerActivity" android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".document.MainBrowserActivity" android:label="PoQoP-Document">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest> 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+ /*************************************************************************** 
+ *              Copyright (C) 2009 Andrico Team                             * 
+ *              http://code.google.com/p/andrico/                           *
+ *                             												*
+ * Licensed under the Apache License, Version 2.0 (the "License");			*
+ * you may not use this file except in compliance with the License.			*
+ * 																			*	
+ * You may obtain a copy of the License at 									*
+ * http://www.apache.org/licenses/LICENSE-2.0								*
+ *																			*
+ * Unless required by applicable law or agreed to in writing, software		*
+ * distributed under the License is distributed on an "AS IS" BASIS,		*
+ *																			*
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.	*
+ * See the License for the specific language governing permissions and		*
+ * limitations under the License.											*
+ ****************************************************************************/
+	-->
+<TwoLineListItem xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/MainLayout" 
+	android:orientation="vertical"
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent">
+		<TextView android:id="@+id/NameOfGroup" 
+				android:layout_height="wrap_content" 
+				android:textColor="#FFFFFF"
+				android:text="name of group" 
+				android:textStyle="bold" 
+				android:layout_width="fill_parent" 
+				android:gravity="center_vertical|center_horizontal" 
+				android:minHeight="57px" 
+				android:textSize="25px" 
+				android:singleLine="true"
+				style="android:attr/listItemFirstLineStyle">
+		</TextView>
+		
+		<TextView android:id="@+id/FBID" 
+				android:layout_height="wrap_content" 
+				android:textColor="#FFFFFF"
+				android:text="12345678" 
+				android:textStyle="bold" 
+				android:layout_width="fill_parent" 
+				android:gravity="center_vertical|center_horizontal" 
+				android:minHeight="1px" android:textSize="1px" 
+				android:visibility="invisible"
+				style="android:attr/listItemSecondLineStyle">
+		</TextView>		
+</TwoLineListItem>
+
+

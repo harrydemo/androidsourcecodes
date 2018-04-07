@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:background="@drawable/bg_media_library" android:id="@+id/main_activity"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<include layout="@layout/top_bar" android:id="@+id/top_bar"></include>
+	<include layout="@layout/tabhost"></include>
+	<include layout="@layout/bottom_menu" android:id="@+id/bottom_bar"></include>
+</RelativeLayout>

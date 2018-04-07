@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/29/trunk/DocumentViewer/src/com/poqop/document/models
+END
+CurrentPageModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/29/trunk/DocumentViewer/src/com/poqop/document/models/CurrentPageModel.java
+END
+DecodingProgressModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/29/trunk/DocumentViewer/src/com/poqop/document/models/DecodingProgressModel.java
+END
+ZoomModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/29/trunk/DocumentViewer/src/com/poqop/document/models/ZoomModel.java
+END

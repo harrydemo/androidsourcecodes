@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 eFANsoftware
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- 
+Rx Recipe Details (screen)
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarTrackVertical="@drawable/scrollbar_vertical_track"
+    android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+    android:scrollbarSize="12dip" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/titleText"
+        android:text="@string/rxFormula_detail_edit_title" />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3sp"
+        android:src="@drawable/line" />
+    
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+      <TableRow>
+        <TextView
+            android:textSize="@dimen/default_text_size"
+            android:text="@string/rxFormula_detail_edit_name_title"
+            android:gravity="left" />
+        <EditText
+            android:id="@+id/rxFormulaName"
+            android:gravity="left"
+            android:layout_width="fill_parent"
+            style="@style/labelText" />
+        <Button
+            android:id="@+id/rxFormulaSaveBtn1"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:text="@string/button_save" />
+      </TableRow>
+      <TableRow>
+        <TextView
+            android:textSize="@dimen/default_text_size"
+            android:text="@string/rxFormula_detail_edit_alias_title"
+            android:gravity="left" />
+        <EditText
+            android:id="@+id/rxFormulaAlias"
+            android:gravity="left"
+            android:layout_width="fill_parent" />
+        <Button
+            android:id="@+id/rxFormulaCancelBtn"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:text="@string/button_cancel" />
+      </TableRow>
+      <TableRow>
+        <TextView
+            android:textSize="@dimen/default_text_size"
+            android:text="@string/rxFormula_detail_edit_key_code_title"
+            android:gravity="left" />
+        <EditText
+            android:id="@+id/rxFormulaKeyCode"
+            android:gravity="left"
+            android:layout_width="fill_parent" />
+      </TableRow>
+    </TableLayout>
+    
+    <View
+        android:layout_height="4dip"
+        android:layout_width="fill_parent"
+        android:background="@color/tabLineColor" />
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rxFormulaDetailTab" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+        <TableRow>
+            <TextView
+                android:text="+"
+                android:gravity="center"
+                android:padding="1dip" 
+                android:textColor="@color/tabHeadColor"/>
+            <TextView
+                android:text="@string/rxFormula_detail_tab_title_name"
+                android:gravity="center"
+                android:padding="1dip" 
+                android:textColor="@color/tabHeadColor"/>
+            <TextView
+                android:text="@string/rxFormula_detail_tab_title_quantity"
+                android:gravity="center"
+                android:padding="1dip" 
+                android:maxEms="4"
+                android:textColor="@color/tabHeadColor"/>
+            <TextView
+                android:text="@string/rxFormula_detail_tab_title_optional"
+                android:gravity="center"
+                android:padding="1dip" 
+                android:textColor="@color/tabHeadColor"/>
+            <TextView
+                android:text="-"
+                android:gravity="center"
+                android:padding="1dip" 
+                android:textColor="@color/tabHeadColor"/>
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="@color/tabLineColor" />
+
+        <!-- Dynamic content here
+        <TableRow>
+            ...
+        </TableRow>
+        -->
+
+    </TableLayout>
+    <View
+        android:layout_height="2dip"
+        android:layout_width="fill_parent"
+        android:background="@color/tabLineColor" />
+    <TextView
+        android:text="@string/rxFormula_detail_edit_unit_hint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="3dip" 
+        android:textColor="@color/tabHeadColor"/>
+    <View
+        android:layout_height="4dip"
+        android:layout_width="fill_parent"
+        android:background="@color/tabLineColor" />
+
+    <EditText
+        android:id="@+id/rxFormulaDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/rxFormulaSaveBtn2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save" />
+
+</LinearLayout>
+
+</ScrollView>

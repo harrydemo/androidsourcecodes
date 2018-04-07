@@ -1,0 +1,82 @@
+ListView中getView的原理＋如何在ListView中放置多个item
+http://www.cnblogs.com/-OYK/archive/2011/05/31/2064781.html
+
+Custom ListView with ability to check items
+http://www.marvinlabs.com
+/2010/10/custom-listview-ability-check-items/
+
+  private static final String[] mCursorCols = new String[] {  
+                     MediaStore.Audio.Media._ID, MediaStore.Audio.Media.DISPLAY_NAME,  
+                       MediaStore.Audio.Media.TITLE, MediaStore.Audio.Media.DURATION,  
+                        MediaStore.Audio.Media.ARTIST, MediaStore.Audio.Media.ALBUM,  
+                        MediaStore.Audio.Media.YEAR, MediaStore.Audio.Media.MIME_TYPE,  
+                       MediaStore.Audio.Media.SIZE, MediaStore.Audio.Media.DATA };  
+
+PopupWindow Menu bugs. 点击buttomMenu与Menu按键不同步，是因为当前activity不同。
+                      
+1.随便听听设计
+2.PopMenu功能设计
+3.PlayerActivity测试以及修改BUG
+4.用户体验优化，Toast相关信息
+5.歌曲重复添加问题
+6.声音大小控制，Volume progress bar    
+7.手势操作         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Messaging; HTTP, Socket, Web Services
+
+KEY RESPONSIBILITIES
+
+- Work under supervise of a team leader to design, develop, integrate software products.
+- Deliver projects/tasks on schedule and with agreed quality.
+- Work with project manager and validation team on defect prioritization and resolution.
+- Report to project manager on progress and areas of technical responsibility.
+- When needed, act as technical lead of a team, coming up with technical solutions, solving technical issues, and guiding junior engineers.
+
+KNOWLEDGE, SKILLS, EXPERIENCE
+
+Essential
+- Bachelor degree or above in Computer Science or relative fields.
+- At least 4 years working experiences in software development.
+- Experience in Messaging technologies, e.g. SMS, MMS, Email, IM, Social Networking, etc
+- Deep knowledge in HTTP, Socket and Web Services
+- Thorough experience of C/C++ and/or Java.
+- Good team work, communication and time management skills.
+- Proficiency in reading/writing English is mandatory.
+
+Desirable
+- Experience in agile scrum development
+- Experience in multi-site development environments
+- Knowledge of SqlLite and a working experience in SQL databases
+- Experience in Maven build tool

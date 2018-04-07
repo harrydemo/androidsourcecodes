@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/294/trunk/src/org/wordpress/android
+END
+Settings.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/261/trunk/src/org/wordpress/android/Settings.java
+END
+TabView.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/246/trunk/src/org/wordpress/android/TabView.java
+END
+Preferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/261/trunk/src/org/wordpress/android/Preferences.java
+END
+ViewPosts.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/292/trunk/src/org/wordpress/android/ViewPosts.java
+END
+UploadDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/186/trunk/src/org/wordpress/android/UploadDialog.java
+END
+AddAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/261/trunk/src/org/wordpress/android/AddAccount.java
+END
+Signup.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/261/trunk/src/org/wordpress/android/Signup.java
+END
+NewAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/242/trunk/src/org/wordpress/android/NewAccount.java
+END
+ServiceUpdateUIListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/30/trunk/src/org/wordpress/android/ServiceUpdateUIListener.java
+END
+About.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/271/trunk/src/org/wordpress/android/About.java
+END
+CommentBroadcastReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/242/trunk/src/org/wordpress/android/CommentBroadcastReceiver.java
+END
+PopupWindows.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/293/trunk/src/org/wordpress/android/PopupWindows.java
+END
+ViewComments.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/291/trunk/src/org/wordpress/android/ViewComments.java
+END
+ViewPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/271/trunk/src/org/wordpress/android/ViewPost.java
+END
+ReplyToComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/242/trunk/src/org/wordpress/android/ReplyToComment.java
+END
+CommentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/261/trunk/src/org/wordpress/android/CommentService.java
+END
+AddAcountSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/242/trunk/src/org/wordpress/android/AddAcountSettings.java
+END
+SelectCategories.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/261/trunk/src/org/wordpress/android/SelectCategories.java
+END
+ViewPostComments.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/261/trunk/src/org/wordpress/android/ViewPostComments.java
+END
+AddCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/261/trunk/src/org/wordpress/android/AddCategory.java
+END
+Dashboard.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/293/trunk/src/org/wordpress/android/Dashboard.java
+END
+wpAndroid.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/261/trunk/src/org/wordpress/android/wpAndroid.java
+END
+WordPress.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/261/trunk/src/org/wordpress/android/WordPress.java
+END
+ViewStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/294/trunk/src/org/wordpress/android/ViewStats.java
+END
+Write.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/269/trunk/src/org/wordpress/android/Write.java
+END
+EditPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/283/trunk/src/org/wordpress/android/EditPost.java
+END
+Link.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/242/trunk/src/org/wordpress/android/Link.java
+END
+ViewComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/261/trunk/src/org/wordpress/android/ViewComment.java
+END
+WordPressDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/293/trunk/src/org/wordpress/android/WordPressDB.java
+END
+AddQuickPressShortcut.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/261/trunk/src/org/wordpress/android/AddQuickPressShortcut.java
+END

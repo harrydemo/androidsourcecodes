@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/import_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  <TextView  
+   android:id="@+id/filename"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+   android:textSize="14px"
+  />
+  <TextView  
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+   android:textSize="14px"
+   android:text="词库名称："
+  />
+  <EditText 
+   android:id="@+id/newname"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:hint="为词库重新命名"
+  />
+  
+  <TextView  
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+   android:textSize="14px"
+   android:text="每个List容量："
+   android:phoneNumber="true"
+  />
+   <EditText
+   android:id="@+id/numOfEachList"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:hint="输入一个整数"
+  />
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  <RadioGroup android:id="@+id/radioGroup"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+<RadioButton android:id="@+id/radioButtonshunxu"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="顺序" />
+<RadioButton android:id="@+id/radioButtonluanxu"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="乱序" />
+</RadioGroup>
+  </LinearLayout>
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  <Button
+		android:id="@+id/import_confirm_button"
+		android:layout_width="100px"
+		android:layout_height="wrap_content" 
+		android:text="确定"
+	></Button>
+	<Button
+		android:id="@+id/import_cancel_button"
+		android:layout_width="100px"
+		android:layout_height="wrap_content" 
+		android:text="取消"
+	></Button>
+  </LinearLayout>
+  
+</LinearLayout>

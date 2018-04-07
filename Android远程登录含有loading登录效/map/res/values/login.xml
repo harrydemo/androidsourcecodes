@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="loginUserNameLabel">用户名</string>
+	<string name="loginPasswordLabel">密码</string>
+
+	<string name="loginSubmit">登陆</string>
+	<string name="loginRegister">注册</string>
+
+	<string name="loginTitle">登陆</string>
+	<string name="loginRememberMe">记住我的账号和密码</string>
+	<string name="MENU_EXIT">退出</string>
+	<string name="MENU_ABOUT">关于</string>
+	<string name="aboutInfo">
+		制作人:方车车 \n邮    箱: fc10086@163.com \n本应用为测试应用,扩展性较高!
+	</string>
+	<string name="ok_label">确认</string>
+</resources>

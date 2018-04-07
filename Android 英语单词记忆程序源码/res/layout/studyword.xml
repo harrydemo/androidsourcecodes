@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/main_back"
+>
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_centerHorizontal="true"
+  android:layout_marginTop="20px"
+  android:id="@+id/study_title"
+ android:layout_alignParentTop="true"
+ android:background="@drawable/study_title"
+ android:gravity="center"
+  >
+<TextView android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:text="单词记忆"
+android:textColor="#000000"
+/>
+</LinearLayout>
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="20px"
+  android:layout_below="@id/study_title"
+  android:gravity="left"
+  android:background="@drawable/panel">
+    <ImageButton 
+    android:id="@+id/ImageButton01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:src="@android:drawable/ic_btn_speak_now" />
+    
+  <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+  android:id="@+id/spelling"
+  android:textColor="#000000"
+        android:textSize="22sp"   
+		/>		
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"   
+  android:id="@+id/info"
+  android:layout_gravity="left"
+  android:layout_below="@id/spelling"
+        android:textSize="22sp" 
+		
+		android:textColor="#000000" />
+</LinearLayout>
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:layout_alignParentBottom="true"
+  >
+  <Button
+		android:id="@+id/beforeone"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="上一个"
+		android:textColor="#ffffff"
+		android:textSize="14sp"
+		android:background="@drawable/study_btns"></Button>
+    <Button
+		android:id="@+id/add"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="加入生词本"
+		android:textSize="14sp"
+		android:textColor="#ffffff"
+		android:background="@drawable/study_btns"
+	></Button>
+       <Button
+		android:id="@+id/nextone"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="下一个"
+		android:textSize="14sp"
+		android:textColor="#ffffff"
+		android:background="@drawable/study_btns"
+	></Button>
+  </LinearLayout>
+
+</RelativeLayout>

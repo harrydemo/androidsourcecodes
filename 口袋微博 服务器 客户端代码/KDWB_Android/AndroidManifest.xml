@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="wyf.wpf"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/app_icon" android:label="@string/app_name">
+        <activity android:name=".LoginActivity"
+                  android:label="@string/KDWB">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".RegActivity"  android:label="@string/RegActivity" />
+		<activity android:name=".FunctionTabActivity" android:label="@string/FunctionTab" />
+		<activity android:name=".PublishActivity" android:label="@string/PublishActivity" />
+		<activity android:name=".PublishDiaryActivity" android:label="@string/PublishActivity" />
+		<activity android:name=".ContactsActivity" android:label="@string/ContactsActivity" />
+		<activity android:name=".DiaryActivity" android:label="@string/DiaryActivity" />
+		<activity android:name=".AlbumActivity" android:label="@string/AlbumActivity" />
+		<activity android:name=".CommentActivity" android:label="@string/CommentActivity" />
+		<activity android:name=".UploadActivity" android:label="@string/UploadActivity" />
+		<activity android:name=".ShootActivity" android:label="@string/ShootActivity" />
+		<activity android:name=".HomePageActivity" android:label="@string/HomePageActivity" />
+		<activity android:name=".SearchActivity" android:label="@string/SearchActivity" />
+		<activity android:name=".AlbumListActivity" android:label="@string/AlbumListActivity" />
+		<activity android:name=".MyAlbumListActivity" android:label="@string/MyAlbumListActivity" />
+		<activity android:name=".MyDiaryActivity" android:label="@string/MyDiaryActivity" />
+		<activity android:name=".ModifyDiaryActivity" android:label="@string/ModifyDiary" />
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.CAMERA"/><!-- 拍照权限 -->
+
+</manifest> 

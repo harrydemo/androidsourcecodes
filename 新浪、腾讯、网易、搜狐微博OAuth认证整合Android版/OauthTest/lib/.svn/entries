@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2011-06-28T03:19:08.074266Z"
+   url="https://oauthtest.googlecode.com/svn/trunk/OauthTest/lib"
+   last-author="bywuyu@gmail.com"
+   kind="dir"
+   repos="https://oauthtest.googlecode.com/svn"
+   revision="3"/>
+<entry
+   committed-rev="3"
+   name="commons-lang-2.3.jar"
+   text-time="2010-11-22T08:47:50.000000Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="dcdcbb47176603907c9f79a1349193eb"
+   last-author="bywuyu@gmail.com"
+   kind="file"
+   prop-time="2011-06-28T03:19:06.468750Z"/>
+<entry
+   committed-rev="3"
+   name="log4j.jar"
+   text-time="2010-11-22T08:47:49.000000Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="599b8ba07d1d04f0ea34414e861d7ad1"
+   last-author="bywuyu@gmail.com"
+   kind="file"
+   prop-time="2011-06-28T03:19:06.406250Z"/>
+<entry
+   committed-rev="3"
+   name="commons-logging.jar"
+   text-time="2010-11-22T08:47:49.000000Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="e2c390fe739b2550a218262b28f290ce"
+   last-author="bywuyu@gmail.com"
+   kind="file"
+   prop-time="2011-06-28T03:19:06.500000Z"/>
+<entry
+   committed-rev="3"
+   name="commons-io.jar"
+   text-time="2010-09-10T09:59:47.000000Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="ffd27d70f20214e49f9b796bf6fe32f4"
+   last-author="bywuyu@gmail.com"
+   kind="file"
+   prop-time="2011-06-28T03:19:06.390625Z"/>
+</wc-entries>

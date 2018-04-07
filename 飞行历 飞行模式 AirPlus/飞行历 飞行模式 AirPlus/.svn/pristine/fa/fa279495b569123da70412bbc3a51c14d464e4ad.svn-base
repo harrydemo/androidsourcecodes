@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings" >
+
+    <CheckBoxPreference
+        android:key="call_phone"
+        android:persistent="false"
+        android:title="@string/call_phone_state_title" 
+        android:summary="@string/call_phone_state_summary"
+        android:defaultValue="true"/>
+
+    <ListPreference
+        android:defaultValue="10"
+        android:dialogTitle="@string/auto_air_title"
+        android:entries="@array/auto_air_entries"
+        android:entryValues="@array/auto_air_values"
+        android:key="auto_air"
+        android:title="@string/auto_air_title"/>
+    <ListPreference
+        android:defaultValue="10"
+        android:dialogTitle="@string/snooze_duration_title"
+        android:entries="@array/snooze_duration_entries"
+        android:entryValues="@array/snooze_duration_values"
+        android:key="snooze_duration"
+        android:title="@string/snooze_duration_title" />
+    <ListPreference
+        android:defaultValue="2"
+        android:dialogTitle="@string/volume_button_dialog_title"
+        android:entries="@array/volume_button_setting_entries"
+        android:entryValues="@array/volume_button_setting_values"
+        android:key="volume_button_setting"
+        android:title="@string/volume_button_setting_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+Log.e("kill", "kill-Process");
+        方法一:
+        android.os.Process.killProcess(android.os.Process.myPid());
+        方法二:
+        System.exit(0);
+        
+        有什么区别,位还没弄懂!
+        
+        两句一起加一定可以自杀!

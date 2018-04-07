@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/enable_air"
+        android:title="@string/enable_air"/>
+    <item
+        android:id="@+id/edit_air"
+        android:title="@string/menu_edit_air"/>
+    <item
+        android:id="@+id/delete_air"
+        android:title="@string/delete_air"/>
+
+</menu>

@@ -1,0 +1,101 @@
+10
+
+dir
+145
+http://musicplayerdemo2.googlecode.com/svn/trunk/AndroidPlayer/src/com/hrw/android/player
+http://musicplayerdemo2.googlecode.com/svn
+
+
+
+2011-11-26T15:05:23.486597Z
+145
+slamhan1987@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+52e90d9b-f70e-911c-6d32-d90924b46b10
+
+media
+dir
+
+BelmotPlayer.java
+file
+
+
+
+
+2012-03-27T06:41:22.906242Z
+b2be99d44b2b25f3955612a5abe80272
+2011-11-26T15:05:23.486597Z
+145
+slamhan1987@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1205
+
+adapter
+dir
+
+utils
+dir
+
+service
+dir
+
+component
+dir
+
+dao
+dir
+
+db
+dir
+
+builder
+dir
+
+domain
+dir
+
+broadcastreceiver
+dir
+
+activity
+dir
+
+orm
+dir
+
+gesture
+dir
+

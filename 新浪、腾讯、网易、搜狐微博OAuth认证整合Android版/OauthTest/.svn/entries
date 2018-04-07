@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2"
+   name=""
+   committed-date="2011-06-28T03:18:43.082968Z"
+   url="https://oauthtest.googlecode.com/svn/trunk/OauthTest"
+   last-author="bywuyu@gmail.com"
+   kind="dir"
+   uuid="87044af6-67c5-48d0-d91e-cd13fbdab7db"
+   repos="https://oauthtest.googlecode.com/svn"
+   revision="2"/>
+<entry
+   committed-rev="3"
+   name="default.properties"
+   text-time="2011-06-28T02:45:06.937500Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="77055d1fa9eecbddd7b18cbb98735c1b"
+   last-author="bywuyu@gmail.com"
+   kind="file"
+   revision="3"/>
+<entry
+   committed-rev="3"
+   name=".classpath"
+   text-time="2011-06-28T02:45:05.218750Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="5aca0635f72a864aedbc5f9271965ba1"
+   last-author="bywuyu@gmail.com"
+   kind="file"
+   revision="3"/>
+<entry
+   committed-rev="3"
+   name="proguard.cfg"
+   text-time="2011-05-17T03:45:17.360332Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="bec1efcef0f2c9b790a863a8a7d4e668"
+   last-author="bywuyu@gmail.com"
+   kind="file"
+   revision="3"/>
+<entry
+   name="assets"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name=".project"
+   text-time="2011-06-28T02:56:03.859375Z"
+   committed-date="2011-06-28T03:19:08.074266Z"
+   checksum="c333c445277f1ba62dccb4bcf721c787"
+   last-author="bywuyu@gmail.com"
+   kind="file"
+   revision="3"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="4"
+   name="AndroidManifest.xml"
+   text-time="2011-06-28T03:34:37.046875Z"
+   committed-date="2011-06-28T03:36:22.086319Z"
+   checksum="d2ecb9580f3a4b81e0c9edff05bac72e"
+   last-author="bywuyu@gmail.com"
+   kind="file"
+   revision="4"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="bin"
+   kind="dir"/>
+<entry
+   name="gen"
+   kind="dir"/>
+<entry
+   name="res"
+   kind="dir"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+</wc-entries>

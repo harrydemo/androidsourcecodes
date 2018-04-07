@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="listDivider">#ffcc99</color>
+	<color name="character">#f37301</color>
+</resources>

@@ -1,4 +1,0 @@
-All icons in this folder are licensed under free software licenses or public domain.
-
-QuiteSleep icon (quitelseep*.png), is made by Cesar Covarrubias given to me (Cesar Valiente Gordo)
-and published under GNU GPL license.

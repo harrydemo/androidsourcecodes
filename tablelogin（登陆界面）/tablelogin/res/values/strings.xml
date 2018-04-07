@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="hello">Hello World, MainActivity!</string>
-    <string name="app_name">登陆界面</string>
-    <string name="province">省份</string>
-    <string name="register">注册界面</string>
-   
-    <string name="other">界面</string>
-</resources>

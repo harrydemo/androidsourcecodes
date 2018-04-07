@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="hello">Hello World, mainActivity!</string>
-    <string name="app_name">mainGame</string>
-    <string name="Role_black">黑方</string>
-    <string name="Role_white">白方</string>
-
-</resources>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- 定义一些用到的颜色变量 -->
-<resources>
-
-    <color name="dim_foreground_dark">#bebebe</color>
-    <color name="dim_foreground_light">#323232</color>
-    <color name="contacts_list_name_color">#ffffff</color>
-
-</resources>

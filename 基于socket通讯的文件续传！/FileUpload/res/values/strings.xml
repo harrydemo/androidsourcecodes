@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="hello">Hello World, UploadActivity!</string>
-    <string name="app_name">大文件断点上传</string>
-    <string name="filename">文件名称</string>
-    <string name="button">上传</string>
-    <string name="success">文件上传完成</string>
-    <string name="sdcarderror">SDCard不存或者写保护</string>
-</resources>

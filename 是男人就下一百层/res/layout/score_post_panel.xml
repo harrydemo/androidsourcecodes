@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<EditText android:id="@+id/namefield" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_marginLeft="12dip"
+		android:layout_marginRight="12dip" android:scrollHorizontally="true"
+		android:autoText="false" android:capitalize="none" android:gravity="fill_horizontal"
+		android:hint="@string/gameover_username_required"
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip" android:orientation="horizontal">
+		<Button android:id="@+id/retry" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/gameover_dialog_positive_button"
+			android:textSize="17sp" />
+		<Button android:id="@+id/post_scores" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/gameover_dialog_post_score_button"
+			android:textSize="17sp" />
+		<Button android:id="@+id/goback" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/gameover_dialog_negative_button"
+			android:textSize="17sp" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:padding="10dp"
+              android:orientation="vertical" 
+              android:minHeight="400dp" 
+              android:minWidth="260dp" 
+              android:layout_width="260dp" android:layout_height="400dp">
+
+
+	<TableLayout android:id="@+id/layout_root"                
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent">
+   
+		<TableRow android:id="@+id/TableRow01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+	
+				<LinearLayout 
+	    		android:layout_width="240dp"
+	    		android:layout_height="60dp"
+				>
+			
+			    	<TextView android:id="@+id/NextLevelTitle"
+						android:layout_width="170dp"
+						android:textColor="#000"
+						android:typeface="serif"
+						android:textSize="16dip"
+						android:text="Next Level Title!" 
+						android:layout_height="wrap_content"/>
+				
+					<ImageView android:id="@+id/NextLevelImage"
+							android:layout_width="60dp"
+							android:layout_height="60dp"
+							android:scaleType="fitXY"
+							android:src="@drawable/mrrabbit"  
+							/>
+			</LinearLayout>
+		</TableRow>
+
+		<TableRow 
+			android:id="@+id/TableRow02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_span="2"
+			>
+			<LinearLayout 
+    		android:layout_width="240dp"
+    		android:layout_height="270dp"
+			>
+			
+			<TextView android:id="@+id/NextLevelText"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"				
+				android:textColor="#000"
+				android:typeface="serif"
+				android:textSize="16dip"
+				android:text="Next level information goes here."
+
+				
+				/>                  
+			</LinearLayout>
+		</TableRow>
+      
+		<TableRow 
+			android:id="@+id/TableRow02" 
+			android:layout_height="fill_parent"
+			android:layout_width="200dp"
+			android:layout_span="2"
+			>
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent">
+			<Button
+        		android:id="@+id/infobutton2"
+        		android:layout_width="40dp"
+        		android:layout_height="40dp"
+        		android:layout_gravity="bottom|left"
+        		android:layout_marginRight="20dp"
+        		android:background="@drawable/xml_button_question" />
+
+		    <Button	android:id="@+id/NextLevelButton"
+				android:text="Start"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="18dip"
+				android:layout_marginRight="20dp"
+	       		android:layout_gravity="bottom"
+				>
+			</Button>
+			</LinearLayout>
+		</TableRow>
+</TableLayout>
+</LinearLayout>

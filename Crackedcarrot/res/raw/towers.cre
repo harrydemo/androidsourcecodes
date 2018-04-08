@@ -1,0 +1,219 @@
+// Name: towers | AUTHOR: CRACKEDCARROT | First line will not be read by the Loader.
+Total number of towers::12
+////////////////////////////////////
+// Bunker LVL1
+////////////////////////////////////
+lvl::1
+price::8
+resell value::4
+minDamage::7
+maxDamage::9
+Shot-velocity::400
+cooldown between shots::0.3
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::3
+upgradelink::4
+range::100
+aoe range:: 0
+aoe damage::0
+Shot animation time::0.2
+Sound-l::bunker_micro
+Sound-impact::none
+////////////////////////////////////
+// Cannon tower Lvl 1
+////////////////////////////////////
+lvl::1
+price::15
+resell value::8
+minDamage::33
+maxDamage::37
+Shot-velocity::300
+cooldown between shots::2
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::1
+upgradelink::5
+range::130
+aoe range:: 100
+aoe damage::20 
+Shot animation time::0.4
+Sound-l::cannon_pangpase
+Sound-impact::cannon_bomb
+////////////////////////////////////
+// Posiontower Lvl 1
+////////////////////////////////////
+lvl::1
+price::60
+resell value::30
+minDamage::40
+maxDamage::60
+Shot-velocity::250
+cooldown between shots::2
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::2
+upgradelink::6
+range::90
+aoe range::0
+aoe damage::0 
+Shot animation time::0.5
+Sound-l::poison_vattenbrunn
+Sound-impact::none
+////////////////////////////////////
+// Tesla lvl1
+////////////////////////////////////
+lvl::1
+price::100
+resell value::50
+minDamage::700
+maxDamage::701
+Shot-velocity::350
+cooldown between shots::3
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::4
+upgradelink::7
+range::200
+aoe range:: 0
+aoe damage::0 
+Shot animation time::0.4
+Sound-l::tesla_electric
+Sound-impact::tesla_vattenplatta
+////////////////////////////////////
+// Bunker LVL2
+////////////////////////////////////
+lvl::2
+price::22
+resell value::15
+minDamage::21
+maxDamage::27
+Shot-velocity::400
+cooldown between shots::0.3
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::3
+upgradelink::8
+range::110
+aoe range:: 0
+aoe damage::0
+Shot animation time::0.2
+Sound-l::bunker_micro
+Sound-impact::none
+////////////////////////////////////
+// Cannon tower LVL2
+////////////////////////////////////
+lvl::2
+price::41
+resell value::28
+minDamage::99
+maxDamage::111
+Shot-velocity::300
+cooldown between shots::2
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::1
+upgradelink::9
+range::140
+aoe range:: 100
+aoe damage::60
+Shot animation time::0.4
+Sound-l::cannon_pangpase
+Sound-impact::cannon_bomb
+////////////////////////////////////
+// Posiontower LVL2
+////////////////////////////////////
+lvl::2
+price::150
+resell value::105
+minDamage::120
+maxDamage::180
+Shot-velocity::250
+cooldown between shots::2.5
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::2
+upgradelink::10
+range::100
+aoe range::0
+aoe damage::0 
+Shot animation time::0.5
+Sound-l::poison_vattenbrunn
+Sound-impact::none
+////////////////////////////////////
+// Tesla LVL 2
+////////////////////////////////////
+lvl::2
+price::250
+resell value::175
+minDamage::2100
+maxDamage::2101
+Shot-velocity::350
+cooldown between shots::3
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::4
+upgradelink::11
+range::250
+aoe range:: 0
+aoe damage::0 
+Shot animation time::0.4
+Sound-l::tesla_electric
+Sound-impact::tesla_vattenplatta
+////////////////////////////////////
+// Bunker LVL3
+////////////////////////////////////
+lvl::3
+price::58
+resell value::48
+minDamage::63
+maxDamage::81
+Shot-velocity::400
+cooldown between shots::0.3
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::3
+upgradelink::-1
+range::120
+aoe range:: 0
+aoe damage::0
+Shot animation time::0.2
+Sound-l::bunker_micro
+Sound-impact::none
+////////////////////////////////////
+// Cannon tower LVL3
+////////////////////////////////////
+lvl::3
+price::109
+resell value::90
+minDamage::297
+maxDamage::333
+Shot-velocity::300
+cooldown between shots::2
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::1
+upgradelink::-1
+range::150
+aoe range:: 100
+aoe damage::180
+Shot animation time::0.4
+Sound-l::cannon_pangpase
+Sound-impact::cannon_bomb
+////////////////////////////////////
+// Posiontower Lvl 3
+////////////////////////////////////
+lvl::3
+price::375
+resell value::323
+minDamage::360
+maxDamage::540
+Shot-velocity::250
+cooldown between shots::2
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::2
+upgradelink::-1
+range::110
+aoe range::0
+aoe damage::0 
+Shot animation time::0.5
+Sound-l::poison_vattenbrunn
+Sound-impact::none
+////////////////////////////////////
+// Tesla LVL 3
+////////////////////////////////////
+lvl::3
+price::625
+resell value::538
+minDamage::6300
+maxDamage::6301
+Shot-velocity::350
+cooldown between shots::3
+Cannon-1,Poisontower-2,Bunker-3,Tesla-4::4
+upgradelink::-1
+range::300
+aoe range:: 0
+aoe damage::0 
+Shot animation time::0.4
+Sound-l::tesla_electric
+Sound-impact::tesla_vattenplatta
+// LAST LINE. WILL NOT BE READ BY THE LOADER. BE SURE NOT TO PUT A NEWLINE AFTER THIS LINE

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">五子棋</string>
+    <string name="mode_ready">按两下向右键为人机对战，向左键人-人对战</string>
+    <string name="player_one_lost">绿棋输了，\r\n按两下向右键为人机对战，向左键人-人对战</string>
+    <string name="player_two_lost">红棋子输了，\r\n按两下向右键为人机对战，向左键人-人对战</string>
+</resources>

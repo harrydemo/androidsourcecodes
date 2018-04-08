@@ -1,0 +1,18 @@
+This is Scrambled Net, a port of the KDE game "knetwalk", by Andi Peredri,
+Thomas Nagy, and Reinhold Kainhofer.  Ported to Android by Ian Cameron
+Smith (headstay); released under GPL.  See "COPYING" for license information.
+
+Includes MTRandom by David Beaumont, released under LGPL.  See
+"COPYING-MTRandom" for license information.
+
+The player is given a network diagram with the parts of the network randomly
+rotated; he/she must rotate them to connect all the terminals to the server. 
+
+For full information, please see the project home page:
+
+	http://code.google.com/p/netscramble/
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.

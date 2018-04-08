@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">网页代码查看器</string>
+    <string name="path">网页路径</string>
+    <string name="button">查看Html代码</string>
+    <string name="error">网络连接失败</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	android:versionCode="1" android:versionName="1.0" package="com.android.tutorial">
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:debuggable="true">
+		<activity android:label="@string/app_name" android:name="AngleTutorials">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="Tutorial01" android:label="@string/app_name"></activity>
+		<activity android:name="Tutorial02" android:clearTaskOnLaunch="true"></activity>
+		<activity android:name="Tutorial03" android:clearTaskOnLaunch="true"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+		<activity android:name="Tutorial04" android:clearTaskOnLaunch="true"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+		<activity android:name="Tutorial05" android:clearTaskOnLaunch="true"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name="Game" android:clearTaskOnLaunch="true"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:screenOrientation="portrait"></activity>
+	<activity android:name="com.android.game.StepByStepGame" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:screenOrientation="portrait"></activity>
+</application>
+	<uses-sdk android:minSdkVersion="3" />
+
+</manifest> 

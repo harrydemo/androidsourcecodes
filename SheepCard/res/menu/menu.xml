@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="@android:drawable/ic_menu_call" android:id="@id/prop"
+		android:title="@string/menu_prop">
+		<menu />
+	</item>
+	<item android:icon="@android:drawable/ic_menu_crop" android:id="@id/restart"
+		android:title="@string/menu_restart" />
+	<item android:icon="@android:drawable/ic_menu_help" android:id="@id/help"
+		android:title="@string/menu_help" />
+	<item android:icon="@android:drawable/ic_delete" android:id="@id/exit"
+		android:title="@string/menu_exit" />
+</menu>

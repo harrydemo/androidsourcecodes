@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="24" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="Grass" tilewidth="20" tileheight="20">
+  <image source="gfx/Grass.png" width="80" height="160"/>
+ </tileset>
+ <tileset firstgid="33" name="metal_vert" tilewidth="32" tileheight="96">
+  <image source="gfx/metal_vert.png" width="32" height="96"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UwQpAUBCF4UESFhRF8f7P6SgLbiy5mft/9e/nbMYMAAAAAID/y1R+UxHzqBfVqjnVqV5VMY/60KBGS2fvrjT2epbS3knNdt379MM9tKg12Bv+cI+1x9YN9yf6hIAWAAA=
+  </data>
+ </layer>
+ <objectgroup color="#ffaa00" name="Paths" width="60" height="24">
+  <object name="Path" x="340" y="340" width="20" height="20">
+   <properties>
+    <property name="name" value="p1"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="340" y="140" width="20" height="20">
+   <properties>
+    <property name="name" value="p2"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="460" y="340" width="20" height="20">
+   <properties>
+    <property name="name" value="p3"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="460" y="140" width="20" height="20">
+   <properties>
+    <property name="name" value="p4"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="580" y="340" width="20" height="20">
+   <properties>
+    <property name="name" value="p5"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="580" y="140" width="20" height="20">
+   <properties>
+    <property name="name" value="p6"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="700" y="340" width="20" height="20">
+   <properties>
+    <property name="name" value="p7"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="700" y="140" width="20" height="20">
+   <properties>
+    <property name="name" value="p8"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="820" y="340" width="20" height="20">
+   <properties>
+    <property name="name" value="p9"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="820" y="140" width="20" height="20">
+   <properties>
+    <property name="name" value="p10"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="460" y="240" width="20" height="20">
+   <properties>
+    <property name="name" value="p3mid"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+  <object name="Path" x="700" y="240" width="20" height="20">
+   <properties>
+    <property name="name" value="p7mid"/>
+    <property name="type" value="path"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Walls" width="60" height="24">
+  <properties>
+   <property name="type" value="wall"/>
+  </properties>
+  <object x="20" y="440" width="1160" height="40"/>
+  <object x="1040" y="300" width="140" height="40"/>
+  <object x="1140" y="340" width="40" height="100"/>
+ </objectgroup>
+ <objectgroup color="#00ff7f" name="Elements" width="60" height="24">
+  <object name="goal" x="1080" y="380" width="60" height="60">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="type" value="goal"/>
+   </properties>
+  </object>
+  <object name="ball" x="40" y="380" width="40" height="40">
+   <properties>
+    <property name="type" value="ball"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="360" y="380" width="20" height="20">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="760" y="380" width="20" height="20">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff007f" name="Objects" width="60" height="24">
+  <properties>
+   <property name="type" value="object"/>
+  </properties>
+  <object gid="33" x="340" y="440">
+   <properties>
+    <property name="duration" value="6"/>
+    <property name="path" value="p1,p2,p1"/>
+   </properties>
+  </object>
+  <object gid="33" x="460" y="340">
+   <properties>
+    <property name="duration" value="5"/>
+    <property name="path" value="p3mid,p3,p4,p3mid"/>
+   </properties>
+  </object>
+  <object gid="33" x="580" y="240">
+   <properties>
+    <property name="duration" value="6"/>
+    <property name="path" value="p6,p5,p6"/>
+   </properties>
+  </object>
+  <object gid="33" x="700" y="320">
+   <properties>
+    <property name="duration" value="5"/>
+    <property name="path" value="p7mid,p7,p8,p7mid"/>
+   </properties>
+  </object>
+  <object gid="33" x="820" y="416">
+   <properties>
+    <property name="duration" value="6"/>
+    <property name="path" value="p9,p10,p9"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

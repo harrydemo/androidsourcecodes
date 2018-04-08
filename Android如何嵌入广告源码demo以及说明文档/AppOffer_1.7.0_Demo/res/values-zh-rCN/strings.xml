@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DemoActivity!</string>
+    <string name="app_name">Demo1.7.0</string>
+    
+    <string name="offerList">推荐列表</string>
+    <string name="gameOfferList">推荐列表(游戏)</string>
+    <string name="appOfferList">推荐列表(软件)</string>
+    <string name="spendPoints">消费积分(-10)</string>
+    <string name="awardPoints">奖励积分(+10)</string>
+    <string name="feedback">用户反馈</string>
+    <string name="ownsApp">自家应用</string>
+    <string name="diyAd">自定义广告(单条)</string>
+    <string name="diyAdList">自定义广告(列表)</string>
+    <string name="checkUpdate">检查新版本</string>
+    
+</resources>

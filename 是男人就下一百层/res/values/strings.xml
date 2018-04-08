@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Agile Buddy</string>
+	<string name="start_game">Start Game</string>
+	<string name="score_board">Global Ranking</string>
+	<string name="options">Options</string>
+	<string name="more_app">More Apps</string>
+	<string name="exit">Exit</string>
+	<string name="touch_to_start">TOUCH HERE TO START</string>
+	<string name="global_ranking">Global Ranking</string>
+	<string name="gameover_dialog_tip">Game Over!</string>
+	<string name="gameover_dialog_text_poolguy">Pool Guy !</string>
+	<string name="gameover_dialog_text_notbad">Not Bad !</string>
+	<string name="gameover_dialog_text_awesome">Awesome !</string>
+	<string name="gameover_dialog_text_newrecord">New Record !</string>
+	<string name="gameover_username_required">Your Name Here !</string>
+	<string name="gameover_dialog_positive_button">Retry</string>
+	<string name="gameover_dialog_post_score_button">Post</string>
+	<string name="gameover_dialog_negative_button">Back</string>
+
+	<string name="ranking_title_loading_info">Loading. Please wait....</string>
+	<string name="ranking_title_no">NO.</string>
+	<string name="ranking_title_name">NAME</string>
+	<string name="ranking_title_score">SCORE</string>
+	<string name="ranking_title_date">DATE</string>
+
+	<string name="options_sounds_summary">-Play Background Sounds.</string>
+	<string name="options_vibrate_summary">-Action Vibrate Effect.</string>
+	<string name="options_showtips_summary">-Show Tips.</string>
+	<string name="options_velocity_controller_summary">-Power control ( weak -> strong )</string>
+	<string name="options_user_name_summary">-Your Name On Show:
+	</string>
+	<string name="options_best_record_summary">-Your Best Record: 
+	</string>
+	<string name="options_okay_summary">Okay
+	</string>
+	<string name="options_upload_score_summary">Post Scores
+	</string>
+	<string name="options_tips_summary">Tips
+	</string>
+	<string name="options_toast_username_null">Your Name Can't Be Null !
+	</string>
+	<string name="options_toast_username_too_long">Length Of Your Name Must Between 1 and 20.
+	</string>
+	<string name="options_toast_upload_success">Upload Success.
+	</string>
+	<string name="options_toast_upload_failure">Upload Failure.(Please Check Your Network
+		Connection!)
+	</string>
+	<string name="tips_text">- AGILE BUDDY is a type of action game, which is operated by making use of a mobile phone's gravitational sensor.\n\n- Tilt the phone left or right to control the ROLE moving left or right. The more angle in the tilt, the faster the ROLE moves.\n\n- Avoid touching the spike or the ROLE will lose its lifespan. When the lifespan runs out, the game is over.\n\n- Avoid dropping the ROLE on the bottom of screen or the game is over.\n\n- The scores of the game will be decided by a combination of the times the ROLE contacts the footboards and the level of game rating. You can post your records to our global ranking server. We all hope to see your name in the top 25!
+	</string>
+
+</resources>

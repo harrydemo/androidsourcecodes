@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">软件参数设置</string>
+    <string name="name">网名</string>
+    <string name="age">年龄</string>
+    <string name="button">保存参数</string>
+    <string name="success">参数保存完成</string>
+    <string name="button2">恢复参数</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.china.square"
+      android:versionCode="1"
+      android:versionName="1.0.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Square"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".elos.Elos"
+                  android:label="俄罗斯方块">
+            <intent-filter>
+                <action android:name="SQUARE" />
+                <category android:name="android.intent.category.SQUARE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".eloscomplex.ElosComplex"
+                  android:label="俄罗斯方块-复杂版">
+            <intent-filter>
+                <action android:name="SQUARE" />
+                <category android:name="android.intent.category.SQUARE" />
+            </intent-filter>
+        </activity>
+         
+         <activity android:name=".elossap.ElosSap"
+                  android:label="扫雷">
+            <intent-filter>
+                <action android:name="SQUARE" />
+                <category android:name="android.intent.category.SQUARE" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest> 

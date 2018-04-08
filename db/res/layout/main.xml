@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <Button
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="往内容提供者添加数据"
+	  android:id="@+id/button"	  
+	  />
+	  
+	  
+ <LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+  <TextView
+	  android:layout_width="100dip"
+	  android:layout_height="wrap_content"
+	  android:text="姓名"
+	  />
+	  
+  <TextView
+	  android:layout_width="100dip"
+	  android:layout_height="wrap_content"
+	  android:text="电话"
+	  />
+	  
+  <TextView
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:text="存款"
+	  />
+</LinearLayout>
+<ListView
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:id="@+id/listView"
+    />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/filename"
+    />
+    
+    <EditText  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="TroubleIsaFriend.mp3"
+    android:id="@+id/filename"
+    />
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    <Button
+	    	android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/play"
+		    android:id="@+id/play"
+		    />
+		<Button
+	    	android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/pause"
+		    android:id="@+id/pause"
+		    />	
+	    <Button
+	    	android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/reset"
+		    android:id="@+id/reset"
+		    />
+		<Button
+	    	android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/stop"
+		    android:id="@+id/stop"
+		    />	    
+   </LinearLayout>
+</LinearLayout>

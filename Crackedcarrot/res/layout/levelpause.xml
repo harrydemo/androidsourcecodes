@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout
+    	android:orientation="vertical"
+    	android:gravity="center"
+    	android:layout_width="200dp"
+    	android:layout_height="260dp" >
+
+		<LinearLayout
+    		android:orientation="horizontal"
+    		android:gravity="center"
+    		android:layout_width="fill_parent"
+    		android:layout_height="60dp" >
+
+			<ImageView
+				android:src="@drawable/pauseimage"
+				android:gravity="center"
+    		    android:layout_width="fill_parent"
+      		    android:layout_height="fill_parent"
+				android:layout_weight="1" />
+     		   	    
+ 		</LinearLayout>
+ 		
+ 		<LinearLayout
+    		android:orientation="vertical"
+    		android:gravity="center"
+    		android:layout_width="fill_parent"
+    		android:layout_height="200dp" >
+
+			<Button
+				android:text="Continue"
+				android:background="@drawable/xml_button_pause"
+				android:id="@+id/LevelPause_Continue"
+	    		android:textSize="22sp"		
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1" />
+     		   	    
+			<Button
+				android:text="Sound"
+				android:background="@drawable/xml_button_pause"
+				android:id="@+id/LevelPause_Sound"
+	    		android:textSize="22sp"		
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1" />
+
+			<Button
+				android:text="Help"
+				android:id="@+id/LevelPause_Help"
+				android:background="@drawable/xml_button_pause"
+				android:textSize="22sp"		
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1" />
+
+			<Button
+				android:text="Quit"
+				android:id="@+id/LevelPause_Quit"
+				android:background="@drawable/xml_button_pause"
+				android:textSize="22sp"		
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1" />
+     		   	    
+ 		</LinearLayout>
+		    
+	</LinearLayout>
+
+</LinearLayout>

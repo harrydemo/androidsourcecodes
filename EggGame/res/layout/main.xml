@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bgbj">
+    	<TextView 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="150sp"/>
+    	<Button
+    		android:id="@+id/btn1"
+    		android:layout_width="120sp"
+    		android:layout_height="wrap_content"
+    		android:text="开  始"
+    		android:layout_gravity="center_horizontal"/>
+    	<Button 
+    		android:text="关  于" 
+    		android:layout_gravity="center_horizontal" 
+    		android:layout_width="120sp" 
+    		android:layout_height="wrap_content" 
+    		android:id="@+id/btn2"></Button>
+    	<Button
+    		android:id="@+id/btn3"
+    		android:layout_width="120sp"
+    		android:layout_height="wrap_content"
+    		android:text="退  出"
+    		android:layout_gravity="center_horizontal"/>
+</LinearLayout>

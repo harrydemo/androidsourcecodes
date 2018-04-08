@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/mainbg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageButton android:id="@+id/play_btn"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_centerInParent="true"
+    			android:background="@drawable/buttons_bg1"
+    			android:src="@drawable/buttons_play"/>
+    <ImageView android:id="@+id/title_img"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@id/play_btn"
+    		android:layout_centerHorizontal="true"
+    		android:src="@drawable/title"
+    		android:paddingTop="10dip"/>
+   	<ImageView
+   			android:id="@+id/clock"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/clock"
+    		android:paddingTop="5dip"
+    		android:paddingLeft="5dip"
+    		android:visibility="gone"/>
+    <SeekBar
+    	android:id="@+id/timer"
+    	android:layout_toRightOf="@id/clock"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:visibility="gone"
+    	android:paddingTop="8dip"
+    	android:paddingLeft="5dip"
+    	android:paddingRight="10dip"
+    	android:paddingBottom="5dip"
+    	/>
+    <whu.iss.sric.view.GameView
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/game_view"
+    	android:visibility="gone"
+    	android:layout_below="@id/timer"
+    />
+    <LinearLayout android:orientation="horizontal"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_alignParentBottom="true"
+    			android:layout_centerHorizontal="true"
+    			android:paddingBottom="10dip"
+    			>
+	    <ImageButton android:id="@+id/refresh_btn"
+	    			android:background="@drawable/refresh"
+	    			android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:visibility="gone"
+	    			/>
+	    <TextView android:id="@+id/text_refresh_num"
+	    			android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:background="@drawable/shape"
+	    			android:textColor="@android:color/white"
+	    			android:text="3"
+	    			android:visibility="gone"
+	    			android:textSize="15sp"/>
+	    <ImageButton android:id="@+id/tip_btn"
+	    			android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:background="@drawable/light_bulb"
+	    			android:visibility="gone"
+	    			/>
+	     <TextView android:id="@+id/text_tip_num"
+	    			android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:background="@drawable/shape"
+	    			android:textColor="@android:color/white"
+	    			android:visibility="gone"
+	    			android:text="3"
+	    			android:textSize="15sp"/>
+    </LinearLayout>			
+</RelativeLayout>

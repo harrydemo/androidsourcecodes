@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActivityTheme" windowNoTitle="true">
+    	<item name="android:windowNoTitle">true</item>
+    	</style>
+	<style name="LevelFont" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:textSize">30dp</item>
+		<item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">1</item>
+	</style>   
+	<style name="ChapterLarge" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">32dp</item>
+	</style> 
+	 <style name="ChapterTitle" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textStyle">italic</item>
+		<item name="android:textSize">24dp</item>
+		<item name="android:paddingLeft">20dp</item>
+		<item name="android:paddingTop">7dp</item>
+		<item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">1</item>		
+	</style> 
+	 <style name="ChapterSmall" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#CCCCCC</item>
+		<item name="android:textSize">18dp</item>>		
+	</style>  
+</resources>

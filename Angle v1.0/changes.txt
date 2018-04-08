@@ -1,0 +1,20 @@
+Version 0.2
+.-ISSUE: [NullPointer] synchronized adds and removes to solve the problem
+.-All engines support sub-engines
+.-Root engines are now added to AngleSurfaceView directly
+.-Added Font and String support
+.-New class AngleFont
+.-New class AngleString
+.-Renamed AngleAbstractSpriteReference to AngleAbstractReference
+.-Added new constructor to AngleSurfaceView to use it in designer
+
+Version 0.3
+.-ISSUE: [AngleSprite upside down] Correct values in VertexBuffer
+.-ISSUE: [Some objects not freed on exit] Solved
+.-AngleSprite uses hardware buffers to avoid GC 
+
+Version 0.4
+.-Engine rewriten.
+.-Thread-safe
+.-Stable OpenGL ES.
+.-Added music and sound support.

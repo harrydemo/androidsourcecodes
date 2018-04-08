@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FeiJi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="NewGame">New Game</string>
+    <string name="Scores">Scores</string>
+    <string name="ExitGame">Exit Game</string>
+    <string name="Return">Return</string>
+    <string name="FeiJiScore">飞机大战分数</string>
+    <string name="FeiJiScoreList">飞机大战分数排行榜</string>
+    
+    <color name="black">#ff000000</color>
+    <color name="gray">#7B797B</color>
+
+</resources>

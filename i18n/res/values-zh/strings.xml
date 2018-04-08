@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">你好，传智播客!</string>
+    <string name="app_name">国际化</string>
+</resources>

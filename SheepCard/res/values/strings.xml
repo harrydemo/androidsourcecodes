@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+ 
+    <string name="app_name">Sheep card game</string>
+    <string name="start">Choose the chips，Began to bet on</string>
+    <string name="max_score">Max score:</string>
+    <string name="clip_in">chips:</string>
+    <string name="money">Money:</string>
+    <string name="win">win:</string>
+    <string name="lose">lost:</string>
+    <string name="wager">You have bet on </string>
+    <string name="unit">$</string>
+    <string name="no_money">You have no money ,please to restart !</string>
+    <string name="little_money">You have no big Money ,please choose small one!</string>
+    <string name="lack_money">You have bet all the money on,God Bless you!</string>
+    <string name="again">another again</string>
+    <string name="exit">exit</string>
+    <string name="no_card">no card</string>
+    <string name="again_card">more card</string>
+    <string name="double_score_button">double bet</string>
+    
+    <string name="player_point">Your point is:</string>
+    <string name="banker_desk_point">Banker\'s desktop \n point is:</string>
+    <string name="blackjack">Blackjack</string>
+    <string name="banker">Banker </string>
+    <string name="player">You </string>
+    <string name="alertdialog_title">Result</string>
+    <string name="max_card"> got the king cards!</string>
+    <string name="burst"> Over flow!</string>
+    <string name="who_win"> win!</string>
+    <string name="equal">You have the same score !</string>
+    <string name="point"> point</string>
+    <string name="max_clip_in">small is good,big is ..........!</string>
+    <string name="count_unit"> </string>
+    <string name="you_nb">haha ,NB as you,clear your money!</string>
+    <string name="menu_prop">props </string>
+    <string name="menu_restart">restart</string>
+    <string name="menu_help">help</string>
+    <string name="menu_exit">exit</string>
+    <string name="help_title">help</string>
+    <string name="play_game">play game</string>
+    <string name="help_message"> Blackjack game,is compare who big.You can having fun by yourself!Contact us:edxixi@gmail.com </string>
+    <string name="zc">Plutus operator</string>
+    <string name="gain_zc">you got a plutus operator!</string>
+    <string name="use_zc">you have used the plutus operator,adding 1000$ to you account!</string>
+    <string name="test"></string>
+    <string name="toast">那里，曾经到过，而今，将在何方，岁月的风霜冲刷我们的脸庞，而我，一直都在你触手可及的地方</string>
+    <string name="thank_you">thank you for join the game,best wishes!</string>
+</resources>

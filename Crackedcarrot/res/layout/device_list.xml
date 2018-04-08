@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	android:id="@+id/relLay1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	xmlns:android="http://schemas.android.com/apk/res/android"> 
+
+<TableLayout
+	android:layout_width="260dp"
+    android:layout_height="440dp"
+    android:gravity="center"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true"
+	android:paddingTop="40dp"
+	android:background="#00000000">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+		    
+		    <TextView android:id="@+id/title_paired_devices"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Available paired Bluetooth devices"
+		        android:background="#888888"
+		        android:textColor="#000000"
+		        android:paddingLeft="5dp"/>
+		        
+		    <ListView android:id="@+id/paired_devices"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:stackFromBottom="false"
+		        android:background="#33aaaaaa"
+		        android:layout_weight="1"/>
+		        
+		    <TextView android:id="@+id/title_new_devices"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Available new Bluetooth devices"
+		        android:background="#888888"
+		        android:textColor="#000000"
+		        android:paddingLeft="5dp"/>
+		        
+		    <ListView android:id="@+id/new_devices"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:stackFromBottom="false"
+		        android:background="#33aaaaaa"
+		        android:layout_weight="2"/>
+		        
+		    <!-- <Button android:id="@+id/button_scan"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Scan for servers"/> -->
+		
+		</LinearLayout>
+</TableLayout>
+</RelativeLayout>

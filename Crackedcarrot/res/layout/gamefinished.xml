@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	android:id="@+id/relLay1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout
+    	android:orientation="vertical"
+    	android:gravity="top"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="100dp"
+		    android:gravity="center">
+		    
+			    <ImageView
+					android:layout_width="200dp"
+					android:layout_height="40dp"
+					android:id="@+id/GameFinishedImageViewTitle"
+					>
+				</ImageView>
+				
+		</LinearLayout>	
+		
+		<LinearLayout
+    		android:orientation="vertical"
+    		android:layout_width="240dp"
+    		android:layout_height="200dp" android:gravity="center" android:layout_gravity="center">
+    		
+ 	<LinearLayout
+    	android:orientation="horizontal"
+    	android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+		<ImageView
+			android:src="@drawable/win"
+			android:id="@+id/GameFinishedImageViewImage"
+			android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+		<TextView
+			android:id="@+id/GameFinishedTextViewTitle"
+			android:text="Congratulations!"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+	</LinearLayout>
+	
+ 	<LinearLayout
+    	android:orientation="horizontal"
+    	android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <TextView
+       		android:id="@+id/GameFinishedTextViewText"
+			android:text="You've slain all the vile rabbits and their evil companions and saved your precious carrots!"
+			android:textColor="#000000"
+			android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+	</LinearLayout>
+	
+ 	<LinearLayout
+    	android:orientation="horizontal"
+    	android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <TextView
+			android:text="Your final score: -"
+			android:id="@+id/GameFinishedTextViewScore"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+	</LinearLayout>
+
+		</LinearLayout>
+		
+		<LinearLayout
+    		android:orientation="vertical"
+    		android:gravity="center"
+    		android:layout_width="fill_parent"
+    		android:layout_height="150dp" >
+			            
+					<Button
+						android:id="@+id/GameFinished_Button_Ok"
+			    		android:layout_width="120dp"
+						android:layout_height="38dp"
+	    				android:scaleType="fitXY"
+						android:background="@drawable/xml_button_menu_back" />
+    		
+    	</LinearLayout>
+		
+	</LinearLayout>
+	
+</RelativeLayout>

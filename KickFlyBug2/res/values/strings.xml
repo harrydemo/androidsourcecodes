@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">KickFly!</string>
+	<string name="app_name">捏死你</string>
+
+	<string name="tv_mode_100s">Kill Flys As More As You Can In 30 Seconds!
+	</string>
+	<string name="tv_mode_100c">Kill 30 Flys As Fast As You Can
+	</string>
+</resources>

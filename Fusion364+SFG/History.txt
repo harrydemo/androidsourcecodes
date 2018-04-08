@@ -1,0 +1,1065 @@
+
+---------------------------------------------------------------------------
+Kega Fusion v3.64 (NOMAPLE) (Windows) (C) Steve Snake 2010
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+I'm making this unplanned release, because things never go as planned, and
+all my stuff is going to be in storage for a while (again). Due to that
+thing they call 'real life' I have probably forgotten most of what I've
+changed since the last build, and there may be stuff I have only partially
+implemented and forgotten about.
+
+But I'll list what I remember, and I'm sure you guys (and girls) will find
+stuff I forgot about, or broke - because you rock.
+
+Most of what I've done is by user request. PLEASE LET ME KNOW OF ANY MAJOR
+PROBLEMS IMMEDIATELY.
+
+* Swapped SMS buttons
+
+* Added an option (that I couldn't think of a suitable name for) to show
+  the full SMS area when running GG games
+
+* Fixed a couple of non-working SMS games (auto disable of some features,
+  e.g. YM2413, which would cause them to crash if present)
+
+* Fixed some other minor SMS issues
+
+* GG games that are really SMS games in a GG cart should now auto boot in
+  SMS mode
+
+* A couple of 32X tweaks that will only matter to homebrew coders currently
+
+* Fixed a couple of SegaCD games that didn't boot/run - if you find any
+  more, please do let me know - as far as I know, there are none
+
+* Command line with -scd or -mcd and no filename will now cause Fusion to
+  start up in 'Boot SegaCD' mode
+
+* Added support for the (pretty useless) SF7000 floppy disk interface for
+  the SC3000 - you need the SF7000 IPL ROM for this to work
+
+* SC3000 keyboard can now be enabled from the options menu
+
+* A few sound tweaks
+
+Regular scheduled programming will resume as soon as possible.
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v3.63 (Windows) (C) Steve Snake 2009
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+* Made some changes to the config options. Hopefully this fixes a problem
+  some people were having where Windows would fail to size the window
+  correctly, although I cannot reproduce this problem.
+
+* Moved SMS controls into main controls window, matching the other builds.
+
+* Fixed a couple of problems relating to SMS controls.
+
+* Fixed preferred country detection order - at some point a couple of them
+  got switched somehow.
+
+* Various SMS fixes.
+
+* A few minor 32X bugfixes and tweaks.
+
+Other builds to follow soon.
+
+Snake.
+kega kat at gmail dot com (withnospacesanywhere)
+
+
+---------------------------------------------------------------------------
+Kega Fusion v3.62 (Windows) (C) Steve Snake 2009
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+Not much, mainly just a few tweaks and minor bugfixes.
+
+* Seperate SMS controls (finally) allowing for support of SMS Paddles and
+  Light Phasers. The reason I haven't done this before is down to the UI.
+  I don't much like the current solution, either, but it's functional for
+  now.
+
+* State Slots now report if they are already in use, by request.
+
+* Allow changing state slots, and saving states (but not loading) during
+  Netplay. I'm not sure what use this is, but it was often requested.
+
+* Added support for a couple of Custom SRAM games that were recently
+  discovered.
+
+* Windows Live Messenger status updates. (thanks Gerrie!)
+
+* Many small behind the scenes bugfixes that you probably won't notice, and
+  I've mostly forgotten...
+
+Fusion has not been my main focus since the last build, and this build (as
+well as the other platform builds) have basically been sitting around since
+January. However, one reason for this is that there were many changes made
+that I've since reverted, because they were counter-productive. I wasn't
+sure what to do with them - well, now they're gone until such a time as I
+can do more hardware testing. This build (and other things...) have been
+sitting around for way too long without further work or release.
+
+Happy (almost) Halloween,
+
+Snake.
+kega kat at gmail dot com (withnospacesanywhere)
+
+
+---------------------------------------------------------------------------
+Kega Fusion v3.62x - Linux - (C) Steve Snake 2009
+---------------------------------------------------------------------------
+
+This is the first (and maybe only?) Linux release - it includes everything
+in the Mac build and is therefore pretty much feature complete already. I'm
+only really doing this because certain people have asked for it... I don't
+claim to be a "Linux guy" ;-)
+
+OpenGL is required - hardware acceleration very much recommended, the
+software solutions seem to be ridiculously slow. ALSA or OSS can be used
+for sound. It uses a modified wxGTK for the GUI, and so should work fine on
+most modern Linux distros. It was built under Fedora Core 6 (for Tomman).
+
+Fusion.ini file can be found at ~/.Kega Fusion - and that's also where you
+should place the Plugins folder.
+
+ISO/MP3 support is via the seperate libmpg123. More info on how to get
+this, and other things working can be found in the readme.
+
+Anyway, I hope this is appreciated :-)
+
+Snake.
+kega kat at gmail dot com (withnospacesanywhere)
+
+
+---------------------------------------------------------------------------
+Kega Fusion v3.62i - Mac OS X (Intel) - (C) Steve Snake 2009
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+The Mac version now includes most features from the Windows version, plus many bug fixes:
+
+* Game Genie support added, complete with code search.
+
+* Netplay support added. Works cross platform with the other builds. You'll
+  need to tell the Apple Firewall to allow Kega Fusion. Check the readme for
+  more information.
+
+* ISO/MP3 support for SegaCD games added, using Apples built-in MP3 decoder.
+  Again, see readme for more information.
+
+* Fixed strange problem with 32X games under Tiger.
+
+* Fixed bug with multiple USB controllers.
+
+* Rewrote TV mode - this worked fine wherever I tested it, but some reported
+  problems. It'll be fine now. There is now only one TV mode.
+
+* Window position is now correctly remembered.
+
+* Various small Mac-specific bug fixes and tweaks.
+
+* Base code brought up to line with Fusion 3.62 (Windows)
+
+Cheers,
+
+Snake.
+kega kat at gmail dot com (withnospacesanywhere)
+
+
+---------------------------------------------------------------------------
+Kega Fusion v3.52i - Mac OS X (Intel) - (C) Steve Snake 2008
+---------------------------------------------------------------------------
+
+This is the first Mac release. It should be fairly self explanatory. But, I
+don't have time right now to write up any proper documentation for the mac
+version, so for now I am just supplying the documentation for the Windows
+version, incase there's anything you need to know, you can probably find it
+here.
+
+There are various things missing from the Mac version right now (hence the
+lower version number) - they will be mostly implemented later - but this
+was intended to be a pre-christmas release, so...
+
+More when I have time,
+
+Snake.
+kega kat at gmail dot com (withnospacesanywhere)
+
+
+---------------------------------------------------------------------------
+Kega Fusion v3.61 (C) Steve Snake 2008
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+Various fixes for problems found in the last version, plus a couple of
+extras:
+
+* Moved menus around a bit - the Country and CD Drive menus are now part
+  of the Options menu. This fixes problems with the old menus not fitting
+  properly in 320x240 mode, and is also a bit less cluttered.
+
+* Timing was out by a small amount after I removed test code. It should
+  now be back to where it was supposed to be, removing minor glitches from
+  a few games.
+
+* Problems with Vista-specific code reported by a few people should now
+  be fixed. Please report any problems with this as soon as possible.
+
+* Windowed VSync is not required, or desired, under Vista. Fusion now will
+  default to ignoring the VSync flag when running windowed in Vista. There
+  is an INI file option to re-enable it just incase this causes problems
+  for anyone.
+
+* Vista-specific code can also be disabled via another INI file option,
+  incase this causes problems, or you're trying to run Fusion under Wine,
+  Darwine, or Crossover.
+
+* Sound effects in Primal Rage 32X are working again.
+
+* AVI output now should not affect what you see on screen.
+
+* Screenshot options - you can now select to save screenshots at various
+  stages. Final is what you'd get from earlier versions, Corrected is non
+  filtered but aspect corrected, and raw is not aspect corrected.
+
+* Minor modifications to Render Plugin stuff.
+
+* Upped the number of Render Plugins again, to 48. Please don't ask for
+  any more, there isn't, and probably never will be, anything like 48
+  different plugins that are actually worth bothering with ;)
+
+* Modifications to Full Screen Resolution after noticing that default
+  resolutions for large widescreen monitors were sometimes not appearing
+  in the list. Should be fine now.
+
+* A few more behind-the-scenes fixes.
+
+Merry Christmas.
+
+Snake.
+kega kat at gmail dot com (withnospacesanywhere)
+
+
+---------------------------------------------------------------------------
+Kega Fusion v3.6 (C) Steve Snake 2008
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+Well it's been a long time. Lots of really bad things have happened, often
+working on Kega felt like the last thing I wanted to be doing.
+
+Still. Work on it I did. Lots of changes and additions over the last two
+years, most of which I've forgotten about again, but here's the stuff I
+can remember:
+
+* Fixed Sound/Timing Issue with Fahrenheit SCD/32X.
+
+* Fixed a typo which corrupted a register in the YM2612 SSG/EG section.
+
+* Removed a few pieces of test code that were not supposed to be left in,
+  and affected timing of various things under certain conditions.
+
+* LOTS of behind-the-scenes fixes and improvements, which I've totally
+  forgotten, but you will notice them and remind me at some point ;-)
+
+* Rewrote controller code, should fix problems with some USB controllers.
+
+* Rewrote Menacer emulation which made it easier to add Konami Justifier
+  emulation. Just the first Justifier is emulated for now. You'll
+  definitely want to calibrate it in games that use it.
+
+* Added SegaCD SaveStates that actually, you know, work.
+
+* Added support for more games that use custom SRAM, and fixed some that
+  were already emulated, but got broken at some point.
+
+* Added support for all unlicensed Genesis games that I know of.
+
+* Added support for the Sega Virtua Processor (SVP). Thanks to the reverse
+  engineering work by the amazing Tasco Deluxe, and the proof of concept
+  emulator by Notaz, I was able to write and debug my ASM core for this in
+  just two days.
+
+* Removed some filtering in YM2612 SuperHQ mode (you won't actually notice)
+  and instead added a "Filter" option to the sound menu. This filter is
+  very close to that in a real Model 1 Genesis/MegaDrive. Most people will
+  want to leave this off (me included) but I know some people wanted it.
+
+* Removed 11025Hz option. It was causing me problems, doesn't work well on
+  most newish hardware, and sucked anyway.
+
+* Added preliminary Sega Pico support. There's a lot more I plan to do with
+  this. For now, just load as a Genesis ROM. Mouse is required for Pico,
+  along with the following controls: START switches between StoryWare and
+  trackpad, B is the pico red button, A and C turn pages, and U/D/L/R are,
+  well, U/D/L/R. 
+
+* Added ability to create 128K SegaCD RAM carts to keep SpinelSun happy ;-)
+
+* Added two controller sharing options for Netplay. Everybody can now share
+  controller one, or all controllers. The latter isn't very useful, but why
+  not.
+
+* Added "Nearest Multiple" option to the Video Menu. The various Aspect
+  modes do what they have always done when this option is enabled, but now
+  when it is disabled, they will allow non-multiple stretching while still
+  keeping the aspect ratio correct.
+
+* Added "Use NTSC Aspect" option to the Video Menu. This used to be done
+  automatically under certain conditions, now you have full control.
+
+* Added Pause Emulation feature.
+
+* Added Frame Advance feature.
+
+* Added No Frame Skipping feature. You should pretty much ignore this and
+  let Kega do what is best. But it does also trigger a special case mode
+  when you have VSync enabled, and you hit Fast Forward. Normally, VSync
+  is ignored during Fast Forward, or else Fast Forward wouldn't actually
+  do very much. With No Frame Skipping enabled, it will still do VSyncs.
+  This might be useful to you if your video mode is running at some odd
+  refresh rate. Note that the sound could well sound awful if you do this.
+
+* Added AVI Logging using custom Kega Game Video 1 lossless codec. This is
+  needed because logging RAW video causes poor performance even on highend
+  machines, and using any of the available codecs either doesn't compress
+  well enough to fix that, or does compress well enough, but can't keep up
+  with 60fps, so you get poor performance either way. The codec is able to
+  use hints from the emulator to aid in compression, allowing pretty good
+  compression while taking very little CPU time. The codec to allow you
+  to play back and convert the files is included in the archive, and can
+  be installed via right clicking on the INI file and telling the OS to
+  continue with the install. Tested on XP and Vista64, should work fine
+  on 9x and Vista32.
+
+  Note that these AVI files are not really meant to be shared as they are,
+  it's just a way for you to log video without horrible laggy gameplay.
+  Convert them to Xvid or something using the excellent VirtualDub program
+  (Google it.) I'll open up this codec sometime later incase it's useful
+  for other purposes/programs.
+
+* Disabled BIOS use where possible during Netplay games, to prevent out
+  of sync errors when people had different combinations of BIOS/NO BIOS/
+  Different BIOS.
+
+* Netplay Games should now automatically change your country code to that
+  of the host.
+
+* Added Fast 32X Timing option. This is mainly for development. If you
+  don't know what this is for, leave it disabled.
+
+* Added CartBoot option, which is enabled via INI file only. Again, if
+  you don't know what this is for, leave it disabled.
+
+* Kega Fusion now runs beautifully under Vista.
+
+Kega Fusion was already more accurate than any other emulator, this time
+around, thanks to various internal tweaks, and removing of left-over test
+code, it SHOULD be more accurate than ever before :-)
+
+I don't think I broke anything, but there have been some very big changes
+and I have changed machines and build environments twice since the last
+version, so it's entirely possible. Please let me know if I have.
+
+I'll just add here that several people assumed Kega was 'dead' because I
+hadn't updated it for a long time. Rest assured, this is not the case.
+Nothing is 'dead' unless I say otherwise. I may well have some problems,
+or even other projects, that take all my time. But just like Arnie, I'll
+be back.
+
+Gotta go, busy busy busy...
+
+Snake.
+kega kat at gmail dot com (withnospacesanywhere)
+
+
+---------------------------------------------------------------------------
+Kega Fusion v3.51 (C) Steve Snake 2006
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+Quick Update:
+
+* Fixed Netplay Connection issue.
+
+* Fixed Netplay Dialogs in Fullscreen mode.
+
+* Config of Player 1 (the Host) is now copied to other players in Netplay.
+
+* Re-added another deleted line, the sound effects in Ecco work again.
+
+* Fixed a Timing issue, Street Racer works again.
+
+* Fixed DMA issue with Powermonger.
+
+* Fixed SMS NMI issue.
+
+
+That's all for now,
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v3.5 (C) Steve Snake 2006
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+Lots of stuff that I did months ago, and now have completely forgotten...
+However here is the stuff that I remember doing.
+
+* Rewrites to lots of Genesis and 32X side stuff. Should fix things I broke
+  in 3.4, and is very slightly faster. Hopefully nothing is broken.
+
+* Re-added one line of ASM to the 32X emulation which must have gotten
+  deleted a long time ago. Now disolveable objects in Chaotix work again.
+
+* Fixed the SegaCD Fader.
+
+* Fusion now supports more MP3 formats than Winamp does - i.e. all of them.
+  44100Hz Stereo is still recommended, but not neccessary.
+
+* Seeking within MP3s works now. Not sure about VBR files though.
+
+* Blackthorne 32X sound glitch fixed - it now performs exactly as on real
+  hardware.
+
+* Controller config rewrite. You can now define directions for controllers
+  as well as buttons.
+
+* VGM Log now logs VGM1.10 format files, which should be much smaller. You
+  can change back to VGM1.01 if you need to by editing the VGM_Version
+  setting in the INI file. (16,1 for VGM1.10, 1,1 for VGM1.01)
+
+* Added 'ForceSWBuffer' sound compatibility option. This is set to 1 by
+  default because this is the preferred option. However if you are getting
+  no sound (due to buggy drivers), or your framerate fluctuates for no
+  reason, you can try setting this to 0.
+
+* Drag and drop support added.
+ 
+* Brighten option for those that prefer a slightly brighter palette.
+
+* Preliminary Netplay support. You MUST read the README.TXT to learn how to
+  use this feature.
+
+LOTS more stuff - if you find something, please tell me ;)
+
+Happy new year!
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v3.4 (C) Steve Snake 2005
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+July 2nd, 2005:
+---------------
+
+* Split this file into README.TXT and HISTORY.TXT and basically redid
+  README.TXT. Some of the info in there was very out of date, and there
+  is some very important info I needed to add for this version.
+
+* Fixed a minor sound issue I forgot to take care of last time.
+
+* Rewrote High Priority stuff, now sets the priority differently.
+
+* Added Keyboard Shortcut for CVBS TV Mode that I forgot to add before.
+
+* Fixed GameGear Zoom with Render Plugins.
+
+* Added option (set via ini file only) to disable the TV static effect.
+  There isn't really any need to do this because it takes close to zero
+  CPU time anyway. Still - StaticDisabled=1 turns it off.
+
+* Fusion now remembers it's window coordinates between sessions.
+
+* Added selectable (via ini file only) refresh rates for PAL and NTSC.
+  See the section in README.TXT on EXPERT OPTIONS for more info.
+
+* Added the ability to specify what video modes etc. are used, and to have
+  the mode switched automatically. See the section in README.TXT on
+  EXPERT OPTIONS for more info.
+
+* Improved Command Line support. You can still specify which console to
+  start up, as before, but now it should not be neccessary, as Fusion
+  will try to detect this automatically. You can now specify options and
+  filename in any order. You can now start Fusion without a file if you
+  really want to.
+
+* Changed all references to the SegaCD "Internal RAM" to "Built-In RAM" to
+  match what the BIOS calls it. This will probably be less confusing to
+  people trying to understand the following feature... I did not alter
+  the filename used for "Per BIOS" saves, for compatibility reasons.
+
+* Added new functionality to the Load RAM Cart option - now it is valid to
+  load a Gens-style file here. You will be given the option to load the
+  Built-In RAM or the Cartridge RAM part of this file. The part you select
+  will be converted into Cartridge RAM and loaded, the original file will
+  not be altered. Now it is much easier for you to copy data from either or
+  both parts of a Gens save into your normal Built-In RAM file.
+
+* Added File History. CTRL-ALT-L will load the most recently used file.
+  (be sure to disable key shortcuts if you're likely to use these three
+  keys while playing ;)) There is another (ini file only) option related
+  to the File History - ShortenHistoryNames=1 will show just the file name
+  rather than the full path name in the History.
+
+* Fusion now supports the 'Illegal' 32X video mode correctly.
+
+* Fixed crash bug that could occur if you tried to load some invalid file
+  as a SegaCD image.
+
+* Fixed occasional crash bug with The Incredible Hulk.
+
+* Fixed a couple of problems I found with SMS/GG emulation - Terminator 2
+  The Arcade Game (GameGear) no longer has palette problems as a result,
+  this probably fixed other games too.
+
+* Fixed Counter problem with Samurai Showdown.
+
+* Fixed strange problem that could occur when loading certain games after
+  Sonic 3.
+
+* Fixed problem I seem to have introduced last year sometime with Sonic CD.
+
+* Fixed excessive music slowdown issue with the Thunderforce games. Fusion
+  now behaves exactly like the real hardware - meaning it still slows down
+  sometimes, but only very slightly.
+
+* Fixed problem that occurs when you die on the second level of SoulStar
+  (SegaCD). The music and the game will now continue as normal.
+
+I also made a lot of other changes to try to resolve certain other issues,
+but the details of all that is unimportant.
+
+July 13th, 2005:
+----------------
+
+Spent the last 11 days writing and rewriting and rewriting the following
+until I was happy enough with it to release it:
+
+* New Event System that allows me to trigger certain events on a cycle
+  accurate basis, WITHOUT making any noticable performance hit. This code
+  is still very experimental, and so far is enabled for Genesis/MegaDrive
+  games only (its disabled when the 32X is in use.) I still need to refine
+  this and make sure it doesn't break anything before I consider it done.
+  The upshot of all this is basically that Sesame Street Counting Cafe now
+  runs exactly as on a real console, for the first time. A lot of work for
+  one (not very good) game? Hell yes ;) I don't think it will affect any
+  other game but I guess we'll see. 
+
+* Altered some other video related timings in order to make the above stuff
+  work. This affects all consoles, hopefully in a positive way ;)
+
+That's all for now,
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v3.3 (C) Steve Snake 2005
+---------------------------------------------------------------------------
+
+Well it took just a bit longer to get my life back than it was supposed to.
+Hopefully things go well in the next month or so, because I still have some
+major rewriting as well as some huge features planned. Would be a shame if
+they don't happen.
+
+Most of the changes in this version were done shortly after v3.2 was
+released, right before any concept of 'free time' vanished completely.
+I've forgotten most of what I did - there were some pretty major changes
+behind the scenes, and I may have broken stuff / forgot to take some test
+code out... but everything seems stable to me, so here goes. It's a big
+one, and this is just what I made a note of...
+
+Whats New ?
+-----------
+
+* Removed the BETA status. It was only really there because I never like to
+  say something is finished until I'm done with it. But, yet again, some
+  people won't bother to try 'Beta' software...
+
+* Fixed problem relating to GameGear/Master System and saving GameGenie
+  codes.
+
+* Re-added code to look for MP3 ID3 tags. There should be no problem with
+  MP3s now. However - if your MP3s are playing at the wrong speed, or not
+  at all, then make sure they are 44100Hz Stereo MP3s! These are supposed
+  to be CD Audio tracks, you know ;)
+
+* Fixed silly problem where I forgot to alter the size of a YM2612 buffer.
+  All YM2612 related sound problems should be gone, and the core should
+  now be pretty much 100% accurate to real hardware.
+
+* 32X PWM sound is now hardware accurate.
+
+* Improved SMD/BIN detection, should have less problems loading odd sized
+  BIN files.
+
+* Added an option to set Fusion to run at High Priority. This option does
+  a couple of other things too, such as change the way that Fusion gives
+  up time to other apps (making it give up very little.) Probably makes
+  sense to turn off 'Sleep while Waiting' while using this option, too.
+
+* Rewrite of a fair bit of the Genesis VDP functions.
+
+* Added another TV Mode, slightly less blurry (but not much)
+
+* Added an option to disable all keyboard shortcuts (except the ESC key)
+  for those people who had problems with accidentally triggering a menu
+  while playing.
+
+* Alt-Enter now switches between full screen / windowed as well as the
+  ESC key. I never really liked this behaviour, but it was requested.
+
+* Added another 'Fixed Aspect' option. Whereas the first will try to best
+  fit the image within your display, this one basically does the opposite.
+  Example: if you have a widescreen TFT monitor, this option will try to
+  best fill the width of your monitor. Clipping may occur at the top and
+  bottom instead of getting big black bars at the left and right. This
+  also works the other way if your monitor is taller than it is wide.
+  I know some people will prefer this.
+
+* Fixed problems related to the Genesis OS ROM and resetting / saving /
+  loading states.
+
+* Added seperate folders for SMS and GG Patch (i.e. GameGenie) Files.
+
+* Fixed bug where SMS Save States ended up in the Genesis Save State
+  folder.
+
+* Added Screenshot function. By default Fusion will save compressed TGAs,
+  but since some art packages have problems with these, you can instead
+  select uncompressed TGAs, or BMPs. Be aware though that these files can
+  get quite big ;)
+
+* Tidied up all use of Load/Save dialogs to prevent loading of non existant
+  files, creating save states with invalid names, and other things that
+  could be done accidentally.
+
+* Fixed timing issue when sound is disabled.
+
+* Added dialogs when the user attempts to use the SegaCD RAM cart options
+  when the SegaCD is not running, hopefully this should help prevent all
+  the confusion surrounding RAM carts.
+
+* SegaCD RAM carts are now created as CRM files to distinguish them from
+  internal BRM files. You can still load BRM files in the same way as
+  before.
+
+* When Fusion detects a Gens format BRM file, it will create a backup, and
+  then create seperate BRM and CRM files out of it. It will also alert the
+  user to the fact that it has done this. This should prevent people from
+  managing to corrupt their save files among other things. Now all we need
+  is to get Gens itself to do this and the nightmare will be over.
+
+* Made a few changes to the way SegaCD BRM/CRM is loaded/saved in order to
+  prevent any possibility of data loss (all related to the above).
+
+* Fusion is now compatible with Windows XP Visual Styles.
+
+* 32X emulation is now far more accurate. Primal Rage, Shadow Squadron,
+  Toughman Contest, Pitfall, Virtua Racing and Mortal Kombat now perform
+  exactly as on real hardware. Some of these problems took a HUGE amount
+  of time to track down, and understand, but I think it's worth it. I
+  don't believe any other emulator can run all of these games accurately.
+
+* 32X BIOS is no longer required. This hasn't received any serious testing
+  but seems to work fine. If Fusion cannot load one or more of the 32X
+  BIOS files it will default to not using them. If you find any problems
+  you should probably test with a real BIOS to make sure that isn't the
+  cause.
+
+* A MASSIVE amount of behind the scenes stuff and other stuff that I've
+  forgotten. You may notice this version is faster/slower than previously,
+  I'm really not sure about that yet ;)
+
+Have fun, hopefully I fixed everything, and broke nothing.
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v3.2 BETA (C) Steve Snake 2005
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+Again, another quick update:
+
+* Fixed another YM2612 bug that I added in 3.11 - I accidentally deleted
+  one line of code that I thought shouldn't be there while fixing the other
+  bug from version 3.1. Doh.
+
+* Rewrote another part of the YM2612 core. Should now be pretty much
+  perfect.
+
+* 32X PWM should now be the correct volume. I haven't noticed any nasty
+  clipping yet, but if you do, just turn off overdrive.
+
+* Slight change to SegaCD PCM. Don't know if this affects anything.
+
+* Various internal changes that should hopefully make MP3 decoding work
+  properly when VSync is on, or some slow render plugin is being used.
+
+Now, this time, I really DO mean "Next update will come when I get my
+life back." Hopefully this is only a month or so away. We shall see.
+
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v3.11 BETA (C) Steve Snake 2005
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+VERY quick one...
+
+* Fixed silly YM2612 bug that I added in the last version.
+
+* Now selecting -fullscreen from the command line will not alter fullscreen
+  setting in the INI file.
+
+That's pretty much it, the last version was unusable because of the silly
+YM2612 bug, so I needed to get a new version out quickly. I had a look at
+the MP3 problem some people were reporting, and made a small change to
+fullscreen mode which *might* help. I'll need to rewrite my entire CDDA
+handling code to make any real improvement, though... Some other time.
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v3.1 BETA (C) Steve Snake 2005
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+Just a quick update:
+
+* Rewrote a big part of the YM2612 core. This should now be very close to
+  perfect. However, I'm not in a position to give it any major testing, I
+  may have broken something...
+
+* Fixed 32X Border Colour.
+
+* Slight alteration to MP3 support - not that I could get it to go wrong,
+  but now it should work without problems on all systems.
+
+* Fixed Fullscreen / Escape key problem when running from a command line.
+
+* (Hopefully) Fixed Fullscreen problem when starting up. This is actually
+  a graphics driver issue, but hopefully my workaround should eliminate
+  the problem.
+
+* Slight change to controller code, now invalid settings such as UP+DOWN at
+  the same time cannot be performed.
+
+The YM2612 core was the biggie, spent 99% of my free time on that one. I'm
+sure I fixed a couple of other things too, but I forgot ;-)
+
+Next update will come when I get my life back. I'm sure everybody will have
+a big list of requested features by then :D
+
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v3.0 (Maple) BETA (C) Steve Snake 2005
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+Well, since I only just got my PC back, and since my free time right now
+is totally non-existant, far less than I hoped to have done. But rather
+than delay this any longer, since I *have* added a lot of features that
+various people have been asking for for a while now, I'm making another
+release.
+
+You may have noticed the big jump in the version number? Somebody commented
+that they didn't bother trying Fusion, because of the low version number...
+Well, since there has been Kega, Lazarus, and now Fusion, that makes this
+Kega 3.0, right? ;-)
+
+* Fixed problem with 32X PWM when changing SampleRate.
+
+* Added Genesis Border Colour Emulation, and option to disable it.
+
+* Small fix to 6 button pad code (Double Switch - thanks TascoDeluxe).
+
+* Much improved Sega Mouse support.
+
+* Config Dialog now remembers what page you were on :-)
+
+* Removed ISO/BIN reading for SegaCD - this is now handled by the BIN/CUE
+  engine. You won't notice any difference, but trust me, its better ;-)
+
+* Fixed bug in BIN/CUE engine when multiple files were used.
+
+* Added MP3 support to the BIN/CUE engine. Yes, this means that Fusion now
+  supports ISO/MP3. Fusion uses the Windows Codec and therefore contains
+  no patented algorithms. Too many people asked for this feature, so
+  although I didn't really want it, it's now there.
+
+* VSync now works in Windowed mode. Be aware that this can severely slow
+  down the emulator, especially if your monitor is not set to a multiple
+  of 50hz or 60hz, depending on the region of the game you are playing.
+
+* Made improvements to both Standard and Alternate Timing modes.
+
+* Added Pro Action Replay support for the Genesis.
+
+* Added GameGenie and Pro Action Replay support for the GameGear and Master
+  System.
+
+* Added CodeFinder for Pro Action Replay.
+
+* Fusion should now be compatible with WinXP Visual Styles.
+
+* Added "Fast Forward" mode. Probably doesn't work if VSync is enabled...
+
+* Various small optimisations.
+
+* Fixed a couple of minor issues affecting the SegaCD BIOS CD Player only.
+
+* When Fixed Aspect is disabled, Filtering is enabled, and you are running
+  an NTSC (USA/JAP) game, the screen will now be slightly stretched. This
+  works for all consoles. Stretching does not happen for PAL games, because
+  PAL TVs show more lines than NTSC TVs, and because some PAL games use the
+  extra portion of the screen (Virtua Fighter 32X, for example). And no, it
+  doesn't completely remove the Master System border. That would look very,
+  very wrong.
+
+* Now supports up to 24 Render Plugins. This should now be way more than
+  enough.
+
+* Switched around the naming of the various Scanline modes. People like it
+  better this way.
+
+* Fusion will now start in fullscreen mode if it was exited from that mode.
+
+* Other stuff that I've forgotten.
+
+
+Still some major work planned for Fusion, once I get my life back...
+
+
+Anyway, hope you like the additions to this release, and hope I didn't
+break anything. I'll have to start documenting some of this stuff properly,
+too.
+
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v0.1e BETA (C) Steve Snake 2004
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+Well I wanted to add some new stuff before releasing another version, but
+since people have been asking, and since I'm not going to be able to do
+anything with it for a while due to "real life" getting in the way, I am
+releasing the current version, which has many small changes and bugfixes.
+
+To be honest I've forgotten most of what I fixed ;-) Anyway, here is the
+stuff I remember:
+
+* Fixed a small problem with the SegaCD CDD
+
+* Fixed VGM issue
+
+* Fixed "Streets of Rage" sound problem
+
+* Discovered what some sound drivers do and worked around it (Thanks to
+  Stone for testing), more machines should now work without having to drop
+  to "Alternate Timing" mode
+
+* Added "Sleep While Waiting" option - NOT recommended because it can cause
+  skipping in the sound and the framerate of the emulator, also not really
+  needed because the emulator *will* give up time to any running program
+  automatically - but since so many people really want to see the task
+  manager showing available CPU time, here it is. Use it if you must. But
+  don't complain about choppy frame rates ;-)
+
+* Upped the number of render plugins to 16
+
+* Updated render plugin system to allow for 2x, 3x and 4x scalers. (Only
+  works in Enhanced GFX mode)
+
+* Render plugins can now go into a "Plugins" folder to avoid clutter
+
+* Lots of other fixes which I really can't remember now.
+
+More to come when my life gets back to something resembling "normal".
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v0.1d BETA (C) Steve Snake 2004
+---------------------------------------------------------------------------
+
+Whats New ?
+-----------
+
+Yet Another Quick Update:
+
+* Fixed Turrican (Genesis)
+
+* Improved Command Line Support
+
+* Forgot to add the 6 button changes to Alternate Timing mode. Is there now.
+
+* Added GameGear Zoom Mode
+
+* Added "Scanlines 0%" option and seperated them from the other options. Now you can
+  select the type of Scanlines you want in any of the renderers
+
+* Switched Power On and Soft Reset around, hopefully people will now only use the
+  Soft Reset function when its actually useful ;-)
+
+* Added "ForceFullScreen32" INI file setting
+
+
+Command Line works as follows:
+
+Fusion gamename.ext [console] [country] [-fullscreen]
+
+Console options are: -sms, -gg, -gen or -md or -32x, -scd or -mcd
+Country options are: -usa -jap -eur or -auto
+
+Default console is Genesis/Megadrive.
+Default country is whatever is set in the INI file, i.e. whatever was last used.
+
+Apart from the filename, which must come first, all options can be in any order,
+and are optional.
+
+When using the -fullscreen option, the ESCAPE key will exit the emulator.
+
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v0.1c BETA (C) Steve Snake 2004
+---------------------------------------------------------------------------
+
+
+Whats New ?
+-----------
+
+Another Quick Update:
+
+* Fixed Spiderman (32X)
+
+* Fixed Joe and Mac (Genesis)
+
+* Fixed Pirates Gold (Genesis)
+
+* Fixed "Red Bar"
+
+* Modified 6 Button Controller Code
+
+* Added Command Line Support
+
+* Another small modification to the Graphics code
+
+* Added Message Box for first time run to try and cut down the number of
+  people asking about the graphics settings...
+
+
+Thats all for now,
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v0.1b BETA (C) Steve Snake 2004
+---------------------------------------------------------------------------
+
+
+Whats New ?
+-----------
+
+Quick update:
+
+* Fixed the problem whereby you couldn't define the space bar as a key.
+
+* Modified Graphics Code. Should now work by default on more systems.
+
+* Moved the INI file settings to the top of the file for easier access.
+
+* Added Render Plugin Support
+
+The Graphics stuff and INI file editing:
+
+There are now 4 different modes you can try - by default it uses a more
+compatible, but possibly slower mode. If everything works fine you can
+try setting EnhancedGFXOpt to 1 to see if that also works - this is usually
+the fastest mode. If neither enhanced mode 0 or 1 work, you can set
+ForceCompatibleGFX to 1, and then try CompatibleGFXOpt at 0 or 1 to see
+which is the fastest. Also, on some older cards the enhanced mode may be
+quite slow - if this is the case you should use Compatible mode.
+
+I hope that this now works on a much wider range of graphics cards - let
+me know :)
+
+Snake.
+
+---------------------------------------------------------------------------
+Kega Fusion v0.1 BETA (C) Steve Snake 2004
+---------------------------------------------------------------------------
+
+Initial Release.
+
+
+---------------------------------------------------------------------------
+'Previously on 24'
+---------------------------------------------------------------------------
+
+KGen             - DOS based emulator for the Sega MegaDrive/Genesis.
+                   Highly optimised for Pentium class CPUs. Could run most
+                   games at double speed on a P200. First emulator in the
+                   world to *ever* attempt realtime FM synthesis. They said
+                   it couldn't be done.
+
+KGen98           - New and improved version of KGen. Faster, more features,
+                   more accurate, better sound, better compatibility.
+
+Kega             - Windows based emulator for the Sega SG-1000, SC-3000,
+                   Master System, Game Gear, MegaDrive/Genesis, and MegaCD/
+                   SegaCD. Completely new code. First emulator in the world
+                   to run the game 'Gargoyles' and several others.
+
+Kega Lazarus     - Attempt to rewrite after losing the entire source code
+                   for Kega.
+
+Kega Lazarus SE  - Second rewrite. Improvements and new features.

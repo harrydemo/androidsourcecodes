@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="24" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="Grass" tilewidth="20" tileheight="20">
+  <image source="gfx/Grass.png" width="80" height="160"/>
+ </tileset>
+ <tileset firstgid="33" name="Goals" tilewidth="20" tileheight="20">
+  <image source="gfx/Goals.png" width="60" height="60"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YSwqDQBQEn0oiBMxHzT/3P2daMCBDtlNv0w21LmrbTUS0ogtmzerLYGncib3oa4eu+/ky6COvdxBHcajMSZwjv/ciRsA3iTnyeylf6XQv56bmXvcSbmrudS/hpuZe9xJuau51L+Gm5l73Em5q/3qv4lbZexcP0Fc6t71P8Yq6f+hbfEBf6Vz4AvPLyn2AFgAA
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="60" height="24">
+  <properties>
+   <property name="type" value="wall"/>
+  </properties>
+  <object x="3" y="460" width="1197" height="14"/>
+  <object x="1035" y="472" height="1"/>
+  <object x="563" y="3" width="55" height="464"/>
+  <object x="1142" y="3" width="55" height="464"/>
+  <object x="4" y="1" width="55" height="464"/>
+  <object x="621" y="-1" width="518" height="63"/>
+ </objectgroup>
+ <objectgroup color="#00ff7f" name="Elements" width="60" height="24">
+  <object name="goal" x="661" y="387" width="32" height="52">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="type" value="goal"/>
+   </properties>
+  </object>
+  <object name="ball" x="104" y="384" width="29" height="27">
+   <properties>
+    <property name="type" value="ball"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="840" y="232">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="531" y="221">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Teleport" x="101" y="138">
+   <properties>
+    <property name="name" value="target1"/>
+    <property name="target" value="target2"/>
+    <property name="type" value="teleport"/>
+   </properties>
+  </object>
+  <object name="Teleport" x="1050" y="149">
+   <properties>
+    <property name="name" value="target2"/>
+    <property name="type" value="teleport"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff007f" name="Objects" width="60" height="24">
+  <properties>
+   <property name="type" value="object"/>
+  </properties>
+ </objectgroup>
+</map>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <ImageView
+			android:id="@+id/mBackground"
+			android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" 
+			android:scaleType="fitXY"
+	        android:src="@drawable/background" />
+	        
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/mScreen"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical" >
+	
+		<LinearLayout 
+			android:minHeight="170dp"
+		    android:layout_height="170dp"
+		    android:layout_width="fill_parent"
+			android:paddingTop="10dp"
+			>
+		    <Gallery
+		       android:id="@+id/gallery1"
+		       android:animationDuration="50"
+			   android:spacing="7dp" 	 
+			   android:unselectedAlpha="0.3"
+		       android:layout_width="fill_parent"
+		       android:layout_height="wrap_content" />
+	
+		</LinearLayout>	
+		<LinearLayout 
+			android:orientation="vertical"
+		    android:layout_height="fill_parent"
+		    android:layout_width="fill_parent"
+		    android:gravity="center_horizontal" 
+			>
+		        <TextView android:text="Map 1: The field of grass."
+					android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:gravity="center"
+		            android:textStyle="bold"
+					android:textSize="16sp"
+		            android:textColor="#000000"
+					android:id="@+id/maptext"
+					android:layout_weight="1"
+					>
+					</TextView>
+
+
+				<LinearLayout
+					android:orientation="horizontal"
+				    android:layout_height="162dp"
+				    android:layout_width="wrap_content"
+				    android:layout_weight="1"
+				    android:gravity="center" 
+				>
+
+					<LinearLayout
+						android:orientation="vertical"
+					    android:layout_height="wrap_content"
+					    android:layout_width="wrap_content"
+					    android:gravity="left" 
+					    >
+	
+						<LinearLayout
+							android:orientation="horizontal"
+						    android:layout_height="wrap_content"
+						    android:layout_width="158dp"
+						    android:gravity="left|center_vertical" 
+							android:padding="2dp"
+							>
+			
+							<ImageView
+								android:id="@+id/StartGameImageViewEasy"
+								android:layout_width="50dp"
+								android:layout_height="50dp"
+				        		android:scaleType="fitXY"
+								android:layout_gravity="center"
+								android:gravity="center"
+				        		android:src="@drawable/level_easy" />
+							
+							<RadioButton 
+								android:id="@+id/radioEasy" 
+								android:layout_width="wrap_content" 
+								android:layout_height="wrap_content"
+								android:text="Easy" 
+								android:textColor="#000000"
+								android:textStyle="bold"
+							>
+							</RadioButton>
+							
+						</LinearLayout>
+			
+						<LinearLayout 
+							android:orientation="horizontal"
+						    android:layout_height="wrap_content"
+						    android:layout_width="158dp"
+						    android:gravity="left|center_vertical" 
+							android:padding="2dp"
+							>
+									
+					        <ImageView
+								android:id="@+id/StartGameImageViewNormal"
+								android:layout_width="50dp"
+								android:layout_height="50dp"
+				        		android:scaleType="fitXY"
+								android:layout_gravity="center"
+								android:gravity="center"
+				        		android:src="@drawable/mrrabbit" />
+			
+					        <RadioButton android:id="@+id/radioNormal" 
+								 android:text="Normal" 
+								 android:textColor="#000000"
+								 android:checked="true"
+				 				 android:textStyle="bold"
+				       			 android:layout_width="wrap_content" 
+			        			 android:layout_height="wrap_content">
+					        </RadioButton>
+					        
+			
+						</LinearLayout>			        		
+			   			<LinearLayout 
+						android:orientation="horizontal"
+					    android:layout_height="wrap_content"
+					    android:layout_width="158dp"
+					    android:gravity="left|center_vertical" 
+						android:padding="2dp"
+						>
+			        		<ImageView
+								android:id="@+id/StartGameImageViewHard"
+								android:layout_width="50dp"
+								android:layout_height="50dp"
+				        		android:scaleType="fitXY"
+								android:layout_gravity="center"
+								android:gravity="center"
+			        			android:src="@drawable/level_hard" />
+			
+			        		<RadioButton  
+								android:text="Hard" 
+								android:textColor="#000000"
+								android:textStyle="bold"
+			   					android:id="@+id/radioHard" 
+			   					android:layout_width="wrap_content" 
+			   					android:layout_height="wrap_content">
+			        		</RadioButton>
+					
+					</LinearLayout>	
+				</LinearLayout>
+								
+							<LinearLayout
+							android:orientation="vertical"
+						    android:layout_height="162dp"
+						    android:layout_width="wrap_content"
+						    android:gravity="left|center_vertical"
+							>
+
+							<RadioButton 
+								android:id="@+id/radioNormalGame" 
+								android:layout_width="wrap_content" 
+								android:layout_height="wrap_content"
+								 android:checked="true"
+								 android:text="Normal game" 
+								android:textColor="#000000"
+								android:textStyle="bold"
+							    android:layout_weight="1"
+							>
+							</RadioButton>
+							<RadioButton 
+								android:id="@+id/radioSurvivalGame" 
+								android:layout_width="wrap_content" 
+								android:layout_height="wrap_content"
+								android:text="Survival game" 
+								android:textColor="#000000"
+								android:textStyle="bold"
+			    				android:layout_weight="1"
+			    			>
+							</RadioButton>							
+
+							<View
+					        	android:layout_height="54dp"
+					        	android:layout_width="wrap_content"
+					        	android:background="#00000000" />	
+					        	
+						</LinearLayout>
+				
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="vertical"
+			    android:layout_height="wrap_content"
+			    android:layout_width="wrap_content"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    >
+		        <Button
+					android:id="@+id/startmap"
+					android:background="@drawable/xml_button_startgame"
+				    android:scaleType="fitXY"
+					android:layout_width="130dp"
+					android:layout_height="38dp"
+					>
+				</Button>
+			</LinearLayout>
+		
+	</LinearLayout>
+		
+	</LinearLayout>
+</FrameLayout>
+	

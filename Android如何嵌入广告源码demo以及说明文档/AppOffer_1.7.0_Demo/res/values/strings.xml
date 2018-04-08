@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DemoActivity!</string>
+    <string name="app_name">Demo1.7.0</string>
+    
+    <string name="offerList">Offers</string>
+    <string name="gameOfferList">GameOffers</string>
+    <string name="appOfferList">AppOffers</string>
+    <string name="spendPoints">SpendPoints(-10)</string>
+    <string name="awardPoints">AwardPoints(+10)</string>
+    <string name="feedback">Feedback</string>
+    <string name="ownsApp">OwnsApp</string>
+    <string name="diyAd">DiyAd</string>
+    <string name="diyAdList">DIY AD List</string>
+    <string name="checkUpdate">CheckUpdate</string>
+    
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- App title. -->
+    <string name="title">Scrambled Net</string>
+    
+    <string name="description">A computer networking puzzle game.</string>
+
+
+    <!-- Splash screen / help text. -->
+    <string name="splash_text"><b>Scrambled Net</b>\n\nConnect the
+terminals to the server by rotating the tiles.  Select tiles with
+the arrows; press Z, N or 4 to rotate a tile left; M, X or 6 to rotate
+right; tap the screen if your device supports it.  Press space or
+0 to lock a tile when you think it\'s correct.\n\nTiles which 
+are connected are shown highlighted.  Use the menu to
+select different skill levels, pause the game, or start a new
+game.\n\n<b>Tap the screen to start.</b></string>
+       
+    <string name="help_text"><b>Scrambled Net</b>\n\nConnect the
+terminals to the server by rotating the tiles.  Select tiles with
+the arrows; press Z, N or 4 to rotate a tile left; M, X or 6 to rotate
+right; tap the screen if your device supports it.  Press space or
+0 to lock a tile when you think it\'s correct.\n\nTiles which 
+are connected are shown highlighted.  Use the menu to
+select different skill levels, pause the game, or start a new
+game.\n\n<b>Tap the screen to resume.</b></string>
+       
+    <string name="about_text"><b>Scrambled Net</b> based on KNetwalk by
+Andi Peredri, Thomas Nagy, and Reinhold Kainhofer.  Includes MTRandom
+by David Beaumont.  Ported to Android by Ian Cameron Smith
+(headstay).\n\nFor information and source code see
+the project home page: http://code.google.com/p/netscramble/.\n\nThis
+program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.\n\nThis program is distributed in the
+hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License at http://www.gnu.org/licenses/gpl-2.0.html
+for more details.\n</string>
+
+      
+    <!-- Help texts for specific skill levels. -->
+    <string name="help_master">At Master level, the board edges wrap around;
+cells on the right edge connect to those on the left edge, and vice
+versa.  Similarly for the top and bottom edges.</string>
+
+    <string name="help_insane">At Insane level, the board edges wrap around;
+cells on the right edge connect to those on the left edge, and vice
+versa.  Similarly for the top and bottom edges.  But in addition, in
+cells with 3 or 4 connections, the wiring is invisible.  Good luck!</string>
+
+
+    <!-- Text displayed in pause mode. -->
+    <string name="pause_text">\n\n<b>Game Paused</b>\n\n\n\n<b>Tap
+the screen to continue.</b></string>
+
+
+    <!-- Win dialog strings. -->
+    <string name="win_title"><b>You win!</b></string>
+    <string name="win_text">Congratulations!  You solved the puzzle
+in %1$d:%2$02d, using %3$d clicks.\n\nClick "New Game" for a new game,
+or "Continue" to experiment with this layout.</string>
+    <string name="win_spares_text">Congratulations!  You solved the puzzle
+in %1$d:%2$02d, using %3$d clicks, and with %4$d pieces left over!\n\nClick
+"New Game" for a new game, or "Continue" to experiment with
+this layout.</string>
+    <string name="win_new">New Game</string>
+    <string name="win_continue">Continue</string>
+
+    <string name="about_title">About</string>
+
+    <!-- Button strings. -->
+    <string name="button_ok">OK</string>
+    <string name="button_close">Close</string>
+    <string name="button_license">Show license</string>
+    <string name="button_homepage">Home page</string>
+    
+    
+    <!-- Menu strings. -->
+    <string name="menu_game_new">New game</string>
+    <string name="menu_game_pause">Pause</string>
+    <string name="menu_set_skill">Skill level</string>
+    <string name="menu_sound">Sound...</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="no_sounds">No sounds</string>
+    <string name="quiet_sounds">Quiet sounds</string>
+    <string name="play_sounds">Full sounds</string>
+    
+    
+    <!-- Skill levels. -->
+    <string name="skill_novice">Novice</string>
+    <string name="skill_normal">Normal</string>
+    <string name="skill_expert">Expert</string>
+    <string name="skill_master">Master</string>
+    <string name="skill_insane">Insane</string>
+    
+    <!-- URLs. -->
+    <string name="url_license">http://www.gnu.org/licenses/gpl-2.0.html</string>
+    <string name="url_homepage">http://code.google.com/p/netscramble/</string>
+
+</resources>

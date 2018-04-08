@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+<integer-array name="chapters"><item>28</item>
+<item>14</item>
+</integer-array>
+<string-array name="chapters_titles">
+    <item>The Beginning</item>
+    <item>Change</item>
+</string-array>
+</resources>

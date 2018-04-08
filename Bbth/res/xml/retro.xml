@@ -1,0 +1,217 @@
+<root mpb="482.1">
+	<pattern id="wtfix">
+		<rest type="eighth" />
+	</pattern>
+
+	<pattern id="testtest">
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+	</pattern>
+
+	<pattern id="start">
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+	</pattern>
+
+	<pattern id="2-rest">
+		<rest type="whole" />
+		<rest type="whole" />
+	</pattern>
+
+	<pattern id="1-rest">
+		<rest type="whole" />
+	</pattern>
+
+	<pattern id="1/4-rest">
+		<rest type="quarter" />
+	</pattern>
+
+	<pattern id="1/2-rest">
+		<rest type="half" />
+	</pattern>
+
+	<pattern id="start-variation">
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+
+		<hold type="quarter" />
+		<rest type="quarter" />
+
+		<hold type="quarter" />
+		<rest type="quarter" />
+	</pattern>
+
+	<pattern id="start-variation-2">
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+
+		<beat type="quarter" />
+		<rest type="quarter" />
+
+		<beat type="quarter" />
+		<rest type="quarter" />
+	</pattern>
+
+	<pattern id="start-variation-3">
+		<hold type="half" />
+		<rest type="half" />
+
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+	</pattern>
+
+	<pattern id="mid-section">
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+	</pattern>
+
+	<pattern id="long-holds">
+		<hold type="half" />
+		<rest type="quarter" />
+		<beat type="quarter" />
+
+		<hold type="quarter" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+	</pattern>
+
+	<pattern id="mid-bridge">
+		<hold type="whole" />
+		<rest type="eighth" />
+	</pattern>
+
+	<song>
+		<load-pattern id="wtfix" />
+		<load-pattern id="start" />
+		<load-pattern id="2-rest" />
+		<load-pattern id="start-variation" />
+		<load-pattern id="2-rest" />
+
+		<load-pattern id="long-holds" />
+		<load-pattern id="1/2-rest" />
+
+		<load-pattern id="long-holds" />
+		<load-pattern id="1/2-rest" />
+
+		<load-pattern id="start-variation" />
+		<load-pattern id="2-rest" />
+
+		<load-pattern id="mid-section" />
+		<load-pattern id="mid-section" />
+		<load-pattern id="1-rest" />
+		<load-pattern id="mid-section" />
+		<load-pattern id="mid-section" />
+		<load-pattern id="1-rest" />
+
+		<load-pattern id="mid-section" />
+		<load-pattern id="1-rest" />
+
+		<load-pattern id="mid-bridge" />
+		<load-pattern id="1-rest" />
+
+		<load-pattern id="mid-section" />
+		<load-pattern id="mid-section" />
+		<load-pattern id="1-rest" />
+
+		<load-pattern id="mid-section" />
+		<load-pattern id="mid-section" />
+		<load-pattern id="1-rest" />
+
+		<load-pattern id="start-variation-2" />
+		<load-pattern id="start-variation-2" />
+		<load-pattern id="2-rest" />
+
+		<load-pattern id="start-variation-3" />
+		<load-pattern id="2-rest" />
+		<load-pattern id="start-variation-3" />
+		<load-pattern id="2-rest" />
+
+		<load-pattern id="start-variation-3" />
+		<load-pattern id="2-rest" />
+
+		<load-pattern id="long-holds" />
+		<load-pattern id="1/2-rest" />
+		<load-pattern id="long-holds" />
+		<load-pattern id="1/2-rest" />
+
+		<load-pattern id="mid-bridge" />
+		<load-pattern id="1-rest" />
+
+		<load-pattern id="mid-section" />
+		<load-pattern id="mid-section" />
+		<load-pattern id="1-rest" />
+
+		<load-pattern id="mid-section" />
+		<load-pattern id="mid-section" />
+		<load-pattern id="1-rest" />
+
+		<load-pattern id="mid-section" />
+		<load-pattern id="mid-section" />
+		<load-pattern id="1-rest" />
+
+		<load-pattern id="mid-section" />
+		<load-pattern id="mid-section" />
+		<load-pattern id="1-rest" />
+
+		<load-pattern id="mid-section" />
+		<load-pattern id="mid-section" />
+		<load-pattern id="2-rest" />
+		
+		<load-pattern id="start" />
+	</song>
+</root>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+	android:id="@+id/relLay1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	> 
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="70dp"
+    android:gravity="center|bottom"
+   	android:orientation="vertical"
+>
+	    <ImageView
+			android:layout_width="260dp"
+			android:layout_height="40dp"
+			android:background="@drawable/multiplayerimage"
+			>
+		</ImageView>
+
+</LinearLayout>
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+   	android:gravity="center"
+  	android:orientation="vertical"
+    android:id="@+id/hostOpt"
+    android:visibility="gone"
+    >
+		
+		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Please select a map:"
+	        android:id="@+id/mapText"
+           	android:textColor="#000000"
+           	android:layout_marginTop="10dp"
+	    />
+		
+		<Spinner android:id="@+id/mapChooser" 
+		        android:layout_width="200dp"
+       			android:layout_height="wrap_content"
+       			android:drawSelectorOnTop="true"
+       			android:prompt="@string/map_prompt"
+       			android:layout_marginBottom="5dp"
+       			>
+		</Spinner>
+
+		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Please select a difficulty:"
+	        android:id="@+id/difText"
+           	android:textColor="#000000"
+	    />
+		
+		<Spinner android:id="@+id/difChooser" 
+		        android:layout_width="200dp"
+       			android:layout_height="wrap_content"
+       			android:drawSelectorOnTop="true"
+       			android:prompt="@string/dif_prompt"
+       			android:layout_marginBottom="5dp"
+       	
+       	>
+		</Spinner>
+
+		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Please select a game mode:"
+	        android:id="@+id/modeText"
+           	android:textColor="#000000"
+	    />
+		
+		<Spinner android:id="@+id/modeChooser" 
+		        android:layout_width="200dp"
+       			android:layout_height="wrap_content"
+       			android:drawSelectorOnTop="true"
+       			android:prompt="@string/mode_prompt"
+       			android:layout_marginBottom="15dp"
+       			>
+		</Spinner>
+
+        <Button
+			android:id="@+id/startHost"
+			android:layout_width="140dp"
+			android:layout_height="38dp"
+	    	android:scaleType="fitXY"
+			android:background="@drawable/xml_button_startgame"
+			android:layout_marginBottom="15dp">
+		</Button>
+
+		
+	</LinearLayout>
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+   	android:gravity="center"
+  	android:orientation="vertical"
+    >
+
+     <Button
+		android:id="@+id/host"
+		android:layout_width="140dp"
+		android:layout_height="38dp"
+    	android:scaleType="fitXY"
+		android:background="@drawable/xml_button_host"
+		android:layout_marginBottom="15dp"
+		android:layout_marginTop="30dp">
+	</Button>
+	<Button
+		android:id="@+id/join"
+		android:layout_width="140dp"
+		android:layout_height="38dp"
+    	android:scaleType="fitXY"
+		android:background="@drawable/xml_button_join"
+		android:layout_marginBottom="15dp">
+	</Button>
+
+    <Button
+		android:id="@+id/back"
+		android:layout_width="140dp"
+		android:layout_height="38dp"
+    	android:scaleType="fitXY"
+		android:background="@drawable/xml_button_menu_back"
+		android:layout_marginBottom="15dp">
+	</Button>
+
+	<TextView
+		android:id="@+id/MpInfo"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:text="Multiplayer uses bluetooth to connect to your opponent. If connection fails, try activating Blutooth and make the device discoverable in Android settings"
+       	android:textColor="#000000" />
+</LinearLayout>
+</LinearLayout>

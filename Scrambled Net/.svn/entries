@@ -1,0 +1,120 @@
+8
+
+dir
+44
+https://netscramble.googlecode.com/svn/trunk/ScrambledNet
+https://netscramble.googlecode.com/svn
+
+
+
+2008-12-01T20:56:29.633305Z
+43
+headstay
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e59a6a6b-4b42-0410-8be4-c94f22e4033b
+
+.classpath
+file
+
+
+
+
+2008-11-11T01:38:33.000000Z
+58747941ca42d0ae60292718dae285f1
+2008-11-14T14:18:08.924493Z
+11
+headstay
+
+.project
+file
+
+
+
+
+2008-11-11T01:38:33.000000Z
+65ed34c969eb55aef4677624609330d0
+2008-11-14T14:18:08.924493Z
+11
+headstay
+
+.settings
+dir
+
+AndroidManifest.xml
+file
+
+
+
+
+2008-12-02T00:32:10.000000Z
+557d5cc7cdbb9fe3a6ccc6bc813b3b31
+2008-12-01T20:56:29.633305Z
+43
+headstay
+has-props
+
+COPYING
+file
+
+
+
+
+2008-11-09T00:17:19.000000Z
+d81b5341e9f7b0a3f654d3ebfd2b8018
+2007-12-27T22:17:36.190864Z
+2
+headstay
+has-props
+
+COPYING-MTRandom
+file
+
+
+
+
+2008-11-09T00:17:19.000000Z
+fbc093901857fcd118f065f900982c24
+2007-12-27T22:17:36.190864Z
+2
+headstay
+
+README
+file
+
+
+
+
+2008-11-22T18:38:41.000000Z
+45f790e11795eed48b7005a00314ae63
+2008-11-22T18:39:16.808453Z
+25
+headstay
+
+SVG icons
+dir
+
+assets
+dir
+
+bin
+dir
+
+res
+dir
+
+src
+dir
+

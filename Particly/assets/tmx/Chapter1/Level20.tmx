@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="24" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="Grass" tilewidth="20" tileheight="20">
+  <image source="gfx/Grass.png" width="80" height="140"/>
+ </tileset>
+ <tileset firstgid="29" name="Goals" tilewidth="20" tileheight="20">
+  <image source="gfx/Goals.png" width="60" height="60"/>
+ </tileset>
+ <tileset firstgid="38" name="Veritcal" tilewidth="32" tileheight="96">
+  <image source="gfx/vertical.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="39" name="Horizontal" tilewidth="96" tileheight="32">
+  <image source="gfx/horizontal.png" width="96" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2Wyw5AQAxFB0Gw9vb/3+kmLGbTjWnpVE9ytjc9YjEhOI7j5EUBS1h9fchL1LCBLcNWDt+Os5dzSwrv1bElhffq2JLCe3VsSeG9OraksNpLvfWs9lK3/LV3hFPC/gwXpq1U4luo3hVu4frnn7jDg2kr1fgWqteqf+/tYG/Y4e48ATX0UZCAFgAA
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="60" height="24">
+  <properties>
+   <property name="type" value="wall"/>
+  </properties>
+  <object x="43" y="402" width="1135" height="75"/>
+  <object x="1035" y="472" height="1"/>
+  <object x="1121" y="319" width="58" height="87"/>
+  <object x="40" y="100" width="60" height="304"/>
+  <object x="422" y="122" width="57" height="281"/>
+ </objectgroup>
+ <objectgroup color="#00ff7f" name="Elements" width="60" height="24">
+  <object name="goal" x="677" y="343" width="32" height="52">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="type" value="goal"/>
+   </properties>
+  </object>
+  <object name="ball" x="117" y="364" width="29" height="27">
+   <properties>
+    <property name="type" value="ball"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="1078" y="358">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="392" y="29">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff007f" name="Objects" width="60" height="24">
+  <properties>
+   <property name="type" value="object"/>
+  </properties>
+  <object name="Wood" gid="38" x="525" y="398"/>
+  <object name="Wood" gid="38" x="622" y="398"/>
+  <object gid="39" x="412" y="115"/>
+  <object name="Wood" gid="38" x="510" y="301"/>
+  <object name="Wood" gid="38" x="510" y="204"/>
+  <object gid="39" x="571" y="169"/>
+  <object name="Wood" gid="38" x="606" y="269"/>
+  <object gid="39" x="542" y="301"/>
+  <object name="Wood" gid="38" x="491" y="398"/>
+ </objectgroup>
+</map>

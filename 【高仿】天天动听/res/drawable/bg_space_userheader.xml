@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/bg_space_userheader_on" android:state_enabled="true" android:state_pressed="true"></item>
+ <item android:drawable="@drawable/bg_space_userheader_off" android:state_enabled="true" android:state_pressed="false"></item>
+</selector>

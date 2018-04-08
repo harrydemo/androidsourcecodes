@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f3f2f2"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="14"
+        android:background="@drawable/bg_title"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/lay_Group"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/bg_titlle_color"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/img_Group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/user_group"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_AboutMe"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/bg_titlle_color"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/txt_AboutMe"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="@string/title_txt01"
+                    android:textColor="#3280c1"
+                    android:textSize="@dimen/title_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_Side"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/bg_titlle_color"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/txt_Side"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="@string/title_txt02"
+                    android:textColor="#3280c1"
+                    android:textSize="@dimen/title_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_Discover"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/bg_titlle_color"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/txt_Discover"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="@string/title_txt03"
+                    android:textColor="#3280c1"
+                    android:textSize="@dimen/title_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_AppWall"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/bg_titlle_color"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/txt_AppWall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="@string/title_txt04"
+                    android:textColor="#3280c1"
+                    android:textSize="@dimen/title_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cursor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="3dip"
+            android:scaleType="matrix"
+            android:src="@drawable/icon_mark" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/mViewPager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:persistentDrawingCache="animation" />
+    </LinearLayout>
+
+</LinearLayout>

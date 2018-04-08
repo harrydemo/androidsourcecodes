@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="24" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="Grass" tilewidth="20" tileheight="20">
+  <image source="gfx/Grass.png" width="80" height="140"/>
+ </tileset>
+ <tileset firstgid="29" name="Goals" tilewidth="20" tileheight="20">
+  <image source="gfx/Goals.png" width="60" height="60"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2YwQqDMBBE14qWWqytVau2//+dnRwEDxHEVTfJZuCBp7APQzKEKPwk4AJS6UFOSgZycJUe5KTMfad/7TqcvTj3nb5dh7MXbb4leIDCUe47+75AzVjT5dh8Qz67om/0DSmafD+gJ56vLx3F8AU/pq8vHcXWWbb43ki+f6ylAk+mr095g4b0+JpoOp9Noq8+3xZ0kkMdlKW+MYCR5PvBEX3Ddv9qwPj61B32eCP5A7xv6E2AFgAA
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="60" height="24">
+  <properties>
+   <property name="type" value="wall"/>
+  </properties>
+  <object x="1" y="59" width="858" height="61"/>
+  <object x="262" y="241" width="880" height="58"/>
+  <object x="2" y="119" width="57" height="360"/>
+  <object x="58" y="421" width="1136" height="51"/>
+  <object x="1140" y="-1" width="49" height="418"/>
+ </objectgroup>
+ <objectgroup name="Elements" width="60" height="24">
+  <object name="goal" x="1076" y="320" width="44" height="80">
+   <properties>
+    <property name="type" value="goal"/>
+   </properties>
+  </object>
+  <object name="ball" x="75" y="21" width="29" height="27">
+   <properties>
+    <property name="type" value="ball"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="829" y="10">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="350" y="151">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="330" y="331">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

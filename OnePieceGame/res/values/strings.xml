@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ConnectGame!</string>
+    <string name="remain_time">剩余时间（秒）:</string>
+    <string name="again_challenge">再次挑战</string>
+    <string name="failInfo">胜败乃兵家常事，不要气馁哟！</string>
+    <string name="succeedInfo">好厉害，进入下一关的话，时间会变快哟！</string>
+    <string name="next">下一关</string>
+    <string name="app_name">海贼王人物连连看v1.0</string>
+    <string name="newgame">新游戏</string>
+    <string name="rearrage">重排列</string>
+    <string name="exit">退出游戏</string>
+</resources>

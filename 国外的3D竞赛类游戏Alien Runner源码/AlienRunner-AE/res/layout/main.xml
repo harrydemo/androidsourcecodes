@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<android.opengl.GLSurfaceView
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:id="@+id/surface_view" android:visibility="visible" />
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:id="@+id/mylayout"
+		android:visibility="invisible" android:background="#000000">
+		<ScrollView android:id="@+id/ScrollView01"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:orientation="vertical" android:id="@+id/mylayout2"
+				android:background="#000000">
+				<TextView android:id="@+id/TextView01"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="Options menu" android:textStyle="bold"></TextView>
+
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/backdrop"
+					android:text="Render backdrop"></CheckBox>
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/decorations"
+					android:text="Render decorations"></CheckBox>
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/glows"
+					android:text="Render glow effects"></CheckBox>
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/particles"
+					android:text="Render particles"></CheckBox>
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/arrow"
+					android:text="Show target helper"></CheckBox>
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/camera"
+					android:text="Static camera"></CheckBox>
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/limiter"
+					android:text="Eco mode (fast devices only)"></CheckBox>
+				<CheckBox android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/fps"
+					android:text="Show fps"></CheckBox>
+				<Button android:id="@+id/Button01" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Save and exit!"></Button>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</FrameLayout>

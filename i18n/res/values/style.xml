@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="itcast"> <!-- 为样式定义一个全局唯一的名字-->
+        <item name="android:textSize">25sp</item>
+    </style>
+	<style name="itcastTheme">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">?android:windowNoTitle</item>
+	</style>
+</resources>

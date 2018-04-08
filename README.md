@@ -12,7 +12,11 @@ git remote add origin https://github.com/harrydemo/androidsourcecodes.git
 
 git push -u origin master
 
-git pull origin branchname --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories
+
+git add .
+
+git fetch -v --progress "origin"
 ```
 when 
 fatal: refusing to merge unrelated histories

@@ -52,11 +52,11 @@ fatal: refusing to merge unrelated histories
 ----|----
 65001 |  UTF-8代码页
 
-950| 繁体中文
+950 | 繁体中文
 
-936 |简体中文默认的GBK
+936 | 简体中文默认的GBK
 
-437 |MS-DOS 美国英语
+437 | MS-DOS 美国英语
 
 
 

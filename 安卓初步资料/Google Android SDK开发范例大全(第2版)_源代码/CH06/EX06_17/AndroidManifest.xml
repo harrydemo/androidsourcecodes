@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="irdc.ex06_17"
+  android:versionCode="1"
+  android:versionName="1.0.0">
+  <application
+    android:icon="@drawable/icon"
+    android:label="@string/app_name">
+    <activity
+      android:name=".EX06_17"
+      android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <!-- 建立receiver聆聽系統廣播訊息 -->
+    <receiver android:name="HippoCustomIntentReceiver" >
+      <!-- 設定要捕捉的訊息名稱為HIPPO_ON_SERVICE_001 -->
+      <intent-filter> 
+        <action android:name="HIPPO_ON_SERVICE_001" /> 
+        <category android:name="android.intent.category.HOME" /> 
+      </intent-filter>
+    </receiver>
+    <!-- 建立系統服務，使其可被其他程式存取(exported="true") -->
+    <service
+      android:name=".mService1"
+      android:exported="true"
+      android:process=":remote" >
+    </service>
+  </application>
+  <!-- 設定程式具有接收簡訊的權限 -->
+  <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+  <!-- 設定程式具有發送簡訊的權限 -->
+  <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+</manifest> 

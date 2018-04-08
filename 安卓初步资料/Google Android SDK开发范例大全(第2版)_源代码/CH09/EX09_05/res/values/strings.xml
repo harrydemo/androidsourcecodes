@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX09_05</string>
+  <string name="app_name">EX09_05</string>
+  <string name="str_longitude">经度(Longitude)：</string>
+  <string name="str_latitude">纬度(Latitude)：</string>
+  <string name="str_err_address">地址不存在</string>
+  <string name="str_err_location">无法取得Location</string>
+  <string name="str_my_location">目前所在地址：</string>
+</resources>

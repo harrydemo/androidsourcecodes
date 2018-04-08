@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX07_13</string>
+  <string name="app_name">EX07_13</string>
+  <string name="str_button1">播放SD 3gp影片1</string>
+  <string name="str_button2">播放SD 3gp影片2</string>
+  <string name="str_playing">影片已在播放中</string>
+  <string name="str_complete">影片已播放完毕</string>
+  <string name="str_err_nosd">※未发现安装SD存储卡※</string>
+</resources>

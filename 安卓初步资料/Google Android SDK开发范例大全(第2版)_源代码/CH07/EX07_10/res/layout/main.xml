@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!-- 建立一個TextView -->
+  <TextView  
+  android:id="@+id/myTextView1"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:text="@string/hello"
+  />
+  <!-- 建立第一個ImageButton -->
+  <ImageButton
+  android:id="@+id/myImageButton1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_x="51px"
+  android:layout_y="206px"
+  android:background="@drawable/black"  
+  android:src="@drawable/star"  
+  />
+  <!-- 建立第二個ImageButton -->
+  <ImageButton
+  android:id="@+id/pause" 
+  android:layout_height="wrap_content"  
+  android:layout_width="wrap_content"
+  android:background="@drawable/black" 
+  android:layout_x="91px"
+  android:layout_y="206px"  
+  android:src="@drawable/pause" 
+  />  
+  <!-- 建立第三個ImageButton -->
+  <ImageButton
+  android:id="@+id/before" 
+  android:layout_height="wrap_content"  
+  android:layout_width="wrap_content"
+  android:background="@drawable/black" 
+  android:layout_x="11px"
+  android:layout_y="206px"  
+  android:src="@drawable/before" 
+  />
+  <!-- 建立第四個ImageButton -->
+  <ImageButton
+  android:id="@+id/next" 
+  android:layout_height="wrap_content"  
+  android:layout_width="wrap_content"
+  android:background="@drawable/black" 
+  android:layout_x="131px"
+  android:layout_y="206px"  
+  android:src="@drawable/next" 
+  />  
+  <!-- 建立第五個ImageButton -->
+  <ImageButton
+  android:id="@+id/myImageButton2"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_x="176px"
+  android:layout_y="206px"
+  android:background="@drawable/black"  
+  android:src="@drawable/stop"  
+  />
+  <!-- 建立一個ImageView --> 
+  <ImageView
+  android:id="@+id/myImageView1"
+  android:layout_width="207px"
+  android:layout_height="170px"
+  android:layout_x="22px"
+  android:layout_y="32px"
+  />  
+</AbsoluteLayout>

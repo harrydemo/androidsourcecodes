@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX06_13</string>
+  <string name="app_name">EX06_13</string>
+  <string name="str_title0">每天自动换桌布</string>
+  <string name="str_title1">星期日：</string>
+  <string name="str_title2">星期一：</string>
+  <string name="str_title3">星期二：</string>
+  <string name="str_title4">星期三：</string>
+  <string name="str_title5">星期四：</string>
+  <string name="str_title6">星期五：</string>
+  <string name="str_title7">星期六：</string>
+  <string name="str_noset">未设置</string>
+  <string name="str_set">设置</string>
+  <string name="str_button1">启动服务</string>
+  <string name="str_button2">终止服务</string>
+  <string name="str_progress">桌面背景更新中...</string>
+</resources>

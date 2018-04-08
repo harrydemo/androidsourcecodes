@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX04_16</string>
+  <string name="app_name">EX04_16</string>
+  <string name="str_title">猜猜看红心A是哪一张?</string>
+  <string name="str_button">再玩一次</string> 
+</resources>

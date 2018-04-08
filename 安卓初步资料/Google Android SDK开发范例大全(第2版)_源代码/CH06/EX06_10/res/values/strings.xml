@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX06_10</string>
+  <string name="app_name">EX06_10</string>
+  <string name="str_button1">设定闹钟</string>
+  <string name="str_button2">移除闹钟</string>
+  <string name="str_title1">只响一次的闹钟</string>
+  <string name="str_title2">重复响起的闹钟</string>
+  <string name="str_default">目前无设定</string>
+  <string name="str_text1">开始时间</string>
+  <string name="str_text2">重复响起间隔</string>
+  <string name="str_text3">秒</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/white"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <TextView
+    android:id="@+id/myTextView1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/blue"
+    android:text="@string/hello"/>
+  <RadioGroup
+    android:id="@+id/myRadioGroup1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical"> 
+    <TextView
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"
+      android:textColor="@drawable/blue"
+      android:textStyle="bold"
+      android:text="@string/str_radio_question1"/> 
+    <RadioButton
+      android:id="@+id/myOption1"
+      android:checked="false"
+      android:textColor="@drawable/blue" 
+      android:text="@string/str_radio_op1"/> 
+    <RadioButton
+      android:id="@+id/myOption2"
+      android:checked="false"
+      android:textColor="@drawable/blue"
+      android:text="@string/str_radio_op2"/> 
+    <RadioButton
+      android:id="@+id/myOption3"
+      android:checked="false"
+      android:textColor="@drawable/blue"
+      android:text="@string/str_radio_op3"/> 
+  </RadioGroup> 
+  <LinearLayout
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    <!-- 回答 --> 
+    <Button
+      android:id="@+id/myButton1"
+      android:layout_width="100px" 
+      android:layout_height="wrap_content"
+      android:text="@string/str_button1"/>
+    <!-- 清空 -->
+    <Button
+      android:id="@+id/myButton2"
+      android:layout_width="100px" 
+      android:layout_height="wrap_content"
+      android:text="@string/str_button2"/> 
+  </LinearLayout>
+</LinearLayout>

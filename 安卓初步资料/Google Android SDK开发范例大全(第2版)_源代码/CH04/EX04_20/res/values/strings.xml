@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX04_20</string>
+  <string name="app_name">EX04_20</string>
+  <string name="str_list1">最后一战：星环战役</string>
+  <string name="str_list2">火影忍者：破碎的羁绊</string>
+  <string name="str_list3">吉他英雄：世界巡回 </string>
+  <string name="str_list4">极速快感：卧底风云</string>
+  <string name="str_list5">C++语言</string>
+  <string name="str_list6">Java语言</string>
+  <string name="str_list7">PHP语言</string>
+  <string name="str_list8">Basic语言</string>
+  <string name="str_menu_list1">显示列表1</string>
+  <string name="str_menu_list2">显示列表2</string>
+</resources>

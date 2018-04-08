@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:background="@drawable/white" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent">
+  <!-- 建立一個TextView --> 
+  <TextView 
+    android:id="@+id/myTextView1" 
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content" 
+    android:textColor="@drawable/blue" 
+    android:text="@string/hello"
+  /> 
+  <!-- 建立一個EditText -->
+  <EditText 
+    android:id="@+id/myEditText1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="" 
+  /> 
+  <LinearLayout 
+    android:orientation="horizontal" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+  > 
+  <!-- 建立第一個Button -->
+  <Button 
+    android:id="@+id/myButton1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/str_button1"
+  />
+  <!-- 建立第二個Button --> 
+  <Button 
+    android:id="@+id/myButton2" 
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    android:text="@string/str_button2"
+  /> 
+  <!-- 建立第三個Button -->
+  <Button 
+    android:id="@+id/myButton3" 
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    android:text="@string/str_button3"
+   /> 
+  </LinearLayout>
+  <!-- 設定Google map的API Key --> 
+  <com.google.android.maps.MapView 
+    android:id="@+id/myMapView1" 
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent" 
+    android:enabled="true" 
+    android:clickable="true" 
+    android:apiKey="086L9PGjlb6XQprGQVXCe1NvaXl6NJC5g0fh4Aw"
+  /> 
+</LinearLayout>

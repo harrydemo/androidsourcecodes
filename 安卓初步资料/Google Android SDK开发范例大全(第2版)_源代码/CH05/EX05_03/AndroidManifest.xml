@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="irdc.EX05_03"
+  android:versionCode="1"
+  android:versionName="1.0.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <activity android:name=".EX05_03"
+      android:label="@string/app_name">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+    </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+<!-- 新增可以發送簡訊的權限-->
+<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+</manifest> 

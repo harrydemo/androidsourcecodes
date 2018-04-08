@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!-- 建立第一個TextView -->
+  <TextView  
+  android:id="@+id/myTextView1" 
+  android:layout_width="fill_parent"  
+  android:layout_height="wrap_content" 
+  android:text="@string/hello"
+  /> 
+  <!-- 建立第二個TextView -->
+  <TextView
+  android:id="@+id/myTextView2"
+  android:layout_width="62px"
+  android:layout_height="24px"
+  android:text="範例一："
+  android:layout_x="12px"
+  android:layout_y="28px"
+  />  
+  <!-- 建立第三個TextView -->
+  <TextView
+  android:id="@+id/myTextView3"
+  android:layout_width="226px"
+  android:layout_height="23px"
+  android:text="@string/str_text1"
+  android:layout_x="13px"
+  android:layout_y="51px"
+  />
+  <!-- 建立第四個TextView -->
+  <TextView
+  android:id="@+id/myTextView4"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="範例二："
+  android:layout_x="12px"
+  android:layout_y="103px"
+  />
+  <!-- 建立第五個TextView -->
+  <TextView
+  android:id="@+id/myTextView5"
+  android:layout_width="223px"
+  android:layout_height="24px"
+  android:text="@string/str_text2"
+  android:layout_x="14px"
+  android:layout_y="133px"
+  />
+  <!-- 建立第一個Button -->
+  <Button
+  android:id="@+id/myButton1"
+  android:layout_width="57px"
+  android:layout_height="38px"
+  android:text="@string/str_button"
+  android:layout_x="239px"
+  android:layout_y="52px"
+  />
+  <!-- 建立第二個Button -->
+  <Button
+  android:id="@+id/myButton2"
+  android:layout_width="58px"
+  android:layout_height="38px"
+  android:text="@string/str_button"
+  android:layout_x="236px"
+  android:layout_y="132px"
+  />
+</AbsoluteLayout>

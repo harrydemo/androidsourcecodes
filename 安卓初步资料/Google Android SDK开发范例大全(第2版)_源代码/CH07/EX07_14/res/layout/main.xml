@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/white"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <TextView
+    android:id="@+id/myTextView1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/blue" 
+    android:text="@string/hello"
+  />
+  <SurfaceView
+    android:id="@+id/mSurfaceView1" 
+    android:layout_width="320px" 
+    android:layout_height="240px"> 
+  </SurfaceView>
+  <LinearLayout 
+    android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:padding="10dip" 
+  >
+  <ImageButton android:id="@+id/play" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+    android:src="@drawable/play"
+  /> 
+  <ImageButton android:id="@+id/pause"
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:src="@drawable/pause"
+  /> 
+  <ImageButton android:id="@+id/reset" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:src="@drawable/reset"
+  /> 
+  <ImageButton android:id="@+id/stop" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:src="@drawable/stop"
+  /> 
+  </LinearLayout> 
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<Button
+  android:id="@+id/mButton1"
+  android:layout_width="111px"
+  android:layout_height="wrap_content"
+  android:text="touch  me!!"
+  android:layout_x="7px"
+  android:layout_y="9px"
+/>
+
+<TextView
+  android:id="@+id/mTextView1"
+  android:layout_width="257px"
+  android:layout_height="246px"
+  android:layout_x="13px"
+  android:layout_y="70px"
+/>
+</LinearLayout>

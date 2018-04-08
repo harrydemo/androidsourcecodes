@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <TextView android:id="@+id/myText1"
+    android:layout_gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_weight="1.0"
+    android:layout_height="30px" 
+    android:textColor="@drawable/darkgray"
+    android:textSize="20sp"
+  />
+  <TextView android:id="@+id/myText2"
+    android:layout_gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_weight="1.0"
+    android:layout_height="30px" 
+    android:textColor="@drawable/white"
+    android:textSize="14sp"
+  />
+</LinearLayout>

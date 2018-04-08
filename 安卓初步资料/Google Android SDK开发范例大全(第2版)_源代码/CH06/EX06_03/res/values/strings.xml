@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX06_03</string>
+  <string name="app_name">EX06_03</string>
+  <string name="str_button">發送</string>
+  <string name="str_msg">簡訊已發送給:</string>
+  <string name="str_text1">新年快樂~~</string>
+  <string name="str_text2">元宵節快樂!!不要忘記我喔!!</string>
+</resources>

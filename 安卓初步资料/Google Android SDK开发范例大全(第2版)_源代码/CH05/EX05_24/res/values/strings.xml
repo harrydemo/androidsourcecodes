@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">Hello World, EX05_24</string> 
+  <string name="app_name">EX05_24</string>
+  <string name="str_list0">手机电话号码</string>
+  <string name="str_list1">电信网络国别</string>
+  <string name="str_list2">电信公司代码</string> 
+  <string name="str_list3">电信公司名称</string> 
+  <string name="str_list4">行动通讯类型</string>
+  <string name="str_list5">网络类型</string>
+  <string name="str_list6">手机漫游状态</string> 
+  <string name="str_list7">手机IMEI</string>
+  <string name="str_list8">IMEI SV</string>  
+  <string name="str_list9">手机IMSI</string>
+  <string name="str_list10">蓝芽状态</string>
+  <string name="str_list11">WIFI状态</string>
+  <string name="str_list12">飞行模式</string>
+  <string name="str_list13">数据漫游</string>
+</resources>

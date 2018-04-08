@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1232720403115
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.undo,1232720404290
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1232720408265
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1232720409449
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.undo,1232720422615
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1232720423914
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1232720426385
+started,bundle,org.eclipse.ant.ui,3.3.0.v20080529,org.eclipse.ant.ui,1232720435505
+started,bundle,org.eclipse.datatools.connectivity,1.1.1.v200809180120,org.eclipse.datatools.connectivity,1232720436830
+started,bundle,org.eclipse.datatools.connectivity.ui,1.1.2.v200809150616,org.eclipse.datatools.connectivity.ui,1232720436834
+started,bundle,org.eclipse.help.base,3.3.101.M20080728_34x,org.eclipse.help.base,1232720437436
+started,bundle,org.eclipse.help.ui,3.3.101.M20080715_34x,org.eclipse.help.ui,1232720437468
+started,bundle,org.eclipse.ui.browser,3.2.201.v20080708_34x,org.eclipse.ui.browser,1232720437598
+started,bundle,org.eclipse.ui.views.log,1.0.0.v20080803-1700,org.eclipse.ui.views.log,1232720440331
+started,bundle,org.eclipse.pde.ui,3.4.0.v20080803-1700,org.eclipse.pde.ui,1232720440337
+started,bundle,org.eclipse.rse.services,3.0.1.v200809091230,org.eclipse.rse.services,1232720440914
+started,bundle,org.eclipse.rse.core,3.0.1.v200809111820,org.eclipse.rse.core,1232720440949
+started,bundle,org.eclipse.rse.ui,3.0.1.v200809041200,org.eclipse.rse.ui,1232720446066
+started,bundle,org.eclipse.rse.subsystems.files.core,3.0.1.v200809041200,org.eclipse.rse.subsystems.files.core,1232720446081
+started,bundle,org.eclipse.rse.subsystems.files.local,2.1.0.v20080604,org.eclipse.rse.subsystems.files.local,1232720446083
+started,bundle,org.eclipse.rse.connectorservice.local,2.1.0.v20080604,org.eclipse.rse.connectorservice.local,1232720446462
+started,bundle,org.eclipse.rse.services.local,2.1.1.v20080710,org.eclipse.rse.services.local,1232720446462
+started,bundle,org.eclipse.rse.subsystems.shells.core,3.0.0.v20080604,org.eclipse.rse.subsystems.shells.core,1232720446524
+started,bundle,org.eclipse.rse.subsystems.shells.local,2.1.0.v20080604,org.eclipse.rse.subsystems.shells.local,1232720446530
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1232720448040

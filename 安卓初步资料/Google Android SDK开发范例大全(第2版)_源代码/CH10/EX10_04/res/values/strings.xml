@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX10_04</string>
+  <string name="app_name">EX10_04</string>
+  <string name="str_qr_gen">戴维的QRCode生成器</string>
+  <string name="str_button1">产生QRCode条形码</string>
+</resources>

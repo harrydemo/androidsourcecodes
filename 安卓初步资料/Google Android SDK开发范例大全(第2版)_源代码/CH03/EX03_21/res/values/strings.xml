@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX03_21</string>
+  <string name="app_name">EX03_21</string>
+  <string name="str_text_view1">使用主题示范\nTextView文字为深绿色\n背景套用主题。</string>
+</resources>

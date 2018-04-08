@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX08_13</string>
+  <string name="app_name">EX08_13</string>
+  <string name="str_title">输入RSS链接：</string>
+  <string name="str_button">开始解析</string>
+</resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX08_15</string>
+  <string name="app_name">EX08_15</string>
+  <string name="str_play">播放中(下载需要点时间请稍后...)</string>
+  <string name="str_done">播放完毕</string>
+  <string name="str_pause">暂停(再按一次继续)...</string>
+  <string name="str_stop">停止</string>
+  <string name="str_err_nosd">※未发现安装SD存储卡※</string>
+</resources>

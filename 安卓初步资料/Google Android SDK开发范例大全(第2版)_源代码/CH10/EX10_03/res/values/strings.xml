@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="strButton1">设置</string>
+  <string name="strButton2">保存</string>
+  <string name="app_name">EX10_03</string>
+  <string name="strMessage1">上次MC第一天</string>
+  <string name="strMessage2">预估下次MC日期</string>
+  <string name="strMessage3">MC周期</string>
+  <string name="strMessage4">每日提醒时间</string>
+  <string name="strMessage5">距离现在还有</string>
+  <string name="strMessage6">预估下次排卵日</string>
+  <string name="strMessage7">天</string>
+  <string name="strMessage8">超过</string>
+</resources>

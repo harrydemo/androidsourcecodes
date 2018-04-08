@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TEST_01</string>
+    <string name="app_name">TEST_01</string>
+    <string name="str_hello">請選擇</string>
+    <string name="str_ch1">電腦</string>
+    <string name="str_ch2">手機</string>
+    <string name="str_ch3">信用卡</string>
+</resources>

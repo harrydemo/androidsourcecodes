@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AbsoluteLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:background="@drawable/white" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" 
+  > 
+  <TextView 
+    android:id="@+id/myTextView2" 
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content" 
+    android:textColor="@drawable/blue" 
+    android:text="@string/hello"/> 
+  <TextView 
+    android:id="@+id/myTextView3" 
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content" 
+    android:textColor="@drawable/blue" 
+    android:text="@string/str_logout"/> 
+</AbsoluteLayout> 
+

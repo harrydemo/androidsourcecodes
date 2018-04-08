@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX04_23</string>
+  <string name="app_name">EX04_23</string>
+  <string name="str_button1">缩小</string>
+  <string name="str_button2">放大</string>
+</resources>

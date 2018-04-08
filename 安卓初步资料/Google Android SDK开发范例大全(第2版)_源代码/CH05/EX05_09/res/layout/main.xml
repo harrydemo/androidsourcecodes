@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/white"
+  >
+  <TextView  
+  android:id="@+id/myTextView"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:text="@string/hello"
+  android:textColor="@drawable/black"
+  >
+  </TextView>
+  <AutoCompleteTextView 
+  android:id="@+id/myAutoCompleteTextView"
+  android:completionThreshold="1"
+  android:completionHint="@string/strHint"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  >
+  </AutoCompleteTextView>  
+  <TextView  
+  android:id="@+id/myTextView1"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:textColor="@drawable/black"
+  >
+  </TextView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="title">输入名称:</string> 
+  <string name="app_name">EX05_25</string> 
+  <string name="button_done">添加</string> 
+  <string name="button_cancel">重置</string>
+  <string name="load_failed">加载失败!</string> 
+  <string name="save_success">添加成功!</string> 
+  <string name="save_failed">添加失败!</string> 
+</resources> 

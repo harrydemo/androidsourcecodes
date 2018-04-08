@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="act1">This is Activity 1!!</string>
+  <string name="act2">This is Activity 2!!</string>
+  <string name="app_name">EX03_09</string>
+</resources>

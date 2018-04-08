@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX04_29!</string>
+  <string name="app_name">EX04_29</string>
+  <string name="strTextView01">请按menu打开搜索框</string>
+  <string name="search_label">search_label</string>
+  <string name="search_hint">请输入日期(YYYYMMDD)</string>
+  <string name="settings_description">用日期搜索图片</string>
+</resources>

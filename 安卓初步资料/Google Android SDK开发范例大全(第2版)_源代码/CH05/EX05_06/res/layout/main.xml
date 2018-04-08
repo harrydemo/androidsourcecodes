@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!-- 建立第一個TextView -->
+  <TextView  
+  android:id="@+id/myTextView1" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:text="@string/hello"
+  />
+  <!-- 建立第二個TextView -->
+  <TextView
+  android:id="@+id/myTextView2"
+  android:layout_width="127px"
+  android:layout_height="35px"
+  android:layout_x="90px"
+  android:layout_y="33px"
+  android:text="@string/str_text1"
+  />
+  <!-- 建立第三個TextView -->
+  <TextView
+  android:id="@+id/myTextView3"
+  android:layout_width="127px"
+  android:layout_height="35px"
+  android:layout_x="90px"
+  android:layout_y="115px"
+  android:text="@string/str_text2"
+  />
+  <!-- 建立第四個TextView -->
+  <TextView
+  android:id="@+id/myTextView4"
+  android:layout_width="127px"
+  android:layout_height="35px"
+  android:layout_x="90px"
+  android:layout_y="216px"
+  android:text="@string/str_text3"
+  />
+  <!-- 建立第一個ToggleButton -->      
+  <ToggleButton
+  android:id="@+id/myTogglebutton1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:layout_x="29px"
+  android:layout_y="31px"  
+  />
+  <!-- 建立第二個ToggleButton -->  
+  <ToggleButton
+  android:id="@+id/myTogglebutton2"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:layout_x="29px"
+  android:layout_y="114px" 
+  />
+  <!-- 建立第三個ToggleButton -->  
+  <ToggleButton
+  android:id="@+id/myTogglebutton3"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:layout_x="29px"
+  android:layout_y="214px"
+  />
+</AbsoluteLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/white"
+>
+  <TextView
+    android:id="@+id/title"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="18sp"
+    android:layout_x="10px"
+    android:layout_y="12px"
+    android:gravity="center_vertical"
+    android:textColor="@drawable/blue"
+  />
+  <ImageSwitcher 
+    android:id="@+id/switcher"
+    android:layout_width="fill_parent"
+    android:layout_height="280px"
+    android:layout_x="0px"
+    android:layout_y="42px"
+    android:gravity="center_vertical"
+    android:background="@drawable/white"
+  />    
+  <Gallery 
+    android:id="@+id/gallery"
+    android:background="@drawable/black"
+    android:layout_width="fill_parent"
+    android:layout_height="90px"
+    android:layout_x="0px"
+    android:layout_y="340px"
+    android:gravity="center_vertical"
+    android:spacing="16dp"
+  />
+</AbsoluteLayout>

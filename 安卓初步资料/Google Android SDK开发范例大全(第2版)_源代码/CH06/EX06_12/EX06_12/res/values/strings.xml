@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX06_12</string>
+  <string name="app_name">EX06_12</string>
+  <string name="str_upside_down">手機向下Sensor事件</string>
+  <string name="str_orientation_up">手機向上</string>
+  <string name="str_silent_mode">靜音模式</string>
+  <string name="str_vibrate_mode">震動模式</string>
+  <string name="str_normal_mode">正常模式</string>
+</resources>

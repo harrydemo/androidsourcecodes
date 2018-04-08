@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX08_12</string>
+  <string name="app_name">EX08_12</string>
+  <string name="str_title1">博客ID：</string>
+  <string name="str_title2">登录账号：</string>
+  <string name="str_title3">登录密码：</string>
+  <string name="str_title4">文章标题：</string>
+  <string name="str_title5">文章内容：</string>
+  <string name="str_button">发布文章</string>
+</resources>

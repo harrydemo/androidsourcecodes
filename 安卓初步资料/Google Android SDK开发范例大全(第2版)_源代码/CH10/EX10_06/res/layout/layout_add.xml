@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/white"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+  <TextView
+    android:id="@+id/myTextView2"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/blue"
+    android:text="@string/str_label1"/>
+  <EditText
+    android:id="@+id/myEditText1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:singleLine="True"
+    android:text="" />
+  </LinearLayout>
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+  <TextView
+    android:id="@+id/myTextView3"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/blue"
+    android:text="@string/str_label2"/>
+  <EditText
+    android:id="@+id/myEditText2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:singleLine="True"
+    android:text="" />
+  </LinearLayout>
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  >
+  <TextView
+    android:id="@+id/myTextView4"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/blue"
+    android:text="@string/str_label3"/>
+  <EditText
+    android:id="@+id/myEditText3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:singleLine="True"
+    android:text="" />
+  <TextView
+    android:id="@+id/myTextView5"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/blue"
+    android:text="@string/str_cal"/>
+  </LinearLayout>
+  <Button
+    android:id="@+id/myButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_button1" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX06_11</string>
+  <string name="app_name">EX06_11</string>
+  <string name="str_button1">取得</string>
+  <string name="input">你输入的电话是:</string> 
+  <string name="str_CALL_STATE_IDLE">电话处于待机状态</string> 
+  <string name="str_CALL_STATE_OFFHOOK">电话通话中...</string> 
+  <string name="str_CALL_STATE_RINGING">有电话来电：</string>
+  <string name="str_msg">静音模式</string> 
+</resources>

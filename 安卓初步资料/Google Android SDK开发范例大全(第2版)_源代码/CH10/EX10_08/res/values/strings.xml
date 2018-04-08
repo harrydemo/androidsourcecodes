@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX98_42!</string>
+  <string name="app_name">电蚊香</string>
+  <string name="start">防蚊服务运行中...</string>
+  <string name="stop">已关闭防蚊服务...</string>
+</resources>

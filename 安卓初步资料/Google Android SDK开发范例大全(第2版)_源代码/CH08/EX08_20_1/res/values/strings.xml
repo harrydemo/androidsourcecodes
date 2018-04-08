@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX08_20_1!</string>
+  <string name="app_name">EX08_20_1</string>
+  <string name="str1">下载“Android SDK开发范例大全”电子书</string>
+  <string name="str2">按我开始下载</string>
+</resources>

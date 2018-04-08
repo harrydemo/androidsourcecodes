@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX05_17</string>
+  <string name="app_name">EX05_17</string>
+  <string name="str_checked">启动WiFi</string>
+  <string name="str_uncheck">关闭WiFi</string>
+  <string name="str_start_wifi_failed">尝试启动WiFi服务失败</string>
+  <string name="str_start_wifi_done">尝试启动WiFi服务成功</string>
+  <string name="str_stop_wifi_failed">尝试关闭WiFi服务失败</string>
+  <string name="str_stop_wifi_done">尝试关闭WiFi服务成功</string>
+  <string name="str_wifi_enabling">WiFi启动过程...</string>
+  <string name="str_wifi_disabling">WiFi关闭过程中...</string>
+  <string name="str_wifi_disabled">WiFi已经关闭</string>
+  <string name="str_wifi_unknow">WiFi未知状态...</string>
+</resources>

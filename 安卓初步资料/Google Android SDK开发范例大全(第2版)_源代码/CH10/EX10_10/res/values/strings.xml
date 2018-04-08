@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX10_10!</string>
+  <string name="app_name">EX10_10</string>
+  <string name="strButton01">取得正在运行的应用程序，并删除TASK</string>
+  <string name="strButton02">取得正在运行的服务(Service)，并删除Service</string>
+  <string name="strTitle01">Task</string>
+  <string name="strTitle02">Service</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">這是範例: EX03_12</string>
+  <string name="app_name">EX03_12</string>
+  <string name="str_button1">按我開啟對話視窗</string>
+  <string name="app_about">重要</string>
+  <string name="app_about_msg">這是對話視窗</string>
+  <string name="str_ok">確定</string>
+  </resources>

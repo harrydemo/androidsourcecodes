@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX07_02</string>
+  <string name="app_name">EX07_02</string>
+  <string name="str_text1">圆形</string>
+  <string name="str_text2">正方形</string>
+  <string name="str_text3">长方形</string>
+  <string name="str_text4">椭圆形</string>
+  <string name="str_text5">三角形</string>
+  <string name="str_text6">梯形</string>
+</resources>

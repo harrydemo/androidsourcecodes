@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/white" 
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!-- 建立一個TextView -->
+  <TextView 
+  android:id="@+id/myTextView1" 
+  android:layout_width="fill_parent"  
+  android:layout_height="wrap_content" 
+  android:textColor="@drawable/blue"  
+  android:text="@string/hello" 
+  /> 
+  <!-- 建立一個EditView -->
+  <EditText 
+  android:id="@+id/myEditText1" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:text="" 
+  /> 
+  <!-- 建立一個WebView -->
+  <WebView 
+  android:id="@+id/myWebView1" 
+  android:background="@drawable/white" 
+  android:layout_height="wrap_content" 
+  android:layout_width="fill_parent"
+  />
+  <!-- 建立一個Button --> 
+  <Button 
+  android:id="@+id/myButton1" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:text="@string/str_button1"
+  /> 
+</LinearLayout>

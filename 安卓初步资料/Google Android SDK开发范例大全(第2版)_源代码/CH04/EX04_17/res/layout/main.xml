@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/white"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <TextView
+    android:id="@+id/myTextView1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="@drawable/blue" 
+    android:text="@string/hello"
+  />
+  <!-- 預設的ProgressBar為隱藏起來的 -->
+  <ProgressBar
+    android:id="@+id/myProgressBar1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+  />
+  <Button
+    android:id="@+id/myButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_button1" />
+</LinearLayout>

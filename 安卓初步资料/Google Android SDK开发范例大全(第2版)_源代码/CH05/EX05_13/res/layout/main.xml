@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!-- 建立一個TextView -->
+  <TextView  
+  android:id="@+id/myTextView1" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:text="@string/hello"
+  />
+   <!-- 建立一個Gallery --> 
+  <Gallery 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:id="@+id/mygallery"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_x="12px"
+  android:layout_y="106px"  
+  /> 
+</AbsoluteLayout>

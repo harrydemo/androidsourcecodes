@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX10_05</string>
+  <string name="app_name">EX10_05</string>
+  <string name="str_button1">相机预览</string>
+  <string name="str_button2">关闭相机</string>
+  <string name="str_take_picture">拍照解码</string>
+</resources>

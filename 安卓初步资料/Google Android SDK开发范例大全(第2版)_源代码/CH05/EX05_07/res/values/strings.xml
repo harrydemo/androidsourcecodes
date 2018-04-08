@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX05_07</string>
+  <string name="app_name">EX05_07</string>
+  <string name="app_url">http://tw.yahoo.com</string>
+  <string name="str_button1">显示具有图片的Toast</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">取得系统正在运行的程序(getRunningTasks)</string>
+  <string name="app_name">EX05_21</string>
+  <string name="str_button1">取得系统正在运行的程序</string>
+  <string name="str_err_permission">没有存取系统线程权限</string>
+  <string name="str_err_no_running_task">没有正在运行的程序</string>
+  <string name="str_err_no_running_service">没有正在运行的服务</string>
+</resources>

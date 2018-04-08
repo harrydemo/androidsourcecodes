@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX08_19!</string>
+  <string name="app_name">EX08_19</string>
+  <string name="strButton01">语音识别搜索</string>
+</resources>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="irdc.ex06_19"
+  android:versionCode="1"
+  android:versionName="1.0">
+  <application
+    android:icon="@drawable/icon"
+    android:label="@string/app_name"> 
+    <!-- Broadcast Receiver處理 AppWidget的更新事件 --> 
+    <receiver
+      android:name=".EX06_19"
+      android:label="@string/widget_name">
+      <intent-filter>
+        <action
+          android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+      </intent-filter> 
+      <meta-data
+        android:name="android.appwidget.provider" 
+        android:resource="@xml/widget_template" />
+    </receiver> 
+    <!-- 背景執行的系統服務Service --> 
+    <service android:name=".EX06_19$UpdateService" /> 
+  </application> 
+  <uses-permission android:name="android.permission.BATTERY_STATS"/>
+  <uses-sdk android:minSdkVersion="7" />
+</manifest> 

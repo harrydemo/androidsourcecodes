@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!--建立第一個TextView -->
+  <TextView
+  android:id="@+id/myTextView1"
+  android:layout_width="185px"
+  android:layout_height="267px"
+  android:layout_x="67px"
+  android:layout_y="53px"
+  android:text="@string/text1"
+  />
+  <!--建立第二個TextView -->
+  <TextView
+  android:id="@+id/myTextView2"
+  android:layout_width="100px"
+  android:layout_height="30px"
+  android:layout_x="190px"
+  android:layout_y="325px"
+  />
+  <!--建立一個CheckBox -->
+  <CheckBox
+  android:id="@+id/myCheckBox"
+  android:layout_width="97px"
+  android:layout_height="wrap_content"
+  android:text="@string/str_agree"
+  android:layout_x="99px"
+  android:layout_y="318px" 
+  />
+  <!--建立一個Button -->
+  <Button
+  android:id="@+id/myButton"
+  android:layout_width="85px"
+  android:layout_height="wrap_content"
+  android:text="@string/str_go"
+  android:layout_x="102px"
+  android:layout_y="363px"
+  />
+</AbsoluteLayout>

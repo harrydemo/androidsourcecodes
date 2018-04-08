@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="title">使用ListView显示明细列表</string>
+  <string name="hello">Hello World, empty</string>
+  <string name="app_name">EX04_19</string>
+</resources>

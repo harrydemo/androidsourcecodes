@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX03_02</string>
+  <string name="app_name">EX03_02</string>
+  <string name="str_id">帐号</string>
+  <string name="str_pwd">密码</string>
+</resources>

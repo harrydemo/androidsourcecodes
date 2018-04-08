@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@android:color/white" 
+  >
+  <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+  />
+  <EditText 
+    android:id="@+id/EditText01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:hint="Input something to speak..."
+  >
+  </EditText>
+  <ImageButton 
+    android:id="@+id/ImageButton01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:src="@android:drawable/ic_btn_speak_now"
+  >
+  </ImageButton>
+</LinearLayout>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX08_09</string>
+  <string name="app_name">EX08_09</string>
+  <string name="str_button1">下载音乐</string>
+  <string name="str_msg">下载中....请稍候...</string>
+  <string name="url">
+  http://www.dubblogs.cc:8751/Android/Test/Media/mp3/test.mp3</string>
+</resources>

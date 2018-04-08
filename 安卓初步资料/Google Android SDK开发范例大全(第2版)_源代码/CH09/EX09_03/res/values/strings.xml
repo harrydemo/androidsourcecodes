@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX09_03</string>
+  <string name="app_name">EX09_03</string>
+  <string name="str_button1">Google QR Codes编码</string>
+  <string name="str_text">嗨!你好!</string>   
+</resources>

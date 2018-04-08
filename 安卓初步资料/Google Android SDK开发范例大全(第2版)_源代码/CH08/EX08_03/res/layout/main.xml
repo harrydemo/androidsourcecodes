@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/white"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!-- 建立一個TextView -->
+  <TextView 
+  android:id="@+id/myTextView1" 
+  android:layout_width="fill_parent"  
+  android:layout_height="wrap_content" 
+  android:textColor="@drawable/blue" 
+  android:text="@string/hello"
+  />
+  <!-- 建立一個WebView --> 
+  <WebView 
+  android:id="@+id/myWebView1"
+  android:layout_height="wrap_content" 
+  android:layout_width="wrap_content"
+  /> 
+</LinearLayout>

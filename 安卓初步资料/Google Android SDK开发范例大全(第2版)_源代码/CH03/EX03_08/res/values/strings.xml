@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="layout1">This is Layout 1!!</string>
+  <string name="layout2">This is Layout 2!!</string>
+  <string name="app_name">EX03_08</string>
+</resources>

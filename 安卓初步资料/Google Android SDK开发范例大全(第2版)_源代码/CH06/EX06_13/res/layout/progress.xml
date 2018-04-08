@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  android:id="@+id/layout1"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <TextView
+    android:id="@+id/myText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_progress"
+    android:textSize="18sp"
+    android:layout_x="80px"
+    android:layout_y="182px"
+  />
+</AbsoluteLayout>

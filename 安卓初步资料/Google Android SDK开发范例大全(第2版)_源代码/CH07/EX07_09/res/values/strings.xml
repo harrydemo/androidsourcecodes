@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">我的mp3播放器</string> 
+  <string name="app_name">EX07_09</string> 
+  <string name="str_start">正在播放音乐...</string> 
+  <string name="str_close">停止播放音乐</string> 
+  <string name="str_pause">暂停播放音乐</string> 
+  <string name="str_OnCompletionListener">播放完毕</string> 
+  <string name="str_OnErrorListener">Oops!!出错了</string> 
+</resources> 
+

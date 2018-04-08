@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="strHint">输入*可找出全部的联系人</string>
+  <string name="app_name">EX05_09</string>
+  <string name="hello">请先到通讯录输入联系人资料</string>
+</resources>

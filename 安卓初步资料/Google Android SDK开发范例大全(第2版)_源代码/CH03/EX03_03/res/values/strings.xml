@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX03_03</string>
+  <string name="app_name">EX03_03</string>
+  <string name="str_textview01">嗨！戴维</string>
+  <string name="str_textview02">使用graphics.Color设定文字颜色</string>
+</resources>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX06_08</string>
+  <string name="app_name">EX06_08</string>
+  <string name="strButton">取得存储卡容量</string>
+</resources>

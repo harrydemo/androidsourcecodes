@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:background="@android:color/white" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" 
+  >
+  <!-- 更新Spinner -->  
+  <Button 
+    android:id="@+id/Button01" 
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    android:text="@string/str_button1"/> 
+  <Spinner  
+    android:id="@+id/Spinner01"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:layout_centerHorizontal="false" 
+    android:drawSelectorOnTop="true"  
+    android:layout_below="@+id/TextView01"  
+  />
+  <TextView 
+    android:id="@+id/TextView01" 
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    android:text="@string/hello" 
+    android:textColor="@android:color/black"
+    android:layout_centerHorizontal="true" 
+  /> 
+</LinearLayout>

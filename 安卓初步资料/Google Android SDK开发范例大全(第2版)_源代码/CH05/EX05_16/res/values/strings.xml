@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX05_16</string>
+  <string name="app_name">EX05_16</string>
+  <string name="strList1">取得目前File</string>
+  <string name="strList2">取得目前Cache</string>
+</resources>

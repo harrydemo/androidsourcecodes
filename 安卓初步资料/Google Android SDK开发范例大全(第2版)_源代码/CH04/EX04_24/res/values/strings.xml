@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX04_24</string>
+  <string name="app_name">EX04_24</string>
+  <string name="str_button1">向左旋转</string>
+  <string name="str_button2">向右旋转</string>
+  <string name="str_done">好了！</string>
+</resources>

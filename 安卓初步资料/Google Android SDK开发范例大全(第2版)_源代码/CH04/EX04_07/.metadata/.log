@@ -1,0 +1,90 @@
+!SESSION 2009-01-23 22:06:03.280 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_TW
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 0 2009-01-23 22:07:09.597
+!MESSAGE While loading class "org.eclipse.rse.ui.SystemPreferencesManager$ModelChangeListener", thread "Thread[Worker-6,5,main]" timed out waiting (5000ms) for thread "Thread[main,6,main]" to finish starting bundle "reference:file:plugins\org.eclipse.rse.ui_3.0.1.v200809041200.jar [486]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.eclipse.rse.ui.SystemPreferencesManager$ModelChangeListener" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins\org.eclipse.rse.ui_3.0.1.v200809041200.jar" by thread "main".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.rse.ui.SystemPreferencesManager$1.run(SystemPreferencesManager.java:510)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 15 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.rse.ui.SystemPreferencesManager$1.run(SystemPreferencesManager.java:510)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2009-01-23 22:19:02.580 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_TW
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 0 2009-01-23 22:20:46.001
+!MESSAGE While loading class "org.eclipse.rse.ui.SystemPreferencesManager$ModelChangeListener", thread "Thread[Worker-7,5,main]" timed out waiting (5000ms) for thread "Thread[main,6,main]" to finish starting bundle "reference:file:plugins\org.eclipse.rse.ui_3.0.1.v200809041200.jar [486]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.eclipse.rse.ui.SystemPreferencesManager$ModelChangeListener" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins\org.eclipse.rse.ui_3.0.1.v200809041200.jar" by thread "main".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.rse.ui.SystemPreferencesManager$1.run(SystemPreferencesManager.java:510)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 15 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:444)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:397)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:385)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.rse.ui.SystemPreferencesManager$1.run(SystemPreferencesManager.java:510)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

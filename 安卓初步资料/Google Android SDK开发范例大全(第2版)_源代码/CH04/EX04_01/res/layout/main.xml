@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <TextView  
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:text="@string/hello"
+  />
+  <!--建立一個EditText -->
+  <EditText
+  android:id="@+id/myEditText"
+  android:layout_width="149px"
+  android:layout_height="wrap_content"
+  android:textSize="18sp"
+  android:layout_x="29px"
+  android:layout_y="33px"
+  />
+  <!--建立一個TextView -->
+  <TextView
+  android:id="@+id/myTextView"
+  android:layout_width="135px"
+  android:layout_height="41px"
+  android:layout_x="33px"
+  android:layout_y="106px"
+  />
+</LinearLayout>

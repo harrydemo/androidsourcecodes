@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX07_20!</string>
+  <string name="app_name">EX07_20</string>
+  <string name="act1">ACTION_DOWN</string>
+  <string name="act2">ACTION_UP</string>
+  <string name="act3">ACTION_POINTER_1_DOWN</string>
+  <string name="act4">ACTION_POINTER_1_UP</string>
+  <string name="act5">ACTION_POINTER_2_DOWN</string>
+  <string name="act6">ACTION_POINTER_2_UP</string>
+</resources>

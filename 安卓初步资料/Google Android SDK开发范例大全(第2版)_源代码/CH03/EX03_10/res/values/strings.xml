@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">EX03_10</string>
+  <string name="title">计算你/妳的标准体重!</string>
+  <string name="text1">身高：</string>
+  <string name="text2">性别：</string>
+</resources>

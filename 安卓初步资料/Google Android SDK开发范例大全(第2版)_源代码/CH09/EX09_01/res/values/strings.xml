@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">成功取得Token!!</string> 
+  <string name="app_name">EX09_01</string> 
+  <string name="app_name_sub">EX09_01_02</string> 
+  <string name="str_id">账号</string> 
+  <string name="str_pwd">密码</string> 
+  <string name="str_login">登录</string> 
+  <string name="str_logout">注销</string> 
+</resources> 
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">IRDC双向短信服务(Service)</string>
+  <string name="app_name">EX06_17</string>
+  <string name="str_button1">开始监听双向短信</string>
+  <string name="str_button2">终止监听双向短信</string>
+  <string name="str_service_online">双向短信服务已开始运行</string>
+  <string name="str_service_offline">双向短信服务已停止</string>
+  <string name="str_err_stopservicefailed">错误：终止Service</string>
+  <string name="str_cmd_sms_catched">拦截到双向短信KeyWord</string>
+  <string name="str_cmd_sms_sending">发生回传短信予电话：</string>
+  <string name="str_cmd_sms_returned">Congratulations!</string>
+</resources>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="app_name">EX08_01</string>
+  <string name="title">HTTP POST与GET</string> 
+  <string name="str_button1">以POST取回网页资料</string>
+  <string name="str_button2">以GET取回网页资料</string> 
+</resources> 
+

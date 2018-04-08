@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX05_08</string>
+  <string name="app_name">EX05_08</string>
+  <string name="str_title">我的登录状态：</string>
+</resources>

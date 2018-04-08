@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/white"
+  >
+  <TextView 
+  android:id="@+id/myTextView"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/title"
+  android:textColor="@drawable/black"
+  >
+  </TextView>
+  <ImageButton
+  android:id="@+id/myImageButton_1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/p1"
+  >
+  </ImageButton>  
+  <ImageButton
+  android:id="@+id/myImageButton_2"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:src="@drawable/p2"
+  >
+  </ImageButton>
+</LinearLayout>

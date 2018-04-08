@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="str_button">开始安装</string>
+  <string name="str_text">远程安装程序(请输入URL)</string>
+  <string name="str_url">http://www.dubblogs.cc:8751/Android/Test/Apk/EX04_14.apk</string>
+  <string name="app_name">EX08_14</string>
+</resources>

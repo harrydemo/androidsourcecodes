@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  android:id="@+id/widget32"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <TextView
+    android:id="@+id/myTextView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_title"
+    android:layout_x="0px"
+    android:layout_y="0px"
+  >
+  </TextView>
+  <EditText
+    android:id="@+id/myEditText01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_name"
+    android:textSize="18sp"
+    android:layout_x="0px"
+    android:layout_y="22px"
+  >
+  </EditText>
+  <EditText
+    android:id="@+id/myEditText02"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/str_telephone"
+    android:textSize="18sp"
+    android:layout_x="0px"
+    android:layout_y="82px"
+  >
+  </EditText>
+  <Button
+    android:id="@+id/myButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_button1"
+    android:layout_x="10px"
+    android:layout_y="142px"
+  >
+  </Button>
+</AbsoluteLayout>
+

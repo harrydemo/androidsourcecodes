@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">Hello World, EX07_08</string> 
+  <string name="app_name">EX07_08</string> 
+  <string name="str_text1">声音模式：</string> 
+  <string name="str_text2">手机音量：</string> 
+</resources>

@@ -1,0 +1,14 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.jst.server.preview.adapter,1.0.101.v20080730,org.eclipse.jst.server.preview.adapter,1232720452647
+stopped,bundle,org.eclipse.jdt.debug.ui,3.3.1.v20080730_r341,org.eclipse.jdt.debug.ui,1232720452649
+stopped,bundle,org.eclipse.datatools.enablement.jdt.classpath,1.0.1.v200805152355,org.eclipse.datatools.enablement.jdt.classpath,1232720452651
+stopped,bundle,org.eclipse.jdt.apt.ui,3.3.100.v20080407-1345,org.eclipse.jdt.apt.ui,1232720452652
+stopped,bundle,org.eclipse.jpt.eclipselink.ui,1.0.0.v200805300000,org.eclipse.jpt.eclipselink.ui,1232720452654
+stopped,bundle,org.eclipse.jpt.ui,2.0.101.v200809030200,org.eclipse.jpt.ui,1232720452655
+stopped,bundle,org.eclipse.jst.common.annotations.ui,1.1.102.v200806010600,org.eclipse.jst.common.annotations.ui,1232720452658
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.ui,1.1.102.v200805140020,org.eclipse.jst.j2ee.ejb.annotations.ui,1232720452663
+stopped,bundle,org.eclipse.jst.ejb.ui,1.1.202.v200809040612,org.eclipse.jst.ejb.ui,1232720452665
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.emitter,1.1.102.v200805140135,org.eclipse.jst.j2ee.ejb.annotations.emitter,1232720452666
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.305.v200805140230,org.eclipse.jst.ws.axis.creation.ui,1232720452668
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.304.v200807092124,org.eclipse.jst.ws.axis.consumption.ui,1232720452688
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.103.v200807162242,org.eclipse.jst.ws.axis2.creation.ui,1232720452689

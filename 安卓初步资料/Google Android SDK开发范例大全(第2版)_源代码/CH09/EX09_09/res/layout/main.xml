@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  android:id="@+id/myAbsoluteLayout1"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+  <TextView
+  android:id="@+id/myTextView1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="English"
+  android:textColor="@drawable/red"
+  android:layout_x="130px"
+  android:layout_y="0px"
+  >
+  </TextView>
+  <EditText
+  android:id="@+id/myEditText1"
+  android:layout_width="262px"
+  android:layout_height="38px"
+  android:textSize="18sp"
+  android:layout_x="30px"
+  android:layout_y="20px"
+  >
+  </EditText>
+  <WebView
+  android:id="@+id/myWebView1"
+  android:background="@drawable/white"
+  android:layout_height="wrap_content"
+  android:layout_width="fill_parent"
+  android:focusable="false"    
+  android:layout_x="0px"
+  android:layout_y="60px"
+  />
+</AbsoluteLayout>

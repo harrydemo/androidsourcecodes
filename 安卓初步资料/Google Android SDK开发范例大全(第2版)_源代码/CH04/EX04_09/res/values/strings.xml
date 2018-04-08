@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="title">可动态新增╱移除的Spinner下拉菜单</string>
+  <string name="app_name">EX04_09</string>
+</resources>

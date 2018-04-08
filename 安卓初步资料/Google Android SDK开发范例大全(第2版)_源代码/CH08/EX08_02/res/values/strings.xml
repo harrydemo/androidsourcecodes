@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX08_02</string>
+  <string name="app_name">EX08_02</string>
+  <string name="url">http://</string>
+  <string name="load">正在加载</string>
+</resources>

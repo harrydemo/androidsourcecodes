@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/white"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <TextView
+    android:id="@+id/myTextView1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:textColor="@drawable/blue"
+  />
+  <GridView
+    android:id="@+id/myGridView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:numColumns="5"
+  />
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  >
+  <Button
+    android:id="@+id/myButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_button1" />
+  <Button
+    android:id="@+id/myButton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_button2" />
+  </LinearLayout>
+</LinearLayout>

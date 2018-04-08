@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- 基础应用程序主题，为默认主题 -->
+  <style name="Theme" parent="android:Theme">
+  </style>
+
+  <!--
+     变更应用程序的主题，使之具有translucent背景
+  -->
+  <style name="Theme.Translucent">
+  
+    <item name="android:windowBackground">
+    @drawable/translucent_background
+    </item>
+    
+    <item name="android:windowNoTitle">false</item>
+    <item name="android:colorForeground">@drawable/blue</item>
+    <item name="android:colorBackground">@drawable/white</item>
+  </style>
+  
+  <!--
+     变更应用程序的主题，使之具有不同颜色背景且具有translucent背景
+  -->
+  <style name="Theme.Translucent2">
+  
+    <item name="android:windowBackground">
+    @drawable/pink
+    </item>
+    
+    <item name="android:windowNoTitle">false</item>
+    <item name="android:colorForeground">@drawable/darkgreen</item>
+    <item name="android:colorBackground">@drawable/pink</item>
+  </style>
+  
+  <!--
+     变更应用程序的主题，使之具有透明transparent背景
+  -->
+  <style name="Theme.Transparent">
+    
+    <item name="android:windowBackground">
+    @drawable/transparent_background
+    </item>
+    
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:colorForeground">@drawable/blue</item>
+    <item name="android:colorBackground">@drawable/pink</item>
+  </style>
+  
+  <style name="TextAppearance.Theme.PlainText"
+       parent="android:TextAppearance.Theme">
+    <item name="android:textStyle">normal</item>
+  </style>
+</resources>

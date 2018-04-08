@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX03_19</string>
+  <string name="app_name">EX03_19</string>
+  <string name="str_btn1">请按下我执行程序...</string>
+  <string name="str_dialog_title">请稍候片刻...</string>
+  <string name="str_dialog_body">正在执行云运算中...</string>
+</resources>

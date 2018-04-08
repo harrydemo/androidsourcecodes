@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, Ex03_13</string>
+  <string name="app_name">Ex03_13</string>
+  <string name="textview_str">转吧七彩霓虹灯</string>
+  <string name="button_str">按我</string>
+</resources>

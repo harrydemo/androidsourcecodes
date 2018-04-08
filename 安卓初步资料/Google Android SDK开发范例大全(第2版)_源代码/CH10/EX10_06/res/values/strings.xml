@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">欢迎！上班族今天吃什么？</string>
+  <string name="app_name">EX10_06</string>
+  <string name="str_manu1">新建餐馆</string>
+  <string name="str_manu2">编辑餐馆</string>
+  <string name="str_manu3">今天吃啥？</string>
+  <string name="str_label1">餐厅名称：</string>
+  <string name="str_label2">地址：</string>
+  <string name="str_label3">热量：</string>
+  <string name="str_label4">餐厅数据维护</string>
+  <string name="str_cal">卡</string>
+  <string name="str_button1">送出</string>
+  <string name="str_whattodo">数据维护操作</string>
+  <string name="str_edit_it">数据修改</string>
+  <string name="str_del_it">删除数据</string>
+  <string name="str_cancel">取消</string>
+</resources>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX03_04</string>
+  <string name="app_name">EX03_04</string>
+  <string name="str_1">我是Resource里的"字符串1"</string>
+  <string name="str_2">"字符串2"</string>
+</resources>

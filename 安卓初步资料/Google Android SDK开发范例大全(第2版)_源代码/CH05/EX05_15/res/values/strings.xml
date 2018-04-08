@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX05_15</string>
+  <string name="app_name">EX05_15</string>
+  <string name="str_text">更改文件名为：</string>
+</resources>

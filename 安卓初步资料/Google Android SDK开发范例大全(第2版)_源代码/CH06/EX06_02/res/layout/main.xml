@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/layout1"
+  android:background="@drawable/white"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <TextView 
+    android:id="@+id/myTextView1" 
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content" 
+    android:textColor="@drawable/blue" 
+    android:textSize="20sp" 
+    android:text="@string/str_title"
+    android:layout_x="60px"
+    android:layout_y="40px"
+  />
+  <Button
+    android:id="@+id/myButton1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/str_button1"
+    android:textColor="@drawable/black" 
+    android:textSize="14sp" 
+    android:layout_x="80px"
+    android:layout_y="90px"
+  />
+</AbsoluteLayout>

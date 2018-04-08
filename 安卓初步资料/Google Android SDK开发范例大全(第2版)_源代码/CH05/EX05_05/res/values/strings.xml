@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">按MENU可新增、修改、刪除</string>
+  <string name="app_name">EX05_05</string>
+  <string name="strEditButton">修改</string>
+  <string name="strMenu1">Delete</string>
+  <string name="strAddButton">新增</string>
+  <string name="strDeleteButton">刪除</string>
+</resources>

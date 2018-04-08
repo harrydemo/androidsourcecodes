@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <TextView
+    android:id="@+id/text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_x="50px"
+    android:layout_y="72px"
+  />
+  <Button
+    android:id="@+id/button1"
+    android:layout_width="100px"
+    android:layout_height="48px"
+    android:text="回上一頁"
+    android:layout_x="110px"
+    android:layout_y="180px"
+  />
+</AbsoluteLayout>

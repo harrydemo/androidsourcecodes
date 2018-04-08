@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">IRDC本周聚餐哪里打撮饭？</string>
+  <string name="app_name">EX03_20</string>
+  <string name="str_button1">按我开始选择</string>
+  <string name="str_alert_title">按我开始选择</string>
+  <string name="str_alert_body">你选择的是：</string>
+  <string name="str_ok">确认</string>
+  <array name="items_irdc_dialog">
+    <item>萌点女仆餐厅</item>
+    <item>一锅日式小火锅</item>
+    <item>好吃国巴西窑烤</item>  
+  </array>
+</resources>

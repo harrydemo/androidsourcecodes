@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/white"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_gravity="center_horizontal"
+>
+  <SurfaceView
+    android:id="@+id/mSurfaceView1"
+    android:visibility="visible" 
+    android:layout_width="160px" 
+    android:layout_height="120px"
+    android:layout_gravity="center_horizontal" >
+  </SurfaceView> 
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+  >
+  <Button
+    android:id="@+id/myButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_button1"/>
+  <Button
+    android:id="@+id/myButton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_button2"/>
+  <Button
+    android:id="@+id/myButton3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_take_picture"/>
+  </LinearLayout>
+  <ImageView
+    android:id="@+id/myImageView1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center" />
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!--第一個TextView -->
+  <TextView
+    android:id="@+id/myTextView"
+    android:layout_width="228px"
+    android:layout_height="49px"
+    android:text="@string/str_radio_question1"
+    android:textSize="30sp"    
+    android:layout_x="37px"
+    android:layout_y="3px"
+  />   
+  <!--建立一個RadioGroup -->
+  <RadioGroup
+    android:id="@+id/myRadioGroup"
+    android:layout_width="137px"
+    android:layout_height="216px"
+    android:orientation="vertical"
+    android:layout_x="3px"
+    android:layout_y="54px" 
+    >
+    <!--第一個RadioButton -->
+    <RadioButton
+      android:id="@+id/myRadioButton1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/tr_radio_op1"
+    />
+    <!--第二個RadioButton -->
+    <RadioButton
+      android:id="@+id/myRadioButton2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/tr_radio_op2"
+    />
+    </RadioGroup>    
+</AbsoluteLayout>

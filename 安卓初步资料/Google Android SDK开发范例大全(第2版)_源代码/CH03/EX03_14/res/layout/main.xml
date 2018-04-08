@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <!-- Layout使用白色背景以mylayout作為id -->
+  <RelativeLayout
+  android:id="@+id/mylayout"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/white"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+  <!-- 文字以mytextview為id
+  	引用string.xml的textview_str參數
+  	文字使用color.xml中定義的drawable顏色 -->
+  <TextView
+  android:id="@+id/mytextview"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/textview_str"
+  android:layout_alignParentTop="true"
+  android:layout_alignParentLeft="true"
+  android:textColor="@drawable/blue"
+  >
+  </TextView>
+  <!-- 改變大小按鈕以sizebutton為id
+  	引用sizebutton_str並置中安排於文字下方 -->
+  <Button
+  android:id="@+id/sizebutton"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/sizebutton_str"
+  android:layout_below="@+id/mytextview"
+  android:layout_centerHorizontal="true"
+  >
+  </Button>
+  <!-- 改變字型按鈕以fontbutton為id
+  	引用fontbutton_str並與sizebutton並排 -->
+  <Button
+  android:id="@+id/fontbutton"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/fontbutton_str"
+  android:layout_alignTop="@+id/sizebutton"
+  android:layout_toLeftOf="@+id/sizebutton"
+  >
+  </Button>
+</RelativeLayout>
+
+
+
+

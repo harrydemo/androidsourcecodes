@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">Hello World, EX10_01</string> 
+  <string name="app_name">EX10_01</string> 
+  <string name="str_title">选择背光颜色</string>
+  <string name="str_white">～白色背光～</string>
+  <string name="str_blue">～蓝色背光～</string>
+  <string name="str_pink">～粉红背光～</string>
+  <string name="str_green">～绿色背光～</string> 
+  <string name="str_orange">～橘色背光～</string> 
+  <string name="str_yellow">～黄色背光～</string> 
+  <string name="str_ok">确认</string> 
+  <string name="str_exit">离开</string> 
+</resources> 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:background="@drawable/white" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" 
+> 
+  <LinearLayout 
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+  > 
+    <TextView 
+      android:id="@+id/myTextView1" 
+      android:layout_width="wrap_content"  
+      android:layout_height="wrap_content" 
+      android:textColor="@drawable/blue" 
+      android:text="@string/title"
+    /> 
+    <EditText 
+      android:id="@+id/myEditText1" 
+      android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+    /> 
+  </LinearLayout> 
+  <android.gesture.GestureOverlayView 
+    android:id="@+id/myGestures1" 
+    android:layout_width="fill_parent"  
+    android:layout_height="0dip" 
+    android:layout_weight="1.0" 
+    android:gestureStrokeType="multiple" 
+  /> 
+  <LinearLayout 
+    style="@android:style/ButtonBar" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"> 
+    <Button 
+      android:id="@+id/myButton1" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_weight="1" 
+      android:enabled="false" 
+      android:text="@string/button_done"
+    /> 
+    <Button
+      android:id="@+id/myButton2" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_weight="1" 
+      android:text="@string/button_cancel"
+    /> 
+  </LinearLayout> 
+</LinearLayout>

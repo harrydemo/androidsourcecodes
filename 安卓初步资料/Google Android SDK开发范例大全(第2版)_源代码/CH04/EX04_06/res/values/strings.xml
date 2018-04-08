@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX04_06</string>
+  <string name="app_name">EX04_06</string>
+  <string name="tr_radio_op1">帅哥</string>
+  <string name="tr_radio_op2">美女</string>
+  <string name="str_radio_question1">请问你是？</string> 
+</resources>

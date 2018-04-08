@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">Hello World, EX08_18!</string> 
+  <string name="app_name">EX08_18</string> 
+  <string name="str_button1">更新网络API</string> 
+</resources>

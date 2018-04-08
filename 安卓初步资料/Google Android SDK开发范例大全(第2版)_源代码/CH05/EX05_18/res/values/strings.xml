@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">Hello World, EX05_18</string> 
+  <string name="app_name">EX05_18</string>
+  <string name="str_list0">SIM卡状态</string>
+  <string name="str_list1">SIM卡卡号</string>
+  <string name="str_list2">SIM卡供货商代码</string> 
+  <string name="str_list3">SIM卡供货商名称</string> 
+  <string name="str_list4">SIM卡区域</string> 
+</resources>

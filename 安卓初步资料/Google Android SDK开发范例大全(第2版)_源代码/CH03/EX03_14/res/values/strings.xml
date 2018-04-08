@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, Ex03_14</string>
+  <string name="app_name">Ex03_14</string>
+  <string name="textview_str">Change me if you can !!</string>
+  <string name="sizebutton_str">变大</string>
+  <string name="fontbutton_str">换字体</string>
+</resources>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EX04_04</string>
+    <string name="app_name">EX04_04</string>
+    <string name="str_agree">我同意</string>
+    <string name="str_go">确定</string>
+    <string name="ok">你已接受同意!!</string>
+    <string name="no">*请勾选我同意</string>
+    <!-- 空格都是用TAB键做区隔的 -->
+    <string name="text1">我是范例合约~~	我是范例合约~~	我是范例合约~~	我是范例合约~~	我是范例合约~~</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!!</string>
+    <string name="app_name">TEST_02</string>
+    <string name="hello_2">LOVE!!</string>
+    <string name="str_checkbox">Check Box核取項</string>
+    <color name="color">#FF227A81</color>
+</resources>

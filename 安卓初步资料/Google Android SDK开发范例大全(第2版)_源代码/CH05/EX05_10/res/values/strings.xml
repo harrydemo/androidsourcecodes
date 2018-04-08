@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="app_name">EX05_10</string> 
+  <string name="str_button1">搜索</string> 
+  <string name="str_title">我的联系人</string>
+  <string name="str_name">姓名</string>
+  <string name="str_telephone">电话号码</string>
+</resources> 
+

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">收藏夹</string> 
+  <string name="app_name">EX08_04</string>  
+  <string name="str_list_url1">Google</string>
+  <string name="str_list_url2">Dubblogs</string>
+  <string name="str_list_url3">Yahoo</string>
+  <string name="str_list_url4">MSN</string>
+  <string name="str_url1">http://www.google.com</string>
+  <string name="str_url2">http://www.dubblogs.cc</string>
+  <string name="str_url3">http://www.yahoo.com</string>
+  <string name="str_url4">http://www.msn.com</string>
+</resources> 
+

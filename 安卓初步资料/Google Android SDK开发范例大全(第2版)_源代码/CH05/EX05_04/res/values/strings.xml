@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="app_name">EX05_04</string> 
+  <string name="str_button">发信</string> 
+  <string name="str_message">发信中...</string> 
+  <string name="str_receive">收件人:</string>
+  <string name="str_cc">副本:</string>
+  <string name="str_subject">主题:</string>
+</resources>

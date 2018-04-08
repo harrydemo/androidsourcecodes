@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, ex03_12</string>
+  <string name="app_name">ex03_12</string>
+  <string name="app_about">關於</string>
+  <string name="app_about_msg">～這是彈出對話視窗範例練習～</string>
+  <string name="str_ok">確認</string>
+  <string name="str_exit">離開</string>
+</resources>

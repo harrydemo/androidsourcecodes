@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="irdc.ex04_28"
+  android:versionCode="1"
+  android:versionName="1.0">
+  <application
+    android:icon="@drawable/icon"
+    android:label="@string/app_name">
+    <receiver
+      android:label="@string/app_name"
+      android:name=".EX04_28">
+      <intent-filter>
+        <action
+          android:name="android.appwidget.action.APPWIDGET_UPDATE">
+        </action>
+      </intent-filter>
+      <meta-data 
+        android:resource="@xml/my_widget_provider" 
+        android:name="android.appwidget.provider">
+      </meta-data>
+    </receiver>
+    <service android:name=".EX04_28$UpdateService" />
+  </application>
+  <uses-sdk android:minSdkVersion="7" />
+</manifest> 

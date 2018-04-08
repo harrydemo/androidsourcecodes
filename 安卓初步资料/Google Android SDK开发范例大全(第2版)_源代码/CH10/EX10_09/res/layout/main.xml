@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+  android:id="@+id/widget0" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" 
+  android:background="@android:color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+>
+  <ListView 
+    android:id="@+id/ListView01" 
+    android:layout_width="90px" 
+    android:layout_height="252px" 
+    android:layout_y="70px" 
+    android:scrollbars="none"  
+    android:background="@drawable/bg1"  
+    android:dividerHeight="1px" 
+    android:layout_x="100px"/>
+  <TextView 
+    android:id="@+id/TextView01" 
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content" 
+    android:text="@string/hello" 
+    android:layout_x="100px" 
+    android:layout_y="360px" 
+    android:textColor="@android:color/black"
+  />  
+</AbsoluteLayout>

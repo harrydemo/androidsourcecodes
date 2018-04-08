@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!-- 建立第一個TextView -->
+  <TextView  
+  android:id="@+id/myTextView1" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:text="@string/hello"
+  />
+  <!-- 建立第二個TextView -->
+  <TextView  
+  android:id="@+id/myTextView2" 
+  android:layout_width="105px" 
+  android:layout_height="wrap_content" 
+  android:layout_x="3px"
+  android:layout_y="80px"
+  android:text="@string/input"
+  />
+  <!-- 建立第三個TextView -->
+  <TextView  
+  android:id="@+id/myTextView3" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:layout_x="110px"
+  android:layout_y="80px"
+  />
+  <!-- 建立一個EditText -->
+  <EditText
+  android:id="@+id/myEditText1"
+  android:layout_width="185px"
+  android:layout_height="wrap_content"
+  android:textSize="18sp"
+  android:phoneNumber="true"
+  android:layout_x="3px"
+  android:layout_y="32px"
+  />  
+</AbsoluteLayout>

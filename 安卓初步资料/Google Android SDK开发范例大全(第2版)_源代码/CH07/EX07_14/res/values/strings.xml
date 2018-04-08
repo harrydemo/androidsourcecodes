@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX07_14</string>
+  <string name="app_name">EX07_14</string>
+  <string name="str_play">播放影片中</string>
+  <string name="str_pause">影片暫停(再按一次繼續)...</string>
+  <string name="str_stop">播放器停止</string>
+  <string name="str_err_nosd">※未發現安裝SD記憶卡※</string>
+</resources>

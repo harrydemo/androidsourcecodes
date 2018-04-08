@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  android:id="@+id/layout1"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/white"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <DatePicker
+    android:id="@+id/dPicker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="20px"
+    android:layout_y="20px"
+  />
+  <TimePicker
+    android:id="@+id/tPicker"
+    android:layout_width="220px"
+    android:layout_height="wrap_content"
+    android:layout_x="20px"
+    android:layout_y="180px"
+  />
+  <TextView
+    android:id="@+id/showTime"
+    android:layout_width="wrap_content"
+    android:layout_height="34px"
+    android:textSize="24sp"
+    android:layout_x="30px"
+    android:layout_y="330px"
+    android:textColor="@drawable/black"
+  />
+</AbsoluteLayout>

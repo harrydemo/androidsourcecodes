@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  android:id="@+id/layout2"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <TextView
+    android:id="@+id/text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_text1"
+    android:textColor="@drawable/white"
+    android:textSize="16sp"
+    android:layout_x="10px"
+    android:layout_y="32px"
+  />
+  <TextView
+    android:id="@+id/text2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_text2"
+    android:textColor="@drawable/white"
+   	android:textSize="16sp"
+    android:layout_x="10px"
+    android:layout_y="172px"
+  />
+  <TimePicker
+    android:id="@+id/tPicker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="100px"
+    android:layout_y="12px"
+  />
+  <EditText
+    android:id="@+id/mEdit"
+    android:layout_width="52px"
+    android:layout_height="40px"
+    android:text="15"
+    android:textSize="16sp"
+    android:layout_x="120px"
+    android:layout_y="162px"
+  />
+  <TextView
+    android:id="@+id/text3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_text3"
+    android:textColor="@drawable/white"
+    android:textSize="16sp"
+    android:layout_x="180px"
+    android:layout_y="172px"
+  />
+</AbsoluteLayout>

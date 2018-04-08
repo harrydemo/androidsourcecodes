@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX06_09</string>
+  <string name="app_name">EX06_09</string>
+  <string name="app_name_1">EX06_09_1</string>
+  <string name="app_name_2">EX06_09_2</string>
+  <string name="strBtn1">存取手机存储卡</string>
+  <string name="strBtn2">存取SD Card</string>
+  <string name="strNewMenu">新增</string>
+  <string name="strDeleteMenu">删除</string>
+  <string name="strSaveMenu">保存</string>
+  <string name="strSaveDialog">文件名</string>
+  <string name="str_alert_ok">确定</string> 
+  <string name="str_alert_cancel">取消</string>     
+</resources>

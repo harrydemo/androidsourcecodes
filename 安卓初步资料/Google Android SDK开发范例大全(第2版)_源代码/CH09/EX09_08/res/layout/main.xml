@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  android:id="@+id/layout1"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/white"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <TextView
+    android:id="@+id/myTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="29px"
+    android:text="@string/str_title"
+    android:textColor="@drawable/black"
+    android:textSize="18sp"
+    android:layout_x="100px"
+    android:layout_y="40px"
+  />
+  <TextView
+    android:id="@+id/myText1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_text"
+    android:textColor="@drawable/black"
+    android:textSize="16sp"
+    android:layout_x="30px"
+    android:layout_y="92px"
+  />
+  <EditText
+    android:id="@+id/myEdit1"
+    android:layout_width="170px"
+    android:layout_height="40px"
+    android:textSize="18sp"
+    android:layout_x="80px"
+    android:layout_y="82px"
+  />
+  <Button
+    android:id="@+id/myButton"
+    android:layout_width="85px"
+    android:layout_height="wrap_content"
+    android:text="@string/str_button"
+    android:textSize="16sp"
+    android:layout_x="110px"
+    android:layout_y="150px"
+  />
+</AbsoluteLayout>

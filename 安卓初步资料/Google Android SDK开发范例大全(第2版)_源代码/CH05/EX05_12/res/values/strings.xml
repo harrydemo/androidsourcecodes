@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX05_12</string>
+  <string name="app_name">EX05_12</string>
+  <string name="str_button1">按我清除背景图</string> 
+  <string name="str_done">好了！</string>   
+</resources>

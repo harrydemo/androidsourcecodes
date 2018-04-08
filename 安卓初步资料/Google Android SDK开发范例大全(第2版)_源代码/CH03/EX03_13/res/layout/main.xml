@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+    <!-- Layout使用白色的背景 -->
+<LinearLayout
+  android:id="@+id/widget27"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/white"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  >
+  <!-- 
+      文字使用mytext作為id使用string.xml中
+      的textview_str參數 預設文字顏色為按灰色
+  -->
+  <TextView
+  android:id="@+id/mytext"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/textview_str"
+  android:textColor="@drawable/darkgray"
+  >
+  </TextView>
+  <!-- 按鈕以mybutton作為id使用string.xml中
+  	的button_str參數
+  -->
+  <Button
+  android:id="@+id/mybutton"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="@string/button_str"
+  >
+  </Button>
+</LinearLayout>
+
+
+

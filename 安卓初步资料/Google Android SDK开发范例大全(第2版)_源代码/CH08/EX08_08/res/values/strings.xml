@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX08_08</string>
+  <string name="app_name">EX08_08</string>
+  <string name="str_play">播放中</string>
+  <string name="str_pause">暂停(再按一次继续)...</string>
+  <string name="str_stop">停止</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World, EX05_22</string>
+  <string name="app_name">EX05_22</string>
+  <string name="str_button1">按我旋转屏幕</string>
+  <string name="str_err_1001">
+     请在AndroidManifest.xml\n新增android:screenOrientation屬性
+  </string>
+  <string name="str_msg1">旋转为LANDSCAPE</string>
+  <string name="str_msg2">旋转为PORTRAIT</string>
+</resources>

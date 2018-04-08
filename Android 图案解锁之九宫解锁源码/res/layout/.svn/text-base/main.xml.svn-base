@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+
+    <com.wgs.jiesuo.LockPatternView
+         xmlns:app="http://schemas.android.com/apk/res/com.wgs.jiesuo"
+         android:id="@+id/lpv_lock"
+         android:background="#334455"
+         android:layout_width="300dp"
+         android:layout_height="300dp"
+        />
+    
+    <Button 
+        android:id="@+id/btn_set_pwd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="设置密码"
+        />
+    <Button 
+        android:id="@+id/btn_reset_pwd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="重置密码"
+        />
+     <Button 
+        android:id="@+id/btn_check_pwd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="校验密码"
+        />
+</LinearLayout>

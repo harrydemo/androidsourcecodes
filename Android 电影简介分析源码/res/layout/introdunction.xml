@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/intro_layer"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical" >
+
+  <TextView android:id="@+id/intro_info"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_margin="12px"
+   android:scrollbars="vertical"
+   android:singleLine="false"
+   android:maxLines="15" >
+  </TextView>
+  <TextView android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="┃【使用前请您先阅读以下条款，否则请勿使用本站提供的文件！】      ┃
+┃ 1) 推荐使用：WinRAR V3.4以上版本解压本站软件                   ┃
+┃ 2) 本站不保证所提供软件或程序的完整性和安全性。                ┃
+┃ 3) 请在使用前查毒 (这也是您使用其它网络资源所必须注意的) 。    ┃
+┃ 4) 由本站提供的程序对您网站或计算机造成严重后果的本站概不负责。┃
+┃ 5) 本站提供的程序均为网上搜集，如果该程序涉及或侵" ></TextView>
+</LinearLayout>

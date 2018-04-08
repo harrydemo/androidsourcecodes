@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">号码归属地查询</string>
+    <string name="mobile">号码：</string>
+    <string name="queryResult">True</string>
+    <string name="province">省份：</string>
+    <string name="city">城市：</string>
+    <string name="areaCode">区号：</string>
+    <string name="postCode">邮编：</string>
+    <string name="corp">运营商：</string>
+    <string name="card">类型：</string>
+<string name="editError">您输入的号码有误</string>
+<string name="editHint">请输入号码</string>
+<string name="inquiryFlunk">查询失败，详情请查看使用帮助。</string>
+<string name="exit">退出</string>
+<string name="guanyu">关于</string>
+<string name="help">帮助</string>
+<string name="look">查看</string>
+<string name="saving">保存</string>
+<string name="backtrack">返回</string>
+</resources>

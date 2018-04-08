@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 手动 -->
+
+    <TextView
+        android:layout_width="110dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="20dip"
+        android:paddingTop="25dip"
+        android:text="@string/handcontrol"
+        android:textSize="14dip" />
+
+    <TextView
+        android:layout_width="110dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="20dip"
+        android:paddingTop="65dip"
+        android:text="@string/second3"
+        android:textSize="14dip" />
+
+    <TextView
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="20dip"
+        android:paddingTop="105dip"
+        android:text="@string/second5"
+        android:textSize="14dip" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dip" >
+
+        <RadioButton
+            android:id="@+id/second0"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="25dip"
+            android:layout_marginTop="15dip"
+            android:text="0" />
+
+        <RadioButton
+            android:id="@+id/second3"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="25dip"
+            android:layout_marginTop="7dip"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/second5"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_marginRight="25dip"
+            android:layout_marginTop="8dip"
+            android:text="5" />
+    </RadioGroup>
+
+</RelativeLayout>

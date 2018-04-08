@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		/** * <font set activity layout.> * Copyright (C) <2009> <Wang
+		XinFeng,ACC http://androidos.cc/dev> * * This program is free
+		software: you can redistribute it and/or modify * it under the terms
+		of the GNU General Public License as published by * the Free Software
+		Foundation, either version 3 of the License, or * (at your option) any
+		later version. * * This program is distributed in the hope that it
+		will be useful, * but WITHOUT ANY WARRANTY; without even the implied
+		warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See
+		the * GNU General Public License for more details. */
+	-->
+<RelativeLayout android:id="@+id/IndexRelativeLayout"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#333333" android:paddingTop="100px">
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical" android:gravity="center_horizontal">
+
+		<Button android:id="@+id/localBooks" android:layout_width="200px"
+			android:gravity="center_horizontal|center_vertical"
+			android:layout_height="wrap_content" android:text="@string/localFile"></Button>
+			
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:text="@string/thx">
+		</TextView>
+	</LinearLayout>
+
+
+
+
+	<!--
+		<Button android:id="@+id/qqBooks" android:layout_width="100px"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/sinaBooks"></Button> <Button
+		android:id="@+id/neteaseBooks" android:layout_width="100px"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/qqBooks"></Button> <Button
+		android:id="@+id/juanzhu" android:layout_width="100px"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/neteaseBooks"></Button>
+	-->
+
+</RelativeLayout>

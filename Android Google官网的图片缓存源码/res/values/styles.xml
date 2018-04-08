@@ -1,0 +1,11 @@
+<resources>
+
+	<style name="AppTheme" parent="android:Theme" />
+
+    <style name="AppTheme.FullScreen" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+    <style name="PhotoGridLayout">
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:listSelector">@null</item>
+    </style>
+</resources>

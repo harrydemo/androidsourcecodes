@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+      <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/console_line_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/main_navigation_background"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/main_tab_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/main_navigation_background"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:paddingTop="2.0dip" >
+
+                <RadioButton
+                    android:id="@+id/main_tab_home"
+                    style="@style/main_tab_bottom"
+                    android:checked="true"
+                    android:drawableTop="@drawable/main_navigation_home"
+                    android:text="@string/main_navigation_home" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_catagory"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/main_navigation_catagory"
+                    android:text="@string/main_navigation_catagory" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_car"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/main_navigation_car"
+                    android:text="@string/main_navigation_car" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_buy"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/main_navigation_personal"
+                    android:text="@string/main_code_buy" />
+
+                <RadioButton
+                    android:id="@+id/main_tab_more"
+                    style="@style/main_tab_bottom"
+                    android:drawableTop="@drawable/main_navigation_more"
+                    android:text="@string/main_navigation_more" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+</TabHost>

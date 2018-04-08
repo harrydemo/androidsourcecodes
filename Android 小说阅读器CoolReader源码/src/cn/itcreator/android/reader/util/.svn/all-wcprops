@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util
+END
+CopyOfTxtReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util/CopyOfTxtReader.java
+END
+TxtReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util/TxtReader.java
+END
+ObjectUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util/ObjectUtil.java
+END
+UMDFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util/UMDFile.java
+END
+BytesEncodingDetect.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util/BytesEncodingDetect.java
+END
+CRDBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util/CRDBHelper.java
+END
+ReadFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util/ReadFile.java
+END
+DateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util/DateUtil.java
+END
+IntergerUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util/IntergerUtil.java
+END
+XMLUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/util/XMLUtil.java
+END

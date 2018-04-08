@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_bg"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送email"
+            android:textColor="#ffffffff"
+            android:textSize="22.0sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/emailTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="20dp"
+        android:bufferType="spannable"
+        android:gravity="top"
+        android:hint="标题"
+        android:textSize="15dp" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/emailContent"
+        android:layout_width="fill_parent"
+        android:layout_height="160dip"
+        android:layout_marginLeft="2dp"
+        android:bufferType="spannable"
+        android:gravity="top"
+        android:hint="请输入email的内容 . . . "
+        android:textSize="15dp" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/emailBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:textSize="21dp" />
+
+        <Button
+            android:id="@+id/emailSend"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_login_nor"
+            android:text="发送"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</LinearLayout>

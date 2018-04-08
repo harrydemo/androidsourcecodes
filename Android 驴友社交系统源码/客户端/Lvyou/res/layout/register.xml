@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/ww1">
+
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:src="@drawable/pagetop">
+	</ImageView>
+
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/LinearLayout0"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TextView android:id="@+id/TextView00" android:text="请输入您的注册信息："
+				android:textColor="#6495ED" android:textSize="20dip"
+				android:layout_height="wrap_content" android:layout_width="fill_parent">
+			</TextView>
+
+			
+			<View android:layout_height="2dip" android:layout_width="fill_parent"
+				android:background="#FF909090" />
+
+
+
+			<LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout01"
+				android:layout_margin="20dip" android:background="#FFFFFF"
+				android:padding="10dp" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+
+				<LinearLayout android:orientation="horizontal"
+					android:id="@+id/LinearLayout02" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView android:id="@+id/TextView01" android:text="帐　　 号:  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText android:id="@+id/EditText01"
+						android:layout_width="190dip" android:layout_height="wrap_content">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout03"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView02" android:text="密　　 码:  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText android:id="@+id/EditText02"
+						android:layout_width="190dip" android:layout_height="wrap_content"
+						android:password="true">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout04"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView03" android:text="确认密码 :  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText android:id="@+id/EditText03"
+						android:layout_width="190dip" android:layout_height="wrap_content"
+						android:password="true">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout05"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView04" android:text="电子邮件 :  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText android:id="@+id/EditText04"
+						android:layout_width="190dip" android:layout_height="wrap_content">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout06"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView05" android:text="昵　　 称:  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText android:id="@+id/EditText05"
+						android:layout_width="190dip" android:layout_height="wrap_content">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout07"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView06" android:text="性　　 别:  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content" android:layout_marginTop="5dp">
+					</TextView>
+
+					<RadioGroup android:orientation="horizontal" android:id="@+id/rg11"
+						android:layout_width="fill_parent" android:layout_height="wrap_content">
+						<RadioButton android:text="男　" android:textColor="#6495ED"
+							android:id="@+id/RadioButton01" android:layout_width="wrap_content"
+							android:layout_height="wrap_content">
+						</RadioButton>
+
+						<RadioButton android:text="女" android:textColor="#6495ED"
+							android:id="@+id/RadioButton02" android:layout_width="wrap_content"
+							android:layout_height="wrap_content">
+						</RadioButton>
+					</RadioGroup>
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout08"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView07" android:text="手　　 机:  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText android:id="@+id/EditText06"
+						android:layout_width="190dip" android:layout_height="wrap_content">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout09"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<!--<TextView android:id="@+id/TextView08" android:text="头　　 像:  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<ImageView android:id="@+id/ImageView02"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:src="@drawable/qq022" android:layout_marginLeft="5dp">
+					</ImageView>
+
+					<ImageView android:id="@+id/ImageView03"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:src="@drawable/pic2" android:layout_marginLeft="10dp">
+					</ImageView>
+
+				--></LinearLayout>
+
+				<LinearLayout android:id="@+id/LinearLayout10"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView android:id="@+id/TextView09" android:text="其他头像 :  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<ImageView android:id="@+id/ImageView05"
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"></ImageView>
+
+					<Button android:text="选择" android:id="@+id/Button02"
+						android:layout_width="wrap_content" android:layout_height="wrap_content">
+					</Button>
+				</LinearLayout>
+
+				<LinearLayout android:id="@+id/LinearLayout11"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<ImageView android:id="@+id/ImageView04"
+						android:layout_width="fill_parent" android:layout_height="wrap_content">
+					</ImageView>
+				</LinearLayout>
+
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout12"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView10" android:text="职　　 业:  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText android:id="@+id/EditText08"
+						android:layout_width="190dip" android:layout_height="wrap_content">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout13"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView11" android:text="所 在 地   :  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText android:id="@+id/EditText09"
+						android:layout_width="190dip" android:layout_height="wrap_content">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout14"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView12" android:text="圈　　 子:  "
+						android:textColor="#6495ED" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText android:id="@+id/EditText10"
+						android:layout_width="190dip" android:layout_height="wrap_content">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<TextView android:id="@+id/TextView13" android:text="关注类型 :  "
+					android:textColor="#6495ED" android:layout_height="wrap_content"
+					android:layout_width="wrap_content">
+				</TextView>
+
+				<CheckBox android:text="风味小吃" android:textColor="#6495ED"
+					android:id="@+id/CheckBox01" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</CheckBox>
+
+				<CheckBox android:text="人文景观" android:textColor="#6495ED"
+					android:id="@+id/CheckBox02" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</CheckBox>
+
+				<CheckBox android:text="自然风景" android:textColor="#6495ED"
+					android:id="@+id/CheckBox03" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</CheckBox>
+
+				<Button android:text="注　册" android:id="@+id/Button01"
+					android:layout_width="fill_parent" android:layout_height="wrap_content">
+				</Button>
+			</LinearLayout>
+	
+	
+</LinearLayout>
+	</ScrollView>
+</LinearLayout>

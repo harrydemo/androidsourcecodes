@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/u_item_rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listitem_bg" >
+
+        <ImageView
+            android:id="@+id/u_item_image_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="20px"
+            android:layout_marginLeft="5px"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/u_item_t_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/u_item_image_1"
+            android:text="北京师范大学"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/u_item_ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/u_item_t_1"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/u_item_image_1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/u_item_image_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon17" />
+
+            <TextView
+                android:id="@+id/u_item_t_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/u_item_time" />
+
+            <ImageView
+                android:id="@+id/u_item_image_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/icon18" />
+
+            <TextView
+                android:id="@+id/u_item_t_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/u_item_renshu" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/u_item_image_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/sportsmain_item_righicon" />
+    </RelativeLayout>
+
+</RelativeLayout>

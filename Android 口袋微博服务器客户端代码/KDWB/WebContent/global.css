@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+.btn {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FONT-SIZE: 12px; BACKGROUND: #3b5998; PADDING-BOTTOM: 2px; 
+	MARGIN: 0px; OVERFLOW: visible; COLOR: #fff; BORDER-TOP-STYLE: none; 
+	PADDING-TOP: 4px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; 
+	-moz-border-radius: 5px; -webkit-border-radius: 5px
+}
+.bodyBack{
+	BACKGROUND:#c5edf3
+}
+a:link,a:visited{
+	text-decoration:none;
+	
+}
+a:hover{
+	background-color:#369;
+	color:#fff;
+}
+.ziti{
+	color:#424242;	
+}
+.ziti2{
+	font-size:small;
+	color:#424242;	
+}
+
+DIV.yahoo2 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 0.85em; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; FONT-FAMILY: Tahoma,Helvetica,sans-serif; TEXT-ALIGN: center
+}
+DIV.yahoo2 A {
+	BORDER-RIGHT: #ccdbe4 1px solid; PADDING-RIGHT: 8px; BACKGROUND-POSITION: 50% bottom; BORDER-TOP: #ccdbe4 1px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccdbe4 1px solid; COLOR: #0061de; MARGIN-RIGHT: 3px; PADDING-TOP: 2px; BORDER-BOTTOM: #ccdbe4 1px solid; TEXT-DECORATION: none
+}
+DIV.yahoo2 A:hover {
+	BORDER-RIGHT: #2b55af 1px solid; BORDER-TOP: #2b55af 1px solid; BACKGROUND-IMAGE: none; BORDER-LEFT: #2b55af 1px solid; COLOR: #fff; BORDER-BOTTOM: #2b55af 1px solid; BACKGROUND-COLOR: #3666d4
+}
+DIV.yahoo2 A:active {
+	BORDER-RIGHT: #2b55af 1px solid; BORDER-TOP: #2b55af 1px solid; BACKGROUND-IMAGE: none; BORDER-LEFT: #2b55af 1px solid; COLOR: #fff; BORDER-BOTTOM: #2b55af 1px solid; BACKGROUND-COLOR: #3666d4
+}
+DIV.yahoo2 SPAN.current {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #000; MARGIN-RIGHT: 3px; PADDING-TOP: 2px
+}
+DIV.yahoo2 SPAN.disabled {
+	DISPLAY: none
+}
+DIV.yahoo2 A.next {
+	BORDER-RIGHT: #ccdbe4 2px solid; BORDER-TOP: #ccdbe4 2px solid; MARGIN: 0px 0px 0px 10px; BORDER-LEFT: #ccdbe4 2px solid; BORDER-BOTTOM: #ccdbe4 2px solid
+}
+DIV.yahoo2 A.next:hover {
+	BORDER-RIGHT: #2b55af 2px solid; BORDER-TOP: #2b55af 2px solid; BORDER-LEFT: #2b55af 2px solid; BORDER-BOTTOM: #2b55af 2px solid
+}
+DIV.yahoo2 A.prev {
+	BORDER-RIGHT: #ccdbe4 2px solid; BORDER-TOP: #ccdbe4 2px solid; MARGIN: 0px 10px 0px 0px; BORDER-LEFT: #ccdbe4 2px solid; BORDER-BOTTOM: #ccdbe4 2px solid
+}
+DIV.yahoo2 A.prev:hover {
+	BORDER-RIGHT: #2b55af 2px solid; BORDER-TOP: #2b55af 2px solid; BORDER-LEFT: #2b55af 2px solid; BORDER-BOTTOM: #2b55af 2px solid
+}
+.tab1{
+	background:	url(img/link_1.png) no-repeat;
+}
+.tab2{
+	background:	url(img/link_2.png) no-repeat;
+}
+
+
+
+#nav A {
+	TEXT-DECORATION:none;
+}
+#nav A:link {
+	COLOR: #666; 
+}
+#nav A:visited {
+	COLOR: #666; 
+}
+#nav A:hover {
+	COLOR: #f30
+}
+#nav A:active {
+	COLOR: #f30
+}
+
+
+.btn2 {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(img/ui_sprites.jpg) no-repeat left -177px; WIDTH: 86px; CURSOR: pointer; COLOR: #2b2b2b; BORDER-TOP-STYLE: none; LINE-HEIGHT: 28px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 28px; TEXT-ALIGN: center; BORDER-BOTTOM-STYLE: none; outline: none
+}
+.btn-hover {
+	BACKGROUND: url(img/ui_sprites.jpg) no-repeat left -205px; TEXT-DECORATION: none
+}
+.btn2:hover {
+	BACKGROUND: url(img/ui_sprites.jpg) no-repeat left -205px; TEXT-DECORATION: none
+}
+.btn-false {
+	BACKGROUND: url(img/index_sprites.png) no-repeat left -111px; CURSOR: default; COLOR: #ccc
+}
+.btn-false:hover {
+	BACKGROUND: url(img/index_sprites.png) no-repeat left -111px; CURSOR: default; COLOR: #ccc
+}
+
+
+.f2_input {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; BACKGROUND: #fdfdfd; PADDING-BOTTOM: 4px; BORDER-LEFT: #ddd 1px solid; WIDTH: 115px; COLOR: #333; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 1px solid; -moz-border-radius: 5px; -webkit-border-radius: 5px
+}
+.f2_input2 {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; BACKGROUND: #fdfdfd; PADDING-BOTTOM: 4px; BORDER-LEFT: #ddd 1px solid; COLOR: #333; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 1px solid; -moz-border-radius: 5px; -webkit-border-radius: 5px
+}
+
+.status-update-textarea {
+	PADDING-RIGHT: 3px; OVERFLOW-Y: auto; PADDING-LEFT: 3px; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 3px; MARGIN: 11px 0px 0px 9px; OVERFLOW: hidden; WIDTH: 516px; WORD-BREAK: break-all; BORDER-TOP-STYLE: none; LINE-HEIGHT: 21px; PADDING-TOP: 3px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 65px; WORD-WRAP: break-word; BORDER-BOTTOM-STYLE: none; resize: none
+}
+.statusUpdate {
+	BACKGROUND: url(img/statusupdatebg.jpg) #fff no-repeat left top
+}
+.arinfo {
+	CLEAR: both;  FLOAT: left; COLOR: #666;  font-size: 18px
+}
+
+.arinfo2 {
+	CLEAR: both;  FLOAT: left; COLOR: #666;  font-size: 12px
+}
+
+.arinfo3 {
+	CLEAR: both;  FLOAT: left; COLOR: #555;  font-size: 18px; font-weight: bold;
+}

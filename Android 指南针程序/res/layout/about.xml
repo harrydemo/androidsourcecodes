@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/TableLayout" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="200dp" android:layout_width="280dp">
+
+<TableRow android:id="@+id/TRtitle" android:layout_width="fill_parent" android:layout_height="80dp">
+<TableLayout android:id="@+id/TLtitle" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<TableRow android:id="@+id/TRtt" android:layout_width="fill_parent" android:layout_height="80dp">
+<ImageView android:id="@+id/ImageView01" android:src="@drawable/pisces" android:layout_width="80dp" android:layout_gravity="center"></ImageView>
+<TextView android:textColor="#ffffff" android:textSize="25px" android:textStyle="bold" android:gravity="center" android:text="@string/app_name" android:id="@+id/tvTitle" android:layout_height="70dp" android:layout_width="200dp"></TextView>
+</TableRow>
+</TableLayout>
+</TableRow>
+
+<TableRow android:layout_width="fill_parent" android:layout_height="90dp" android:id="@+id/TRcontent">
+<TextView android:text="@+id/TextView02" android:id="@+id/tvContent" android:layout_width="200dp" android:layout_height="50dp"></TextView>
+</TableRow>
+
+<TableRow android:layout_width="fill_parent" android:layout_height="90dp" android:id="@+id/TRMarquee">
+<TableLayout android:id="@+id/TLMarquee" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<TableRow android:id="@+id/TRtm" android:layout_height="50dp" android:layout_width="fill_parent" android:gravity="center_horizontal">
+<TextView android:id="@+id/tvQueen" android:textColor="#ffffff" android:textStyle="bold" android:layout_height="30dp" android:gravity="center_horizontal" android:textSize="18px" android:ellipsize="marquee" android:singleLine="true" android:layout_width="160dp" android:text=".....all pisces....."></TextView>
+</TableRow>
+</TableLayout>
+</TableRow>
+
+<TableRow android:id="@+id/TRButton" android:layout_height="50dp" android:layout_width="fill_parent" android:gravity="center_horizontal">
+<TableLayout android:id="@+id/TLButton" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<TableRow android:id="@+id/TRtb" android:layout_height="50dp" android:layout_width="fill_parent" android:gravity="center_horizontal">
+<Button android:layout_height="50dp" android:id="@+id/btnOk" android:text="@string/alert_ok" android:layout_width="100dp"></Button>
+</TableRow>
+</TableLayout>
+</TableRow>
+
+
+
+</TableLayout>

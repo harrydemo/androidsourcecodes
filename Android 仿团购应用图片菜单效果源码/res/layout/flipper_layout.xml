@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+    <ViewFlipper 
+	    android:id="@+id/imgs_vf"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></ViewFlipper>
+    <ImageView
+	    android:id="@+id/pageIndicator1_iv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/imgs_vf"
+	    android:layout_margin="1dp"
+	    android:layout_centerHorizontal="true"
+	    android:src="@drawable/page_indicator_unfocused" />
+    <ImageView 
+	    android:id="@+id/pageIndicator0_iv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/page_indicator_unfocused"
+	    android:layout_margin="1dp"
+	    android:layout_alignBottom="@+id/imgs_vf"
+	    android:layout_toLeftOf="@+id/pageIndicator1_iv"
+	    />
+	<ImageView 
+	    android:id="@+id/pageIndicator2_iv"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/page_indicator_unfocused"
+	    android:layout_toRightOf="@+id/pageIndicator1_iv"
+	    android:layout_alignBottom="@+id/imgs_vf"
+	    android:layout_margin="1dp"
+	    />
+		
+</RelativeLayout>

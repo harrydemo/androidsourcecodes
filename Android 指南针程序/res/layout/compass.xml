@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+
+<TextView android:id="@+id/OrientText" android:textColor="#ffffff" android:textSize="25px" android:textStyle="bold" android:layout_width="fill_parent" android:gravity="center" android:text="NESW" android:layout_height="90dp"></TextView>
+
+<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/ivCompass" android:src="@drawable/bg"></ImageView>
+
+<TextView android:textColor="#ffffff" android:textSize="12px" android:textStyle="bold" android:layout_width="fill_parent" android:text="NESW" android:layout_height="40dp" android:gravity="right|center_vertical" android:id="@+id/OrientValue"></TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.err0r.android.sms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:name=".SMSEX"
+        android:icon="@android:drawable/sym_action_chat"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".view.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.SmsSend">
+        </activity>
+        <activity android:name=".view.SMSToast"
+        		  android:theme="@android:style/Theme.Dialog">
+        </activity>
+		<activity android:name=".view.DealList">
+        </activity>
+        <activity android:name=".view.SMSWaitList">
+        </activity>
+        <activity android:name=".view.SMSAdd" 
+        	android:windowSoftInputMode="stateVisible">
+        </activity>
+        
+        <service android:name=".recevier.SmsService">
+			<intent-filter>
+				<action android:name="cn.err0r.android.sms.MSG_SERVICE" />
+				<category android:name="android.intent.category.default" />
+			</intent-filter>
+		</service>
+    </application>
+
+</manifest>

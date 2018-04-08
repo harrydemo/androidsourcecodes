@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">生活手册</string>
+    <string name="riji">日记</string>
+    <string name="xieriji">写日记</string>
+    <string name="jinianri">纪念日</string>
+    
+    <string name="naozhong">闹钟</string>
+    <string name="rili">日历</string>
+    
+    <string name="shezhi">设置</string>
+    <string name="duanxin">短信大全</string>
+    <string name="xiaohua">幽默笑话</string>
+    <string name="guanyu">关于</string>
+    <string name="fankui">反馈</string>
+    <string name="mima">密码锁</string>
+    <string name="jiesao">注意:为了保证您的某些秘密不被别人观看,我们为您设置的专业的密码锁,希望我们的应用能让您用的放心、用的开心</string>
+    <string name="gongju">工具箱</string>
+    <string name="zhangben">账本</string>
+    
+    <string name="s1">日常祝福</string>
+    <string name="s2">幽默祝福</string>
+    <string name="s3">生日祝福</string>
+    <string name="s4">早安晚安</string>
+    <string name="s5">健康关怀</string>
+    <string name="s6">送别短信</string>
+    <string name="s7">感谢短信</string>
+    <string name="s8">爱情短信</string>
+    <string name="s9">道歉短信</string>
+    
+    <string name="j1">元旦</string>
+    <string name="j2">小年</string>
+    <string name="j3">除夕</string>
+    <string name="j4">春节</string>
+    <string name="j5">元宵节</string>
+    <string name="j6">妇女节</string>
+    <string name="j7">植树节</string>
+    <string name="j8">清明节</string>
+    <string name="j9">劳动节</string>
+    <string name="j10">儿童节</string>
+    <string name="j11">端午节</string>
+    <string name="j12">七夕节</string>
+    <string name="j13">教师节</string>
+    <string name="j14">中秋节</string>
+    <string name="j15">国庆节</string>
+    <string name="h1">结婚生子</string>
+    <string name="h2">开业短信</string>
+    <string name="h3">升职短信</string>
+    
+    <string name="q1">感悟人生</string>
+    <string name="q2">个性签名</string>
+    <string name="q3">红色短信</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/linearlayout1"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <LinearLayout
+    android:id="@+id/LinearLayout02"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/search_background"
+    android:gravity="center"
+    >
+    <EditText
+    android:id="@+id/ETSearch"
+    android:layout_width="200px"
+    android:layout_height="wrap_content"
+    ></EditText>
+     <Button 
+    android:id="@+id/searchButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/search_btn"
+    ></Button>
+      <Button 
+    android:id="@+id/shuaxinButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/clear_btn"
+    ></Button>
+    </LinearLayout>
+    <!--  android:id="@id/android:list" -->
+    <ListView
+    android:id="@id/android:list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+    </ListView>
+</LinearLayout>

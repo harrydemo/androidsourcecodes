@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">film</string>
+	<string name="film_list">影片列表</string>
+	<string name="finish">完成</string>
+	<string name="now_action">现在上映</string>
+	<string name="future_action">即将上映表</string>
+	<string name="area_search">周边影院</string>
+	<string name="hot_film">热门影片</string>
+	<string name="myhapiao">我的哈票</string>
+	<string name="all_films">全部影院</string>
+	<string name="daoyan">导演:</string>
+	<string name="zhuyan">主演:</string>
+	<string name="chupin">出品:</string>
+	<string name="actionTime">上映时间:</string>
+	<string name="zhaiyao">影片摘要:</string>
+	<string name="fileinfo">影片资料</string>
+	<string name="juzhao">剧照</string>
+	<string name="pianhua">片花</string>
+	<string name="goupiao">购票</string>
+
+	<string name="ret">返回</string>
+	<string name="ftsa_selectcity">选择城市</string>
+	<string name="ftsa_select_time">选择日期</string>
+
+	<string name="sure">确定</string>
+	<string name="selcinema">选择电影院</string>
+
+	<string name="film_info">影视资料</string>
+
+	<string name="ftsa_promote">选择相关信息条件</string>
+
+	<string name="csa_proviince_promote">选择省份</string>
+	<string name="csa_city_promote">选择城市</string>
+	<string name="csa_cinema_promote">选择电影院</string>
+	<string name="login">登录</string>
+</resources>

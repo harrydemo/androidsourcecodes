@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent" 
+  	android:layout_height="wrap_content"
+  	android:paddingBottom="4dip" 
+	android:paddingLeft="12dip"
+	android:paddingRight="12dip">
+	<TextView 	android:id="@+id/viewTypeAccountDate"
+		  		android:layout_centerVertical="true"
+				android:layout_alignParentLeft="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:textSize="20dip"
+				android:text="2005-10-11"/>
+				
+	<TextView 	android:id="@+id/viewTypeAccountName"
+		  		android:layout_centerVertical="true"
+				android:layout_centerHorizontal="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:textSize="20dip"
+				android:text="shirt"/>
+				
+	<TextView 	android:id="@+id/viewTypeAccountMoeny"
+		  		android:layout_centerVertical="true"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:textSize="20dip"
+				android:text="45"/>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout  
+android:id="@+id/widget35"  
+android:layout_width="fill_parent"  
+android:layout_height="fill_parent"  
+android:background="@color/main_back_ground_color"  
+xmlns:android="http://schemas.android.com/apk/res/android"  
+>  <!-- 跑马灯效果 TextView -->
+	<TextView   
+       android:id="@id/textview_desc1"   
+       android:layout_height="wrap_content"   
+       android:layout_width="300dip"  
+	   android:textColor="#ff000000"  
+		android:layout_x="5px"  
+		android:layout_y="5px"  
+		android:scrollX="2px"  
+		android:singleLine="true"  
+		android:ellipsize="marquee"
+		android:marqueeRepeatLimit="marquee_forever"  
+       android:text="@string/app_example_textview_desc"
+     >  
+    </TextView>  
+    
+   <TextView   
+       android:id="@+id/textview_desc2"   
+       android:layout_height="wrap_content"
+       android:layout_width="fill_parent"
+       android:textSize="16dip"
+       android:autoLink="web"
+       android:singleLine="false"
+       android:scrollbars="vertical"
+       android:lines="5"
+       android:layout_x="5px"  
+	   android:layout_y="40px"
+	   android:textColor="@color/red"
+     />
+  </AbsoluteLayout>  
+

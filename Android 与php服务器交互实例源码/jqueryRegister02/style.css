@@ -1,0 +1,50 @@
+/**
+ * Ajax用户注册验证 JS
+ * ============================================================================
+ * 这是一个免费开源的软件；这意味着您可以在不用于商业目的的前提下对程序代码
+ * 进行修改、使用和再发布。
+ * ============================================================================
+ * $Author: Sunday & luck $
+ * QQ： 346056372
+ * Download:http://www.codefans.net
+ * $Date: 2008-03-13 16:15:00 +0800  $
+*/
+
+BODY {
+	FONT: 12px , Arial, Helvetica, sans-serif; COLOR: #808080;
+}
+
+#reg{
+	width: 600px;
+	border: 1px dotted #336699;
+	text-align:center;
+	position:absolute;
+    left:25%;
+}
+td{font-size:12px;color:}
+h1{
+	height:35px;
+	font-size:16px;
+	color:#FFFFFF;
+	background-color: #336699;
+	line-height: 30px;
+	padding-left:25px;
+}
+
+.anniu {
+	BORDER-RIGHT: #666666 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #ffffff 1px solid; CURSOR: hand; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: "宋体"; HEIGHT: 20px; BACKGROUND-COLOR: #eeeeee
+}
+.FrameDivPass{
+	
+	border: 1px solid #6FBE44;
+	padding: 2px;
+	height: 100%;
+	float: left;
+}
+.FrameDivWarn{
+	
+	border: 1px solid #FF0000;
+	padding: 2px;
+	height: 100%;
+	float: left;
+}

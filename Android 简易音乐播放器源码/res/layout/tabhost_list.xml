@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- 隐藏的TabWidget,visibility="gone" -->
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <!-- 标签内容 -->
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+       
+            <RadioGroup
+                android:id="@+id/tab_group"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:background="@drawable/list_bottombar_bg"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/local"
+                    android:layout_width="105dip"
+                    android:button="@null"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                     android:focusable="true" 
+                    android:clickable="true"
+                    android:background="@drawable/local_bottom" />
+
+                <RadioButton
+                    android:id="@+id/favorite"
+                    android:layout_width="105dip"
+                    android:button="@null"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/favorite" />
+
+                <RadioButton
+                    android:id="@+id/online"
+                    android:layout_width="105dip"
+                    android:button="@null"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/net_buttom" />
+            </RadioGroup>
+       
+    </LinearLayout>
+
+</TabHost>

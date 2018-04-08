@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout port  480x320  像素 -->
+
+<LinearLayout
+             android:orientation="vertical" android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:focusable="true" 
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:background="@drawable/mmbj">
+           
+            
+            
+             <ListView
+                 
+             android:id="@+id/datalist" 
+             android:listSelector="@drawable/list_bg"
+             style="@style/layout_vertical"
+             android:layout_weight="16"
+       
+             android:cacheColorHint="#00000000"
+             android:divider="#FFCC00"
+              />
+      
+</LinearLayout>
+

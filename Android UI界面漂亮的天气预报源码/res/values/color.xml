@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="widgetBgColor">#20000000</color>
+<color name="widgetFontColor">#13aaf1</color>
+<color name="tempCColor">#fdb814</color>
+<color name="zoneTempColor">#a9a7a6</color>
+<color name="whiteColor">#ffffff</color>
+</resources>

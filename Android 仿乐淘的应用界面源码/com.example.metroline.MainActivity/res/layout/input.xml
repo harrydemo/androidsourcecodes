@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="36dip"
+    android:orientation="horizontal">
+    	<ImageView 
+    	    android:id ="@+id/Top_Image"
+    	    android:src="@drawable/search_face_01"
+    	    android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="320dip"
+    	    />
+    </LinearLayout>
+    	
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="36dip"
+    android:orientation="horizontal">
+    
+		<TextView
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/fromText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text=""
+	        android:textSize="16dip"
+	        android:background="@drawable/search_face_02"	        
+	         />	    	
+		<Spinner android:id="@+id/beginLine"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="下拉菜单起点"
+		android:drawSelectorOnTop="true"			
+		/>
+	
+		<Spinner android:id="@+id/startStation"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="起点站点"
+		android:drawSelectorOnTop="true"				
+		/>
+	
+	</LinearLayout>
+	
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dip"
+    android:orientation="horizontal">
+		<TextView
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/emptyMiddle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_gravity="center_vertical"
+	        android:text="请选择起点和终点的站点名称"
+	        android:textSize="16dip"
+	        android:textColor="#e61135"	        	        
+	         />	
+	
+		</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="36dip"
+    android:orientation="horizontal">
+		<TextView
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/toText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:text=" "
+	        android:textSize="16dip"
+	        android:background="@drawable/search_face_03"	        
+	         />	
+    	
+		<Spinner android:id="@+id/endLine"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="下拉菜单终点"
+		android:drawSelectorOnTop="true" 		
+		/>
+	
+		<Spinner android:id="@+id/endStation"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"	
+		android:text="终点站点"
+		android:drawSelectorOnTop="true"		 
+		/>
+		
+	</LinearLayout>	
+   
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="32dip"
+    android:orientation="horizontal">
+		<TextView
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/emptyMiddle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_gravity="center_vertical"
+	        android:text=""
+	        android:textSize="16dip"
+	        android:textColor="#e61135"	        	        
+	         />	
+	
+		</LinearLayout>
+	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="36dip">
+	
+	    <Button
+	        android:id="@+id/escButton"
+	        android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:text=" "
+			android:background="@drawable/search_face_05"		   
+		/>	    
+	
+	    <Button
+	        android:id="@+id/searchButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"	        
+	        android:text=" " 
+	        android:background="@drawable/search_face_04"
+	        /> 
+	</RelativeLayout>
+	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+		<TextView
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:id="@+id/emptyBottom"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"	
+	        android:layout_alignParentBottom="@id/emptyBottom"        
+	        android:text=""
+	        android:textSize="16dip"
+	        android:background="@drawable/search_face_06"        	        
+	         />	
+	
+		</RelativeLayout>
+</LinearLayout>

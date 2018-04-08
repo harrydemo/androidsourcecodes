@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Used in contact edit menus -->
+	<string-array name="menu_task_operation">
+        <item>返回</item>
+		<item>切换至该程序</item>
+		<item>结束进程</item>
+		<item>详细信息</item>
+		<item>卸载程序</item>
+	</string-array>
+
+</resources>

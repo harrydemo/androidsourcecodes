@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/music_layout"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  
+<ImageButton android:id="@+id/mute" android:src="@drawable/mute" android:layout_alignParentLeft="true" android:background="@drawable/mute" android:layout_width="wrap_content" android:layout_height="wrap_content" ></ImageButton>
+<ImageButton android:id="@+id/volume_down" android:src="@drawable/volumedown" android:background="@drawable/volumedown" android:layout_centerInParent="true" android:layout_width="wrap_content" android:layout_height="wrap_content"  ></ImageButton>
+<ImageButton android:id="@+id/volume_up" android:src="@drawable/volumeup" android:background="@drawable/volumeup" android:layout_alignParentRight="true" android:layout_width="wrap_content" android:layout_height="wrap_content" ></ImageButton>
+
+</RelativeLayout>
+

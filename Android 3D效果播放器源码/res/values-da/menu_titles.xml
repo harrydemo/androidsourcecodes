@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="menu_option_title_get_art">
+		Hent covers
+	</string>
+	<string name="menu_option_title_preferences">
+		Indstillinger
+	</string>
+	<string name="menu_option_title_playlist_id">
+		Afspilnings lister
+	</string>
+	<string name="menu_option_title_concerts">
+		Koncerter
+	</string>
+	<string name="menu_option_title_releases">
+		Udgivelser
+	</string>
+	<string name="menu_option_title_view_mode">
+		Visning
+	</string>
+	<string name="menu_option_title_theme">
+		Tema
+	</string>
+	<string name="menu_option_title_equalizer">
+		Equalizer
+	</string>
+</resources>
+

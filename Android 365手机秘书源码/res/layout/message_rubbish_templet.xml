@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent" android:layout_height="50dp" android:gravity="center">
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="25dp" android:gravity="center">
+    <TextView android:id="@+id/phone"
+    	android:layout_height="25dp"
+		android:layout_width="fill_parent" android:gravity="left|center" android:layout_weight="1" android:textSize="22dp"></TextView>
+	<TextView android:id="@+id/time"
+    	android:layout_width="fill_parent" android:gravity="right|center" android:layout_weight="1" android:layout_height="20dp"></TextView>
+  </LinearLayout>
+    <TextView android:id="@+id/content"
+    	android:layout_height="25dp"
+		android:layout_width="fill_parent" android:gravity="left|center" android:textSize="20dp"></TextView>
+</LinearLayout>

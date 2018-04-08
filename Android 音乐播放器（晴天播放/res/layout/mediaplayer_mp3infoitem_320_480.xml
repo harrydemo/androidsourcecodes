@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingLeft="1dip" android:paddingTop="1dip"
+	android:paddingRight="1dip" android:paddingBottom="1dip">
+
+	<TextView android:id="@+id/mp3_name" android:layout_height="35dip"
+		android:layout_width="wrap_content" android:textSize="10pt"
+		android:layout_gravity="left" android:layout_marginLeft="1dip" />
+		
+	<TextView android:id="@+id/mp3_size" android:layout_height="15dip"
+		android:layout_width="wrap_content" android:paddingRight="5dip"
+		android:layout_gravity="right" android:layout_marginRight="1dip" />
+		
+	<TextView android:id="@+id/mp3_artist" android:layout_height="20dip"
+		android:layout_width="wrap_content" android:layout_marginRight="1dip" 
+		android:layout_gravity="right" android:layout_marginTop="15dip"
+		android:paddingRight="5dip" />
+
+</FrameLayout>

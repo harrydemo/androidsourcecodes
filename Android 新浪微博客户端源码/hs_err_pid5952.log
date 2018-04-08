@@ -1,0 +1,103 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3075), pid=5952, tid=3380
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_16-b01
+# Java VM: Java HotSpot(TM) Client VM (14.2-b01 mixed mode windows-x86 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00846c00):  JavaThread "Unknown thread" [_thread_in_vm, id=3380, stack(0x008e0000,0x00930000)]
+
+Stack: [0x008e0000,0x00930000],  sp=0x0092f924,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x1e66c7]
+V  [jvm.dll+0xa0c09]
+V  [jvm.dll+0x73792]
+V  [jvm.dll+0x74e04]
+V  [jvm.dll+0x1b6336]
+V  [jvm.dll+0x1b69ce]
+V  [jvm.dll+0x1b6d85]
+V  [jvm.dll+0x1b6dcb]
+V  [jvm.dll+0x1b6ef2]
+V  [jvm.dll+0x1b6f6a]
+V  [jvm.dll+0x1b701d]
+V  [jvm.dll+0x1b7232]
+V  [jvm.dll+0x1d6153]
+V  [jvm.dll+0x1d658c]
+V  [jvm.dll+0xd66f1]
+V  [jvm.dll+0x1d05e2]
+V  [jvm.dll+0xfedc0]
+C  [javaw.exe+0x1657]
+C  [javaw.exe+0x1e2c]
+C  [javaw.exe+0x833e]
+C  [kernel32.dll+0xb699]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00846c00 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3380, stack(0x008e0000,0x00930000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	D:\Program Files\jdk6\bin\javaw.exe
+0x7c920000 - 0x7c9b4000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c91d000 	C:\WINDOWS\system32\kernel32.dll
+0x77da0000 - 0x77e49000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e50000 - 0x77ee2000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fc0000 - 0x77fd1000 	C:\WINDOWS\system32\Secur32.dll
+0x77d10000 - 0x77d9f000 	C:\WINDOWS\system32\USER32.dll
+0x77ef0000 - 0x77f38000 	C:\WINDOWS\system32\GDI32.dll
+0x76300000 - 0x7631d000 	C:\WINDOWS\system32\IMM32.DLL
+0x62c20000 - 0x62c29000 	C:\WINDOWS\system32\LPK.DLL
+0x73fa0000 - 0x7400b000 	C:\WINDOWS\system32\USP10.dll
+0x77be0000 - 0x77c38000 	C:\WINDOWS\system32\msvcrt.dll
+0x7c340000 - 0x7c396000 	D:\Program Files\jdk6\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db3b000 	D:\Program Files\jdk6\jre\bin\client\jvm.dll
+0x76b10000 - 0x76b3a000 	C:\WINDOWS\system32\WINMM.dll
+0x6d860000 - 0x6d86c000 	D:\Program Files\jdk6\jre\bin\verify.dll
+0x6d3e0000 - 0x6d3ff000 	D:\Program Files\jdk6\jre\bin\java.dll
+0x6d340000 - 0x6d348000 	D:\Program Files\jdk6\jre\bin\hpi.dll
+0x76bc0000 - 0x76bcb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d8a0000 - 0x6d8af000 	D:\Program Files\jdk6\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:D:\Program Files\Android\android-sdk\platforms\android-7\android.jar 
+java_command: com.hope.JsonTest
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\Program Files\jdk6
+CLASSPATH=d:\Program Files\RadView\WebLOAD5.0\LiveConnect\Classes
+PATH=D:/Program Files/jdk6/bin/../jre/bin/client;D:/Program Files/jdk6/bin/../jre/bin;C:\oracle\product\10.2.0\db_1\bin;D:\Program Files\jdk6\bin;d:\Program Files\RadView\WebLOAD5.0\bin;D:\Program Files\Java\jdk1.5.0_01\bin;D:\Program Files\Borland\Delphi7\Bin;D:\Program Files\Borland\Delphi7\Projects\Bpl\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;d:\Program Files\cvsnt;C:\Program Files\Java\jdk1.6.0_17\jre\bin\client;D:\Program Files\Subversion\bin;D:\Program Files\TortoiseSVN\bin;D:\Program Files\Android\android-sdk\platform-tools\;C:\TDDOWNLOAD\ultraedit\UltraEdit-32 V17.10.0.1008 官方简体中文版\UltraEdit\
+USERNAME=lemons
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 13, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 2
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 13, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2097151k(1224572k free), swap 4194303k(2613048k free)
+
+vm_info: Java HotSpot(TM) Client VM (14.2-b01) for windows-x86 JRE (1.6.0_16-b01), built on Jul 31 2009 11:26:58 by "java_re" with MS VC++ 7.1
+
+time: Thu Mar 29 19:19:34 2012
+elapsed time: 0 seconds
+

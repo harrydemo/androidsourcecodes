@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@raw/loading_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/initTv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="80dip"
+        android:text="@string/init_tips"
+        android:textColor="@color/Black"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/initTv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dip"
+        android:background="#00000000"
+        android:src="@drawable/init_btn_choose" />
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:focusableInTouchMode="true"
+android:focusable="true"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:gravity="center"
+android:paddingLeft="5px"
+android:paddingTop="5px"
+android:paddingRight="5px">
+<com.nanosheep.bikeroute.view.StepView
+android:layout_width="fill_parent"
+android:id="@+id/search"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:gravity="center"
+android:layout_alignParentTop="true"
+android:padding="10px">
+    <TableLayout android:id="@+id/navFormTable" android:layout_width="fill_parent"
+android:layout_height="wrap_content" android:stretchColumns="1">
+        <TableRow android:id="@+id/startRow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/start_address_view" android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/start"></TextView>
+            <AutoCompleteTextView android:id="@+id/start_address_input" 
+            android:layout_width="fill_parent"
+            android:hint="@string/address_input"></AutoCompleteTextView>
+        </TableRow>
+        <TableRow android:id="@+id/waypointRow" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/mid_address_view" android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/mid"></TextView>
+            <AutoCompleteTextView android:id="@+id/way_address_input"
+            android:hint="@string/address_input"></AutoCompleteTextView>
+            
+            <Button
+	android:id="@+id/add_button"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@android:drawable/ic_menu_add"
+	android:gravity="center">
+	</Button>
+        </TableRow>
+        <TableRow android:id="@+id/destRow" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:visibility="gone">
+            <TextView android:id="@+id/end_address_view" android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/end"></TextView>
+            <AutoCompleteTextView android:id="@+id/end_address_input"
+            android:hint="@string/address_input"></AutoCompleteTextView>
+            <Button
+	android:id="@+id/remove_button"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="@android:drawable/ic_menu_close_clear_cancel"
+	android:gravity="center">
+	</Button>
+        </TableRow>
+        <TableRow android:id="@+id/button" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_height="0dp"></View>
+        <Button
+android:id="@+id/search_button"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/search"
+android:gravity="center">
+</Button></TableRow>
+    </TableLayout>
+</com.nanosheep.bikeroute.view.StepView>
+</LinearLayout>

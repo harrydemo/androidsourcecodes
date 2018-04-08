@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+<TITLE>ajax register</TITLE>
+<script src="jquery.js" type="text/javascript"></script>
+<script src="register.js" type="text/javascript"></script>
+<script type="text/javascript">
+var info = {
+    'username' : "请输入用户名!",
+    'email' : '请输入邮件地址!',
+    'password' : '请输入密码!',
+    'verify' : '请重复输入密码!'
+};
+</script>
+<link href="style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.blue{ color:blue;}
+.red{ color:red;}
+</style>
+</HEAD>
+<BODY>
+<div id="reg">
+<h1>用户注册验证（Jquery&Ajax）</h1>
+<FORM name="formUser" onSubmit="return register()" action=user.php method=post>
+<BR>
+<TABLE width="100%" align=center border=0>
+<TBODY>
+<TR>
+<TD align=right width="15%">&nbsp&nbsp<STRONG>用户名:</STRONG></TD>
+<TD width="57%"><input id="username" class="register-input" type="text" size="25" name="username" value="" />
+<span id="note-username">&nbsp;</span></TD>
+</TR>
+<TR>
+<TD align=right><STRONG>电子邮箱:</STRONG></TD>
+<TD><input id="email" class="register-input" type="text" size="25" name="email" value="" />
+<span id="note-email">&nbsp;</span></TD>
+</TR>
+<TR>
+<TD align=right><STRONG>登录密码:</STRONG></TD>
+<TD><input id="password" class="register-input" type="password" size="25" name="password" />
+<span id="note-password">&nbsp;</span></TD>
+</TR>
+      <TR>
+        <TD align=right><STRONG>密码强度:</STRONG></TD>
+        <TD><TABLE cellSpacing=0 cellPadding=1 width=145 border=0>
+          <TBODY>
+            <TR align=middle>
+              <TD id=pwd_lower width="33%">弱</TD>
+              <TD id=pwd_middle width="33%">中</TD>
+              <TD id=pwd_high width="33%">强</TD>
+            </TR>
+          </TBODY>
+        </TABLE></TD>
+      </TR>
+<TR>
+<TD align=right><STRONG>确认密码:</STRONG></TD>
+<TD><input id="verify" class="register-input" type="password" size="25" name="verify" />
+<span id="note-verify">&nbsp;</span></TD>
+</TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>
+<LABEL>
+  <INPUT id="checkagree" type="checkbox" CHECKED value="1" name="agreement">
+  <B>我已看过并接受《<a href="#">用户协议</a>》</B>
+</LABEL>
+</TD>
+</TR>
+<TR>
+<TD><INPUT type=hidden value=act_register name=act></TD>
+<TD><input type="submit" value=确认注册&nbsp;&nbsp;&nbsp; name="submit1" class="anniu" /></TD>
+</TR>
+</TBODY>
+</TABLE>
+</FORM>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rotate 3D</string>
+    <string name="txt_main">第一页 </string>
+    <string name="txt_next">第二页 </string>
+    <string name="txt_last">第三页 </string>
+
+</resources>

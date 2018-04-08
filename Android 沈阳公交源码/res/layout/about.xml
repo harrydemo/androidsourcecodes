@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:id="@+id/about_layout" android:orientation="vertical"
+	android:background="@color/white">
+	<ImageView android:id="@+id/photo" android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:layout_gravity="center" android:background="@drawable/ic_launcher"/>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:id="@+id/nameweibo" android:text="官方微博:" android:textSize="18dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<TextView android:id="@+id/weibo" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:autoLink="web"
+			android:layout_toRightOf="@id/nameweibo" android:textSize="18dp"/>
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+		<TextView android:id="@+id/namemailbox" android:text="官方邮箱:" android:textSize="18dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<TextView android:id="@+id/mailbox" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:autoLink="email"
+			android:layout_toRightOf="@id/namemailbox" android:textSize="18dp"/>
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+		<TextView android:id="@+id/namephone" android:text="官方客服:"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" 
+			android:textSize="18dp"/>
+		<TextView android:id="@+id/phone" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:autoLink="phone"
+			android:layout_toRightOf="@id/namephone" android:textSize="18dp" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+		<TextView android:id="@+id/namephone1" android:text="权限申明:"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" 
+			android:textSize="18dp"/>
+		<TextView android:id="@+id/introduction" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_toRightOf="@id/namephone" android:textSize="18dp" />
+	</LinearLayout>
+</LinearLayout>

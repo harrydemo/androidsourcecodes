@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bgbg" >
+    
+
+
+    <Gallery
+        android:id="@+id/gally"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+      
+        android:gravity="center_vertical"
+        android:spacing="15dip" >
+    </Gallery>
+
+    <RelativeLayout
+        android:id="@+id/data"
+        android:layout_width="fill_parent"
+        android:layout_height="220dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/gally"
+         >
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5px"
+            android:layout_marginTop="30px"
+            android:textColor="@color/white"
+            android:textSize="30dip" />
+
+        <TextView
+            android:id="@+id/week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5px"
+            android:layout_marginTop="40px"
+            android:textColor="@color/white"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/week"
+            android:layout_marginRight="5px"
+            android:layout_marginTop="10px"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <ImageSwitcher
+            android:id="@+id/photo"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="0px" />
+
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10px"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temperature"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5px"
+            android:textColor="@color/white"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="90dip"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/data" >
+
+    <RelativeLayout
+	    android:id="@+id/relate_level2"
+        android:layout_width="180dp"  android:layout_height="90dp"
+        android:layout_alignParentBottom="true"   android:layout_centerHorizontal="true"
+        
+       >
+        <ImageButton
+            android:id="@+id/menu"
+           android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerHorizontal="true"  
+            android:background="@drawable/icon_menu" />
+        <ImageButton
+            android:id="@+id/cityset"
+            android:layout_width="30dip"    android:layout_height="30dip"
+            android:layout_alignParentBottom="true"  android:layout_margin="10dip"
+            android:background="@drawable/menu_syssettings" />
+        <ImageButton
+            android:id="@+id/msgsend"
+            android:layout_width="30dip"     android:layout_height="30dip"
+            android:layout_alignParentBottom="true"   android:layout_alignParentRight="true"
+            android:layout_margin="10dip"
+            android:background="@drawable/menu_edit" />
+    </RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/relate_level1"
+        android:layout_width="100dp"  android:layout_height="50dp"
+        android:layout_alignParentBottom="true"   android:layout_centerHorizontal="true"
+       >
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/icon_home" />
+
+    </RelativeLayout>
+</RelativeLayout>
+
+</RelativeLayout>
+	

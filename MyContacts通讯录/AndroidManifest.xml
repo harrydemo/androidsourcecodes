@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.yarin.android.MyContacts"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+	<provider android:name="ContactsProvider"
+            android:authorities="com.yarin.android.provider.ContactsProvider"/>
+        <activity android:name=".MyContacts"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ContactEditor"
+                  android:label="@string/editor_user">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.yarin.android.mycontacts" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.yarin.android.mycontacts" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ContactView"
+                  android:label="@string/view_user">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.yarin.android.mycontacts" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.yarin.android.mycontacts" />
+            </intent-filter>
+        </activity>
+    </application>
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+	<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+ 	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-sdk android:minSdkVersion="5" />
+</manifest> 

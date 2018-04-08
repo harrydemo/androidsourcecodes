@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:text="转播" android:textColor="@color/bottom_button_text_selector" android:gravity="center" android:id="@+id/show_rebroad_btn" android:background="@drawable/bottom_3btn_l_selector" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="16.0dip" android:text="对话" android:textColor="@color/bottom_button_text_selector" android:gravity="center" android:id="@+id/show_dialog_btn" android:background="@drawable/bottom_3btn_m_selector" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="16.0dip" android:text="点评" android:textColor="@color/bottom_button_text_selector" android:gravity="center" android:id="@+id/show_remark_btn" android:background="@drawable/bottom_3btn_r_selector" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

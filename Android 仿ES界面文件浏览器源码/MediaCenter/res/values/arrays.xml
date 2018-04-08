@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="open_as_items">
+        <item>@string/sub_menu_txt</item>
+        <item>@string/sub_menu_audio</item>
+        <item>@string/sub_menu_video</item>
+        <item>@string/sub_menu_pic</item>
+    </string-array>
+    
+    <string-array name="popup_sort">
+    	<item>@string/popup_grid</item>
+    	<item>@string/popup_list_by_name</item>
+    	<item>@string/popup_list_by_size</item>
+    	<item>@string/popup_list_by_updateTime</item>
+    </string-array>
+    
+    <string-array name="popup_filter">
+    	<item>@string/all</item>
+    	<item>@string/music </item>
+    	<item>@string/video</item>
+    	<item>@string/picture</item>
+    </string-array>
+    
+</resources>

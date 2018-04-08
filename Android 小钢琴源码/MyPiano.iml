@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SDK_PATH" value="D:\work\Library\Binary\android-sdk-windows-1.5_r1" />
+        <option name="RESOURCES_PATH" value="res" />
+        <option name="ANDROID_TARGET_NAME" value="Android 1.5" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/gen">
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" />
+    </content>
+    <orderEntry type="module-library">
+      <library name="Android SDK">
+        <CLASSES>
+          <root url="jar://D:/work/Library/Binary/android-sdk-windows-1.5_r1/platforms/android-1.5/android.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://D:/work/Library/Binary/android-sdk-windows-1.5_r1/docs/reference" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">风声</string>
+    <string name="wind_list_str_editor">玉玻璃</string>
+    <string name="wind_list_str_laogui">雕花藏刀</string>
+    <string name="wind_list_str_laoqiang">铁血顽石</string>
+    <string name="wind_list_str_ningyu">风中标杆</string>
+    <string name="wind_list_str_jinshenghuo">圆滑气囊</string>
+    <string name="wind_list_str_wangchuzhang">毒火</string>
+    <string name="wind_list_str_wutian">鹰隼</string>
+    
+	<string name="wind_list_btn_pop_str_editor">癫狂柳絮随风舞，轻薄桃花逐水流</string>
+	<string name="wind_list_btn_pop_str_laogui">春风又绿江南岸，明月何时照我还</string>
+	<string name="wind_list_btn_pop_str_laoqiang">大风起兮云飞扬，安得猛士兮守四方</string>
+	<string name="wind_list_btn_pop_str_ningyu">相见时难别亦难，东风无力百花残</string>
+	<string name="wind_list_btn_pop_str_jinshenghuo">风力掀天浪打头，只须一笑不须愁</string>
+	<string name="wind_list_btn_pop_str_wangchuzhang">山雨欲来风满楼，黑云压城城欲摧</string>
+	<string name="wind_list_btn_pop_str_wutian">山河破碎风飘絮，身世沉浮雨打萍</string>
+	
+	<string name="wind_activity_disp_info_editor">    白小年，伪军总司令侍从官，清秀白皙，斯文有余却出招于无形之间。他曾经是一个昆曲名伶，绚烂夺目与众不同，追求着内心的圣洁却毫无战斗力。他是五个人当中表现得最单纯的一个，他无法接受自己被囚禁的事实，更受不了别人对他的质疑和玷污。他真的是无辜的吗？</string>
+	<string name="wind_activity_disp_info_laogui">    顾晓梦，伪军军机处译电科科员，美艳玲珑、洒脱娇纵。她为了保全自己，不惜挑起风浪，将危机转嫁。她和吴志国针锋相对，和李宁玉情同姐妹，行事却莫测高深。她时而尖锐刻薄，时而柔弱温顺。她究竟是什么来历？</string>
+	<string name="wind_activity_disp_info_laoqiang">    吴志国，伪军军事参谋部部长，铁血阴冷、亦正亦邪、霸气而沧桑。年轻时曾留学德国，接受过希特勒式的军事教育。他的父亲被红军斗死，哥哥死于国民党的枪下，对国共两党都存在着复杂的心理。他是五个嫌疑人当中职务最高威慑力最强的，也是和武田王田香等人对抗最激烈的一个。他会是那个老鬼吗？</string>
+	<string name="wind_activity_disp_info_ningyu">    李宁玉，伪军军机处译电科科长，姣好清秀，自持冷静。毕业于美国宾夕法尼亚大学的天体物理系，还就读了青岛海洋学院的通讯班。她是一个崇尚精神自由的人，不追求权力，远离残酷，穷则独善其身，达则兼济天下。她原本不想参与乱世，却意外的被卷入到了这场纷争当中。谁能猜到她的真实身份</string>
+	<string name="wind_activity_disp_info_jinshenghuo">    金生火，伪军军机处处长，处事温吞，但在局促背后，却隐藏着宿命的智慧。他吃喝玩乐养小妾，和其它腐败官员毫无差别，却胆小怕事，患得患失，很难让人把他和老鬼联系起来。但谁又知道，他是不是隐藏的最深的那个呢？</string>
+	<string name="wind_activity_disp_info_wangchuzhang">    王田香，伪军特务处处长，集诡诈、狠毒、机警、圆滑于一身。他是武田的爪牙，也是酷刑的执行者。他像一只狡猾的狐狸游走在大家周围，威逼利诱用尽各种手段来寻找老鬼。他是一只聪明的走狗，不仅将武田的命令按部就班执行，并把这些符号过滤成自己的计谋。他最终能否如愿以偿？</string>
+	<string name="wind_activity_disp_info_wutian">    武田，日军特务课机关长，莫测高深，冷静中透出癫狂。他趾高气昂的踏上中国的战场，除了要完成日本天皇交由的任务之外，还怀揣着洗去先辈耻辱重振家族声望的私心。为了找出伪军剿匪司令部译电组中的老鬼，他将五个嫌疑人诱招进了一所秘密的裘庄，并且要在五天的期限之内查处真相。他掌握着所有人的命运，像一只眼神锐利的老鹰洞察着每个人的一举一动。</string>
+	
+	<string name="dialog_button_title">简介：</string>
+	<string name="dialog_button_neutral">安拉</string>
+</resources>

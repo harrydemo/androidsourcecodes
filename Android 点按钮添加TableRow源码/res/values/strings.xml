@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Add Button</string>
+    <string name="add">添加</string>
+    <string name="buttons">按钮</string>
+
+</resources>

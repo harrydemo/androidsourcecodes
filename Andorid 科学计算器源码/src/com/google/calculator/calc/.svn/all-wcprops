@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6/trunk/src/com/google/calculator/calc
+END
+InputTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6/trunk/src/com/google/calculator/calc/InputTextView.java
+END
+CalculatorResultListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/6/trunk/src/com/google/calculator/calc/CalculatorResultListView.java
+END
+ComputationResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/src/com/google/calculator/calc/ComputationResult.java
+END
+ComputationUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/src/com/google/calculator/calc/ComputationUnit.java
+END
+ComputationUnitAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6/trunk/src/com/google/calculator/calc/ComputationUnitAdapter.java
+END
+CalculatorInputTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6/trunk/src/com/google/calculator/calc/CalculatorInputTextView.java
+END
+Computer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6/trunk/src/com/google/calculator/calc/Computer.java
+END

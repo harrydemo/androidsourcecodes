@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<LinearLayout android:layout_alignParentTop="true" android:layout_marginTop="10px"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:padding="5px" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Server address:">
+		</TextView>
+		<EditText android:padding="5px" android:id="@+id/address_field" android:layout_width="200px" android:layout_height="wrap_content" />
+	</LinearLayout>
+	<Button android:layout_width="fill_parent" android:id="@+id/save_button"
+		android:layout_height="wrap_content" android:text="Save" android:layout_alignParentBottom="true">
+	</Button>
+</RelativeLayout>

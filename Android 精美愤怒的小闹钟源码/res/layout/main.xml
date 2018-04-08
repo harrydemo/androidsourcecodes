@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/layout1"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bg"
+>
+  <irdc.ex06_10.DigitalClock
+    android:id="@+id/dClock"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="40sp"
+    android:textColor="@drawable/white"
+    android:layout_x="110px"
+    android:layout_y="120px"
+  >
+  </irdc.ex06_10.DigitalClock>
+ 
+  <Button
+    android:id="@+id/mButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="25px"
+    android:text="Set Time"
+    android:textColor="@drawable/white"
+    android:textSize="18sp"
+    android:background="#00000000"
+    android:layout_x="130px"
+    android:layout_y="250px"
+  >
+  </Button>
+  <Button
+    android:id="@+id/mButton2"
+    android:background="@drawable/disable"
+    android:layout_width="24px"
+    android:layout_height="25px"
+    android:layout_x="95px"
+    android:layout_y="250px"
+  >
+  </Button>
+
+
+</AbsoluteLayout>

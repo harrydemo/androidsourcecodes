@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ww1">
+
+    <ImageView android:id="@+id/ImageView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:src="@drawable/pagetop">
+    </ImageView>
+	
+	<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sb"
+    android:layout_marginTop="20dp">
+	
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">	
+	
+	<TextView 
+		android:layout_marginTop="15dp"
+		android:layout_marginLeft="25dp"
+		android:text="地标标题：" 
+		android:textSize="16dp"
+		android:textColor="#6495ED"
+		android:id="@+id/TextView01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	<EditText 
+		android:layout_marginTop="15dp"
+		android:layout_marginLeft="10dp"
+		android:hint=" 请输入标题"
+		android:id="@+id/EditText01" 
+		android:layout_width="185dp" 
+		android:layout_height="wrap_content">
+	</EditText>
+	</LinearLayout>
+
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">	
+	
+	<TextView 
+		android:layout_marginTop="5dp"
+		android:layout_marginLeft="25dp"
+		android:text="地标类型：" 
+		android:textSize="16dp"
+		android:textColor="#6495ED"
+		android:id="@+id/TextView02" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	<Spinner 
+		android:layout_marginTop="5dp"
+		android:layout_marginLeft="10dp"
+		android:id="@+id/sp1" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</Spinner>
+	
+</LinearLayout>
+
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">	
+	
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">	
+	
+	<TextView 
+		android:paddingTop="5dp"
+		android:layout_marginLeft="25dp"
+		android:text="地标内容：" 
+		android:textSize="16dp"
+		android:textColor="#6495ED"
+		android:id="@+id/TextView03" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	</LinearLayout>
+	
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">	
+	<EditText 
+		android:layout_marginTop="5dp"
+		android:layout_marginLeft="10dp"
+		android:hint="请输入内容"
+		android:id="@+id/EditText02" 
+		android:layout_width="185dp" 
+		android:layout_height="125dp">
+	</EditText>
+	
+</LinearLayout>
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">	
+    <Button 
+    	android:layout_marginTop="5dp"
+		android:layout_marginLeft="60dp"
+		android:text="添加多媒体" 
+		android:id="@+id/Button01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+        <Button 
+        android:layout_marginTop="5dp"
+		android:layout_marginLeft="30dp"
+		android:text="保存地标" 
+		android:id="@+id/Button02" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

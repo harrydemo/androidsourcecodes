@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="260dp"
+  android:layout_height="200dp" 
+  android:layout_marginTop="100dp" 
+  android:background="@drawable/bg">
+  
+  
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/tel_mobile"/>
+						
+			  <TextView android:id="@+id/telephone_mobile" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/tel_province"/>
+						
+			  <TextView android:id="@+id/telephone_province" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/tel_city"/>
+						
+			  <TextView android:id="@+id/telephone_city" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp"
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/tel_areacode"/>
+						
+			  <TextView android:id="@+id/telephone_areacode" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/tel_postcode"/>
+						
+			  <TextView android:id="@+id/telephone_postcode" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/tel_card"/>
+						
+			  <TextView android:id="@+id/telephone_card" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+
+  		    
+</TableLayout>

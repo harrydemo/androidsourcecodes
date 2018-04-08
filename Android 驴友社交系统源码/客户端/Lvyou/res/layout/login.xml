@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/ww1">
+
+
+	<LinearLayout android:orientation="vertical" android:id="@+id/llt"
+		android:layout_marginTop="100dp" android:layout_marginLeft="20dp"
+		android:layout_width="280dp" android:layout_height="200dp"
+		android:background="@drawable/login">
+
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_marginTop="20dp" android:id="@+id/llt1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="帐号：" android:id="@+id/TextView01"
+				android:textColor="#6495ED" android:layout_marginLeft="100dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+			<EditText android:id="@+id/EditText01" android:layout_width="120dp"
+				android:layout_height="wrap_content"></EditText>
+
+		</LinearLayout>
+
+
+		<LinearLayout android:orientation="horizontal"
+			android:id="@+id/llt2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="密码：" android:id="@+id/TextView02"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginLeft="100dp" android:textColor="#6495ED"></TextView>
+
+			<EditText android:id="@+id/EditText03" android:layout_width="120dp"
+				android:layout_height="wrap_content" android:password="true"></EditText>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:id="@+id/llt3" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			
+		<CheckBox android:text="记住密码" android:id="@+id/CheckBox01"
+		android:layout_marginLeft="40dp"
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>	
+	<Button android:text="登    录" android:id="@+id/Button01"
+	android:layout_marginLeft="30dp"
+	android:textColor="#6495ED"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

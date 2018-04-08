@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+>
+	<TableRow >
+		<TextView android:id="@+id/lbl_col1" 
+	 	   android:text="第一列"
+	 	   android:gravity="center_horizontal"
+	 	   android:padding="3dip"
+	 	   android:background="#aa0000"
+	 	/>
+	 	<TextView android:id="@+id/lbl_col2" 
+	 	   android:text="第二列"
+	 	   android:gravity="center_horizontal"
+	 	   android:padding="3dip"
+	 	   android:background="#00aa00"
+	 	/>
+	 	<TextView android:id="@+id/lbl_col3" 
+	 	   android:text="第三列"
+	 	   android:gravity="center_horizontal"
+	 	   android:padding="3dip"
+	 	   android:background="#0000aa"
+	 	/>
+	</TableRow>
+	
+		<TableRow >
+		<TextView android:id="@+id/lbl_col1" 
+	 	   android:text="第二行第一列"
+	 	   android:gravity="center_horizontal"
+	 	   android:padding="3dip"
+	 	   android:background="#aa0000"
+	 	/>
+	 	<TextView android:id="@+id/lbl_col2" 
+	 	   android:text="第二行第二列"
+	 	   android:gravity="center_horizontal"
+	 	   android:padding="3dip"
+	 	   android:background="#00aa00"
+	 	/>
+	</TableRow>
+ </TableLayout>

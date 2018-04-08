@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/background_pure">
+<TextView  
+	android:id="@+id/menu_title"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:textSize="20dip" 
+    android:textColor="#1A1A1A"/>
+
+<ImageButton android:id="@+id/ImageView01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/menu_message_selector" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"></ImageButton>
+<ImageButton android:id="@+id/ImageView02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/menu_call_selector" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"></ImageButton>
+<ImageButton android:id="@+id/ImageView03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/menu_phone_selector" android:layout_marginRight="30dp" android:layout_marginLeft="30dp"></ImageButton>
+
+
+<SlidingDrawer android:id="@+id/menu_sliding"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:handle="@+id/linearlayout_image"
+		android:content="@+id/linearlayout_menu_other"
+		android:orientation="vertical">
+		<LinearLayout android:id="@+id/linearlayout_image"
+				android:layout_width="fill_parent"
+				android:layout_height="35px"
+				android:gravity="center">
+				<ImageView android:id="@+id/sliding_image"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/spliding_open"></ImageView>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearlayout_menu_other"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="vertical"
+				android:gravity="center">
+				<ImageButton android:id="@+id/ImageView04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/menu_state_selector" android:layout_marginRight="30dp" android:layout_marginLeft="30dp"></ImageButton>
+				<ImageButton android:id="@+id/ImageView05" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/menu_smart_selector" android:layout_marginRight="30dp" android:layout_marginLeft="30dp"></ImageButton>
+				<ImageButton android:id="@+id/ImageView06" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/menu_set_selector" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" ></ImageButton>
+		</LinearLayout>
+</SlidingDrawer>
+</LinearLayout>

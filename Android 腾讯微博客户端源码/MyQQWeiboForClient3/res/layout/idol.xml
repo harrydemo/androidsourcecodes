@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#ffffffff"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<include android:id="@+id/idol_top" layout="@layout/top_panel" android:layout_alignParentTop="true"/>
+	<ListView android:id="@id/android:list" android:layout_below="@id/idol_top" android:layout_width="fill_parent" android:cacheColorHint="#00000000"
+		android:layout_height="fill_parent" android:layout_weight="1" android:divider="@drawable/list_divider"/>
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+		<Button android:id="@+id/idol_back_btn" android:layout_width="40.0dip" android:drawableTop="@drawable/btn_back_selector" android:background="@drawable/bottom_back_bg"
+			android:layout_height="40.0dip"  android:layout_alignParentLeft="true"/>
+		<Button android:id="@+id/idol_tohome_btn" android:layout_width="40.0dip"
+			android:layout_height="40.0dip" android:drawableTop="@drawable/btn_home_selector" android:background="@drawable/bottom_home_bg" android:layout_alignParentRight="true"/>
+	</RelativeLayout>
+</RelativeLayout>

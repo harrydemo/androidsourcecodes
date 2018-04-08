@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DraftTest!</string>
+    <string name="app_name">DraftTest</string>
+<string name="bt">拖动看看~~</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textColor="@color/whiteColor"
+		android:text="MON" android:textSize="14sp" android:width="80dip"
+		android:gravity="center" android:id="@+id/ddDayText" android:layout_x="80dip" android:layout_y="20dip"></TextView>
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/dDetailImage"
+		android:src="@drawable/weather_sunny"
+		android:adjustViewBounds="true" android:scaleType="fitXY"
+		android:layout_y="0dip" android:layout_x="20dip" android:maxHeight="50dip" android:maxWidth="50dip" android:minHeight="50dip" android:minWidth="50dip"></ImageView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:textColor="@color/whiteColor"
+		android:textSize="14sp" android:width="80dip" android:gravity="center"
+		android:id="@+id/ddConditionText" android:text="RAIN"
+		android:layout_x="160dip" android:layout_y="20dip"></TextView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="29./30."
+		android:textColor="@color/whiteColor" android:textSize="14sp"
+		android:width="80dip" android:gravity="center" android:id="@+id/ddTempCText"
+		android:layout_x="230dip" android:layout_y="20dip"></TextView>
+</AbsoluteLayout>

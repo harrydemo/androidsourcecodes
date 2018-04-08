@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">TimeSale</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_time_sale">限时抢购</string>
+
+</resources>

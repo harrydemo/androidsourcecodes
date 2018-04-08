@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:Android="http://schemas.android.com/apk/res/android"
+	Android:id="@+id/layout" Android:orientation="vertical"
+	Android:layout_width="fill_parent" Android:layout_height="fill_parent">
+
+	<Button Android:id="@+id/om" Android:layout_width="wrap_content"
+		Android:layout_height="wrap_content" />
+		
+	<Button Android:id="@+id/om1" Android:layout_width="wrap_content"
+		Android:layout_height="wrap_content" />
+
+</LinearLayout> 

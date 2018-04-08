@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+	<drawable name="yellow">#77ffff00</drawable>
+	<drawable name="black">#9000</drawable>
+	<drawable name="white">#ffffffff</drawable>
+    <drawable name="translucent_background">#01000000</drawable>
+    <drawable name="transparent_button">#90000000</drawable>
+</resources>

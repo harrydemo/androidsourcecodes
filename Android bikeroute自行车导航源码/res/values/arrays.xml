@@ -1,0 +1,41 @@
+<resources><string-array name="unitsArray">
+<item>Imperial</item>
+<item>Metric</item>
+</string-array>
+<string-array name="unitsValues">
+<item>m</item>
+<item>km</item>
+</string-array>
+<string-array name="journeyTypeValues">
+<item>balanced</item>
+<item>fastest</item>
+<item>quietest</item>
+<item>shortest</item>
+</string-array>
+<string-array name="journeyTypeArray">
+<item>Balanced</item>
+<item>Fastest</item>
+<item>Quietest</item>
+<item>Shortest</item>
+</string-array>
+<string-array name="routerArray">
+<item>CycleStreets (UK only)</item>
+<item>MapQuest (Worldwide)</item>
+<item>Google (US only)</item>
+</string-array>
+<string-array name="routerValues">
+<item>CycleStreets</item>
+<item>MapQuest</item>
+<item>Google</item>
+</string-array>
+<string-array name="tileEntries">
+    <item>MapQuest</item>
+    <item>Cyclemap</item>
+    <item>Default</item>
+</string-array>
+<string-array name="tileValues">
+    <item>MapquestOSM</item>
+    <item>CycleMap</item>
+    <item>Mapnik</item>
+</string-array>
+</resources>

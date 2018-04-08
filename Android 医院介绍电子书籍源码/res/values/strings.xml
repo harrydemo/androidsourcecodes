@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EbooksText01!</string>
+    <string name="app_name">银屑病医院</string>
+    
+     <string name="btnReturn">返回目录</string>
+    
+     <string name="mulu">特色疗法</string>
+     
+     <string name="app_contact">联系方式</string>
+     <string name="TEL"> 全国免费咨询热线：0531-68817120</string>
+     <string name="address">医院地址：济南市历城区工业北路223号 济南银屑病医院（齐鲁制药厂往东150米路北）</string>
+     <string name="QQ">专家QQ：7859120 </string>
+     <string name="Email">邮箱（Email）：609771173@qq.com</string>
+     <string name="HTTP1">网址1：www.p0531.com</string>
+     <string name="HTTP2">网址2：www.pf0531.com</string>
+     <string name="Time">门诊时间：8:00-17:30</string>
+     <string name="TEL2">传真：053188267120</string>
+     
+     <string name="Contents">目录</string>
+     <string name="address2">联系地址</string>
+     <string name="end">退出程序</string>
+     <string name="guanyu">关于</string>
+     
+     
+     <string name= "Markid">签好</string>
+      <string name= "Markname">书签名字</string>
+       <string name= "Marky">坐标</string>
+       
+</resources>
+

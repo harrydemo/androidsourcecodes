@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/parent_lay_lev" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_area" android:background="#ECEFF3" 
+        android:layout_width="fill_parent" android:layout_height="45.0dip" 
+        android:layout_alignParentTop="true">
+        
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" 
+            android:layout_height="wrap_content">
+            
+            <TextView android:textSize="12.0dip" android:textColor="#000000" 
+                android:id="@id/page_current" android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" 
+                android:layout_marginBottom="8.0dip" android:text="1" 
+                android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+            
+            <TextView android:textSize="12.0dip" android:textColor="#000000" 
+                android:id="@id/page_alls" android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" 
+                android:text="/1" android:layout_toRightOf="@id/page_current" 
+                android:layout_centerInParent="true" />
+            
+            <ImageView android:id="@id/return_btn" android:layout_width="74.0dip" 
+                android:layout_height="30.0dip" android:layout_marginLeft="3.0dip" 
+                android:src="@drawable/return_back" android:scaleType="fitXY" 
+                android:layout_toRightOf="@id/page_alls" />
+            
+            <TextView android:textSize="28.0px" android:textColor="#000000" 
+                android:id="@id/click_title" android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" android:text="" 
+                android:layout_centerInParent="true" />
+            <ImageView android:id="@id/next_page_btn" android:layout_width="55.0dip" 
+                android:layout_height="30.0dip" android:layout_marginRight="1.0px" 
+                android:src="@drawable/next_page" android:scaleType="fitXY" 
+                android:layout_alignParentRight="true" />
+            
+            
+            <ImageView android:id="@id/back_page_btn" android:layout_width="55.0dip" 
+                android:layout_height="30.0dip" android:layout_marginRight="3.0dip" 
+                android:src="@drawable/back_page" android:scaleType="fitXY" 
+                android:layout_toLeftOf="@id/next_page_btn" />
+            
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:layout_above="@id/bottom_tabbar" android:layout_below="@id/title_area">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+           
+            <ListView android:id="@id/list_detail_views" android:layout_width="fill_parent" 
+                android:layout_height="fill_parent" android:cacheColorHint="@null" 
+                android:layout_alignParentLeft="true" android:divider="#ECEFF3"
+                android:dividerHeight="1.0px" android:footerDividersEnabled="false"/>
+        </RelativeLayout>
+    </LinearLayout>
+    
+     <LinearLayout android:id="@id/layout_bottom_tab" android:background="@drawable/header" 
+         android:layout_width="fill_parent" android:layout_height="50.0dip" 
+         android:layout_alignParentBottom="true" >
+        
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            
+            <ImageView android:layout_width="10.0dip" android:layout_height="fill_parent" 
+                android:id="@+id/temp" android:layout_centerHorizontal="true"></ImageView>
+            
+            <ImageView android:id="@id/new_video" android:src="@drawable/today_news_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                android:layout_toLeftOf="@+id/temp" android:paddingRight="15dip"
+                android:paddingLeft="15dip"  android:layout_centerHorizontal="true"/>
+            
+            <ImageView android:id="@id/category_navigation" android:src="@drawable/home_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"  
+                android:paddingLeft="15dip" android:paddingRight="15dip"
+                android:layout_toLeftOf="@+id/new_video"
+                android:layout_centerHorizontal="true"/>
+            
+            
+            <ImageView android:id="@id/video_search" android:src="@drawable/search_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                 android:layout_toRightOf="@+id/temp" android:paddingLeft="15dip"
+                android:paddingRight="15dip" android:layout_centerHorizontal="true"/>
+            
+            <ImageView android:id="@id/video_collect" android:src="@drawable/favorite_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                android:scaleType="fitXY" 
+                android:layout_toRightOf="@+id/video_search" android:paddingLeft="15dip"
+                android:paddingRight="15dip" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

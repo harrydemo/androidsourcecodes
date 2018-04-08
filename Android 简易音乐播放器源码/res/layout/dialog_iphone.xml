@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.music.tools.IphoneDialogView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical|center_horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/dialog_panel"
+        android:layout_width="289dp"
+        android:layout_height="164dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/dialog" >
+
+        <LinearLayout
+            android:id="@+id/dialog_title_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/dialog_title"
+                style="@style/StyleBarTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom|center"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_message_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/dialog_title_panel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/dialog_message"
+                style="@style/StyleBarTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dialog_buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/dialog_message_panel"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/dialog_yes"
+                style="@style/StyleBarTitle"
+                android:layout_width="42dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:background="@drawable/dialog_button_active"
+                android:gravity="center"
+                android:text="确认" >
+            </Button>
+
+            <Button
+                android:id="@+id/dialog_no"
+                style="@style/StyleBarTitle"
+                android:layout_width="42dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:background="@drawable/dialog_button_normal"
+                android:gravity="center"
+                android:text="否" >
+            </Button>
+
+            <Button
+                android:id="@+id/dialog_cancel"
+                style="@style/StyleBarTitle"
+                android:layout_width="42dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:background="@drawable/dialog_button_normal"
+                android:gravity="center"
+                android:text="取消"
+                android:visibility="gone" >
+            </Button>
+        </LinearLayout>
+    </RelativeLayout>
+
+</org.music.tools.IphoneDialogView>

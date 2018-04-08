@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<drawable name="seleted">#fce0ac</drawable>
+	<drawable name="cate_bg2">#fafafa</drawable>
+	<drawable name="transparent">#00000000</drawable>
+</resources>

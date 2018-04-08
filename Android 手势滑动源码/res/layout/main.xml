@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<LinearLayout   
+   xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"    
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    >   
+    
+	<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="right"
+	    >
+	<TextView  
+		android:id="@+id/counttv"
+	    android:layout_width="50dip"
+	    android:layout_height="wrap_content" 
+	    android:background="@drawable/a4"
+	    android:layout_gravity="right"
+	    />
+	</FrameLayout>
+    <ViewFlipper android:id="@+id/details"  
+       android:layout_width="fill_parent"    
+       android:layout_height="fill_parent"  
+       android:persistentDrawingCache="animation"  
+       android:flipInterval="1000"  
+       android:inAnimation="@anim/push_left_in"  
+	   android:outAnimation="@anim/push_left_out"  
+>    
+      <LinearLayout   
+           android:orientation="vertical"  
+           android:layout_width="fill_parent"    
+           android:layout_height="wrap_content">   
+          <Button   
+              android:text="Next1"    
+              android:id="@+id/Button_next1"  
+            android:layout_width="fill_parent"    
+              android:layout_height="wrap_content">   
+           </Button>   
+           
+           <TextView
+			android:id="@+id/info"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20dip"
+			android:singleLine="true"
+			android:text="系统消息"
+			android:layout_marginLeft="10dip"
+			/>
+			
+           <ListView   
+             android:id="@+id/list1"    
+             android:layout_width="fill_parent"  
+             android:layout_height="fill_parent"
+             android:cacheColorHint="#00000000"
+             android:divider="@drawable/divider_horizontal_bright"
+             >   
+           </ListView>    
+           
+      </LinearLayout>   
+    
+      <LinearLayout   
+        android:orientation="vertical"  
+          android:layout_width="fill_parent"    
+          android:layout_height="wrap_content">   
+          <Button   
+              android:text="Next2"    
+              android:id="@+id/Button_next2"  
+             android:layout_width="fill_parent"    
+             android:layout_height="wrap_content">   
+          </Button>   
+           <ImageView   
+             android:id="@+id/image2"    
+            android:src="@drawable/mail3"  
+             android:layout_width="fill_parent"  
+              android:layout_height="wrap_content">   
+           </ImageView>   
+           
+       </LinearLayout>   
+          
+    </ViewFlipper>       
+</LinearLayout>  

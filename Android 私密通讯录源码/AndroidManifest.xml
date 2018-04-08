@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.xmobileapp.contact"
+      android:versionCode="1"
+      android:versionName="1.0.0">
+      
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    
+    	<provider android:name="ContactsProvider"
+            android:authorities="com.xmobileapp.provider.contact"/>
+        
+        <activity android:name=".Contact"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.xmobileapp.contact" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.xmobileapp.contact" />
+            </intent-filter>
+        </activity>
+
+        
+        <activity android:name=".ContactEditor"
+            android:theme="@android:style/Theme.Light"
+            android:label="ContactEditor">
+            <intent-filter android:label="@string/menu_edit">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+                <action android:name="com.android.notepad.action.EDIT_CONTACT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.xmobileapp.contact" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.xmobileapp.contact" />
+            </intent-filter>
+
+        </activity>
+        
+    </application>
+</manifest> 

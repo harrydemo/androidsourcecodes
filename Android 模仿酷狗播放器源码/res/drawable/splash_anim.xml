@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list android:id="@+id/splash_pro" android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- 
+    <item android:duration="150" android:drawable="@drawable/sp01" />
+    <item android:duration="150" android:drawable="@drawable/sp02" />
+    <item android:duration="150" android:drawable="@drawable/sp03" />
+    <item android:duration="150" android:drawable="@drawable/sp04" />
+    <item android:duration="150" android:drawable="@drawable/sp05" />
+    <item android:duration="150" android:drawable="@drawable/sp06" />
+    <item android:duration="150" android:drawable="@drawable/sp07" />
+    <item android:duration="150" android:drawable="@drawable/sp08" />
+    <item android:duration="150" android:drawable="@drawable/sp09" />
+    <item android:duration="150" android:drawable="@drawable/sp10" />
+    <item android:duration="150" android:drawable="@drawable/sp11" />
+     -->
+</animation-list>

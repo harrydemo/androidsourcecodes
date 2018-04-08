@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World</string>
+    <string name="app_name">奇异</string>
+    <string name="category_home">首页</string>
+    <string name="category_channel">分类</string>
+    <string name="category_search">搜索</string>
+    <string name="category_account">我的资料</string>
+    <string name="category_more">更多</string>
+    <string name="search_hit">输入片名、主演或导演</string>
+    <string name="search_text">搜索</string>
+    <string name="hot_search">热门搜索</string>
+    <string name="search_history">搜索历史</string>
+    <string name="clear_search_history">清除</string>
+    <string name="leave_look">离线观看</string>
+    <string name="play_history">播放记录</string>
+    <string name="favorite">收藏夹</string>
+    <string name="my_account">我的帐号</string>
+    <string name="setting">设置</string>
+    <string name="feedback">信息反馈</string>
+    <string name="help">使用帮助</string>
+    <string name="about">更多</string>
+
+</resources>

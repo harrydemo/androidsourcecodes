@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">《通讯录》</string>
+<string name="add_user">添加联系人</string>
+<string name="editor_user">编辑联系人</string>
+<string name="view_user">查看联系人</string>
+<string name="exit">退出通讯录</string>
+<string name="name">姓名：</string>
+<string name="mobile">手机：</string>
+<string name="home">座机：</string>
+<string name="address">地址：</string>
+<string name="email">邮箱：</string>
+<string name="blog">主页：</string>
+<string name="ok">确定</string>
+<string name="cancel">取消</string>
+<string name="delete_user">删除联系人</string>
+<string name="revert">返回列表</string>
+<string name="call_user">呼叫</string>
+<string name="sendsms_user">发短信给</string>
+</resources>

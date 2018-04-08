@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * <resources.>
+ *  Copyright (C) <2009>  <Wang XinFeng,ACC http://androidos.cc/dev>
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */ 
+ -->
+<resources>
+<array name="imageEnds">
+        <item>.png</item>
+        <item>.gif</item>
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.bmp</item>
+    </array>
+<array name="audioEnds">
+        <item>.mp3</item>
+        <item>.wav</item>
+        <item>.ogg</item>
+        <item>.midi</item>
+    </array>
+<array name="packageEnds">
+        <item>.jar</item>
+        <item>.zip</item>
+        <item>.rar</item>
+        <item>.gz</item>
+    </array>
+<array name="textEnds">
+		 <item>.txt</item>
+        <item>.php</item>
+       
+</array>
+
+<array name="htmlEnds">
+        <item>.htm</item>
+        <item>.html</item>
+</array>
+<array name="umdEnds">
+        <item>.umd</item>
+</array>
+<array name="zipEnds">
+        <item>.jar</item>
+</array>
+</resources>
+     

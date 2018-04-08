@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/screen"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <ImageView
+         android:src="@drawable/jay"
+         android:layout_width="fill_parent" 
+         android:layout_height="fill_parent"
+        />
+       <TextView android:id="@+id/textView0"
+	          android:layout_width="fill_parent"
+			  android:layout_height="wrap_content" 
+			  android:textColor="#000000"
+			  android:textSize="18dip"
+			  android:background="#00FF00"
+		      android:text="雨松MOMO 带你走进Android 游戏开发世界" 
+		      android:gravity="center_vertical|center_horizontal"
+		/>
+		 <TextView android:id="@+id/textView1"
+	          android:layout_width="fill_parent"
+			  android:layout_height="wrap_content" 
+			  android:textColor="#FFFFFF"
+			  android:textSize="18dip"
+			  android:background="#0000FF"
+		      android:text="手把手教你做游戏之构建SQLite数据库详解（八）" 
+		      android:gravity="center_vertical|center_horizontal"
+		      />
+        <Button android:id="@+id/button0"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="创建与删除数据库"/>
+        <Button android:id="@+id/button1"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="创建与删除数据库中的表"/>
+        <Button android:id="@+id/button2"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="增 删 改 查 数据库表中的数据"/>
+    </LinearLayout>
+</ScrollView>

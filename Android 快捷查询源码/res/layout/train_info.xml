@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="260dp"
+  android:layout_height="wrap_content" 
+  android:layout_marginTop="100dp" 
+  android:background="@drawable/bg">
+  
+  
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_cls"/>
+						
+			  <TextView android:id="@+id/train_cls" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_type"/>
+						
+			  <TextView android:id="@+id/train_type" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	
+
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_fromstation"/>
+						
+			  <TextView android:id="@+id/train_fromstation" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_tostation"/>
+						
+			  <TextView android:id="@+id/train_tostation" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_leavetime"/>
+						
+			  <TextView android:id="@+id/train_leavetime" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_reachtime"/>
+						
+			  <TextView android:id="@+id/train_reachtime" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_passduration"/>
+						
+			  <TextView android:id="@+id/train_passduration" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_passdistant"/>
+						
+			  <TextView android:id="@+id/train_passdistant" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_yingzuo"/>
+						
+			  <TextView android:id="@+id/train_yingzuo" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_yingwo"/>
+						
+			  <TextView android:id="@+id/train_yingwo" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_startstation"/>
+						
+			  <TextView android:id="@+id/train_startstation" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/train_endstation"/>
+						
+			  <TextView android:id="@+id/train_endstation" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+										
+  		    
+</TableLayout>
+

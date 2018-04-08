@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.ly.control"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".LYWelcomeActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LYLoginActivity"></activity>
+		<activity android:name=".LYTogetherActivity"></activity>
+		<activity android:name=".LYTogether2Activity"></activity>
+		<activity android:name=".LYMemoryActivity"></activity>
+		<activity android:name=".LYMemory2Activity"></activity>
+		<activity android:name=".LYAddMemoryActivity"></activity>
+		<activity android:name=".LYFriendsActivity"></activity>
+		<activity android:name=".LYFriendsInfoActivity"></activity>
+		<activity android:name=".LYFriendsMeActivity"></activity>
+		<activity android:name=".LYSendInfoActivity"></activity>
+		<activity android:name=".LYOtherActivity"></activity>
+		<activity android:name=".LYRegisterActivity"></activity>
+		<activity android:name=".GoogleMapActivity"></activity>      
+        <activity android:name=".PhotoActivity"></activity>
+        <activity android:name=".LocationActivity"></activity>	
+        <activity android:name=".LYTabHostActivity"></activity>	
+        <activity android:name=".LYGalleryActivity"></activity>
+        <activity android:name=".StoreMemoryActivity"></activity>
+        <activity android:name=".ActorActivity"></activity>
+        <activity android:name=".TravelActivity"></activity>
+         <activity android:name=".AddPlaceActivity"></activity>
+		<uses-library android:name="com.google.android.maps"/>
+		<activity android:name=".YanzhengActivity"   android:theme="@android:style/Theme.Dialog"/>
+		<activity android:name=".translucentButton" android:theme="@style/Theme.Translucent"/>
+		
+    </application>
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+</manifest> 

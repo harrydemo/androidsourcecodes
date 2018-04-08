@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/player_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46dip"
+        android:background="@drawable/topbar_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/media_title"
+            android:layout_width="fill_parent"
+            android:layout_height="46dip"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_marginLeft="58dip"
+            android:layout_marginRight="58.0dip"
+            android:ellipsize="marquee"
+            android:gravity="center_horizontal"
+            android:paddingTop="10.0dip"
+            android:singleLine="true"
+            android:text="我的收藏"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="240px"
+        android:layout_marginTop="19dip"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QQ账户:" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QQ密码:" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:password="true" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

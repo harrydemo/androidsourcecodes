@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget48"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:id="@+id/widget41"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<TextView android:id="@+id/txt_setting" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:padding="10px"
+			android:layout_marginLeft="20dip" android:layout_marginRight="20dip"
+			android:text="@string/call_time_setting">
+		</TextView>
+		<EditText android:id="@+id/edittext_setting"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="20dip" android:layout_marginRight="20dip"
+			android:textSize="18sp" android:numeric="integer">
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/widget46"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+		<Button android:id="@+id/btn_submit" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/submit"
+			android:layout_marginLeft="20dip" android:layout_marginRight="20dip">
+		</Button>
+		<Button android:id="@+id/btn_cancal" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/cancal"
+			android:layout_marginLeft="20dip" android:layout_marginRight="20dip">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

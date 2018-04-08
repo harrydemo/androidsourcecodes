@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/listplaylayout" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ImageView android:id="@+id/playlistbg" android:layout_width="fill_parent"
+		android:scaleType="centerCrop" android:layout_height="fill_parent"
+		android:background="@drawable/listbg" />
+
+	<ExpandableListView android:id="@+id/playexlist"
+		android:layout_gravity="bottom" android:drawSelectorOnTop="false"
+		android:layout_marginBottom="35dip" android:scrollbars="vertical"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:cacheColorHint="#00000000" />
+
+	<LinearLayout android:id="@+id/play_bottom_player"
+		android:layout_width="fill_parent" android:orientation="horizontal"
+		android:layout_height="35dip" android:layout_gravity="bottom"
+		android:background="@drawable/player_bottom_overlay" android:gravity="center">
+
+		<ImageButton android:id="@+id/playgotoplayer" android:background="#00FFFFFF"
+			android:layout_width="150dip" android:src="@drawable/bottom_gotoplay"
+			android:layout_height="30dip" android:scaleType="centerCrop" />
+
+	</LinearLayout>
+</FrameLayout>
+

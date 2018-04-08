@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 62
+*.settings
+assets
+bin
+releases
+smspopup.trace
+smspopup2.trace
+
+K 13
+svn:mergeinfo
+V 39
+/branches/SMSPopup-view-refresh:287-310
+END

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="ContentOverlay" parent="@android:style/Theme">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowEnterAnimation">@anim/slide_in</item>
+		<item name="android:windowExitAnimation">@anim/slide_out</item>
+	</style>
+	<style name="query_result_theme">
+		<item name="android:textColor">@color/txt_label_black</item>
+		<item name="android:textSize">@dimen/query_result_size</item>
+		<item name="android:padding">@dimen/padding_basic</item>
+		<item name="android:autoLink">all</item>
+		<item name="android:weightSum">50</item>
+	</style>
+
+	<style name="result_module_theme">
+		<item name="android:layout_marginTop">20dip</item>
+		<item name="android:background">@null</item>
+	</style>
+	<style name="query_btn_theme">
+		<item name="android:layout_margin">10dip</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+	<style name="query_condition_module_theme">
+	<item name="android:layout_marginTop">20dip</item>
+	</style>
+</resources>	

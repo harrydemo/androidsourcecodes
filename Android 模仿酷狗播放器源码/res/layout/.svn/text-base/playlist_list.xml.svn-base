@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:id="@+id/create_playlist_header"
+		android:background="@drawable/create_playlist_header"
+		android:focusable="true" android:clickable="true"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="2.0px">
+		<TextView android:textAppearance="?android:textAppearanceMedium"
+			android:layout_gravity="center_vertical" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginLeft="45.0px"
+			android:text="@string/new_playlist" />
+	</LinearLayout>
+	<include layout="@layout/common_listview" />
+</LinearLayout>

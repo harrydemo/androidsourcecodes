@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.eddyspace.networkmonitor"
+      android:versionCode="2" android:versionName="0.2-beta">
+    <application android:icon="@drawable/icon" 
+    		android:label="@string/app_name" 
+    		android:enabled="true">
+        
+        <activity android:name=".NetworkInfo"
+                  android:label="@string/info_app_name">
+        	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>            
+        </activity>
+        
+        <activity
+			android:name=".EditPreferences"
+			android:label="@string/app_name">
+		</activity>
+		 
+        <activity
+			android:name=".NetworkTools"
+			android:label="@string/tools_app_name">
+		</activity> 
+		<activity
+			android:name=".ShowResults"
+			android:label="@string/results_app_name">
+		</activity>	
+		<activity
+			android:name=".ShowLog"
+			android:label="@string/show_log_app_name">
+		</activity>  
+				
+		<receiver android:name=".NetworkMonitor"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        		       
+    </application>
+    <uses-sdk android:minSdkVersion="7"/>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+
+
+<uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+</manifest> 

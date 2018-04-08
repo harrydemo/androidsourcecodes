@@ -1,0 +1,18 @@
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="fill_vertical" android:orientation="vertical"><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Filename:" android:textSize="20sp"></TextView><EditText android:id="@+id/EditText01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:singleLine="true"></EditText>
+
+
+
+
+<CheckBox android:id="@+id/CheckBox01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Append time" android:checked="true"></CheckBox><TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Directory:" android:textSize="20sp"></TextView>
+
+
+
+
+
+
+
+<EditText android:layout_height="wrap_content" android:id="@+id/testdirectory" android:layout_width="fill_parent" android:singleLine="true"></EditText>
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apply" android:id="@+id/ApplyButton01"></Button>
+</LinearLayout>

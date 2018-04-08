@@ -1,0 +1,25 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+	android:background="@drawable/ww1">
+	 <LinearLayout
+ 		 android:orientation="horizontal"
+ 		 android:layout_width="fill_parent"
+ 		 android:layout_height="wrap_content"
+  		 android:gravity="bottom"
+  		 >
+   <Button
+ 		  android:id="@+id/btnLeft"
+ 		  android:layout_width="150dip"
+		  android:layout_height="wrap_content"
+		  android:text="上一页"/>
+   <Button
+ 		  android:id="@+id/btnRight"
+ 		  android:layout_width="150dip"
+ 		  android:layout_height="wrap_content"
+		   android:text="下一页"/> 
+ 
+ </LinearLayout> 
+	<ListView android:id="@+id/FXListView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></ListView>
+</LinearLayout>

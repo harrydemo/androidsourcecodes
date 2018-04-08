@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/geren2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/zhangben2"
+        android:layout_width="116dp"
+        android:layout_height="62dp"
+        android:layout_x="130dp"
+        android:layout_y="50dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/guanyu2"
+        android:layout_width="84dp"
+        android:layout_height="46dp"
+        android:layout_x="6dp"
+        android:layout_y="165dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/xiaohua2"
+        android:layout_width="112dp"
+        android:layout_height="46dp"
+        android:layout_x="6dp"
+        android:layout_y="350dp"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/duanxin2"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:layout_x="178dp"
+        android:layout_y="269dp"
+        android:background="#00000000" />
+
+</AbsoluteLayout>

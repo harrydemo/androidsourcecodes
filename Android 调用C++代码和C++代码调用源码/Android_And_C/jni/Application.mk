@@ -1,0 +1,4 @@
+# it is needed for ndk-r5
+APP_STL := stlport_static
+
+APP_MODULES := C_to_Android  Android_to_C

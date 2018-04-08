@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+android:id="@+id/widget1"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:background="@drawable/bg"
+>
+<RelativeLayout android:id="@+id/control_panel"
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        
+<TextView android:id="@+id/show_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/click_to_play"/>
+
+<Button android:id="@+id/play_pause_btn"
+    android:layout_width="100px"
+    android:layout_height="wrap_content" 
+    android:layout_alignParentLeft="true"
+    android:visibility="invisible"
+    android:text="@string/play"/>    
+      
+<Button android:id="@+id/stop_btn"
+    android:layout_width="100px"
+    android:layout_height="wrap_content" 
+    android:layout_alignParentRight="true"
+    android:visibility="invisible"
+    android:text="@string/stop"/>            
+</RelativeLayout>
+
+
+<ListView android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"/>
+        
+<TextView android:id="@id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20sp"
+        android:text="@string/no_music"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical" >
+
+       <ListView
+           android:id="@id/android:list"
+           android:layout_width="fill_parent"
+           android:layout_height="387dp"
+           android:layout_weight="0.42"
+           android:drawSelectorOnTop="false"
+           android:scrollbars="vertical" >
+
+       </ListView>
+
+       <Button
+           android:id="@+id/button2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.65"
+           android:layout_margin="12dp"
+           android:text="@string/btn1"/>
+
+   </LinearLayout>

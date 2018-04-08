@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="35px"    
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="0px"
+    android:background="@drawable/blank_normal" >
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:text="K歌之王" />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/intell_text1_textview"
+		android:padding="10dip" android:layout_width="wrap_content"
+		android:textSize="20sp" android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true" android:text="@string/intellectreceiveSMS" />
+	<CheckBox android:id="@+id/intellect_checbox_1"
+		android:layout_alignTop="@+id/intell_text1_textview"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentRight="true" />
+
+	<TextView android:id="@+id/intell_text2_textview"
+		android:textSize="20sp" android:layout_below="@+id/intell_text1_textview"
+		android:padding="10dip" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:text="@string/intellectreceivePHONE" />
+	<CheckBox android:id="@+id/intellect_checbox_2"
+		android:layout_alignTop="@+id/intell_text2_textview"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentRight="true" />
+
+	<TextView android:id="@+id/intell_text3_textview"
+		android:textSize="20sp" android:layout_below="@+id/intell_text2_textview"
+		android:padding="10dip" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:text="@string/intellectPHONERECEIVE" />
+	<CheckBox android:id="@+id/intellect_checbox_3"
+		android:layout_alignTop="@+id/intell_text3_textview"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentRight="true" />
+
+	<TextView android:id="@+id/intell_text4_textview"
+		android:textSize="20sp" android:layout_below="@+id/intell_text3_textview"
+		android:padding="10dip" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:text="@string/SMScommend" />
+	<EditText android:id="@+id/intellect_edittext01"
+		android:layout_alignTop="@+id/intell_text4_textview"
+		android:layout_toRightOf="@+id/intell_text4_textview"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentRight="true" android:singleLine="true"
+		android:visibility="gone" />
+
+	<TextView android:id="@+id/intell_text5_textview"
+		android:textSize="20sp" android:layout_below="@+id/intell_text4_textview"
+		android:padding="10dip" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+		android:text="@string/PHONEcommend" />
+	<EditText android:id="@+id/intellect_edittext02"
+		android:layout_alignTop="@+id/intell_text5_textview"
+		android:layout_toRightOf="@+id/intell_text5_textview"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentRight="true" android:singleLine="true"
+		android:visibility="gone" />
+</RelativeLayout>

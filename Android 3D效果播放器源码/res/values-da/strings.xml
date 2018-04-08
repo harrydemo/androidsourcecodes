@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--	BROWSING CATEGORIES-->
+	<string name="browse_cat_album">Albummer</string>
+	<string name="browse_cat_artists">kunstnere</string>
+	<string name="browse_cat_songs">Sange</string>
+	
+	<!--	GENERAL STUFF -->
+	<string name="album">Album</string>
+	<string name="albums">Albummer</string>
+	
+	
+	<!--	INTRO SCREEN-->
+    <string name="intro_text_1">Rock</string>
+    <string name="intro_text_2">Til</string>
+    <string name="intro_text_3">NextGen</string>
+    <string name="app_name">³</string>
+    
+	<!--    ALBUM ART MESSAGES-->
+	<string name="get_art_dialog_title">³ Album covers</string>
+	<string name="get_art_dialog_message">
+		³ Kan finde manglende Album covers will du gøre det nu?  (Der overføres større mængder af data).
+	</string>
+	<string name="get_art_dialog_yes">Ja!</string>
+	<string name="get_art_dialog_no">Senere</string>
+	
+	<!--	ART DOWNLOAD MESSAGES-->
+	<string name="art_download_no_inet">Kunne ikke oprette forbindelse</string>
+	<string name="art_download_progress_title">Henter covers</string>
+	<string name="art_download_cancel">Annuller</string>
+	<string name="art_download_progress_initial_message">Søger efter covers...</string>
+	
+	<!--	NO SDCARD MESSAGES -->
+	<string name="no_sd_card_dialog_title">Der blev ikke fundet noget SD kort</string>
+	<string name="no_sd_card_dialog_message">Insæt SD kort</string>
+	<string name="no_sd_card_dialog_continue_anyway">Fortsæt alligevel</string>
+	<string name="no_sd_card_dialog_exit">Afslut</string>
+	<!--	NO MUSIC MESSAGES -->
+	<string name="no_music_dialog_title">Playlisten er tom!</string>
+	<string name="no_music_dialog_message">Playlisten ser ud til at være tom,</string>
+	<string name="no_music_dialog_continue_anyway">Fortsæt alligevel</string>
+	<string name="no_music_dialog_exit">Afslut</string>
+	
+	<!--	DOWNLOAD CONCERTS APP MESSAGES-->
+	<string name="concert_app_install_dialog_title">Installer concerts³</string>
+	<string name="concert_app_install_dialog_message">Denne funktion kræver installation af Koncerter ³. Ønsker du at gøre det nu?</string>
+	<string name="concert_app_install_dialog_ok">Ja!</string>
+	<string name="concert_app_install_dialog_cancel">Nej Tak!</string>
+	<string name="concert_app_install_no_market_app_msg">Ooops! Ser ud Til at du ikke marked appet installeret.</string>
+	
+	<!--	DOWNLOAD RELEASES APP MESSAGES-->
+	<string name="releases_app_install_dialog_title">Installer Releases³</string>
+	<string name="releases_app_install_dialog_message">Denne funktion kræver installation af Releases³. Ønsker du at gøre det nu?</string>
+	<string name="releases_app_install_dialog_ok">Ja!</string>
+	<string name="releases_app_install_dialog_cancel">Nej Tak!</string>
+	<string name="releases_app_install_no_market_app_msg">Ooops! Ser ud Til at du ikke marked appet installeret.</string>
+	
+	<!--	TOASTER MESSAGES	-->
+	<string name="song_added_to_playlist">Sang i kø</string>
+	<string name="song_removed_from_playlist">Sang fjernet</string>
+	<string name="album_art_changed">Album cover ændret</string>
+	<string name="playlist_empty_toast">Fejl, Playlisten er tom!</string>
+	<string name="playqueue_empty_toast">Køen!</string>
+	<string name="not_an_album_toast">Dette er en kunstner og ikke et album,</string>
+	<string name="playlist_queued_toast">Playlist i kø</string>
+	<string name="generic_error_toast">Fejl!</string>
+	<string name="playlist_deleted_toast">Playlist Slettet</string>
+	<string name="song_deleted_toast">Fil Slettet</string>
+	
+	<!-- 	SEARCH -->
+	<string name="search_hint">Navn på Kunstner eller sang</string>
+	
+	<!--	PLAY QUEUE	-->
+	<string name="play_queue_title">Afspil kø</string>
+	<string name="clear_playlist_dialog_option">Ryd</string>
+	<string name="create_playlist_dialog_option">Gem</string>
+	
+	<!--	SONG LISTS MORE RESULTS -->
+	<string name="song_list_more_results">Sange...</string>
+	
+	<!--	CREATE PLAYLIST DIALOG -->
+	<string name="create_playlist_dialog_title">Navn på playlist</string>
+	<string name="create_playlist_dialog_save_option">Gem</string>
+	<string name="create_playlist_dialog_text_hint">Navn på playlist...</string>
+	
+	<!--	DELETE SONG DIALOG	-->
+	<string name="song_delete_confirm_title">Slet sang!</string>
+	<string name="song_delete_message">Er du sikker på at du vil slette Filen?, dette kan ikke fortrydes!</string>
+	<string name="song_delete_positive_button">Ja!</string>
+	<string name="song_delete_negative_button">Nej!.</string>
+	
+	<!--	DELETE PLAYLIST DIALOG	-->
+	<string name="playlist_delete_confirm_title">Slet playlist</string>
+	<string name="playlist_delete_message">Er du sikker på at du vil slette denne playlist?</string>
+	<string name="playlist_delete_positive_button">Ja!</string>
+	<string name="playlist_delete_negative_button">Nej!</string>
+	
+	<!--	CREATE PLAYLIST TOASTER	-->
+	<string name="create_playlist_toaster_added_part_1">Sangene blev tilføjet!</string>
+	<string name="create_playlist_toaster_failed">Playlisten Kunne ikke oprettes</string>
+	<string name="create_playlist_toaster_name_required">Playlisten skal have et navn...</string>
+	
+	<!--	-->
+	
+	<!--	ALBUM SONG LIST DIALOG -->
+	<string name="album_song_list_play_all">Afspil alle</string>
+	<string name="album_song_list_queue_all">Sæt alle i kø</string>
+	
+	<!--	SONG OPTIONS DIALOG	-->
+	<string name="song_option_play_now">Afspil nu</string>
+	<string name="song_option_add_to_queue">Føj til kø</string>
+	<string name="song_option_delete">Slet</string>
+	
+	<!--	PLAYLIST OPTIONS DIALOG	-->
+	<string name="playlist_option_play_now">Afspil nu</string>
+	<string name="playlist_option_add_to_queue">Føj til kø</string>
+	<string name="playlist_option_delete">Slet</string>
+	
+	<!--	PLAYLIST DIALOG		-->
+	<string name="playlist_dialog_title">Vælg Playlist</string>
+	<string name="playlist_dialog_cancel">Annuller</string>
+	<string name="playlist_all_title">Afspil alle</string>
+	<string name="playlist_most_recent_title">Seneste</string>
+	<string name="playlist_most_played_title">Mest afspillet</string>
+	
+	<!-- 	VIEW MODES DIALOG -->
+	<string name="view_mode_cube">³</string>
+	<string name="view_mode_wall">Væg</string>
+	<string name="view_mode_boring">Liste</string>
+	<string name="view_mode_morph">Morph Flow</string>
+	
+	<!-- 	THEMES DIALOG -->
+	<string name="theme_normal">Normal</string>
+	<string name="theme_halftone">Half tone</string>
+	<string name="theme_earthquake">Earthquake</string>
+	
+	<!--	THEME PROCESSING MESSAGES	-->
+	<string name="art_processing_progress_title">Bearbejder covers</string>
+	<string name="art_processing_cancel">Annuller</string>
+	<string name="art_processing_go_background">Kør i baggrunden</string>
+	<string name="art_processing_progress_initial_message">Søger efter covers...</string>
+	
+	<!--    HALF TONE DIALOG -->
+	<string name="half_tone_dialog_title">Half Tone Theme</string>
+	<string name="half_tone_dialog_message">
+		Half Tone, kræver nogle behandlinger af dine aktuelle album covers. Det er en processor intensiv opgave, og det kan tage et stykke tid.
+	</string>
+	<string name="half_tone_dialog_yes">Okay!</string>
+	<string name="half_tone_dialog_no">Nej!</string>
+	
+	<!--    EARTHQUAKE DIALOG -->
+	<string name="earthquake_dialog_title">Earthquake Theme</string>
+	<string name="earthquake_dialog_message">
+		Earthquake, kræver nogle behandlinger af dine aktuelle album covers. Dette er en hurtig proces,
+	</string>
+	<string name="earthquake_dialog_yes">Okay!</string>
+	<string name="earthquake_dialog_no">Nej!</string>
+	
+	
+	<!--	ACTIVITY INTENTS (some of them)-->
+	<string name="main_activity_intent">org.abrantix.rockon.rockonnggl.RockOnNextGenGL</string>
+	
+	<!--	NOTIFICATION STRINGS -->
+	<string name="unknown_album_name">Ukendt album</string>
+	<string name="unknown_artist_name">Ukendt Kunstner</string>
+	
+	<!-- 	MANUAL ALBUM ART MSGS -->
+	<string name="manual_albumart_error">Fejl!</string>
+	<string name="manual_albumart_no_album_specified">Intet Album specificeret!</string>
+	<string name="manual_albumart_source">Kilde</string>
+	<string name="manual_albumart_source_local">local</string>
+	<string name="manual_albumart_source_internet">internet</string>
+	<string name="manual_albumart_resolution_loading">loader...</string>
+	<string name="manual_albumart_resolution_unavailable">utilgængelig</string>
+	
+	<string name="manual_input_enable">Manuel søgning</string>
+	<string name="manual_input_artist">Kunstner</string>
+	<string name="manual_input_album">Album</string>
+	
+	<!--	DONATE MSG	-->
+	<string name="donate_title">Doner</string>
+	<string name="donate_msg">³ er en gratis, open source musikafspiller skrevet på min fritid. Hvis du kan lide den, kan du overveje at donere til støtte for yderligere udvikling af ³. Du kan gøre det ved hjælp af en af følgende muligheder:</string>
+	<string name="donate_using">Doner via</string>
+	<string name="donate_back_to_app">Tilbage</string>
+	
+	<!--	UNLOCK SCREEN	-->
+	<string name="unlock_screen">Lås op</string>
+	
+	<!--	WIDGET STRINGS	-->
+	<string name="widget_app_start">Start ³</string>
+	
+	<!--	BUG REPORTS	-->
+	<string name="bug_report_intro_part_one">Åh Nej!\n\n3 (Cubed) v</string>
+	<string name="bug_report_intro_part_two">styrtede ned! Venligst send os denne mail, så vi kan analysere og løse problemet tak!. \ n</string>
+	
+<!--	<string name="bug_report_intro">-->
+<!--		"Sorry!\n\nRockOn v\"-->
+<!--		<xliff:g id="APP_VERSION">%s</xliff:g>-->
+<!--		\" crashed! Please send this mail, so that we can analyze/fix the issue.\n"-->
+<!--	</string>-->
+
+	<!--	DIRECTORY FILTER	-->
+	<string name="directories_on_sdcard">Dit SD-kort indeholder følgende mapper:</string>
+	<string name="select_all">Vælg alle</string>
+	<string name="unselect_all">Fravælg alle</string>
+
+	<!--	GENERIC STUFF -->
+	<string name="ok">Ok</string>
+	<string name="back">Tilbage</string>
+	<string name="all">Alle</string>
+	<string name="none">Ingen</string>
+	<string name="on">Til</string>
+	<string name="off">Fra</string>
+	
+	<string name="genre_prefix">Genre:</string>
+
+</resources>

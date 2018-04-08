@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidWeatherForecast!</string>
+    <string name="app_name">AndroidWeatherForecast</string>
+<string name="cityText">input the city name</string>
+<string name="searchBtn">Search</string>
+<string name="emptyText">No data!</string>
+<string name="resultText">waiting result...</string>
+<string name="testText">Test:</string>
+</resources>

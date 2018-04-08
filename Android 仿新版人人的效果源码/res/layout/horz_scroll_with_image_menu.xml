@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="0px"
+    android:background="#00ffffff"
+    android:padding="0px" >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:background="@drawable/desktop_list_item"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/acount_head_photo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/head"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/head"
+            android:text="沈阳师范大学"
+            android:textColor="@color/white"
+            android:textSize="17dip" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/HomeListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#000" />
+</LinearLayout>
+    <grimbo.android.demo.slidingmenu.MyHorizontalScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0px"
+        android:background="#00ffffff"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0px"
+        android:padding="0px"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="0px"
+            android:background="#00ffffff"
+            android:orientation="horizontal"
+            android:padding="0px" >
+        </LinearLayout>
+    </grimbo.android.demo.slidingmenu.MyHorizontalScrollView>
+
+</FrameLayout>

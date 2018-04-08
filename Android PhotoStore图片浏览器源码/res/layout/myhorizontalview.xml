@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="2dip" android:drawablePadding="0dip" android:maxLines="2"
+	android:ellipsize="marquee" android:fadingEdge="horizontal"
+	android:textColor="@color/bright_text_dark_focused" android:gravity="top|center_horizontal">
+
+	<com.android.photostore.FlingGallery
+		android:layout_width="fill_parent" android:layout_centerVertical="true"
+		android:id="@+id/horizontalview" android:layout_height="fill_parent">
+		
+	</com.android.photostore.FlingGallery>
+
+	<com.android.photostore.zoom.ImageZoomView
+		android:id="@+id/zoomview" android:visibility="gone"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+	<ProgressBar android:id="@+id/progress_circular"
+		style="?android:attr/progressBarStyleSmall"
+		android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+		android:max="10000" android:layout_centerVertical="true"
+		android:layout_marginLeft="6dip" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<ImageView android:id="@+id/removed" android:layout_width="80dp"
+		android:padding="20dp" android:layout_height="80dp"
+		android:layout_alignParentLeft="true" android:visibility="gone"
+		android:onClick="movedClick" android:layout_alignParentBottom="true"
+		android:src="@drawable/thumb" />
+
+	<ImageView android:id="@+id/temp_image" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:visibility="gone"
+		android:src="@drawable/thumb" />
+</RelativeLayout>

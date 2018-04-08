@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/call_bg"
+    tools:context=".Home" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/location_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="中国移动"
+                android:textColor="@color/white"
+                android:textSize="36sp" />
+			<TextView
+            	android:id="@+id/statu"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:gravity="center_vertical|right"
+            	android:paddingRight="20dp"
+            	android:singleLine="true"
+            	android:text="来电"
+            	android:textColor="@color/white"
+            	android:textSize="32sp" />
+            <Chronometer
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:gravity="center_vertical|right"
+                android:paddingRight="20dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/call_bottom"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/slide_bg" >
+
+                <TextView
+                    android:id="@+id/slide"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/decline"
+                    android:layout_toRightOf="@+id/answer"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="移动滑块"
+                    android:textColor="@color/gray"
+                    android:textSize="32sp" />
+                <ImageButton
+                    android:id="@+id/decline"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/no_slide"
+                    android:src="@drawable/no_des" />
+                <ImageButton
+                    android:id="@+id/answer"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/yes_slide"
+                    android:src="@drawable/yes_des" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/call_bottom"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" >
+
+                <Button
+                    android:id="@+id/endcall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/endcallbg"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="结束通话"
+                    android:textColor="@color/white"
+                    android:textSize="34sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/tools"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/translucent_background" >
+
+            <ImageButton
+                android:id="@+id/speaker"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/toolsbg"
+                android:src="@drawable/ic_in_call_touch_speaker_off" />
+            <ImageButton
+                android:id="@+id/dialpan"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/toolsbg"
+                android:src="@drawable/ic_in_call_touch_keyboard_off" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

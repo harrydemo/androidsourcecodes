@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/research/dtg/code/svn/android-tor/!svn/ver/3/Shadow
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/research/dtg/code/svn/android-tor/!svn/ver/3/Shadow/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/AndroidManifest.xml
+END

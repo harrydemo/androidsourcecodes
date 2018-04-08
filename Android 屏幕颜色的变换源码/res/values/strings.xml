@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">欢迎使用阳光手电筒!</string>
+    <string name="app_name">阳光手电筒</string>
+    <string name="setcolor">更换颜色</string>
+    <string name="setbright">更换亮度</string>
+    <string name="seteffer">退出软件</string>
+    <string name="about">关于我们</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/movie_layout" android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:layout_marginTop="30px"
+		>
+		<RelativeLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<ImageButton android:id="@+id/movie_seek_rew"
+				android:layout_margin="7px" android:src="@drawable/ic_mprev"
+				android:layout_alignParentLeft="true"
+				android:background="@drawable/mprev" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></ImageButton>
+
+			<ImageButton android:id="@+id/movie_pause"
+				android:layout_centerInParent="true"
+				android:layout_margin="7px" android:background="@drawable/mplay"
+				android:src="@drawable/ic_mplay" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></ImageButton>
+
+			<ImageButton android:id="@+id/movie_seek_fwd"
+				android:layout_alignParentRight="true"
+				android:layout_margin="7px" android:src="@drawable/ic_mnext"
+				android:background="@drawable/mnext" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></ImageButton>
+
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_marginTop="7px"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<ImageButton android:id="@+id/movie_stop"
+				android:layout_margin="7px"
+				android:layout_centerInParent="true"
+				android:src="@drawable/ic_mstop" android:background="@drawable/mstop"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

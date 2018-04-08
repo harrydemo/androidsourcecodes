@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="hello">Hello World, ScrollUIActivity!</string>
+    <string name="app_name">ScrollUI</string>
+    <string name="page1_title">SG-ERP</string>
+    <string name="page1_title_1">移　　　动　　　办　　　公</string><!-- 使用全角空格  -->
+	<string name="page1_login_userText">用户名:</string>
+	<string name="page1_login_userText_hint">请输入用户名</string>
+	<string name="page1_login_right_image">＞</string>
+	<string name="page1_login_passwdText">密码:</string>
+	<string name="page1_network_button">网络设置</string>
+	<string name="page1_login_button">网络设置</string>
+	<string name="page1_login_button1">登　　录</string>
+	<string name="page1_checbox_text1">记住我的密码</string>
+	<string name="page1_checbox_text2">自动登录</string>
+	<string name="page1_tex1">Power by　</string>
+	<string name="page1_tex2">Richsoft</string>
+	<string name="page2_date">2011年1月27日　星期四</string>
+	<string name="page2_main_text_line">————————————————</string>
+	<string name="page2_main_text">　　中新网4月13日电 综合报道，朝鲜“银河3号”火箭已于北京时间今日6时38分搭载“光明星3号”地球观测卫星，从朝鲜平安北道铁山郡西海卫星发射场发射升空。</string>
+	<string name="page2_bottom_button1">待办</string>
+	<string name="page2_bottom_button2">报表</string>
+	<string name="page2_bottom_button3">邮件</string>
+	<string name="page2_bottom_button4">新闻</string>
+	<string name="page2_bottom_button5">更多</string>
+	<string name="page3_bottom_main_page">主页</string>
+	<string name="page3_bottom_reset">设置</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Wordroid</string>
+    <string name="words">2.词库\n  软件目前版本自带GRE红宝书词库\n  点击主页的下拉菜单可选择词库，或者导入新词库 。\n </string>
+    <string name="abs">1.使用简介\n  本软件面向英语学习人士，为您提供更便携的单词书和更智能的复习计划，大大提高您的单词记忆效率。\n  单词的学习和复习以LIST为单位，在您第一次学习完成后，您可以按照我们为您制定的复习计划进行复习，复习计划运用了艾宾浩斯记忆曲线的原理。\n  您可以选择单词测验来检测单词的掌握程度。\n  桌面小插件会把您的生词本中的内容直接呈现，方便您的浏览。\n</string>
+    <string name="learn">3.学习\n  学习过程中，您将逐个浏览LIST中的单词，发音功能帮您纠正读音，更好的记忆\n</string>
+    <string name="review">4.复习\n  复习采用单词中文回想模式，进一步加深您的记忆\n</string>
+    <string name="test">5.测试\n  测试中，您将指出单词的正确中文意思，检查您对单词记忆的扎实程度\n</string>
+    <string name="attetion">6.生词本\n  生词本不仅可以在本软件学习过程中扩充，更可以随手记下生活中遇到的单词。\n\n\n      我们的联系方式：xkq199053@126.com</string>
+</resources>

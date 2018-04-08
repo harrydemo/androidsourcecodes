@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:orientation="horizontal"
+	android:layout_height="wrap_content">
+
+	<!--
+		<ImageView android:id="@+id/MailButton" android:src="@drawable/mail"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"> </ImageView> <ImageView
+		android:layout_width="2dip" android:paddingTop="7dip"
+		android:layout_height="42dip" android:src="@drawable/split_line" />
+	-->
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:layout_width="fill_parent">
+		<RelativeLayout android:id="@+id/RelativeLayout01"
+			android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<TextView android:layout_height="wrap_content"
+				android:textSize="20px" android:id="@+id/TextName"
+				android:layout_width="fill_parent" android:textColor="#ffffffff">
+			</TextView>
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextDate"
+				android:layout_width="wrap_content" android:layout_alignParentRight="true"
+				android:layout_marginRight="10px" android:textColor="#ffffffff">
+			</TextView>
+		</RelativeLayout>
+		<RelativeLayout android:id="@+id/RelativeLayout02"
+			android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextNumber"
+				android:layout_marginRight="10px" android:layout_width="fill_parent"
+				android:textColor="#ffffffff">
+			</TextView>
+
+			<TextView android:layout_height="wrap_content" android:id="@+id/TextDuration"
+				android:layout_width="wrap_content" android:layout_alignParentRight="true"
+				android:layout_marginRight="10px" android:textColor="@color/orange">
+			</TextView>
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

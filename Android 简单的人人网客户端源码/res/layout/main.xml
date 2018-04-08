@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			<TextView android:id="@+id/display" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="Click Me"
+				android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+				android:layout_marginLeft="60dp" android:layout_marginRight="60dp"
+				android:onClick="onClick" android:clickable="true" />
+
+			<!--
+				renren_login_resource="@drawable/login_button"
+				renren_logout_resource="@drawable/logout_button"
+			-->
+			<com.renren.api.connect.android.view.ConnectButton
+				android:id="@+id/login" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp" android:layout_marginLeft="60dp"
+				android:layout_marginRight="60dp" />
+
+			<RadioGroup android:id="@+id/dataFormatGroup"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginLeft="60dp" android:layout_marginTop="5dp"
+				android:layout_marginRight="60dp" android:layout_marginBottom="5dp"
+				android:orientation="horizontal">
+				<RadioButton android:text="JSON" android:id="@+id/JSON"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+				<RadioButton android:text="XML" android:id="@+id/XML"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+			</RadioGroup>
+
+			<Button android:id="@+id/getUser" android:text="Get User"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginLeft="60dp" android:layout_marginTop="5dp"
+				android:layout_marginRight="60dp" android:layout_marginBottom="5dp"
+				android:onClick="onClick" />
+
+			<TextView android:id="@+id/separation" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="下面方法登录后调用"
+				android:layout_marginRight="60dp" android:layout_marginLeft="65dp" />
+
+			<LinearLayout android:id="@+id/buttons"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:gravity="left">
+
+				<Button android:id="@+id/postFeed" android:text="post feed"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_marginLeft="60dp" android:layout_marginTop="5dp"
+					android:layout_marginRight="60dp" android:layout_marginBottom="5dp"
+					android:onClick="onClick" />
+
+				<Button android:id="@+id/getFriend" android:text="Get friend"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_marginLeft="60dp" android:layout_marginTop="5dp"
+					android:layout_marginRight="60dp" android:layout_marginBottom="5dp"
+					android:onClick="onClick" />
+				<Button android:id="@+id/test" android:text="Test API"
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="60dp"
+				    android:layout_marginTop="5dp"
+				    android:layout_marginRight="60dp"
+				    android:layout_marginBottom="5dp"
+				    android:onClick="onClick"/>	
+
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

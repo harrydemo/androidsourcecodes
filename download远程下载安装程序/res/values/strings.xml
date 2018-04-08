@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="str_button">开始安装</string>
+  <string name="str_text">远程安装程序(请输入URL)</string>
+  <string name="str_url">http://127.0.0.1:8080/android/hello.apk</string>
+  <string name="app_name">远程下载安装程序</string>
+</resources>

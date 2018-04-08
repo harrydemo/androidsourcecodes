@@ -1,0 +1,23 @@
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android">
+  <EditTextPreference
+    android:key="PageSize"
+    android:title="@string/PageSize"
+    android:summary="@string/PageSizeText"
+    android:inputType="number"
+    android:defaultValue="15"
+  />
+  <EditTextPreference
+    android:key="RecentFiles"
+    android:title="@string/Recently"
+    android:summary="@string/RecentlyTxt"
+    android:inputType="number"
+    android:defaultValue="5"
+  />
+  <CheckBoxPreference
+    android:key="SaveSQL"
+    android:title="Save SQL"
+    android:summary="Save SQL in database"
+    android:defaultValue="false"
+  />
+</PreferenceScreen>

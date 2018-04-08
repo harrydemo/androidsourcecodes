@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/44/trunk/CoolReader/src/cn/itcreator/android/reader
+END
+FontSetActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/FontSetActivity.java
+END
+PictureBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/PictureBrowser.java
+END
+UMDPicture.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/UMDPicture.java
+END
+FileBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/FileBrowser.java
+END
+IndexActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/IndexActivity.java
+END
+ImageBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/ImageBrowser.java
+END
+HtmlBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/HtmlBrowser.java
+END
+IconTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/IconTextView.java
+END
+UMDBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/UMDBrowser.java
+END
+IconTextListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/IconTextListAdapter.java
+END
+CatalogAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/CatalogAdapter.java
+END
+TxtActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/TxtActivity.java
+END
+IconText.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/IconText.java
+END

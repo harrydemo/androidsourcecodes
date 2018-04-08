@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.ty.weather" android:versionCode="1" android:versionName="1.0">
+	<application android:label="@string/app_name" android:icon="@drawable/weather">
+		<receiver android:icon="@drawable/weather" android:label="@string/app_name"
+			android:name="ForecastWidget">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE"></action>
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/weatherwidget"></meta-data>
+		</receiver>
+		<activity android:name="ConfigureActivity" android:icon="@drawable/weather"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"></action>
+			</intent-filter>
+		</activity>
+		<activity android:name="DetailForecastActivity"
+			android:excludeFromRecents="true"></activity>
+		<service android:name="ForecastService"></service>
+		<provider android:name="ForecastProvider"
+			android:authorities="com.ty.weather"></provider>
+	<service android:name="ForecastTimeService"></service>
+</application>
+	<uses-sdk android:minSdkVersion="3" />
+
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest> 

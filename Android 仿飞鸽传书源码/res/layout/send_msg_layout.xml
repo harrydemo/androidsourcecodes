@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:gravity="center_vertical"
+  android:layout_width="fill_parent"
+  android:id="@+id/send_msg_layout"
+  android:layout_height="wrap_content">
+  
+    <ImageView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/send_head_icon"/>
+    <LinearLayout android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+    	<LinearLayout android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+	    	<TextView android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:textColor="@android:color/white"
+		    	android:id="@+id/send_nickename"/>
+	    	<TextView android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:layout_marginLeft="10dp"
+	    		android:textColor="@android:color/white"
+		    	android:id="@+id/send_msg_time"/>
+	    </LinearLayout>
+    	<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/send_msg_bg"
+    		android:textColor="@android:color/black"
+    		android:id="@+id/send_msg_content"/>
+    </LinearLayout>
+</LinearLayout>

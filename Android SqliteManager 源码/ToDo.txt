@@ -1,0 +1,29 @@
+ToDo / ideas for coming development
+	Compress SQL wines.name -> t1.name in resulting SQL not on lists
+	Sort data / query results by clicking on title
+	Better horizontal scrolling
+	"Tab" view / show active tab
+	Recent files
+	Scripts editor?  
+	
+
+Done
+	Data entry and editing form use editing button at each row
+	Execute scripts (single line or full script)
+	Select SQL history from query form
+	More functions (and stability) in query builder
+	  Select from
+	  Create View
+	  Create Table
+	  Drop
+	  Delete from
+	Create new database
+	Paging large data sets
+	Configuration
+		Number of records to display
+	Query mode
+		Query builder
+	Save SQL - must be bound to the database by name of database or in database
+	See index
+	Primary index on SQL in aSQLiteManager to avoid duplicate SQL
+	

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    	
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"		
+			android:id="@+id/button_table"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" >
+			<TableRow>
+				<TextView
+            		android:text="@string/key_date_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"            	
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_date_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_time_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_time_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_state_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_state_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_type_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_type_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_netid_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_netid_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_speed_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_speed_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_roaming_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_roaming_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_bgdata_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_bgdata_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_interface_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_interface_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_ip_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_ip_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_gateway_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_gateway_value"
+            		android:padding="1dip" />
+    		</TableRow>
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow>
+				<TextView
+            		android:text="@string/key_dns_name"
+            		android:textColor="@color/white"
+            		android:background="@color/blue"
+            		android:padding="1dip" />
+        		<TextView
+            		android:id="@+id/show_log_dns_value"
+            		android:padding="1dip" />
+    		</TableRow>			
+    		<TableRow>
+    			<TextView
+    				android:height="3dip" />
+    		</TableRow>
+			<TableRow
+				android:layout_weight="1" >	
+			<Button android:id="@+id/button_previous"
+            	android:layout_width="0dip"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:layout_alignParentLeft="true"            	
+            	android:text="@string/log_display_button_previous" />
+        	<Button android:id="@+id/button_next"
+            	android:layout_width="0dip"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1" 
+            	android:layout_alignParentRight="true"
+            	android:text="@string/log_display_button_next" />
+            </TableRow>            
+         </TableLayout>                  		
+	</LinearLayout>
+</ScrollView>

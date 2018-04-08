@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">任务管理器</string>
+
+    <string name="operation">操作</string>
+    <string name="menu_switch">切换至该程序</string>
+    <string name="menu_kill">结束进程</string>
+    <string name="menu_detail">详细信息</string>
+    <string name="menu_uninstall">卸载该程序</string>
+    <string name="cancel">返回</string>
+    
+    <string name="memory_unknown">Unknown</string>
+
+    <string name="message_switch_fail">切换失败！</string>
+</resources>

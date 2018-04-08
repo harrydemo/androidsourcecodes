@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Media Center</string>
+    <string name="file_browser">File Browser</string>
+    <string name="music_browser">Music Browser</string>
+    <string name="video_browser">Video Browser</string>
+    <string name="image_browser">Image Browser</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_open_as">Open as...</string>
+    <string name="menu_endoperating">Finish Operating</string>
+    <string name="menu_select_all">Select All</string>
+    <string name="menu_unselect_all">Select None</string>
+    <string name="menu_delete_selected">Delete</string>
+    <string name="menu_copy_selected">Copy</string>
+    <string name="menu_paste">Paste</string>
+    <string name="menu_cut_selected">Cut</string>
+    <string name="menu_read_prop">Get Property</string>
+    <string name="menu_rename">Rename</string>
+    
+    <string name="sub_menu_txt">Text</string>
+    <string name="sub_menu_audio">Audio</string>
+    <string name="sub_menu_video">Video</string>
+    <string name="sub_menu_pic">Picture</string>
+    
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about_us">About</string>
+    <string name="menu_exit">Exit</string>
+    
+    <string name="file">File</string>
+    <string name="folder">Folder</string>
+    
+    <string name="include">%1$s file(s),%2$s folder(s)</string>
+    
+    <string name="isexit">Are you sure to exit File Browser ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="scanning">scanning...</string>
+    
+    <string name="new_folder">New folder</string>
+    <string name="toast_file_invalname">Invalid file name</string>
+    <string name="toast_filesystem_readonly">Have no permission to write</string>
+    <string name="toast_file_has_exist">Files exists,please try another name</string>
+    <string name="toast_file_new_succeed">New folder success</string>
+    <string name="toast_unknow">Error unkonw reason</string>
+    <string name="toast_file_rename_succeed">Rename success!</string>
+    <string name="toast_please_wait">Please wait...</string>
+    
+    
+    <string name="toast_press_one_more_to_exit">Press again to exit!</string>
+    <string name="toast_cont_open_file">Can not open %1$s</string>
+    <string name="toast_can_not_find_a_suitable_program_to_open_this_file">Can not find a suitable program to open this file</string>
+    <string name="toast_operation_failed">Operation failed</string>
+    <string name="toast_inval_filename">Invalid file name</string>
+    <string name="toast_rename_succeed">Rename success</string>
+    <string name="toast_read_only_file_system">%1$s have no permission to write</string>
+    <string name="toast_file_not_find">File not found</string>
+    <string name="toast_new_folder_succeed">New folder success</string>
+    <string name="toast_rename_or_new_folder_failed_folder_exist">Rename or new folder failed please try another name</string>
+    <string name="toast_folder_limit">Can not copy file in this field</string>
+    <string name="toast_cont_move_in_same_folder">Can not move in same folder</string>
+    <string name="toast_operation_canceled">Operating canceled</string>
+    <string name="toast_multi_operating">Multi operating...</string>
+    <string name="toast_delete_complete">%1$s delete success</string>
+    <string name="toast_paste_complete">Operate success</string>
+    <string name="toast_sdcard_error">SDCard is not exist or mount failed!</string>
+    <string name="toast_innerDisk_error">InnerDisk is not exist or mount failed!</string>
+    <string name="toast_operation_failed_sdcard_error">Operation failed,sdcard error!</string>
+    <string name="toast_usbdisk_error">Operation failed,USB device error</string>
+    <string name="toast_cant_cover">Can not cover in the same folder</string>
+    <string name="toast_no_file_to_paste">No file to pase,please copy file first</string>
+    <string name="toast_no_space_left">Operation fail,no enough disk capacity</string>
+    <string name="toast_please_waite">Please wait for the background process</string>
+    <string name="toast_getsize_error">Paste error the for the large size of the file</string>
+    <string name="toast_getfilenumber_error">Delete error for the large size of the file</string>
+    <string name="toast_paste_not_allowed">Can not paste,the target file can not be the sub folder of the origin file</string> 
+    
+    
+    <string name="operation_cover">Cover existed file</string>
+    <string name="operation_jump">Skip</string>
+    <string name="operation_append2">Append (2) in the last</string>
+    <string name="operation_doitassame">Do the same</string>
+    <string name="operation_cancel">Cancel paste</string>
+    
+    <string name="btn_hide">Hide</string>
+    <string name="btn_positive">Comfirm</string>
+    <string name="btn_negative">Cancel</string>
+    <string name="btn_selAll">Sel all</string>
+    <string name="btn_selNone">Sel none</string>
+    <string name="btn_open">Open</string>
+    <string name="btn_copy">Copy</string>
+    <string name="btn_cut">Cut</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_rename">Rename</string>
+    <string name="btn_propties">Propties</string>
+    <string name="btn_paste">Paste</string>
+    <string name="btn_new">New</string>
+    
+    <string name="title_has_same_file">Has same file in this folder</string>
+    <string name="title_copying">Copying file(s)...</string>
+    <string name="title_deleting">Deleting file(s)...</string>
+    <string name="title_read_property">File propties</string>
+    <string name="title_comfir_delete">Prompting</string>
+    <string name="title_rename">Rename</string>
+    <string name="title_menutitle">Menu</string>
+    <string name="title_newFolder">New folder</string>
+    <string name="title_in_the_top">You are in the top path</string>
+    
+    <string name="dialog_msg_comfir_delete">Are you sure to delete the file(s)/folder(s)?</string>
+    
+    <string name="tip_filetype">Type:</string>
+    <string name="tip_filepath">Path:</string>
+    <string name="tip_include">Contains:</string>
+    <string name="tip_filesize">Size:</string>
+    <string name="tip_createdate">Created:</string>
+    <string name="tip_modifydate">Modified:</string>
+    <string name="tip_canwrite">Writeable:</string>
+    <string name="tip_canread">Readable:</string>
+    <string name="tip_ishide">Hidden:</string>
+    <string name="tip_version">Version:</string>
+    <string name="tip_empty_folder">Empty Folder</string>
+    
+    <string name="operating_background">Operating backgrund</string>
+    <string name="operating_background_complete">Operating background complete</string>
+    <string name="intent_to_copy">%1$s file(s) intent to copy</string>
+    <string name="intent_to_cut">%1$s file(s) intent to cut</string>
+    
+    <string name="rename">Rename</string>
+    <string name="activity_label_helpinfo">Help infos</string>
+    <string name="help_info_sd">Click into SD card root</string>
+    <string name="help_info_usb">Click into USB1-1 root</string>
+    <string name="help_info_memory">Click into innerDisk root</string>
+    <string name="help_info_intoMultiSelect">Switch to multi operating model</string>
+    <string name="help_info_intoClickInto">Switch to single operating model</string>
+    <string name="help_info_viewModeChange">Change show style</string>
+    <string name="help_info_back">Back to previous</string>
+    <string name="help_info_disk">Click into the root folder</string>
+    
+    <string name="popup_grid">Grid style</string>
+    <string name="popup_list_by_name">List style(by name)</string>
+    <string name="popup_list_by_size">List style(by size)</string>
+    <string name="popup_list_by_updateTime">List style(by time)</string>
+    <string name="popup_show_capacity">Show disk capacity</string>
+    
+    <string name="usbDisk">usb disk</string>
+    <string name="innerDisk">internal storage</string>
+    <string name="sdcard">external SD</string>
+    <string name="simsdcard">internal storage</string>
+    <string name="ext_sd">external SD</string>
+    
+    <string name="topPath">you are int the top path</string>
+    <string name="not_allow_to_exit">not allowed to exit in command Mode start </string>
+    
+    <string name="disc_size">Disk size : </string>
+    <string name="disc_capacity">Available capacity :</string>
+    
+    <string name="binding">Searching...</string>
+    
+    <string name="filter">Filter</string>
+    <string name="all">All</string>
+    <string name="music">Music</string>
+    <string name="video">Video</string>
+    <string name="picture">Image</string>
+    
+    
+    <string name="activity_not_found">Application is not installed on your device.</string>
+</resources>

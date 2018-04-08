@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">北京公交离线查询!</string>
+    <string name="app_name">北京公交离线查询</string>
+    <string name="line">线路查询</string>
+    <string name="line2">站点查询</string>
+    <string name="key"></string>
+    <string name="station"></string>
+    <string name="seach">搜索信息</string>
+    <string name="result">结果显示在这里</string>
+</resources>

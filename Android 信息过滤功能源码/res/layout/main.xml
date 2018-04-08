@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray"
+    
+    >
+	<TextView  
+	 	android:gravity="center_horizontal"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:textStyle="bold"
+	    android:textSize="30sp" 
+	    android:textColor="@color/black"
+	    android:text="@string/app_title"
+	    />
+	<TextView  
+		android:id="@+id/switch_txt"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_marginTop="30dip"
+	    android:textSize="15sp" 
+	    android:textColor="@color/black"
+	    android:text="@string/app_start_content"
+	    android:layout_marginLeft="25dip"
+	    android:layout_marginRight="25dip"
+	    />
+	 <Button
+	 	android:id="@+id/switch_btn"
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="wrap_content"
+	 	android:layout_marginTop="10dip"
+	 	android:text="start"
+	 	android:textSize="16sp"
+	 	android:textStyle="bold"
+	 	android:layout_marginLeft="50dip"
+	    android:layout_marginRight="50dip"
+	 	/>
+	 	
+	<TextView  
+		android:id="@+id/switch_txt"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:layout_marginTop="20dip"
+	    android:textSize="15sp" 
+	    android:textColor="@color/black"
+	    android:text="@string/app_explain"
+	    android:layout_marginLeft="25dip"
+	    android:layout_marginRight="25dip"
+	    />
+</LinearLayout>

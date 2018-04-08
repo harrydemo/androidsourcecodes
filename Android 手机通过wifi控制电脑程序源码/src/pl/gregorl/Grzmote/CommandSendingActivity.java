@@ -1,0 +1,57 @@
+package pl.gregorl.Grzmote;
+
+import java.io.IOException;
+import java.net.UnknownHostException;
+
+import pl.gregorl.Grzmote.Common.Command;
+import pl.gregorl.Grzmote.Common.ICommand;
+import pl.gregorl.Grzmote.Network.CommandSender;
+import pl.gregorl.Grzmote.Network.ICommandSender;
+import android.app.AlertDialog;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageButton;
+
+public class CommandSendingActivity extends BaseActivity implements ICommandSendingActivity {
+
+	protected ICommandSender commandSender;
+	
+	public CommandSendingActivity()
+	{
+		super();
+		commandSender = new CommandSender();
+	}
+	
+	public void sendCommand(ICommand command) throws UnknownHostException, IOException
+	{		
+		this.commandSender.Send(Settings.getServerAddress(),command);
+	}
+	
+	protected void adjustImageButton(ImageButton button,final String command) {
+        button.setOnClickListener(new OnClickListener() {
+        	
+			@Override
+			public void onClick(View arg0) {
+					try {
+						sendCommand(new Command(command));
+					} catch (UnknownHostException e) {
+						showAlertOnError(e);
+					} catch (IOException e) {
+						showAlertOnError(e);
+					} catch(Exception exc){
+						showAlertOnError(exc);
+					}
+			}
+		});
+	}
+	
+	private void showAlertOnError(Exception e){
+		
+		AlertDialog a = (new AlertDialog.Builder(getBaseContext())).create();
+		a.setMessage("Connection problem: " + e.getLocalizedMessage());
+		a.show();
+		
+	}
+	
+	
+}

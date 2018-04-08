@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/com.np.activity"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ff1a1a1a">
+	<ImageView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:background="@drawable/welcomeback"
+		android:id="@+id/img"></ImageView>
+	<ImageView android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#ff000000"
+	></ImageView>
+</RelativeLayout>

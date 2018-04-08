@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ActivityMain!</string>
+    <string name="app_name">RSS阅读器</string>
+    <string name="login">登入RSS阅读器</string>
+    <string name="logining">正在进入中....</string>
+    <string name="login_in">进入RSS阅读器</string>
+    <string name="add_rss">添加XML源</string>
+    <string name="add_rss_address">添加XML源地址</string>
+    <string name="rss_add">添加</string>
+    <string name="rss_verify">检验</string>
+    <string name="rss_quit">退出</string>
+    <string name="rss_browser">浏览器</string>
+    <string name="title_show">请输入要添加的Rss源：</string>
+</resources>

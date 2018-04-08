@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+	<body>这是一个html页面
+	<div id="imei" >imei</div>
+		<input type="submit" value="get IMEI" 
+		onclick="document.getElementById('imei').innerHTML=demo.getImei('guanxijiucha')"/>
+		
+	<div id="imsi" >imsi</div>
+		<input type="submit" value="get IMSI" 
+		onclick="document.getElementById('imsi').innerHTML=demo.getImsi()"/>
+		
+	<div id="number" >number</div>
+		<input type="submit" value="get Number" 
+		onclick="document.getElementById('number').innerHTML=demo.getNumber()"/>
+		
+	<div id="SystemVersion" >SystemVersion</div>
+		<input type="submit" value="get SystemVersion" 
+		onclick="document.getElementById('SystemVersion').innerHTML=demo.getSysVer()"/>
+		
+	<div id="Company" >Company</div>
+		<input type="submit" value="get Company" 
+		onclick="document.getElementById('Company').innerHTML=demo.getCompany()"/>
+		
+	<div id="location" >location</div>
+		<input type="submit" value="get Location" 
+		onclick="document.getElementById('location').innerHTML=demo.getLocation()"/>
+	</body>
+</html>

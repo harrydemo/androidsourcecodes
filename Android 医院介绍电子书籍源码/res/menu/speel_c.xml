@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item  
+android:id="@+id/address3"
+android:title="@string/address2"
+android:orderInCategory="1"
+></item>
+
+
+<item  
+android:id="@+id/guanyu2"
+android:title="@string/guanyu"
+android:orderInCategory="2"
+></item>
+
+
+<item  
+android:id="@+id/end2"
+android:title="@string/end"
+android:orderInCategory="3"
+></item>
+</menu>

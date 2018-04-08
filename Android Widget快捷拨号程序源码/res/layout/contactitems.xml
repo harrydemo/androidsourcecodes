@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+<TextView android:layout_height="wrap_content" android:textColor="@color/whiteFront" android:id="@+id/itemNameText" android:text="Name" android:textSize="16sp" android:layout_margin="3dip" android:layout_width="fill_parent" android:paddingLeft="5dip"></TextView><LinearLayout android:layout_height="wrap_content" android:id="@+id/itemNumberLinear" android:layout_width="fill_parent" android:orientation="horizontal" android:paddingLeft="5dip" android:layout_margin="3dip"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/itemMobileText" android:text="@string/mobileText" android:width="40dip" android:textSize="14sp"></TextView><TextView android:layout_height="wrap_content" android:id="@+id/itemNumberText" android:layout_width="fill_parent" android:text="123456789" android:width="120dip" android:textSize="14sp"></TextView>
+</LinearLayout>
+
+
+</LinearLayout>

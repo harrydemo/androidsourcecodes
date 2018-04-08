@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		/** * <string defined.> * Copyright (C) <2009> <Wang XinFeng,ACC
+		http://androidos.cc/dev> * * This program is free software: you can
+		redistribute it and/or modify * it under the terms of the GNU General
+		Public License as published by * the Free Software Foundation, either
+		version 3 of the License, or * (at your option) any later version. * *
+		This program is distributed in the hope that it will be useful, * but
+		WITHOUT ANY WARRANTY; without even the implied warranty of *
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the * GNU
+		General Public License for more details. */
+	-->
+<resources>
+	<string name="app_name">CoolReader！</string>
+	<string name="dirname_app_name">CoolReader！</string>
+	<string name="menu_new_folder">新文件夹</string>
+	<string name="dirnameinput_cmd_return">保存</string>
+	<string name="dirnameinput_hint">输入文件夹名称：</string>
+	<string name="up_one_level">返回上级..</string>
+	<string name="ad">更多图书资源尽在http://androidos.cc/bbs
+	</string>
+	<string name="mybackground">自定义背景</string>
+	<string name="selectfontsize">请选择文字大小</string>
+	<string name="selectfontcolor">请选择文字颜色</string>
+	<string name="viewfont">文字预览</string>
+	<string name="bookmarklist">书签列表：</string>
+	<string name="current_dir">.</string>
+	<string name="setting">设置</string>
+	<string name="changefont">设置字体</string>
+
+	<string name="changebg">设置背景</string>
+	<string name="circumgyrate">旋转</string>
+	<string name="savebookmark">增加书签</string>
+
+	<string name="deletebookmark">删除书签</string>
+	<string name="viewbookmark">浏览书签</string>
+	<string name="inputbmname">请输入书签的名称：</string>
+	<string name="saveresult">保存结果</string>
+	<string name="savesuccess">恭喜您，保存书签成功！</string>
+	<string name="savefail">很抱歉，保存书签失败，请重试！</string>
+	<string name="deleteresult">删除结果</string>
+	<string name="deletesuccess">恭喜您，删除书签成功！</string>
+	<string name="deletefail">很抱歉，删除书签失败，请重试！</string>
+	<string name="suredelete">确认删除</string>
+	<string name="deletefile">删除此文件吗？</string>
+	<string name="exit">退出</string>
+	<string name="back">后退</string>
+	<string name="sure">确定</string>
+	<string name="cancel">取消</string>
+	<string name="gomark">跳转</string>
+	<string name="delete">删除</string>
+	<string name="changecolor">设置文字颜色</string>
+	<string name="changefontsize">设置文字大小</string>
+	<string name="about">关于...</string>
+
+
+	<string name="aboutcoolreader">CoolReader！0.7.0.0 Beta 版
+	</string>
+	<string name="ourintroduce">CoolReader！由Android OS
+		社区开发\n(http://androidos.cc/bbs)\n社区秉承 简单 实用 专注 创新
+		的原则致力于Android系列手机相关讨论、娱乐资源搜集发布和手机软件的研发。\n
+		"我们期待你的建议和加入！\n Android OS SDT-软件开发组</string>
+
+	<string name="filenotfound">文件无法读取！请返回...</string>
+	<string name="sdcard">/sdcard/</string>
+	<string name="html">text/html</string>
+	<string name="picturebrowser">图片预览 - CoolReader！</string>
+	<string name="htmlbrowser">网页浏览 - CoolReader！</string>
+	<string name="umdbrowser">UMD浏览 - CoolReader！</string>
+
+	<string name="localFile">本地文件</string>
+	<string name="sinaBooks">新浪书库</string>
+	<string name="qqBooks">QQ书库</string>
+	<string name="neteaseBooks">网易书库</string>
+	<string name="juanzhu">捐助</string>
+	<string name="thx">
+	感谢以下开发者(排名不分先后)：\n
+	kyowxf2003@gmail.com\n
+	gphonebbs@gmail.com  \n
+	mawei.81@gmail.com\n
+	mingkg21@gmail.com\n
+	ACC开发论坛地址:http://androidos.cc/dev
+	</string>
+	<string name="dev">正在开发中，即将到来！</string>
+	
+<string name="bookTitle">书名:</string>
+<string name="bookAuthor">作者:</string>
+<string name="bookDate">出版日期:</string>
+<string name="bookGender">类别:</string>
+<string name="bookPublisher">出版商:</string>
+<string name="catalog">目录</string>
+<string name="openRead">打开阅读</string>
+</resources>

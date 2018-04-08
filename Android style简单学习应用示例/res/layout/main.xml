@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/white"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+  <!-- 应用样式1的TextView -->
+  <TextView
+  style="@style/style1"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"
+  android:gravity="center_vertical|center_horizontal" 
+  android:text="@string/str_text_view1"
+  />
+  <!-- 应用样式2的TextView -->
+  <TextView
+  style="@style/style2"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"
+  android:gravity="center_vertical|center_horizontal" 
+  android:text="@string/str_text_view2"
+  />
+</LinearLayout>

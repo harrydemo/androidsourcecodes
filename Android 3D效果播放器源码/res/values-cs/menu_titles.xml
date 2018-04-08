@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="menu_option_title_get_art">
+		Obrázky alb
+	</string>
+	<string name="menu_option_title_preferences">
+		Nastavení
+	</string>
+	<string name="menu_option_title_playlist_id">
+		Playlisty
+	</string>
+	<string name="menu_option_title_concerts">
+		Concerts
+	</string>
+	<string name="menu_option_title_releases">
+		Releases
+	</string>
+	<string name="menu_option_title_view_mode">
+		Zobrazení
+	</string>
+	<string name="menu_option_title_theme">
+		Schéma
+	</string>
+	<string name="menu_option_title_equalizer">
+		Ekvalizér
+	</string>
+</resources>
+

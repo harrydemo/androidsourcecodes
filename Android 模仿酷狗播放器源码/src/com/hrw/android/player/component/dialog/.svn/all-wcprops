@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/140/trunk/AndroidPlayer/src/com/hrw/android/player/component/dialog
+END
+PlaylistDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/140/trunk/AndroidPlayer/src/com/hrw/android/player/component/dialog/PlaylistDialog.java
+END
+CreatePlaylistDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/138/trunk/AndroidPlayer/src/com/hrw/android/player/component/dialog/CreatePlaylistDialog.java
+END
+CommonAlertDialogBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/136/trunk/AndroidPlayer/src/com/hrw/android/player/component/dialog/CommonAlertDialogBuilder.java
+END
+ExitDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/138/trunk/AndroidPlayer/src/com/hrw/android/player/component/dialog/ExitDialog.java
+END

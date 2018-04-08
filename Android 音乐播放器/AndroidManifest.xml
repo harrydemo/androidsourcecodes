@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.alex.media"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application android:icon="@drawable/music" android:label="@string/app_name">
+        <activity android:name=".ListActivity"
+                  android:label="播放列表">
+              
+        </activity>
+        <activity android:name=".PlayActivity">
+        	
+        </activity>
+        <activity android:name=".MainActivity">
+        	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClicksActivity"
+        		  android:label="最经常播放列表">
+        
+        </activity>
+        
+        <activity android:name=".RecentlyActivity"
+        		  android:label="最近播放列表">
+        </activity>
+        
+        
+        <activity android:name=".MusicActivity">
+        </activity>
+        <activity android:name=".TestMain">
+ 
+        </activity>
+        
+        <activity android:name=".ArtistList">
+        </activity>
+        <activity android:name=".ArtistActivity">
+        </activity>
+        <activity android:name=".AlbumList">
+        	
+        </activity>
+        <activity android:name=".AlbumActivity">
+        </activity>
+        
+        <service android:name=".MusicService">
+        	<intent-filter>
+        		<action android:name="com.alex.media.MUSIC_SERVICE"/>
+        	</intent-filter>
+        </service>
+
+    </application>
+    <uses-sdk android:minSdkVersion="5" />
+</manifest> 

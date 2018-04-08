@@ -1,0 +1,7 @@
+﻿<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/sportsmain_mix_bg_r_s" android:state_enabled="false"/>
+    <item android:drawable="@drawable/sportsmain_mix_bg_r" android:state_focused="true"></item>
+    <item android:drawable="@drawable/sportsmain_mix_bg_r" android:state_pressed="true"></item>
+
+</selector>

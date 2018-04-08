@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@android:color/white"
+  android:orientation="vertical">
+  	<TextView
+  		android:paddingLeft="20dip"
+  		android:paddingTop="10dip"
+  		android:paddingBottom="10dip"
+  		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/black"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:text="@string/download_msg"/>
+	<TextView
+		android:id="@+id/cancel_text"
+		android:paddingLeft="20dip"
+  		android:paddingBottom="10dip"
+  		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textSize="20sp"
+		android:textColor="@color/gray"
+		android:text="@string/cancel"/>
+	<ProgressBar
+			android:id="@+id/ProgressBar_download"
+			android:visibility="gone"
+			android:layout_marginTop="20dip"
+			android:layout_marginLeft="20dip"
+			android:layout_marginBottom="20dip"
+			style="?android:attr/progressBarStyleHorizontal"
+			mce_style="?android:attr/progressBarStyleHorizontal"
+			android:layout_width="200px"
+			android:layout_height="wrap_content"
+			android:background="@android:color/white"/>
+  			
+</LinearLayout>

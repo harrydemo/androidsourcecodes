@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/title_area" android:background="@drawable/header" android:layout_width="fill_parent" android:layout_height="37.0dip" android:layout_alignParentTop="true">
+        <ImageView  android:layout_width="wrap_content" android:layout_height="wrap_content"
+             android:src="@drawable/video_search"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_bar" android:background="@drawable/header" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/title_area">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.0dip">
+            <EditText android:textSize="14.0dip" android:gravity="bottom" android:id="@id/search_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:hint="@string/input_keywords_please" android:singleLine="true" android:layout_toLeftOf="@id/search_btn" android:layout_centerVertical="true" android:inputType="textNoSuggestions" android:imeOptions="actionSearch" />
+            <ImageView android:id="@id/search_btn" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/header_icon_loupe" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tab_bar" android:background="@drawable/tab_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/search_bar">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@id/tab_btn_youku" android:layout_width="60.0dip" android:layout_height="24.0dip" android:src="@drawable/tab_1_focus" android:scaleType="fitXY" />
+                <ImageView android:id="@id/tab_btn_tudou" android:layout_width="60.0dip" android:layout_height="24.0dip" android:src="@drawable/tab_2_unfocus" android:scaleType="fitXY" android:layout_toRightOf="@id/tab_btn_youku" />
+                <ImageView android:id="@id/tab_btn_ku6" android:layout_width="60.0dip" android:layout_height="24.0dip" android:src="@drawable/tab_2_unfocus" android:scaleType="fitXY" android:layout_toRightOf="@id/tab_btn_tudou" />
+                <ImageView android:id="@id/tab_btn_jianfang6" android:layout_width="60.0dip" android:layout_height="24.0dip" android:src="@drawable/tab_2_unfocus" android:scaleType="fitXY" android:layout_toRightOf="@id/tab_btn_ku6" />
+                <ImageView android:id="@id/tab_btn_sina" android:layout_width="60.0dip" android:layout_height="24.0dip" android:src="@drawable/tab_2_unfocus" android:scaleType="fitXY" android:layout_toRightOf="@id/tab_btn_jianfang6" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/under_search_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:layout_centerInParent="true">
+                <RelativeLayout android:layout_width="60.0dip" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:textColor="#ffaabcca" android:id="@id/tab_btn_youku_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/starch_tab_youku" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="60.0dip" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff5a6873" android:id="@id/tab_btn_tudou_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/starch_tab_tudou" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="60.0dip" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff5a6873" android:id="@id/tab_btn_ku6_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/starch_tab_ku6" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="60.0dip" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff5a6873" android:id="@id/tab_btn_jianfang6_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/starch_tab_jianfang6" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="60.0dip" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:textColor="#ff5a6873" android:id="@id/tab_btn_sina_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/starch_tab_sina" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_info_msg" android:background="@drawable/search_message_bg" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_below="@id/tab_bar">
+        <TextView android:textSize="16.0dip" android:textColor="#ff5a6873" android:layout_gravity="center" android:id="@id/hot_keywords" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="@string/starch_tab_hot" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_area" android:layout_below="@id/search_info_msg">
+        <ListView android:id="@id/list_search" android:layout_width="fill_parent" 
+                android:layout_height="fill_parent" android:cacheColorHint="@null" 
+                android:layout_alignParentLeft="true" android:divider="#ECEFF3"
+                android:dividerHeight="1.0px" android:footerDividersEnabled="false"/>
+    </LinearLayout>
+    <LinearLayout android:id="@id/layout_bottom_tab" android:background="@drawable/header" 
+         android:layout_width="fill_parent" android:layout_height="50.0dip" 
+         android:layout_alignParentBottom="true" >
+        
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            
+            <ImageView android:layout_width="10.0dip" android:layout_height="fill_parent" 
+                android:id="@+id/temp" android:layout_centerHorizontal="true"></ImageView>
+            
+            <ImageView android:id="@id/new_video" android:src="@drawable/today_news_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                android:layout_toLeftOf="@+id/temp" android:paddingRight="15dip"
+                android:paddingLeft="15dip"  android:layout_centerHorizontal="true"/>
+            
+            <ImageView android:id="@id/category_navigation" android:src="@drawable/home_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"  
+                android:paddingLeft="15dip" android:paddingRight="15dip"
+                android:layout_toLeftOf="@+id/new_video"
+                android:layout_centerHorizontal="true"/>
+            
+            
+            <ImageView android:id="@id/video_search" android:src="@drawable/search_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                 android:layout_toRightOf="@+id/temp" android:paddingLeft="15dip"
+                android:paddingRight="15dip" android:layout_centerHorizontal="true"/>
+            
+            <ImageView android:id="@id/video_collect" android:src="@drawable/favorite_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                android:scaleType="fitXY" 
+                android:layout_toRightOf="@+id/video_search" android:paddingLeft="15dip"
+                android:paddingRight="15dip" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

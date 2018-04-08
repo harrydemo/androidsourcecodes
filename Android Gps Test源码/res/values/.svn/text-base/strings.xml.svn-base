@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="hello">Hello World, AndroidApp1!</string>
+    <string name="app_name">GPSTest</string>
+
+<string name="staticmenu">Static test</string>
+<string name="trackingmenu">Tracking test</string>
+<string name="stopmenu">Stop test</string>
+<string name="settings">Settings</string>
+<string name="quit">Quit</string>
+<string name="snr">SNR</string>
+<string name="about">About</string>
+</resources>

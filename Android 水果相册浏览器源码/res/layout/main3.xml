@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back1"
+    android:padding="70px"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:textColor="#aaaaaa"
+        android:text="请输入密码:"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:autoText="false"
+        android:capitalize="none"
+        android:ems="10"
+        android:gravity="fill_horizontal"
+        android:password="true"
+        android:scrollHorizontally="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    <!-- 
+        	android:capitalize="none"          不以任何规范约束用户输入，如果设置为characters则约束用户只能输入大写字母。
+        	android:gravity="fill_horizontal"  横向填满父控件
+        	android:password="true"            以密码框形式显示
+     -->
+</LinearLayout>

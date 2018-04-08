@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Version">Version</string>
+    <string name="hello">aSQLiteManager!</string>
+    <string name="app_name">aSQLiteManager</string>
+    <string name="AboutHeader">Om aSQLiteManager</string>
+    <string name="AboutText">Andsens SQLite manager. Se dine Android databaser</string>
+    <string name="WWW">Tjek for opdateringer her:\nhttp://asqlitemanager.sourceforge.net</string>
+    <string name="AAA">Læs mere om aSQLiteManager her:\nhttp://aaa.andsen.dk/aSQLiteManager.html</string>
+    <string name="MAIL">Kommentarer velkomne på:\nandroid41cv@gmail.com</string>
+    <string name="OpdenDB">Åbn Database</string>
+    <string name="About">Om</string>
+    <string name="Location">Sti</string>
+    <string name="View">Se</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nej</string>
+    <string name="DBTables">Tabeller</string>
+    <string name="DBViews">Views</string>
+    <string name="DBIndexs">Index</string>
+    <string name="DBTable">Tabel</string>
+    <string name="DBView">View</string>
+    <string name="DBIndex">Index</string>
+    <string name="DBField">Felt</string>
+    <string name="DBData">Data</string>
+    <string name="DBSQL">SQL</string>
+    <string name="OpenDatabase">Åbn database</string>
+    <string name="NoSDCard">Intet SDCard</string>
+    <string name="OK">OK</string>
+    <string name="Path">Sti:</string>
+    <string name="ReadOnlyFolder">mappen kan ikke læses!</string>
+    <string name="Database">Database</string>
+    <string name="DBQuery">Query</string>
+    <string name="Run">Kør</string>
+    <string name="DBFields">Felter</string>
+    <string name="PgUp">PgUp</string>
+    <string name="PgDn">PgDn</string>
+    <string name="Option">Options</string>
+    <string name="Help">Hjælp</string>
+    <string name="HelpHeader">aSQLiteManager hjælp</string>
+    <string name="PageSize">Side størrelse</string>
+    <string name="PressMenuSQL">Tryk menu for at bygge SQL</string>
+    <string name="PageSizeText">Antal liner der skal hentes ved bladring</string>
+    <string name="Open">Åbn</string>
+    <string name="NoResult">Intet resultat</string>
+    <string name="HelpText">
+Her vil der i fremtiden være mere hjælp.
+\n\nKlik på et felt i data gridtet for at kopiere indholdet til clip boarded.
+\n\nI SQL mode tryk på menu for at bygge en select forespørgsel: 
+\nselect [fields] from [tables]
+\n\nBesøg aSQLiteMagers\'s hjemmeside på:
+\nhttp://asqlitemanager.sourceforge.net
+\n\nTjek for opdateringer på:
+\nhttp://sourceforge.net/projects/asqlitemanager
+\n\n\nDu kan også sende en kommentar til mig på:
+\nandroid41cv@gmail.com
+\n\nMartin
+    </string>
+    <string name="NewDB">Ny database</string>
+    <string name="NewDBSDCard">Ny database på SDCard</string>
+    <string name="NewDBPath">Sti til ny database</string>
+    <string name="AutoIndex">SQLite gemmer ikke auto index definitioner</string>
+    <string name="Message">Besked</string>
+    <string name="Error">Fejl</string>
+    <string name="NoFileName">Skal mindst give et filnavn</string>
+    <string name="DBQueryType">Query Type</string>
+    <string name="OnClickedMess">Du klikkede på denne SQLite database:</string>
+    <string name="OnClickedOpen">Åbn databasen med\naSQLiteManager</string>
+     <string name="RecentSQL">Nylige SQL</string>
+    <string name="Transaction">Transaktioner</string>
+    <string name="BeginTransaction">Begin transaction</string>
+    <string name="Commit">Commit</string>
+    <string name="Rollback">Rollback</string>
+    <string name="InTransaction">I transaktion</string>
+    <string name="UpdatesCommitted">Opdateringer committed</string>
+    <string name="UpdatesRolledback">Opdateringer rolled back</string>
+    <string name="NothingToRolledback">Intet at rolledback</string>
+    <string name="NothingToCommit">Intet at committe</string>
+    <string name="IsNotADatabase">er ikke en database</string>
+    <string name="Export">Exporter database</string>
+    <string name="Restore">Reetabler database</string>
+    <string name="Cancel">Fortryd</string>
+    <string name="ExportData">Eksport</string>
+    <string name="NoExportToRestore">Ingen elport at reetablere</string>
+    <string name="AlwaysJustOpen">Åbn altid database</string>
+    <string name="Reset">Nulstil</string>
+    <string name="OpenSQL">Åbn SQL fil</string>
+    <string name="Working">Arbejder</string>
+    <string name="ReadingScript">Læser script</string>
+    <string name="ExecuteStatement">Eksekver sql</string>
+    <string name="MustNotBeEmpty">Må ikke være tomt</string>
+    <string name="WelcomeMsg">aSQLiteManager er en gratis open source
+      SQLite manager / front end til Android enheder.
+      \n\nNyt i denne version:
+      \nBug nå der bladres i views ordnet
+      \nDenne velkommen skærm
+      \n\nFor en liste med alle features på:
+      \naaa.andsen.dk/aSQLiteManager.html
+      \n\nKommentarer, bug rapporter og ønsker om ny funktionalitet velkommen.
+      send mig en mail på:
+      \nandroid41cv@gmail.com
+      \n 
+      \nHåber du kan lide app\'en!
+      \n\nMartin
+      </string>
+    <string name="ShowAtStartUp">Vis velkommen ved opstart</string>
+    <string name="Welcome">Velkommen til aSQLiteManager</string>
+    <string name="DumpTable">Dump tabel</string>
+    <string name="TableDumpep">Tabel %s dumped</string>
+    <string name="DumpFailed">Ups! dump mislykkedes</string>
+    <string name="ErrorNothingToExport">Intet at eksportere!</string>
+    <string name="DataExported">Data eksporteret</string>
+    <string name="DataBaseExported">Database exporteret</string>
+    <string name="DataBaseRestored">Database reetableret</string>
+    <string name="Patience">Tålmodighed - kan tage en rum tid</string>
+    <string name="Recently">Nyligt åbnet</string>
+    <string name="RecentlyTxt">Antal nyligt åbnet databaser der skal gemmes</string>
+
+</resources>

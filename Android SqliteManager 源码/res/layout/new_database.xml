@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+  <TextView
+    android:id="@+id/newMessage"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Name of grape"
+    android:textSize="20sp"
+    android:gravity="center_horizontal|center_horizontal" />
+  <EditText
+    android:id="@+id/newCode"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textCapWords"
+    android:hint="New code" />
+  <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="OK"
+    android:id="@+id/btnMOK"
+     />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout 
+        android:id="@+id/LinearLayout01"   
+        android:layout_width="fill_parent"   
+        android:layout_height="fill_parent"   
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        
+         android:background="@drawable/bj1"> 
+        <Button
+        android:id="@+id/Button_wel"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00000000"
+
+        
+        >
+        
+        </Button>
+        <TextView
+        android:id="@+id/view6"
+       android:layout_width="200dip"  
+       android:layout_height="wrap_content"
+       android:text="版本号：0.0.1"
+        
+        ></TextView>
+        
+
+</RelativeLayout>

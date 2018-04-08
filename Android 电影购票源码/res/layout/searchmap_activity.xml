@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:scrollbars="vertical" android:fadingEdge="vertical">
+
+<LinearLayout android:layout_marginTop="10px"
+		android:gravity="center_horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+		android:id="@+id/yingyuanmingzi"
+			android:layout_height="wrap_content" android:textSize="20px" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_marginTop="10px"
+		android:gravity="center_horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:text="恭喜您,购票成功,购票码XXXX,以短信方式发到购票手机,请注意查收,可到影院终端机取票,本次消费xx元,余额xx元."
+			android:layout_height="wrap_content" android:textSize="20px" />
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_marginTop="30px" android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<Button android:text="致电客服" android:id="@+id/zhidiankefu"
+			android:layout_width="100px"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="Google地图" android:id="@+id/googlemap"
+			android:layout_width="100px"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="影院资料" android:id="@+id/yingyuanziliao"
+			android:layout_width="100px"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_marginTop="50px" android:layout_height="fill_parent"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/hot_film"
+			android:id="@+id/hot_film" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/myhapiao"
+			android:id="@+id/myhapiao" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/all_films"
+			android:id="@+id/all_films" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

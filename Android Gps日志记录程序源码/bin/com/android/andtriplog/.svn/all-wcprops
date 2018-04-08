@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/andtriplog/!svn/ver/14/src/com/android/andtriplog
+END
+AndTripLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/andtriplog/!svn/ver/14/src/com/android/andtriplog/AndTripLog.java
+END
+DatabaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/andtriplog/!svn/ver/13/src/com/android/andtriplog/DatabaseHelper.java
+END
+ExportThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/andtriplog/!svn/ver/9/src/com/android/andtriplog/ExportThread.java
+END
+GpxFileWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/andtriplog/!svn/ver/13/src/com/android/andtriplog/GpxFileWriter.java
+END

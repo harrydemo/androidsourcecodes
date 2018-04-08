@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_RepayMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repay Method"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <RadioButton
+        android:id="@+id/rb_SameCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Same capital" />
+    
+    <RadioButton
+        android:id="@+id/rb_SameInterest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Same Interest" />
+
+    <EditText
+        android:id="@+id/et_LoanAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tv_LoanAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_LoanAmount"
+        android:layout_alignParentLeft="true"
+        android:text="Loan Amout:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/bt_Cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/tv_LoanAmount"
+        android:text="Cal" />
+
+    <TextView
+        android:id="@+id/tv_Years"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et_LoanAmount"
+        android:layout_marginTop="41dp"
+        android:text="Years:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/et_Years"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_Years"
+        android:layout_toRightOf="@+id/bt_Cal"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_LoanRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et_Years"
+        android:layout_marginTop="17dp"
+        android:text="Loan Rate:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/et_LoanRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_Years"
+        android:layout_alignTop="@+id/tv_LoanRate"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/et_Fx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_LoanRate"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_LoanRate"
+        android:layout_marginTop="17dp"
+        android:ems="10" />
+
+</RelativeLayout>

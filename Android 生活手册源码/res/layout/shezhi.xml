@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/guanyu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/buttonstyle1"
+        android:gravity="center"
+        android:text="☆——^_^关于个人日记^_^——☆"
+        android:textColor="#808000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/fankui"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/buttonstyle1"
+        android:gravity="center"
+        android:text="☆——^_^反馈问题^_^——☆"
+        android:textColor="#808000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/mimasuo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/buttonstyle1"
+        android:gravity="center"
+        android:text="☆——^_^密码锁^_^——☆"
+        android:textColor="#808000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/gongju"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/buttonstyle1"
+        android:gravity="center"
+        android:text="☆——^_^工具箱^_^——☆"
+        android:textColor="#808000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/zhangben"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/buttonstyle1"
+        android:gravity="center"
+        android:text="☆——^_^个人账本^_^——☆"
+        android:textColor="#808000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/xiaohua"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/buttonstyle1"
+        android:gravity="center"
+        android:text="☆——^_^幽默笑话^_^——☆"
+        android:textColor="#808000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/duanxin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/buttonstyle1"
+        android:gravity="center"
+        android:text="☆——^_^经典短信^_^——☆"
+        android:textColor="#808000"
+        android:textSize="20sp" />
+
+</LinearLayout>

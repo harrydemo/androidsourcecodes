@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/parent_lay_lev" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_area" android:background="@drawable/header" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shared_weibo" android:layout_centerInParent="true" />
+            <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/my_edit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/logout" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_area">
+        <RelativeLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:gravity="top" android:id="@id/send_text_editor" android:focusable="true" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:lines="7" />
+            <Button android:id="@id/my_send_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/publish_weibo" android:layout_toLeftOf="@id/at_samples" android:layout_below="@id/send_text_editor" />
+            <Button android:id="@id/sharp_samples" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" #" android:layout_below="@id/send_text_editor" android:layout_alignParentRight="true" />
+            <Button android:id="@id/at_samples" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text=" @" android:layout_toLeftOf="@id/sharp_samples" android:layout_below="@id/send_text_editor" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

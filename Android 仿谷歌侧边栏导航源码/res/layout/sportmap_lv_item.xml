@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/u_item_rl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listitem_bg" >
+
+        <ImageView
+            android:id="@+id/u_item_image_1"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="5px"
+            android:src="@drawable/beijinsport_icon" />
+
+        <LinearLayout
+            android:id="@+id/u_item_ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/u_item_image_1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/u_item_t_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/u_item_sportmap_name"
+                android:textSize="15sp" 
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/u_item_image_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/icon55" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/u_item_ll_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/u_item_ll_1"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/u_item_image_1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/u_item_image_6"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:src="@drawable/icon88" />
+
+            <ImageView
+                android:id="@+id/u_item_image_3"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/icon88" />
+
+            <ImageView
+                android:id="@+id/u_item_image_4"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/icon88" />
+
+            <ImageView
+                android:id="@+id/u_item_image_5"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/icon88" />
+
+            <ImageView
+                android:id="@+id/u_item_image_7"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/icon88" />
+
+            <TextView
+                android:id="@+id/u_item_t_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/u_item_sportmap_juli"
+                android:textSize="8sp" 
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/u_item_image_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/sportsmain_item_righicon" />
+    </RelativeLayout>
+
+</RelativeLayout>

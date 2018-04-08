@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:key="pref_auto_focus"
+		android:title="@string/pref_auto_focus" android:defaultValue="true" />
+	<CheckBoxPreference android:key="pref_auto_rec"
+		android:defaultValue="false" android:title="@string/pref_auto_rec" />
+	<CheckBoxPreference android:key="pref_auto_detect"
+		android:defaultValue="false" android:title="@string/pref_auto_detect" />
+	<CheckBoxPreference android:key="pref_save_rec_image"
+		android:defaultValue="true" android:title="@string/pref_save_rec_image" />
+	<ListPreference android:key="rec_progress_style" android:title="@string/pref_select_rec_prog_style"
+		android:defaultValue="0" android:entries="@array/rec_progress_style_titles"
+		android:entryValues="@array/rec_progress_style_values" />
+
+</PreferenceScreen>

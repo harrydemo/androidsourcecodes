@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">WwwMap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="str_id_start">开始</string>
+    <string name="str_id_bus">poi_keyword公交车</string>
+    <string name="poi_keyword">关键字</string>
+    <string name="poi_center">中心</string>
+    <string name="ptops">公交方案</string>
+    <string name="title_activity_google_map">GoogleMap</string>
+    <string name="address">Address:</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="enable_gps_dialog">GPS provider not enabled. Would you like to enable it?</string>
+    <string name="latlng">Lat/Long:</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="not_support_gps">GPS provider not supported</string>
+    <string name="not_support_network">Network provider not supported</string>
+    <string name="use_fine_provider">Fine-grain provider</string>
+    <string name="use_both_providers">Both providers</string>
+    <string name="title_activity_start_point">StartPoint</string>
+
+    <string name="start_confirm">确认起点</string>
+    <string name="end_confirm">确认终点</string>
+    <string name="map">地图</string>
+</resources>

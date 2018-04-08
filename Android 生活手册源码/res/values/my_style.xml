@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 标题栏填满样式 -->
+<resources>
+<style name="MyTheme" parent="android:Theme">       
+        <item name="android:windowTitleBackgroundStyle">@null</item>        
+    </style>  
+</resources>

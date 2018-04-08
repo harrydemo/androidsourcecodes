@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="wrap_content"
+	android:layout_width="fill_parent">
+
+	<LinearLayout android:id="@+id/layout_progress_h"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:layout_width="fill_parent">
+
+		<LinearLayout android:id="@+id/layout_message_h"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_width="fill_parent" android:gravity="center">
+			<TextView android:id="@+id/message_h"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:minHeight="30px"  android:width="60px"/>
+			<TextView android:id="@+id/number_ed"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:minHeight="30px"  android:width="40px" android:gravity="right"/>
+			<TextView android:id="@+id/number_cen"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:minHeight="30px"  />
+			<TextView android:id="@+id/number_all"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:minHeight="30px" />
+
+		</LinearLayout>
+
+
+		<ProgressBar android:id="@+id/progress_h"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_height="wrap_content" android:minHeight="20px"
+			android:layout_width="fill_parent" />
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/layout_progress_s"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<ProgressBar android:id="@+id/progress"
+			style="@android:style/Widget.ProgressBar" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:minHeight="50px"
+			android:max="10000" android:layout_marginLeft="5px" />
+
+		<TextView android:id="@+id/progress_number2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="10px" android:layout_marginLeft="20px" />
+
+	</LinearLayout>
+
+</LinearLayout>

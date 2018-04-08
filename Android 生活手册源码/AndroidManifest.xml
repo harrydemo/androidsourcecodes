@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lqf.gerenriji"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/yingyong"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".GeRenRiJiActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 注册主界面 -->
+        <activity android:name=".ZhuJieMian" android:label="@string/app_name"/>
+        <!-- 注册日记界面 -->
+        <activity android:name="com.lqf.riji.RiJi" android:label="@string/riji"/>
+        <activity android:name="com.lqf.riji.XieRiJi" android:label="@string/xieriji"/>
+        <activity android:name="com.lqf.riji.JiNianRi" android:label="@string/jinianri"/>
+        <activity android:name="com.lqf.riji.XiaoHua" android:label="@string/xiaohua"/>
+        <activity android:name="com.lqf.riji.DuanXin" android:label="@string/duanxin"/>
+        	<activity android:name="com.lqf.riji.duanxin.Tab1"/>
+        	<activity android:name="com.lqf.riji.duanxin.Tab2"/>
+        	<activity android:name="com.lqf.riji.duanxin.Tab3"/>
+        	<activity android:name="com.lqf.riji.duanxin.Tab4"/>
+        <!-- 注册闹钟界面 -->
+        <activity android:name="com.lqf.naozhong.NaoZhong" android:label="@string/naozhong"/>
+        <!-- 注册日历界面 -->
+        <activity android:name="com.lqf.rili.RiLi" android:label="@string/rili"/>
+        <!-- 注册设置界面 -->
+        <activity android:name="com.lqf.shezhi.SheZhi" android:label="@string/shezhi"/>
+        <activity android:name="com.lqf.shezhi.GuanYu" android:label="@string/guanyu"/>
+        <activity android:name="com.lqf.shezhi.FanKui" android:label="@string/fankui"/>
+        <activity android:name="com.lqf.shezhi.MiMa" android:label="@string/mima"/>
+        <activity android:name="com.lqf.shezhi.GongJuXiang" android:label="@string/gongju" android:theme="@style/MyTheme"></activity>
+    </application>
+
+</manifest>

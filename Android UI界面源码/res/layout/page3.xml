@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   	android:background="@drawable/page3_bg" >
+
+    <LinearLayout 
+         android:layout_width="fill_parent"
+	    android:layout_height="45dp"
+	    android:layout_alignParentTop="true"
+	    android:orientation="horizontal"
+	    android:background="@drawable/page3_top_bottom_bg">
+	    <Button
+	         android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_revert"
+	        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:text="@string/page2_bottom_button1"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+	
+    
+    <ExpandableListView 
+        android:id="@+id/page3_expandable"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#ffffff"
+        />
+    
+    
+    
+    
+   <RelativeLayout 
+         android:layout_width="fill_parent"
+	    android:layout_height="55dp"
+	    android:layout_alignParentBottom="true"
+	    android:background="@drawable/page3_top_bottom_bg">
+	    <ImageButton
+	        android:id="@+id/page3_image_button1"
+	         android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/page3_bottom_left_image"
+	        />
+	    <TextView
+	         android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/page3_image_button1"
+            android:text="@string/page3_bottom_main_page"
+	        />
+	    <ImageButton
+	        android:id="@+id/page3_image_button2"
+	         android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/page3_bottom_right_image"
+	        />
+	    <TextView
+	         android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/page3_image_button2"
+            android:text="@string/page3_bottom_reset"
+	        />
+   </RelativeLayout>
+</RelativeLayout>

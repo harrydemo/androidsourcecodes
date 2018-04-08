@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<ImageView
+		android:id="@+id/login_rss"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/rss"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="30dp"
+		/>	
+	<TextView
+		android:id="@+id/logining"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="@string/logining"
+		android:visibility="invisible"
+		android:layout_marginTop="20dp"
+		/>
+	<Button
+		android:id="@+id/login_in"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="@string/login_in"
+		android:layout_marginTop="10dp"
+		/>
+</LinearLayout>

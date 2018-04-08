@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.yarin.android.RingProfile"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".RingProfile"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    	   <receiver android:name="RingBroadcastReceiver">
+            <intent-filter>
+               <action android:name="com.yarin.android.RingProfile.RV_CHANGED" />
+               <action android:name="com.yarin.android.RingProfile.RING_CHANGED" />
+               <action android:name="com.yarin.android.RingProfile.VIBRATE_CHANGED" />
+               <action android:name="com.yarin.android.RingProfile.SILENT_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-sdk android:minSdkVersion="5" />
+</manifest> 

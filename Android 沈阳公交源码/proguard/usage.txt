@@ -1,0 +1,36 @@
+com.bus.shenyang.R
+com.bus.shenyang.R$attr
+com.bus.shenyang.R$color
+com.bus.shenyang.R$drawable
+com.bus.shenyang.R$id
+com.bus.shenyang.R$layout
+com.bus.shenyang.R$raw
+com.bus.shenyang.R$string
+com.bus.shenyang.R$style
+com.bus.shenyang.activity.More:
+    android.content.Intent i
+com.bus.shenyang.activity.Transfer:
+    java.lang.String[] sumb
+com.bus.shenyang.activity.Transfer$1:
+    int busstation1x
+    int busstation1y
+    java.lang.String[] s1
+    java.lang.String[] s2
+com.bus.shenyang.common.Bus:
+    private java.lang.String time
+    private java.lang.String opposite
+    12:12:public java.lang.String getTime()
+    15:16:public void setTime(java.lang.String)
+    18:18:public java.lang.String getOpposite()
+    21:22:public void setOpposite(java.lang.String)
+    26:31:public Bus(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    34:34:public java.lang.Integer getId()
+com.bus.shenyang.database.BusDb:
+    public static final java.lang.String DB_NAME
+    public static final java.lang.String PACKAGE_NAME
+com.bus.shenyang.net.NoSubway:
+    private java.lang.String pointsText
+com.bus.shenyang.net.TimeFirst:
+    private java.lang.String pointsText
+com.bus.shenyang.net.TransferFirst:
+    private java.lang.String pointsText

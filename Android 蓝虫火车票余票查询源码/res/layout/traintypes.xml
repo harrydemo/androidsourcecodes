@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_gravity="center" android:paddingLeft="20dip"
+		android:paddingRight="20dip">
+
+		<TableLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center"
+			android:stretchColumns="*">
+			<TableRow>
+				<CheckBox android:id="@+id/train_AllType"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="全部" android:layout_marginLeft="20dip"
+					android:layout_marginRight="20dip"  />
+					
+				<CheckBox android:id="@+id/train_DCType"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="动车" android:layout_marginLeft="20dip"
+					android:layout_marginRight="20dip" />
+
+				
+			</TableRow>
+			<TableRow>
+				<CheckBox android:id="@+id/train_ZType"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="直快" android:layout_marginLeft="20dip"
+					android:layout_marginRight="20dip" />
+
+				<CheckBox android:id="@+id/train_TType"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="特快" android:layout_marginLeft="20dip"
+					android:layout_marginRight="20dip" />
+			</TableRow>
+			<TableRow>
+				
+				<CheckBox android:id="@+id/train_KType"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="快速" android:layout_marginLeft="20dip"
+					android:layout_marginRight="20dip" />
+
+				<CheckBox android:id="@+id/train_PKType"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="普快" android:layout_marginLeft="20dip"
+					android:layout_marginRight="20dip" />
+			</TableRow>
+			<TableRow>
+				<CheckBox android:id="@+id/train_PKEType"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="普客" android:layout_marginLeft="20dip"
+					android:layout_marginRight="20dip" />
+
+				<CheckBox android:id="@+id/train_LKType"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="临客" android:layout_marginLeft="20dip"
+					android:layout_marginRight="20dip" />
+			</TableRow>
+			
+			<TableRow>
+				<Button android:id="@+id/submitButton" android:text="确定"
+					/>
+				<Button android:id="@+id/cancelButton" android:text="取消"
+					/>
+			</TableRow>
+		</TableLayout>
+
+	</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

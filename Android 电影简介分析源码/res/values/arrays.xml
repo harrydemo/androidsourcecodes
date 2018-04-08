@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string-array name="wind_list_name">
+		<item>@string/wind_list_str_editor</item>
+		<item>@string/wind_list_str_laogui</item>
+		<item>@string/wind_list_str_laoqiang</item>
+		<item>@string/wind_list_str_ningyu</item>
+		<item>@string/wind_list_str_jinshenghuo</item>
+		<item>@string/wind_list_str_wangchuzhang</item>
+		<item>@string/wind_list_str_wutian</item>
+	</string-array>
+	
+	<string-array name="wind_list_btn_pop">
+		<item>@string/wind_list_btn_pop_str_editor</item>
+		<item>@string/wind_list_btn_pop_str_laogui</item>
+		<item>@string/wind_list_btn_pop_str_laoqiang</item>
+		<item>@string/wind_list_btn_pop_str_ningyu</item>
+		<item>@string/wind_list_btn_pop_str_jinshenghuo</item>
+		<item>@string/wind_list_btn_pop_str_wangchuzhang</item>
+		<item>@string/wind_list_btn_pop_str_wutian</item>
+	</string-array>
+	
+	<integer-array name="wind_list_image">
+		<item>@drawable/wind_list_image_editor</item>
+		<item>@drawable/wind_list_image_laogui</item>
+		<item>@drawable/wind_list_image_laoqiang</item>
+		<item>@drawable/wind_list_image_ningyu</item>
+		<item>@drawable/wind_list_image_jinshenghuo</item>
+		<item>@drawable/wind_list_image_wangchuzhang</item>
+		<item>@drawable/wind_list_image_wutian</item>
+	</integer-array>
+
+	<string-array name="wind_activity_info">
+		<item>@string/wind_activity_disp_info_editor</item>
+		<item>@string/wind_activity_disp_info_laogui</item>
+		<item>@string/wind_activity_disp_info_laoqiang</item>
+		<item>@string/wind_activity_disp_info_ningyu</item>
+		<item>@string/wind_activity_disp_info_jinshenghuo</item>
+		<item>@string/wind_activity_disp_info_wangchuzhang</item>
+		<item>@string/wind_activity_disp_info_wutian</item>
+	</string-array>
+	
+	<integer-array name="wind_activity_image">
+		<item>@drawable/wind_activity_image_editor</item>
+		<item>@drawable/wind_activity_image_laogui</item>
+		<item>@drawable/wind_activity_image_laoqiang</item>
+		<item>@drawable/wind_activity_image_ningyu</item>
+		<item>@drawable/wind_activity_image_jinshenghuo</item>
+		<item>@drawable/wind_activity_image_wangchuzhang</item>
+		<item>@drawable/wind_activity_image_wutian</item>
+	</integer-array>
+
+</resources>

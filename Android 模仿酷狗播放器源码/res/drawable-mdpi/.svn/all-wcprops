@@ -1,0 +1,521 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/109/trunk/AndroidPlayer/res/drawable-mdpi
+END
+ic_player_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/ic_player_pressed.png
+END
+ic_menu_create_list.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_create_list.png
+END
+btn_check_off_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/btn_check_off_pressed.png
+END
+progress_dot_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/progress_dot_pressed.png
+END
+btn_check_on_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/btn_check_on_pressed.png
+END
+tab_local_media_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/tab_local_media_pressed.png
+END
+play_button_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/play_button_default.png
+END
+list_pause_indicator.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/list_pause_indicator.png
+END
+lyr_handle_expand_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/lyr_handle_expand_pressed.png
+END
+btn_default_normal.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/btn_default_normal.9.png
+END
+playmode_sequence_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/playmode_sequence_default.png
+END
+lyr_handle_collapse_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/lyr_handle_collapse_default.png
+END
+bg_media_library.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/bg_media_library.jpg
+END
+bg_media_library_topbar.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/bg_media_library_topbar.png
+END
+pre_button_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/pre_button_default.png
+END
+play_button_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/play_button_pressed.png
+END
+list_bg_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/list_bg_default.png
+END
+playmode_sequence_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/playmode_sequence_pressed.png
+END
+create_playlist_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/create_playlist_default.png
+END
+lyr_handle_collapse_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/lyr_handle_collapse_pressed.png
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/icon.png
+END
+ic_menu_help_update.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/109/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_help_update.png
+END
+ic_media.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/ic_media.png
+END
+progressbar_second.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/progressbar_second.9.png
+END
+popup_full_dark.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/popup_full_dark.9.png
+END
+popup_bottom_dark.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/popup_bottom_dark.9.png
+END
+progressbar_outline.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/progressbar_outline.9.png
+END
+ic_menu_delete.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_delete.png
+END
+pop_menu_bg.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/pop_menu_bg.9.png
+END
+ic_menu_search_avatar.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_search_avatar.png
+END
+grid_selector_bg_focused.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/grid_selector_bg_focused.png
+END
+pre_button_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/pre_button_pressed.png
+END
+list_bg_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/list_bg_pressed.png
+END
+create_playlist_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/create_playlist_pressed.png
+END
+editor_bg_default.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/102/trunk/AndroidPlayer/res/drawable-mdpi/editor_bg_default.9.png
+END
+right_arrows.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/right_arrows.png
+END
+ic_menu_setting.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_setting.png
+END
+ic_menu_add_all_to.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_add_all_to.png
+END
+ic_cate.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/ic_cate.png
+END
+lyr_handle_bg.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/lyr_handle_bg.png
+END
+ic_menu_add_to.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_add_to.png
+END
+popup_top_dark.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/popup_top_dark.9.png
+END
+ic_menu_refresh.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_refresh.png
+END
+tab_menu_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/tab_menu_default.png
+END
+bg_splash.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/bg_splash.jpg
+END
+tab_search_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/tab_search_default.png
+END
+playlist_button_focused.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/playlist_button_focused.png
+END
+search_button_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/102/trunk/AndroidPlayer/res/drawable-mdpi/search_button_default.png
+END
+bg_player.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/bg_player.png
+END
+default_album.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/default_album.png
+END
+btn_check_off.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/btn_check_off.png
+END
+playmode_repeate_all_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/playmode_repeate_all_default.png
+END
+pause_button_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/85/trunk/AndroidPlayer/res/drawable-mdpi/pause_button_default.png
+END
+btn_check_on.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/btn_check_on.png
+END
+next_button_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/next_button_default.png
+END
+tab_menu_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/tab_menu_pressed.png
+END
+tab_net_media_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/tab_net_media_default.png
+END
+tab_search_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/tab_search_pressed.png
+END
+grid_selector_bg_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/grid_selector_bg_pressed.png
+END
+playmode_repeate_random_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/playmode_repeate_random_default.png
+END
+ic_menu_scan.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_scan.png
+END
+playmode_repeate_single_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/playmode_repeate_single_default.png
+END
+search_button_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/102/trunk/AndroidPlayer/res/drawable-mdpi/search_button_pressed.png
+END
+ic_recent.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/ic_recent.png
+END
+net_error.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/102/trunk/AndroidPlayer/res/drawable-mdpi/net_error.jpg
+END
+playmode_repeate_all_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/playmode_repeate_all_pressed.png
+END
+pause_button_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/85/trunk/AndroidPlayer/res/drawable-mdpi/pause_button_pressed.png
+END
+next_button_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/next_button_pressed.png
+END
+tab_net_media_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/tab_net_media_pressed.png
+END
+playlist_button_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/playlist_button_default.png
+END
+bg_refresh_button.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/bg_refresh_button.png
+END
+playmode_repeate_random_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/playmode_repeate_random_pressed.png
+END
+playmode_repeate_single_pressed.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/playmode_repeate_single_pressed.png
+END
+progressbar_first.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/progressbar_first.9.png
+END
+ic_menu_exit.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/109/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_exit.png
+END
+ic_player_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/ic_player_default.png
+END
+bg_player_topbar.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/bg_player_topbar.png
+END
+ic_playlist.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/ic_playlist.png
+END
+progress_dot_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/progress_dot_default.png
+END
+tab_menu_open_up.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/tab_menu_open_up.png
+END
+tab_local_media_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/tab_local_media_default.png
+END
+btn_default_pressed.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/btn_default_pressed.9.png
+END
+lyr_handle_expand_default.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/lyr_handle_expand_default.png
+END
+editor_bg_pressed.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/102/trunk/AndroidPlayer/res/drawable-mdpi/editor_bg_pressed.9.png
+END
+ic_menu_search_lyr.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable-mdpi/ic_menu_search_lyr.png
+END
+list_playing_indicator.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable-mdpi/list_playing_indicator.png
+END

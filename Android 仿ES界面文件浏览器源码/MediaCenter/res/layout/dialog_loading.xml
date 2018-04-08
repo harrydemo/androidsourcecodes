@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/loading_background" android:layout_width="@dimen/loading_dialog_width" android:layout_height="@dimen/loading_dialog_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/loading_anim" android:background="@anim/scaning" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    <TextView android:textSize="14sp" android:ellipsize="marquee" android:id="@+id/loading_message" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scanning" android:singleLine="true" style="@style/dialog_text_color" />
+</LinearLayout>

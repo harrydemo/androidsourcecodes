@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+  <!-- <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/searchL1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" 
+        android:background="@drawable/hend">
+        <ImageButton
+            android:id="@+id/search_voiceBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_bar_btn_left"
+            android:gravity="center"
+            android:layout_marginRight="1dip"
+            android:paddingLeft="@dimen/title_band_padding"
+            android:paddingRight="@dimen/title_band_padding" >
+        </ImageButton>
+        <LinearLayout
+            android:id="@+id/searchL2"
+            android:layout_width="0.0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" 
+             android:layout_gravity="center_vertical"
+            >
+       <EditText
+                android:id="@+id/search_Keywords"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:maxLength="25"
+                android:paddingLeft="3dip"
+                android:maxLines="1"
+                android:background="@drawable/edittext"
+                android:singleLine="true" />
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/search_button"
+             android:background="@drawable/search_imgbtn_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+            android:scaleType="fitCenter" />
+    </LinearLayout>  --> 
+  <LinearLayout
+        android:id="@+id/searchL1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/hend"
+        android:gravity="center_vertical" >
+        <ImageButton
+            android:id="@+id/search_voiceBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter" 
+            android:background="@drawable/search_back_imgbtn_click"
+            android:src="@drawable/blank"/>
+        <LinearLayout
+            android:id="@+id/searchL2"
+            android:layout_width="0.0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" 
+            >
+       <EditText
+                android:id="@+id/search_Keywords"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:maxLength="25"
+                android:paddingLeft="3dip"
+                android:maxLines="1"
+                android:background="@drawable/edittext"
+                android:singleLine="true" />
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/search_button"
+             android:background="@drawable/search_imgbtn_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/searchContent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/itemcolcor" >
+        <com.way.chat.activity.KeywordsView
+            android:id="@+id/word"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="2dip" />
+    </LinearLayout>
+
+</LinearLayout>

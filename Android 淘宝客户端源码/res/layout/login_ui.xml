@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="300dip">
+
+
+		<!-- 标题 -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:gravity="center">
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="我的淘宝"
+				android:gravity="center" android:textSize="28sp" />
+		</LinearLayout>
+		<!-- 帐号 -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:padding="5dip">
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="帐号"
+				android:gravity="center" android:layout_weight="3" />
+			<EditText android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:hint="登录帐号..."
+				android:id="@+id/edtUserId" 
+				android:layout_weight="1" />
+		</LinearLayout>
+
+		<!-- 密码 -->
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:padding="5dip">
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="密 码"
+				android:gravity="center" android:layout_weight="3" />
+			<EditText android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:hint="登录密码..."
+				android:layout_weight="1" 
+				android:inputType="textPassword"
+				
+				android:id="@+id/edtPassWord" 
+				/>
+		</LinearLayout>
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:gravity="center">
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="登 录" android:id="@+id/btnLogin" />
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="退 出" 
+				android:layout_marginLeft="10dip"
+				android:id="@+id/btnExit" 
+				 />
+				 <TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="注册"
+				 android:layout_marginLeft="50dip"
+				 android:id="@+id/linkReg"
+				android:cursorVisible="true" android:linksClickable="true"
+				/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

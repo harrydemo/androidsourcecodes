@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/ret"
+			android:id="@+id/ftsa_return" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<TextView android:id="@+id/ftsa_filmname"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="30px"
+			android:layout_marginTop="1px">
+		</TextView>
+		<Button android:text="@string/ftsa_selectcity"
+			android:id="@+id/ftsa_selectcity" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<Spinner android:id="@+id/ftsa_select_time"
+		android:layout_width="wrap_content" 
+		android:prompt="@string/ftsa_promote"
+		android:layout_height="wrap_content" android:drawSelectorOnTop="false"
+		android:textSize="8px" />
+		<TextView android:id="@+id/ftsa_moviename"
+		android:layout_marginLeft="10px"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="15px">
+		</TextView>
+	</LinearLayout>
+	<HorizontalScrollView android:layout_width="fill_parent"
+		android:layout_marginTop="1px" android:layout_height="270px"
+		android:scrollbars="horizontal|vertical">
+		<ScrollView android:layout_width="fill_parent"
+			android:layout_marginTop="1px" android:layout_height="fill_parent"
+			android:scrollbars="horizontal|vertical">
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+				<TableLayout android:id="@+id/ftsa_tablelayout"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent">
+				</TableLayout>
+			</LinearLayout>
+		</ScrollView>
+	</HorizontalScrollView>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/hot_film"
+			android:id="@+id/hot_film" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/myhapiao"
+			android:id="@+id/myhapiao" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/all_films"
+			android:id="@+id/all_films" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Non focused states -->
+	<item android:state_focused="false" android:state_selected="false"
+		android:state_pressed="false" android:drawable="@drawable/itembg_mark_image" />
+	<item android:state_focused="false" android:state_selected="true"
+		android:state_pressed="false" android:drawable="@drawable/itembg_mark_hover" />
+
+	<!-- Focused states -->
+	<item android:state_focused="true" android:state_selected="false"
+		android:state_pressed="false" android:drawable="@drawable/itembg_mark_hover" />
+	<item android:state_focused="true" android:state_selected="true"
+		android:state_pressed="false" android:drawable="@drawable/itembg_mark_hover" />
+
+	<!-- Pressed -->
+	<item android:state_pressed="true" android:drawable="@drawable/itembg_mark_hover" />
+</selector>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <org.abrantix.rockon.rockonnggl.IntroView
+    	android:id="@+id/intro_view"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"/>
+    	
+<!--    	    <ImageView-->
+<!--    	android:layout_width="fill_parent"-->
+<!--    	android:layout_height="fill_parent"-->
+<!--    	android:src="#f000"-->
+<!--    	android:scaleType="centerCrop"/>-->
+<!--    	android:src="@drawable/b320x480"-->
+</RelativeLayout>

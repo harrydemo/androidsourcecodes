@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 	  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="#ECEFF3">
+    
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/category_image" android:layout_gravity="center"
+        android:padding="10dip" android:background="#ECEFF3"/>
+    
+	<com.sph.player.player.util.ScrollLayout android:id="@+id/ScrollLayout"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+	  	android:background="#ECEFF3" >
+	</com.sph.player.player.util.ScrollLayout>
+</LinearLayout>

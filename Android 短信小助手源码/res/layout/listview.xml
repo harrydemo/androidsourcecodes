@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:padding="5dip"
+  android:id="@+id/linear"
+  >
+	  <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+       android:orientation="horizontal"
+	>
+	  <TextView
+		  android:layout_width="120dip"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/tvCity"
+		  android:text="15555215556"
+		  >
+	  </TextView>
+	  <TextView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:layout_alignParentRight="true"
+		  android:id="@+id/btRemove"
+		  android:text="删除"
+		  >
+	  </TextView>
+	  </LinearLayout>
+</LinearLayout>

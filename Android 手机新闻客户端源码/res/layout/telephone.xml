@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  android:orientation="horizontal"
+  android:background="@drawable/selector"
+  xmlns:android="http://schemas.android.com/apk/res/android"> 
+<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="请选择您要拨打的电话"
+    /><TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="请选择您要拨打的电话"
+    /><TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="请选择您要拨打的电话"
+    /><TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="请选择您要拨打的电话"
+    />
+<!-- <ListView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/telephonelist"
+    android:divider="@drawable/line"
+    ></ListView> -->
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Spanish zlibrary resources, by Antonio Trueba -->
+<!-- CHANGELOG
+	07-30-2011: First complete release as per FBReader v. 1.1.9
+-->
+<resources>
+	<node name="dialog">
+		<node name="button">
+			<node name="ok" value="Ok"/>
+			<node name="cancel" value="Cancelar"/>
+			<node name="yes" value="Si"/>
+			<node name="no" value="No"/>
+			<node name="apply" value="Aplicar"/>
+		</node>
+		<node name="networkError">
+			<node name="title" value="Error de red"/>
+			<node name="unknownErrorMessage" value="Error desconocido"/>
+			<node name="operationTimedOutMessage" value="Operation is timed out"/>
+			<node name="somethingWrongMessage" value="Algo ha fallado para&#10;%s"/>
+			<node name="couldntCreateDirectoryMessage" value="No se pudo crear el directorio&#10;%s"/>
+			<node name="couldntCreateFileMessage" value="No se pudo crear el fichero&#10;%s"/>
+			<node name="couldntConnectToNetworkMessage" value="No se pudo conectar a la red"/>
+			<node name="couldntConnectMessage" value="No se pudo conectar al servidor&#10;%s"/>
+			<node name="couldntResolveHostMessage" value="No se pudo resolver el servidor de red&#10;%s"/>
+			<node name="authenticationFailed" value="Fallo de autentificación"/>
+			<node name="unsupportedProtocol" value="Protocolo no soportado"/>
+			<node name="invalidURL" value="URL inválida"/>
+			<node name="hostCantBeReached" value="No se puede conectar al servidor&#10; %s"/>
+			<node name="connectionRefused" value="Conexión rechazada por&#10;%s"/>
+		</node>
+	</node>
+	<node name="color">
+		<node name="red" value="Rojo"/>
+		<node name="green" value="Verde"/>
+		<node name="blue" value="Azul"/>
+	</node>
+	<node name="language">
+		<node name="ar" value="árabe"/>
+		<node name="cs" value="Checoslovaco"/>
+		<node name="de" value="Alemán"/>
+		<node name="de-traditional" value="Alemán (ortografía tradicional)"/>
+		<node name="el" value="Griego"/>
+		<node name="en" value="Inglés"/>
+		<node name="eo" value="Esperanto"/>
+		<node name="es" value="Castellano"/>
+		<node name="fi" value="Finlandés"/>
+		<node name="fr" value="Francés"/>
+		<node name="gl" value="Galician" toBeTranslated="true"/>
+		<node name="he" value="Hebreo"/>
+		<node name="hu" value="Húngaro"/>
+		<node name="id" value="Indonesio"/>
+		<node name="it" value="Italiano"/>
+		<node name="lt" value="Lituano"/>
+		<node name="nl" value="Holandés"/>
+		<node name="nb" value="Noruego"/>
+		<node name="pl" value="Polaco"/>
+		<node name="pt" value="Portugués"/>
+		<node name="ro" value="Romanian" toBeTranslated="true"/>
+		<node name="ru" value="Ruso"/>
+		<node name="sv" value="Sueco"/>
+		<node name="ta" value="Tamil" toBeTranslated="true"/>
+		<node name="th" value="Tailandés"/>
+		<node name="tr" value="Turco"/>
+		<node name="uk" value="Ucraniano"/>
+		<node name="vi" value="Vietnamita"/>
+		<node name="zh" value="Chino"/>
+		<node name="other" value="Otro"/>
+		<node name="multi" value="Multilenguage"/>
+	</node>
+	<node name="boolean3">
+		<node name="on" value="on"/>
+		<node name="off" value="off"/>
+		<node name="unchanged" value="sin cambios"/>
+	</node>
+	<node name="keyOptionView">
+		<node name="actionFor" value="Acción para tecla"/>
+	</node>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World,TouchLiveWallpaper!</string>
+    <string name="app_name">e_18_4 TouchLiveWallpaper</string>
+<string name="description">Touch to change photo wallpaper</string>
+</resources>

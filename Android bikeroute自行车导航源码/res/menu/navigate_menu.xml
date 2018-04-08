@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/directions"
+          android:title="@string/directions_title"
+          android:icon="@drawable/ic_menu_directions" >
+    </item>
+    <item android:id="@+id/map"
+    android:title="@string/map_title"
+    android:icon="@drawable/ic_menu_map"></item>
+    <item android:id="@+id/bike"
+    android:title="@string/back_title"
+    android:icon="@drawable/ic_menu_bike"></item>
+    <item android:id="@+id/stand"
+          android:title="@string/nearstands_title"
+          android:icon="@drawable/ic_menu_stand">
+    </item>
+    <item android:id="@+id/prefs"
+    android:title="@string/prefs_title"
+    android:icon="@drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/contacts"
+    android:title="@string/contacts_title" android:icon="@drawable/ic_menu_friendslist"></item>
+<item android:id="@+id/favourites" android:title="@string/favourites" android:icon="@drawable/ic_menu_star">
+</item>
+<item android:id="@+id/about" android:title="@string/about_menu" android:icon="@drawable/ic_menu_info_details"></item>
+</menu>

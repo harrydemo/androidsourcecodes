@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/ww1">
+	
+	<LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<ImageView 
+		android:id="@+id/ImageView01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/pagetop">
+	</ImageView>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/sb"
+	android:layout_marginTop="20dp">
+	
+	<LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="20dp">
+	
+	<TextView 
+		android:text="标  题  :  " 
+		android:id="@+id/TextView01" 
+		android:textColor="#6495ED"
+		android:textSize="22dp"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	<TextView 
+		android:text="故宫一日游" 
+		android:textSize="18dp"
+		android:id="@+id/TextView02" 
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	</LinearLayout>
+	
+	<LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="20dp">
+	
+	<TextView 
+		android:text="时  间  :  " 
+		android:id="@+id/TextView03" 
+		android:textColor="#6495ED"
+		android:textSize="22dp"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	<TextView 
+		android:text="2012年12月23日" 
+		android:textSize="18dp"
+		android:id="@+id/TextView04" 
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	</LinearLayout>
+	
+	<LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="20dp">
+	
+	<TextView 
+		android:text="详   情 :  " 
+		android:id="@+id/TextView05" 
+		android:textColor="#6495ED"
+		android:textSize="22dp"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	<TextView 
+		android:layout_marginTop="10dp"
+		android:text="　　黑龙江省哈尔滨市南岗区哈尔滨学院" 
+		android:textSize="18dp"
+		android:id="@+id/TextView06" 
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	</LinearLayout>
+	
+	
+	
+	
+	<LinearLayout
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	
+	android:paddingLeft="80dp"
+	android:paddingRight="80dp">
+	
+	<!--<Button 
+		android:text="查　看　参　与　者" 
+		android:id="@+id/Button01"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+	</Button>
+	
+	
+	--></LinearLayout>
+	
+</LinearLayout>
+	
+</LinearLayout>

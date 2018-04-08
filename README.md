@@ -1,6 +1,7 @@
 # androidsourcecodes
 echo "# androidsourcecodes" >> README.md
 
+```
 git init
 
 git add README.md
@@ -12,7 +13,7 @@ git remote add origin https://github.com/harrydemo/androidsourcecodes.git
 git push -u origin master
 
 git pull origin branchname --allow-unrelated-histories
-
+```
 when 
 fatal: refusing to merge unrelated histories
 
@@ -32,7 +33,7 @@ fatal: refusing to merge unrelated histories
 
 解决办法如下：
 
-在cmd中输入 CHCP 65001
+在cmd中输入 `CHCP 65001`
 
 
 
@@ -47,15 +48,15 @@ fatal: refusing to merge unrelated histories
 
 注：CHCP是一个计算机指令，能够显示或设置活动代码页编号。
 
-代码页  描述
+代码页 | 描述
+----|----
+65001 |  UTF-8代码页
 
-65001   UTF-8代码页
+950| 繁体中文
 
-950 繁体中文
+936 |简体中文默认的GBK
 
-936 简体中文默认的GBK
-
-437 MS-DOS 美国英语
+437 |MS-DOS 美国英语
 
 
 
@@ -69,7 +70,7 @@ fatal: refusing to merge unrelated histories
 
 在运行中通过regedit进入注册表
 
-找到HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe
+找到`HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe`
 
 新建一个 DWORD（32位值）,命名为CodePage，值设为65001 
 
@@ -80,7 +81,7 @@ fatal: refusing to merge unrelated histories
 新建一个cmd.reg
 
 内容输入如下：
-
+```
 Windows Registry Editor Version 5.00
 
 
@@ -98,7 +99,7 @@ Windows Registry Editor Version 5.00
 "ScreenBufferSize"=dword:232900d2
 
 "WindowSize"=dword:002b00d2
-
+```
 如图：
 
 

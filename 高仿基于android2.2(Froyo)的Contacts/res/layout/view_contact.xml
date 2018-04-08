@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/contactItemLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+
+        <QuickContactBadge
+            android:id="@+id/viewContactQuickContactBadge"
+            style="?android:attr/quickContactBadgeStyleWindowSmall"
+            android:layout_width="50dp"
+            android:layout_height="56dp"
+            android:layout_marginRight="8dp" />
+
+        <!-- 显示联系人名称 -->
+
+        <TextView
+            android:id="@+id/tvViewContactContactName"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:shadowColor="#BB000000"
+            android:shadowRadius="2.75"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <!-- 是否添加到Favorite -->
+
+        <CheckBox
+            android:id="@+id/checkBoxFavorite"
+            style="?android:attr/starStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/viewContactListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" />
+
+</LinearLayout>

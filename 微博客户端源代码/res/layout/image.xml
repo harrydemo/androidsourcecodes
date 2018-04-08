@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="41px" android:background="@drawable/imagebar_bg">
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="2">
+			<Button android:id="@+id/returnBtn" android:layout_width="63px"
+				android:layout_height="29px" android:layout_centerInParent="true"
+				android:text="返回" android:textColor="#ffffff" android:background="@drawable/btn1_bg">
+			</Button>
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="1">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_centerInParent="true"
+				android:text="浏览图片" android:textColor="#ffffff">
+			</TextView>
+		</RelativeLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="2">
+			<Button android:id="@+id/downBtn" android:layout_width="60px"
+				android:layout_height="29px" android:layout_centerInParent="true"
+				android:text="下载" android:textColor="#ffffff" android:background="@drawable/btn2_bg">
+			</Button>
+		</RelativeLayout>
+
+	</LinearLayout>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<MySinaWeiBo.ui.ImageZoomView
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/pic" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		</MySinaWeiBo.ui.ImageZoomView>
+
+		<ZoomControls android:id="@+id/zoomCtrl"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true">
+		</ZoomControls>
+	</RelativeLayout>
+</LinearLayout>

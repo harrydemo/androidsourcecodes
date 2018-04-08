@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<EditText 
+    android:text="input1" 
+    android:id="@+id/edit_province" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    </EditText>
+<Button 
+    android:text="search" 
+    android:id="@+id/btn_webservice" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+    </Button><ImageView android:id="@+id/ImageView01" android:layout_height="wrap_content" android:background="@drawable/r_t1" android:layout_width="wrap_content"></ImageView>
+<TextView 
+    android:text="" 
+    android:id="@+id/ResultView" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+    </TextView><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="wrap_content"><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImageView02"></ImageView><ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImageView03"></ImageView></LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

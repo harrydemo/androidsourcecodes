@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="Speech what you want to read." />
+		
+	<EditText android:id="@+id/inputText" 
+	    android:hint="Input the text here!"
+		android:layout_width="fill_parent" 
+		android:layout_height="350px">
+	</EditText>
+	<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_margin="10px"
+	>
+	<Button android:text="Speak" 
+	    android:id="@+id/speakBtn"
+		android:layout_width="150px" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"  
+		>
+		</Button>
+     <Button android:text="ReadFile" 
+	    android:id="@+id/readBtn"
+		android:layout_width="150px" 
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="10px"
+		 >
+		</Button>
+	</LinearLayout>			
+</LinearLayout>

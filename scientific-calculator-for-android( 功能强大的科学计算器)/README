@@ -1,0 +1,53 @@
+SCIENTIFIC CALCULATOR for ANDROID
+
+1. What is it?
+SCIENTIFIC CALCULATOR for ANDROID is a scientific calculator for the Android
+platform.
+
+2. Current state.
+For now, it is a prototype.
+
+Current features:
+ - Exact computation of scientific expressions (functions of the Java Math
+   library).
+ - Basic plotting.
+ - Auto-completion of input expressions.
+
+Planned features:
+ - Better documentation.
+ - Testing.
+ - Better UI.
+ - Pretty print.
+ - Symbolic calculus.
+ - Possibility to program the calculator.
+ - Fetching programs on a repository over the web.
+ - Importing data for plotting, statistical computations...
+ - Exporting data for use with other applications...
+
+3. How to build it?
+The project has been built with the Android Eclipse plugin. Here are the
+instructions to build it.
+
+ - Make sure your Eclipse installation is Android-enabled.
+ - Import the project.
+ - Update the Reference Libraries with the CUP Runtime library in
+   Properties > Java Build Path > Libraries > Add external JAR.
+   The library can be found here:
+   http://www2.cs.tum.edu/projects/cup/
+ - Run!
+
+If you are interested to work on the parsing of the expressions, you will need
+CUP and JFLEX. The projects can be respectively found here:
+ - http://www2.cs.tum.edu/projects/cup/
+ - http://jflex.de/
+The .lex and .cup files are in com.google.calculator.parser.
+
+4. History.
+2008-03-20: Prototype. Released on Google Code.
+
+5. Contact.
+This project has been started as a 20% project by Laurent Tu during his
+internship at Google. Feel free to contact him at tulaurent@gmail.com.
+
+Please also consider using the following Google group:
+scientific-calculator-for-android@googlegroups.com.

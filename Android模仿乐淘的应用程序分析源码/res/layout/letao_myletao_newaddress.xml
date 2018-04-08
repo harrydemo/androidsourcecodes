@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffff">
+	<!-- 顶部标题 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+	<!-- 底部菜单 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+	<include layout="@layout/common_listview" />
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_above="@id/bottommenu"
+		android:layout_below="@id/title">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="5dip">
+				<!-- 收货人 -->
+				<TextView android:layout_width="70dip"
+					android:layout_height="wrap_content" android:gravity="right"
+					android:layout_gravity="center_vertical" android:text="@string/address_name"
+					android:textColor="@color/black" />
+				<EditText android:id="@+id/add_address_name"
+					android:layout_width="230dip" android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical" android:singleLine="true"
+					android:textSize="15sp" android:textColor="@color/black"
+					android:background="@drawable/input_box" android:layout_margin="5dip" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<!-- 电话号码 -->
+				<TextView android:layout_width="70dip"
+					android:layout_height="wrap_content" android:gravity="right"
+					android:layout_gravity="center_vertical" android:text="@string/address_phone"
+					android:textColor="@color/black" />
+				<EditText android:id="@+id/add_address_num"
+					android:layout_width="230dip" android:layout_height="wrap_content"
+					android:numeric="integer" android:singleLine="true"
+					android:layout_gravity="center_vertical" android:textSize="15sp"
+					android:textColor="@color/black" android:background="@drawable/input_box"
+					android:layout_margin="5dip" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:id="@+id/add_choose_province" android:clickable="true"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<!-- 省份 -->
+				<TextView android:layout_width="70dip"
+					android:layout_height="wrap_content" android:gravity="right"
+					android:layout_gravity="center_vertical" android:text="@string/address_province"
+					android:textColor="@color/black" />
+				<TextView android:layout_width="wrap_content" android:id="@+id/add_province_name"
+					android:layout_height="wrap_content" android:paddingLeft="80dip"
+					android:gravity="center_vertical" android:background="@drawable/detail_has_size_bg"
+					android:layout_gravity="center_vertical" android:text="@string/address_choose" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:id="@+id/add_choose_city" android:clickable="true"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<!-- 城市 -->
+				<TextView android:layout_width="70dip"
+					android:layout_height="wrap_content" android:gravity="right"
+					android:layout_gravity="center_vertical" android:text="@string/address_city"
+					android:textColor="@color/black" />
+				<TextView android:layout_width="wrap_content" android:id="@+id/add_city_name"
+					android:layout_height="wrap_content" android:paddingLeft="80dip"
+					android:gravity="center_vertical" android:background="@drawable/detail_has_size_bg"
+					android:layout_gravity="center_vertical" android:text="@string/address_choose" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:id="@+id/add_choose_area" android:clickable="true"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<!-- 地区 -->
+				<TextView android:layout_width="70dip"
+					android:layout_height="wrap_content" android:gravity="right"
+					android:layout_gravity="center_vertical" android:text="@string/address_area"
+					android:textColor="@color/black" />
+				<TextView android:layout_width="wrap_content" android:id="@+id/add_area_name"
+					android:background="@drawable/detail_has_size_bg"
+					android:layout_height="wrap_content" android:paddingLeft="80dip"
+					android:gravity="center_vertical" android:layout_gravity="center_vertical"
+					android:text="@string/address_choose" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="5dip">
+				<!-- 详细地址 -->
+				<TextView android:layout_width="70dip"
+					android:layout_height="wrap_content" android:gravity="right"
+					android:layout_gravity="center_vertical" android:text="@string/address_detail"
+					android:textColor="@color/black" />
+				<EditText android:id="@+id/add_address_particular"
+					android:layout_width="230dip" android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical" android:singleLine="true"
+					android:textSize="15sp" android:textColor="@color/black"
+					android:background="@drawable/input_box" android:layout_margin="5dip" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<!-- 邮箱 -->
+				<TextView android:layout_width="70dip"
+					android:layout_height="wrap_content" android:gravity="right"
+					android:layout_gravity="center_vertical" android:text="@string/address_email"
+					android:textColor="@color/black" />
+				<EditText android:id="@+id/add_address_email"
+					android:layout_width="230dip" android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical" android:singleLine="true"
+					android:textSize="15sp" android:textColor="@color/black"
+					android:background="@drawable/input_box" android:layout_margin="5dip" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TextView android:id="@+id/save_address_button"
+					android:layout_width="140dip" android:layout_height="wrap_content"
+					android:text="@string/address_save" android:background="@drawable/btn_pink"
+					android:clickable="true" android:gravity="center"
+					android:textColor="@color/white" android:textSize="20sp"
+					android:layout_margin="10dip" />
+				<TextView android:id="@+id/cancel_address_button"
+					android:layout_width="140dip" android:layout_height="wrap_content"
+					android:text="@string/address_cancel" android:background="@drawable/btn_blue"
+					android:clickable="true" android:gravity="center"
+					android:textColor="@color/white" android:textSize="20sp"
+					android:layout_margin="10dip" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	</RelativeLayout>

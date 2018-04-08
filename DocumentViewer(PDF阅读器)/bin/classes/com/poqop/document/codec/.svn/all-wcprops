@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/29/trunk/DocumentViewer/src/com/poqop/document/codec
+END
+CodecContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/29/trunk/DocumentViewer/src/com/poqop/document/codec/CodecContext.java
+END
+CodecPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/29/trunk/DocumentViewer/src/com/poqop/document/codec/CodecPage.java
+END
+CodecDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/29/trunk/DocumentViewer/src/com/poqop/document/codec/CodecDocument.java
+END

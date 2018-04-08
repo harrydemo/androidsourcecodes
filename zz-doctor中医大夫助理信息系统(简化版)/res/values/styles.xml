@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 eFANsoftware
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+  <dimen name="default_text_size">18sp</dimen>
+
+  <style name="titleText">
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:textColor">#C53A3A</item>   <!-- China Red -->
+  </style>
+  
+  <style name="labelText">
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">#FF8040</item>   <!-- Orange -->
+  </style>
+
+  <color name="hintTextColor">#C0C0C0</color>       <!-- Light Grey -->
+  <color name="tabLineColor">#808080</color>        <!-- Dark Grey --> <!-- alt: #FF909090 -->
+  <color name="tabHeadColor">#008000</color>        <!-- Green -->
+
+</resources>

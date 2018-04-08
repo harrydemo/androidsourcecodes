@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter
+END
+ListViewFriendAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewFriendAdapter.java
+END
+ListViewMessageDetailAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewMessageDetailAdapter.java
+END
+ListViewQuestionAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewQuestionAdapter.java
+END
+GridViewFaceAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/GridViewFaceAdapter.java
+END
+ListViewTweetAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewTweetAdapter.java
+END
+ListViewSoftwareAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewSoftwareAdapter.java
+END
+ListViewActiveAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewActiveAdapter.java
+END
+ListViewNewsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewNewsAdapter.java
+END
+ListViewFavoriteAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewFavoriteAdapter.java
+END
+ListViewCommentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewCommentAdapter.java
+END
+ListViewBlogAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewBlogAdapter.java
+END
+ListViewMessageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewMessageAdapter.java
+END
+ListViewSearchAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewSearchAdapter.java
+END
+ListViewSoftwareCatalogAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/adapter/ListViewSoftwareCatalogAdapter.java
+END

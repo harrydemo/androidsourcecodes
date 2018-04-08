@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>百度地图API调用示例 - by www.nongfuit.com</title>
+<style>
+.iwTitle {
+    color: #CC5522;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+body
+{
+ font-size: 12px;
+}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
+</head>
+<body>
+<div style="width:520px;height:340px;border:1px solid gray" id="container"></div>
+<p>
+
+ 农夫it站www.nongfuit.com为您提供各种实用的js网页特效,div+css模板,css后台模板,实用css菜单,广告代码以及各类it技术文章!</p>
+</body>
+</html>
+<script type="text/javascript">
+var map = new BMap.Map("container");
+var point = new BMap.Point(113.88582,22.555523);
+var marker = new BMap.Marker(point);
+var opts = {
+  width : 200,     // 信息窗口宽度
+  height: 80,     // 信息窗口高度
+  title : "<span class='iwTitle' >农夫it站-百度地图API调用示例</span>", // 信息窗口标题
+
+}
+map.addControl(new BMap.NavigationControl());  
+map.centerAndZoom(point, 15);
+map.addOverlay(marker);
+
+var infoWindow = new BMap.InfoWindow("地址：海秀路2021北门<br />网址：http://www.nongfuit.com", opts);  // 创建信息窗口对象
+map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
+</script>

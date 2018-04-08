@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/oschina/android-app.git/!svn/ver/5/tags/v1.6.2_beta/src/net/oschina/app
+END
+AppException.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/5/tags/v1.6.2_beta/src/net/oschina/app/AppException.java
+END
+AppContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/5/tags/v1.6.2_beta/src/net/oschina/app/AppContext.java
+END
+AppConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/5/tags/v1.6.2_beta/src/net/oschina/app/AppConfig.java
+END
+AppManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/5/tags/v1.6.2_beta/src/net/oschina/app/AppManager.java
+END
+AppStart.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/5/tags/v1.6.2_beta/src/net/oschina/app/AppStart.java
+END

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffff">
+	<LinearLayout android:layout_marginTop="130dip" android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="vertical">
+			<ImageView android:layout_height="wrap_content" android:id="@+id/imageView1"
+			android:layout_width="wrap_content" android:src="@drawable/icon"
+			android:layout_alignParentLeft="true"></ImageView>
+			<TextView android:layout_marginTop="10dp" android:text="@string/app_name"  android:textSize="22dp" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/txt_label_black"></TextView>
+	</LinearLayout>
+	<TextView android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:text="@string/copyright" android:layout_marginBottom="50dip"  android:textSize="14dp" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</RelativeLayout>

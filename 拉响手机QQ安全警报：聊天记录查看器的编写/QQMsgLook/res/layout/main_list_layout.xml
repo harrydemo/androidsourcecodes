@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dddeeeff"
+    android:orientation="vertical" >
+	<Button
+	    android:id="@+id/friends"
+	    android:layout_width="fill_parent"
+	    android:layout_height="60.0dip"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:text="@string/friends"
+	    android:textSize="24dp" >
+	</Button>
+	<Button
+	    android:textSize="24dp"
+	    android:gravity="center" 
+	    android:layout_gravity="center_horizontal" 
+	    android:id="@+id/troops" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="60.0dip" 
+	    android:text="@string/troops" >
+	</Button>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/alert_dialog_item" android:layout_width="fill_parent"
+	android:layout_height="46px" android:textSize="18px"
+	android:layout_gravity="left" android:paddingTop="10px"
+	android:paddingLeft="16px" android:textColor="#FF3F3F3F">
+</TextView>
+ 

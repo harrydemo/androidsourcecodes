@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common
+END
+CyptoUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/CyptoUtils.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/FileUtils.java
+END
+HtmlRegexpUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/HtmlRegexpUtils.java
+END
+MediaUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/MediaUtils.java
+END
+SinaWeiboHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/SinaWeiboHelper.java
+END
+ImageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/ImageUtils.java
+END
+BitmapManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/BitmapManager.java
+END
+MethodsCompat.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/MethodsCompat.java
+END
+QQWeiboHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/QQWeiboHelper.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/StringUtils.java
+END
+UIHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/UIHelper.java
+END
+UpdateManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/net/oschina/app/common/UpdateManager.java
+END

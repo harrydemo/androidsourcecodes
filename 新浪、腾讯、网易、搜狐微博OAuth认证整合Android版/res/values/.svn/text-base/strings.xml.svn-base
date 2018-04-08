@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, OauthMainAct!</string>
+    <string name="app_name">OauthTest</string>
+    <string name="qq_appkey">6da0c3353d8c4cbcb9b12e15474f3855</string>
+    <string name="qq_secret">4a3932db3faa9bf8475cb0ad19f3f38d</string>
+    <string name="qq_request_token_url">https://open.t.qq.com/cgi-bin/request_token</string>
+</resources>

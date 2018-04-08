@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MyWeiXinActivity!</string>
+    <string name="app_name">MyWeiXin</string>
+    <string name="main_title">微信</string>
+<string name="main_login">登录</string>
+<string name="main_login_msg">使用QQ号或微信号登录</string>
+<string name="main_regist">注册</string>
+<string name="main_regist_msg">如果你没有QQ号，可以使用手机注册</string>
+<string name="login_user_hint">QQ号/微信号/手机号</string>
+<string name="login_passwd_hint">密码</string>
+<string name="login_forget_passwd">忘记密码?</string>
+</resources>

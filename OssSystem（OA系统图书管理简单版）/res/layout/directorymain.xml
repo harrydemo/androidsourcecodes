@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d6ebf5"
+    >
+<RelativeLayout
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    
+    >  
+<LinearLayout
+     android:id="@+id/linearlayout"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"  
+     android:layout_height="wrap_content"
+     android:background="@drawable/nav_bg">
+<ImageView
+     android:id="@+id/image_index"
+     android:layout_marginTop="5dp"
+     android:src="@drawable/first_index"
+     android:layout_width="wrap_content"  
+     android:layout_height="wrap_content"
+     ></ImageView>
+<TextView
+     style="@style/text_margin"
+     android:id="@+id/tv_first"
+     android:text="@string/firstpage"
+     android:background="@drawable/textview_bg"
+  ></TextView>
+<TextView
+     style="@style/text_margin"
+     android:id="@+id/tv_flag"
+     android:text="@string/flag"
+  ></TextView>
+<ImageView
+     android:id="@+id/image_manager"
+     android:layout_marginTop="5dp"
+     android:src="@drawable/nav_knowledge"
+     android:layout_width="wrap_content"  
+     android:layout_height="wrap_content"
+     ></ImageView>
+<TextView
+     style="@style/text_margin"
+     android:gravity="center"
+     android:id="@+id/tv_knowledgemanager"
+     android:text="@string/know_manager"
+     android:background="@drawable/textview_bg"
+     ></TextView>
+<TextView
+     style="@style/text_margin"
+     android:gravity="center"
+     android:id="@+id/tv_flag2"
+     android:text="@string/flag"
+     ></TextView>
+<TextView
+     style="@style/text_margin"
+     android:gravity="center"
+     android:id="@+id/directorymanager"
+     android:text="@string/list_manager"
+     ></TextView>
+</LinearLayout>
+</RelativeLayout>
+<LinearLayout
+     style="@style/width_fillparent"
+     android:id="@+id/linearlayout2"
+     android:orientation="horizontal"
+     >
+     <Button
+     android:background="@drawable/btn_additem"
+     android:layout_marginLeft="10dp"
+     style="@style/wrapparent"
+     android:paddingLeft="20dp"
+     android:id="@+id/add"
+     android:text="@string/add"
+     >
+     </Button>
+     <Button
+     android:background="@drawable/btn_modifyitem"
+     android:layout_marginLeft="10dp"
+     style="@style/wrapparent"
+     android:paddingLeft="20dp"
+     android:id="@+id/modify"
+     android:text="@string/modify"
+    >
+     </Button>
+     <Button
+     android:background="@drawable/btn_deleteitem"
+     android:layout_marginLeft="10dp"
+     android:paddingLeft="20dp"
+     style="@style/wrapparent"
+     android:id="@+id/delete"
+     android:text="@string/delete"
+     >
+     </Button>
+     <Button
+     android:background="@drawable/btn_selectall"
+     android:layout_marginLeft="10dp"
+     android:paddingLeft="20dp"
+     style="@style/wrapparent"
+     android:id="@+id/selectAll"
+     android:text="@string/selectAll"
+     >
+     </Button>
+     </LinearLayout>
+<ViewFlipper 
+     android:id="@+id/viewflipper"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_marginTop="10dp"
+     android:layout_weight="11">
+<ListView
+    android:id="@+id/listview"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:scrollbars="none"
+   ></ListView>
+   </ViewFlipper> 
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+  >
+<TextView
+    android:id="@+id/everypage"   
+    android:textSize="15sp"   
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="5dp"
+    android:layout_centerVertical="true"
+    android:textColor="#000000"
+    android:text="每页:"
+></TextView>
+<TextView
+    android:id="@+id/everypagenum"  
+    android:layout_marginLeft="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_toRightOf="@id/everypage"
+    android:textColor="#000000"
+    android:text="1"
+></TextView>
+<TextView
+    android:id="@+id/totalnum"  
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_centerVertical="true"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:gravity="bottom"
+    android:layout_toRightOf="@id/everypagenum"
+    android:text="/1"
+></TextView>
+<TextView
+    android:id="@+id/pagenum"  
+    android:layout_width="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="5dp"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/totalnum"
+    android:textColor="#000000"
+    android:text="页数："
+></TextView>
+<TextView
+    android:id="@+id/currentpage"  
+    android:layout_marginLeft="5dp"
+    android:layout_width="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/pagenum"
+    android:textColor="#000000"
+    android:text="1"
+    android:gravity="clip_vertical"
+></TextView>
+<TextView
+    android:id="@+id/totalpage"  
+    android:layout_width="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="5dp"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/currentpage"
+    android:textColor="#000000"
+    android:text="/1"
+></TextView>
+<Button
+    android:id="@+id/firstBtn"  
+    android:layout_width="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="55dp"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/totalpage"
+    android:background="@drawable/button_firstpage"
+    />
+<Button
+    android:id="@+id/beforeBtn"  
+    android:layout_width="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="10dp"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/firstBtn"
+    android:background="@drawable/button_beforepage"
+    />
+<Button
+    android:id="@+id/nextBtn" 
+    android:layout_width="wrap_content" 
+    android:layout_marginLeft="10dp"
+    android:layout_centerVertical="true"
+    android:layout_height="wrap_content" 
+    android:layout_toRightOf="@id/beforeBtn"
+    android:background="@drawable/button_nextpage"
+    />
+<Button
+    android:id="@+id/afterBtn"  
+    android:layout_width="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="10dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_lastpage"
+    android:layout_toRightOf="@id/nextBtn"
+    />
+</RelativeLayout>
+</LinearLayout>

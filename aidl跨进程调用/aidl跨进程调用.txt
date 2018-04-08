@@ -1,0 +1,22 @@
+这两天在学习aidl跨进程调用，研究了一天终于写出了个helloword。。做下记录吧。
+
+根据官方提供的指南，开发aidl跨进程调用，主要分以下步骤：
+1.         创建.aidl文件-该文件（YourInterface.aidl）定义了客户端可用的方法和数据的接口。
+2.         在makefile文件中加入.aidl文件-（Eclipse中的ADT插件提供管理功能）Android包括名为AIDL的编译器，位于tools/文件夹。
+3.         实现接口-AIDL编译器从AIDL接口文件中利用Java语言创建接口，该接口有一个继承的命名为Stub的内部抽象类（并且实现了一些IPC调用的附加方法），要做的就是创建一个继承YourInterface.Stub的类并且实现在.aidl文件中声明的方法。
+4.         向客户端公开接口-如果是编写服务，应该继承Service并且重载Service.onBind(Intent) 以返回实现了接口的对象实例
+
+上面的东西真的很官方。。下面结合我的例子做一下学习总结：
+先开发服务器端
+1.创建一个aidl文件，可以看提供的源码。创建完成后，eclipse插件自动在gen目录下生成同名字的java文件。里面包含一个Stub抽象类，这个类继承自android.os.Binder，这个类是实现整个远程调用的核心。
+2.然后创建一个类来继承上面说到的那个Stub抽象类，实现里面的抽象方法。（这些抽象方法是根据aidl文件自动生成的）。
+3.创建一个自定义Service继承自Service，实现其onBind方法，注意此onBind方法必须返回第二步创建的那个Stub类的子类。然后在xml中声明此service，注意此service的声明必须包含一个action，此action也用于客户端的调用使用。（在下面的客户端开发中会有介绍）。
+4.创建一个activity，此activity只要实现把service启动了即可。
+这样服务器端就开发完毕，运行后启动了一个可供远程调用的service。关键还是通过onBind暴露一个Binder给客户端。Binder哪来呢？就是通过aidl文件adt会自动生成一个抽象类Stub继承自Binder，只需要创建一个类实现这个Stub的抽象方法即可。
+
+然后开发客户端：
+1.客户端也需要一个aidl文件，注意客户端的aidl文件的包名必须和服务器端的aidl包名一致，名字也相同。创建完后同样会在gen下生成一个接口。
+2.创建一个Activity，包含变量ServiceConnection con，实现其onServiceConnected和onServiceDisconnected方法，onServiceConnected方法生成第一步那个接口的实现类的对象。con对象用于在onCreate中绑定service，这个service的action必须为服务器端声明的那个service的配置action。绑定中用到con会执行onServiceConnected方法生成aidl对象iPerson。然后就可以通过iPerson来调用aidl里的任意方法返回服务器的东西。
+客户端开发完毕。关键点是创建aidl文件自动生成了一个接口，在activity中必须绑定服务程序开启的service，在绑定过程中初始化aidl对象。然后就可用aidl对象调用任意方法了。
+
+OK，可以运行看效果了。过程真的很繁琐。。但是好像也只能这样了。最主要的还是服务端onBind暴露，然后客户端bindService得到aidl对象。

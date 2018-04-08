@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/widget
+END
+PullToRefreshListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/widget/PullToRefreshListView.java
+END
+LinkView.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/widget/LinkView.java
+END
+UserInfoDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/widget/UserInfoDialog.java
+END
+ScrollLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/widget/ScrollLayout.java
+END
+BadgeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/widget/BadgeView.java
+END
+LoadingDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/widget/LoadingDialog.java
+END
+NewDataToast.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/oschina/android-app.git/!svn/ver/33/tags/v1.7.3/src/net/oschina/app/widget/NewDataToast.java
+END

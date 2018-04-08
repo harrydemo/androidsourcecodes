@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background">
+	
+
+	
+    
+	<RelativeLayout 
+	android:id="@+id/ListLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_marginTop="4dp" 
+	android:layout_marginBottom="42dp"
+	android:background="@drawable/listlayout_bg">
+		
+    
+		<ListView 
+	    android:id="@+id/listView" 
+	    android:layout_height="fill_parent" 
+	    android:layout_width="fill_parent"
+	    android:layout_marginTop="60dp"
+	    android:layout_marginLeft="6dp"
+	    android:layout_marginRight="6dp"
+	 	android:cacheColorHint="#00000000"    
+		android:divider="@color/divider_color"
+	    android:dividerHeight="1dp"
+	    android:scrollbars="none"
+	    android:listSelector="@drawable/selector_list_item">
+	    </ListView>
+
+		<View 
+	    android:background="@drawable/shape_line" 
+	   	android:layout_marginTop="60dp"
+	    android:layout_marginLeft="6dp"
+		android:layout_marginRight="6dp"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="1dp" />
+	    
+	    <RelativeLayout
+		android:id="@+id/ListTitle"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:minHeight="60dp"
+		android:layout_alignParentTop="true"
+	    android:layout_marginLeft="6dp"
+		android:layout_marginRight="6dp"
+		>
+	
+			<Button 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	 		android:layout_centerInParent="true"
+	 		android:text="MSD音乐库"
+	 		android:textColor="#666666"
+	 		android:textSize="20dp"
+	        android:background="@drawable/prompt">
+	        </Button>	
+	    
+		</RelativeLayout>
+	    
+	</RelativeLayout>
+	
+
+    
+
+	<com.genius.widget.MySlidingDrawer  
+	android:id="@+id/slidingDrawer"
+	android:layout_width="fill_parent"  
+	android:layout_height="fill_parent"  
+    android:handle="@+id/handle"  
+	android:content="@+id/content"
+	android:topOffset="10dp">  	  
+			<include layout="@layout/sliderdrawer_handle_layout"></include>		
+		   	<include layout="@layout/sliderdrawer_content_layout"></include>	
+     </com.genius.widget.MySlidingDrawer >
+     
+     
+     
+	<RelativeLayout 
+	android:id="@+id/VirtualLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#60000000"
+	android:visibility="invisible">
+	</RelativeLayout>
+	  	
+</RelativeLayout>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right" android:layout_margin="10dip">
+
+
+
+<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/torIntroduction"></TextView>
+<View android:layout_width="fill_parent" android:background="#AAAAAA" android:layout_height="1dip" android:layout_marginBottom="10dip" android:layout_marginTop="10dip"/> 
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0" android:layout_gravity="center_vertical" android:text="@string/network_toggle_text"></TextView>
+
+<RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radioGroup">
+<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="off" android:id="@+id/radioOff"></RadioButton>
+<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="on-demand" android:id="@+id/radioOnDemand"></RadioButton>
+<RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="always on" android:id="@+id/radioAlwaysOn"></RadioButton>
+</RadioGroup><ProgressBar android:layout_height="wrap_content" android:max="100" style="?android:attr/progressBarStyleHorizontal" android:layout_width="fill_parent" android:progress="0" android:visibility="gone" android:id="@+id/startProgress"></ProgressBar>
+<View android:layout_width="fill_parent" android:background="#AAAAAA" android:layout_height="1dip" android:layout_marginBottom="10dip" android:layout_marginTop="10dip" />
+
+
+
+
+<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:autoLink="web" android:layout_weight="1" android:text="To check that your web browsing is anonymous, visit https://check.torproject.org using the anonymous browser."></TextView>
+<TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disclaimer" android:autoLink="web" android:textSize="10sp"></TextView>
+
+
+</LinearLayout>

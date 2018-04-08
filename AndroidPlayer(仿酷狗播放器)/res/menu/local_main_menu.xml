@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_media" android:id="@+id/all" android:title="@string/menu_all" />
+    <item android:icon="@drawable/ic_cate" android:id="@+id/cate" android:title="@string/menu_cate" />
+    <item android:icon="@drawable/ic_playlist" android:id="@+id/playlist" android:title="@string/menu_playlist" />
+    <item android:icon="@drawable/ic_recent" android:id="@+id/recent" android:title="@string/menu_recent" />
+</menu>

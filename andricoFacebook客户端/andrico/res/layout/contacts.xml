@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+ /*************************************************************************** 
+ *              Copyright (C) 2009 Andrico Team                             * 
+ *              http://code.google.com/p/andrico/                           *
+ *                             												*
+ * Licensed under the Apache License, Version 2.0 (the "License");			*
+ * you may not use this file except in compliance with the License.			*
+ * 																			*	
+ * You may obtain a copy of the License at 									*
+ * http://www.apache.org/licenses/LICENSE-2.0								*
+ *																			*
+ * Unless required by applicable law or agreed to in writing, software		*
+ * distributed under the License is distributed on an "AS IS" BASIS,		*
+ *																			*
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.	*
+ * See the License for the specific language governing permissions and		*
+ * limitations under the License.											*
+ ****************************************************************************/
+	-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       	android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#30567D">
+			
+				<ListView android:id="@id/android:list"
+    					android:orientation="vertical"
+        				android:layout_width="fill_parent" 
+        				android:layout_height="fill_parent" 
+        				android:minHeight="80px"
+        				android:background="#30567D" 
+        				android:cacheColorHint="#00000000"
+        				android:choiceMode="singleChoice"
+        				>
+				</ListView>
+			
+			
+ 			<LinearLayout android:id="@android:id/empty" 
+				android:orientation="vertical"
+				android:layout_height="fill_parent" 
+				android:layout_width="fill_parent"
+				android:background="#30567D">
+					
+					<LinearLayout android:id="@+id/LayoutForLogo" 
+						android:layout_height="wrap_content" 
+						android:orientation="horizontal" 
+						android:layout_gravity="center" 
+						android:layout_width="fill_parent" 
+						android:gravity="center">
+							<ImageView android:id="@+id/Logo" 
+								android:layout_height="wrap_content" 
+								android:src="@drawable/logo" 
+								android:layout_gravity="center" 
+								android:layout_width="wrap_content" 
+								android:layout_margin="5px"></ImageView>
+					</LinearLayout>
+					
+					<LinearLayout android:orientation="vertical" 
+						android:id="@+id/LayoutForButtons" android:gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_vertical|center_horizontal" android:paddingLeft="12px" android:paddingRight="12px" android:paddingBottom="8px" android:background="@drawable/back" android:layout_marginLeft="10px" android:layout_marginRight="10px">
+						
+							<TextView android:layout_height="wrap_content" 
+								android:textColor="#FFFFFF" 
+								android:text="NO CONTACTS AVALIABLE" 
+								android:textStyle="bold" 
+								android:layout_width="fill_parent" 
+								android:gravity="center_vertical|center_horizontal" 
+								android:textSize="25px" android:layout_marginTop="15px"/>
+ 
+ 
+ 		
+							<Button android:id="@+id/Synchronize" 
+								android:layout_height="wrap_content" 
+								android:width="300px" 
+								android:layout_width="fill_parent" 
+								android:text="please, SYNCHRONIZE at first" 
+								android:textSize="25px" 
+								android:layout_marginTop="5px" 
+								android:height="110px" 
+								android:textStyle="bold" 
+								android:drawableLeft="@drawable/ic_synch"/>
+		
+							<Button android:id="@+id/BackToMenu" 
+								android:layout_height="wrap_content" 
+								android:text="@string/back" 
+								android:layout_width="fill_parent" 
+								android:textSize="20px" 
+								android:textStyle="bold" 
+								android:height="55px" 
+								android:drawableLeft="@android:drawable/ic_menu_revert" 
+								android:layout_marginTop="5px"/>
+					</LinearLayout>
+			</LinearLayout>
+ </LinearLayout>

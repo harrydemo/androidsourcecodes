@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ 	Copyright 2010 Cesar Valiente Gordo
+ 
+ 	This file is part of QuiteSleep.
+
+    QuiteSleep is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    QuiteSleep is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with QuiteSleep.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+                
+	<ScrollView 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+
+		<RelativeLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:orientation="vertical"
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent" >
+  
+  			<!-- Add banned contacts -->
+  			<TextView
+            	style="?android:attr/listSeparatorTextViewStyle"
+            	android:layout_height="fill_parent"
+            	android:id="@+id/contacts.separator.addContact"
+            	android:text="@string/contacts.separator.addContact"
+            	android:layout_marginTop="5dip" />            	           
+            	
+           	<Button   				  			
+           		android:layout_width="fill_parent"
+  				android:layout_height="wrap_content"
+  				android:layout_below="@id/contacts.separator.addContact"
+  				android:drawableLeft="@drawable/add_user"  				
+  				android:text="@string/contacts.button.addBanned"
+  				android:id="@+id/contacts.button.addBanned" />  	
+  				  					
+	  		<!-- Remove/edit blocked contact -->	  		
+  			<TextView
+            	style="?android:attr/listSeparatorTextViewStyle"
+            	android:layout_height="fill_parent"
+            	android:layout_below="@id/contacts.button.addBanned"
+            	android:id="@+id/contacts.separator.removeContact"
+            	android:text="@string/contacts.separator.removeContact"
+            	android:layout_marginTop="5dip" />            	           
+            		  		
+  			<Button  	    				
+  				android:layout_width="fill_parent"
+  				android:layout_height="wrap_content"
+  				android:layout_below="@id/contacts.separator.removeContact"
+  				android:drawableLeft="@drawable/remove_user"  							  			
+  				android:text="@string/contacts.button.deleteBanned"
+  				android:id="@+id/contacts.button.deleteBanned" />  	
+  			  					
+  			<!-- Synchronize contacts by the user -->
+  			<View
+				android:id="@+id/contacts.divider1"
+				android:layout_width="fill_parent"		
+				android:layout_height="3dip"		
+				android:layout_below="@id/contacts.button.deleteBanned"
+				android:background="@drawable/gradient_black"
+				android:layout_marginTop="5dp"		
+				android:layout_marginBottom="5dp" />
+  	
+ 			<TextView
+            	style="?android:attr/listSeparatorTextViewStyle"
+            	android:layout_height="fill_parent"
+            	android:id="@+id/contacts.separator.syncContacts"
+            	android:text="@string/contacts.separator.syncContacts"
+            	android:layout_below="@id/contacts.divider1"
+            	android:layout_marginTop="5dip" />
+	
+			<Button  	  
+  				android:layout_width="fill_parent"
+  				android:layout_height="wrap_content"
+  				android:layout_below="@id/contacts.separator.syncContacts"
+  				android:drawableLeft="@drawable/sync"
+  				android:text="@string/contacts.button.syncContacts"
+  				android:id="@+id/contacts.button.syncContacts" />
+    	    	     	   	    	 	       	    	     	   	    	 	 
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

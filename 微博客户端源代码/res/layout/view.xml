@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/hr"
+	>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/title_bg">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/logo_ss">
+		</ImageView>
+		<TextView android:id="@+id/showName" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_centerInParent="true"
+			android:textColor="#343434" android:text="阅读微博" android:textSize="16px">
+		</TextView>
+		<ImageButton android:id="@+id/returnBtn"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_toLeftOf="@+id/homeBtn" android:background="@drawable/btn_return_selector">
+		</ImageButton>
+		<ImageButton android:id="@+id/homeBtn"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" android:layout_marginLeft="12px"
+			android:layout_marginTop="2px"
+			android:layout_marginRight="2px"
+			android:background="@drawable/btn_home_selector">
+		</ImageButton>
+	</RelativeLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@drawable/hr">
+	</LinearLayout>
+
+	<RelativeLayout android:id="@+id/user_bg"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="8px" android:paddingLeft="15px"
+		android:background="@drawable/u_bg_v">
+		<ImageView android:id="@+id/user_icon" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_centerInParent="true"
+			android:src="@drawable/usericon">
+		</ImageView>
+		<TextView android:id="@+id/user_name" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_toRightOf="@+id/user_icon"
+			android:layout_marginLeft="20px" android:gravity="center_vertical"
+			android:textColor="#000000">
+		</TextView>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentRight="true"
+			android:layout_marginRight="5px" android:gravity="center_vertical"
+			android:src="@drawable/sjjt">
+		</ImageView>
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<ScrollView android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:paddingLeft="17px"
+			android:paddingRight="17px" android:paddingBottom="5px"
+			android:layout_above="@+id/menu_layout">
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:orientation="vertical">
+				<TextView android:id="@+id/text" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="#000000"
+					android:textSize="15px">
+				</TextView>
+				<ImageView android:id="@+id/pic" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</ImageView>
+			</LinearLayout>
+		</ScrollView>
+
+		<LinearLayout android:id="@+id/loadingLayout"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:orientation="vertical" android:visibility="gone"
+			android:layout_centerInParent="true">
+			<ProgressBar android:id="@+id/loading"
+				android:layout_width="31px" android:layout_height="31px"
+				android:layout_gravity="center" style="@style/progressStyle">
+			</ProgressBar>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="正在载入"
+				android:textSize="12px" android:textColor="#9c9c9c"
+				android:layout_gravity="center" android:layout_below="@+id/loading">
+			</TextView>
+		</LinearLayout>
+
+
+	<TableLayout android:id="@+id/menu_layout"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center" android:layout_alignParentBottom="true"
+			android:layout_marginBottom="5px">
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center">
+				<Button android:id="@+id/btn_gz" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="#3882b8"
+					android:textSize="15px" android:text="        关注(1231)"
+					android:background="@drawable/btn_gz">
+				</Button>
+				<Button android:id="@+id/btn_pl" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="#3882b8"
+					android:textSize="15px" android:text="        评论(31)"
+					android:background="@drawable/btn_pl">
+				</Button>
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="center">
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="#3882b8"
+					android:textSize="15px" android:layout_gravity="left" android:text="刷新"
+					android:background="@drawable/btn_sx">
+				</Button>
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="#3882b8"
+					android:textSize="15px" android:text="收藏" 
+					android:background="@drawable/btn_sc"
+					>
+				</Button>
+			</TableRow>
+
+		</TableLayout>
+
+
+	</RelativeLayout>
+</LinearLayout>

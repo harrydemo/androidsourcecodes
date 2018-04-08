@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable
+END
+btn_check.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/btn_check.xml
+END
+playback_seekbar_thumb.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/playback_seekbar_thumb.xml
+END
+list_selector_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/list_selector_bg.xml
+END
+btn_default.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/btn_default.xml
+END
+player_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/player_button.xml
+END
+playback_pre_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/playback_pre_button.xml
+END
+edit_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/102/trunk/AndroidPlayer/res/drawable/edit_text.xml
+END
+create_playlist_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/create_playlist_header.xml
+END
+grid_selector_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/drawable/grid_selector_bg.xml
+END
+splash_anim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/89/trunk/AndroidPlayer/res/drawable/splash_anim.xml
+END
+search_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/102/trunk/AndroidPlayer/res/drawable/search_button.xml
+END
+playback_seekbar_style.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/playback_seekbar_style.xml
+END
+lyr_handle_collapse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/lyr_handle_collapse.xml
+END
+playback_play_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/playback_play_button.xml
+END
+playback_playmode_random_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/playback_playmode_random_button.xml
+END
+playback_list_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/playback_list_button.xml
+END
+playback_next_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/drawable/playback_next_button.xml
+END

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"    
+"http://struts.apache.org/dtds/struts-2.0.dtd"> 
+
+<struts>        
+<!-- setting encoding,DynamicMethod,language      
+<constant name="struts.custom.i18n.resources" value="messageResource"></constant>    -->    
+    <constant name="struts.i18n.encoding" value="UTF-8"></constant>  <!-- 这里编码必须U8，因为HTTP请求都是以U8为编码的 -->  
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>            
+    <!-- add package here extends="struts-default"-->     
+    <package name="dongzi" extends="json-default"> <!--需要将struts-default改为json-default-->      
+    <!-- setting action -->         
+    <action name="login" class="com.dongzi.action.loginAction" method="login">              
+    <result type="json"></result>  
+    <!--返回值类型设置为json,不设置返回页面-->                
+    </action>      
+    </package>  
+</struts>

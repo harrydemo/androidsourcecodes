@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="WebAndroid"
+  id="myeclipse.1314001142978"
+  context-root="/WebAndroid"
+  j2ee-spec="5.0"
+  archive="WebAndroid.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

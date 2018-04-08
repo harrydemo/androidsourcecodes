@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+	android:background="@drawable/slidercontent_bg">	
+					
+		<RelativeLayout
+		android:id="@+id/setlayout"
+		android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true">	    	
+			<ImageButton
+			android:id="@+id/buttonMode"
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/mode_list_loop"
+		    android:background="@drawable/selector_mode_set"
+		    android:layout_alignParentLeft="true">
+			</ImageButton>
+			
+			<ImageButton
+			android:id="@+id/buttonVolumn"
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		   	android:src="@drawable/voice"
+		    android:background="@drawable/selector_volum_set"
+		    android:layout_alignParentRight="true">
+			</ImageButton>					
+		</RelativeLayout>
+				
+<!--		<ImageButton-->
+<!--	    android:layout_below="@id/setlayout"-->
+<!--		android:layout_width="wrap_content" -->
+<!--	    android:layout_height="wrap_content"-->
+<!--	    android:src="@drawable/ablum_deflaut"-->
+<!--	    android:background="@drawable/ablumlayout_bg"			  -->
+<!--	    android:layout_centerHorizontal="true" >-->
+<!--		</ImageButton>		-->
+		
+		<com.genius.widget.GalleryFlow 
+		android:id="@+id/imageGallery1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_centerInParent="true">
+		</com.genius.widget.GalleryFlow>
+		
+		<com.genius.widget.GalleryFlow 
+		android:id="@+id/imageGallery2" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_centerInParent="true">
+		</com.genius.widget.GalleryFlow>		
+					
+		<RelativeLayout 
+	    android:id="@+id/miniplayLayout" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	   	android:background="@drawable/playcontrol_bg"
+	    android:layout_alignParentBottom="true"
+	    android:gravity="center">		
+	    
+	        <ImageButton 
+	        android:id="@+id/buttonStop" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:layout_weight="1"
+	        android:src="@drawable/player_stop"
+	        android:background="@drawable/selector_music_btn">
+	        </ImageButton>
+	        
+	        
+	        <ImageButton 
+	        android:id="@+id/buttonMenu" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_weight="1"
+	        android:src="@drawable/menu"
+	        android:background="@drawable/selector_music_btn">
+	        </ImageButton>		
+	        		    
+	        <ImageButton 
+	        android:id="@+id/buttonPlayPre" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/buttonStop"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/player_pre"
+	        android:background="@drawable/selector_music_btn">
+	        </ImageButton>
+	        
+	        <ImageButton 
+	        android:id="@+id/buttonPlayNext" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/buttonMenu"
+	        android:layout_centerVertical="true"
+	    	android:layout_weight="1"
+	        android:src="@drawable/player_next"
+	        android:background="@drawable/selector_music_btn">
+	        </ImageButton>		
+	        
+	        
+	        <ImageButton 
+	        android:id="@+id/buttonPlay" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_centerVertical="true"
+	        android:layout_weight="1"
+	        android:src="@drawable/player_play"
+	        android:background="@drawable/selector_music_btn">
+	        </ImageButton>
+	        
+	        <ImageButton 
+	        android:id="@+id/buttonPause" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	      	android:layout_centerInParent="true"
+	        android:layout_weight="1"
+	        android:src="@drawable/player_pause"
+	        android:background="@drawable/selector_music_btn"
+	        android:visibility="invisible">
+	        </ImageButton>
+	        
+
+	
+	        
+
+	        	
+	    </RelativeLayout>
+				    
+				    
+	    <RelativeLayout 
+		android:id="@+id/progressLayout" 
+		android:layout_above="@id/miniplayLayout"  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+		android:background="@drawable/progresslayout_bg">
+	
+	
+	    	<TextView 
+		    android:text="00:00" 
+		    android:id="@+id/textViewCurTime" 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="10dp"
+	    	android:layout_marginRight="10dp"
+	    	android:textColor="@android:color/white"
+	    	android:textStyle="bold"
+		    android:layout_alignParentLeft="true">
+		    </TextView>
+		    
+		    <TextView 
+		    android:text="00:00" 
+		    android:id="@+id/textViewTotalTime" 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:textColor="@android:color/white"
+			android:textStyle="bold"
+		    android:layout_alignParentRight="true">
+		    </TextView>
+				
+				
+	   		<SeekBar 
+	   		android:id="@+id/seekBar"
+	   		android:layout_width="fill_parent" 
+	   		android:layout_height="wrap_content"	
+	   		android:layout_toRightOf="@id/textViewCurTime"
+	   		android:layout_toLeftOf="@id/textViewTotalTime"
+	   		android:paddingLeft="5dp"
+	   		android:paddingRight="5dp"
+			android:max="100" 
+			android:progressDrawable="@drawable/seekbar_style"  
+	   		android:thumb="@drawable/seekbar_thumb"
+	   		android:background="@drawable/progress_buffering" >
+	   		</SeekBar>
+
+		</RelativeLayout>
+								
+</RelativeLayout>

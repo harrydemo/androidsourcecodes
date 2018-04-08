@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/purple_entry_bg"
+    android:gravity="left|center_vertical"
+    android:minHeight="60dip"
+    android:orientation="horizontal"
+    android:paddingLeft="10dip"
+    android:paddingRight="20dip" 
+       >
+
+    <ImageView
+        android:id="@+id/PurpleImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dip" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/PurpleRowTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textSize="20dip" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/PurpleRowArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow" >
+    </ImageView>
+
+</LinearLayout>

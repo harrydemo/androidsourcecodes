@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">MyDemo</string>
+    <string name="toast_btn_1">默认的Toast显示</string>
+    <string name="toast_btn_2">自定义位置的Toast显示</string>
+    <string name="toast_btn_3">带图片的Toast显示</string>
+    <string name="toast_btn_4">完全自定义的Toast显示</string>
+    <string name="toast_btn_5">长时间的Toast显示</string>
+    <string name="toast_text_1">自定义Toast</string>
+    <string name="toast_text_2">这是自定义Toast,左边的是一幅很美的图片.</string>
+</resources>

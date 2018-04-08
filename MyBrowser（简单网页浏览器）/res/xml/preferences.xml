@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="阻塞图像">           
+        <CheckBoxPreference
+                android:key="checkbox_preference_1"
+                android:title="禁止加载图像"
+                android:summary="设置浏览器不加载网络图像" />         
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="缓存">          
+        <CheckBoxPreference
+                android:key="checkbox_preference_2"
+                android:title="启动网页缓存"
+                android:summary="启动网页缓存加快浏览速度" />           
+    </PreferenceCategory>
+    
+     <PreferenceCategory android:title="javascript">          
+        <CheckBoxPreference
+                android:key="checkbox_preference_3"
+                android:title="启动javascript"
+                android:summary="启动javascript动态脚本解析" />           
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+            android:title="字体大小">
+
+        <EditTextPreference
+                android:key="edittext_preference_1"
+                android:title="设置字体大小"
+                android:summary="设置网页字体大小"
+                android:dialogTitle="请输入字体大小：" />
+                
+    </PreferenceCategory>           
+    
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="fill_parent"
+    >
+    
+    <!-- 顶部标题 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+	<include layout="@layout/common_listview" />
+	<!-- 底部菜单 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+	
+<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_above="@id/bottommenu" android:layout_below="@id/title">
+		<TextView android:id="@+id/add_address_btn"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center" android:textSize="18sp" android:textColor="@color/white"
+			android:text="@string/my_delivery_address_submit" android:background="@drawable/btn_long_button"
+			android:visibility="visible" />
+		<ListView android:id="@+id/my_delivery_address_list"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:cacheColorHint="#00000000" android:divider="@null"
+			android:fadingEdge="none" />
+	</LinearLayout>
+</RelativeLayout>

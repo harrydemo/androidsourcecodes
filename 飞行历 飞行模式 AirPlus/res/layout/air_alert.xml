@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<!--     <com.tilltheendwjx.airplus.AirDigitalClock -->
+<!--         android:id="@+id/digitalClock" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:gravity="center" -->
+<!--         android:paddingTop="24dip" -->
+<!--         android:paddingLeft="24dip" -->
+<!--         android:paddingRight="24dip" -->
+<!--         android:paddingBottom="80dp" -->
+<!--         android:baselineAligned="true" -->
+<!--         android:layout_alignParentTop="true" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         > -->
+
+<!--         <com.tilltheendwjx.airplus.AirClockTextView -->
+<!--             android:id="@+id/timeDisplay" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:textSize="80dp" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:textColor="?android:attr/textColorPrimary" -->
+<!--             android:layout_marginRight="40dip"/> -->
+
+<!--         <com.tilltheendwjx.airplus.AirClockTextView -->
+<!--             useClockTypeface="false" -->
+<!--             android:id="@+id/am_pm" -->
+<!--             android:layout_width="36dip" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:textStyle="bold" -->
+<!--             android:textSize="20dp" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:layout_alignBaseline="@id/timeDisplay" -->
+<!--             android:textColor="?android:attr/textColorPrimary"/> -->
+
+<!--     </com.tilltheendwjx.airplus.AirDigitalClock> -->
+    <Button
+        android:id="@+id/snooze"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/air_alert_snooze_text" />
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/snooze"
+        android:gravity="center"
+        android:text="@string/air_alert_done_text" />
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_below="@id/done"
+        android:background="@android:drawable/divider_horizontal_dark" />
+
+    <Button
+        android:id="@+id/dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:layout_below="@id/divider"
+        android:text="@string/air_alert_dismiss_text" />
+
+</RelativeLayout>

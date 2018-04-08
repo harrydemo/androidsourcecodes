@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="http_array">
+        <item>查看网页源码</item>
+        <item>查看网页所有图片</item>
+    </string-array>  
+    
+    <string-array name="longpress_array">
+        <item>多页浏览器</item>
+    </string-array>  
+</resources>

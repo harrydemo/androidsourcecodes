@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net
+END
+RequestHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/RequestHeader.java
+END
+RequestTokenHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/RequestTokenHeader.java
+END
+AccessToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/AccessToken.java
+END
+XAuthHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/XAuthHeader.java
+END
+Utility.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/Utility.java
+END
+Weibo.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/Weibo.java
+END
+DialogError.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/DialogError.java
+END
+AccessTokenHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/AccessTokenHeader.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/Token.java
+END
+HttpHeaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/HttpHeaderFactory.java
+END
+WeiboException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/WeiboException.java
+END
+WeiboDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/WeiboDialog.java
+END
+Oauth2AccessToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/Oauth2AccessToken.java
+END
+RequestToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/RequestToken.java
+END
+WeiboParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/WeiboParameters.java
+END
+WeiboDialogListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/WeiboDialogListener.java
+END
+AsyncWeiboRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/AsyncWeiboRunner.java
+END
+Oauth2AccessTokenHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/oschina/android-app.git/!svn/ver/31/tags/v1.7.2/src/com/weibo/net/Oauth2AccessTokenHeader.java
+END

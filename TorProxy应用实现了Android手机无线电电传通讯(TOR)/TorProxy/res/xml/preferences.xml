@@ -1,0 +1,5 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<CheckBoxPreference android:defaultValue="true" android:title="Fast startup" android:key="pref_faststartup" android:summary="Sacrifice some anonymity for faster startup time."></CheckBoxPreference>
+</PreferenceScreen>

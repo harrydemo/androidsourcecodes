@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+/****************************************
+ * 		                       			*
+ *     Copyright 2009 Andrico Team 		*
+ *   http://code.google.com/p/andrico/	*
+ *										*
+ ****************************************/
+	-->
+<resources>
+	<string name="facebook_api_key">afff0131de7f8a7745e0e2ead131d8a4</string>
+	<string name="facebook_secret_key">df8e91ef195387cdb112751fa22b23f3</string>
+
+    <string name="app_name">Andrico</string>
+    <string name="settings">SETTINGS</string>
+    <string name="view_contacts">VIEW CONTACTS</string>
+    <string name="synchronize">SYNCHRONIZE</string>
+    <string name="exit">EXIT</string>
+    <string name="new_profile">CREATE NEW PROFILE</string>
+    <string name="log_in">AUTHORIZE</string>
+	
+	<string name="create_profile">CREATE NEW PROFILE</string>
+	<string name="choose_profile">CHOOSE PROFILE</string>
+	<string name="back">BACK TO MENU</string>
+	<string name="preference_activity_name">PREFERENCES</string>
+<string name="start_synchronization">START SYNCH</string>
+<string name="token_headline">ENTER YOUR TOKEN</string>
+<string name="token_text">&#x2190; HERE IT IS</string>
+<string name="login_label">Getting Authorization Token</string>
+<string name="contacts">Contacts</string>
+<string name="no_number">no phone number</string>
+<string name="no_adress">no adress avaliable</string>
+<string name="notification">&quot;no contacts avaliable&quot;</string>
+<string name="contact_info">Contact Information</string>
+<string name="loading_page">Loading Page</string>
+<string name="maps_key">ABQIAAAAlHXaT1NKk8ZkTHcuuRsSnxSGEeQu9OnMy9FO47fV5cYicWiawhQURLidU7rKQP9jXZSu05jjb1LwNQ</string>
+<string name="clear">DELETE CONTACTS</string>
+</resources>

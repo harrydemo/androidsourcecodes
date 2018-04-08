@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  android:gravity="center"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="20sp"
+    android:text="用户登陆"/>
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+	<TextView  android:gravity="right"
+    android:layout_width="100dp" 
+    android:layout_height="wrap_content" 
+    android:text="用户名："/>
+	<EditText  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/username"/>
+</LinearLayout>
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+	<TextView  android:gravity="right"
+    android:layout_width="100dp" 
+    android:layout_height="wrap_content" 
+    android:text="密码："/>
+    <EditText  android:password="true"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/password"/>
+</LinearLayout>
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+	<Button  android:layout_marginLeft="160px"
+	android:id="@+id/login"
+    android:layout_width="100dp" 
+    android:layout_height="wrap_content" 
+    android:text="登陆"/>
+    <Button  android:id="@+id/reset"
+    android:layout_width="100dp" 
+    android:layout_height="wrap_content" 
+    android:text="重置"/>
+</LinearLayout>
+
+
+</LinearLayout>

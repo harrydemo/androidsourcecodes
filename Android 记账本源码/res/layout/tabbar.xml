@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/contentViewLayout" 
+		android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:layout_marginBottom="57dip"/>
+	<HorizontalScrollView
+    	android:id="@+id/tabBarScroll"
+    	android:scrollbarTrackHorizontal="@drawable/scrollbar_horizontal_track"
+    	android:scrollbarThumbHorizontal="@drawable/scrollbar_horizontal_thumb"
+    	android:scrollbarSize="2dip"
+    	android:layout_alignParentBottom="true" 
+    	android:layout_width="fill_parent"
+    	android:background="@drawable/bottom_bar" android:layout_height="57dip">
+    	<RadioGroup
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:orientation="horizontal"
+        		android:id="@+id/tabBar">
+    	</RadioGroup>
+	</HorizontalScrollView>
+</RelativeLayout>

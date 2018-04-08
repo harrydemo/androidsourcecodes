@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res/com.sordid.angrybowels"
+>
+	<RelativeLayout android:id="@+id/chapter_container" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="20dip"
+	    android:paddingBottom="5dip">
+		<ImageView android:id="@+id/chapter_image" 
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:src="@drawable/large_star"
+			android:layout_marginRight="10dip">
+		</ImageView>	 
+		<TextView android:id="@+id/chapter_text" 
+			style="@style/ChapterLarge"
+			android:layout_toRightOf="@id/chapter_image">
+		</TextView>	 
+		<TextView android:id="@+id/chapter_title" 
+			style="@style/ChapterTitle"
+			android:layout_toRightOf="@id/chapter_text">
+		</TextView>	
+		<TextView android:id="@+id/chapter_stats" 
+			style="@style/ChapterSmall" android:text="0/0 levels completed"
+			android:layout_toRightOf="@id/chapter_image"
+			android:layout_below="@id/chapter_text">
+		</TextView>	 
+	</RelativeLayout>
+</merge>

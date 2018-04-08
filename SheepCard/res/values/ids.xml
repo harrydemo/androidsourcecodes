@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="id" name="adView">false</item>
+    <item type="id" name="card">false</item>
+    <item type="id" name="blackjack_tableLayout">false</item>
+    <item type="id" name="no_card">false</item>
+    <item type="id" name="my_point">false</item>
+    <item type="id" name="again_card">false</item>
+    <item type="id" name="win">false</item>
+    <item type="id" name="win_count">false</item>
+    <item type="id" name="lose">false</item>
+    <item type="id" name="lose_count">false</item>
+    <item type="id" name="max_score">false</item>
+    <item type="id" name="clip_in">false</item>
+    <item type="id" name="money">false</item>
+    <item type="id" name="Blackjack">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="five">false</item>
+    <item type="id" name="ten">false</item>
+    <item type="id" name="twenty">false</item>
+    <item type="id" name="fifty">false</item>
+    <item type="id" name="reset">false</item>
+    <item type="id" name="start">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="prop">false</item>
+    <item type="id" name="restart">false</item>
+    <item type="id" name="help">false</item>
+    <item type="id" name="exit">false</item>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/navigate"
+          android:title="@string/navigate_title" 
+          android:icon="@drawable/ic_menu_navigate">
+    </item>
+    <item android:id="@+id/directions"
+          android:title="@string/directions_title"
+          android:icon="@drawable/ic_menu_directions" android:visible="false" >
+    </item>
+    <item android:id="@+id/map"
+    android:title="@string/map_title"
+    android:icon="@drawable/ic_menu_map"></item>
+    <item android:id="@+id/stop_nav"
+    android:title="@string/stop_nav_title"
+    android:icon="@drawable/ic_menu_close_clear_cancel" android:visible="false"></item>
+    <item android:id="@+id/center"
+          android:title="@string/center_title"
+          android:icon="@drawable/ic_menu_mylocation" >
+    </item>
+    <item android:id="@+id/turnbyturn"
+    	android:title="@string/turnbyturn"
+    	android:icon="@drawable/ic_menu_turnbyturn" android:visible="false" >
+    	</item>
+    <item android:id="@+id/replan"
+          android:title="@string/replan_title"
+          android:icon="@drawable/ic_menu_rotate"
+          android:visible="false" >
+    </item>
+    <item android:id="@+id/showstands"
+          android:title="@string/showstands_title"
+          android:icon="@drawable/ic_menu_stand" >
+    </item>
+    <item android:id="@+id/park"
+          android:title="@string/park_title" 
+          android:icon="@drawable/ic_menu_park">
+    </item>
+    <item android:id="@+id/unpark"
+          android:title="@string/unpark_title" android:visible="false" 
+          android:icon="@drawable/ic_menu_unpark">
+    </item>
+    <item android:id="@+id/prefs"
+    android:title="@string/prefs_title"
+    android:icon="@drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/elevation"
+    android:title="Elevation"
+    android:icon="@drawable/ic_menu_elevation" android:visible="false" ></item>
+    
+
+<group android:id="@+id/cyclestreets" android:visible="false">
+<item android:id="@+id/feedback" android:title="@string/feedback_title"></item>
+</group><item android:id="@+id/sharing" android:visible="false" android:title="@string/sharing_title">
+<menu>
+<item android:id="@+id/share" android:title="Share Route" android:visible="false"></item>
+<item android:title="@string/export_title" android:id="@+id/export"></item>
+<item android:id="@+id/export_gpx" android:title="@string/export_gpx_title"></item>
+</menu>
+</item><item android:id="@+id/save" android:title="@string/save_title" android:visible="false"></item><item android:id="@+id/about" android:icon="@drawable/ic_menu_info_details" android:title="@string/about_menu"></item>
+
+
+</menu>

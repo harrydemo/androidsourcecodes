@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ff545454" android:gravity="center" android:id="@id/tv_msg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="更多"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/footprogress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateBehavior="repeat" style="?android:progressBarStyleSmallInverse" />
+        <TextView android:textColor="#ff000000" android:gravity="left|center" android:padding="3.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="读取中" />
+    </LinearLayout>
+</LinearLayout>

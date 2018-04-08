@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffff" android:scrollbars="vertical">
+	<!-- 标题 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+	<!-- 底部菜单 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+	<LinearLayout android:orientation="vertical" 
+		    		  android:layout_width="wrap_content"
+					  android:layout_height="wrap_content" 
+					  android:layout_above="@id/bottommenu"
+				 	  android:layout_below="@id/title"
+				 	  android:layout_gravity="center"
+				 	  android:paddingLeft="10dip"
+				 	  android:paddingTop="10dip"
+				 	  android:paddingRight="10dip"
+				 	  android:paddingBottom="10dip">
+				 	  <TextView android:id="@+id/suggest_text"
+				 	            android:layout_width="fill_parent"
+				 	            android:layout_height="wrap_content"
+				 	            android:text="@string/suggest_textview"
+				 	            android:textColor="#000000"
+				 	            android:textSize="6pt"
+				 	            />
+				 	            <EditText android:id="@+id/suggest_edit"
+				 	            		  android:layout_width="fill_parent"
+				 	            		  android:layout_height="180dip"
+				 	            		  android:scrollbars="vertical"
+				 	            		  android:gravity="top"
+				 	            		  />
+				 	            		  
+				 	            		  <EditText android:id="@+id/suggest_call"
+				 	            		  			android:layout_width="fill_parent"
+				 	            		  			android:layout_height="wrap_content"
+				 	            		  			android:scrollbars="none"
+				 	            		  			/>
+				 	            		  			<LinearLayout android:orientation="vertical" 
+				 	            		  				android:layout_width="fill_parent"
+				 	            		  				android:layout_height="wrap_content"
+				 	            		  				android:gravity="center"
+				 	            		  				>
+				 	            		  			<ImageButton android:id="@+id/suggest_submit"
+				 	            		  						 android:layout_width="wrap_content"
+				 	            		  						 android:layout_height="wrap_content"
+				 	            		  						 android:background="@drawable/submit"
+				 	            		  						 />
+				 	            		  						 </LinearLayout>
+		 </LinearLayout>
+	<include layout="@layout/common_listview" />
+	
+</RelativeLayout>

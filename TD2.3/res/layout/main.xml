@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_background"
+    >
+    <TextView 
+    	android:gravity="center"
+    	android:layout_width="fill_parent"
+    	android:layout_height="50px"
+    	android:textSize="24px"
+    	android:layout_marginTop="140px"
+    	android:text="Select Map"/>
+<ListView 
+		android:background="@drawable/select_are"
+		android:layout_width="fill_parent"
+		android:layout_height="240px"
+		android:layout_marginLeft="40px"
+		android:layout_marginRight="40px"
+		android:id="@+id/lv_mapList"></ListView>
+</LinearLayout>

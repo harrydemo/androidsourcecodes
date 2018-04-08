@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:adsdk="http://schemas.android.com/apk/res/com.wb.np"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ff1a1a1a">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center_vertical"
+		android:orientation="horizontal" android:id="@+id/layoutEdit"
+		android:background="#FF313031" android:padding="5px">
+		<EditText android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/edit"
+			android:layout_weight="2" android:phoneNumber="true" android:hint="@string/editHint"></EditText>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/bt"
+			android:text="查询" android:layout_weight="0"></Button>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:gravity="center_vertical" android:id="@+id/layoutAdView"
+		android:layout_alignParentBottom="true" android:background="#FFFF0000">
+		<com.wooboo.adlib_android.WoobooAdView
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			adsdk:testing="false" adsdk:backgroundColor="#00000000"
+			adsdk:textColor="#FFFFFFFF" adsdk:refreshInterval="40" />
+	</LinearLayout>
+
+
+	<!--
+		<ImageView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/banner800_80"
+		android:id="@+id/layoutAdView" ></ImageView>
+	-->
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:scrollbars="vertical"
+		android:layout_below="@id/layoutEdit" android:layout_above="@id/layoutAdView">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_margin="10px"
+			android:id="@+id/layoutText" android:orientation="vertical"></LinearLayout>
+	</ScrollView>
+</RelativeLayout>

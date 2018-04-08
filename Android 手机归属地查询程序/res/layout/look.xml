@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:adsdk="http://schemas.android.com/apk/res/com.wb.np"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ff1a1a1a">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:gravity="center_vertical" android:id="@+id/layoutAdView"
+		android:layout_alignParentBottom="true" android:background="#FFFF0000">
+		<com.wooboo.adlib_android.WoobooAdView
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			adsdk:testing="false" adsdk:backgroundColor="#00000000"
+			adsdk:textColor="#FFFFFFFF" adsdk:refreshInterval="40" />
+	</LinearLayout>  
+
+	<ListView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:layout_above="@id/layoutAdView" android:id="@+id/savingList"></ListView>
+</RelativeLayout>

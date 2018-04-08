@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu   xmlns:android="http://schemas.android.com/apk/res/android">   
+   <item android:id="@+id/item1"        
+         android:title="Item 1"          
+         android:icon="@drawable/icon"          
+         android:checkable="true"        
+         android:checked="false" />  
+  <group android:id="@+id/group_1"      
+         android:checkableBehavior="single">         
+        <item android:id="@+id/group_item1"         
+              android:title="Item 1 in group"
+              android:icon="@drawable/menu_btn_back"/>        
+        <item android:id="@+id/group_item2"               
+              android:title="Item 2 in group"   
+              android:checked="true" />    
+  </group>       
+         <item android:id="@+id/submenu"           
+               android:title="Sub Menu"/>        
+         <item android:id="@+id/item3"       
+               android:title="item 3"          
+               android:checkable="true"          
+               android:checked="true" />  
+ </menu> 

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim
+END
+slide_in_up.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/slide_in_up.xml
+END
+gd_rack.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_rack.xml
+END
+gd_grow_from_topright_to_bottomleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_grow_from_topright_to_bottomleft.xml
+END
+gd_grow_from_topleft_to_bottomright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_grow_from_topleft_to_bottomright.xml
+END
+gd_grow_from_bottomright_to_topleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_grow_from_bottomright_to_topleft.xml
+END
+gd_grow_from_bottomleft_to_topright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_grow_from_bottomleft_to_topright.xml
+END
+translucent_zoom_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/translucent_zoom_in.xml
+END
+gd_grow_from_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_grow_from_top.xml
+END
+translucent_zoom_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/translucent_zoom_out.xml
+END
+gd_grow_from_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_grow_from_bottom.xml
+END
+translucent_zoom_exit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/translucent_zoom_exit.xml
+END
+login_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/login_loading.xml
+END
+gd_shrink_from_topright_to_bottomleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_shrink_from_topright_to_bottomleft.xml
+END
+gd_shrink_from_topleft_to_bottomright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_shrink_from_topleft_to_bottomright.xml
+END
+gd_shrink_from_bottomright_to_topleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_shrink_from_bottomright_to_topleft.xml
+END
+gd_shrink_from_bottomleft_to_topright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_shrink_from_bottomleft_to_topright.xml
+END
+loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/loading.xml
+END
+gd_shrink_from_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_shrink_from_top.xml
+END
+slide_out_down.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/slide_out_down.xml
+END
+gd_shrink_from_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/res/anim/gd_shrink_from_bottom.xml
+END

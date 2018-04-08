@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="hello">程序尚未开始后台运行，请按下按钮开始模拟</string>
+  <string name="app_name">后台运行</string>
+  <string name="str_button1">点击执行前端运算</string>
+  <string name="str_dialog_title">请稍等片刻...</string>
+  <string name="str_dialog_body">正在执行前端运算中...</string>
+  <string name="str_dialog_done">正确执行完毕！</string>
+</resources>

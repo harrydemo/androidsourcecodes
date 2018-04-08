@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.hrw.android.player" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:name="BelmotPlayer">
+	      <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:name=".activity.SplashscreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".activity.HomeActivity"
+			android:label="@string/app_name" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			<!-- Use the uri to lunch this app <a href="com.hrw.android.player:test">click me!</a>
+			<intent-filter>
+			    <data android:scheme="http" android:host="com.hrw.android.player" android:port="3513" />
+				<data android:scheme="com.hrw.android.player" />
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+			</intent-filter>
+			 -->
+          		</activity>
+		<activity android:name=".activity.MenuActivity" />
+		<activity android:name=".activity.MenuListActivity" />
+		<activity android:name=".activity.MusicListActivity" />
+		<activity android:name=".activity.PlayerActivity" android:screenOrientation="portrait"/>
+		<activity android:name=".activity.PlaylistActivity" />
+		<activity android:name=".activity.LocalMusicListActivity" />
+		<activity android:name=".activity.SearchMusicActivity" />
+		
+		<!--
+			<receiver
+			android:name=".broadcastreceiver.UpdateUiBroadcastReceiver">
+			<intent-filter> <action android:name="com.hrw.android.updateui" />
+			</intent-filter> </receiver>
+		-->
+		<provider android:name=".db.DataBaseProvider"
+			android:authorities="com.hrw.android.player.db.databaseprovider" />
+	</application>
+
+
+</manifest> 

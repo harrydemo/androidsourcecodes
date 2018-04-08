@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Layout port 480x320 像素-->
+<TableLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+     
+>
+
+<TableRow>
+<TextView 
+android:id="@+id/_id"
+android:textSize="20dp"
+android:text="  "
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" 
+/>
+
+<TextView 
+android:id="@+id/name"
+android:textSize="15dp"
+
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+
+android:textColor="#000000"
+android:ems="20"
+
+
+/>
+
+
+</TableRow>
+
+<TextView 
+android:id="@+id/tv1"
+android:layout_width="fill_parent"
+android:layout_height="10dp"
+
+android:divider="#00000000" 
+ 
+
+ />
+
+</TableLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:menuCategory="container" android:id="@+id/menu_participants"
+		android:visible="true" android:enabled="true" android:title="@string/menu_participants"
+		android:checkable="false" android:icon="@*android:drawable/ic_menu_allfriends"></item>
+	<item android:menuCategory="container" android:id="@+id/menu_clear"
+		android:visible="true" android:enabled="true" android:title="@string/menu_clear"
+		android:checkable="false" android:icon="@*android:drawable/ic_menu_delete"></item>
+</menu>

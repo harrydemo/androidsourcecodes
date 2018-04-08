@@ -1,0 +1,65 @@
+/*
+  Copyright 2008 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+*/
+
+package com.google.calculator.parser;
+
+import com.google.calculator.tree.*;
+import java_cup.runtime.*;
+import java.util.ArrayList;
+
+parser code {:
+  public static Tree getTree(java.io.InputStream input) throws Exception {
+    parser p = new parser(new Yylex(input));
+    Symbol s = p.parse();
+    return (Tree) s.value;
+  }
+:}
+
+terminal LPAREN, RPAREN, COMMA, PLUS, MINUS, TIMES, DIVIDE, HAT;
+terminal Double NUMBER;
+terminal String LITTERAL;
+
+non terminal Tree expr, func;
+non terminal ArrayList<Tree> args;
+
+precedence left  PLUS, MINUS;
+precedence left  TIMES, DIVIDE;
+precedence left  HAT;
+
+expr ::= expr:el PLUS expr:er
+         {: RESULT=new Addition(el, er); :}
+       | expr:el MINUS expr:er
+         {: RESULT=new Substraction(el, er); :}
+       | expr:el TIMES expr:er
+         {: RESULT=new Multiplication(el, er); :}
+       | expr:el DIVIDE expr:er
+         {: RESULT=new Division(el, er); :}
+       ;
+
+expr ::= NUMBER:n {: RESULT=new TerminalNumber(n); :}
+       | LITTERAL:s {: RESULT=new TerminalVariable(s); :}
+       | LPAREN expr:e RPAREN {: RESULT=e; :}
+       | MINUS expr:e {: RESULT=new Opposite(e); :}
+       | expr:e HAT expr:expo {: ArrayList<Tree> args = new ArrayList<Tree>(); args.add(e); args.add(expo); RESULT=new Function("pow", args); :}
+       | func:f {: RESULT=f; :}
+       ;
+
+func ::= LITTERAL:name LPAREN RPAREN {: RESULT=new Function(name); :}
+       | LITTERAL:name LPAREN args:a RPAREN {: RESULT=new Function(name, a); :}
+       ;
+args ::= expr:e {: ArrayList<Tree> list = new ArrayList<Tree>(); list.add(e); RESULT=list; :}
+       | args:list COMMA expr:e {: list.add(e); RESULT=list; :}
+       ; 

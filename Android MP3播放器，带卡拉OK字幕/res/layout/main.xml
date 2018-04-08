@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:id="@+id/ll_list"
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+	   
+	  <ScrollView 
+	  android:id="@+id/scrollview"  
+	  android:fillViewport="true" 
+      android:layout_height="250px" 
+      android:layout_width="fill_parent"
+      android:scrollbars="vertical"
+      android:background="@drawable/back1"
+	  >
+<!--  
+		<LinearLayout android:id="@+id/LinearLayout" 
+		 android:orientation="vertical"
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content">
+-->
+   	<AbsoluteLayout 
+   	   xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+	
+		 <ImageView 
+		  android:id="@+id/header" 
+		  android:layout_x="0px"
+		  android:layout_y="0px"
+		  android:layout_width="fill_parent"
+		  android:layout_height="180px"
+		  android:src="@drawable/back4" 
+		 />
+		 				 
+	   <com.Aina.Android.ViewlrcKLOK
+        android:id="@+id/lrc_view"
+        android:layout_width="fill_parent"
+        android:layout_height="60px"
+	    android:layout_x="0px"
+	    android:layout_y="180px"
+      />		 
+
+        <TextView
+          android:id="@+id/lrc"  
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content" 
+          android:text="hello"
+         />
+         
+        </AbsoluteLayout>
+	  </ScrollView>
+
+		<ListView android:id="@+id/lv_music" 
+		          android:layout_width="fill_parent"
+			      android:layout_height="180px">
+	   </ListView>
+	   
+	</LinearLayout>
+	<LinearLayout android:id="@+id/ll_btn"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<ImageButton android:id="@+id/imgbtn_last" android:src="@drawable/last"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/imgbtn_start" android:src="@drawable/start"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/imgbtn_pause" android:src="@drawable/pause"
+			android:visibility="gone" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/imgbtn_stop" android:src="@drawable/stop"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/imgbtn_next" android:src="@drawable/next"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+	<TextView android:id="@+id/mTextView" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text=""></TextView>			
+
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/ll_btn"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<SeekBar android:id="@+id/SeekBar01"
+		         android:layout_width="fill_parent"
+			     android:layout_height="wrap_content">
+        </SeekBar>
+	</LinearLayout>
+
+</LinearLayout>

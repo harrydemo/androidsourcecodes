@@ -1,0 +1,16 @@
+UCWEB7.4 界面模仿
+本DEMO借鉴UCWEB界面的Menu菜单和底部菜单样式
+部分图片是解压的UCWEB的资源文件
+本DEMO仅做学习之用
+
+
+注意：DEMO动画未得到解决。
+Popupwindow.setAnimationStyle()方法还不太理解使用，无法使整个PopupWindow界面播放动画效果。
+现在采用折中方法实现了PopupWindow子组件播放效果。
+
+如果各位有改进级意见希望能主动与我交流。
+
+Author:I'am Coffee
+QQ:372911989(加好友：验证Android)
+Email:longkefan@foxmail.com
+2010-10-21

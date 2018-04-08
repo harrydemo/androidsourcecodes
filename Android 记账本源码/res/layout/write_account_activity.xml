@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  	<LinearLayout android:layout_width="fill_parent"
+  				android:layout_height="wrap_content">
+  		<ImageView android:layout_width="wrap_content"
+  				   android:layout_height="wrap_content"
+  				   android:src="@drawable/big_write"/>
+  		<TextView  android:layout_width="fill_parent"
+  				   android:layout_height="wrap_content"
+  				   android:text="@string/writeaccounthelp"
+  				   android:paddingTop="10dip"/>
+  	</LinearLayout>
+  	
+   <RelativeLayout android:layout_width="fill_parent"
+   				   android:layout_height="wrap_content"
+   				   android:layout_marginTop="15dip"
+   				   android:gravity="center_horizontal">
+   		<LinearLayout android:id="@+id/calendar_layout"
+   					  android:layout_width="fill_parent"
+  				      android:layout_height="wrap_content"
+  				      android:gravity="center_horizontal">
+   	   		 <xujun.keepaccount.calendar.CalendarView
+   	    			android:id="@+id/calendar_view"
+  					android:layout_width="150dip"
+  					android:layout_height="35dip"/>
+  		</LinearLayout>
+	  	<Spinner android:id="@+id/spinType"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/calendar_layout"
+	        android:layout_marginTop="10dip"
+	        />
+	
+	  	<LinearLayout
+	  		android:id="@+id/input"
+	  		android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+			android:addStatesFromChildren="true"
+	        android:gravity="center_vertical"
+	        android:paddingRight="2dip"
+	        android:background="@android:drawable/edit_text"
+	        android:layout_below="@id/spinType"
+	        android:layout_marginTop="10dip">
+	          <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="金额:"/>
+	        <EditText
+	        	android:id="@+id/txtMoney"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1" 
+	            android:singleLine="true"
+	        	android:background="@null" 
+	        	android:inputType="numberDecimal"/>
+	       <View 
+	       		android:background="#FF909090" 
+	       		android:layout_width="1dip"
+	       		android:layout_height="fill_parent"/>
+	        <ImageButton
+           		android:id="@+id/btnAddAccount"
+	            android:background="@null"
+	            android:src="@drawable/btn_write"
+	            android:layout_width="40dip"
+	            android:layout_height="wrap_content"/>
+	  	</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

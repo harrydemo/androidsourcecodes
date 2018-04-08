@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/Network
+END
+CommandSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/Network/CommandSender.java
+END
+ICommandSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/Network/ICommandSender.java
+END

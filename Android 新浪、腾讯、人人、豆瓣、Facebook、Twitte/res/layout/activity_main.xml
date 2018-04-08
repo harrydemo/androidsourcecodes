@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_marginTop="10.0dp"
+        android:id="@+id/bind_sina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bind_sina"
+        tools:context=".MainActivity" />
+    
+    <Button
+        android:id="@+id/bind_tencent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bind_tencent"
+        tools:context=".MainActivity" />
+    
+    <Button
+        android:id="@+id/bind_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bind_qq"
+        tools:context=".MainActivity" />
+    
+    <Button
+        android:id="@+id/bind_renren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bind_renren"
+        tools:context=".MainActivity" />
+    
+    <Button
+        android:id="@+id/bind_douban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bind_douban"
+        tools:context=".MainActivity" />
+    
+    <Button
+        android:id="@+id/bind_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bind_facebook"
+        tools:context=".MainActivity" />
+    
+    <Button
+        android:id="@+id/bind_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bind_twitter"
+        tools:context=".MainActivity" />
+    
+    <TextView 
+        android:id="@+id/bind_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

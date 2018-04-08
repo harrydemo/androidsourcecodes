@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="24" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="Grass" tilewidth="20" tileheight="20">
+  <image source="gfx/Grass.png" width="80" height="160"/>
+ </tileset>
+ <tileset firstgid="33" name="Veritcal" tilewidth="32" tileheight="96">
+  <image source="gfx/vertical.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="34" name="horizontal2" tilewidth="192" tileheight="32">
+  <image source="gfx/horizontal2.png" width="192" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1Y2QoCMQyMioiK53rr/3+nk4eClPTYI71wYF66DzvDtGlSomGYgQvH+jwzJV1jsQRXjvUduAc3mbid2Kvx5fJ7As8K/9SGa88yfH6l9Rrg0+76tiad/ZQCQ/zWjJDfK3hLJ0cdIb9P8EU69T8HfH75nB7AI7WTc+iMduCF2sk5pta2mHMIreUcg3/O5eYs9Y32nBOrvYacpTrMunnWMNr79FKl5+y7d4z2vr1jyTmH7tmhvXKpOWv5ZZSYs6ZfRu6c7Xrsm3Xu4IPGz365cpb0/8469tvXG/zQNLOunXOKtztJv7l7UryBxfyrlje8GvAFWpBKoYAWAAA=
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="60" height="24">
+  <properties>
+   <property name="type" value="wall"/>
+  </properties>
+  <object x="20" y="280" width="40" height="180"/>
+  <object x="60" y="420" width="160" height="40"/>
+  <object x="120" y="280" width="100" height="40"/>
+  <object x="180" y="320" width="40" height="100"/>
+  <object x="280" y="0" width="40" height="180"/>
+  <object x="320" y="140" width="40" height="80"/>
+  <object x="360" y="180" width="40" height="80"/>
+  <object x="400" y="220" width="40" height="80"/>
+  <object x="440" y="260" width="40" height="80"/>
+  <object x="480" y="300" width="40" height="80"/>
+  <object x="520" y="340" width="40" height="80"/>
+  <object x="560" y="380" width="40" height="80"/>
+  <object x="600" y="420" width="580" height="40"/>
+  <object x="1140" y="380" width="40" height="40"/>
+  <object x="400" y="0" width="40" height="100"/>
+  <object x="440" y="0" width="640" height="40"/>
+  <object x="140" y="60" width="40" height="160"/>
+ </objectgroup>
+ <objectgroup color="#00ff7f" name="Elements" width="60" height="24">
+  <object name="goal" x="1100" y="380" width="40" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="type" value="goal"/>
+   </properties>
+  </object>
+  <object name="ball" x="80" y="380" width="40" height="40">
+   <properties>
+    <property name="type" value="ball"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="360" y="100">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="760" y="100" width="20" height="20">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="launch" x="640" y="380" width="40" height="40">
+   <properties>
+    <property name="angle" value="65"/>
+    <property name="force" value="150"/>
+    <property name="type" value="launch"/>
+   </properties>
+  </object>
+  <object name="launch" x="860" y="380" width="40" height="40">
+   <properties>
+    <property name="angle" value="65"/>
+    <property name="force" value="150"/>
+    <property name="type" value="launch"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff007f" name="Objects" width="60" height="24">
+  <properties>
+   <property name="type" value="object"/>
+  </properties>
+  <object gid="34" x="980" y="0"/>
+  <object gid="33" x="1140" y="380"/>
+ </objectgroup>
+</map>

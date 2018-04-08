@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="24" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="Grass" tilewidth="20" tileheight="20">
+  <image source="gfx/Grass.png" width="80" height="160"/>
+ </tileset>
+ <tileset firstgid="33" name="Goals" tilewidth="20" tileheight="20">
+  <image source="gfx/Goals.png" width="60" height="60"/>
+ </tileset>
+ <tileset firstgid="42" name="Veritcal" tilewidth="32" tileheight="96">
+  <image source="gfx/vertical.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="43" name="Horizontal" tilewidth="96" tileheight="32">
+  <image source="gfx/horizontal.png" width="96" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Y2wqAIBAFraionrv3/9/ZWSKIaElwEYszMCAqjs/rXBgZzGER+E5qLY0SVrD+WUujgS3sftYihBBCCCGEEELIt5C50NNMSNtPuePTOOdCd2TfclakvWfZ8WnIuofD5XyEk+E/YnV8GnJnhos75p3iCjfDf8TqvDV22uxKzYAWAAA=
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="60" height="24">
+  <properties>
+   <property name="type" value="wall"/>
+  </properties>
+  <object x="1035" y="472" height="1"/>
+  <object x="20" y="400" width="40" height="79"/>
+  <object x="59" y="461" width="80" height="20"/>
+  <object x="138" y="400" width="44" height="82"/>
+  <object x="541" y="400" width="40" height="80"/>
+  <object x="661" y="401" width="38" height="82"/>
+  <object x="577" y="461" width="95" height="18"/>
+  <object x="1077" y="459" width="83" height="21"/>
+  <object x="1040" y="399" width="41" height="81"/>
+  <object x="1161" y="399" width="38" height="79"/>
+  <object x="319" y="-1" width="60" height="62"/>
+  <object x="860" y="0" width="61" height="61"/>
+ </objectgroup>
+ <objectgroup color="#00ff7f" name="Elements" width="60" height="24">
+  <object name="goal" x="1104" y="416" width="33" height="30">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="type" value="goal"/>
+   </properties>
+  </object>
+  <object name="ball" x="86" y="422" width="29" height="27">
+   <properties>
+    <property name="type" value="ball"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="771" y="70">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Teleport" x="360" y="440">
+   <properties>
+    <property name="name" value="target1"/>
+    <property name="target" value="target2"/>
+    <property name="type" value="teleport"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="220" y="100">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Teleport" x="618" y="438">
+   <properties>
+    <property name="name" value="target2"/>
+    <property name="type" value="teleport"/>
+   </properties>
+  </object>
+  <object name="Teleport" x="863" y="441">
+   <properties>
+    <property name="name" value="target3"/>
+    <property name="target" value="target4"/>
+    <property name="type" value="teleport"/>
+   </properties>
+  </object>
+  <object name="Teleport" x="1090" y="69">
+   <properties>
+    <property name="name" value="target4"/>
+    <property name="type" value="teleport"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff007f" name="Objects" width="60" height="24">
+  <properties>
+   <property name="type" value="object"/>
+  </properties>
+  <object gid="42" x="543" y="396"/>
+  <object gid="43" x="1009" y="295"/>
+  <object gid="42" x="661" y="394"/>
+  <object gid="42" x="1043" y="393"/>
+  <object gid="42" x="1161" y="393"/>
+ </objectgroup>
+</map>

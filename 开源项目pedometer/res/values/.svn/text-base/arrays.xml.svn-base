@@ -1,0 +1,66 @@
+<resources>
+    <string-array name="sensitivity_preference">
+        <item>@string/very_high</item>
+        <item>@string/high</item>
+        <item>@string/medium</item>
+        <item>@string/low</item>  
+        <item>@string/very_low</item>  
+    </string-array>
+
+    <string-array name="sensitivity_preference_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>  
+        <item>40</item>  
+        <item>50</item>  
+    </string-array>
+
+    <string-array name="units_preference">
+        <item>@string/units_metric</item>
+        <item>@string/units_imperial</item>
+    </string-array>
+
+    <string-array name="units_preference_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+    <string-array name="exercise_type_preference">
+        <item>@string/exercise_type_running</item>
+        <item>@string/exercise_type_walking</item>
+    </string-array>
+    <string-array name="exercise_type_preference_values">
+        <item>running</item>
+        <item>walking</item>
+    </string-array>
+
+    <string-array name="maintain_preference">
+        <item>@string/maintain_nothing</item>
+        <item>@string/maintain_pace</item>
+        <item>@string/maintain_speed</item>
+    </string-array>
+    <string-array name="maintain_preference_values">
+        <item>none</item>
+        <item>pace</item>
+        <item>speed</item>
+    </string-array>
+
+    <string-array name="speaking_interval_preference">
+        <item>@string/interval_15_seconds</item>
+        <item>@string/interval_30_seconds</item>
+        <item>@string/interval_1_minute</item>
+        <item>@string/interval_2_minutes</item>
+        <item>@string/interval_5_minutes</item>
+        <item>@string/interval_10_minutes</item>
+    </string-array>
+    <string-array name="speaking_interval_preference_values">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+
+</resources>

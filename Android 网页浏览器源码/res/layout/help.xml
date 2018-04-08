@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<ViewFlipper android:id="@+id/vf_help"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+		
+    <TextView android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/preference"></TextView>
+</ViewFlipper>
+
+    <TextView android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text=""/>
+
+    <TextView android:id="@+id/view3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text=""/>
+
+</FrameLayout>
+

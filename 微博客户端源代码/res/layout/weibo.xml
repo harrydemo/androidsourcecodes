@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	>
+	<ImageView android:id="@+id/wbicon" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/usericon"
+		android:layout_margin="8px">
+	</ImageView>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:paddingLeft="0px" android:paddingRight="5px"
+		android:layout_marginTop="5px" android:layout_marginBottom="5px">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/wbuser" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="15px"
+				android:textColor="#424952" android:layout_alignParentLeft="true">
+			</TextView>
+			<ImageView android:id="@+id/wbimage" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="3px"
+				android:layout_marginRight="5px" android:layout_toLeftOf="@+id/wbtime">
+			</ImageView>
+			<TextView android:id="@+id/wbtime" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true" android:textColor="#f7a200"
+				android:textSize="12px">
+			</TextView>
+		</RelativeLayout>
+		<TextView android:id="@+id/wbtext" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#424952"
+			android:textSize="13px" android:layout_marginTop="4px">
+		</TextView>
+	</LinearLayout>
+</LinearLayout>

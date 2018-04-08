@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/setcolor"
+android:title="@string/setcolor"
+/>
+ <item android:id="@+id/setbright"
+android:title="@string/setbright"
+ />
+<item android:id="@+id/seteffer"
+android:title="@string/seteffer"
+ />
+ <item android:id="@+id/about"
+android:title="@string/about"
+ />
+</menu>

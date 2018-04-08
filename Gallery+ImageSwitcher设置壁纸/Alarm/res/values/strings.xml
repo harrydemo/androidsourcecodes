@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">AlarmApp</string>
+    <string name="alarm_list">日期提醒</string>
+    <string name="not_dbcursor_values">数据库中没有值，请设置你的闹钟。。。。</string>
+    <string name="str_isopen_text">是否开启闹钟</string>
+    <string name="str_title1">设置闹钟</string>
+    <string name="str_button1">设置时间</string>
+    <string name="str_default">目前无设置</string>
+       <string name="str_add">添加提醒</string>
+    <string name="repeat_button">设置重复</string>
+    <string name="alert_dialog_ok">确定</string>
+	<string name="alert_dialog_cancel">取消</string>
+	<string name="alarm_dialog_title">闹钟设置</string>
+	<string name="alert_dialog_multi_choice">重复闹钟设置</string>
+	<string name="alarm_time_come">日期提醒</string>
+	<string name="alarm_delete1">提醒1删除成功！</string>
+	<string name="alarm_delete2">提醒2删除成功！</string>
+	<string name="alarm_set2">提醒2时间为：</string>
+	<string name="not_time_right">闹钟时间设置不对，请选择周几重复！</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string name="hello">Hello World, MagicTower!</string>
+    	<string name="app_name">《莫塔》</string>	
+	<string name="about">关于\n为了学习Android游戏开发，我们选择了这个当年在各个平台上封魔全球的经典游戏《莫塔》，包括了地图、主角、音效、存档等功能。谢谢使用！</string>
+	<string name="help">帮助\n游戏的操作非常简单，使用方向键可以行走，遇到怪物会自动攻击，但如果无法赢得战斗，英雄就不会进行攻击。游戏中还会遇到很多宝物，而且有其使用说明和介绍。祝您早日救出美丽的公主！</string>
+</resources>

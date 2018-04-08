@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/head"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip" >
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/back"
+                android:gravity="center"
+                android:text="返回"
+                android:textColor="@color/color_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="相机胶卷"
+                android:textColor="@color/color_white"
+                android:textSize="20dip" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/graview_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="360dip"
+        android:orientation="vertical" >        
+                <GridView
+                    android:id="@+id/chose_picture_grid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"     
+                    android:horizontalSpacing="6dip"
+                    android:verticalSpacing="6dip"                                
+                    android:fadingEdge="none"
+                    android:gravity="center"                   
+                    android:numColumns="4"                  
+                    android:scrollbars="vertical"                   
+                   >
+                </GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/midle_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chosepicbg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/chose_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:gravity="center"
+                android:text="当前选中0张"
+                android:textColor="@color/color_white" />
+
+            <TextView
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/chosepic"
+                android:gravity="center"
+                android:text="开始拼图"
+                android:textColor="@color/color_white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/graview_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       	<HorizontalScrollView 
+   		android:id="@+id/galleryScroll"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="none"
+		android:focusable="false"
+		android:layout_alignParentBottom="true"		
+		>
+		<FrameLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:focusable="false"
+			>
+			<LinearLayout 
+				android:layout_width="770dp"
+				android:layout_height="wrap_content" 
+				android:orientation="horizontal"
+				android:focusable="false"
+				>
+				<GridView android:id="@+id/Gallery" 
+					android:layout_width="fill_parent"
+					android:gravity="center" 
+					android:layout_height="wrap_content"
+					android:horizontalSpacing="1.0dip" 					
+					android:stretchMode="spacingWidthUniform" 
+					android:numColumns="auto_fit"
+					android:columnWidth="80dip"
+					android:focusable="false"
+					>
+				</GridView>
+
+			</LinearLayout>
+		</FrameLayout>
+	</HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>

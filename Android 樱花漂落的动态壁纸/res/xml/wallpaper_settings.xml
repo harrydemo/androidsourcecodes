@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="livewallpaper_settings"
+    android:title="设置" >
+
+    <CheckBoxPreference
+        android:key="livewallpaper_movement"
+        android:summary="动态描述"
+        android:summaryOff="静止测试"
+        android:summaryOn="动态测试"
+        android:title="动态标题" />
+
+</PreferenceScreen>

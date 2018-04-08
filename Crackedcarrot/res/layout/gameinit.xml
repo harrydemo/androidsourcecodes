@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	android:id="@+id/relLay1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#00000000"
+	xmlns:android="http://schemas.android.com/apk/res/android"> 
+	
+	<com.crackedcarrot.SurfaceView
+		android:id="@+id/surface_view"
+		android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content">
+	</com.crackedcarrot.SurfaceView>
+	
+	<com.crackedcarrot.ExpandMenu
+		android:id="@+id/expandable_menu"
+		android:layout_width="fill_parent" 
+	    android:layout_height="100dp" 
+	    android:gravity="top|center_horizontal"
+	    android:layout_alignParentBottom="true"
+	    android:background="#55007700"
+	    android:visibility="gone">
+	    
+	    <Button
+       		android:id="@+id/less_health"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:text="100"
+			android:gravity="bottom|center"
+			android:background="@drawable/xml_multi_lifetap" />
+       		
+       	<Button
+       		android:id="@+id/enemy_fast"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:text="40"
+			android:gravity="bottom|center"
+       		android:background="@drawable/xml_multi_enchantcreep" />
+       		
+       	<Button
+       		android:id="@+id/destroy_tower"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:text="200"
+			android:gravity="bottom|center"
+       		android:background="@drawable/xml_multi_destroy" />
+       		
+       	<Button
+       		android:id="@+id/make_elemental"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:text="20"
+			android:gravity="bottom|center"
+       		android:background="@drawable/xml_multi_random" />
+       		
+       	<Button
+       		android:id="@+id/make_shield"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:text="50"
+			android:gravity="bottom|center"
+       		android:background="@drawable/xml_multi_shield" />
+       		
+    </com.crackedcarrot.ExpandMenu>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#00000000"
+        android:layout_alignParentBottom="true">
+        
+       	<Button
+       		android:id="@+id/forward"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:visibility="gone"
+			android:gravity="bottom|center"
+       		android:background="@drawable/xml_button_forward" />
+
+       	<Button
+       		android:id="@+id/play"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:visibility="gone"
+			android:gravity="bottom|center"
+       		android:background="@drawable/xml_button_play" />
+       		
+       	<Button
+       		android:id="@+id/expand_menu"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:visibility="gone"
+			android:gravity="bottom|center"
+       		android:background="@drawable/xml_multi_expand" />
+
+        <Button
+       		android:id="@+id/t1"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:gravity="bottom|center"
+       		android:background="@drawable/t1" />
+        		
+        <Button
+       		android:id="@+id/t2"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:gravity="bottom|center"
+       		android:background="@drawable/t2" 
+       	/>
+        		
+        <Button
+       		android:id="@+id/t3"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:gravity="bottom|center"
+       		android:background="@drawable/t3" />
+	
+        <Button
+       		android:id="@+id/t4"
+			android:layout_width="64dp"
+			android:layout_height="50dp"
+			android:scaleType="fitXY"
+			android:gravity="bottom|center"
+       		android:background="@drawable/t4" />
+    
+		<LinearLayout
+			android:layout_width="256dp"
+			android:layout_height="50dp"
+			android:id="@+id/ttext"
+			android:gravity="center_horizontal"
+			android:background="#00000000"
+	    	android:visibility="gone">
+	        <Button
+	       		android:id="@+id/t1info"
+				android:layout_width="192dp"
+				android:layout_height="50dp"
+				android:scaleType="fitXY"
+	       		android:background="@drawable/t1_info" />
+	        <Button
+	       		android:id="@+id/t2info"
+				android:layout_width="192dp"
+				android:layout_height="50dp"
+				android:scaleType="fitXY"
+	       		android:background="@drawable/t2_info" />
+	        <Button
+	       		android:id="@+id/t3info"
+				android:layout_width="192dp"
+				android:layout_height="50dp"
+				android:scaleType="fitXY"
+	       		android:background="@drawable/t3_info" />
+	        <Button
+	       		android:id="@+id/t4info"
+				android:layout_width="192dp"
+				android:layout_height="50dp"
+				android:scaleType="fitXY"
+	       		android:background="@drawable/t4_info" />
+
+	        <Button
+        		android:id="@+id/inmenu6"
+				android:layout_width="64dp"
+				android:layout_height="50dp"
+				android:scaleType="fitXY"
+        		android:background="@drawable/xml_button_game_back" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/upgrade_layout"
+			android:visibility="gone"
+			android:background="@drawable/upgradeback"
+			android:layout_height="50dp"
+			android:layout_width="fill_parent">
+
+			<LinearLayout
+				android:layout_height="50dp"
+				android:layout_weight="2"
+				android:layout_width="fill_parent">
+
+				<Button
+	   	    		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+	     	  		android:id="@+id/sell"
+					android:gravity="bottom|center"
+	     	  		android:background="@drawable/xml_upgrade_sell" />
+		     	  	
+	   	    	<Button
+	   	    		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:gravity="bottom|center"
+					android:background="@drawable/xml_upgrade_lvl2"
+	     	  		android:id="@+id/upgrade_lvl2" />
+	       		
+	    	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"
+					android:gravity="bottom|center"
+	    	   		android:background="@drawable/xml_upgrade_lvl3"
+	     	  		android:id="@+id/upgrade_lvl3" />
+		     	  		
+	    	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_fire1"
+	       			android:id="@+id/upgrade_fire1" />       		
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_fire2"
+	       			android:id="@+id/upgrade_fire2" />       		
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_fire3"
+	       			android:id="@+id/upgrade_fire3" />
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_fire4"
+	       			android:id="@+id/upgrade_fire4" />
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_fire5"
+	       			android:id="@+id/upgrade_fire5" />
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_frost1"
+	       			android:id="@+id/upgrade_frost1" />       	  	
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_frost2"
+	       			android:id="@+id/upgrade_frost2" />
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_frost3"
+	       			android:id="@+id/upgrade_frost3" />       	  	
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_frost4"
+	       			android:id="@+id/upgrade_frost4" />       	  	
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_frost5"
+	       			android:id="@+id/upgrade_frost5" />       	  	
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_poison1"
+	       			android:id="@+id/upgrade_poison1" />       	  	
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_poison2"
+	       			android:id="@+id/upgrade_poison2" />       	  	
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_poison3"
+	       			android:id="@+id/upgrade_poison3" />
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_poison4"
+	       			android:id="@+id/upgrade_poison4" />
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_poison5"
+	       			android:id="@+id/upgrade_poison5" />
+	     	   	<Button
+	     	  		android:layout_width="48dp"
+					android:layout_height="fill_parent"
+					android:scaleType="fitXY"
+					android:visibility="gone"				
+					android:gravity="bottom|center"
+	       			android:background="@drawable/xml_upgrade_special"
+	       			android:id="@+id/upgrade_special" />		       			
+
+
+			   <LinearLayout
+			   	android:id="@+id/towerstats"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:gravity="center_vertical|right"
+				android:background="#00000000"
+   				android:orientation="vertical"
+   				    >
+
+			   <LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+			       <ImageView
+				       	android:id="@+id/sword"
+						android:layout_width="18dp" 
+						android:layout_height="18dp"
+						android:src="@drawable/sword" >
+					</ImageView>
+
+					<TextView
+						android:textColor="#000000"
+						android:textStyle="bold"
+						android:textSize="12sp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/towerDamage"
+						android:paddingRight="4dp"						>
+					</TextView>
+
+				</LinearLayout>
+
+			   <LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+				>
+
+			       <ImageView
+				       	android:id="@+id/icon_fire"
+						android:layout_width="18dp" 
+						android:layout_height="18dp"
+						android:src="@drawable/icon_fire" >
+					</ImageView>
+			       <ImageView
+				       	android:id="@+id/icon_frost"
+						android:layout_width="18dp" 
+						android:layout_height="18dp"
+						android:src="@drawable/icon_frost" >
+					</ImageView>
+			       <ImageView
+				       	android:id="@+id/icon_poison"
+						android:layout_width="18dp" 
+						android:layout_height="18dp"
+						android:src="@drawable/icon_poison" >
+					</ImageView>
+			       <ImageView
+				       	android:id="@+id/icon_special"
+						android:layout_width="18dp" 
+						android:layout_height="18dp"
+						android:src="@drawable/icon_special" >
+					</ImageView>
+
+					<TextView
+						android:textColor="#000000"
+						android:textStyle="bold"
+						android:textSize="12sp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/towerSpecial"
+						android:paddingRight="4dp"
+						>
+					</TextView>
+
+			       <ImageView
+				       	android:id="@+id/icon_lvl"
+						android:layout_width="18dp" 
+						android:layout_height="18dp"
+						android:src="@drawable/icon_lvl" >
+					</ImageView>
+					<TextView
+						android:textColor="#000000"
+						android:textStyle="bold"
+						android:textSize="12sp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingRight="4dp"
+						android:id="@+id/towerLvl">
+					</TextView>
+
+
+				</LinearLayout>
+				</LinearLayout>
+
+	       	</LinearLayout>       	  	
+     	  	<Button
+     	  		android:layout_width="90dp"
+     	  		android:layout_weight="1"
+				android:layout_height="50dp"
+				android:scaleType="fitXY"
+				android:gravity="bottom|center"
+      	 		android:background="@drawable/xml_button_game_back"
+       			android:id="@+id/close_upgrade" />
+
+		</LinearLayout>    		
+
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:id="@+id/status_menu"
+		android:layout_width="fill_parent"
+		android:layout_height="25dp"
+		android:gravity="right|center_vertical"
+		android:background="#00000000"
+		android:visibility="invisible"
+        android:layout_alignParentTop="true">
+
+		<TextView
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:textSize="12sp"
+			android:layout_width="50dp" 
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			android:layout_gravity="left|center_vertical" 
+			android:paddingLeft="5dp"
+			android:id="@+id/scoreCounter"
+			>
+		</TextView>
+      
+        <ImageView
+        	android:id="@+id/coin"
+			android:layout_width="16dp" 
+			android:layout_height="16dp"
+			android:paddingRight="3dp"
+			android:src="@drawable/dollar" >
+		</ImageView>
+		
+		<TextView
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:textSize="12sp"
+			android:id="@+id/currency"
+			android:paddingRight="7dp"
+			android:layout_width="40dp"
+			android:layout_height="wrap_content" >
+		</TextView>
+
+	    <LinearLayout
+	    	android:id="@+id/healt_part"
+			android:layout_width="47dp"
+			android:layout_height="wrap_content"
+			android:gravity="left|center_vertical"
+			android:background="#00000000"
+	        android:layout_alignParentTop="true">
+
+	        <ImageView
+	        	android:id="@+id/heart"
+				android:layout_width="16dp" 
+				android:layout_height="16dp"
+				android:src="@drawable/carrot" >
+			</ImageView>
+		
+			<TextView
+				android:textColor="#000000"
+				android:textStyle="bold"
+				android:textSize="12sp"
+				android:id="@+id/playerHealth"
+				android:paddingLeft="3dp"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" >
+			</TextView>
+
+	    </LinearLayout>
+
+	    <LinearLayout
+	    	android:id="@+id/creature_part"
+			android:layout_width="140dp"
+			android:layout_height="wrap_content"
+			android:gravity="right|center_vertical"
+			android:background="#00000000"
+	        android:layout_alignParentTop="true">
+
+	        <TextView
+				android:textColor="#000000"
+				android:textStyle="bold"
+				android:textSize="12sp"
+				android:id="@+id/lvlNumber"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:paddingRight="5dp"
+				 >
+			</TextView>
+
+	        <ImageView
+				android:id="@+id/enemyImVi"
+				android:paddingTop="0dp"
+				android:layout_width="22dp" 
+				android:layout_height="22dp"
+				android:src="@drawable/mrrabbit" >
+			</ImageView>
+
+	        <TextView
+				android:textColor="#000000"
+				android:textStyle="bold"
+				android:textSize="12sp"
+				android:id="@+id/nrEnemyLeft"
+				android:gravity="right"
+	        	android:paddingRight="2dp"
+				android:layout_width="18dp" 
+				android:layout_height="wrap_content" >
+			</TextView>
+					        
+	        <ProgressBar 
+	        	android:id="@+android:id/health_progress"
+	        	android:progressDrawable="@drawable/xml_healthbar"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	style="?android:attr/progressBarStyleHorizontal"
+	        	android:paddingRight="5dp"
+	        	android:paddingLeft="2dp" />
+
+			
+	    </LinearLayout>
+	    <LinearLayout
+	    	android:id="@+id/counter"
+			android:layout_width="140dp"
+			android:layout_height="wrap_content"
+			android:gravity="right|center_vertical"
+			android:background="#00000000"
+			android:visibility="gone"
+	        android:layout_alignParentTop="true">
+
+	        <TextView
+				android:textColor="#000000"
+				android:textStyle="bold"
+				android:textSize="12sp"
+				android:id="@+id/countertext"
+				android:gravity="left"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:paddingRight="10dp"
+				>
+			</TextView>
+			
+	    </LinearLayout>	    
+
+    </LinearLayout>
+  
+</RelativeLayout>

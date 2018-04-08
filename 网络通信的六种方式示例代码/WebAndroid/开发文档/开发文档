@@ -1,0 +1,44 @@
+1.IBM的这篇文章讲的还不错哈：
+	http://www.ibm.com/developerworks/cn/xml/x-dataAndroid/index.html
+
+3.把从数据库中取出来的数据放到XML文件中	
+	http://wenwen.soso.com/z/q103178220.htm	
+	
+	我是想吧第一个方法里里面的返回值。StreamResult或者Document直接用返回值的方式。在第二个方法里面获取。
+	直接发送出去。。StreamResult我不知道怎么转换，但是w3c里面的Document转化成为dom4j的Docuemnt的时候会报错。。
+	我在想另外一种方法。用原始数据可以生成xml文件。不知道可以不可以也生成一个xml格式的String字符串。这样返回一个String就不会出现转化的问题了
+ 
+	直接在response中生成XML数据：http://wangqiaowqo.iteye.com/blog/393617
+	
+	
+2.这家伙高手：
+	http://icekirin.com/wordpress/?p=161#comments
+
+json-default:
+http://blog.csdn.net/huoyanxueren/article/details/3119829
+
+
+
+json-default其实也是最终继承struts-default的 json-plugn中struts-plugn.xml源码如下
+
+<struts>
+    <package name="json-default" extends="struts-default">
+        <result-types>
+            <result-type name="json" class="org.apache.struts2.json.JSONResult"/>
+        </result-types>
+        <interceptors>
+            <interceptor name="json" class="org.apache.struts2.json.JSONInterceptor"/>
+        </interceptors>
+    </package>
+</struts>
+这里你可以看到这个json-default是干了什么事情，无非就是：
+1 加了个名为json的result类型
+2 加了一层名为json的拦截器
+所以 对于你的问题，可以说 不继承json-default  ，可以，但是你必须在你的struts.xml中添加一个resultType 也就是在你的struts.xml 的<struts>节点下添加以下内容：
+    <result-types>
+            <result-type name="json" class="org.apache.struts2.json.JSONResult"/>
+       </result-types>
+----这里的name就按照你喜欢的取了 也就是你的第二个问题^ ^
+然后在你配置的拦截器声明中加上
+            <interceptor name="json" class="org.apache.struts2.json.JSONInterceptor"/>
+也就是json拦截器的声明，接下来再在你的default-stack-ref（或者其他拦截器引用的地方）引用这个名字为json的拦截器就可以了 搞定 收工~

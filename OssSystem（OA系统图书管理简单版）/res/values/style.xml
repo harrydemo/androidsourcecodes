@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="fillparent">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="wrapparent">
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="width_fillparent">
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="height_fillparent">
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="btnpadding_left">
+        <item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:paddingLeft">15dp</item>
+    </style>
+    <style name="linearlayout_margin">
+    	<item name="android:layout_marginBottom">5dp</item>
+    	<item name="android:layout_marginLeft">10dp</item>
+    	<item name="android:layout_marginRight">10dp</item>
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="text_margin">
+    	<item name="android:layout_marginLeft">5dp</item>
+    	<item name="android:layout_marginTop">8dp</item>
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:textColor">#ffffff</item>
+    </style>
+</resources>

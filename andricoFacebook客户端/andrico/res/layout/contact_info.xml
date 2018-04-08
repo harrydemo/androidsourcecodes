@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+ /*************************************************************************** 
+ *              Copyright (C) 2009 Andrico Team                             * 
+ *              http://code.google.com/p/andrico/                           *
+ *                             												*
+ * Licensed under the Apache License, Version 2.0 (the "License");			*
+ * you may not use this file except in compliance with the License.			*
+ * 																			*	
+ * You may obtain a copy of the License at 									*
+ * http://www.apache.org/licenses/LICENSE-2.0								*
+ *																			*
+ * Unless required by applicable law or agreed to in writing, software		*
+ * distributed under the License is distributed on an "AS IS" BASIS,		*
+ *																			*
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.	*
+ * See the License for the specific language governing permissions and		*
+ * limitations under the License.											*
+ ****************************************************************************/
+
+	-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#30567D">
+		
+		
+		<LinearLayout  android:id="@+id/mainLayout"
+			android:orientation="vertical"
+			android:layout_height="fill_parent" 
+			android:layout_width="fill_parent"
+			android:background="#30567D" 
+			>
+		
+				<TextView android:id="@+id/name" 
+					android:text="Mr Smith" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:textSize="24px" 
+					android:textStyle="bold" 
+					android:layout_gravity="center_horizontal" 
+					android:textColor="#FFFFFF"  
+					android:layout_marginTop="10px"/>
+		
+				<TextView android:id="@+id/url" 
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content" 
+					android:gravity="center_vertical|center_horizontal" 
+					android:textSize="1px" 
+					android:visibility="invisible"/>
+				
+				<ImageView android:id="@+id/photo" 
+					android:layout_height="wrap_content" 
+					android:src="@drawable/no_photo" 
+					android:layout_width="wrap_content" 
+					android:background="#30567D" 
+					android:minWidth="100px" 
+					android:minHeight="100px"
+					android:maxHeight = "100px"
+					android:maxWidth = "100px" android:layout_gravity="top|center_horizontal"/>				
+				
+				
+			<LinearLayout  android:orientation="horizontal"
+				android:layout_height="fill_parent" 
+				android:layout_width="fill_parent"
+				android:background="#30567D"
+				layout_weight="0" android:layout_marginLeft="5px">
+				
+				
+					
+				<LinearLayout  android:orientation="vertical"
+					android:layout_height="wrap_content" 
+					android:layout_width="fill_parent"
+					android:background="#30567D"
+					layout_weight="0" android:layout_marginLeft="5px">
+					
+						<LinearLayout  android:orientation="horizontal"
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:background="#30567D" android:layout_marginTop="15px">
+				
+								<TextView android:text="birthday: "
+									android:layout_marginTop="15px"   
+									android:layout_width="wrap_content" 
+									android:layout_height="wrap_content"
+									android:textSize="18px" 
+									android:textStyle="bold" 
+									android:layout_gravity="left" 
+									android:textColor="#FFFFFF"/>
+				
+								<TextView android:id="@+id/date"  
+									android:text="25 june, 2898 "
+						 			android:layout_width="wrap_content" 
+						 			android:textSize="18px" 
+						 			android:textStyle="bold" 
+						 			android:layout_gravity="left" 
+						 			android:layout_height="wrap_content" 
+						 			android:textColor="#FFFFFF" 
+						 			android:layout_marginTop="15px" />				
+						</LinearLayout>		
+						
+						<LinearLayout  android:orientation="horizontal"
+							android:layout_width="wrap_content" 
+							android:layout_height="fill_parent"
+							android:background="#30567D">
+						
+								<TextView android:text="address: "  
+						  			android:layout_width="wrap_content"
+						  			android:textSize="18px" 
+						  			android:textStyle="bold" 
+						  			android:layout_gravity="left" 
+						  			android:layout_height="wrap_content" 
+						  			android:textColor="#FFFFFF" 
+						  			android:layout_marginTop="10px"/>
+							
+								<TextView android:id="@+id/adress"
+									android:text="Russia, Moscow"  
+						  			android:layout_width="wrap_content" 
+						  			android:textSize="18px" 
+						  			android:textStyle="bold" 
+						  			android:layout_gravity="left" 
+						  			android:layout_height="wrap_content" 
+						  			android:textColor="#FFFFFF" 
+						  			android:layout_marginTop="10px" android:layout_marginLeft="7px"/>
+						</LinearLayout>
+				</LinearLayout>
+		</LinearLayout>
+		
+				<LinearLayout  android:orientation="vertical"
+					android:layout_width="fill_parent"
+					layout_weight="0"  
+					android:layout_height="wrap_content" 
+					android:background="@drawable/back_small" android:minHeight="140px">
+				
+						<Button android:id="@+id/goToAdress" 
+							android:width="300px" 
+							android:layout_width="fill_parent" 
+							android:layout_height="wrap_content" 
+							android:text="SHOW ADRESS ON MAP" 
+							android:textStyle="bold" 
+							android:drawableLeft="@android:drawable/ic_menu_mapmode" 
+							android:height="55px" 
+							android:textSize="18px" 
+							android:enabled="false" android:layout_marginTop="15px" android:layout_marginRight="10px" android:layout_marginLeft="10px"/>
+				
+						<Button android:id="@+id/page" 
+							android:width="300px" 
+							android:layout_width="fill_parent" 
+							android:layout_height="wrap_content" 
+							android:text="no url" 
+							android:textSize="18px" 
+							android:textStyle="bold" 
+							android:drawableLeft="@android:drawable/ic_menu_crop" 
+							android:height="55px" 
+							android:layout_marginTop="5px" android:layout_marginRight="10px" android:layout_marginLeft="10px"/>
+				</LinearLayout>
+			
+		</LinearLayout>
+</ScrollView>

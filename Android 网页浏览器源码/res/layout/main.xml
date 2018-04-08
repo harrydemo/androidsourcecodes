@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="50px"
+	android:orientation="vertical"
+	android:layout_x="4px"
+	android:layout_y="8px">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<EditText
+			android:id="@+id/edit_1"
+			android:layout_width="270px"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+			android:ellipsize="end"
+			android:lines="1">
+		</EditText>
+		<ImageButton
+			android:id="@+id/button_1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/go">
+		</ImageButton>
+	</LinearLayout>
+</LinearLayout>
+
+<ViewFlipper android:id="@+id/vf"
+		android:layout_width="fill_parent" android:layout_height="305px">
+<WebView android:id="@+id/wv1"
+            android:layout_height="305px"
+            android:layout_width="fill_parent"
+            />
+</ViewFlipper>
+
+<LinearLayout
+	android:layout_width="312px"
+	android:layout_height="54px"
+	android:orientation="vertical"
+	android:layout_x="4px"
+	android:layout_y="310px">
+	<LinearLayout
+		android:layout_width="307px"
+		android:layout_height="47px">
+		<ImageButton
+			android:id="@+id/back_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/back">
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/forward_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/forward">
+		</ImageButton>
+		<ImageButton
+			android:id="@+id/menu_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/menu">
+		</ImageButton>
+	</LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

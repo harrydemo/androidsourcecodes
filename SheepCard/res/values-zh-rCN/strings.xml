@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <string name="app_name">21点</string>
+    <string name="start">买定离手，开始下注</string>
+    <string name="max_score">最高分:</string>
+    <string name="clip_in">下注:</string>
+    <string name="money">金钱:</string>
+    <string name="win">赢:</string>
+    <string name="lose">输:</string>
+    <string name="wager">您已下注</string>
+    <string name="unit">￥</string>
+    <string name="no_money">您没有Money了,请重新开始进行充值!</string>
+    <string name="little_money">钱不够了!</string>
+    <string name="lack_money">一次解决问题，全压上!</string>
+    <string name="again">再来一次</string>
+    <string name="exit">退出</string>
+    <string name="no_card">不要</string>
+    <string name="again_card">再来一张</string>
+    <string name="player_point">您当前的点数为:</string>
+    <string name="blackjack">Blackjack</string>
+    <string name="banker">庄家</string>
+    <string name="player">您</string>
+    <string name="alertdialog_title">结果</string>
+    <string name="max_card">拿到了王牌!</string>
+    <string name="burst">爆了!</string>
+    <string name="who_win">赢了!</string>
+    <string name="equal">你们打平了!</string>
+    <string name="point">点</string>
+    <string name="max_clip_in">小赌怡情,大赌..........!</string>
+    <string name="count_unit">个</string>
+    <string name="you_nb">您是牛人，玩到顶峰了!数据清空，让你再牛！</string>
+    <string name="menu_prop">props </string>
+    <string name="menu_restart">重新开始</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_exit">退出</string>
+    <string name="help_title">帮助</string>
+    <string name="play_game">开始游戏</string>
+    <string name="help_message"> 21点，比大小，玩的开心 </string>
+    <string name="zc">Plutus operator</string>
+    <string name="gain_zc">you got a plutus operator!</string>
+    <string name="use_zc">you have used the plutus operator,adding 1000Y to you account!</string>
+    <string name="test"></string>
+    <string name="toast">那里，曾经到过，而今，将在何方，岁月的风霜冲刷我们的脸庞，而我，一直都在你触手可及的地方</string>
+    <string name="banker_desk_point">庄家的台面分:</string>
+    <string name="double_score_button">加注开牌</string>
+    <string name="thank_you">thank you for join the game,best wishes!</string>
+</resources>

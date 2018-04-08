@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:kg="http://schemas.android.com/apk/res/com.kugou.android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/search_bar_item" />
+            <include layout="@layout/common_listview" />
+        </LinearLayout>
+        <!--  
+        <include android:layout_gravity="center" android:id="@+id/loading_bar" android:layout_centerHorizontal="true" layout="@layout/loading_layout" />
+        <include android:layout_gravity="center" android:id="@+id/refresh_bar" android:layout_centerHorizontal="true" layout="@layout/refresh_layout" />
+        -->
+    </FrameLayout>
+</LinearLayout>

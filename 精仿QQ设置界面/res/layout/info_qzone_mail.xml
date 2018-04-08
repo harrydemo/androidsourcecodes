@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+	android:orientation="vertical" 
+	android:id="@+id/info_qzone_mail" 
+	android:background="@drawable/shape_bg" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:layout_marginLeft="10.0dip" 
+	android:layout_marginTop="10.0dip" 
+	android:layout_marginRight="10.0dip"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+  	
+    <LinearLayout 
+    android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:id="@+id/qzone" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50.0dip">
+    
+        <ImageView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10.0dip" 
+        android:src="@drawable/friend_info_qzone" />
+        
+        <TextView 
+        android:textSize="18.0sp" 
+        android:textColor="#ff545454" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10.0dip" 
+        android:text="查看空间" 
+        android:layout_weight="1.0" />
+        
+        <ImageView 
+        android:layout_width="12.0dip" 
+        android:layout_height="12.0dip" 
+        android:layout_marginRight="10.0dip" 
+        android:src="@drawable/into_icon" />
+        
+    </LinearLayout>
+    
+    <View 
+    android:background="@drawable/shape_line" 
+    android:layout_width="fill_parent" 
+    android:layout_height="1.0px" />
+    
+    <LinearLayout 
+    android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:id="@+id/mail" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50.0dip">
+    
+        <ImageView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10.0dip" 
+        android:src="@drawable/friend_info_mail"/>
+        
+        <TextView 
+        android:textSize="18.0sp"
+        android:textColor="#ff545454" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10.0dip" 
+        android:text="发送邮件" 
+        android:layout_weight="1.0" />
+        
+        <ImageView 
+        android:layout_width="12.0dip" 
+        android:layout_height="12.0dip" 
+        android:layout_marginRight="10.0dip" 
+        android:src="@drawable/into_icon" />
+        
+    </LinearLayout>
+    
+    <View
+    android:background="@drawable/shape_line" 
+    android:layout_width="fill_parent" 
+    android:layout_height="1.0px" />
+    
+    <LinearLayout 
+    android:id="@+id/chat"
+    android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:clickable="true" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50.0dip">
+    
+        <ImageView 
+        android:layout_width="45dp" 
+        android:layout_height="45dp" 
+        android:layout_marginLeft="15.0dip" 
+        android:src="@drawable/dialogue_icon" />
+        
+        <TextView 
+        android:textSize="18.0sp" 
+        android:textColor="#ff545454" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="15.0dip" 
+        android:text="发起聊天" 
+        android:layout_weight="1.0" />
+        
+        <ImageView 
+        android:layout_width="12.0dip" 
+        android:layout_height="12.0dip" 
+        android:layout_marginRight="10.0dip" 
+        android:src="@drawable/into_icon" />
+   </LinearLayout> 
+        
+</LinearLayout>
+

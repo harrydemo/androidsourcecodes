@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<EditText
+	android:id="@+id/start"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="中关村"
+/>
+<EditText
+	android:id="@+id/end"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="西单"
+/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button
+    	android:id="@+id/drive"
+    	android:text="驾车搜索"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    />
+    <Button
+    	android:id="@+id/transit"
+    	android:text="公交搜索"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    />
+    <Button
+    	android:id="@+id/walk"
+    	android:text="步行搜索"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    />
+</LinearLayout>
+ <com.baidu.mapapi.MapView android:id="@+id/bmapView"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	android:clickable="true"     
+	/>
+</LinearLayout>

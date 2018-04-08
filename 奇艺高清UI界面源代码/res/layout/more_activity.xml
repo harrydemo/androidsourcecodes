@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_view" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/account_more_list_text"
+        android:text="@string/setting" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_divide_operate" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/account_more_list_text"
+        android:text="@string/feedback" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_divide_operate" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/account_more_list_text"
+        android:text="@string/help" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_divide_operate" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/account_more_list_text"
+        android:text="@string/about" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_divide_operate" />
+</LinearLayout>

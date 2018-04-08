@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#000">
+	
+	<RelativeLayout 
+	android:layout_width="fill_parent"
+		android:layout_height="70dp">
+		
+		<ImageView 
+		android:id="@+id/ivLogo" 
+		android:src="@drawable/calendar"
+			android:layout_width="48dp" 
+			android:layout_height="48dp"
+			android:layout_margin="10dp" />
+			
+		<LinearLayout 
+		android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_toRightOf="@id/ivLogo"
+			android:layout_marginTop="10dp" 
+			android:orientation="vertical">
+			
+			<TextView android:id="@+id/tvMsg1" 
+			android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:textColor="#FFFF00"
+				android:text="msg1" />
+				
+			<TextView android:id="@+id/tvMsg2" 
+			android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:textColor="#FFFF00"
+				android:text="msg2" />
+				
+			<TextView android:id="@+id/tvMsg3" 
+			android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:textColor="#FFFF00"
+				android:text="msg3" />
+		</LinearLayout>
+	</RelativeLayout>
+
+</LinearLayout>

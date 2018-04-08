@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout
+             android:orientation="vertical" android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:focusable="true" 
+             xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@drawable/mmbj">
+             
+             <TextView
+             
+             android:text="@string/app_contact"
+             android:textSize="25.0sp"
+             android:textColor="#000000"
+             android:gravity="center"
+             
+
+             style="@style/layout_vertical"
+             android:layout_weight="1"
+          
+             ></TextView>     
+             
+             <TextView
+             
+             android:text="@string/address"
+             android:textSize="15.0sp"
+              android:textColor="#000000"
+             android:autoLink = "map"
+
+             style="@style/layout_vertical"
+             android:layout_weight="1"
+             
+             ></TextView>     
+
+ 
+
+<TextView
+             
+             android:text="@string/QQ"
+            android:textSize="15.0sp"
+             android:textColor="#000000"
+             
+
+             style="@style/layout_vertical"
+             android:layout_weight="1"
+           
+             ></TextView>    
+             <TextView
+             
+             android:text="@string/TEL"
+             android:textSize="15.0sp"
+              android:textColor="#000000"
+             android:autoLink = "phone"
+
+             style="@style/layout_vertical"
+             android:layout_weight="1"
+            
+             ></TextView>   
+              <TextView
+             
+             android:text="@string/TEL2"
+             android:textSize="15.0sp"
+              android:textColor="#000000"
+             android:autoLink = "phone"
+
+             style="@style/layout_vertical"
+             android:layout_weight="1"
+            
+             ></TextView> 
+             <TextView
+             
+             android:text="@string/HTTP1"
+              android:textSize="15.0sp"
+               android:textColor="#000000"
+            android:autoLink = "web"
+             style="@style/layout_vertical"
+             android:layout_weight="1"
+            
+             ></TextView>    
+
+             <TextView
+             
+             android:text="@string/HTTP2"
+             android:textSize="15.0sp"
+              android:textColor="#000000"
+            android:autoLink = "web"
+
+             style="@style/layout_vertical"
+             android:layout_weight="1"
+            
+             ></TextView>    
+              <TextView
+             
+             android:text="@string/Time"
+             android:textSize="15.0sp"
+              android:textColor="#000000"
+            android:autoLink = "web"
+
+             style="@style/layout_vertical"
+             android:layout_weight="1"
+            
+             ></TextView> 
+
+
+</LinearLayout>

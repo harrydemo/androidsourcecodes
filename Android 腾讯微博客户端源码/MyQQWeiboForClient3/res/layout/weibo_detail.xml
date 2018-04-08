@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget28"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="#ffffffff"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:id="@+id/show_top" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:background="#c7cbd6" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+		<ImageView android:id="@+id/show_headicon" android:layout_marginLeft="8.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_alignParentLeft="true"/>
+		<TextView android:id="@+id/show_nick" android:layout_marginLeft="5.0dip" android:layout_width="wrap_content" android:layout_toRightOf="@id/show_headicon" android:textColor="#384050"
+			android:layout_height="wrap_content"/>
+		<TextView android:id="@+id/show_email" android:layout_width="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/show_headicon" android:textColor="#687888"
+			android:layout_height="wrap_content" android:layout_below="@id/show_nick"/>
+		<Button android:id="@+id/to_userinfo_btn" android:layout_width="wrap_content" android:background="@drawable/arrow_more_info_selector"
+			android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/show_top" android:paddingTop="5.0dip">
+		<TextView android:id="@+id/show_origtext" android:layout_width="fill_parent" android:layout_marginLeft="5.0dip" android:textSize="16.0sp" android:textColor="#707878"
+			android:layout_height="wrap_content"/>
+		<ImageView android:id="@+id/show_image" android:visibility="gone" android:layout_centerInParent="true" android:layout_below="@id/show_origtext" android:layout_width="fill_parent" android:layout_height="120.0dip"/>
+		<TextView android:id="@+id/show_count_mcount" android:layout_below="@id/show_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18.0sp" android:textColor="#1d5884"/>
+		<TextView android:id="@+id/show_time" android:layout_width="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:textSize="12.0sp"
+			android:layout_height="wrap_content" android:layout_below="@id/show_count_mcount"/>
+		<TextView android:id="@+id/show_from" android:layout_width="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="10.0dip" android:textSize="12.0sp"
+			android:layout_height="wrap_content" android:layout_below="@id/show_count_mcount" android:layout_toRightOf="@id/show_time"/>
+		<Button android:id="@+id/show_star_btn" android:layout_width="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginTop="10.0dip"
+			android:layout_height="wrap_content" android:background="@drawable/btn_fav" android:layout_below="@id/show_count_mcount" android:layout_alignParentRight="true"/>
+		<ImageView android:id="@+id/show_delete" android:src="@drawable/delete" android:layout_width="wrap_content" android:layout_marginRight="3.0dip" android:layout_marginTop="10.0dip" android:visibility="invisible" android:layout_height="wrap_content" android:layout_below="@id/show_count_mcount" android:layout_toLeftOf="@id/show_star_btn"/>
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+		<Button android:id="@+id/show_back_btn" android:layout_width="40.0dip" android:drawableTop="@drawable/btn_back_selector" android:background="@drawable/bottom_back_bg"
+			android:layout_height="40.0dip"  android:layout_alignParentLeft="true"/>
+		<LinearLayout  android:layout_width="wrap_content" android:layout_height="wrap_content"	android:layout_marginLeft="70.0dip">
+			<include android:id="@+id/weibo_detail_bottom_bar" layout="@layout/weibodetail_bottombar_3"/>
+		</LinearLayout>
+		<Button android:id="@+id/show_tohome_btn" android:layout_width="40.0dip"
+			android:layout_height="40.0dip" android:drawableTop="@drawable/btn_home_selector" android:background="@drawable/bottom_home_bg" android:layout_alignParentRight="true"/>
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HexagonAnimation!</string>
+    <string name="app_name">Hexagon</string>
+    <string name="test_name">Test</string>
+    <string name="hexagon_layout_text_text"></string>
+    <string name="test"></string>
+</resources>

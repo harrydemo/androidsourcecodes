@@ -1,0 +1,7 @@
+<resources>
+<string-array name="profiles">
+<item>off</item>
+<item>on-demand</item>
+<item>always on</item>
+</string-array>
+</resources>

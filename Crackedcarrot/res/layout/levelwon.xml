@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="240dp"
+    android:layout_height="240dp">
+
+ 	<LinearLayout
+    	android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+		<ImageView
+			android:src="@drawable/win"
+			android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+		<TextView
+			android:text="Congratulations!"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+	</LinearLayout>
+	
+ 	<LinearLayout
+    	android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <TextView
+			android:text="You've slain all the vile rabbits and their evil companions and saved your precious carrots!"
+			android:textColor="#000000"
+			android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+	</LinearLayout>
+	
+ 	<LinearLayout
+    	android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <TextView
+			android:text="Score: -"
+			android:id="@+id/LevelWon_Score"
+			android:textColor="#000000"
+			android:textStyle="bold"
+			android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+	</LinearLayout>
+	
+ 	<LinearLayout
+    	android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+	
+		<Button
+			android:text="Yeah!"
+			android:id="@+id/LevelWon_OK"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+	</LinearLayout>
+		
+</LinearLayout>

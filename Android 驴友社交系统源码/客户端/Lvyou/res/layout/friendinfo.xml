@@ -1,0 +1,90 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@drawable/ww1">
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/ImageView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/pagetop"></ImageView>
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<TextView android:text="用户详情：" android:id="@+id/TextView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="19dp" android:layout_marginTop="10dp" android:textColor="#6495ED"
+			android:layout_marginRight="6dp"></TextView>
+		<View android:layout_width="fill_parent" android:layout_height="1dp"
+			android:background="#ffffff" android:layout_marginTop="10dp" ></View>
+		<RelativeLayout android:id="@+id/RelativeLayout01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@drawable/bei1" android:layout_marginLeft="8dp"
+			android:layout_marginTop="20dp">
+			<ImageView android:id="@+id/ImageView02"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/lv6" android:layout_marginLeft="15dp"
+				android:layout_marginTop="15dp"></ImageView>
+			<View android:layout_width="1dp" android:layout_height="200dp"
+				android:background="#ffffff" android:layout_marginLeft="90dp"
+				android:layout_alignRight="@id/ImageView02"
+				android:layout_marginTop="30dp" android:id="@+id/line"></View>
+			<TextView android:text="昵称：" android:id="@+id/TextView02"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="13dp"></TextView>
+			<TextView  android:id="@+id/TextView03" android:layout_toRightOf="@id/TextView02"  android:layout_marginTop="13dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+			<TextView android:text="邮箱：" android:id="@+id/TextView04"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="45dp"></TextView>
+			<TextView  android:id="@+id/TextView05"  android:layout_toRightOf="@id/TextView04" android:layout_marginTop="45dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+				<TextView android:text="性别：" android:id="@+id/TextView06" 
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="75dp"></TextView>
+			<TextView  android:id="@+id/TextView07" android:layout_toRightOf="@id/TextView06" android:layout_marginTop="75dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+				<!--<TextView android:text="年龄：" android:id="@+id/TextView08"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="75dp"></TextView>
+			<TextView  android:id="@+id/TextView09"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+				<TextView android:text="QQ：" android:id="@+id/TextView10"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="95dp"></TextView>
+			<TextView  android:id="@+id/TextView11"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+				<TextView android:text="MSN：" android:id="@+id/TextView12"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="115dp"></TextView>
+			<TextView  android:id="@+id/TextView13"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+				--><TextView android:text="手机：" android:id="@+id/TextView14"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="105dp"></TextView>
+			<TextView  android:id="@+id/TextView15" android:layout_toRightOf="@id/TextView14" android:layout_marginTop="105dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+				<TextView android:text="职业：" android:id="@+id/TextView16"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="135dp"></TextView>
+			<TextView  android:id="@+id/TextView17" android:layout_toRightOf="@id/TextView16" android:layout_marginTop="135dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+				<!--<TextView android:text="兴趣：" android:id="@+id/TextView18"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="175dp"></TextView>
+			<TextView  android:id="@+id/TextView19"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+				--><TextView android:text="所在地：" android:id="@+id/TextView20"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="165dp"></TextView>
+			<TextView  android:id="@+id/TextView21" android:layout_toRightOf="@id/TextView20" android:layout_marginTop="165dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+				<TextView android:text="圈子：" android:id="@+id/TextView22"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="195dp"></TextView>
+			<TextView  android:id="@+id/TextView23" android:layout_toRightOf="@id/TextView22" android:layout_marginTop="195dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+				<TextView android:text="关注点：" android:id="@+id/TextView24"
+				 android:textColor="#6495ED" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:layout_marginTop="225dp"></TextView>
+			<TextView  android:id="@+id/TextView25" android:layout_toRightOf="@id/TextView24" android:layout_marginTop="225dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" ></TextView>
+		</RelativeLayout>
+
+
+	
+
+</LinearLayout>
+
+	</LinearLayout>

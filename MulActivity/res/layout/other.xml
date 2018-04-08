@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  
+  <TextView
+    android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="这是other Activity"
+  	android:id="@+id/result"
+  />
+  
+  <Button 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="关闭Activity"
+    android:id="@+id/button"
+    />
+</LinearLayout>

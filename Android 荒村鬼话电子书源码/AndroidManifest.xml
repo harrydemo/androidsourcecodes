@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sly.android.huangcun.ui"
+    android:versionCode="8"
+    android:versionName="2.6" >
+
+    <uses-sdk android:minSdkVersion="4" />
+  <uses-permission 
+android:name="android.permission.INTERNET"></uses-permission>  
+<uses-permission 
+android:name="android.permission.READ_PHONE_STATE"></uses-permission>  
+<uses-permission 
+android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission> 
+<uses-permission 
+android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>  
+<uses-permission 
+android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission> 
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <meta-data android:name="YOUMI_CHANNEL" android:value="10010"></meta-data>
+        
+        <activity
+            android:name=".MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyListAct"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            ></activity>
+        <activity android:name=".StaringAct"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            ></activity>
+        
+       <activity android:name="net.youmi.android.AdActivity" 
+android:configChanges="keyboard|keyboardHidden|orientation"/>  
+
+ <activity android:name=".MusicManager" />
+    </application>
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+	<drawable name="yellow">#77ffff00</drawable>
+	<drawable name="gray">#ff999999</drawable>
+	<drawable name="white">#ffffffff</drawable>
+	<drawable name="black">#ff000000</drawable>
+	
+	
+	<drawable name="pressed_bk">#ff009999</drawable>
+	<drawable name="selected_bk">#ff660066</drawable>
+	<drawable name="normal_bk">@drawable/white</drawable>
+	<drawable name="pressed_tc">#ff990000</drawable>
+	<drawable name="selected_tc">@drawable/white</drawable>
+	<drawable name="normal_tc">@drawable/black</drawable>
+	
+	
+	<drawable name="screen_background_white">#ffffffff</drawable>
+	<drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="screen_background_blue">#ff009999</drawable>
+    <drawable name="translucent_background">#90000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+</resources>

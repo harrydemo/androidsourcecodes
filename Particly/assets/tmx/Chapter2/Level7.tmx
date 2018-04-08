@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="24" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="Grass" tilewidth="20" tileheight="20">
+  <image source="gfx/Grass.png" width="80" height="160"/>
+ </tileset>
+ <tileset firstgid="33" name="Veritcal" tilewidth="32" tileheight="96">
+  <image source="gfx/vertical.png" width="32" height="96"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1Y2wrCMAytioqK9/vl/7/T9CFQRpMmbRfr2IHzMkLIWdOTbM6NGDImwGkBZ/YlF2EL3AHXCe6Bh0j8xr7kIhyBJ0HcGXhRxEvge8u6P5aK2Lky3jqfBKNeGkPUi34du1dD1OtrWBB1pOrjZpvF+5Ogpt6Vo+dZbG79Qm9Yxx34cPl6taiVTzvXsA/fwI/7P70+zxV4E8aHfYh7FKVXkzcFTq/mzHyeJ/Dl9Hsv7lGUXsxbYy/i9GrOHj2HY8p3Yv7in3Pnr0UtvZxPlu753PlrQb1X9E1r76bQ5xzx9xZ9sxW91LnUQHgXW9ErRc73noVebmcuQU7fW+hFf6vdo9p5He53LfWzpE+xdj+vpf/Cwv2uJb2SfaZbew770PsFGd7eDoAWAAA=
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="60" height="24">
+  <properties>
+   <property name="type" value="wall"/>
+  </properties>
+  <object x="260" y="460" width="200" height="20"/>
+  <object x="20" y="400" width="60" height="40"/>
+  <object x="0" y="40" width="20" height="200"/>
+  <object x="20" y="40" width="320" height="40"/>
+  <object x="220" y="80" width="40" height="240"/>
+  <object x="980" y="220" width="40" height="40"/>
+  <object x="260" y="280" width="40" height="100"/>
+  <object x="980" y="260" width="200" height="60"/>
+  <object x="100" y="280" width="40" height="40"/>
+  <object x="20" y="240" width="120" height="40"/>
+  <object x="80" y="160" width="60" height="80"/>
+  <object x="620" y="80" width="40" height="260"/>
+  <object x="380" y="180" width="160" height="40"/>
+  <object x="460" y="380" width="40" height="100"/>
+  <object x="500" y="440" width="260" height="40"/>
+  <object x="760" y="260" width="40" height="220"/>
+  <object x="180" y="40" width="40" height="100">
+   <properties>
+    <property name="rotate" value="-45"/>
+   </properties>
+  </object>
+  <object x="420" y="400" width="40" height="100">
+   <properties>
+    <property name="rotate" value="45"/>
+   </properties>
+  </object>
+  <object x="240" y="240" width="40" height="60">
+   <properties>
+    <property name="rotate" value="-45"/>
+   </properties>
+  </object>
+  <object x="252" y="40" width="40" height="100">
+   <properties>
+    <property name="rotate" value="35"/>
+   </properties>
+  </object>
+  <object x="260" y="440" width="40" height="20"/>
+  <object x="720" y="340" width="40" height="100"/>
+ </objectgroup>
+ <objectgroup color="#00ff7f" name="Elements" width="60" height="24">
+  <object name="goal" x="420" y="140" width="80" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="type" value="goal"/>
+   </properties>
+  </object>
+  <object name="ball" x="30" y="355" width="40" height="40">
+   <properties>
+    <property name="type" value="ball"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="1100" y="220">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="100" y="100" width="20" height="20">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Launch" x="160" y="420" width="40" height="60">
+   <properties>
+    <property name="angle" value="85"/>
+    <property name="force" value="145"/>
+    <property name="type" value="launch"/>
+   </properties>
+  </object>
+  <object name="Teleport" x="30" y="192" width="40" height="40">
+   <properties>
+    <property name="name" value="teleportAS"/>
+    <property name="target" value="teleportAD"/>
+    <property name="type" value="teleport"/>
+   </properties>
+  </object>
+  <object name="Launch" x="380" y="220" width="80" height="20">
+   <properties>
+    <property name="angle" value="175"/>
+    <property name="force" value="180"/>
+    <property name="type" value="launch"/>
+   </properties>
+  </object>
+  <object name="Teleport" x="1120" y="20" width="40" height="40">
+   <properties>
+    <property name="name" value="teleportAD"/>
+    <property name="type" value="teleport"/>
+   </properties>
+  </object>
+  <object name="Launch" x="900" y="440" width="60" height="40">
+   <properties>
+    <property name="angle" value="110"/>
+    <property name="force" value="170"/>
+    <property name="type" value="launch"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff007f" name="Objects" width="60" height="24">
+  <properties>
+   <property name="type" value="object"/>
+  </properties>
+  <object gid="33" x="300" y="40"/>
+ </objectgroup>
+</map>

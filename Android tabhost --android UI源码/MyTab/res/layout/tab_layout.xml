@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/tablayout"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<TextView android:id="@+id/tab1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="tab1"
+		android:gravity="center" android:lines="1" android:textColor="@android:color/white"
+		android:background="@color/alpha_00"  android:height="20dip"
+		android:freezesText="true"
+		>
+	</TextView>
+
+	<TextView android:id="@+id/tab2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="tab2"
+		android:gravity="center" android:lines="1" android:textColor="@android:color/white"
+		android:background="@color/alpha_00"
+		android:height="20dip"
+		></TextView>
+
+	<TextView android:id="@+id/tab3" android:layout_width="wrap_content" android:height="20dip"
+		android:layout_height="wrap_content" android:text="tab3"
+		android:gravity="center" android:lines="1" android:textColor="@android:color/white"
+		android:background="@color/alpha_00"></TextView>
+
+	<TextView android:id="@+id/tab4" android:layout_width="wrap_content" android:height="20dip"
+		android:layout_height="wrap_content" android:text="tab4"
+		android:gravity="center" android:lines="1" android:textColor="@android:color/white"
+		android:background="@color/alpha_00"></TextView>
+</LinearLayout>

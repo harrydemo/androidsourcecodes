@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/default_bg"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_value"
+        android:layout_width="fill_parent"
+        android:layout_height="160dip"
+        android:layout_margin="5dp"
+        android:gravity="top"
+        android:hint="请输入需要翻译的句子..." >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_type"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/ecbtn" >
+        </ImageButton>
+
+        <Button
+            android:id="@+id/btn_voice"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/voice" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn_tran"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/transbtn" >
+        </Button>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_result"
+        android:layout_width="fill_parent"
+        android:layout_height="160dip"
+        android:layout_margin="5dp"
+        android:editable="false"
+        android:gravity="top"
+        android:hint="翻译后的结果..." >
+    </EditText>
+
+
+
+</LinearLayout>

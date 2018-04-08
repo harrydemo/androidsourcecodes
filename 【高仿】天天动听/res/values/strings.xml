@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我在这，你在哪儿</string>
+      <string name="title_txt01">我的</string>
+       <string name="title_txt02">身边</string>
+        <string name="title_txt03">发现</string>
+         <string name="title_txt04">应用</string>
+
+</resources>

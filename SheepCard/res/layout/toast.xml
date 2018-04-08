@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center" android:background="@drawable/shape"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView android:id="@id/image" android:clickable="true"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:src="@drawable/icon" />
+	<TextView android:textSize="22.0sp" android:textColor="@android:color/black"
+		android:id="@id/text" android:clickable="true" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</LinearLayout>

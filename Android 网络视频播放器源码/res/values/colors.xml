@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义的颜色 -->
+<resources>
+<color name="transparent">#00000000</color>
+<color name="theme_background">#ffecf3f9</color>
+<color name="list_divider">#ffffffff</color>
+<color name="item_name">#ff000000</color>
+<color name="shuo_bg_color">#ffefefef</color>
+<color name="msg_divider">#ffdddddd</color>
+<color name="setting_bg_color">#ffdadada</color>
+<color name="item_text_color">#ff000000</color>  
+<color name="item_color">#ff2d2d2d</color>  
+<color name="black">#ff000000</color>
+ 
+</resources>

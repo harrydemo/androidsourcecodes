@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/centre_bg" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include
+            android:id="@+id/univesity_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/top_1" />
+
+        <RelativeLayout
+            android:id="@+id/u_rl_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/univesity_top"
+            android:background="@drawable/slyday_bg1" >
+
+            <ImageView
+                android:id="@+id/u_slyday_xian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/slyday_xian" />
+
+            <ImageView
+                android:id="@+id/u_logo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/u_slyday_xian"
+                android:background="@drawable/logo2" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/u_logo1"
+                android:layout_below="@+id/u_logo1"
+                android:text="@string/university_info" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/u_lv_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/u_rl_1" >
+        </ListView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <include
+                android:id="@+id/university_bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                layout="@layout/bottom" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/logo" />
+
+</FrameLayout>

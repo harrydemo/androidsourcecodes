@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory 
+    		android:title="@string/settings_category_general"
+            android:key="parent">
+
+        <CheckBoxPreference
+                android:key="show_icon"
+                android:title="@string/settings_show_icon"
+                android:summary="@string/settings_show_icon_summary"
+                android:persistent="false" />
+
+    </PreferenceCategory>
+
+   <PreferenceCategory 
+    		android:title="@string/settings_category_playlist"
+            android:key="playlist">
+	
+	    <Preference
+	            android:key="recent_period"
+	            android:title="@string/settings_recent_period"
+	            android:summary="@string/settings_recent_period_summary"
+	            android:persistent="false" />   
+	</PreferenceCategory>
+	                             
+<!-- 
+
+	    <Preference
+	            android:key="recent_period"
+	            android:dependency="show_icon"
+	            android:title="some other thing"
+	            android:persistent="false" />
+       <PreferenceScreen
+            android:title="@string/radio_controls_title"
+            android:summary="@string/radio_controls_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.WirelessSettings" />
+        </PreferenceScreen>
+-->
+    
+    <PreferenceCategory 
+    		android:title="@string/settings_category_lastfm_scrobbling"
+            android:key="parent">
+
+        <CheckBoxPreference
+                android:key="scrobble_droid"
+                android:title="@string/settings_scrobble_droid"
+                android:summary="@string/settings_scrobble_droid_summary"
+                android:persistent="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+    		android:title="@string/settings_category_look_and_feel"
+            android:key="parent">
+
+        <CheckBoxPreference
+                android:key="show_art_while_scrolling"
+                android:title="@string/settings_show_art_while_scrolling"
+                android:summary="@string/settings_show_art_while_scrolling_summary"
+                android:persistent="false" />
+		<CheckBoxPreference
+                android:key="show_frame"
+                android:title="@string/settings_show_frame"
+                android:summary="@string/settings_show_frame_summary"
+                android:persistent="false" />
+		<CheckBoxPreference
+                android:key="always_landscape"
+                android:title="@string/settings_always_landscape"
+                android:summary="@string/settings_always_landscape_summary"
+                android:persistent="false" />
+		<CheckBoxPreference
+                android:key="auto_rotate"
+                android:title="@string/settings_auto_rotate"
+                android:summary="@string/settings_auto_rotate_summary"
+                android:persistent="false" />
+		<CheckBoxPreference
+                android:key="custom_background"
+                android:title="@string/settings_custom_background"
+                android:summary="@string/settings_custom_background_summary"
+                android:persistent="false" />
+			<Preference
+	                android:key="custom_background_portrait"
+	                android:title="@string/settings_custom_background_portrait"
+	                android:summary="@string/settings_custom_background_portrait_summary"
+	                android:dependency="custom_background"
+	                android:persistent="false" />
+			<Preference
+	                android:key="custom_background_landscape"
+	                android:title="@string/settings_custom_background_landscape"
+	                android:summary="@string/settings_custom_background_landscape_summary"
+	                android:dependency="custom_background"
+	                android:persistent="false" />
+
+    </PreferenceCategory>	
+
+</PreferenceScreen>

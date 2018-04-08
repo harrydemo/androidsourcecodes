@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, NineBox!</string>
+    <string name="app_name">九宫格</string>
+<string name="gridview1">九宫格1</string>
+<string name="gridview2">九宫格2</string>
+<string name="gridview3">九宫格3</string>
+<string name="gridview4">九宫格4</string>
+<string name="gridview5">九宫格5</string>
+<string name="gridview6">九宫格6</string>
+<string name="gridview7">九宫格7</string>
+<string name="gridview8">九宫格8</string>
+<string name="gridview9">九宫格9</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:checkedButton="@+id/lunch"
+        android:id="@+id/menu"
+        >
+        <RadioButton
+            android:text="breakfast"
+            android:id="@+id/breakfast"
+            />
+        <RadioButton
+            android:text="lunch"
+            android:id="@id/lunch" 
+            />
+        <RadioButton
+            android:text="dinner"
+            android:id="@+id/dinner" 
+            />
+        <RadioButton
+            android:text="all"
+            android:id="@+id/all" 
+            />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清除"
+        android:id="@+id/clear" 
+        />
+</LinearLayout>

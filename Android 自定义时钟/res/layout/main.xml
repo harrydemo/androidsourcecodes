@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/analogclock"
+	android:layout_y="10dip"
+	android:gravity="center"
+    />
+<com.sky_dreaming.analogic_clock.view.AnalogClock
+	android:id="@+id/analogclock"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_x="96dip"
+	android:layout_y="20dip"
+/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/timerclock"
+	android:layout_y="140dip"
+	android:gravity="center"
+    />
+<com.sky_dreaming.analogic_clock.view.TimerClock
+	android:id="@+id/timerclock"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_x="96dip"
+	android:layout_y="150dip"
+/>
+
+<AbsoluteLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:layout_y="250dip"
+    >
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/rotate_animation_clock"
+	android:layout_y="26dip"
+	android:gravity="center"
+    />
+	<ImageView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/clock"
+	    android:layout_x="96dip"
+	    android:layout_y="36dip"
+	    android:id="@+id/dial"
+	    ></ImageView>
+	<ImageView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/hands"
+	    android:layout_x="157dip"
+	    android:layout_y="70.6dip"
+	    android:id="@+id/hour_hands"
+	    ></ImageView>
+	<ImageView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/hands"
+	    android:layout_x="157dip"
+	    android:layout_y="66.4dip"
+	    android:id="@+id/minute_hands"
+	    ></ImageView>
+	<ImageView
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/hands"
+	    android:layout_x="157dip"
+	    android:layout_y="62.2dip"
+	    android:id="@+id/second_hands"
+	    ></ImageView>
+	</AbsoluteLayout>
+</AbsoluteLayout>

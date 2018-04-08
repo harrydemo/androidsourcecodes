@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/res/layout
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/res/layout/main.xml
+END
+dialog_cookiesblocked_block.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/res/layout/dialog_cookiesblocked_block.xml
+END
+dialog_cookiesblocked_whitelist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/res/layout/dialog_cookiesblocked_whitelist.xml
+END
+yesnopreference_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/res/layout/yesnopreference_dialog.xml
+END
+dialog_addsite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/res/layout/dialog_addsite.xml
+END
+sitelist_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/res/layout/sitelist_item.xml
+END

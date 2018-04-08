@@ -1,0 +1,225 @@
+package org.loon.framework.android.game.action;
+
+import java.util.HashMap;
+import java.util.LinkedList;
+
+import org.loon.framework.android.game.action.map.AStarFinder;
+import org.loon.framework.android.game.action.map.Field2D;
+import org.loon.framework.android.game.core.LSystem;
+import org.loon.framework.android.game.core.geom.Vector2f;
+import org.loon.framework.android.game.core.graphics.component.Actor;
+import org.loon.framework.android.game.utils.CollectionUtils;
+/**
+ * Copyright 2008 - 2011
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ * 
+ * @project loonframework
+ * @author chenpeng
+ * @email：ceponline@yahoo.com.cn
+ * @version 0.1
+ */
+public class MoveTo extends ActionEvent {
+
+	private final static HashMap<Integer, LinkedList<Vector2f>> pathCache = new HashMap<Integer, LinkedList<Vector2f>>(
+			LSystem.DEFAULT_MAX_CACHE_SIZE);
+
+	private Vector2f startLocation, endLocation;
+
+	private Field2D layerMap;
+
+	private boolean flag;
+
+	private LinkedList<Vector2f> tmp_path;
+
+	private int startX, startY, endX, endY, moveX, moveY;
+
+	private int direction, speed;
+
+	public MoveTo(final Field2D map, int x, int y, boolean flag) {
+		this.startLocation = new Vector2f();
+		this.endLocation = new Vector2f(x, y);
+		this.layerMap = map;
+		this.flag = flag;
+		this.speed = 4;
+	}
+
+	public MoveTo(final Field2D map, Vector2f pos, boolean flag) {
+		this(map, pos.x(), pos.y(), flag);
+	}
+
+	public void onLoad() {
+		if (layerMap == null || original == null) {
+			return;
+		}
+		if (!original.getRectBox().contains(endLocation.x(), endLocation.y())) {
+			synchronized (pathCache) {
+				if (pathCache.size() > LSystem.DEFAULT_MAX_CACHE_SIZE * 10) {
+					pathCache.clear();
+				}
+				int key = hashCode();
+				LinkedList<Vector2f> final_path = pathCache.get(key);
+				if (final_path == null) {
+					final_path = AStarFinder.find(layerMap, layerMap
+							.pixelsToTilesWidth(startLocation.x()), layerMap
+							.pixelsToTilesHeight(startLocation.y()), layerMap
+							.pixelsToTilesWidth(endLocation.x()), layerMap
+							.pixelsToTilesHeight(endLocation.y()), flag);
+					pathCache.put(key, final_path);
+				}
+				tmp_path = new LinkedList<Vector2f>();
+				tmp_path.addAll(final_path);
+			}
+		}
+	}
+
+	public int hashCode() {
+		if (layerMap == null || original == null) {
+			return super.hashCode();
+		}
+		int hashCode = 1;
+		hashCode = LSystem.unite(hashCode, flag);
+		hashCode = LSystem.unite(hashCode, layerMap.pixelsToTilesWidth((int)original
+				.getX()));
+		hashCode = LSystem.unite(hashCode, layerMap
+				.pixelsToTilesHeight((int)original.getY()));
+		hashCode = LSystem.unite(hashCode, layerMap
+				.pixelsToTilesWidth(endLocation.x()));
+		hashCode = LSystem.unite(hashCode, layerMap
+				.pixelsToTilesHeight(endLocation.y()));
+		hashCode = LSystem.unite(hashCode, layerMap.getWidth());
+		hashCode = LSystem.unite(hashCode, layerMap.getHeight());
+		hashCode = LSystem.unite(hashCode, layerMap.getTileWidth());
+		hashCode = LSystem.unite(hashCode, layerMap.getTileHeight());
+		hashCode = LSystem.unite(hashCode, CollectionUtils.hashCode(layerMap
+				.getMap()));
+		return hashCode;
+	}
+
+	public void start(Actor target) {
+		super.start(target);
+		startLocation.set(target.getX(), target.getY());
+	}
+
+	public LinkedList<Vector2f> getPath() {
+		return tmp_path;
+	}
+
+	public int getDirection() {
+		return direction;
+	}
+
+	public Field2D getLayerMap() {
+		return layerMap;
+	}
+
+	public void update(long elapsedTime) {
+		if (layerMap == null || original == null || tmp_path == null) {
+			return;
+		}
+		if (endX == startX && endY == startY) {
+			if (tmp_path.size() > 1) {
+				Vector2f moveStart = (Vector2f) tmp_path.get(0);
+				Vector2f moveEnd = (Vector2f) tmp_path.get(1);
+				startX = layerMap.tilesToWidthPixels(moveStart.x());
+				startY = layerMap.tilesToHeightPixels(moveStart.y());
+				endX = moveEnd.x() * layerMap.getTileWidth();
+				endY = moveEnd.y() * layerMap.getTileHeight();
+				moveX = moveEnd.x() - moveStart.x();
+				moveY = moveEnd.y() - moveStart.y();
+				direction = Field2D.getDirection(moveX, moveY);
+			}
+			tmp_path.remove(0);
+		}
+		switch (direction) {
+		case Field2D.TUP:
+			startY -= speed;
+			if (startY < endY) {
+				startY = endY;
+			}
+			break;
+		case Field2D.TDOWN:
+			startY += speed;
+			if (startY > endY) {
+				startY = endY;
+			}
+			break;
+		case Field2D.TLEFT:
+			startX -= speed;
+			if (startX < endX) {
+				startX = endX;
+			}
+			break;
+		case Field2D.TRIGHT:
+			startX += speed;
+			if (startX > endX) {
+				startX = endX;
+			}
+			break;
+		case Field2D.UP:
+			startX += speed;
+			startY -= speed;
+			if (startX > endX) {
+				startX = endX;
+			}
+			if (startY < endY) {
+				startY = endY;
+			}
+			break;
+		case Field2D.DOWN:
+			startX -= speed;
+			startY += speed;
+			if (startX < endX) {
+				startX = endX;
+			}
+			if (startY > endY) {
+				startY = endY;
+			}
+			break;
+		case Field2D.LEFT:
+			startX -= speed;
+			startY -= speed;
+			if (startX < endX) {
+				startX = endX;
+			}
+			if (startY < endY) {
+				startY = endY;
+			}
+			break;
+		case Field2D.RIGHT:
+			startX += speed;
+			startY += speed;
+			if (startX > endX) {
+				startX = endX;
+			}
+			if (startY > endY) {
+				startY = endY;
+			}
+			break;
+		}
+		original.setLocation(startX, startY);
+	}
+
+	public int getSpeed() {
+		return speed;
+	}
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
+	public boolean isComplete() {
+		return tmp_path == null || tmp_path.size() == 0 || isComplete
+				|| original == null;
+	}
+}

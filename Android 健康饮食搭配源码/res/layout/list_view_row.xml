@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+  android:id="@+id/RelativeLayoutlist1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="?android:attr/listPreferredItemHeight"
+  
+ 
+>
+       <ImageView 
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content" 
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true" 
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/pork" 
+                android:adjustViewBounds="true"
+                android:background="@color/white"
+                android:padding="2dip" 
+                />
+       
+       <TextView 
+                android:id="@+id/TextView02"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ImageView01"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" 
+                android:singleLine="true"
+                android:ellipsize="marquee" 
+                android:text="@+id/item_content"
+                
+                android:textSize="14px" />
+
+         <TextView       
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ImageView01"
+                android:layout_alignParentRight="true" 
+                android:layout_alignParentTop="true"
+                android:layout_above="@id/TextView02"
+                android:layout_alignWithParentIfMissing="true" 
+                android:gravity="center_vertical"
+                android:text="@+id/listitem_title" 
+                android:textSize="22px" 
+                android:textColor="@color/black"
+                 
+                android:drawableRight="@drawable/expand"
+                />
+             <!--     <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/TextView01"
+                android:src="@drawable/expand"
+                ></ImageView>-->
+                
+</RelativeLayout>

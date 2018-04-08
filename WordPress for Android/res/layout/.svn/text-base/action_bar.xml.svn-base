@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.wordpress.android.util.WPTitleBar
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/action_bar"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@android:color/transparent">
+  <RelativeLayout
+    android:id="@+id/actionBarWrapper"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="47dp"
+    android:gravity="left|top"
+    android:background="#C9C9C9">
+    <RelativeLayout
+      android:id="@+id/blogSelector"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:gravity="center_vertical"
+      android:background="@drawable/action_bar_btn_selector"
+      android:layout_marginTop="1px"
+      android:layout_marginRight="95dp"
+      android:padding="0dp">
+      <ImageView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:id="@+id/blavatar_img"
+        android:src="@drawable/wp_logo_home"
+        android:layout_marginLeft="6dp" />
+      <TextView
+        android:text="WordPress"
+        android:id="@+id/blog_title"
+        android:textColor="#FF212121"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#FFFFFFFF"
+        android:shadowDy="-2"
+        android:shadowRadius="2"
+        android:singleLine="True"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_toRightOf="@id/blavatar_img"
+        android:layout_marginLeft="8dp"
+        android:maxWidth="160dp" />
+      <ImageView
+        android:layout_width="14dp"
+        android:layout_height="8dp"
+        android:id="@+id/drop_down_arrow"
+        android:src="@drawable/drop_down_arrow"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent">
+      <ImageButton
+        android:id="@+id/home_small"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:padding="10dp"
+        android:src="@drawable/icon_titlebar_home"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1px"
+        android:layout_marginRight="-1dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/action_bar_btn_selector" />
+
+      <FrameLayout
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:layout_toLeftOf="@id/home_small"
+        android:layout_marginTop="1px"
+        android:layout_marginRight="1dp">
+        <Button
+          android:id="@+id/action_refresh"
+          android:layout_width="47dp"
+          android:layout_height="47dp"
+          android:padding="10dp"
+          android:scaleType="fitCenter"
+          android:background="@drawable/action_bar_btn_selector" />
+        <ImageView
+          android:id="@+id/refresh_icon"
+          android:src="@drawable/icon_titlebar_refresh"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:layout_gravity="top"
+          android:layout_marginTop="8dp"
+          android:layout_marginLeft="8dp" />
+      </FrameLayout>
+    </RelativeLayout>
+  </RelativeLayout>
+  <ImageView
+    android:id="@+id/shadow"
+    android:layout_width="fill_parent"
+    android:layout_height="5dp"
+    android:src="@drawable/title_bar_shadow"
+    android:scaleType="fitXY"
+    android:background="@android:color/transparent"
+    android:layout_marginTop="47dp" />
+
+  <RelativeLayout
+    android:id="@+id/dashboard"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="22dp"
+    android:layout_below="@id/actionBarWrapper"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:visibility="gone"
+    android:background="#88000000">
+    <Button
+      android:id="@+id/dashboard_write_btn"
+      style="@style/DashboardButton"
+      android:text="Write"
+      android:drawableTop="@drawable/dashboard_icon_write"
+      android:background="@drawable/wp_button_dashboard_top_left" />
+    <Button
+  android:id="@+id/dashboard_pages_btn"
+  style="@style/DashboardButton"
+  android:text="@string/tab_pages"
+  android:drawableTop="@drawable/dashboard_icon_pages"
+  android:background="@drawable/wp_button_dashboard"
+  android:layout_toRightOf="@id/dashboard_write_btn" />
+    <Button
+      android:id="@+id/dashboard_comments_btn"
+      style="@style/DashboardButton"
+      android:text="@string/tab_comments"
+      android:drawableTop="@drawable/dashboard_icon_comments"
+      android:background="@drawable/wp_button_dashboard_top_right"
+      android:layout_toRightOf="@id/dashboard_pages_btn" />
+    <Button
+      android:id="@+id/dashboard_posts_btn"
+      style="@style/DashboardButton"
+      android:text="@string/tab_posts"
+      android:drawableTop="@drawable/dashboard_icon_posts"
+      android:background="@drawable/wp_button_dashboard"
+      android:layout_below="@id/dashboard_write_btn" />
+    <Button
+      android:id="@+id/dashboard_picture_btn"
+      style="@style/DashboardButton"
+      android:text="Picture"
+      android:drawableTop="@drawable/dashboard_icon_photo"
+      android:background="@drawable/wp_button_dashboard"
+      android:layout_toRightOf="@id/dashboard_posts_btn"
+      android:layout_below="@id/dashboard_pages_btn" />
+    <Button
+      android:id="@+id/dashboard_video_btn"
+      style="@style/DashboardButton"
+      android:text="Video"
+      android:drawableTop="@drawable/dashboard_icon_video"
+      android:background="@drawable/wp_button_dashboard"
+      android:layout_toRightOf="@id/dashboard_picture_btn"
+      android:layout_below="@id/dashboard_comments_btn" />
+    <Button
+      android:id="@+id/dashboard_settings_btn"
+      style="@style/DashboardButton"
+      android:text="Settings"
+      android:drawableTop="@drawable/dashboard_icon_settings"
+      android:background="@drawable/wp_button_dashboard_bottom_left"
+      android:layout_below="@id/dashboard_posts_btn" />
+    <Button
+      android:id="@+id/dashboard_stats_btn"
+      style="@style/DashboardButton"
+      android:text="Stats"
+      android:drawableTop="@drawable/dashboard_icon_stats"
+      android:background="@drawable/wp_button_dashboard"
+      android:layout_toRightOf="@id/dashboard_settings_btn"
+      android:layout_below="@id/dashboard_picture_btn" />
+    <Button
+      android:id="@+id/dashboard_subs_btn"
+      style="@style/DashboardButton"
+      android:text="About"
+      android:drawableTop="@drawable/dashboard_icon_subs"
+      android:background="@drawable/wp_button_dashboard_bottom_right"
+      android:layout_toRightOf="@id/dashboard_stats_btn"
+      android:layout_below="@id/dashboard_video_btn" />
+    <org.wordpress.android.util.CommentBadgeTextView
+      android:id="@+id/comment_badge"
+      android:layout_width="53dp"
+      android:layout_height="53dp"
+      android:gravity="center"
+      android:layout_marginTop="-15dp"
+      android:layout_marginRight="-15dp"
+      android:text="0"
+      android:textStyle="bold"
+      android:textSize="13dp"
+      android:shadowDy="1"
+      android:shadowRadius="1"
+      android:shadowColor="#FF464646"
+      android:textColor="#FFFFFFFF"
+      android:background="@drawable/comment_badge"
+      android:layout_alignTop="@id/dashboard_comments_btn"
+      android:layout_alignRight="@id/dashboard_comments_btn" />
+  </RelativeLayout>
+</org.wordpress.android.util.WPTitleBar>

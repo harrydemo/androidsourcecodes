@@ -1,0 +1,255 @@
+<root mpb="425.7">
+
+	<pattern id="intro">
+		<rest duration="20" />
+		<rest type="eighth" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<rest type="half" />
+		<rest type="quarter" />
+		<rest type="whole" />
+		<rest type="whole" />
+	</pattern>
+
+	<pattern id="one-hit">
+		<beat type="quarter" />
+		<rest type="quarter" />
+		<rest type="half" /> 
+	</pattern>
+
+	<pattern id="two-hit">
+		<beat type="quarter" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<rest type="half" />
+	</pattern>
+	
+	<pattern id="three-hit">
+		<beat type="quarter" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<rest type="quarter" />
+		<beat type="quarter" />
+	</pattern>
+	
+	<pattern id="four-hit">
+		<beat type="quarter" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+	</pattern>
+	
+	<pattern id="whole-rest">
+		<rest type="whole" />
+	</pattern>
+	
+	<pattern id="whole-hold">
+		<hold type="whole" />
+	</pattern>
+	
+	<pattern id="delay">
+		<rest duration="4" />
+	</pattern>
+	
+	<pattern id="one-and-four">
+		<beat type="quarter" />
+		<rest type="half" />
+		<beat type="quarter" />
+	</pattern>
+	
+	<pattern id="pickup">
+		<rest type="half" />
+		<rest type="eighth" />
+		<rest type="sixteenth" />
+		<beat type="sixteenth" />
+		<rest type="quarter" />
+	</pattern>
+	
+	<pattern id="pickup-hold">
+		<rest type="half" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<hold type="whole" />
+		<rest type="eighth" />
+	</pattern>
+	
+	<pattern id="two-pickup">
+		<rest type="half" />
+		<rest type="quarter" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+	</pattern>
+	
+	<pattern id="three-pickup">
+		<rest type="half" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+	</pattern>
+	
+	<pattern id="three-hold">
+		<beat type="quarter" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<rest type="quarter" />
+		<hold type="whole" />
+		<rest type="quarter" />
+	</pattern>
+	
+	<pattern id="drum-fill1">
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+	</pattern>
+	
+		<pattern id="drum-fill2">
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+	</pattern>
+	
+	<pattern id="post-drum1" >
+		<rest type="half" />
+		<rest type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<rest type="quarter" />		
+		<beat type="eighth" />
+		<beat type="eighth" />
+	</pattern>
+	
+	<pattern id="post-drum2" >
+		<beat type="quarter" />
+		<rest type="half" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<rest type="quarter" />		
+		<beat type="eighth" />
+		<beat type="eighth" />
+	</pattern>
+	
+	<pattern id="four" >
+		<rest type="half" />
+		<rest type="quarter" />
+		<beat type="quarter" />
+	</pattern>
+	
+	<pattern id="three-end" >
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<rest type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+	</pattern>
+	
+	<pattern id="end-pickups" >
+		<rest type="half" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+	</pattern>
+	
+	<pattern id="end" >
+		<beat type="whole" />
+	</pattern>
+
+	<song>
+		<load-pattern id="intro" />
+		<load-pattern id="two-pickup" />
+		<load-pattern id="two-hit" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="two-hit" />
+		<load-pattern id="pickup" />
+		<load-pattern id="two-hit" />
+		<load-pattern id="two-pickup" />
+		<load-pattern id="four-hit" />
+		<load-pattern id="three-pickup" />
+		<load-pattern id="two-hit" />
+		<load-pattern id="whole-rest" />
+
+		<load-pattern id="two-hit" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="two-hit" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="four-hit" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="whole-hold" />
+		<load-pattern id="pickup-hold" />
+		<load-pattern id="whole-rest" />
+
+		<load-pattern id="whole-hold" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="three-hit" />	
+		<load-pattern id="whole-rest" />
+
+		<load-pattern id="whole-hold" />
+		<load-pattern id="pickup-hold" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-hold" />
+		<load-pattern id="two-pickup" />
+		<load-pattern id="three-hit" />
+		<load-pattern id="two-pickup" />
+		<load-pattern id="one-hit" />
+
+		<load-pattern id="whole-rest" />
+		<load-pattern id="drum-fill1" />
+		<load-pattern id="drum-fill2" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="post-drum1" />
+		<load-pattern id="post-drum2" />
+		<load-pattern id="post-drum2" />
+		<load-pattern id="one-and-four" />
+		<load-pattern id="three-hit" />
+		<load-pattern id="four" />
+		<load-pattern id="three-hit" />
+		<load-pattern id="three-end" />
+		<load-pattern id="three-hit" />
+		<load-pattern id="three-end" />
+		<load-pattern id="three-hold" />
+		<load-pattern id="three-hold" />
+		<load-pattern id="three-hold" />
+		<load-pattern id="whole-hold" />
+
+		<load-pattern id="end-pickups" />
+		<load-pattern id="three-hold" />
+		<load-pattern id="three-hold" />
+		<load-pattern id="end" />
+	</song>
+
+</root>

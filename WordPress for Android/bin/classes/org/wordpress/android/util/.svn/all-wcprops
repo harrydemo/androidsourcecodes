@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/293/trunk/src/org/wordpress/android/util
+END
+EscapeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/242/trunk/src/org/wordpress/android/util/EscapeUtils.java
+END
+ImageHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/291/trunk/src/org/wordpress/android/util/ImageHelper.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/242/trunk/src/org/wordpress/android/util/Base64.java
+END
+Entities.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/242/trunk/src/org/wordpress/android/util/Entities.java
+END
+AlertUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/242/trunk/src/org/wordpress/android/util/AlertUtil.java
+END
+CommentBadgeTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/263/trunk/src/org/wordpress/android/util/CommentBadgeTextView.java
+END
+DashboardLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/256/trunk/src/org/wordpress/android/util/DashboardLayout.java
+END
+TrustAllManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/261/trunk/src/org/wordpress/android/util/TrustAllManager.java
+END
+StringHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/242/trunk/src/org/wordpress/android/util/StringHelper.java
+END
+DrawableManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/261/trunk/src/org/wordpress/android/util/DrawableManager.java
+END
+IntHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/242/trunk/src/org/wordpress/android/util/IntHashMap.java
+END
+TrustAllSSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/261/trunk/src/org/wordpress/android/util/TrustAllSSLSocketFactory.java
+END
+WPTitleBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/293/trunk/src/org/wordpress/android/util/WPTitleBar.java
+END
+ConnectionClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/261/trunk/src/org/wordpress/android/util/ConnectionClient.java
+END

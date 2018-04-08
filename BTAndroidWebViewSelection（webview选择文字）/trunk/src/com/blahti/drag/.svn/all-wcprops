@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/src/com/blahti/drag
+END
+DragController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/src/com/blahti/drag/DragController.java
+END
+MyAbsoluteLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/src/com/blahti/drag/MyAbsoluteLayout.java
+END
+DragListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/src/com/blahti/drag/DragListener.java
+END
+DragView.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/src/com/blahti/drag/DragView.java
+END
+DragLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/src/com/blahti/drag/DragLayer.java
+END
+DropTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/src/com/blahti/drag/DropTarget.java
+END
+DragSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/btate/BTAndroidWebViewSelection.git/!svn/ver/1/trunk/src/com/blahti/drag/DragSource.java
+END

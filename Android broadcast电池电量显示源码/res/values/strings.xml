@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  <string name="hello">电池电量</string> 
+  <string name="app_name">电池电量</string>
+  <string name="str_title">如何取得电池计量？</string>
+  <string name="str_button1">取得电池计量</string> 
+  <string name="str_button2">返回</string> 
+  <string name="str_dialog_title">系统信息</string> 
+  <string name="str_dialog_body">电池计量：</string> 
+</resources> 

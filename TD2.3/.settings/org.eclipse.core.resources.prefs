@@ -1,0 +1,11 @@
+#Mon Sep 05 11:25:20 CST 2011
+eclipse.preferences.version=1
+encoding//src/org/iSun/td/MapLayer.java=GBK
+encoding//src/org/iSun/td/Menu.java=GBK
+encoding//src/org/iSun/td/TurrentDefenseActivity.java=GBK
+encoding//src/org/iSun/td/TurretDefense.java=GBK
+encoding//src/org/iSun/td/model/BombTurret.java=GBK
+encoding//src/org/iSun/td/model/BulletTurret.java=GBK
+encoding//src/org/iSun/td/model/Enemy.java=GBK
+encoding//src/org/iSun/td/model/PosionTurret.java=GBK
+encoding//src/org/iSun/td/model/SoundWaveTurret.java=GBK

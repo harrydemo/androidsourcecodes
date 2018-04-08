@@ -1,0 +1,43 @@
+8
+
+dir
+46
+http://coolreader.googlecode.com/svn/trunk/CoolReader/res
+http://coolreader.googlecode.com/svn
+
+
+
+2009-05-24T05:25:03.516972Z
+43
+mawei.81
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+72fe2aae-c5f7-11dd-a86e-7346a4b24aab
+
+values
+dir
+
+drawable
+dir
+
+anim
+dir
+
+raw
+dir
+
+layout
+dir
+

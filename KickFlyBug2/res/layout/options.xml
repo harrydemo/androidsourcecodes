@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+>
+  
+    <LinearLayout 	android:layout_width="fill_parent"
+  					android:layout_height="wrap_content" 
+  					android:gravity="center" 
+  					android:layout_marginTop="15px" 
+  					>
+  		 <TextView android:text="是否支持震动效果" 
+  		 			android:textSize="11pt"
+		  		 	android:gravity="center" 
+		  		 	android:layout_width="wrap_content"
+		  		 	android:paddingRight="38px"
+  					android:layout_height="fill_parent"/>
+  		<ToggleButton
+  				android:id="@+id/virationToggle"
+  				android:textOn="开启"
+  				android:textOff="关闭"
+  				android:textSize="9pt" 
+  				android:layout_width="wrap_content"
+  				android:layout_height="fill_parent"/>
+  	</LinearLayout>
+    <LinearLayout 	android:layout_width="fill_parent"
+  					android:layout_height="wrap_content" 
+  					android:gravity="center"
+  					android:layout_marginTop="15px">
+		<TextView 	android:text="是否支持声音效果" 
+					android:textSize="11pt"
+					android:gravity="center" 
+					android:layout_width="wrap_content"
+  					android:layout_height="fill_parent" 
+  					android:paddingRight="38px"/>
+  		<ToggleButton 	
+  					android:id="@+id/soundToggle"
+  					android:textOn="开启"
+  					android:textOff="关闭"
+  					android:textSize="9pt" 
+  					android:layout_width="wrap_content"
+  					android:layout_height="fill_parent"/>
+  	</LinearLayout>
+  	
+  <TextView android:text="游戏验度设置" 
+  			android:gravity="center" 
+  			android:textSize="11pt"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:layout_marginTop="15px"/>
+  
+ 	<LinearLayout 	android:layout_width="fill_parent"
+  					android:layout_height="wrap_content" 
+  					android:gravity="center"
+  					android:layout_marginTop="25px">
+			<TextView android:text="低" 
+					android:textSize="7pt" 
+					android:gravity="center" 
+					android:layout_width="wrap_content"
+ 					android:layout_height="fill_parent"/>
+  			<SeekBar 
+  					android:id="@+id/sensitivitySeek"
+			  		android:max="10" 
+			  		android:layout_width="150px"
+		  			android:layout_height="fill_parent"
+		  			android:layout_marginLeft="3px"
+		  			android:layout_marginRight="3px"
+		  			/>
+ 			<TextView 	android:text="高" 
+ 					android:gravity="center" 
+ 					android:textSize="7pt" 
+ 					android:layout_width="wrap_content"
+  					android:layout_height="fill_parent"/>
+  	</LinearLayout>
+  
+    <TextView android:text="游戏逼真效果" 
+    			android:textSize="11pt"
+    			android:gravity="center" 
+    			android:layout_width="fill_parent"
+  				android:layout_height="wrap_content"
+  				android:layout_marginTop="10px"/>
+ 	<LinearLayout 	android:layout_width="fill_parent"
+  					android:layout_height="wrap_content" 
+  					android:gravity="center"
+  					>
+			<TextView android:text="快速" 
+					android:gravity="center" 
+					android:textSize="7pt" 
+					android:layout_width="wrap_content"
+ 					android:layout_height="fill_parent"/>
+  			<SeekBar 
+  					android:id="@+id/detailSeek"
+			  		android:max="10" 
+			  		android:layout_width="150px"
+		  			android:layout_height="fill_parent"
+		  			android:layout_marginLeft="3px"
+		  			android:layout_marginRight="3px"
+		  			/>
+ 			<TextView 	android:text="逼真" 
+ 					android:gravity="center" 
+ 					android:textSize="7pt" 
+ 					android:layout_width="wrap_content"
+  					android:layout_height="fill_parent"/>
+  	</LinearLayout>
+  	
+  	<ImageView 	android:id="@+id/optionsSave"
+  				android:src="@drawable/save" 
+			  	android:layout_gravity="center" 
+			  	android:layout_width="wrap_content"
+			 	android:layout_height="wrap_content"
+			 	android:layout_marginTop="10px" 
+			  	android:layout_marginBottom="10px"/>
+  
+  	<ImageView 	android:id="@+id/optionsCancel"
+  				android:src="@drawable/cancel" 
+  				android:layout_gravity="center" 
+ 				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content" />
+</LinearLayout>
+</ScrollView>

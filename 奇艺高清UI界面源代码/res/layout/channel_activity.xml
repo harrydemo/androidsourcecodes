@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_view" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dip" >
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_movie_background" />
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_tv_background" />
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_cartoon_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_fun_background" />
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_video_clips_background" />
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_music_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_qiyi_works_background" />
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_record_background" />
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_tourism_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_publicity_background" />
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_publicity_background"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/channel_type"
+            style="@style/channel_type_style"
+            android:src="@drawable/channel_type_publicity_background"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

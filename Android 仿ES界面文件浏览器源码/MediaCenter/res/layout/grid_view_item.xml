@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:padding="5dip">
+  
+  <ImageView android:id="@+id/ivOfGVItem"
+  android:layout_width="72dip"
+  android:layout_height="72dip"
+  android:layout_centerHorizontal="true"
+  android:scaleType="fitXY"/>
+
+  <TextView
+  android:id="@+id/tvOfGVItem"
+  style="@style/tvInGridView"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_below="@+id/ivOfGVItem"
+  android:layout_centerHorizontal="true"
+  android:background="#00000000"
+  android:lines="2"
+  android:gravity="center"/>
+  
+</RelativeLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--	BROWSING CATEGORIES-->
+	<string name="browse_cat_album">Alba</string>
+	<string name="browse_cat_artists">Interpreti</string>
+	<string name="browse_cat_songs">Skladby</string>
+	
+	<!--	GENERAL STUFF -->
+	<string name="album">Album</string>
+	<string name="albums">Alba</string>
+	
+	
+	<!--	INTRO SCREEN-->
+    <string name="intro_text_1">Rock</string>
+    <string name="intro_text_2">On</string>
+    <string name="intro_text_3">NextGen</string>
+    <string name="app_name">³</string>
+    
+	<!--    ALBUM ART MESSAGES-->
+	<string name="get_art_dialog_title">³ Obrázky alb</string>
+	<string name="get_art_dialog_message">
+		³ může stáhnout chybějící obrázky pro tvoje alba z Internetu. Provést teď? (Stažení bude trvat ~1 min pro 10 alb. Je doporučeno použít Wifi připojení.)
+	</string>
+	<string name="get_art_dialog_yes">Jo!</string>
+	<string name="get_art_dialog_no">Udělám to později.</string>
+	
+	<!--	ART DOWNLOAD MESSAGES-->
+	<string name="art_download_no_inet">Připojení k Internetu není k dispozici!</string>
+	<string name="art_download_progress_title">Stahování obrázků alb</string>
+	<string name="art_download_cancel">Zrušit</string>
+	<string name="art_download_progress_initial_message">Vyhledávání obrázků...</string>
+	
+	<!--	NO SDCARD MESSAGES -->
+	<string name="no_sd_card_dialog_title">Není vložena karta SD!</string>
+	<string name="no_sd_card_dialog_message">Prosím, vlož kartu SD...</string>
+	<string name="no_sd_card_dialog_continue_anyway">Přesto pokračovat</string>
+	<string name="no_sd_card_dialog_exit">Konec</string>
+	<!--	NO MUSIC MESSAGES -->
+	<string name="no_music_dialog_title">Žádná hudba v tomto playlistu!</string>
+	<string name="no_music_dialog_message">Nepodařilo se najít hudbu pro tento seznam skladeb na kartě SD, opakuj akci nebo změň playlist...</string>
+	<string name="no_music_dialog_continue_anyway">Přesto pokračovat</string>
+	<string name="no_music_dialog_exit">Konec</string>
+	
+	<!--	DOWNLOAD CONCERTS APP MESSAGES-->
+	<string name="concert_app_install_dialog_title">Instalovat Concerts³</string>
+	<string name="concert_app_install_dialog_message">Tahle funkce vyžaduje instalaci Concerts³. Chceš to udělat teď?</string>
+	<string name="concert_app_install_dialog_ok">Ano</string>
+	<string name="concert_app_install_dialog_cancel">Ne. Neotravuj!</string>
+	<string name="concert_app_install_no_market_app_msg">Hups! Vypadá to, že nemáš nainstalovaný Market.</string>
+	
+	<!--	DOWNLOAD RELEASES APP MESSAGES-->
+	<string name="releases_app_install_dialog_title">Instalovat Releases³</string>
+	<string name="releases_app_install_dialog_message">Tahle funkce vyžaduje instalaci Releases³. Chceš to udělat teď?</string>
+	<string name="releases_app_install_dialog_ok">Ano</string>
+	<string name="releases_app_install_dialog_cancel">Ne. Neotravuj!</string>
+	<string name="releases_app_install_no_market_app_msg">Hups! Vypadá to, že nemáš nainstalovaný Market.</string>
+	
+	<!--	TOASTER MESSAGES	-->
+	<string name="song_added_to_playlist">Skladba přidána do fronty</string>
+	<string name="song_removed_from_playlist">Skladba odstraněna</string>
+	<string name="album_art_changed">Obrázek alba změněn</string>
+	<string name="playlist_empty_toast">Chyba! Playlist je prázdný!</string>
+	<string name="playqueue_empty_toast">Fronta je prázdná!</string>
+	<string name="not_an_album_toast">Promiň, ale tohle je interpret, ne album!</string>
+	<string name="playlist_queued_toast">Playlist přidána do fronty</string>
+	<string name="generic_error_toast">Chyba!</string>
+	<string name="playlist_deleted_toast">Playlist smazán!</string>
+	<string name="song_deleted_toast">Stopa smazána!</string>
+	
+	<!-- 	SEARCH -->
+	<string name="search_hint">Název skladby nebo interpreta</string>
+	
+	<!--	PLAY QUEUE	-->
+	<string name="play_queue_title">Fronta přehrávání</string>
+	<string name="clear_playlist_dialog_option">Vymazat</string>
+	<string name="create_playlist_dialog_option">Uložit</string>
+	
+	<!--	SONG LISTS MORE RESULTS -->
+	<string name="song_list_more_results">skladeb...</string>
+	
+	<!--	CREATE PLAYLIST DIALOG -->
+	<string name="create_playlist_dialog_title">Název playlistu</string>
+	<string name="create_playlist_dialog_save_option">Uložit</string>
+	<string name="create_playlist_dialog_text_hint">Napiš název playlistu...</string>
+	
+	<!--	DELETE SONG DIALOG	-->
+	<string name="song_delete_confirm_title">Smazat skladbu</string>
+	<string name="song_delete_message">Jsi si jistý, že chceš smazat skladbu? Tato operace je nevratná.</string>
+	<string name="song_delete_positive_button">Ano!</string>
+	<string name="song_delete_negative_button">Ne.</string>
+	
+	<!--	DELETE PLAYLIST DIALOG	-->
+	<string name="playlist_delete_confirm_title">Smazat playlist</string>
+	<string name="playlist_delete_message">Jsi si jistý, že chceš smazat playlist?</string>
+	<string name="playlist_delete_positive_button">Ano!</string>
+	<string name="playlist_delete_negative_button">Ne.</string>
+	
+	<!--	CREATE PLAYLIST TOASTER	-->
+	<string name="create_playlist_toaster_added_part_1">Skladby přidány do playlistu</string>
+	<string name="create_playlist_toaster_failed">Nepodařilo se vytvořit playlist!</string>
+	<string name="create_playlist_toaster_name_required">Název playlistu je povinný...</string>
+	
+	<!--	-->
+	
+	<!--	ALBUM SONG LIST DIALOG -->
+	<string name="album_song_list_play_all">Přehrát vše</string>
+	<string name="album_song_list_queue_all">Vše do fronty</string>
+	
+	<!--	SONG OPTIONS DIALOG	-->
+	<string name="song_option_play_now">Přehrát</string>
+	<string name="song_option_add_to_queue">Přidat do fronty</string>
+	<string name="song_option_delete">Smazat</string>
+	
+	<!--	PLAYLIST OPTIONS DIALOG	-->
+	<string name="playlist_option_play_now">Přehrát</string>
+	<string name="playlist_option_add_to_queue">Přidat do fronty</string>
+	<string name="playlist_option_delete">Smazat</string>
+	
+	<!--	PLAYLIST DIALOG		-->
+	<string name="playlist_dialog_title">Vybrat playlist</string>
+	<string name="playlist_dialog_cancel">Zrušit</string>
+	<string name="playlist_all_title">Přehrát vše</string>
+	<string name="playlist_most_recent_title">Nedávný</string>
+	<string name="playlist_most_played_title">Nejhranější</string>
+	
+	<!-- 	VIEW MODES DIALOG -->
+	<string name="view_mode_cube">³</string>
+	<string name="view_mode_wall">Wall</string>
+	<string name="view_mode_boring">Boring</string>
+	<string name="view_mode_morph">Morph Flow</string>
+	
+	<!-- 	THEMES DIALOG -->
+	<string name="theme_normal">Normální</string>
+	<string name="theme_halftone">Half tone</string>
+	<string name="theme_earthquake">Earthquake</string>
+	
+	<!--	THEME PROCESSING MESSAGES	-->
+	<string name="art_processing_progress_title">Zpracovávání obrázků alb</string>
+	<string name="art_processing_cancel">Zrušit</string>
+	<string name="art_processing_go_background">Pokračovat na pozadí</string>
+	<string name="art_processing_progress_initial_message">Vyhledávání obrázků...</string>
+	
+	<!--    HALF TONE DIALOG -->
+	<string name="half_tone_dialog_title">Schéma Half Tone</string>
+	<string name="half_tone_dialog_message">
+		Half tone vyžaduje zpracování aktuálních obrázků alb. Tato úloha zatěžuje procesor, proto to může chvíli trvat (~1 min na každých 30 alb).
+	</string>
+	<string name="half_tone_dialog_yes">Do toho!</string>
+	<string name="half_tone_dialog_no">Nějaká blbina. Raději pryč!</string>
+	
+	<!--    EARTHQUAKE DIALOG -->
+	<string name="earthquake_dialog_title">Schéma Earthquake</string>
+	<string name="earthquake_dialog_message">
+		Earthquake vyžaduje zpracování aktuálních obrázků alb. Tohle půjde rychle (10s na 100 alb).
+	</string>
+	<string name="earthquake_dialog_yes">Do toho!</string>
+	<string name="earthquake_dialog_no">Nějaká blbina. Raději pryč!</string>
+	
+	
+	<!--	ACTIVITY INTENTS (some of them)-->
+	<string name="main_activity_intent">org.abrantix.rockon.rockonnggl.RockOnNextGenGL</string>
+	
+	<!--	NOTIFICATION STRINGS -->
+	<string name="unknown_album_name">Neznámé album</string>
+	<string name="unknown_artist_name">Neznámý interpret</string>
+	
+	<!-- 	MANUAL ALBUM ART MSGS -->
+	<string name="manual_albumart_error">Chyba</string>
+	<string name="manual_albumart_no_album_specified">Nebylo zadáno album!</string>
+	<string name="manual_albumart_source">Zdroj</string>
+	<string name="manual_albumart_source_local">místní</string>
+	<string name="manual_albumart_source_internet">internet</string>
+	<string name="manual_albumart_resolution_loading">loading...</string>
+	<string name="manual_albumart_resolution_unavailable">nedostupný</string>
+	
+	<string name="manual_input_enable">Manuální vyhledávání</string>
+	<string name="manual_input_artist">Interpret</string>
+	<string name="manual_input_album">Album</string>
+	
+	<!--	DONATE MSG	-->
+	<string name="donate_title">Podpořit</string>
+	<string name="donate_msg">³ je bezplatný, open source hudební přehrávač napsaný v mém volném čase. Pokud se ti líbí, prosím, zvaž darování na podporu dalšího vývoje ³. Můžeš tak učinit pomocí jedné z následujících možností:</string>
+	<string name="donate_using">Darovat přes</string>
+	<string name="donate_back_to_app">Zpět do</string>
+	
+	<!--	UNLOCK SCREEN	-->
+	<string name="unlock_screen">Odemknout</string>
+	
+	<!--	WIDGET STRINGS	-->
+	<string name="widget_app_start">Start ³</string>
+	
+	<!--	BUG REPORTS	-->
+	<string name="bug_report_intro_part_one">Omlouvám se!\n\n3 (Cubed) v</string>
+	<string name="bug_report_intro_part_two">spadl! Pošli, prosím, tento mail, abych mohl analyzovat/opravit problém.\n</string>
+	
+<!--	<string name="bug_report_intro">-->
+<!--		"Sorry!\n\nRockOn v\"-->
+<!--		<xliff:g id="APP_VERSION">%s</xliff:g>-->
+<!--		\" crashed! Please send this mail, so that we can analyze/fix the issue.\n"-->
+<!--	</string>-->
+
+	<!--	DIRECTORY FILTER	-->
+	<string name="directories_on_sdcard">Tvoje karta SD obsahuje následující adresáře:</string>
+	<string name="select_all">Vybrat vše</string>
+	<string name="unselect_all">Zrušit výběr všech</string>
+
+	<!--	GENERIC STUFF -->
+	<string name="ok">OK</string>
+	<string name="back">Zpět</string>
+	<string name="all">Vše</string>
+	<string name="none">Žádný</string>
+	<string name="on">Zap</string>
+	<string name="off">Vyp</string>
+	
+	<string name="genre_prefix">Žánr:</string>
+
+</resources>

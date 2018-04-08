@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/add_air"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            style="@style/air_list_left_column"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:scaleType="center"
+            android:src="@android:drawable/ic_menu_add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:duplicateParentState="true"
+            android:text="@string/add_air"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="?android:attr/textColorPrimary" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/divider_horizontal_dark" />
+
+    <ListView
+        android:id="@+id/airs_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/divider_horizontal_dark" />
+	<Button
+	    android:id="@+id/set_air_mode"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/air_on"/>
+</LinearLayout>

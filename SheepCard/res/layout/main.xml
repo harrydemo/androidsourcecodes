@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/Blackjack"
+	android:background="@drawable/background" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/com.lequ.Blackjack"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<net.youmi.android.AdView android:id="@id/adView"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		umadsdk:backgroundColor="#ff808080" umadsdk:textColor="#ffffffff"
+		umadsdk:backgroundTransparent="155" />
+	<TextView android:id="@id/message" android:textSize="24.0sp"
+		android:text="@string/start" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:gravity="center_horizontal"
+		android:textColor="@drawable/text_color"
+		android:layout_alignParentLeft="true"></TextView>
+
+	<RelativeLayout android:id="@+id/relativeLayout3"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="center_horizontal" android:layout_marginTop="10.0px"
+		android:layout_weight="1.5">
+		<ImageButton android:id="@id/five" android:src="@drawable/selector_five"
+			android:clickable="true" android:layout_height="wrap_content"
+			android:layout_marginTop="10.0px"
+			android:background="@drawable/image_button_background"
+			android:layout_width="wrap_content"></ImageButton>
+		<ImageButton android:id="@id/ten" android:src="@drawable/selector_ten"
+			android:clickable="true" android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/five" android:layout_marginLeft="10.0px"
+			android:background="@drawable/image_button_background"
+			android:layout_alignBaseline="@id/five" android:layout_width="wrap_content"></ImageButton>
+		<ImageButton android:id="@id/twenty" android:src="@drawable/selector_twenty"
+			android:clickable="true" android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/ten" android:layout_alignBaseline="@id/ten"
+			android:layout_marginLeft="10.0px" android:background="@drawable/image_button_background"
+			android:layout_width="wrap_content"></ImageButton>
+		<ImageButton android:id="@id/fifty" android:src="@drawable/selector_fifty"
+			android:clickable="true" android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/twenty" android:layout_alignBaseline="@id/twenty"
+			android:layout_marginLeft="10.0px" android:background="@drawable/image_button_background"
+			android:layout_width="wrap_content"></ImageButton>
+		<ImageButton android:id="@id/reset" android:layout_below="@id/ten"
+			android:src="@drawable/selector_reset" android:clickable="true"
+			android:layout_marginTop="20.0px" android:layout_height="wrap_content"
+			android:layout_alignLeft="@id/five" android:background="@drawable/image_button_background"
+			android:layout_width="wrap_content"></ImageButton>
+		<ImageButton android:id="@id/start" android:layout_below="@id/twenty"
+			android:src="@drawable/selector_start" android:clickable="true"
+			android:layout_marginTop="20.0px" android:layout_height="wrap_content"
+			android:layout_alignLeft="@id/twenty" android:visibility="invisible"
+			android:background="@drawable/image_button_background"
+			android:layout_width="wrap_content"></ImageButton>
+	</RelativeLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_marginTop="20.0px" android:layout_weight="1.0">
+		<RelativeLayout android:id="@+id/relativeLayout2"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:gravity="bottom" android:layout_weight="1.0">
+			<TextView android:id="@id/win" android:textSize="20.0sp"
+				android:text="@string/win" android:layout_alignParentBottom="true"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:textColor="@drawable/text_color"></TextView>
+			<TextView android:id="@id/win_count" android:text="TextView"
+				android:layout_toRightOf="@id/win" android:textSize="20.0sp"
+				android:layout_alignParentBottom="true" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:textColor="@drawable/text_color"></TextView>
+			<TextView android:id="@id/lose" android:layout_toRightOf="@id/win_count"
+				android:layout_marginLeft="4.0dip" android:textSize="20.0sp"
+				android:text="@string/lose" android:layout_alignParentBottom="true"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:textColor="@drawable/text_color"></TextView>
+			<TextView android:id="@id/lose_count" android:text="TextView"
+				android:layout_toRightOf="@id/lose" android:textSize="20.0sp"
+				android:layout_alignParentBottom="true" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:gravity="center_horizontal"
+				android:textColor="@drawable/text_color"></TextView>
+		</RelativeLayout>
+		<TableLayout android:gravity="bottom"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:stretchColumns="1" android:layout_weight="1.0">
+			<TableRow>
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/max_score" />
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:id="@id/max_score" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow>
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/clip_in" />
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:id="@id/clip_in" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow>
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/money" />
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:id="@id/money" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+</LinearLayout>

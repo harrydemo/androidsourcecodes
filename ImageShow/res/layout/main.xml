@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/path"
+	    />
+    
+    <EditText
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="http://i6.17173.itc.cn/2010/news/chinajoy/2010/mm/small01/s0722cyfs01.jpg"
+	    android:id="@+id/path"
+	    />
+	    
+	  <Button
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/button"
+	    android:id="@+id/button"
+	    />
+	    
+	<ImageView
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/imageView"
+	    />   
+</LinearLayout>

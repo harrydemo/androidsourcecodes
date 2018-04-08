@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomIntroTheme" parent="@android:style/Theme.Dialog">
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowBackground">@drawable/black</item>
+    </style>
+</resources>

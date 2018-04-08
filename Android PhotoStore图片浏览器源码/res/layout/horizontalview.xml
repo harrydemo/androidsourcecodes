@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_centerVertical="true"
+	android:id="@+id/horizontalview" android:layout_height="fill_parent"
+	android:scrollbars="horizontal" android:background="@drawable/bk2">
+	<LinearLayout android:layout_width="fill_parent" android:paddingLeft="10dp"
+		android:orientation="horizontal" android:gravity="center_vertical"
+		android:id="@+id/layout_webnav" android:layout_height="fill_parent">
+	</LinearLayout>
+</HorizontalScrollView>

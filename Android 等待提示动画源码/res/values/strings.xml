@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, AnimRoundProcessDialog!</string>
+	<string name="app_name">AnimRoundProcessDialog</string>
+
+	<string name="anim">动画</string>
+	<string name="color">颜色</string>
+	<string name="icon">图片</string>
+</resources>

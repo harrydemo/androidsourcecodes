@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/export_db"
+          android:title="@string/tools_menu_lable" />
+    <item android:id="@+id/delete_db"
+          android:title="@string/preferences_menu_lable" />
+</menu>

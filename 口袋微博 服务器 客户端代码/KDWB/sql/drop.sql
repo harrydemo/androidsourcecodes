@@ -1,0 +1,9 @@
+DROP TABLE photo;
+DROP TABLE visit;
+DROP TABLE comment;
+DROP TABLE friend;
+DROP TABLE diary;
+DROP TABLE album;
+DROP TABLE user;
+DROP TABLE max;
+DROP TABLE head;

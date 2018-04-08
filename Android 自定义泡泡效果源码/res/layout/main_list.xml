@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"> 
+    <TextView android:text="用户列表" 
+    		  android:gravity="center" 
+        	  android:layout_height="wrap_content" 
+              android:layout_width="fill_parent" 
+              android:background="#DAA520" 
+              android:textColor="#000000"> 
+    </TextView> 
+<ListView android:layout_width="wrap_content" 
+          android:layout_height="fill_parent" 
+          android:id="@+id/users"> 
+    </ListView> 
+</LinearLayout> 

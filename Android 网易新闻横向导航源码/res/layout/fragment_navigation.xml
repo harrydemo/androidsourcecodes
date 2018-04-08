@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_navigation" >
+
+    <ImageView
+        android:id="@+id/iv_pre"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_pre" />
+
+    <com.example.demo.widget.NavigationHorizontalScrollView
+        android:id="@+id/horizontal_scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingBottom="2dip"
+        android:paddingTop="2dip"
+        android:scrollbars="none" />
+
+    <ImageView
+        android:id="@+id/iv_next"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_next" />
+
+</LinearLayout>

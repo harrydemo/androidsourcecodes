@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="hello">Hello World</string>
+  <string name="app_name">主题</string>
+  <string name="str_text_view1">使用主体示范\nTextView文字为深绿色\n背景应用主題。</string>
+</resources>

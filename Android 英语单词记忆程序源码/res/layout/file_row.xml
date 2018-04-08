@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView  
+   android:id="@+id/file_row"
+   xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+   android:textSize="16px"
+   android:background="@drawable/list_bg"
+   android:textColor="#000000"
+  ></TextView>

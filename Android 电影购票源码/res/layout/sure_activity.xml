@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:scrollbars="vertical" android:fadingEdge="vertical">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="40px"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/ret" android:id="@+id/login_ret"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<TextView android:id="@+id/yingyuanmingzi"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20px"
+			android:layout_marginTop="1px">
+		</TextView>
+	</LinearLayout>
+
+	<LinearLayout android:gravity="left"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_marginLeft="50px" android:id="@+id/fm"
+			android:layout_height="wrap_content" android:textSize="15px" />
+	</LinearLayout>
+
+	<LinearLayout android:gravity="center_horizontal"
+		android:layout_marginLeft="50px" android:layout_marginTop="5px"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<LinearLayout android:gravity="left"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="影院地址:" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/yydz"
+				android:layout_marginLeft="5px" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="12px" />
+		</LinearLayout>
+
+		<LinearLayout android:gravity="left"
+			android:layout_marginTop="1px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="影        厅:" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/yt"
+				android:layout_marginLeft="5px" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textSize="12px" />
+		</LinearLayout>
+
+		<LinearLayout android:gravity="left"
+			android:layout_marginTop="1px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="放映时间:" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/fysj"
+				android:layout_width="wrap_content" android:layout_marginLeft="5px"
+				android:layout_height="wrap_content" android:textSize="12px" />
+		</LinearLayout>
+
+		<LinearLayout android:gravity="left"
+			android:layout_marginTop="1px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="座        次:" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/zc"
+				android:layout_width="wrap_content" android:layout_marginLeft="5px"
+				android:layout_height="wrap_content" android:textSize="12px" />
+		</LinearLayout>
+
+		<LinearLayout android:gravity="left"
+			android:layout_marginTop="1px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="语        种:" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/yz" android:text="国语"
+				android:layout_width="wrap_content" android:layout_marginLeft="5px"
+				android:layout_height="wrap_content" android:textSize="12px" />
+		</LinearLayout>
+
+		<LinearLayout android:gravity="left"
+			android:layout_marginTop="1px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="制        式:" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/zs" android:text="3DMAX"
+				android:layout_width="wrap_content" android:layout_marginLeft="5px"
+				android:layout_height="wrap_content" android:textSize="12px" />
+		</LinearLayout>
+
+		<LinearLayout android:gravity="left"
+			android:layout_marginTop="1px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="票        价:" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/pj"
+				android:layout_width="wrap_content" android:layout_marginLeft="5px"
+				android:layout_height="wrap_content" android:textSize="12px" />
+		</LinearLayout>
+
+		<LinearLayout android:gravity="left"
+			android:layout_marginTop="1px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="票        数:" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/ps"
+				android:layout_width="wrap_content" android:layout_marginLeft="5px"
+				android:layout_height="wrap_content" android:textSize="12px" />
+		</LinearLayout>
+
+		<LinearLayout android:gravity="left"
+			android:layout_marginTop="1px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="总        计:" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/zj"
+				android:layout_width="wrap_content" android:layout_marginLeft="5px"
+				android:layout_height="wrap_content" android:textSize="12px" />
+		</LinearLayout>
+
+
+	</LinearLayout>
+
+
+	<LinearLayout android:gravity="center_horizontal"
+		android:layout_marginLeft="50px" android:layout_marginTop="5px"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<LinearLayout android:gravity="left"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="此影片离放映还有" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/lfysj"
+				android:layout_width="wrap_content" android:text="1小时30分钟"
+				android:layout_marginLeft="5px" android:layout_height="wrap_content"
+				android:textSize="12px" />
+		</LinearLayout>
+		<LinearLayout android:gravity="left"
+			android:layout_marginTop="1px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:text="账户余额:" android:layout_height="wrap_content"
+				android:textSize="12px" />
+			<TextView android:id="@+id/zyye" android:text="200元"
+				android:layout_width="wrap_content" android:layout_marginLeft="5px"
+				android:layout_height="wrap_content" android:textSize="12px" />
+		</LinearLayout>
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_marginTop="5px"
+		android:layout_marginLeft="50px" android:gravity="left"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:text="手机号:" android:layout_height="wrap_content"
+			android:textSize="12px" />
+		<TextView android:id="@+id/phonenum"
+			android:layout_marginLeft="5px" android:text="xxxxxxxxxxxxxxx"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="12px" />
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_marginTop="5px" android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="取消" android:id="@+id/cancel_gp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="确认购票" android:id="@+id/sure_gp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+	 android:layout_height="50px"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/hot_film"
+			android:id="@+id/hot_film" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/myhapiao"
+			android:id="@+id/myhapiao" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/all_films"
+			android:id="@+id/all_films" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

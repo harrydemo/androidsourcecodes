@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">365手机秘书</string>
+	<string name="intellectSet">智能收发设置</string>
+	<string name="intellectreceiveSMS">智能接收短信</string>
+	<string name="intellectreceivePHONE">智能接收来电</string>
+	<string name="intellectPHONERECEIVE">电话留言</string>
+	<string name="phonenumber">请输入手机号码</string>
+	<string name="SMScommend">短信接收指令：</string>
+	<string name="PHONEcommend">来电接收指令：</string>
+</resources>

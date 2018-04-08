@@ -1,0 +1,7 @@
+﻿<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/bottom_shop" android:state_enabled="true"/>
+    <item android:drawable="@drawable/bottom_shop_p" android:state_focused="true"></item>
+    <item android:drawable="@drawable/bottom_shop_p" android:state_pressed="true"></item>
+
+</selector>

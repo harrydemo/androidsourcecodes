@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Timing Demo！</string>
+    <string name="app_name">Timing For You</string>
+    <string name="set_time">Set Time</string>
+    <string name="cancel_time">Cancel Time</string>
+</resources>

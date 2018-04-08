@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/Sky/src/org/jsharkey/sky/webservice
+END
+NoaaSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Sky/src/org/jsharkey/sky/webservice/NoaaSource.java
+END
+Forecast.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Sky/src/org/jsharkey/sky/webservice/Forecast.java
+END
+ForecastSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Sky/src/org/jsharkey/sky/webservice/ForecastSource.java
+END
+MetarSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Sky/src/org/jsharkey/sky/webservice/MetarSource.java
+END
+WebserviceHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Sky/src/org/jsharkey/sky/webservice/WebserviceHelper.java
+END

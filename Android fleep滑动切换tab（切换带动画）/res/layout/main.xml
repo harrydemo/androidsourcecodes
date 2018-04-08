@@ -1,0 +1,11 @@
+<com.caigang.test.CustomTabHost
+	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/tabhost" android:background="#c0123123"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<FrameLayout android:gravity="center" android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1.0" />
+		<TabWidget android:id="@android:id/tabs" android:background="#00ffffff"
+			android:padding="3.0dip" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="0.0" />
+	</LinearLayout>
+</com.caigang.test.CustomTabHost>

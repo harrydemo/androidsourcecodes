@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_gravity="center" android:id="@id/player_surface_def" 
+        android:visibility="gone" android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" android:keepScreenOn="true"/>
+    
+    <SurfaceView android:layout_gravity="center" android:id="@id/player_surface_vlc" 
+        android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" 
+        android:keepScreenOn="true" android:background="@android:color/transparent"/>
+    <ImageView android:id="@id/player_page_bg" android:background="@drawable/loading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

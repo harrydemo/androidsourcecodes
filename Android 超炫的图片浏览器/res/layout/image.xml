@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bg"
+  >
+  <!-- 建立一個Logo -->
+  <TextView
+  	android:id="@+id/logo"
+  	android:text="SKY_dreaming天梦工作室制作"
+  	android:layout_width="fill_parent"
+  	android:layout_height="30dip"
+  	android:layout_alignParentTop="true"
+  	android:gravity="center"
+  	android:textColor="@color/yellow"
+  	android:textSize="16sp"
+  ></TextView>
+  <!-- 建立一個ImageSwitcher -->
+  <ImageSwitcher 
+  android:id="@+id/switcher"
+  android:layout_width="240dip"
+  android:layout_height="320dip"
+  android:layout_below="@+id/logo"
+  android:layout_centerInParent="true"
+  />   
+  <!-- 建立一個Gallery --> 
+  <com.sky_dreaming.ACDsee.gallery_view.GalleryFlow
+  android:id="@+id/mygallery"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true"
+  android:layout_centerInParent="true" 
+  android:gravity="center_vertical"
+  />
+</RelativeLayout>

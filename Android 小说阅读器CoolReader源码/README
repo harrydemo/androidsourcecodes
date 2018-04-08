@@ -1,0 +1,61 @@
+oolReader?是基于Android平台的阅读器，当前版本为0.7.0.0，支持sdcard下面的文件浏览，支持Txt文件的阅读，具体功能如下:
+
+支持sdcard文件浏览
+
+支持Txt文件的读取
+
+支持大文件的读取（最高测试50M）
+
+支持字体设置
+
+支持自定义背景设置
+
+支持无限级书签
+
+支持书签的删除、跳转
+
+支持百分比显示
+
+支持屏幕旋转
+
+支持键盘滚屏和翻页
+
+支持触摸屏滚屏和翻页
+
+如果您是使用者直接下载程序安装包和安装及使用说明书即可。
+
+地址:http://code.google.com/p/coolreader/downloads/list
+
+如果您是开发者，请使用Eclipse Ganymede 3.4版本，SDK为RC2，ADT为0.8，JDK为1.6版本，
+
+且Eclipse工作目录编码为UTF-8。
+
+如果您加入我们，可获得Android OS 社区的培训和技术支持。 地址：http://androidos.cc/dev
+
+
+
+CoolReader? is based on the Android platform for readers, the current version 0.7.0.0, the following documents in support of sdcard browsing, support for Txt file reading, specific functions are as follows：
+
+    * support sdcard file browser
+    * support Txt documents read
+    * support for large file read (up to test 50M)
+    * to support the font settings
+    * support custom background settings
+    * to support the unlimited class bookmark
+    * support bookmarks deleted, Jump
+    * support percentages
+    * support screen rotation
+    * to support the keyboard and flip Scroll
+    * to support the touch screen and flip Scroll 
+
+If you are a user directly download the installation package and can install and use manual.
+
+    Address: http://code.google.com/p/coolreader/downloads/list 
+
+If you are a developer, please use the Eclipse Ganymede 3.4 version, SDK for RC2, ADT 0.8, JDK 1.6 Version
+
+And Eclipse working directory encoding for UTF-8.
+
+If you join us, the availability of the Android OS community training and technical support.
+
+    Address: http://androidos.cc/dev 

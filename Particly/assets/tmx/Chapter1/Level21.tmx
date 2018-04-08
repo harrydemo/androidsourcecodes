@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="24" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="Grass" tilewidth="20" tileheight="20">
+  <image source="gfx/Grass.png" width="80" height="140"/>
+ </tileset>
+ <tileset firstgid="29" name="Goals" tilewidth="20" tileheight="20">
+  <image source="gfx/Goals.png" width="60" height="60"/>
+ </tileset>
+ <tileset firstgid="38" name="Veritcal" tilewidth="32" tileheight="96">
+  <image source="gfx/vertical.png" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="39" name="Horizontal" tilewidth="96" tileheight="32">
+  <image source="gfx/horizontal.png" width="96" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3PwQ2AMAwAsZQKEHT/fcmjr0yAIlu6AS4CAAAAAPibkR2Nm+X3zK7G3eX3yd7Grf35AYD+7IOAFgAA
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="60" height="24">
+  <properties>
+   <property name="type" value="wall"/>
+  </properties>
+  <object x="37" y="421" width="1143" height="58"/>
+  <object x="1035" y="472" height="1"/>
+ </objectgroup>
+ <objectgroup color="#00ff7f" name="Elements" width="60" height="24">
+  <object name="goal" x="590" y="55" width="32" height="52">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="type" value="goal"/>
+   </properties>
+  </object>
+  <object name="ball" x="589" y="382" width="29" height="27">
+   <properties>
+    <property name="type" value="ball"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="807" y="235">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="404" y="233">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff007f" name="Objects" width="60" height="24">
+  <properties>
+   <property name="type" value="object"/>
+  </properties>
+  <object gid="38" x="139" y="416"/>
+  <object gid="38" x="239" y="416"/>
+  <object gid="39" x="257" y="317"/>
+  <object gid="38" x="339" y="416"/>
+  <object gid="38" x="539" y="416"/>
+  <object gid="39" x="57" y="317"/>
+  <object gid="38" x="439" y="416"/>
+  <object gid="39" x="157" y="317"/>
+  <object gid="38" x="39" y="416"/>
+  <object gid="38" x="639" y="416"/>
+  <object gid="38" x="739" y="416"/>
+  <object gid="38" x="839" y="416"/>
+  <object gid="38" x="939" y="416"/>
+  <object gid="38" x="1039" y="416"/>
+  <object gid="38" x="1139" y="416"/>
+  <object gid="39" x="357" y="317"/>
+  <object gid="39" x="457" y="317"/>
+  <object gid="39" x="557" y="317"/>
+  <object gid="39" x="657" y="317"/>
+  <object gid="39" x="757" y="317"/>
+  <object gid="39" x="857" y="317"/>
+  <object gid="39" x="1057" y="317"/>
+  <object gid="39" x="957" y="317"/>
+  <object gid="38" x="639" y="282"/>
+  <object gid="38" x="439" y="282"/>
+  <object gid="39" x="259" y="182"/>
+  <object gid="38" x="839" y="282"/>
+  <object gid="39" x="859" y="182"/>
+  <object gid="38" x="239" y="282"/>
+  <object gid="39" x="459" y="182"/>
+  <object gid="39" x="959" y="182"/>
+  <object gid="38" x="739" y="282"/>
+  <object gid="39" x="359" y="182"/>
+  <object gid="38" x="339" y="282"/>
+  <object gid="38" x="939" y="282"/>
+  <object gid="38" x="139" y="282"/>
+  <object gid="38" x="539" y="282"/>
+  <object gid="39" x="759" y="182"/>
+  <object gid="38" x="1039" y="282"/>
+  <object gid="39" x="659" y="182"/>
+  <object gid="39" x="559" y="182"/>
+  <object gid="39" x="159" y="182"/>
+ </objectgroup>
+</map>

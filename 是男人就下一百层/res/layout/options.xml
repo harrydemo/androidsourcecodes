@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:admobsdk="http://schemas.android.com/apk/res/org.void1898.www.agilebuddy"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/bg_options">
+	<ScrollView android:id="@+id/scrollview2"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:paddingTop="50dip"
+		android:paddingBottom="50dip">
+		<LinearLayout android:orientation="vertical"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:paddingLeft="15dip" android:paddingRight="15dip">
+			<CheckBox android:id="@+id/options_vibrate_checkbox"
+				android:layout_width="fill_parent" android:layout_height="50dip"
+				android:text="@string/options_vibrate_summary"></CheckBox>
+			<CheckBox android:id="@+id/options_sounds_checkbox"
+				android:layout_width="fill_parent" android:layout_height="50dip"
+				android:text="@string/options_sounds_summary"></CheckBox>
+			<CheckBox android:id="@+id/options_showtips_checkbox"
+				android:layout_width="fill_parent" android:layout_height="50dip"
+				android:text="@string/options_showtips_summary"></CheckBox>
+			<TextView android:id="@+id/options_power_controller_title"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingTop="8dip" android:text="@string/options_velocity_controller_summary"
+				android:textColor="#FFFFFFFF" android:textSize="16sp"></TextView>
+			<SeekBar android:id="@+id/velocityController"
+				android:layout_width="fill_parent" android:layout_height="25dip"
+				android:max="100" android:progress="40" android:secondaryProgress="0"></SeekBar>
+			<TextView android:id="@+id/options_your_name_title"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingTop="8dip" android:text="@string/options_user_name_summary"
+				android:textColor="#FFFFFFFF" android:textSize="16sp"></TextView>
+			<EditText android:id="@+id/options_username_edittext"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:hint="@string/gameover_username_required" android:textSize="16sp" />
+			<TextView android:id="@+id/options_best_record_textview"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingTop="8dip" android:text="@string/options_best_record_summary"
+				android:textColor="#FFFFFFFF" android:textSize="16sp"></TextView>
+			<TableRow android:id="@+id/options_buttom_tablerow"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:paddingTop="15dip">
+				<Button android:id="@+id/options_okay_button"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" android:layout_gravity="center"
+					android:text="@string/options_okay_summary" android:textSize="16sp" />
+				<Button android:id="@+id/options_upload_score_button"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" android:layout_gravity="center"
+					android:text="@string/options_upload_score_summary"
+					android:textSize="16sp" />
+				<Button android:id="@+id/options_tips_button"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" android:layout_gravity="center"
+					android:text="@string/options_tips_summary" android:textSize="16sp" />
+			</TableRow>
+		</LinearLayout>
+	</ScrollView>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<com.admob.android.ads.AdView android:id="@+id/adbar1"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" admobsdk:backgroundColor="#000000"
+			admobsdk:primaryTextColor="#FFFFFF" admobsdk:secondaryTextColor="#CCCCCC"
+			admobsdk:keywords="Android game video free" admobsdk:refreshInterval="60" />
+	</RelativeLayout>
+</FrameLayout>

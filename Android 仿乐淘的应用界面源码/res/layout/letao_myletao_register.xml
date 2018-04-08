@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/background_color">
+	<!-- 头部 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+
+	<!-- 底部选项 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_above="@id/bottommenu"
+		android:layout_below="@id/title" android:orientation="vertical">
+
+		<LinearLayout android:orientation="horizontal"
+			android:id="@+id/register_mobile_phone_box" android:layout_width="260dip"
+			android:layout_height="wrap_content" android:layout_marginTop="10dip"
+			android:background="@drawable/input_box" android:layout_gravity="center_horizontal">
+			<TextView android:layout_width="70dip" android:text="@string/register_name"
+				android:textColor="@color/black" android:layout_gravity="center_vertical"
+				android:layout_height="wrap_content" android:layout_marginLeft="10dip" />
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/register_mobile_phone"
+				android:singleLine="true" android:hint="@string/login_name_text"
+				android:textSize="14sp" android:layout_gravity="center_vertical"
+				android:background="@null" />
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal"
+			android:id="@+id/register_password_box" android:layout_width="260dip"
+			android:layout_height="wrap_content" android:layout_marginTop="10dip"
+			android:background="@drawable/input_box" android:layout_gravity="center_horizontal">
+			<TextView android:layout_width="70dip" android:text="@string/login_password"
+				android:textColor="@color/black" android:layout_gravity="center_vertical"
+				android:layout_height="wrap_content" android:layout_marginLeft="10dip" />
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/register_password"
+				android:singleLine="true" android:hint="@string/register_password_presentation"
+				android:textSize="14sp" android:layout_gravity="center_vertical"
+				android:background="@null" android:inputType="textPassword" />
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal"
+			android:id="@+id/register_repassword_box" android:layout_width="260dip"
+			android:layout_height="wrap_content" android:layout_marginTop="10dip"
+			android:background="@drawable/input_box" android:layout_gravity="center_horizontal">
+			<TextView android:layout_width="70dip"
+				android:text="@string/register_make_sure_password"
+				android:textColor="@color/black" android:layout_gravity="center_vertical"
+				android:layout_height="wrap_content" android:layout_marginLeft="10dip" />
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/register_repassword"
+				android:singleLine="true" android:hint="@string/register_password_presentation"
+				android:textSize="14sp" android:layout_gravity="center_vertical"
+				android:background="@null" android:inputType="textPassword" />
+		</LinearLayout>
+
+		<TextView android:id="@+id/register" android:layout_width="150dip"
+			android:layout_height="wrap_content" android:text="@string/register_submit"
+			android:textColor="@color/white" android:textSize="20sp"
+			android:background="@drawable/btn_pink" android:layout_marginTop="30dip"
+			android:layout_gravity="center_horizontal" android:gravity="center" />
+	</LinearLayout>
+	<include layout="@layout/common_listview" />
+</RelativeLayout>

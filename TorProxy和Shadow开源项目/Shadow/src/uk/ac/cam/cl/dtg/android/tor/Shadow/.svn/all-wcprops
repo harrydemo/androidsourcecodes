@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/research/dtg/code/svn/android-tor/!svn/ver/3/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow
+END
+CookiesBlockedDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/CookiesBlockedDialog.java
+END
+BrowserYesNoPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/BrowserYesNoPreference.java
+END
+SiteListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/SiteListAdapter.java
+END
+SSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/research/dtg/code/svn/android-tor/!svn/ver/3/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/SSLSocketFactory.java
+END
+ClearCookiesPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/ClearCookiesPreference.java
+END
+CookieManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/CookieManager.java
+END
+EditPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/EditPreferences.java
+END
+ClearCachePreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/ClearCachePreference.java
+END
+CookieManagerDataStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/CookieManagerDataStore.java
+END
+ShadowWebView.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/ShadowWebView.java
+END
+SocksSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/SocksSocketFactory.java
+END
+Shadow.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/Shadow.java
+END
+PostProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/PostProcessor.java
+END
+BrowserHomepagePreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/BrowserHomepagePreference.java
+END
+WhitelistItemPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/WhitelistItemPreference.java
+END
+CacheObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/CacheObject.java
+END
+AnonProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/AnonProxy.java
+END
+AddSiteDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/AddSiteDialog.java
+END
+CacheManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/research/dtg/code/svn/android-tor/!svn/ver/1/Shadow/src/uk/ac/cam/cl/dtg/android/tor/Shadow/CacheManager.java
+END

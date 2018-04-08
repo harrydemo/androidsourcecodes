@@ -1,0 +1,473 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout
+END
+message_detail_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/message_detail_listitem.xml
+END
+tweet_detail_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/tweet_detail_header.xml
+END
+blog_detail_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/blog_detail_footer.xml
+END
+message_detail_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/message_detail_footer.xml
+END
+feedback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/feedback.xml
+END
+gd_quick_action_bar_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/gd_quick_action_bar_item.xml
+END
+news_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/news_listitem.xml
+END
+user_center_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/user_center_header.xml
+END
+start.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/start.xml
+END
+blog_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/blog_listitem.xml
+END
+question_tag.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/question_tag.xml
+END
+tweet_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/tweet_listitem.xml
+END
+blog_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/blog_detail.xml
+END
+gd_quick_action_grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/gd_quick_action_grid_item.xml
+END
+tweet_pub_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/tweet_pub_header.xml
+END
+question_detail_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/question_detail_footer.xml
+END
+about.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/about.xml
+END
+software_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/software_detail.xml
+END
+news_detail_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/news_detail_footer.xml
+END
+comment_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/comment_listitem.xml
+END
+question_pub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/question_pub.xml
+END
+pull_to_refresh_head.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/pull_to_refresh_head.xml
+END
+search_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/search_listitem.xml
+END
+comment_pub_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/comment_pub_header.xml
+END
+question_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/question_listitem.xml
+END
+frame_question.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/frame_question.xml
+END
+login_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/login_dialog.xml
+END
+tweet_detail_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/tweet_detail_footer.xml
+END
+question_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/question_detail.xml
+END
+new_data_toast.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/new_data_toast.xml
+END
+main_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/main_header.xml
+END
+user_center_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/user_center_footer.xml
+END
+frame_tweet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/frame_tweet.xml
+END
+image_zoom_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/image_zoom_dialog.xml
+END
+user_friend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/user_friend.xml
+END
+message_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/message_detail.xml
+END
+update_progress.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/update_progress.xml
+END
+comment_pub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/comment_pub.xml
+END
+tweet_pub_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/tweet_pub_footer.xml
+END
+setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/setting.xml
+END
+user_favorite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/user_favorite.xml
+END
+preference.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/preference.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/main.xml
+END
+message_pub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/message_pub.xml
+END
+loadingdialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/loadingdialog.xml
+END
+news_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/news_detail.xml
+END
+softwarecatalog_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/softwarecatalog_listitem.xml
+END
+image_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/image_dialog.xml
+END
+main_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/main_footer.xml
+END
+software_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/software_listitem.xml
+END
+message_forward.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/message_forward.xml
+END
+tweet_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/tweet_detail.xml
+END
+preference_category.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/preference_category.xml
+END
+comment_reply.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/comment_reply.xml
+END
+blog_detail_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/blog_detail_header.xml
+END
+message_detail_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/message_detail_header.xml
+END
+user_center.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/user_center.xml
+END
+friend_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/friend_listitem.xml
+END
+listview_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/listview_footer.xml
+END
+question_pub_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/question_pub_header.xml
+END
+frame_active.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/frame_active.xml
+END
+comment_refer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/comment_refer.xml
+END
+active_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/active_listitem.xml
+END
+frame_news.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/frame_news.xml
+END
+gd_quick_action_grid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/gd_quick_action_grid.xml
+END
+favorite_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/favorite_listitem.xml
+END
+user_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/user_info.xml
+END
+comment_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/comment_list.xml
+END
+message_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/message_listitem.xml
+END
+tweet_pub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/tweet_pub.xml
+END
+question_detail_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/question_detail_header.xml
+END
+tweet_detail_content.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/tweet_detail_content.xml
+END
+frame_software.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/frame_software.xml
+END
+search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/search.xml
+END
+news_detail_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/news_detail_header.xml
+END
+gd_quick_action_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/gd_quick_action_bar.xml
+END
+preference_icon_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/preference_icon_more.xml
+END
+user_center_content.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/16/tags/v1.7.1_beta1/res/layout/user_center_content.xml
+END

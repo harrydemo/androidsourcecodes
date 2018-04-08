@@ -1,0 +1,125 @@
+[Version]
+Signature="$CHICAGO$"
+Class=MEDIA
+
+[SourceDisksNames]
+1="KGV1",,0001
+
+[SourceDisksFiles]
+KGV1-VFW.dll=1
+KegaGameVideo.inf=1
+
+[DestinationDirs]
+DefaultDestDir = 11
+KGV1.Copy      = 11
+KGV1.Copy64    = 16425
+KGV1.Copy.Inf  = 17
+
+[Manufacturer] 
+%CompanyStr% = KGV1Codec
+
+[KGV1Codec]
+KGV1=DefaultInstall.9x,1
+
+[KGV1Codec.ntx86]
+KGV1=DefaultInstall.ntx86,1
+
+[KGV1Codec.ntamd64]
+KGV1=DefaultInstall.ntx64,1
+
+[DefaultInstall]
+CopyFiles=KGV1.Copy,KGV1.Copy.Inf
+Updateinis=KGV1.Updateini
+addreg=KGV1.AddReg,KGV1.AddReg9x,KGV1.FilterReg
+MediaType=SOFTWARE
+
+[DefaultInstall.ntx86]
+CopyFiles=KGV1.Copy,KGV1.Copy.Inf
+Updateinis=KGV1.Updateini
+addreg=KGV1.AddReg,KGV1.AddRegNT,KGV1.FilterReg
+MediaType=SOFTWARE
+
+[DefaultInstall.ntamd64]
+CopyFiles=KGV1.Copy64,KGV1.Copy.Inf
+Updateinis=KGV1.Updateini
+addreg=KGV1.AddReg,KGV1.AddReg64,KGV1.FilterReg
+MediaType=SOFTWARE
+
+[DefaultUninstall]
+DelReg=KGV1.DelReg,KGV1.DelReg9x
+AddReg=KGV1.FilterUnReg
+UpdateInis=KGV1.DelIni
+DelFiles=KGV1.Copy,KGV1.Copy.Inf
+
+[DefaultUninstall.ntx86]
+DelReg=KGV1.DelReg,KGV1.DelRegNT
+AddReg=KGV1.FilterUnReg
+UpdateInis=KGV1.DelIni
+DelFiles=KGV1.Copy,KGV1.Copy.Inf
+
+[DefaultUninstall.ntamd64]
+DelReg=KGV1.DelReg,KGV1.DelReg64
+AddReg=KGV1.FilterUnReg
+UpdateInis=KGV1.DelIni
+DelFiles=KGV1.Copy64,KGV1.Copy.Inf
+
+[KGV1.Copy]
+KGV1-VFW.dll
+
+[KGV1.Copy64]
+KGV1-VFW.dll
+
+[KGV1.Copy.Inf]
+KegaGameVideo.inf
+
+[KGV1.UpdateIni]
+system.ini,drivers32,,"VIDC.KGV1=KGV1-VFW.dll"
+
+[KGV1.DelIni]
+system.ini,drivers32,"VIDC.KGV1=KGV1-VFW.dll"
+
+[KGV1.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Control\MediaResources\icm\VIDC.KGV1,Description,,"KegaGameVideo"
+HKLM,SYSTEM\CurrentControlSet\Control\MediaResources\icm\VIDC.KGV1,Driver,,KGV1-VFW.dll
+HKLM,SYSTEM\CurrentControlSet\Control\MediaResources\icm\VIDC.KGV1,FriendlyName,,"KegaGameVideo"
+
+[KGV1.AddReg9x]
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\KegaGameVideo,DisplayName,,"Kega Game Video Decoder"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\KegaGameVideo,UninstallString,,"%10%\rundll.exe setupx.dll,InstallHinfSection DefaultUninstall 132 %17%\%InfFile%"
+
+[KGV1.AddRegNT]
+HKLM,SOFTWARE\Microsoft\Windows NT\CurrentVersion\drivers.desc,KGV1-VFW.dll,,"KegaGameVideo"
+HKLM,SOFTWARE\Microsoft\Windows NT\CurrentVersion\drivers32,VIDC.KGV1,,KGV1-VFW.dll
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\KegaGameVideo,DisplayName,,"Kega Game Video Decoder"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\KegaGameVideo,UninstallString,,"%11%\rundll32.exe setupapi.dll,InstallHinfSection DefaultUninstall.ntx86 132 %17%\%InfFile%"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\KegaGameVideo, NoModify, 0x00010001, 1
+
+[KGV1.AddReg64]
+HKLM,SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\drivers.desc,KGV1-VFW.dll,,"KegaGameVideo"
+HKLM,SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\drivers32,VIDC.KGV1,,KGV1-VFW.dll
+HKLM,Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\KegaGameVideo,DisplayName,,"Kega Game Video Decoder (32 Bit)"
+HKLM,Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\KegaGameVideo,UninstallString,,"%16425%\rundll32.exe setupapi.dll,InstallHinfSection DefaultUninstall.ntamd64 132 %17%\%InfFile%"
+HKLM,Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\KegaGameVideo, NoModify, 0x00010001, 1
+
+[KGV1.DelReg]
+HKLM,SYSTEM\CurrentControlSet\Control\MediaResources\icm\VIDC.KGV1
+
+[KGV1.DelRegNT]
+HKLM,SOFTWARE\Microsoft\Windows NT\CurrentVersion\drivers.desc,KGV1-VFW.dll,,""
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\KegaGameVideo
+
+[KGV1.DelReg64]
+HKLM,SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\drivers.desc,KGV1-VFW.dll,,""
+HKLM,Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\KegaGameVideo
+
+[KGV1.FilterReg]
+HKLM,%KEY_RUNONCE%,BatchRun1,,"regsvr32 /s KGV1-VFW.dll"
+
+[KGV1.FilterUnReg]
+HKLM,%KEY_RUNONCE%,BatchRun1,,"regsvr32 /u /s KGV1-VFW.dll"
+
+[Strings]
+CompanyStr="private"
+InfFile="KegaGameVideo.inf"
+MediaClassName="Media Devices"
+KEY_RUNONCE="SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce"

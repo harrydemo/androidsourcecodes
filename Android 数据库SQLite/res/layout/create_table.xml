@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	>
+
+	<ImageView
+		android:id="@+id/db_image"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/h"
+		android:layout_centerHorizontal="true"
+	/>
+	<Button   
+		android:id="@+id/createTable"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="在数据库中添加一个表"
+		android:layout_below="@id/db_image"
+	/>
+	<Button   
+		android:id="@+id/deleteTable"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="在数据库中删除一个表"
+		android:layout_below="@id/createTable"
+	/>
+</RelativeLayout>
+
+ 

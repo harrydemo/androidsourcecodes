@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true">
+
+	<ImageButton android:id="@+id/tab_main"
+		android:background="@layout/tab_main_button"
+
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<ImageButton android:id="@+id/tab_random"
+		android:background="@layout/tab_random_button"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	<ImageButton android:id="@+id/tab_search"
+		android:background="@layout/tab_search_button" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<ImageButton android:id="@+id/tab_menu" android:background="@layout/tab_menu_button"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

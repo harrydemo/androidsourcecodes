@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<Button android:id="@+id/item_type_twoline"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true" />
+	<ImageButton android:id="@+id/btn_remove_item_two_line"
+		android:layout_alignParentRight="true" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="@drawable/minus"
+		android:layout_marginTop="5dip" android:layout_marginRight="10dip" />
+	<EditText android:text="item_value" android:id="@+id/item_value_twoline_1"
+		android:layout_toRightOf="@id/item_type_twoline"
+		android:layout_toLeftOf="@id/btn_remove_item_two_line"
+		android:layout_width="0dip" android:layout_height="wrap_content"
+		android:layout_marginRight="10dip" android:layout_marginLeft="5dip" />
+	<EditText android:text="item_value" android:id="@+id/item_value_twoline_2"
+		android:layout_alignLeft="@id/item_value_twoline_1"
+		android:layout_below="@id/item_value_twoline_1"
+		android:layout_alignRight="@id/item_value_twoline_1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

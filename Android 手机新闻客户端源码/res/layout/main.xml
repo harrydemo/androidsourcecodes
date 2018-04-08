@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#C00C00"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/title" />
+
+        <Button
+            android:id="@+id/prepare_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:background="#00000000"
+            android:text=""
+            android:textColor="#00ff00"
+            android:textSize="26sp" />
+
+        <ProgressBar
+            android:id="@+id/refresh"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="2dip"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:background="#383934"
+        android:orientation="horizontal" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <GridView
+                    android:id="@+id/xml_gridview"
+                    android:layout_width="550dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/titleaim"
+                    android:columnWidth="75dip"
+                    android:gravity="center"
+                    android:horizontalSpacing="1dip"
+                    android:numColumns="7"
+                    android:scrollbars="horizontal"
+                    android:stretchMode="none" >
+                </GridView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/gotoright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dip"
+            android:background="@drawable/gotoright" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/newslist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:fastScrollEnabled="true"
+            android:divider="@drawable/newslistback" >
+        </ListView>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/up"
+            android:layout_alignRight="@+id/newslist"
+            android:layout_alignTop="@+id/newslist"
+            android:layout_marginTop="30dip"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/up" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/down"
+            android:layout_marginBottom="30dip"
+            android:layout_marginRight="20dip"
+            android:layout_alignRight="@+id/newslist"
+            android:layout_alignBottom="@+id/newslist"
+            android:background="@drawable/down" />
+
+        <Button
+            android:id="@+id/gotoother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/newslist"
+            android:layout_marginBottom="15dip"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/z" />
+        <Button
+            android:id="@+id/gotoother2"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/newslist"
+            android:layout_marginBottom="75dip"
+            android:layout_marginLeft="30dip"
+            android:background="@drawable/z2" />
+        <Button
+            android:id="@+id/gotoother3"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/newslist"
+            android:layout_marginBottom="75dip"
+            android:layout_toRightOf="@+id/gotoother2"
+            android:layout_marginLeft="30dip"
+            android:background="@drawable/z3" />
+        <Button
+            android:id="@+id/gotoother4"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/newslist"
+            android:layout_marginBottom="75dip"
+            android:layout_toLeftOf="@+id/gotoother5"
+            android:layout_marginRight="30dip"
+            android:background="@drawable/z4" />
+        <Button
+            android:id="@+id/gotoother5"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/newslist"
+            android:layout_marginBottom="75dip"
+            android:layout_marginRight="30dip"
+            android:layout_alignRight="@+id/newslist"
+            android:background="@drawable/z5" />
+
+    </RelativeLayout>
+
+</LinearLayout>

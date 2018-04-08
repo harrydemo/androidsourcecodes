@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	>
+
+	<ImageView
+		android:id="@+id/db_image"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/f"
+		android:layout_centerHorizontal="true"
+	/>
+	<Button   
+		android:id="@+id/add"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="在表中添加一条数据"
+		android:layout_below="@id/db_image"
+	/>
+	<Button   
+		android:id="@+id/delete"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="在表中删除一条数据"
+		android:layout_below="@id/add"
+	/>
+	<Button   
+		android:id="@+id/modify"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="在表中修改一条数据"
+		android:layout_below="@id/delete"
+	/>
+	<Button   
+		android:id="@+id/find"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="在表中查找一条数据"
+		android:layout_below="@id/modify"
+	/>
+</RelativeLayout>
+
+ 

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bg" 
+    >
+    
+	<!-- title栏 -->
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:background="@color/title_bg"
+		>
+		<ImageView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:maxWidth="100dp" 
+			android:maxHeight="30dp" 
+			android:src="@drawable/logo" />
+		<TextView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical" 
+			android:layout_marginLeft="5dp" 
+			android:textSize="18sp" 
+			android:textColor="@color/white" 
+			android:textStyle="bold" 
+			android:text="@string/menu_ems"/> 
+	</LinearLayout>
+	
+	<!-- content栏 -->
+	<Spinner
+		android:id="@+id/ems_com" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_margin="5dp" 
+		android:prompt="@string/ems_prompt" 
+		
+		/>
+		
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="2dp" 
+		android:background="@color/transparency"
+		>
+		<EditText
+			android:id="@+id/ems_order"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="0.8" 
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="10dp" 
+			android:hint="@string/ems_hint" 
+			android:clickable="true"/>
+					
+		<ImageView 
+			android:id="@+id/ems_search"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_marginRight="5dp" 
+			android:layout_marginTop="5dp"
+			android:maxWidth="40dp" 
+			android:maxHeight="40dp" 
+			android:src="@drawable/search" 
+			android:clickable="true" 
+			android:onClick="onClick"/>
+ 
+	</LinearLayout>	    
+
+</LinearLayout>

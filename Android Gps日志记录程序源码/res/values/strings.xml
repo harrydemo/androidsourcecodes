@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndTripLog</string>
+    <string name="app_name">AndTriplog</string>
+<string name="starting">Starting, wait for GPS fix...</string>
+<string name="dont_delete">No, don\'t delete</string>
+<string name="yes_delete">Yes, delete</string>
+<string name="sure_delete">Are you sure to delete trip </string>
+<string name="menu_copy">Copyright</string>
+<string name="c_menu_send">Save and Send</string>
+<string name="c_menu_delete">Delete</string>
+<string name="c_menu_save">Save</string>
+<string name="c_menu_title">Action on this trip</string>
+<string name="menu_start">Start</string>
+<string name="menu_stop">Stop</string>
+<string name="menu_delete_all">Delete all</string>
+<string name="menu_export_all">Save all</string>
+<string name="menu_export_send_all">Save and send all</string>
+<string name="gps_inactive">Your gps is disabled. Please activate it...</string>
+<string name="tips_not_running">Go on menu to start recording</string>
+</resources>

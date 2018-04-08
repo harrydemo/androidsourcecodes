@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/4/trunk/res/raw
+END
+hexagon_db_create.sql
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4/trunk/res/raw/hexagon_db_create.sql
+END
+hexagon_db_drop.sql
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4/trunk/res/raw/hexagon_db_drop.sql
+END
+hexagon_db_insert.sql
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4/trunk/res/raw/hexagon_db_insert.sql
+END
+map_vector.csv
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/4/trunk/res/raw/map_vector.csv
+END

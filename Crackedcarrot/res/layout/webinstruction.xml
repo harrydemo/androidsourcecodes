@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+    
+	<LinearLayout 
+		android:id="@+id/level_instr"
+		android:orientation="vertical"
+		android:minHeight="410dp" 
+	    android:layout_height="410dp"
+	    android:minWidth="260dp" 
+	    android:layout_width="260dp" 
+		android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="right">
+		
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">	
+			<LinearLayout 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">	
+				<Button	
+						android:id="@+id/backwebdialog"
+						android:visibility="invisible"
+						android:layout_width="40dp"
+						android:layout_height="40dp"
+						android:background="@drawable/xml_button_back">
+				</Button>
+		    </LinearLayout>
+			<LinearLayout 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="right">	
+				<Button	
+						android:id="@+id/closewebdialog"
+						android:layout_width="40dp"
+						android:layout_height="40dp"
+						android:background="@drawable/xml_button_close">
+				</Button>
+		    </LinearLayout>	    
+	    </LinearLayout>	    
+	    		   
+	    <WebView
+	        android:id="@+id/webview"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"/>
+	        
+	</LinearLayout>
+</LinearLayout>

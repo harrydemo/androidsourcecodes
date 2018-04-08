@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dip"
+        android:orientation="vertical" 
+        android:layout_margin="10dip">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="账号:"
+                android:textSize="30sp"/>
+
+            <EditText
+                android:id="@+id/uname"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_toRightOf="@+id/name" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:layout_weight="1.0">
+
+             <TextView
+                android:id="@+id/pswd"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="密码:"
+                android:textSize="30sp"/>
+            
+                <EditText
+                android:id="@+id/upswd"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_toRightOf="@+id/pswd"
+                android:password="true" />
+            
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <CheckBox 
+        android:id="@+id/auto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="记住密码"
+        android:textSize="30sp"
+        android:layout_marginLeft="30dip"
+        />
+    
+    <Button 
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textSize="20sp"
+        android:layout_margin="15dip"
+       
+        />
+
+</LinearLayout>

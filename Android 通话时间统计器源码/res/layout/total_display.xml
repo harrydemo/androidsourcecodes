@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget48"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/txt_title" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:padding="10px"
+		android:text="@string/app" android:layout_gravity="center_horizontal">
+	</TextView>
+	<ProgressBar android:id="@+id/pbar_process"
+		android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+		style="?android:attr/progressBarStyleHorizontal" android:max="100"
+		android:progress="30" android:layout_width="fill_parent"
+		android:paddingLeft="5dip" android:paddingRight="5dip"
+		android:paddingBottom="5dip">
+	</ProgressBar>
+
+
+
+
+
+
+
+
+	<TableLayout android:id="@+id/TableLayout02"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:stretchColumns="1,2,3" android:clipToPadding="true"
+		android:paddingLeft="5dip" android:paddingRight="5dip">
+
+		<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/call_total" android:id="@+id/TextView06"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="right"></TextView>
+			<TextView android:id="@+id/txt_total" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_gravity="left"
+				android:paddingLeft="5dip">
+			</TextView>
+		</TableRow>
+		<TableRow android:id="@+id/TableRow05" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/call_reality" android:id="@+id/TextView08"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="right"></TextView>
+			<TextView android:id="@+id/txt_reality"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="left" android:paddingLeft="5dip">
+			</TextView>
+		</TableRow>
+		<TableRow android:id="@+id/TableRow06" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/call_proportions"
+				android:id="@+id/TextView09" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:gravity="right"></TextView>
+			<TextView android:id="@+id/txt_proportions"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="left" android:paddingLeft="5dip">
+			</TextView>
+		</TableRow>
+		<TableRow android:id="@+id/TableRow07" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/call_estimated" android:id="@+id/TextView10"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="right"></TextView>
+			<TextView android:id="@+id/txt_estimated"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="left" android:paddingLeft="5dip">
+			</TextView>
+		</TableRow>
+	</TableLayout>
+
+	<TableLayout android:id="@+id/TableLayout01"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:stretchColumns="1,2,3" android:clipToPadding="true"
+		android:paddingLeft="5dip" android:paddingRight="5dip" android:background="@color/black">
+
+		<TableRow android:id="@+id/TableRow01" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+				android:width="80dip" android:layout_height="wrap_content"></TextView>
+			<TextView android:text="@string/today" android:id="@+id/TextView02"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@color/olive" android:textColor="@color/white"
+				android:gravity="center"></TextView>
+			<TextView android:text="@string/week" android:id="@+id/TextView03"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/white"
+				android:gravity="center" android:background="@color/olive"></TextView>
+			<TextView android:text="@string/month" android:id="@+id/TextView07"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@color/olive" android:textColor="@color/white"
+				android:gravity="center"></TextView>
+		</TableRow>
+		<View android:layout_height="2dip" android:background="#181818" />
+		<TableRow android:id="@+id/TableRow02" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/outgoing" android:id="@+id/TextView04"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@color/olive" android:textColor="@color/white"
+				android:gravity="center"></TextView>
+			<TextView android:text="0" android:id="@+id/outoftoday"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="center"></TextView>
+			<TextView android:text="0" android:id="@+id/outofweek"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="center"></TextView>
+			<TextView android:text="0" android:id="@+id/outofmonth"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="center"></TextView>
+		</TableRow>
+		<View android:layout_height="2dip" android:background="#181818" />
+		<TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/incoming" android:id="@+id/TextView05"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@color/olive" android:textColor="@color/white"
+				android:gravity="center"></TextView>
+			<TextView android:text="0" android:id="@+id/inoftoday"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="center"></TextView>
+			<TextView android:text="0" android:id="@+id/inofweek"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="center"></TextView>
+			<TextView android:text="0" android:id="@+id/inofmonth"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="center"></TextView>
+		</TableRow>
+		<View android:layout_height="2dip" android:background="#181818" />
+		<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/txt_total" android:id="@+id/TextView09"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@color/olive" android:textColor="@color/white"
+				android:gravity="center"></TextView>
+			<TextView android:text="0" android:id="@+id/totaloftoday"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="center"></TextView>
+			<TextView android:text="0" android:id="@+id/totalofweek"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="center"></TextView>
+			<TextView android:text="0" android:id="@+id/totalofmonth"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:gravity="center"></TextView>
+		</TableRow>
+
+	</TableLayout>
+</LinearLayout>
+

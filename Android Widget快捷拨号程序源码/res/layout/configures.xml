@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<ListView android:id="@+id/contactList" android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:scrollbars="vertical"
+		android:smoothScrollbar="true"></ListView>
+	<LinearLayout android:id="@+id/inputLinear"
+		android:orientation="vertical" android:layout_height="fill_parent"
+		android:layout_width="fill_parent">
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/cfgContactText"
+			android:text="@string/cfgContactLabel" android:textColor="@color/whiteFront"></TextView>
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/cfgContactEdit"
+			android:hint="@string/cfgContactHint" android:singleLine="true"></EditText>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/cfgPhoneText"
+			android:text="@string/cfgNumberLabel" android:textColor="@color/whiteFront"></TextView>
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:hint="@string/cfgNumberHint"
+			android:id="@+id/cfgPhoneEdit" android:phoneNumber="true"
+			android:singleLine="true"></EditText>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/saveBtn"
+			android:text="@string/btnSaveLabel" android:gravity="center"
+			android:layout_gravity="center"></Button>
+	</LinearLayout>
+</FrameLayout>

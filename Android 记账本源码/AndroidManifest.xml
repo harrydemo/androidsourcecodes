@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="xujun.keepaccount"
+      android:versionCode="1"
+      android:versionName="1.0">
+       <application android:icon="@drawable/icon" android:label="@string/app_name">
+    	 <activity android:label="@string/app_name" android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+             	<category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Button例子" android:name=".tabbar.ButtonDemo"/>
+        <activity android:label="查询账单" android:name=".activity.QueryAccount"/>
+        <activity android:label="今日账单" android:name=".activity.TodayAccount"/>
+        <activity android:label="历史账单" android:name=".activity.HistoryAccount"/>
+        <activity android:label="记录账单" android:name=".activity.WriteAccount"/>
+        <activity android:label="账单分类" android:name=".activity.TypeAccount"/>
+        <activity android:name=".activity.TypeAccountList"/>
+        
+        <activity android:label="日历" android:name=".dialog.CanlendarDialog" android:theme="@style/Theme.AccountDialog" />
+        <activity android:label="设置查询时间" android:name=".dialog.DateSelectorDialog" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+    </application>
+    <uses-sdk android:minSdkVersion="8" />
+
+</manifest> 

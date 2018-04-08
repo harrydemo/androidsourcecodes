@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btnmanual">手动获取位置</string>
+    <string name="btnsettimespace">设置时间间隔</string>
+    <string name="btnexit">关闭</string>
+    <string name="ettimespacehint">秒</string>
+    <string name="app_name">MyGPS</string>
+</resources>

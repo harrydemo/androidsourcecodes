@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TextView
+	    android:id="@+id/tvBatteryStatus"
+	    android:layout_marginLeft="3sp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/batteryStatus"
+	    android:textSize="18dp"
+	    android:textColor="#FFFFFF"
+	    />
+    
+	<TextView
+	    android:id="@+id/tvBatteryLevel"
+	    android:layout_marginLeft="3sp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/batteryLevel"
+	    android:textSize="18dp"
+	    android:textColor="#FFFFFF"
+	    />
+	
+		<TextView
+	    android:id="@+id/tvBatteryHealth"
+	    android:layout_marginLeft="3sp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/batteryHealth"
+	    android:textSize="18dp"
+	    android:textColor="#FFFFFF"
+	    />
+		
+		<TextView
+	    android:id="@+id/tvBatteryTemperature"
+	    android:layout_marginLeft="3sp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/batteryTemperature"
+	    android:textSize="18dp"
+	    android:textColor="#FFFFFF"
+	    />
+			
+		<TextView
+	    android:id="@+id/tvBatteryVoltage"
+	    android:layout_marginLeft="3sp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/batteryVoltage"
+	    android:textSize="18dp"
+	    android:textColor="#FFFFFF"
+	    />
+
+		<TextView
+	    android:id="@+id/tvBatteryTechnology"
+	    android:layout_marginLeft="3sp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="@string/batteryTechnology"
+	    android:textSize="18dp"
+	    android:textColor="#FFFFFF"
+	    />
+
+		<TextView
+	    android:id="@+id/tvInfo"
+	    android:layout_marginLeft="3sp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:text="http://blog.csdn.net/ritterliu"
+	    android:textSize="15dp"
+	    android:textColor="#FFFFFF"
+	    />
+
+</LinearLayout>

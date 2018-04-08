@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ListView android:id="@+id/listview" 
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_above="@+id/footer">
+	</ListView>
+    <LinearLayout android:id="@+id/footer"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+		<Button 
+		        android:id="@+id/footer_button"
+		        android:layout_width="fill_parent"
+			    android:layout_height="wrap_content" 
+			    android:text="确认添加" />
+	</LinearLayout>
+</RelativeLayout>

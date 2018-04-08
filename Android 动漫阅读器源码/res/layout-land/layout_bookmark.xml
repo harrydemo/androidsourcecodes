@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="10dip"
+    android:layout_marginBottom="10dip" >
+    
+    <!-- 漫画册封皮 -->
+    <ImageView 
+        android:id="@+id/imagePath"
+        android:layout_width="95dip"
+        android:layout_height="95dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="1dip"
+        android:layout_alignParentLeft="true"
+        />
+    <!-- 书名 -->
+    <TextView 
+        android:text="@string/bookmark_bookName"
+        android:id="@+id/bookMarkName"
+        android:textSize="14dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dip"
+        android:layout_marginTop="10dip"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/imagePath"
+        />
+    <!-- 上次阅读 -->
+    <TextView 
+        android:text="@string/bookmark_lastTimeRead"
+        android:textSize="14dip"
+        android:id="@+id/lastTimeReaded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dip"
+        android:layout_toRightOf="@id/imagePath"
+        android:layout_centerVertical="true"
+        />
+    <!-- 保存时间 -->
+    <TextView 
+        android:textSize="14dip"
+        android:id="@+id/saveTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dip"
+        android:layout_toRightOf="@id/lastTimeReaded"
+        android:layout_centerVertical="true"
+        />
+    <!-- 阅览页数 -->
+    <TextView 
+        android:id="@+id/imageId"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dip"
+        android:layout_toRightOf="@id/imagePath"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dip"
+        />
+    <!-- 阅览页数 -->
+</RelativeLayout>

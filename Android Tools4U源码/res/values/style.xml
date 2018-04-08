@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- 基础应用程序主题，为默认主题 -->
+  <style name="Theme" parent="android:Theme">
+  </style>
+
+  <!--
+     变更应用程序的主题，使之具有translucent背景
+  -->
+
+  	<style name="mytheme" parent="@android:style/Theme.Light">
+		<item name="android:windowNoTitle"> true </item>
+	</style>
+
+
+
+  
+
+  
+  
+  <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+  
+
+</resources>

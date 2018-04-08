@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              >
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              >
+  <ImageView android:id="@+id/image"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="10dp"
+               android:background="@drawable/and"
+               />
+  <LinearLayout android:id="@+id/layout_root"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              >
+    <TextView android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"
+              android:paddingBottom="5pt"
+              android:text="@string/AboutText"
+              />
+  </LinearLayout>    
+  </LinearLayout>    
+	<TextView android:id="@+id/mail"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"
+              android:text="@string/MAIL"
+              android:autoLink="all"
+              />              
+    <TextView android:id="@+id/www"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"
+              android:text="@string/WWW"
+              android:autoLink="all"
+              />                      
+    <TextView android:id="@+id/aaa"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="#FFF"
+              android:text="@string/AAA"
+              android:autoLink="all"
+              />                      
+</LinearLayout>

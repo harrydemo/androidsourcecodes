@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:id="@+id/tvlatitude" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="20dip" />
+		<TextView android:id="@+id/tvlongitude" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="20dip" />
+		<TextView android:id="@+id/tvhigh" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="20dip" />
+		<TextView android:id="@+id/tvdirection" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="20dip" />
+		<TextView android:id="@+id/tvspeed" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="20dip" />
+		<TextView android:id="@+id/tvgpstime" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="20dip" />
+		<TextView android:id="@+id/tvinfotype" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="20dip" />
+		<Button android:id="@+id/btnmanual" android:text="@string/btnmanual"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<Button android:id="@+id/btnsettimespace" android:text="@string/btnsettimespace"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" />
+			<EditText android:id="@+id/ettimespace"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_weight="1" android:maxLength="5" android:numeric="integer"
+				android:hint="@string/ettimespacehint" />
+		</LinearLayout>
+		<Button android:id="@+id/btnexit" android:text="@string/btnexit"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	</LinearLayout>
+</ScrollView>

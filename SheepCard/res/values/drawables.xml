@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="green">#ffffffff</item>
+    <item type="drawable" name="image_button_background">#00000000</item>
+    <item type="drawable" name="text_color">#ff8888ff</item>
+</resources>

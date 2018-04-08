@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:title="@string/staticmenu" android:id="@+id/staticmenu" android:icon="@drawable/buttonplay"></item>
+<item android:title="@string/trackingmenu" android:id="@+id/trackingmenu" android:icon="@drawable/buttonplay"></item>
+<item android:title="@string/stop" android:id="@+id/stop" android:icon="@drawable/buttonstop"></item>
+<item android:title="@string/snr" android:id="@+id/snrItem" android:icon="@drawable/buttonnext"></item><item android:id="@+id/settings" android:title="@string/settings" android:icon="@drawable/settings"></item>
+
+<item android:id="@+id/aboutitem" android:title="@string/about" android:icon="@drawable/buttoninfo"></item><item android:title="@string/quit" android:id="@+id/quit" android:icon="@drawable/buttonclose"></item>
+
+</menu>

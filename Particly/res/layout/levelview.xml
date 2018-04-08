@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res/com.sordid.angrybowels"
+>
+	<RelativeLayout android:id="@+id/level_container" 
+	    android:background="@drawable/rounded_rectangle" 
+	    android:layout_width="84dp" 
+	    android:layout_height="84dp"
+	    android:layout_gravity="center"
+	    android:layout_marginLeft="10dp">
+		<TextView android:id="@+id/level_number" 
+			style="@style/LevelFont"
+			android:layout_centerInParent="true">
+		</TextView>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/level_number">
+			<ImageView android:id="@+id/level_star_1" 
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+				android:src="@drawable/star"
+				android:paddingRight="1dip"
+				android:layout_weight="0.5"/>
+			<ImageView android:id="@+id/level_star_2" 
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+				android:src="@drawable/star"
+				android:paddingRight="1dip"
+				android:layout_weight="0.5"/>
+			<ImageView android:id="@+id/level_star_3" 
+				android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+				android:src="@drawable/star"
+				android:paddingRight="1dip"
+				android:layout_weight="0.5"/>	
+		</LinearLayout>   
+	</RelativeLayout>
+</merge>

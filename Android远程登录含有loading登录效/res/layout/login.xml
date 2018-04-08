@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/loginUserNameLabel"
+		android:textSize="18px"></TextView>
+	<EditText android:text="" android:id="@+id/loginUserNameEdit"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/loginPasswordLabel"
+		android:textSize="18px"></TextView>
+	<EditText android:id="@+id/loginPasswordEdit"
+		android:password="true" android:nextFocusDown="@+id/loginSubmit"
+		android:nextFocusRight="@+id/loginSubmit" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></EditText>
+	<CheckBox android:text="@string/loginRememberMe" android:id="@+id/loginRememberMeCheckBox"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginLeft="20px">
+		</CheckBox>
+		<Button android:text="@string/loginSubmit" android:id="@+id/loginSubmit"
+			android:textSize="24px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/loginRegister" android:id="@+id/loginRegister"
+			android:textSize="24px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#C5CCD4FF">
+<LinearLayout
+android:id = "@+id/TabLayout_One"
+android:layout_width = "fill_parent"
+android:layout_height = "fill_parent"
+android:layout_below = "@+id/gallery"
+>
+<TextView
+android:textColor="@android:color/black"
+android:textSize="30sp"
+android:layout_width = "wrap_content"
+android:layout_height = "wrap_content"
+android:text = "这是第四个布局"
+/>
+</LinearLayout>
+
+<LinearLayout
+android:id = "@+id/TabLayout_Two"
+android:layout_width = "fill_parent"
+android:layout_height = "fill_parent"
+android:layout_below = "@+id/gallery"
+>
+
+<Button
+android:layout_width = "wrap_content"
+android:layout_height = "wrap_content"
+android:text = "这是第一个布局"
+android:textSize = "30sp"
+/>
+</LinearLayout>
+<LinearLayout
+android:id = "@+id/TabLayout_Three"
+android:layout_width = "fill_parent"
+android:layout_height = "fill_parent"
+android:layout_below = "@+id/gallery"
+>
+
+<TextView
+android:layout_width = "fill_parent"
+android:layout_height = "fill_parent"
+android:textSize="25sp"
+android:textColor="#ffffff"
+android:text="你觉得怎么样？"
+/>
+</LinearLayout>
+<LinearLayout
+android:id = "@+id/TabLayout_Four"
+android:layout_width = "fill_parent"
+android:layout_height = "fill_parent"
+android:layout_below = "@+id/gallery"
+>
+<TextView
+android:textColor="@android:color/black"
+android:layout_width = "wrap_content"
+android:layout_height = "wrap_content"
+android:text = "很简单，是么"
+/>
+
+</LinearLayout>
+<Gallery
+android:id="@+id/gallery"
+android:layout_alignParentTop="true"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:unselectedAlpha="1"
+android:spacing="1dip"/>
+</RelativeLayout>

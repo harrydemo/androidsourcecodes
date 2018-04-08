@@ -1,0 +1,94 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@drawable/ww1">
+	
+	<ListView android:id="@+id/ListViewOther01" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></ListView>
+
+	<!--<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/ImageView01" android:src="@drawable/other"
+			android:layout_marginTop="6dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageView>
+		<TextView android:text="用户注册" android:id="@+id/TextView01"
+			android:textColor="#6495ED" android:layout_toRightOf="@id/ImageView01"
+			android:textSize="18dp" android:layout_marginTop="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="创建一个新的注册用户" android:id="@+id/TextView02"
+			android:layout_toRightOf="@id/ImageView01" android:layout_below="@id/TextView01"
+			android:textSize="12dp" android:layout_width="wrap_content"
+			android:textColor="#6495ED" android:layout_height="wrap_content"></TextView>
+	</RelativeLayout>
+	
+	<View android:layout_width="fill_parent" android:layout_height="1dp"
+		android:background="#ffffff" android:layout_marginTop="8dp"></View>
+
+	<RelativeLayout android:id="@+id/RelativeLayout02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/ImageView02" android:src="@drawable/other"
+			android:layout_marginTop="6dp" android:layout_below="@id/ImageView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+		<TextView android:text="登陆" android:id="@+id/TextView03"
+			android:textColor="#6495ED" android:layout_toRightOf="@id/ImageView02"
+			android:textSize="18dp" android:layout_marginTop="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="以用户的身份登录进入系统" android:id="@+id/TextView04"
+			android:layout_toRightOf="@id/ImageView02" android:layout_below="@id/TextView03"
+			android:textColor="#6495ED" android:textSize="12dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</RelativeLayout>
+	<View android:layout_width="fill_parent" android:layout_height="1dp"
+		android:background="#ffffff" android:layout_marginTop="8dp"></View>
+
+	<RelativeLayout android:id="@+id/RelativeLayout03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/ImageView03" android:src="@drawable/other"
+			android:layout_marginTop="6dp" android:layout_below="@id/ImageView02"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+		<TextView android:text="新建记忆" android:id="@+id/TextView05"
+			android:textColor="#6495ED" android:layout_toRightOf="@id/ImageView03"
+			android:textSize="18dp" android:layout_marginTop="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="创建一条新的旅游记忆" android:id="@+id/TextView06"
+			android:textColor="#6495ED" android:layout_toRightOf="@id/ImageView03"
+			android:layout_below="@id/TextView05" android:textSize="12dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</RelativeLayout>
+	<View android:layout_width="fill_parent" android:layout_height="1dp"
+		android:background="#ffffff" android:layout_marginTop="8dp"></View>
+
+	<RelativeLayout android:id="@+id/RelativeLayout04"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/ImageView04" android:src="@drawable/other"
+			android:layout_marginTop="6dp" android:layout_below="@id/ImageView03"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+		<TextView android:text="继续未发布的记忆" android:id="@+id/TextView07"
+			android:textColor="#6495ED" android:layout_toRightOf="@id/ImageView04"
+			android:textSize="18dp" android:layout_marginTop="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="在原来发布的记忆基础上继续完善记忆内容" android:id="@+id/TextView08"
+			android:textColor="#6495ED" android:layout_toRightOf="@id/ImageView04"
+			android:layout_below="@id/TextView07" android:textSize="12dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</RelativeLayout>
+	<View android:layout_width="fill_parent" android:layout_height="1dp"
+		android:background="#ffffff" android:layout_marginTop="8dp"></View>
+
+	<RelativeLayout android:id="@+id/RelativeLayout05"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/ImageView05" android:src="@drawable/other"
+			android:layout_marginTop="6dp" android:layout_below="@id/ImageView04"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+		<TextView android:text="发起结伴游" android:id="@+id/TextView09"
+			android:textColor="#6495ED" android:layout_toRightOf="@id/ImageView05"
+			android:textSize="18dp" android:layout_marginTop="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="创建一条结伴游信息" android:id="@+id/TextView10"
+			android:textColor="#6495ED" android:layout_toRightOf="@id/ImageView05"
+			android:layout_below="@id/TextView09" android:textSize="12dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</RelativeLayout>
+	
+-->
+</LinearLayout>

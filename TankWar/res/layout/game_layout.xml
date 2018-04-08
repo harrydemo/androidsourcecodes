@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="horizontal">
+  <TableRow>
+		  <com.sgf.game.tankwar.GamePanel
+			 android:id="@+id/tankwar"
+			 android:layout_width="fill_parent"
+		     android:layout_height="fill_parent"
+		     android:layout_weight="3"
+		  />
+		  
+		   <View android:layout_width="2dip"   android:background="#FFF" /> 
+		  <TableLayout android:id="@+id/msg"
+		  		android:orientation="vertical"  
+		  		android:layout_width="fill_parent" 
+		  		android:gravity="center_vertical" 
+		  		android:layout_height="fill_parent"    android:layout_weight="1">
+		  	<TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+			  	 <TextView 
+			  	 android:text="消灭坦克:"
+			  	 android:layout_width="fill_parent"
+			     android:layout_height="wrap_content"
+			     android:visibility="visible"
+			     android:width="0dip"
+			     android:layout_weight="3"
+			     />
+			     <TextView 
+			  	 android:id="@+id/score"
+			  	 android:text="0"
+			  	 android:layout_width="fill_parent"
+			     android:layout_height="wrap_content"
+			     android:visibility="visible"
+			      android:width="0dip"
+			     android:layout_weight="1"
+			     />
+		     </TableRow>
+		     <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+			      <TextView 
+			  	 android:text="火力:"
+			  	 android:layout_width="fill_parent"
+			     android:layout_height="wrap_content"
+			     android:visibility="visible"
+			     android:width="0dip"
+			     android:layout_weight="3"
+			     />
+			     <TextView 
+			  	 android:id="@+id/shellsnum"
+			  	 android:text=""
+			  	 android:layout_width="fill_parent"
+			     android:layout_height="wrap_content"
+			     android:visibility="visible"
+			     android:width="0dip"
+			     android:layout_weight="1"
+			     />
+		      </TableRow>
+		  </TableLayout>
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">普通对话框</string>
+    <string name="button">显示普通对话框</string>
+    <string name="title">普通对话框</string>
+    <string name="ok">确定</string>
+    <string name="message">这是一个普通对话框。</string>
+</resources>

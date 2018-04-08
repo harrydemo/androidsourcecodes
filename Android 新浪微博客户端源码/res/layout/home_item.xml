@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_h"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <ImageView
+	        android:id="@+id/home_image"
+	        android:layout_margin="5dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerInParent="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/usericon"
+	         />
+        
+        <TextView
+	        android:id="@+id/home_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_margin="5dp"
+	        android:layout_toRightOf="@+id/home_image"
+	        android:text="dsssssss" />
+         <TextView
+	        android:id="@+id/home_content"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/home_title"
+	        android:layout_margin="5dp"
+	        android:layout_toRightOf="@+id/home_image"
+	        android:text="dsssssss" />
+         
+          <ImageView
+	        android:id="@+id/content_image"
+	        android:layout_margin="5dp"
+	        android:layout_centerInParent="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/home_content"
+	         />
+         
+          <TextView
+	        android:id="@+id/home_timeout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_margin="5dp"
+	        android:textColor="@color/red"
+	        android:layout_alignParentRight="true"
+	        android:text="dsssssss" />
+           
+           
+           <LinearLayout
+               android:id="@+id/home_item_layout"
+                android:layout_below="@+id/home_content"
+                android:layout_toRightOf="@+id/home_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="5dp"
+		        android:background="@drawable/bg_welcom"
+		        android:orientation="vertical" >
+
+               <TextView
+                   android:id="@+id/home_item_swich"
+                   android:layout_marginTop="20dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginRight="5dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="text" />
+               <ImageView
+			        android:id="@+id/retweeted_image"
+			        android:layout_margin="5dp"
+			        android:layout_centerInParent="true"
+			        android:layout_width="wrap_content"
+			        android:layout_height="fill_parent"
+			        android:layout_below="@+id/home_item_swich"
+	         />
+		        
+		    </LinearLayout>
+    </RelativeLayout>
+
+   
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainUIActivity!</string>
+    <string name="app_name">Android 组件示例</string>
+    <string name="app_textview_example">TextView 组件示例</string>
+     <string name="app_edittextview_example">EditTextView 组件示例</string>
+      <string name="app_example_textview_desc">本示例将演示 TextView,EditText,AutoCompleteTextView,\nMultiCompleteTextView 等文本输入控件</string>
+	<string name="app_linearlayout_example">Android布局 ---- 线性布局示例</string>
+	<string name="app_tablelayout_example">Android布局 ---- 表格布局示例</string>
+	<string name="app_linearlayout_complex_example">Android布局 ---- 线性复杂布局示例</string>
+	<string name="app_linear_table_layout_complex_example">Android布局 ---- 线性表格组合复杂布局示例</string>
+	<string name="app_relative_layout_example">Android布局 ---- 相对布局示例</string>
+	<string name="app_relative_layout_complex_example">Android布局 ---- 相对布局仿TabHost示例</string>
+	<string name="taskContent_str">我计划在这个月内对 Android UI及基本功能掌握</string>  
+	<string name="accountsContent_str">我的帐号：34042122@qq.com</string>
+	<string name="sendedContent_str">今天的邮件已发送到 chengminwei_1984122@126.com </string>
+</resources>

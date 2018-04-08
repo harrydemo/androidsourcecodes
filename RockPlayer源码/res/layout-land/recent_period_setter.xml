@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dip"
+		android:gravity="center"
+		>
+
+
+		<ImageButton
+			android:id="@+id/recent_period_decrease"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="#0000"
+			android:src="@+drawable/radius_picker_down_selector"			
+			android:paddingTop="10dip"
+			android:paddingBottom="10dip"
+			/>
+		<EditText
+			android:id="@+id/recent_period"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/recent_period_decrease"
+			android:textSize="24dip"
+			android:text="15"
+			android:numeric="integer"
+			android:editable="false"
+			android:singleLine="true"
+			android:gravity="center"
+			android:layout_marginTop="10dip"
+			android:layout_marginBottom="10dip"
+			/>
+		<TextView
+			android:id="@+id/recent_period_metric"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/recent_period"
+			android:textSize="24dip"
+			android:text="days"
+			android:padding="6dip"
+			android:layout_marginTop="10dip"
+			android:layout_marginBottom="10dip"
+			/>
+	   	<ImageButton
+			android:id="@+id/recent_period_increase"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/recent_period_metric"
+			android:background="#0000"
+			android:paddingTop="10dip"
+			android:paddingBottom="10dip"
+			android:src="@+drawable/radius_picker_up_selector"			
+			/>
+		</RelativeLayout>

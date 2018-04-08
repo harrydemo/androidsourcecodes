@@ -1,0 +1,147 @@
+Next version (2.0β):
+  Tables can be dumped from "Table view" to SQL file (that can later be loaded 
+    by execute script)
+  Reset also restores the show welcome screen
+  Export (to ASCII file) now don't throw exception if missing or invalid SQL
+  	but gives error
+  Messages after export and restore and better error handling in places
+  Recent files - easy open recently opened databases (cleared on reset) 
+  Number of recent files configurable
+    
+Working on:
+  Planning for further development, feature request are welcome, could be:
+	Sort data / query results by clicking on title
+	Implement some of SQLites .commands:
+	  .import FILE TABLE	import data from text file to table
+	"Tab" view / show active tab
+	Scripts editor?
+  
+Version 1.2.2
+  News screen on open
+  Bug with displaying data form views fixed
+  
+Version 1.2.1
+  Bug with displaying data form views fixed
+
+Version 1.2
+  Correctly scaling on the Galaxy Tab and hopefully on other large displays
+  Open SQL files (from database view) and executed all or single line
+  Error messages during restore and execution of scripts and statements
+  Data editing form table viewer by using "Edit" button at each row
+  New records can be added by using the "New" button in the table heading
+    Input mode during editing and insert depends on the fields data type. SQLite
+	uses a dynamic type system where field types can be given as any string
+	aSQLiteManager translates this string into the following types and use this
+	to set input mode (SQLite types i parenthesis). The translation is NOT
+	case sensitive:
+		STRING (string, text), INTEGER (integer), FLOAT (real, float, double),
+		DATE (date), TIME (time), DATETIME (datetime), BOOLEAN (boolean, bool),
+		PHONENO (phoneno). aSQLiteManager does not handle BLOB
+
+Version 1.2β
+  Open SQL files (from database view) and executed all or single lines
+  Error messages during restore and execution of scripts and statements
+  Data editing form table viewer by using "Edit" button at each row
+  New records can be added by using the "New" button in the table heading
+    Input mode during editing and insert depends on the fields data type. SQLite
+	uses a dynamic type system where field types can be given as any string
+	aSQLiteManager translates this string into the following types and use this
+	to set input mode (SQLite types i parenthesis). The translation is NOT
+	case sensitive:
+		STRING (string, text), INTEGER (integer), FLOAT (real, float, double),
+		DATE (date), TIME (time), DATETIME (datetime), BOOLEAN (boolean, bool),
+		PHONENO (phoneno). aSQLiteManager does not handle BLOB
+
+Version 1.1
+  Select SQL history from query form
+  Size of icons changed to right sizes for different displays
+  Better detection of valid SQLite databases (based on first 16-byte sequence)
+  Begin transaction, Commit and Rollback can be selected from option menu. 
+    Transactions can be nested as savepoints in SQLite (is the first transaction
+    rolled back all updates are rolled back). aSQLiteManager ensures that SQL
+    statements are stored in the database even if updates are rolled back.
+    See http://www.sqlite.org/lang_savepoint.html for savepoint specifications.
+  Export of databases (table structure, views and data) to SQL script
+    named databaseFileName.sql implemented -- seems to work
+  Restore of databases (table structure, views and data) from SQL script
+    named databaseFileName.sql implemented -- seems to work
+  Better file picker with different icons for folders, .sqlite, .db and non
+  	aSQLiteManager files
+  Export of query result to ascii file databaseFileName.export
+  Configuration of:
+    Open databases from file managers and aSQLiteManager without question
+    Reset configurations to default
+    
+Version 1.1β
+  Select SQL history from query form
+  Size of icons changed to right sizes for different displays
+  Better detection of valid SQLite databases (based on first 16-byte sequence)
+  Begin transaction, Commit and Rollback can be selected from option menu. 
+    Transactions can be nested as savepoints in SQLite (is the first transaction
+    rolled back all updates are rolled back). aSQLiteManager ensures that SQL
+    statements are stored in the database even if updates are rolled back.
+    See http://www.sqlite.org/lang_savepoint.html for savepoint specifications.
+  Export of databases (table structure, views and data) to SQL script
+    named databaseFileName.sql implemented -- seems to work
+  Restore of databases (table structure, views and data) from SQL script
+    named databaseFileName.sql implemented -- seems to work
+  Better file picker with different icons for folders, .sqlite, .db and non
+  	aSQLiteManager files
+  Export of query result to ascii file databaseFileName.export
+  
+Version 1.0
+  First production release of aSQLiteManager
+  No known bugs
+  
+Version 0.81
+  aSQLiteManager can be opened if a .sqlite or .db file is clicked on in
+    OI File Manager, in Adao Teams File Manager and in Simplest File Manager
+  Insert into SQL builder mode
+  A few bug fixed
+
+Version 0.80
+  The first beta version of aSQLiteManager
+  More advanced SQL builder (for Select, Create view, Create table, Drop table,
+    Drop view and Delete from)
+  The sqlite_master table now included in list of tables and sorted by name
+  Create new database and open it
+  Headers on query results
+  Don't save the same SQL more than one time (unique constraints on SQL)
+  Index viewer
+
+Version 0.70
+  Query result in data grid
+  Executed statements can be saved in current database in a table named
+    aSQLiteManager (configuration)
+  A simple SQL builder where tables and fields from the "select fields from tables"
+    part can be selected from two lists
+  Paging on Table and View data viewer implemented. Numbers of records to return can be
+    configured form option menu at the main form
+  Clicking on a field in the data browser copy the content to the clip board
+  A help screen with a little help, links and mailto
+  
+Version 0.6
+  Simple execution of SQL and display of result (for the time being as comma
+  separated lines in list)
+  
+Version 0.50
+  Display view data
+  Display create script for tables and views
+  Enhanced file picker (sorted list - directories before files and icons)
+  Two way scrolling data grid
+  Can be moved to SDCard
+  
+Later:
+  See triggers
+
+Version 0.11
+
+New in this version:
+  Can now display table data
+
+Version 0.1
+
+Now able to:
+  Browse SDCard and open a database
+  See tables, views and index
+  See table structure

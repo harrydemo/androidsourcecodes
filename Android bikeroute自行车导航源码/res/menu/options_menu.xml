@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/navigate"
+          android:title="@string/navigate_title" 
+          android:icon="@drawable/ic_menu_navigate">
+    </item>
+    <item android:id="@+id/map"
+    android:title="@string/map_title"
+    android:icon="@drawable/ic_menu_map"></item>
+    <item android:id="@+id/directions"
+          android:title="@string/directions_title"
+          android:icon="@drawable/ic_menu_directions" >
+    </item>
+    <item android:id="@+id/about" android:title="@string/about_menu" android:icon="@drawable/ic_menu_info_details"></item>
+    
+</menu>

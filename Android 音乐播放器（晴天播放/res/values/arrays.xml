@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exsit_dialog_items">
+    	<item>立即播放</item>
+    	<item>添加到播放列表</item>
+    </string-array>
+    <string-array name="down_dialog_tiems">
+    	<item>下载到本地</item>
+    	<!--  
+    	<item>在线播放</item>
+    	-->
+    </string-array>
+    <string-array name="notification_to_remote_items">
+    	<item>暂停下载</item>
+    	<item>停止下载</item>
+    </string-array>
+</resources>

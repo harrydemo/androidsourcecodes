@@ -1,0 +1,187 @@
+<root mpb="444.4">
+	<pattern id="wtfix">
+		<rest type="eighth" />
+	</pattern>
+
+	<pattern id="start-rest">
+		<rest type="half" />
+	</pattern>
+
+	<pattern id="pattern1">
+		<rest type="whole" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<hold type="half" />
+		<rest type="half" />
+		<hold type="half" />
+		<rest type="half" />
+	</pattern>
+
+	<pattern id="quarters">
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+	</pattern>
+
+	<pattern id="whole-rest">
+		<rest type="whole" />
+	</pattern>
+
+	<pattern id="second-section">
+		<rest type="half" />
+		<hold type="whole" />
+
+		<rest type="half" />
+		<rest type="quarter" />
+		<hold type="whole" />
+	</pattern>
+
+	<pattern id="third-section">
+		<beat type="quarter" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+
+		<rest type="quarter" />
+	</pattern>
+
+	<pattern id="fourth-section">
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<rest type="quarter" />
+	</pattern>
+
+	<pattern id="4.5">
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+ 	</pattern>
+
+	<pattern id="fifth-section">
+		<hold type="eighth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+
+		<rest type="quarter" />
+	</pattern>
+
+	<pattern id="derp">
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<hold type="half" />
+		<rest type="quarter" />
+
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<hold type="half" />
+		<rest type="quarter" />
+
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<hold type="half" />
+		<rest type="quarter" />
+
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<hold type="half" />
+		<rest type="quarter" />
+
+	</pattern>
+
+	<pattern id="three-holds">
+		<hold type="quarter" />
+		<rest type="eighth" />
+		<hold type="quarter" />
+		<rest type="eighth" />
+		<hold type="quarter" />
+	</pattern>
+
+	<song>
+		<load-pattern id="wtfix" />
+		<load-pattern id="start-rest" />
+		<load-pattern id="quarters" />
+
+		<load-pattern id="whole-rest" />
+		<load-pattern id="second-section" />
+
+		<load-pattern id="whole-rest" />
+		<load-pattern id="start-rest" />
+
+		<load-pattern id="third-section" />
+		<load-pattern id="third-section" />
+		<load-pattern id="third-section" />
+		<load-pattern id="third-section" />
+
+		<load-pattern id="third-section" />
+		<load-pattern id="third-section" />
+		<load-pattern id="third-section" />
+		<load-pattern id="third-section" />
+
+		<load-pattern id="third-section" />
+		<load-pattern id="third-section" />
+
+		<load-pattern id="whole-rest" />
+		<load-pattern id="fourth-section" />
+		<load-pattern id="fourth-section" />
+		<load-pattern id="fourth-section" />
+		<load-pattern id="fourth-section" />
+
+		<load-pattern id="fourth-section" />
+		<load-pattern id="fourth-section" />
+
+		<load-pattern id="whole-rest" />
+		<load-pattern id="fourth-section" />
+		<load-pattern id="fourth-section" />
+		<load-pattern id="fourth-section" />
+		<load-pattern id="fourth-section" />
+		
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+
+		<load-pattern id="4.5" />
+		<load-pattern id="4.5" />
+		<load-pattern id="4.5" />
+		<load-pattern id="4.5" />
+
+		<load-pattern id="whole-rest" />
+
+		<load-pattern id="4.5" />
+		<load-pattern id="4.5" />
+		<load-pattern id="4.5" />
+		<load-pattern id="4.5" />
+
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="fifth-section" />
+		<load-pattern id="fifth-section" />
+		<load-pattern id="fifth-section" />
+		<load-pattern id="fifth-section" />
+
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="fifth-section" />
+		<load-pattern id="fifth-section" />
+	</song>
+</root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- "New game". -->
+    <item android:id="@+id/menu_new" android:title="@string/menu_game_new"
+    	  android:icon="@drawable/launch"/>
+
+    <!-- "Pause game". -->
+    <item android:id="@+id/menu_pause" android:title="@string/menu_game_pause" 
+    	  android:icon="@drawable/pause"/>
+
+     <!-- "Set skill level...". -->
+    <item android:id="@+id/skill_menu" android:title="@string/menu_set_skill"
+    	  android:icon="@drawable/configure">
+        <menu>
+            <group android:id="@+id/skill_group" android:checkableBehavior="single">
+
+                <item android:id="@+id/skill_novice" android:title="@string/skill_novice" />
+                <item android:id="@+id/skill_normal" android:title="@string/skill_normal" />
+                <item android:id="@+id/skill_expert" android:title="@string/skill_expert" />
+                <item android:id="@+id/skill_master" android:title="@string/skill_master" />
+                <item android:id="@+id/skill_insane" android:title="@string/skill_insane" />
+                
+            </group>
+        </menu>
+    </item>
+
+    <!-- "Sound...".  -->
+    <item android:id="@+id/sound_menu" android:title="@string/menu_sound"
+    	  android:icon="@drawable/sound">
+        <menu>
+            <group android:id="@+id/sound_group" android:checkableBehavior="single">
+
+                <item android:id="@+id/sounds_off" android:title="@string/no_sounds" />
+                <item android:id="@+id/sounds_qt" android:title="@string/quiet_sounds" />
+                <item android:id="@+id/sounds_on" android:title="@string/play_sounds" />
+                
+            </group>
+        </menu>
+    </item>
+
+    <!-- "Help". -->
+	<item android:id="@+id/menu_help" android:title="@string/menu_help"
+    	  android:icon="@drawable/help"></item>
+
+    <!-- "About". -->
+	<item android:id="@+id/menu_about" android:title="@string/menu_about"
+    	  android:icon="@drawable/info"></item>
+	
+</menu>
+

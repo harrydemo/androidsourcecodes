@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget48"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/white"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<RadioGroup
+	    android:id="@+id/languageRadioGroup"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_x="35px"
+		android:layout_y="10px"
+	    android:orientation="vertical"
+	    >
+		<RadioButton
+		android:id="@+id/english_radio"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="English"
+		android:textColor="@android:color/black"
+		android:layout_y="20px"
+		>
+		</RadioButton>
+		<RadioButton
+		android:id="@+id/sanskrit_radio"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Sanskrit"
+		android:textColor="@android:color/black"
+		android:layout_y="60px"
+		>
+		</RadioButton>
+		<RadioButton
+		android:id="@+id/spanish_radio"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Spanish"
+		android:textColor="@android:color/black"
+		android:layout_y="100px"
+		>
+		</RadioButton>
+	</RadioGroup>
+<Button
+android:id="@+id/sure_button"
+android:layout_width="80px"
+android:layout_height="wrap_content"
+android:text="ok"
+android:layout_x="1px"
+android:layout_y="160px"
+>
+</Button>
+<Button
+android:id="@+id/cancel_button"
+android:layout_width="80px"
+android:layout_height="wrap_content"
+android:text="cancel"
+android:layout_x="90px"
+android:layout_y="160px"
+>
+</Button>
+</AbsoluteLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Himi提示：手势超过9个我做了删除所有手势的操作，为了界面整洁一些！~(*^__^*)~ 嘻嘻！\n操作介绍：(画手势我设置必须画两笔划才行哦~)\n1.添加手势：先EditText中输入名称，然后在屏幕上画出手势！\n2.匹配手势：在EditText输入"himi",然后输入手势即可！ </string>
+    <string name="app_name">GestureProject</string>
+</resources>

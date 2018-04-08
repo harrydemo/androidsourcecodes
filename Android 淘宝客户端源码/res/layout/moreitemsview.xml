@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingTop="15dip" android:paddingBottom="15dip" android:id="@+id/linemore"
+	xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <TextView  android:layout_width="fill_parent" android:layout_height="wrap_content"
+   android:text="更多" android:textSize="18sp" android:gravity="center_horizontal"
+   android:focusable="false" android:clickable="false"
+   />
+</LinearLayout> 

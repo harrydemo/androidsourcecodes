@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutMonitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnStartMonitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startmoritor" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="260dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:text="@string/main_service1"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTrust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutMonitor"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnStartTrust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/starttrust" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="260dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:text="@string/main_service2"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutReply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutTrust"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnStartReply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startreply" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="260dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:text="@string/main_service3"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" 
+        android:background="#CCCCCC"
+        android:baselineAligned="false" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/start" 
+                android:textColor="@android:color/black"
+                android:drawableTop="@android:drawable/ic_menu_slideshow"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/waitView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/waiting_list" 
+                android:textColor="@android:color/black"
+                android:drawableTop="@android:drawable/ic_menu_slideshow"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/deallist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/sample_manage" 
+                android:textColor="@android:color/black"
+                android:drawableTop="@android:drawable/ic_menu_today"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/setting" 
+                android:textColor="@android:color/black"
+                android:drawableTop="@android:drawable/ic_menu_preferences"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

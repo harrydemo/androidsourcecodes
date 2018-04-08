@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:scrollbars="none">
+    
+<RelativeLayout
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+	>
+		<LinearLayout
+            android:id="@+id/miniAdLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"/>
+	
+	</LinearLayout>
+    
+	<LinearLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@id/linearLayout">
+	        
+	
+	    <TextView
+            android:id="@+id/PointsTextView"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:visibility="visible"
+            android:gravity="center"
+            android:textSize="18dip" />
+	
+		<LinearLayout
+			android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+		>
+		    <Button
+	            android:id="@+id/OffersButton"
+	            android:text="@string/offerList"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:visibility="visible"
+	            android:layout_weight="1" />
+		    
+		    <Button
+	            android:id="@+id/OwnsButton"
+	            android:text="@string/ownsApp"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:visibility="visible"
+	            android:layout_weight="1" />
+		    
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+		>
+		    <Button
+	            android:id="@+id/appOffersButton"
+	            android:text="@string/appOfferList"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:visibility="visible"
+	            android:layout_weight="1" />
+		    
+		    <Button
+		    	android:id="@+id/gameOffersButton"
+		    	android:text="@string/gameOfferList"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:visibility="visible"
+	            android:layout_weight="1" />
+		    
+		</LinearLayout>
+	            
+	    <LinearLayout
+			android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+		>
+		    <Button
+	            android:id="@+id/diyAdList"
+	            android:text="@string/diyAdList"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:visibility="visible"
+	            android:layout_weight="1" />
+
+			<Button
+	            android:id="@+id/diyAdButton"
+	            android:text="@string/diyAd"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:visibility="visible"
+	            android:layout_weight="1" />
+	    </LinearLayout>
+	     
+	    <LinearLayout
+			android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+		>
+		    <Button
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:text="@string/spendPoints"
+	            android:id="@+id/SpendPointsButton"
+	            android:visibility="visible"
+	            android:layout_weight="1" />
+		    
+		    <Button
+	            android:id="@+id/awardButton"
+	            android:text="@string/awardPoints"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:visibility="visible"
+	            android:layout_weight="1" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+			android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+		>        
+		    <Button
+	            android:id="@+id/Feedback"
+	            android:text="@string/feedback"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:visibility="visible"
+	            android:layout_weight="1" />
+		    <Button
+	            android:id="@+id/checkUpdateButton"
+	            android:text="@string/checkUpdate"
+	            android:layout_height="wrap_content"
+	            android:layout_width="fill_parent"
+	            android:visibility="visible"
+	            android:layout_weight="1" />       
+    
+	    </LinearLayout>
+	     
+	    <TextView
+	        android:id="@+id/SDKVersionView"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:visibility="visible"
+	        android:gravity="center" />        
+	
+	</LinearLayout>
+	
+	<LinearLayout
+        android:id="@+id/AdLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/RelativeLayout01"/>
+    
+</RelativeLayout>
+
+</ScrollView>

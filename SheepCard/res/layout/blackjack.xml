@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout android:orientation="vertical"
+	android:background="@drawable/backgroundmain" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/com.lequ.Blackjack">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<net.youmi.android.AdView android:id="@id/adView"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			umadsdk:backgroundColor="#ff808080" umadsdk:textColor="#ffffffff"
+			umadsdk:backgroundTransparent="155" />
+		<com.lequ.Blackjack.SheepCardView
+			android:id="@id/card" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+	</LinearLayout>
+	<TableLayout android:layout_gravity="center"
+		android:id="@id/blackjack_tableLayout" android:visibility="invisible"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:stretchColumns="1">
+		<TableRow>
+			<Button android:id="@id/no_card" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="8.0px"
+				android:text="@string/no_card" />
+			<TextView android:textSize="15.0sp" android:textColor="@drawable/text_color"
+				android:layout_gravity="center" android:id="@id/my_point"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_column="1" />
+			<Button android:id="@id/again_card" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginRight="8.0px"
+				android:text="@string/again_card" />
+			
+		</TableRow>
+		
+		<TableRow>
+		<Button android:id="@+id/double_score_button"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginLeft="8.0px" 
+				android:text="@string/double_score_button" />
+		</TableRow>
+	</TableLayout>
+	<LinearLayout android:layout_gravity="bottom"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_marginTop="20.0px">
+		<RelativeLayout android:gravity="bottom|center"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_weight="1.0">
+			<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+				android:id="@id/win" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/win"
+				android:layout_weight="1.0" android:layout_alignParentBottom="true" />
+			<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+				android:id="@id/win_count" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="0"
+				android:layout_weight="1.0" android:layout_toRightOf="@id/win"
+				android:layout_alignParentBottom="true" />
+			<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+				android:id="@id/lose" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/lose"
+				android:layout_weight="1.0" android:layout_toRightOf="@id/win_count"
+				android:layout_alignParentBottom="true" />
+			<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+				android:gravity="center_horizontal" android:id="@id/lose_count"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="0" android:layout_weight="1.0"
+				android:layout_toRightOf="@id/lose"
+				android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+		<TableLayout android:gravity="bottom"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:stretchColumns="1" android:layout_weight="1.0">
+			<TableRow>
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/max_score" />
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:id="@id/max_score" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="0" />
+			</TableRow>
+			<TableRow>
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/clip_in" />
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:id="@id/clip_in" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="0" />
+			</TableRow>
+			<TableRow>
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/money" />
+				<TextView android:textSize="20.0sp" android:textColor="@drawable/text_color"
+					android:id="@id/money" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="0" />
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+</FrameLayout>

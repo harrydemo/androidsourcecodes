@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dddeeeff">
+	    
+	<ListView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="450dp" 	    
+   	 	android:padding="3dp"
+   	 	android:cacheColorHint="#dddeeeff"
+   	 	android:isScrollContainer="true"
+	    android:id="@+id/lvmsg"/>
+
+	<RelativeLayout
+		  xmlns:android="http://schemas.android.com/apk/res/android"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content">
+	      <Button
+	          android:id="@+id/first"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_marginLeft="20dp"
+	          android:gravity="center"
+	          android:text="@string/first" />
+
+	      <Button
+	        android:layout_width="wrap_content" 
+	   		android:layout_height="wrap_content"
+	   		android:layout_alignTop="@id/first"
+	   		android:layout_toRightOf="@id/first"
+	   		android:layout_marginLeft="5dp"
+	   		android:text="@string/prev"
+	    	android:id="@+id/prev"
+	    	/>
+	      <Button
+	        android:layout_width="wrap_content" 
+	   		android:layout_height="wrap_content"
+	   		android:layout_alignTop="@id/prev"
+	   		android:layout_toRightOf="@id/prev"
+	   		android:layout_marginLeft="5dp" 
+	   		android:text="@string/next"
+	        android:id="@+id/next"
+	    	/>
+	      <Button
+	        android:layout_width="wrap_content" 
+	   		android:layout_height="wrap_content" 
+	   		android:layout_alignTop="@id/next"
+	   		android:layout_toRightOf="@id/next"
+	   		android:layout_marginLeft="5dp" 
+	   		android:text="@string/end"
+	    	android:id="@+id/end"
+	    	/>
+	      <TextView
+	        android:layout_width="wrap_content" 
+	   		android:layout_height="wrap_content" 
+	   		android:layout_alignBottom="@id/end"
+	   		android:layout_toRightOf="@id/end"
+	   		android:gravity="center_horizontal"
+	   		android:layout_marginLeft="5dp" 
+	    	android:id="@+id/pageInfo"
+	    	android:textColor="#000000"
+	    	/>
+	</RelativeLayout>  
+</LinearLayout>

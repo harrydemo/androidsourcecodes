@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- 	RZ STUFF -->
+	<string name="rz_dlg_title">Return Zero</string>
+	<string name="rz_intro">Hallo! Zoals je gemerkt hebt was het nogal kalm... De voornaamste reden was dat ik zeer druk bezig geweest ben met het ontwikkelen van een nieuw Android spel -- een zeer opwindende tunnelracer \'Return Zero\'. Kijk maar eens op de Android markt!</string>
+	<string name="rz_never_again">Toon deze boodschap niet meer.</string>
+	
+	<!--	BROWSING CATEGORIES-->
+	<string name="browse_cat_album">Albums</string>
+	<string name="browse_cat_artists">Artists</string>
+	<string name="browse_cat_songs">Songs</string>
+	
+	<!--	GENERAL STUFF -->
+	<string name="album">Album</string>
+	<string name="albums">Albums</string>
+	
+	
+	<!--	INTRO SCREEN-->
+    <string name="intro_text_1">Rock</string>
+    <string name="intro_text_2">On</string>
+    <string name="intro_text_3">NextGen</string>
+    <string name="app_name">³</string>
+    
+	<!--    ALBUM ART MESSAGES-->
+	<string name="get_art_dialog_title">³ Platenhoezen</string>
+	<string name="get_art_dialog_message">
+		³ kan de ontbrekenden platenhoezen downloaden. Wil je dit nu doen ? (Het zal ongeveer 1 minuut duren voor elke 10 platenhoezen. Verder raad ik ook aan om dit enkel over WiFi te doen.)
+	</string>
+	<string name="get_art_dialog_yes">Ja!</string>
+	<string name="get_art_dialog_no">Nee, ik doe het later.</string>
+	
+	<!--	ART DOWNLOAD MESSAGES-->
+	<string name="art_download_no_inet">Geen internet connectie!</string>
+	<string name="art_download_progress_title">Downloading platenhoezen</string>
+	<string name="art_download_cancel">Stop</string>
+	<string name="art_download_progress_initial_message">Zoeken voor platenhoezen...</string>
+	
+	<!--	NO SDCARD MESSAGES -->
+	<string name="no_sd_card_dialog_title">Geen SD kaart!</string>
+	<string name="no_sd_card_dialog_message">Steek een SD kaart in aub...</string>
+	<string name="no_sd_card_dialog_continue_anyway">Ga desondanks verder</string>
+	<string name="no_sd_card_dialog_exit">Stop</string>
+	<!--	NO MUSIC MESSAGES -->
+	<string name="no_music_dialog_title">Geen muziek in deze afspeellijst!</string>
+	<string name="no_music_dialog_message">Kan geen muziek vinden op deze afspeellijst...</string>
+	<string name="no_music_dialog_continue_anyway">Ga desondanks verder</string>
+	<string name="no_music_dialog_exit">Stop</string>
+	
+	<!--	DOWNLOAD CONCERTS APP MESSAGES-->
+	<string name="concert_app_install_dialog_title">Installeer Concerts³</string>
+	<string name="concert_app_install_dialog_message">Installeer Concerts³. Wil je dit nu doen?</string>
+	<string name="concert_app_install_dialog_ok">Ja</string>
+	<string name="concert_app_install_dialog_cancel">Neen</string>
+	<string name="concert_app_install_no_market_app_msg">Ooops! Market applicatie is niet geinstalleerd.</string>
+	
+	<!--	DOWNLOAD RELEASES APP MESSAGES-->
+	<string name="releases_app_install_dialog_title">Installeer Releases³</string>
+	<string name="releases_app_install_dialog_message">Installeer Releases³. Wil je dit nu doen?</string>
+	<string name="releases_app_install_dialog_ok">Ja</string>
+	<string name="releases_app_install_dialog_cancel">Neen</string>
+	<string name="releases_app_install_no_market_app_msg">Ooops! Market applicatie is niet geinstalleerd.</string>
+	
+	<!--	TOASTER MESSAGES	-->
+	<string name="song_added_to_playlist">Lied in afspeellijst geplaatst.</string>
+	<string name="song_removed_from_playlist">Lied verwijderd.</string>
+	<string name="album_art_changed">Platenhoes gewijzigd.</string>
+	<string name="playlist_empty_toast">Fout. Afspeellijst is leeg.</string>
+	<string name="playqueue_empty_toast">Fout. Wachtlijst is leeg!</string>
+	<string name="not_an_album_toast">Sorry, dit is een artiest, geen album.</string>
+	<string name="playlist_queued_toast">afspeellijst in wacht geplaatst.</string>
+	<string name="generic_error_toast">Fout!</string>
+	<string name="playlist_deleted_toast">Afspeellijst verwijderd.</string>
+	<string name="song_deleted_toast">Lied verwijderd!</string>
+	
+	<!-- 	SEARCH -->
+	<string name="search_hint">Geef titel of artiest op</string>
+	
+	<!--	PLAY QUEUE	-->
+	<string name="play_queue_title">Speel de wachtlijst</string>
+	<string name="clear_playlist_dialog_option">Wissen</string>
+	<string name="create_playlist_dialog_option">Opslaan</string>
+	
+	<!--	SONG LISTS MORE RESULTS -->
+	<string name="song_list_more_results">Liedjes...</string>
+	
+	<!--	CREATE PLAYLIST DIALOG -->
+	<string name="create_playlist_dialog_title">Geef een naam aan de afspeellijst</string>
+	<string name="create_playlist_dialog_save_option">Opslaan</string>
+	<string name="create_playlist_dialog_text_hint">Afspeellijst naam...</string>
+	
+	<!--	DELETE SONG DIALOG	-->
+	<string name="song_delete_confirm_title">Verwijder nummer</string>
+	<string name="song_delete_message">Ben je zeker dat je het nummer wil verwijderen? Je kan dit niet ongedaan maken.</string>
+	<string name="song_delete_positive_button">Ja!</string>
+	<string name="song_delete_negative_button">Nee.</string>
+	
+	<!--	DELETE PLAYLIST DIALOG	-->
+	<string name="playlist_delete_confirm_title">Verwijder afspeellijst</string>
+	<string name="playlist_delete_message">Ben je zeker dat je de afspeellijst wil verwijderen?</string>
+	<string name="playlist_delete_positive_button">Ja!</string>
+	<string name="playlist_delete_negative_button">Nee.</string>
+	
+	<!--	CREATE PLAYLIST TOASTER	-->
+	<string name="create_playlist_toaster_added_part_1">Nummers in afspeellijst opgenomen</string>
+	<string name="create_playlist_toaster_failed">Kan de afspeellijst niet aanmaken!</string>
+	<string name="create_playlist_toaster_name_required">Je moet de afspeellijst een naam geven...</string>
+	
+	<!--	-->
+	
+	<!--	ALBUM SONG LIST DIALOG -->
+	<string name="album_song_list_play_all">Speel alles</string>
+	<string name="album_song_list_queue_all">Plaats alles in de wachtrij</string>
+	
+	<!--	SONG OPTIONS DIALOG	-->
+	<string name="song_option_play_now">Speel nu</string>
+	<string name="song_option_add_to_queue">Plaats in de wachtrij</string>
+	<string name="song_option_delete">Verwijder</string>
+	
+	<!--	PLAYLIST OPTIONS DIALOG	-->
+	<string name="playlist_option_play_now">Speel nu</string>
+	<string name="playlist_option_add_to_queue">Plaats in de wachtrij</string>
+	<string name="playlist_option_delete">Verwijder</string>
+	
+	<!--	PLAYLIST DIALOG		-->
+	<string name="playlist_dialog_title">Kies een afspeellijst</string>
+	<string name="playlist_dialog_cancel">Stop</string>
+	<string name="playlist_all_title">Speel alles</string>
+	<string name="playlist_most_recent_title">Recent</string>
+	<string name="playlist_most_played_title">Meest gespeeld</string>
+	
+	<!-- 	VIEW MODES DIALOG -->
+	<string name="view_mode_cube">³</string>
+	<string name="view_mode_wall">Wall</string>
+	<string name="view_mode_boring">Saai</string>
+	<string name="view_mode_morph">Morph Flow</string>
+	
+	<!-- 	THEMES DIALOG -->
+	<string name="theme_normal">Normal</string>
+	<string name="theme_halftone">Half tone</string>
+	<string name="theme_earthquake">Aardbeving</string>
+	
+	<!--	THEME PROCESSING MESSAGES	-->
+	<string name="art_processing_progress_title">Platenhoezen behandelen</string>
+	<string name="art_processing_cancel">Stop</string>
+	<string name="art_processing_go_background">Wil je dit in de achtergrond doen ?</string>
+	<string name="art_processing_progress_initial_message">Zoek platenhoezen...</string>
+	
+	<!--    HALF TONE DIALOG -->
+	<string name="half_tone_dialog_title">Half Tone Thema</string>
+	<string name="half_tone_dialog_message">
+		Al je platenhoezen moeten behandeld worden. Dit is een rekenintensieve taak en kan wat tijd vragen.
+	</string>
+	<string name="half_tone_dialog_yes">Behandel de platenhoezen!</string>
+	<string name="half_tone_dialog_no">Neen, bedankt</string>
+	
+	<!--    EARTHQUAKE DIALOG -->
+	<string name="earthquake_dialog_title">Aardbeving Thema</string>
+	<string name="earthquake_dialog_message">
+		Al je platenhoezen moeten behandeld worden. Dit is een rekenintensieve taak en kan wat tijd vragen.
+	</string>
+	<string name="earthquake_dialog_yes">Behandel de platenhoezen!</string>
+	<string name="earthquake_dialog_no">Neen, bedankt</string>
+	
+	
+	<!--	ACTIVITY INTENTS (some of them)-->
+	<string name="main_activity_intent">org.abrantix.rockon.rockonnggl.RockOnNextGenGL</string>
+	
+	<!--	NOTIFICATION STRINGS -->
+	<string name="unknown_album_name">Onbekend album</string>
+	<string name="unknown_artist_name">Onbekende Artist</string>
+	
+	<!-- 	MANUAL ALBUM ART MSGS -->
+	<string name="manual_albumart_error">Fout</string>
+	<string name="manual_albumart_no_album_specified">Geen album opgegeven!</string>
+	<string name="manual_albumart_source">Bron</string>
+	<string name="manual_albumart_source_local">lokaal</string>
+	<string name="manual_albumart_source_internet">intenet</string>
+	<string name="manual_albumart_resolution_loading">Laden...</string>
+	<string name="manual_albumart_resolution_unavailable">Niet beschikbaar</string>
+	
+	<string name="manual_input_enable">Manueel zoeken</string>
+	<string name="manual_input_artist">Artiest</string>
+	<string name="manual_input_album">Album</string>
+	
+	<!--	DONATE MSG	-->
+	<string name="donate_title">Doneer</string>
+	<string name="donate_msg">³ is een kosteloze, open source muziekspeler, volledig ontwikkeld in mijn vrije tijd. Wil je me steunen bij het verder ontwikkelen, kies dan een van de opties:</string>
+	<string name="donate_using">Doneer via</string>
+	<string name="donate_back_to_app">Ga terug naar</string>
+	
+	<!--	UNLOCK SCREEN	-->
+	<string name="unlock_screen">vrijgeven</string>
+	
+	<!--	WIDGET STRINGS	-->
+	<string name="widget_app_start">Start ³</string>
+	
+	<!--	BUG REPORTS	-->
+	<string name="bug_report_intro_part_one">Sorry!\n\n3 (Cubed) v</string>
+	<string name="bug_report_intro_part_two">crashed! Please send this mail, so that we can analyze/fix the issue.\n</string>
+	
+<!--	<string name="bug_report_intro">-->
+<!--		"Sorry!\n\nRockOn v\"-->
+<!--		<xliff:g id="APP_VERSION">%s</xliff:g>-->
+<!--		\" crashed! Please send this mail, so that we can analyze/fix the issue.\n"-->
+<!--	</string>-->
+
+	<!--	DIRECTORY FILTER	-->
+	<string name="directories_on_sdcard">Je SD kaart bevat volgende mappen:</string>
+	<string name="select_all">Selecteer alles</string>
+	<string name="unselect_all">Verwijder alle selecties</string>
+
+	<!--	GENERIC STUFF -->
+	<string name="ok">Ok</string>
+	<string name="back">Terug</string>
+	<string name="all">Alles</string>
+	<string name="none">Geen</string>
+	<string name="on">Aan</string>
+	<string name="off">Uit</string>
+	
+	<string name="genre_prefix">Genre:</string>
+
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:drawable/btn_dialog" 
+        android:id="@+id/btnClose"/>
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/tvPn"
+		android:layout_alignBottom="@+id/button1"
+        android:layout_marginLeft="5dp"
+        android:background="@android:drawable/ic_menu_set_as" 
+        android:id="@+id/btnChange"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:hint="@string/enter_nickname"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/etPn" >
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="5dp"
+        android:text="tvpn" android:id="@+id/tvPn"/>
+	<ScrollView
+		android:id="@+id/svContext"
+		android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnChange"
+        android:layout_marginTop="5dp"
+	    android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"	  
+        >
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"	
+	        android:text="TextView" android:id="@+id/tvContext"/>
+	</ScrollView>
+	<LinearLayout android:id="@+id/layoutSend"
+		android:layout_below="@+id/svContext"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_toLeftOf="@+id/button2" 
+	        android:layout_weight="1"
+			>
+	        <requestFocus />
+	    </EditText>
+	
+		<Button
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@+id/editText1"
+	        android:layout_weight="3"
+	        android:text="@string/send"
+	        android:id="@+id/btnSend"/>
+	</LinearLayout>
+	
+	<Button
+        android:id="@+id/btnAutoReply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutSend"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:text="@string/random_reply" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutSend"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save_sample" />
+
+
+    <Button
+        android:id="@+id/btnWait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutSend"
+        android:layout_alignParentRight="true"
+        android:text="@string/save_msg_to_reply_list" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:text="@string/sample_reply" 
+        android:id="@+id/btnReply"/>
+   
+</RelativeLayout>
+
+
+</LinearLayout>

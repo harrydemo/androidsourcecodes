@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">查询工具</string>
+
+	<string name="confirm">确定</string>
+	<string name="cancel">取消</string>
+	<string name="loginout_title">确认退出</string>
+	<string name="loginout_msg">真的要退出此应用?</string>
+	<string name="no_internet">你的手机没有链接到网络</string>
+
+	<string name="number_mobile_info">手机归属地查询</string>
+	<string name="number_id_info">身份证信息查询</string>
+	<string name="number_add_info">区号邮编城市查询</string>
+	<string name="number_about_info">关于查询工具</string>
+
+	<string name="menu_update">联网更新</string>
+	<string name="menu_help">帮助信息</string>
+
+
+	<string name="input_mobile_no_desc">请输入手机号码</string>
+	<string name="input_idcard_no_desc">请输入身份证号码</string>
+	<string name="input_zip_no_desc">请输入邮编或城市名称或区号</string>
+	<string name="btn_query_text">开始查询</string>
+	<string name="querying">正在检查中,请稍候...</string>
+	<string name="query_zip_result_template" formatted="false">你所查询结果如下：\n\n省份：%s\n城市：%s\n区号：%s\n邮编：%s\n归属地：%s\n</string>
+	<string name="query_mobile_result_template" formatted="false">你所查询结果如下：\n\n手机号码：%s\n归属地：%s\n</string>
+	<string name="query_idcard_result_template" formatted="false">你所查询结果如下：\n\n身份证号码：%s\n生日：%s\n性别：%s\n出生地址：%s\n</string>
+	<string name="query_no_result_template">非常抱歉!<br/>没有找到相关结果。</string>
+
+	<string name="unable_check_version">没有检测到你的应用 版本号，无法更新软件</string>
+	<string name="no_new_version">你已经安装最新版本,无需更新</string>
+	<string name="has_new_version">有新版本可下载使用，大小%s\n是否要下载更新</string>
+
+	<string name="copyright">wyu © 2011 - 2012</string>
+	<string name="about_cont">
+		感谢你使用查询工具\n
+		查询工具由
+		<a href="http://weibo.com/yongwblove">wyu</a>
+		网站提供，供用户快速查询手机号码归属地，以及身份证信息识别，根据邮编、区号或者城市名查看城市信息。\n
+		欲了解更多小工具信息或更多应用软件请访问
+		<a href="http://weibo.com/yongwblove">wyu</a>
+		网站:http://weibo.com/yongwblove\n
+		再次感谢你选用查询工具。
+	</string>
+</resources>

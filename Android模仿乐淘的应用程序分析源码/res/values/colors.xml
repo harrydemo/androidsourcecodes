@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- start by wangyuwei -->
+	<color name="white">#FFFFFFFF</color>
+	<color name="black">#FF000000</color>
+	<color name="gray">#FF7D7D7D</color>
+	<color name="orange">#FFFF740F</color>
+	<color name="blue">#FF0066CC</color>
+	<color name="red">#FFFF0000</color>
+	<color name="transparent">#00000000</color>
+	<color name="transparent_gray">#607D7D7D</color>
+	<color name="brand_gallery_gray">#FF9d9d9d</color>
+	<color name="brand_gallery_blue">#3a7dd6</color>
+	<color name="title_gray">#FF4e4e4e</color>
+	<color name="note_gray">#FFc3c3c3</color>
+	<color name="light_blue">#FF98e5ff</color>
+	<color name="indent_gray">#FFeaeaea</color>
+	<!-- end by wangyuwei -->
+	<!-- start yuanshouhui -->
+	<color name="transparence_bg">#b0000000</color>
+	<!-- end yuanshouhui -->
+	<!-- start by zhufanyu -->
+	<color name="pink">#ec008c</color>
+	<color name="yellow">#e87215</color>
+	<color name="shopping_indent_address_gray">#828282</color>
+	<color name="productlist_title_gray">#5b5b5b</color>
+	<color name="commodity_sort_chooce_blue">#006aa6</color>
+	<color name="green_for_coupon">#115929</color>
+	<color name="spikeare_time_blue">#d9effc</color>
+	<color name="fullnull">#0000</color>
+	<color name="menu_textcolor">#596574</color>
+	<color name="home_list_color">#666666</color>
+	<color name="spikeare_text_gray">#b2b2b2</color>
+	<color name="spikeare_spik_color">#ec0092</color>
+	<color name="spikearedetail_productname_color">#3c7dd0</color>
+	<color name="spikeare_nodata_text_color">#f66900</color>
+	<color name="background_color">#ebf0fa</color>
+	<color name="menu_background_color">#616e80</color>
+	<color name="shopping_conpan">#333333</color>
+	<color name="classify_search_background_color">#f0f0f0</color>
+	<color name="about_version_color">#8c8c8c</color>
+	<color name="dialog_title_color">#a2b8d3</color>
+</resources>

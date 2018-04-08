@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	
+	<com.test.MyProgress 
+		android:id="@+id/progressBar" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		style="?android:attr/progressBarStyleHorizontal" 
+		android:layout_below="@+id/file_url" 
+		android:layout_centerHorizontal="true" 
+		android:max="100"
+		/>
+	
+		<Button android:id="@+id/btn_start" 
+			android:layout_height="wrap_content"
+			android:layout_width="100dip"
+			android:text="开始"
+		/>
+	
+	
+</LinearLayout>

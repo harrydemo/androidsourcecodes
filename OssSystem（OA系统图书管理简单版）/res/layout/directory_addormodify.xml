@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+<RelativeLayout
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" 
+    
+    >  
+<LinearLayout
+     android:id="@+id/linearlayout"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"  
+     android:layout_height="wrap_content"
+     android:background="@drawable/nav_bg">
+<ImageView
+     android:id="@+id/image_index"
+     android:layout_marginTop="5dp"
+     android:src="@drawable/first_index"
+     android:layout_width="wrap_content"  
+     android:layout_height="wrap_content"
+     ></ImageView>
+<TextView
+     style="@style/text_margin"
+     android:id="@+id/tv_first"
+     android:text="@string/firstpage"
+     android:background="@drawable/textview_bg"
+  ></TextView>
+<TextView
+     style="@style/text_margin"
+     android:id="@+id/tv_flag"
+     android:text="@string/flag"
+  ></TextView>
+<TextView
+     style="@style/text_margin"
+     android:gravity="center"
+     android:id="@+id/tv_knowledgemanager"
+     android:text="@string/know_manager"
+     android:background="@drawable/textview_bg"
+     ></TextView>
+<TextView
+     style="@style/text_margin"
+     android:gravity="center"
+     android:id="@+id/tv_flag2"
+     android:text="@string/flag"
+     ></TextView>
+<TextView
+     style="@style/text_margin"
+     android:gravity="center"
+     android:id="@+id/directorymanager"
+     android:text="@string/list_manager"
+     ></TextView>
+<TextView
+     style="@style/text_margin"
+     android:gravity="center"
+     android:id="@+id/tv_flag2"
+     android:text="@string/flag"
+     ></TextView>
+<TextView
+     style="@style/text_margin"
+     android:gravity="center"
+     android:id="@+id/directory_addormodify"
+     android:text="@string/add"
+     ></TextView>
+</LinearLayout>
+</RelativeLayout>
+<LinearLayout
+     style="@style/width_fillparent"
+     android:id="@+id/linearlayout_main"
+     android:orientation="vertical">
+<LinearLayout
+     style="@style/linearlayout_margin"
+     android:id="@+id/linearlayout_createunit"
+     android:background="@drawable/directory_item_add"
+     android:orientation="vertical"
+    >
+</LinearLayout>
+<LinearLayout
+     style="@style/linearlayout_margin"
+     android:id="@+id/linearlayout_create_dept"
+     android:background="@drawable/directory_item_add"
+     android:orientation="vertical"
+    >
+</LinearLayout>
+<LinearLayout
+     style="@style/linearlayout_margin"
+     android:id="@+id/linearlayout_create_person"
+     android:background="@drawable/directory_item_add"
+     android:orientation="vertical"
+    >
+</LinearLayout>
+<LinearLayout
+     style="@style/linearlayout_margin"
+     android:id="@+id/linearlayout_muluname"
+     android:background="@drawable/directory_item_add"
+     android:orientation="vertical"
+    >
+</LinearLayout>
+<LinearLayout
+     style="@style/linearlayout_margin"
+     android:id="@+id/linearlayout_mulntype"
+     android:background="@drawable/directory_item_add"
+     android:orientation="vertical"
+    >
+</LinearLayout>
+<LinearLayout
+     style="@style/linearlayout_margin"
+     android:id="@+id/linearlayout_remarkinfo"
+     android:background="@drawable/directory_item_add"
+     android:orientation="vertical"
+    >
+</LinearLayout>
+<LinearLayout
+     android:layout_marginTop="10dp"
+     style="@style/width_fillparent"
+     android:id="@+id/linearlayout_btn"
+     android:gravity="center">
+     <Button
+     style="@style/btnpadding_left"
+     android:id="@+id/btn_submit"
+     android:text="@string/submit"
+     android:background="@drawable/btn_submit"></Button>
+     <Button
+     android:layout_marginLeft="10dp"
+     style="@style/btnpadding_left"
+     android:id="@+id/btn_cancel"
+     android:text="@string/cancel"
+     android:background="@drawable/btn_cancel">
+     </Button>
+     </LinearLayout>
+</LinearLayout>
+</LinearLayout>

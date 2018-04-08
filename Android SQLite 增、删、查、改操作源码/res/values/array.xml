@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="citys">
+		<item>北京市</item>
+		<item>上海市</item>
+		<item>天津市</item>
+		<item>重庆市</item>
+	</string-array>
+</resources>

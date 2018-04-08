@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FiorstLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black" >
+
+    <!--
+        <TextView
+        android:id="@+id/information"
+        style="@style/AudioFileInfoOverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/thefirst"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="本作品由清远职业技术学院信息科技系Dreamer团队开发"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    -->
+
+
+    <ImageView
+        android:id="@+id/thefirst"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_above="@+id/information"
+        android:layout_alignParentLeft="true"
+        android:singleLine="true"
+        android:src="@drawable/school" />
+    
+    <ImageView
+        android:id="@+id/information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="110dp"
+        android:src="@drawable/mation" />
+
+</RelativeLayout>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffcc"
+    >
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="40dip"
+    android:background="@drawable/title"
+   >
+    <TextView
+    	android:text="欢迎光临夏日酒店"
+    	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="0dip"
+		android:layout_marginBottom="0dip"
+		android:layout_marginLeft="0dip"
+		android:textSize="20dip"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"
+		android:gravity="center"
+    >
+    </TextView> 
+   </FrameLayout>
+ <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="11dip"
+    	android:layout_marginRight="11dip"
+    	android:layout_marginTop="4dip"
+    	android:layout_marginBottom="4dip"
+    	android:gravity="center"
+    	android:background="@drawable/navigator"
+    >
+    <TextView
+    	android:text="首页" 
+    	android:gravity="center"
+    	android:textSize="14dip"
+    	android:layout_width="68dip" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dip"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"
+		android:background="@drawable/hilight"
+	>
+	</TextView>
+	<TextView
+		android:text="用户信息"
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_width="68dip"
+		android:textSize="14dip"
+		android:layout_marginRight="10dip"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"
+	>
+	</TextView>
+	<TextView
+		android:text="资源信息"
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_width="68dip"
+		android:textSize="14dip"
+		android:layout_marginRight="10dip"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"
+	>
+	</TextView>
+	<TextView
+		android:text="订单查看"
+		android:gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_width="68dip"
+		android:textSize="14dip"
+		android:layout_marginRight="10dip"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"
+	>
+	</TextView>
+ </LinearLayout>
+<LinearLayout 
+android:layout_height="wrap_content" 
+android:layout_marginLeft="30dip"
+android:layout_marginRight="30dip"
+android:id="@+id/registerLinearLayout01" 
+android:layout_width="wrap_content">
+<TextView 
+android:layout_height="wrap_content" 
+android:id="@+id/registerTextView01"  
+android:text="用  户  名：" 
+android:layout_width="wrap_content"
+android:textColor="#000000">
+</TextView>
+<EditText 
+android:layout_height="wrap_content" 
+android:text="" 
+android:layout_width="180dip" 
+android:id="@+id/registerEditText01" 
+>
+</EditText>
+</LinearLayout>
+<LinearLayout 
+android:layout_height="wrap_content" 
+android:id="@+id/registerLinearLayout02" 
+android:layout_marginLeft="30dip"
+android:layout_marginRight="30dip"
+android:layout_width="wrap_content">
+<TextView 
+android:layout_height="wrap_content" 
+android:id="@+id/registerTextView02" 
+android:text="密       码：" 
+android:layout_width="wrap_content"
+android:textColor="#000000">
+</TextView>
+<EditText 
+android:layout_height="wrap_content" 
+android:text="" 
+android:layout_width="180dip" 
+android:password="true"
+android:id="@+id/registerEditText02">
+</EditText>
+
+</LinearLayout>
+<LinearLayout 
+android:orientation="horizontal"
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content"
+android:id="@+id/registerLinearLayout03"
+android:layout_marginLeft="30dip"
+android:layout_marginRight="30dip"
+>
+<TextView 
+android:layout_height="wrap_content" 
+android:id="@+id/registerTextView03" 
+android:text="密码确认：" 
+android:layout_width="wrap_content"
+android:textColor="#000000">
+</TextView>
+<EditText 
+android:layout_height="wrap_content" 
+android:layout_width="180dip"
+android:text=""  
+android:password="true"
+android:id="@+id/registerEditText03">
+</EditText>
+
+</LinearLayout>
+<LinearLayout 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content"
+android:id="@+id/registerLinearLayout04"
+android:layout_marginLeft="30dip"
+android:layout_marginRight="30dip"
+>
+<TextView 
+android:layout_height="wrap_content" 
+android:id="@+id/registerTextView04" 
+android:textColor="#000000"
+android:text="手机号码：" 
+android:layout_width="wrap_content">
+</TextView>
+<EditText 
+android:layout_height="wrap_content" 
+android:layout_width="180dip"
+android:text=""  
+android:id="@+id/registerEditText04">
+</EditText>
+</LinearLayout>
+<LinearLayout 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content"
+android:id="@+id/registerLinearLayout05"
+android:layout_marginLeft="30dip"
+android:layout_marginRight="30dip"
+>
+<TextView 
+android:layout_height="wrap_content" 
+android:id="@+id/registerTextView05" 
+android:text="真实姓名：" 
+android:layout_width="wrap_content"
+android:textColor="#000000">
+</TextView>
+<EditText 
+android:layout_height="wrap_content" 
+android:layout_width="180dip"
+android:text=""  
+android:id="@+id/registerEditText05">
+</EditText>
+</LinearLayout>
+<LinearLayout 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content"
+android:id="@+id/registerLinearLayout06"
+android:layout_marginLeft="30dip"
+android:layout_marginRight="30dip"
+>
+<TextView 
+android:layout_height="wrap_content" 
+android:id="@+id/registerTextView06" 
+android:text="性      别：" 
+android:layout_width="wrap_content"
+android:textColor="#000000">
+</TextView>
+<RadioGroup 
+        android:id="@+id/registerRadioGroup01" 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+	      <RadioButton 
+	         android:text="男" 
+	         android:id="@+id/registerRadioButton01" 
+	         android:textColor="#000000"
+	         android:checked="true"
+	         android:layout_width="wrap_content" 
+	         android:layout_height="wrap_content">
+	      </RadioButton>   
+	      <RadioButton 
+	         android:text="女" 
+	         android:id="@+id/registerRadioButton02" 
+	         android:layout_width="wrap_content" 
+	         android:layout_height="wrap_content"
+	         android:textColor="#000000">
+	      </RadioButton>  
+	  </RadioGroup>
+</LinearLayout>
+<LinearLayout 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content"
+android:id="@+id/registerLinearLayout07"
+android:layout_marginLeft="30dip"
+android:layout_marginRight="30dip"
+>
+<TextView 
+android:layout_height="wrap_content" 
+android:id="@+id/registerTextView07" 
+android:text="电子邮箱：" 
+android:layout_width="wrap_content"
+android:textColor="#000000">
+</TextView>
+<EditText 
+android:layout_height="wrap_content" 
+android:layout_width="180dip"
+android:text="" 
+android:singleLine="true" 
+android:id="@+id/registerEditText07">
+</EditText>
+</LinearLayout>
+<LinearLayout 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content"
+android:id="@+id/registerLinearLayout08"
+android:layout_marginLeft="30dip"
+android:layout_marginRight="110dip"
+>
+<Button 
+android:layout_height="wrap_content" 
+android:text="注册" 
+android:id="@+id/registerButton01" 
+android:layout_width="wrap_content"
+android:textColor="#000000"
+android:gravity="center">
+</Button>
+<Button
+  android:layout_height="wrap_content"
+  android:text="返回"
+  android:id="@+id/registerButton02"
+  android:layout_width="wrap_content"
+  android:textColor="#000000"
+  android:gravity="center">
+</Button>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="24" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="Grass" tilewidth="20" tileheight="20">
+  <image source="gfx/Grass.png" width="80" height="140"/>
+ </tileset>
+ <tileset firstgid="29" name="Goals" tilewidth="20" tileheight="20">
+  <image source="gfx/Goals.png" width="60" height="60"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2V/QqDMAzEu4kb05cY+3j/V7QDCyV0mvRSs7D+4P6QhtijRxJCp9PhcIo6rxoUeqE9WjNGXVZdFXqhPVqj6fcWNcM3agvi10N+KYhfD/mlSPzS9/SQX4rEr8f3pEj8enxPijTPWrvaCmmetXaXFYjf/L25ss4F4jf/5so6F4jfz/yahLKedyW/d1Lz2KiVsJf/I7Je8vCMemV6b9TW/ssq69wZNBRqkX/V+E13Q3LAnUH0zMLvyKzj3uHX/ab5iMw8T341+De/+Q6dw/edSs9qMrW3r1PPBXfCwTWAFgAA
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="60" height="24">
+  <properties>
+   <property name="type" value="wall"/>
+  </properties>
+  <object x="120" y="380" width="61" height="59"/>
+  <object x="576" y="340" width="69" height="16"/>
+  <object x="646" y="320" width="8" height="35"/>
+  <object x="564" y="318" width="12" height="39"/>
+  <object x="1001" y="321" width="179" height="158"/>
+  <object x="460" y="60" width="80" height="419"/>
+  <object x="541" y="361" width="139" height="118"/>
+  <object x="682" y="220" width="79" height="259"/>
+  <object x="763" y="259" width="277" height="60"/>
+  <object x="681" y="159" width="40" height="59"/>
+  <object x="760" y="119" width="41" height="60"/>
+  <object x="841" y="60" width="40" height="59"/>
+ </objectgroup>
+ <objectgroup name="Elements" width="60" height="24">
+  <properties>
+   <property name="type" value="water"/>
+  </properties>
+  <object name="goal" x="579" y="323" width="62" height="21">
+   <properties>
+    <property name="type" value="goal"/>
+   </properties>
+  </object>
+  <object name="ball" x="137" y="346" width="29" height="27">
+   <properties>
+    <property name="type" value="ball"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="221" y="138">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="654" y="169">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

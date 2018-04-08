@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"  >
+    <LinearLayout 
+        android:id="@+id/gl_lay"
+         android:background="#700"
+        android:layout_width="wrap_content"
+        android:layout_height="250dip">
+    <com.renzh.earthtest.MyGLSurfaceView
+        android:id="@+id/gl_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_earth"
+        android:layout_width="fill_parent"
+        android:layout_height="150dip"
+        android:text="@drawable/ic_launcher" />
+
+    <SeekBar
+        android:id="@+id/skBar"
+        android:max="360"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

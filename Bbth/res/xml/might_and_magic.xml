@@ -1,0 +1,224 @@
+<root mpb="428.6">
+	<pattern id="wtfix">
+		<rest type="eighth" />
+	</pattern>
+
+	<pattern id="intro">
+		<rest type="half" />
+		<rest type="half" />
+
+		<beat type="half" />
+		<beat type="half" />
+
+		<rest type="half" />
+		<rest type="half" />
+
+		<beat type="quarter" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+		<rest type="quarter" />
+
+		<beat type="half" />
+		<beat type="half" />
+
+		<beat type="quarter" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<beat type="quarter" />
+		<rest type="quarter" />
+	</pattern>
+
+	<pattern id="break">
+		<rest type="whole" />
+		<rest type="whole" />
+	</pattern>
+
+	<pattern id="first">
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+
+		<rest type="eighth" />
+
+		<hold type="half" />
+		<rest type="quarter" />
+
+		<hold type="eighth" />
+		<rest type="eighth" />
+		<hold type="eighth" />
+		<rest type="eighth" />
+		<hold type="eighth" />
+		<rest type="eighth" />
+		<hold type="eighth" />
+		<rest type="eighth" />
+
+		<rest type="eighth" />
+	</pattern>
+
+	<pattern id="break-2">
+		<rest type="whole" />
+		<rest type="whole" />
+		<rest type="whole" />
+	</pattern>
+
+	<pattern id="second">
+		<beat type="half" />
+		<beat type="half" />
+
+		<rest type="whole" />
+	</pattern>
+
+	<pattern id="stuff">
+		<beat type="eighth" />
+		<beat type="quarter" />
+		<beat type="eighth" />
+		<beat type="half" />
+	</pattern>
+
+	<pattern id="stuff2">
+		<rest type="quarter" />
+		<rest type="eighth" />
+		<beat type="sixteenth" />
+		<rest type="sixteenth" />
+	</pattern>
+
+	<pattern id="stuff3">
+		<rest type="eighth" />
+		<beat type="sixteenth" />
+		<rest type="sixteenth" />
+
+		<rest type="eighth" />
+		<beat type="sixteenth" />
+		<rest type="sixteenth" />
+	</pattern>
+
+	<pattern id="minibrake">
+		<rest type="whole" />
+		<rest type="whole" />
+		<rest type="half" />
+	</pattern>
+
+	<pattern id="derp">
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+	</pattern>
+
+	<pattern id="holds">
+		<hold type="half" />
+		<rest type="quarter" />
+		<beat type="quarter" />
+
+		<hold type="half" />
+		<rest type="quarter" />
+		<beat type="quarter" />
+	</pattern>
+
+	<song>
+		<load-pattern id="wtfix" />
+		<load-pattern id="intro" />
+
+		<load-pattern id="break" />
+		<load-pattern id="first" />
+
+		<load-pattern id="break-2" />
+		<load-pattern id="second" />
+
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+
+		<load-pattern id="break" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+
+		<load-pattern id="minibrake" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+
+		<load-pattern id="minibrake" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+		<load-pattern id="stuff2" />
+
+		<load-pattern id="break" />
+
+		<load-pattern id="derp" />
+		<load-pattern id="holds" />
+		<load-pattern id="holds" />
+		<load-pattern id="holds" />
+
+		<load-pattern id="break" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+
+		<load-pattern id="break-2" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+
+		<load-pattern id="break" />
+		<load-pattern id="stuff" />
+		<load-pattern id="stuff" />
+	</song>
+</root>

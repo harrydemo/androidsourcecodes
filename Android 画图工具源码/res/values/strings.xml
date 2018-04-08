@@ -1,0 +1,18 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">DrawDemo01</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    
+    <string name="lines_button">直线</string>
+    <string name="rect_button">矩形</string>
+    <string name="circle_button">圆形</string>
+    <string name="triangle_button">三角形</string>
+    <string name="webView_button">webview</string>
+    <string name="cube_button">立方体</string>
+    <string name="culomn_button">圆柱</string>
+    <string name="draw_button">选择图形</string>
+    
+</resources>

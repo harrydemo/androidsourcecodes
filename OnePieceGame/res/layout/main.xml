@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 	android:layout_width="fill_parent"	android:layout_height="wrap_content">
+	 	<TableRow>
+			<ProgressBar android:id="@+id/pb" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" 
+				android:layout_weight="9"/>
+			<TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:text="@string/remain_time" android:layout_weight="1"/>
+			<TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:id="@+id/show_remainTime" android:layout_weight="1"/>	
+		</TableRow>
+	</TableLayout>
+	
+	<com.tyj.onepiece.CtrlView android:id="@+id/cv"
+		android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
+

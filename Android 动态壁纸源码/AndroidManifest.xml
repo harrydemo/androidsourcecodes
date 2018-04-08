@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0" package="com.example.android.livewallpapertouch">
+    <application android:label="@string/app_name" android:icon="@drawable/touch_icon">
+     <service
+         android:label="@string/app_name"
+         android:permission="android.permission.BIND_WALLPAPER" android:name=".TouchLiveWallpaper">
+         <intent-filter>
+             <action android:name="android.service.wallpaper.WallpaperService" />
+         </intent-filter>
+         <meta-data android:name="android.service.wallpaper" android:resource="@xml/livewallpaper" />            
+     </service>
+</application>
+    <uses-sdk android:minSdkVersion="7" />
+</manifest> 

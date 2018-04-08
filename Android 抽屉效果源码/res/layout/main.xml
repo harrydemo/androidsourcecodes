@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:panel="http://schemas.android.com/apk/res/org.android"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#767c9b">
+		
+		<org.android.panel.Panel
+		    android:layout_width="wrap_content" 
+		    android:layout_height="fill_parent" 
+		    android:id="@+id/leftPanel1" 
+		    android:layout_weight="1" 
+		    android:layout_gravity="left"
+		    panel:position="left"
+		    panel:openedHandle="@drawable/left_switcher_expanded_background"
+		    panel:closedHandle="@drawable/left_switcher_collapsed_background"
+		>
+			<Button
+				android:id="@id/panelHandle" 
+			    android:layout_width="33dip" 
+			    android:layout_height="fill_parent" />
+		 
+			<LinearLayout
+				android:id="@id/panelContent" 
+			    android:orientation="vertical"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="fill_parent">
+			<Button			
+				android:id="@+id/btn"	 
+			    android:layout_width="wrap_content" 
+			    android:layout_height="fill_parent" 
+			    android:gravity="center"
+			    android:padding="18dip"
+			    android:text="This"
+			    android:textSize="16dip"
+			    android:textColor="#eee"
+			    android:textStyle="bold"
+			    android:background="#999932"/>
+			</LinearLayout>
+		
+		</org.android.panel.Panel>		
+	
+</LinearLayout>

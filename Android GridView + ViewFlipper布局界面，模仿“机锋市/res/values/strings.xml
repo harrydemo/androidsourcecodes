@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">机锋市场</string>
+    
+    <string name="tab_index">首页</string>
+    <string name="tab_type">分类</string>
+    <string name="app_rank">排行</string>
+    <string name="app_manager">管理</string>
+    <string name="tab_type_title">应用分类</string>
+    
+</resources>

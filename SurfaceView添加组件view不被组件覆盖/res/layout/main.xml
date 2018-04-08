@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    > 
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+    <com.himi.MySurfaceView android:id="@+id/view3d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>                
+
+        <Button
+         android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Himi Button_1"
+                 android:id="@+id/button1"/>
+	
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/button1"
+                android:text="Himi Button_2"
+                  android:id="@+id/button2"/>
+                     <TextView 
+    		android:id="@+id/textview"
+    		android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:text="This is Himi"
+        	android:textSize="32sp" 
+        	android:textColor="#00FF00"
+        	android:gravity="center_horizontal"/> 
+    </RelativeLayout>   
+</LinearLayout>

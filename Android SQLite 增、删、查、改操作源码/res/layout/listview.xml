@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:padding="5dip"
+  android:id="@+id/linear"
+  >
+	  <ImageView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:gravity="left"
+		  android:id="@+id/imCity"
+	  ></ImageView>
+	  <TextView
+		  android:layout_width="250dip"
+		  android:layout_height="wrap_content"
+		  android:gravity="left"
+		  android:id="@+id/tvCity"
+		  >
+	  </TextView>
+	  <TextView
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:layout_alignParentRight="true"
+		  android:gravity="right"
+		  android:id="@+id/btRemove"
+		  >
+	  </TextView>
+</LinearLayout>

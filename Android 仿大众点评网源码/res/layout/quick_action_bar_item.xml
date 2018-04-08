@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView android:gravity="center" android:focusable="true" android:clickable="true" android:singleLine="true"
+style="@style/Widget.QuickAction.Bar.Item"
+ xmlns:android="http://schemas.android.com/apk/res/android" />

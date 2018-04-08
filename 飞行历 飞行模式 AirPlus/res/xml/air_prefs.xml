@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/set_air" >
+
+    <CheckBoxPreference
+        android:key="enabled"
+        android:persistent="false"
+        android:title="@string/enable_air" />
+
+    <Preference
+        android:key="start_time"
+        android:persistent="false"
+        android:title="@string/start_time" />
+    <Preference
+        android:key="end_time"
+        android:persistent="false"
+        android:title="@string/end_time" />
+
+    <com.tilltheendwjx.airplus.RepeatPreference
+        android:key="setRepeat"
+        android:persistent="false"
+        android:title="@string/air_repeat" />
+     <com.tilltheendwjx.airplus.AirModeRadioPreference
+        android:key="airModeRadio"
+        android:persistent="false"
+        android:title="@string/airphone_mode_radios_title" />
+    <CheckBoxPreference
+        android:key="vibrate"
+        android:persistent="false"
+        android:title="@string/air_vibrate" />
+
+</PreferenceScreen>

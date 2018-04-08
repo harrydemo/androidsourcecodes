@@ -1,0 +1,61 @@
+0.1.12b:
+--------
+catch OutOfMemory for images, use dummy-pic instead
+
+0.1.12:
+-------
+free old page bitmap to save memory
+
+0.1.11:
+-------
+support color and fill style for Patterns "scn"/"SCN" (without pattern)
+fix uninitialised colorspaces
+
+0.1.10:
+-------
+file browser [Bob]
+decode RGB-JPEGs (no alpha)
+
+0.1.9:
+------
+replaced java.nio classes with simple byte[] implementation.
+removed all logging in RELEASE
+
+0.1.8:
+------
+render in background thread, show progress every second
+
+0.1.7:
+------
+optional antialiasing
+fix temp files "pdvviewer-nnnn.pdf" are not deleted 
+
+0.1.6:
+------
+support inline indexed images ("BI"/"CS"="I") 
+
+0.1.5:
+------
+support built in PFB fonts as substitution for TTF
+(BUG: empty table of contents on page 3 of bigexample.pdf)   
+
+0.1.4:
+------
+support inline gray images ("BI"/"CS"="G") 
+
+0.1.3:
+------
+support gray color and fill ("g", "G") 
+
+0.1.2:
+------
+support inline RGB images ("BI"/"CS"="RGB") 
+
+0.1.1:
+------
+support rgb color and fill ("rg", "RG")
+
+0.1.0:
+------
+first release
+

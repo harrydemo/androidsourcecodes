@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/userName_label"></TextView>
+	<EditText android:id="@+id/registerUserName"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"></EditText>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/password_lable"></TextView>
+	<EditText android:text="" android:id="@+id/registerPassword"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:password="true"></EditText>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/passwordConfirm_label"></TextView>
+	<EditText android:text="" android:id="@+id/registerPasswordConfirm"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:password="true"></EditText>
+	<Button android:id="@+id/registerSubmit" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/loginRegister"></Button>
+	<Button android:id="@+id/registerClear" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/clearAll"></Button>
+</LinearLayout>

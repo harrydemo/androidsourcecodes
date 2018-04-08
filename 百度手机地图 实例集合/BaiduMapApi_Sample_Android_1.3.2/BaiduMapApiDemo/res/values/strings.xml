@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BMapApiDemoMain!</string>
+    <string name="app_name">BaiduMapApiDemo</string>
+    
+    <string name="str_id_start">开始</string>
+    <string name="str_id_bus">公交车</string>
+</resources>

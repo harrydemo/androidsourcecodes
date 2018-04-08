@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>You're now in the Shadows!</title>
+<style>
+body {
+background: #ccc;
+color: #777;
+margin:30px;
+}
+
+
+.b1h, .b2h, .b3h, .b4h, .b2bh, .b3bh, .b4bh{font-size:1px; overflow:hidden; display:block;}
+
+.b1h {height:1px; background:#2b2324; margin:0 5px;}
+
+.b2h, .b2bh {height:1px; background:#2b2324; border-right:2px solid #2b2324; border-left:2px solid #2b2324; margin:0 3px;}
+
+.b3h, .b3bh {height:1px; background:#2b2324; border-right:1px solid #2b2324; border-left:1px solid #2b2324; margin:0 2px;}
+
+.b4h, .b4bh {height:2px; background:#2b2324; border-right:1px solid #2b2324; border-left:1px solid #2b2324; margin:0 1px;}
+
+.b2bh, .b3bh, .b4bh {background: #ddd;}
+
+.headh {background: #2b2324; border-right:1px solid #2b2324; border-left:1px solid #2b2324; padding:15px; padding-left: 0px; color: #eee;}
+
+.headh h3 {margin: 0px 10px 0px 10px; padding-bottom: 3px;}
+
+.contenth {background: #ddd; border-right:1px solid #2b2324; border-left:1px solid #2b2324; color: #222; font-size: 12px;}
+
+.contenth div {margin-left: 12px; padding: 10px;}
+
+.contenth ul li { margin:10px; margin-left: -20px; margin-bottom: 20px; }
+
+.logo { float: left; margin: 5px; margin-top: 0px; margin-right: 10px;}
+
+</style>
+
+</head>
+
+<body>
+
+
+<b class="b1h"></b><b class="b2h"></b><b class="b3h"></b><b class="b4h"></b>
+
+<div class="headh">
+
+<h3><img class="logo" src='http://shadow/icon.png'/> You're now in the Shadows!</h3>
+
+</div>
+
+<div class="contenth">
+
+<div>
+
+<p>Before you get started, please remember that:</p>
+<ul>
+<li>your first connection may take a while to get started;</li>
+
+<li>and that browsing in the shadows may be slower than browsing normally.</li>
+
+</ul>
+
+<p>Known issues:</p>
+<ul>
+<li>secure web pages (https) do not work due to a fault in the Android platform</li>
+<li>some form submissions may not work</li>
+</div>
+
+</div>
+
+<b class="b4bh"></b><b class="b3bh"></b><b class="b2bh"></b><b class="b1h"></b>
+
+
+</body>
+</html>

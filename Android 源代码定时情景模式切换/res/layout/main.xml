@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="12sp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help" android:textSize="20px" android:textStyle="bold" android:id="@+id/help"></TextView>
+    <TimePicker android:id="@+id/timePkr" android:layout_below="@id/help" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+    <RadioGroup
+        android:orientation="vertical"
+        android:id="@+id/menu"
+        android:layout_below="@id/timePkr"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true">
+        <RadioButton
+            android:text="@string/ring_and_vibrate"
+            android:id="@+id/ring_and_vibrate"
+            android:layout_width="fill_parent"
+            android:textSize="24sp"
+            android:paddingLeft="50sp"/>
+        <RadioButton
+            android:text="@string/ring"
+            android:id="@+id/ring"
+            android:layout_width="fill_parent"
+            android:textSize="24sp"
+            android:paddingLeft="50sp"
+            android:paddingRight="50sp"/>
+        <RadioButton
+            android:text="@string/vibrate"
+            android:id="@+id/vibrate"
+            android:layout_width="fill_parent"
+            android:textSize="24sp"
+            android:paddingLeft="50sp"
+            android:paddingRight="50sp"/>
+        <RadioButton
+            android:text="@string/silent"
+            android:id="@+id/silent"
+            android:layout_width="fill_parent"
+            android:textSize="24sp"
+            android:paddingLeft="50sp"
+            android:paddingRight="50sp"/>
+    </RadioGroup>
+</RelativeLayout>

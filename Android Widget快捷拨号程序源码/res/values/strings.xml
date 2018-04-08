@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">快捷拨号</string>
+	<string name="cfgContactLabel">联系人</string>
+	<string name="cfgContactHint">请输入联系人</string>
+	<string name="cfgNumberLabel">电话号码</string>
+	<string name="cfgNumberHint">请输入电话号码</string>
+	<string name="btnSaveLabel">保存</string>
+	<string name="shortCallCfg">快拨配置</string>
+	<string name="contactTabText">联系人</string>
+	<string name="inputTabText">直接录入</string>
+	<string name="mobileText">手机</string>
+</resources>

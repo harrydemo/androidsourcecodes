@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ACHIEVEMENTS>
+	<!-- Songs -->
+	<ACHIEVEMENT id="0">
+		<NAME value="@string/achievement_0_name"/>
+		<DESC value="@string/achievement_0_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>10</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="1">
+		<NAME value="@string/achievement_1_name"/>
+		<DESC value="@string/achievement_1_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>10</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="2">
+		<NAME value="@string/achievement_2_name"/>
+		<DESC value="@string/achievement_2_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>10</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="3">
+		<NAME value="@string/achievement_3_name"/>
+		<DESC value="@string/achievement_3_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>10</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="4">
+		<NAME value="@string/achievement_4_name"/>
+		<DESC value="@string/achievement_4_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>10</ACTIVATIONS>
+	</ACHIEVEMENT>
+	
+	<!-- End conditions -->
+	<ACHIEVEMENT id="100">
+		<NAME value="@string/achievement_100_name"/>
+		<DESC value="@string/achievement_100_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="101">
+		<NAME value="@string/achievement_101_name"/>
+		<DESC value="@string/achievement_101_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="102">
+		<NAME value="@string/achievement_102_name"/>
+		<DESC value="@string/achievement_102_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="103">
+		<NAME value="@string/achievement_103_name"/>
+		<DESC value="@string/achievement_103_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="104">
+		<NAME value="@string/achievement_104_name"/>
+		<DESC value="@string/achievement_104_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	
+	<!-- Combos -->
+	<ACHIEVEMENT id="200">
+		<NAME value="@string/achievement_200_name"/>
+		<DESC value="@string/achievement_200_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="201">
+		<NAME value="@string/achievement_201_name"/>
+		<DESC value="@string/achievement_201_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="202">
+		<NAME value="@string/achievement_202_name"/>
+		<DESC value="@string/achievement_202_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="203">
+		<NAME value="@string/achievement_203_name"/>
+		<DESC value="@string/achievement_203_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="204">
+		<NAME value="@string/achievement_204_name"/>
+		<DESC value="@string/achievement_204_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	
+	<!-- Units -->
+	<ACHIEVEMENT id="400">
+		<NAME value="@string/achievement_400_name"/>
+		<DESC value="@string/achievement_400_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="401">
+		<NAME value="@string/achievement_401_name"/>
+		<DESC value="@string/achievement_401_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="402">
+		<NAME value="@string/achievement_402_name"/>
+		<DESC value="@string/achievement_402_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="403">
+		<NAME value="@string/achievement_403_name"/>
+		<DESC value="@string/achievement_403_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="404">
+		<NAME value="@string/achievement_404_name"/>
+		<DESC value="@string/achievement_404_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="405">
+		<NAME value="@string/achievement_405_name"/>
+		<DESC value="@string/achievement_405_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="406">
+		<NAME value="@string/achievement_406_name"/>
+		<DESC value="@string/achievement_406_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	
+	<!-- Difficulty -->
+	<ACHIEVEMENT id="500">
+		<NAME value="@string/achievement_500_name"/>
+		<DESC value="@string/achievement_500_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1</ACTIVATIONS>
+	</ACHIEVEMENT>
+	
+	<!-- Grind -->
+	<ACHIEVEMENT id="600">
+		<NAME value="@string/achievement_600_name"/>
+		<DESC value="@string/achievement_600_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>500</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="601">
+		<NAME value="@string/achievement_601_name"/>
+		<DESC value="@string/achievement_601_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>10000</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="602">
+		<NAME value="@string/achievement_602_name"/>
+		<DESC value="@string/achievement_602_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>200000</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="603">
+		<NAME value="@string/achievement_603_name"/>
+		<DESC value="@string/achievement_603_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1000</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="604">
+		<NAME value="@string/achievement_604_name"/>
+		<DESC value="@string/achievement_604_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>20000</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="605">
+		<NAME value="@string/achievement_605_name"/>
+		<DESC value="@string/achievement_605_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>400000</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="606">
+		<NAME value="@string/achievement_606_name"/>
+		<DESC value="@string/achievement_606_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>200</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="607">
+		<NAME value="@string/achievement_607_name"/>
+		<DESC value="@string/achievement_607_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>500</ACTIVATIONS>
+	</ACHIEVEMENT>
+	<ACHIEVEMENT id="608">
+		<NAME value="@string/achievement_608_name"/>
+		<DESC value="@string/achievement_608_desc"/>
+		<ICON>icon</ICON>
+		<ACTIVATIONS>1500</ACTIVATIONS>
+	</ACHIEVEMENT>
+</ACHIEVEMENTS>

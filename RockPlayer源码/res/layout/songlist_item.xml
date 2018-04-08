@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    >
+<!-- <ImageView
+		android:id="@+id/songlist_item_recommend"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true"
+	/>
+	<ImageView
+		android:id="@+id/songlist_item_preview"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/songlist_item_recommend"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true"
+	/>
+	<LinearLayout  
+			android:id="@+id/songlist_item_song_name_layout"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:minHeight="48dp"
+			android:layout_toLeftOf="@+id/songlist_item_preview"
+			android:focusable="true"
+	    	android:focusableInTouchMode="true"
+	    	android:background="#00F"
+	    	>
+-->	
+		<TextView
+			android:id="@+id/songlist_item_song_duration_old"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:textSize="20dp"
+			android:textColor="#FF3B3B3B"
+			/>   	
+		<TextView
+			android:id="@+id/songlist_item_song_name_old"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_toLeftOf="@+id/songlist_item_song_duration"
+			android:textSize="20dp"
+			android:singleLine="true"
+			android:layout_gravity="center"
+	    	android:textColor="#FF191919"
+	    	android:ellipsize="end"
+			/>
+
+<!-- </LinearLayout> -->   
+</RelativeLayout>

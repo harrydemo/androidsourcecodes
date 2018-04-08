@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	android:id="@+id/relLay1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout
+    	android:orientation="vertical"
+    	android:gravity="top"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" >
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="100dp"
+		    android:gravity="center">
+		    
+			    <ImageView
+					android:layout_width="200dp"
+					android:layout_height="40dp"
+					android:background="@drawable/optionsimage">
+				</ImageView>
+				
+		</LinearLayout>	
+
+		<LinearLayout
+    		android:orientation="vertical"
+    		android:gravity="center"
+    		android:layout_width="fill_parent"
+    		android:layout_height="200dp" >
+    		
+					<Button
+						android:text="Sounds: -"
+						android:background="@drawable/xml_button_pause"
+						android:id="@+id/MainMenuOptionsButton1"
+			    		android:textSize="22sp"		
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+
+					<Button
+						android:text="ScoreNinja: -"
+						android:background="@drawable/xml_button_pause"
+						android:id="@+id/MainMenuOptionsButton2"
+			    		android:textSize="22sp"		
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+
+					<Button
+						android:text="NextLevel: -"
+						android:background="@drawable/xml_button_pause"
+						android:id="@+id/MainMenuOptionsButton3"
+			    		android:textSize="22sp"		
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+			            
+			        <Button
+						android:text="Show Highscores"
+						android:background="@drawable/xml_button_pause"
+						android:id="@+id/MainMenuOptionsButton4"
+			    		android:textSize="22sp"		
+			            android:layout_width="fill_parent"
+			            android:layout_height="fill_parent"
+			            android:layout_weight="1" />
+
+		</LinearLayout>
+		
+		<LinearLayout
+    		android:orientation="vertical"
+    		android:gravity="center"
+    		android:layout_width="fill_parent"
+    		android:layout_height="125dp" >
+				
+					<Button
+						android:text="Back"
+						android:background="@drawable/xml_button_pause"
+						android:id="@+id/MainMenuOptionsButtonOk"
+			    		android:textSize="22sp"		
+			            android:layout_width="fill_parent"
+			            android:layout_height="60dp"
+			             />
+    		
+    	</LinearLayout>
+		
+	</LinearLayout>
+	
+</RelativeLayout>

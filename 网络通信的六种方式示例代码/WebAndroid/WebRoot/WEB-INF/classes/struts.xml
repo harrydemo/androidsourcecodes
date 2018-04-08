@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd" >
+<struts> 
+
+<!-- 配置struts.i18n.encoding常量时，
+     不再是使用GBK编码，而是UTF-8编码，这是因为Ajax的POST请求都是以UTF-8的方式进行编码的  -->
+     
+  <constant name="struts.objectFactory" value="spring"></constant>
+  
+  <!-- 
+  <package name="struts-main" extends="struts-default" >   
+      <action name="*UserAction" class="userAction" method="{1}">
+       
+      
+          <result name="register">/WEB-INF/page/register.jsp</result>
+          <result name="save">/WEB-INF/page/index.jsp</result>	
+      </action>
+       
+  </package> 
+   -->
+   
+  <package name="struts-main" extends="json-default" >   
+      <action name="*UserAction" class="userAction" method="{1}">
+         <result type="json"></result>
+      </action>
+  </package>
+   
+</struts>

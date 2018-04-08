@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mShake">控件抖动效果</string>
+    <string name="app_name">ShakeDemo</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- VERSION -->
+    <string name="preference_key_version">Version</string>
+   
+<!-- DOWNLOAD STATE    -->
+    <string name="preference_key_downloading_art_state">DownloadingArt</string>
+   
+<!-- PLAYLIST STATE    -->
+<!--    <string name="preference_key_playlist_id">mPlaylistId</string>-->
+       
+<!-- HEADSET BUTTONS    -->
+    <string name="preference_key_use_headset_buttons">UseHeadset</string>
+    <string name="preference_title_use_headset_buttons">Использовать гарнитуру</string>
+    <string name="preference_summary_use_headset_buttons">Использовать кнопки гарнитуры для управления воспроизведением</string>
+
+	<!--	LOCK PORTRAIT    -->
+    <string name="preference_key_lock_portrait">LockPortrait</string>
+    <string name="preference_title_lock_portrait">Портретный режим</string>
+    <string name="preference_summary_lock_portrait">Отключить ландшафтный режим</string>
+
+	<!--	LOCK SCREEN    -->
+    <string name="preference_key_lock_screen">LockScreen</string>
+    <string name="preference_title_lock_screen">Блокировка экрана</string>
+    <string name="preference_summary_lock_screen">Показывать кнопки управления на экране разблокировки</string>
+    
+<!-- FULL SCREEN    -->
+    <string name="preference_key_full_screen">mFullScreen</string>
+    <string name="preference_title_full_screen">Полноэкранный режим</string>
+    <string name="preference_summary_full_screen">Запускать плеер во весь экран</string>
+
+<!-- CONTROLS ON BOTTOM    -->
+    <string name="preference_key_controls_on_bottom">mControlsOnBottom</string>
+    <string name="preference_title_controls_on_bottom">Панель внизу</string>
+    <string name="preference_summary_controls_on_bottom">Разместить кнопки управления воспроизведением внизу экрана</string>
+
+	<!-- 	QUEUE ON CLICK -->
+	<string name="preference_key_queue_on_click">mQueueOnClick</string>
+	<string name="preference_title_queue_on_click">Выберите в очередь</string>
+	<string name="preference_summary_queue_on_click">Когда песня выбрана, добавить в очередь, вместо того чтобы играть сразу</string>
+
+
+
+<!-- PREFERENCE CATEGORIES    -->
+    <string name="preference_category_general">Общие настройки</string>
+    <string name="preference_category_album_art">Обложки альбомов</string>
+    <string name="preference_category_other">Прочие</string>
+   
+<!-- EMBEDDED ALBUM ART ONLY    -->
+<string name="preference_key_embedded_album_art">mUseAlwaysEmbeddedAlbumArt</string>
+    <string name="preference_title_embedded_album_art">Использовать только ID3</string>
+    <string name="preference_summary_embedded_album_art">Использовать обложки из тегов даже если их качество низкое</string>
+
+	<!--	CLEAR ALBUM ART    -->
+	<string name="preference_clear_album_art_key">clearAlbumArtKey</string>
+    <string name="preference_clear_album_art_title">Удалить обложки</string>
+    <string name="preference_clear_album_art_summary">Используйте это, если обложки неправильно ассоциированы с альбомом/исполнителем</string>
+    <string name="preference_clear_album_art_dialog_title">Удаление обложек</string>
+    <string name="preference_clear_album_art_dialog_message">Используйте эту функцию только, если обложки были неправильно ассоциированы с альбомом или исполнителем. Будет удалено содержимое папки /sdcard/albumthumbs/RockOnNg. Запустите поиск обложек  (Меню > Обложки) заново после удаления.</string>
+    <string name="preference_clear_album_art_dialog_positive_text">Продолжить</string>
+    <string name="preference_clear_album_art_dialog_negative_text">Отменить</string>
+    
+    <!--    SCROBBLING -->
+    <string name="preference_scrobble_list_key">scrobbling</string>
+    <string name="preference_scrobble_list_title">Скробблинг Last.fm</string>
+    <string name="preference_scrobble_list_summary">Выберите сервис для скробблинга</string>
+   
+    <string name="preference_scrobble_name_dont">Не использовать</string>
+    <string name="preference_scrobble_name_sls">Simple Last.fm</string>
+    <string name="preference_scrobble_name_sd">Scrobble Droid</string>
+    <string name="preference_scrobble_value_dont">no</string>
+    <string name="preference_scrobble_value_sls">sls</string>
+    <string name="preference_scrobble_value_sd">sd</string>
+    
+   	<!--	DONATE    -->
+    <string name="preference_key_donate">donate</string>
+    <string name="preference_title_donate">Помочь разработчику</string>
+    
+</resources>

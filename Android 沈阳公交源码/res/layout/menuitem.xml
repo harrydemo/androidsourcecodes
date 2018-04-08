@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+> 
+<ImageView  android:layout_width="wrap_content" 
+    android:id="@+id/ItemImage" 
+    android:layout_height="wrap_content" 
+    android:layout_centerHorizontal="true"/> 
+<TextView   android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_below="@+id/ItemImage" 
+android:id="@+id/ItemText" 
+android:layout_centerHorizontal="true" 
+/> 
+</RelativeLayout> 

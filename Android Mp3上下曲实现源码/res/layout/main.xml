@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  android:id="@+id/widget32"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/white"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+>
+  <TextView
+    android:id="@+id/myTextView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/hello"
+    android:textColor="@drawable/black"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+  >
+  </TextView>
+  <ImageButton
+    android:id="@+id/myButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/play"
+    android:layout_below="@+id/myTextView1"
+  >
+  </ImageButton>
+  <ImageButton
+    android:id="@+id/myButton3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/pause"
+    android:layout_alignTop="@+id/myButton1"
+    android:layout_toRightOf="@+id/myButton1"
+  >
+  </ImageButton>
+  <ImageButton
+    android:id="@+id/myButton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/stop"
+    android:layout_alignTop="@+id/myButton1"
+    android:layout_toRightOf="@+id/myButton3"
+  >
+  </ImageButton>
+</RelativeLayout>
+
+

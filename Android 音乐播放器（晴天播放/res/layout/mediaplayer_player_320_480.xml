@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<ImageView android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:src="@drawable/bg"
+		android:scaleType="centerCrop" />
+
+	<LinearLayout android:layout_gravity="top" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginTop="10dip"
+		 android:orientation="vertical" >
+		 
+		<TextView android:id="@+id/songName" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:textSize="25sp" />
+		<TextView android:id="@+id/artistName" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:textSize="15sp" />
+			
+	</LinearLayout>
+
+	<!-- 歌词 -->
+	<TextView android:id="@+id/lrcText" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:layout_marginTop="60dip" android:textStyle="bold"
+		android:textSize="16sp" />
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_gravity="bottom"
+		android:layout_marginBottom="85dip" android:orientation="horizontal"
+		android:gravity="center">
+
+		<!-- 播放时间 -->
+		<TextView android:id="@+id/playTime" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:gravity="center" />
+
+		<!-- 播放条 -->
+		<SeekBar android:id="@+id/seekBar" android:layout_width="wrap_content"
+			android:layout_weight="8" android:layout_height="wrap_content"
+			android:progressDrawable="@drawable/seekbar_img" android:gravity="center"
+			android:thumb="@drawable/media_player_progress_button"
+			android:paddingLeft="15dip" android:paddingRight="15dip" />
+
+		<!-- 总时间 -->
+		<TextView android:id="@+id/duration" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:gravity="center" />
+
+	</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="bottom" android:orientation="horizontal"
+		android:background="@drawable/bottom" android:gravity="center">
+
+		<ImageButton android:id="@+id/latestBtn"
+			android:layout_weight="1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/latest_selector"
+			android:background="#00FFFFFF" />
+
+		<ImageButton android:id="@+id/playBtn"
+			android:layout_weight="1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/pause_selector"
+			android:background="#00FFFFFF" />
+
+		<ImageButton android:id="@+id/nextBtn"
+			android:layout_weight="1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/next_selector"
+			android:background="#00FFFFFF" />
+
+	</LinearLayout>
+
+	<SlidingDrawer android:layout_width="wrap_content"
+		android:layout_gravity="right|center_horizontal" android:orientation="horizontal"
+		android:layout_height="wrap_content" android:handle="@+id/handle"
+		android:layout_marginBottom="195dip" android:content="@+id/content"
+		android:id="@+id/slidingdrawer" android:layout_marginTop="65dip"
+		android:layout_marginLeft="220dip">
+		<ImageButton android:id="@id/handle" android:paddingRight="0dip"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@drawable/left_selector" />
+		<LinearLayout android:id="@id/content"
+			android:background="@drawable/slidingdrawer_bg" android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_weight="1" android:id="@+id/mode_normal"
+				android:layout_height="wrap_content" android:src="@drawable/icon_playmode_normal_1"
+				android:scaleType="center" android:layout_gravity="center_horizontal"
+				android:background="#00FFFFFF" />
+
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_weight="1" android:id="@+id/mode_repeat"
+				android:layout_height="wrap_content" android:src="@drawable/icon_playmode_repeat_1"
+				android:scaleType="center" android:layout_gravity="center_horizontal"
+				android:background="#00FFFFFF" />
+
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_weight="1" android:id="@+id/mode_repeat_single"
+				android:layout_height="wrap_content" android:src="@drawable/icon_playmode_repeat_single_1"
+				android:scaleType="center" android:layout_gravity="center_horizontal"
+				android:background="#00FFFFFF" />
+
+			<ImageButton android:layout_width="wrap_content"
+				android:layout_weight="1" android:id="@+id/mode_shuffle"
+				android:layout_height="wrap_content" android:src="@drawable/icon_playmode_shuffle_1"
+				android:scaleType="center" android:layout_gravity="center_horizontal"
+				android:background="#00FFFFFF" />
+
+		</LinearLayout>
+	</SlidingDrawer>
+
+
+</FrameLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <ImageView
+        android:id="@+timeSale/image"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@android:color/white"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/black"
+        android:orientation="horizontal" >
+
+        <TextView 
+            android:gravity="right|center_vertical"
+            android:textColor="@android:color/white"
+            android:text="剩余时间:  "
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_height="wrap_content" />
+
+        <com.veally.timesale.CustomDigitalClock 
+            android:gravity="left|center_vertical"
+            android:layout_weight="0.3"
+            android:textColor="@android:color/white"
+            android:id="@+timeSale/remainTime"
+            android:text="00:00:01"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

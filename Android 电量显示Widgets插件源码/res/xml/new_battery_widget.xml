@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minHeight="72dip"
+    android:minWidth="72dip"
+    android:updatePeriodMillis="1000000"	
+    android:initialLayout="@layout/newrelativelayout"
+    >
+    <!--
+    关于android:minHeight和android:minWidth
+    分别对应appWidget在屏幕上所占位置的高和宽，
+    最小高和宽各为一个单元格，值为72dip，
+    有资料说计算公式为（74*N）-2
+    例如要设置宽为四个单元格时，（74*4）-2=294
+    android:minWidth="294dip"
+    
+    注意，看网上资料说，在SDK1.5之后，
+    android:updatePeriodMillis就没用了，
+    不会再定时更新appWidget了，所以这里的值
+    设置多少都不会有影响，但是最好设置大一点，
+    防止万一又有效了，更新的太频繁会不好。
+    -->
+</appwidget-provider>

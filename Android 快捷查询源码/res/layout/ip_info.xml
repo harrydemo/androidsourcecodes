@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="260dp"
+  android:layout_height="100dp" 
+  android:layout_marginTop="100dp" 
+  android:background="@drawable/bg">
+  
+  
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/ip_ip"/>
+						
+			  <TextView android:id="@+id/ip_ip2" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/ip_addr"/>
+						
+			  <TextView android:id="@+id/ip_addr" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+
+  		    
+</TableLayout>
+

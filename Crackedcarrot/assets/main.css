@@ -1,0 +1,51 @@
+/*==============================================
+Standard inställningar för hela hemsidan 
+================================================*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Calibri, sans-serif;
+	font-size: 1em;
+	color: #000;
+}
+
+h1, h2, h3 {
+	margin: 3;
+	font-family: Cambria, serif;
+	font-weight: bold;
+	color: #0C95C9;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+h2 {
+	font-size: 1.2em;
+}
+
+a { 
+	color: #0C95C9;
+	text-decoration: none;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 160%;
+	text-align: justify;
+	color: #333;
+}
+.fast {
+	color: #F0F;
+}
+.fire {
+	color: #F00;
+}
+.frost {
+	color: #03F;
+}
+.poison {
+	color: #0F0;
+}
+.boss {
+	color: #330033;
+}

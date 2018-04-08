@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/white">
+
+	<five.itcast.cn.Chessboard android:id="@+id/snake" android:layout_width="match_parent"
+		android:layout_height="match_parent" tileSize="24"/>
+	
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<TextView
+			android:id="@+id/text"
+			android:text="@string/mode_ready"
+			android:visibility="visible"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:textColor="#ff0000"
+			android:textSize="24sp"
+			/>
+	</RelativeLayout>
+
+</FrameLayout>

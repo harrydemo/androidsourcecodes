@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 eFANsoftware
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- 
+Medicine (screen)
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/titleText"
+        android:text="@string/medicine_query_title" />
+
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:paddingBottom="3sp"
+		android:src="@drawable/line" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3sp"
+        style="@style/labelText"
+        android:text="@string/syndrome_subject_label" />
+
+    <Spinner 
+        android:id="@+id/syndrome_subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="3sp"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/syndrome_subject_prompt"
+    />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3sp"
+        style="@style/labelText"
+        android:text="@string/medicine_label" />
+
+    <AutoCompleteTextView
+        android:id="@+id/key_code_medicine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="3sp"
+        android:singleLine="true"
+        android:scrollbars="vertical"
+        android:capitalize="characters" 
+        android:background="@android:drawable/editbox_background"
+        android:completionThreshold="1"
+        android:completionHint="@string/medicine_selection_reminder"
+        android:hint="@string/name_code_hint" 
+        android:textColorHint="@color/hintTextColor" 
+    />
+ 
+    <Button
+        android:id="@+id/queryButton"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+        android:textSize="@dimen/default_text_size"
+        android:text="@string/button_query" />
+
+</LinearLayout>

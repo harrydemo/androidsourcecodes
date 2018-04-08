@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="wrap_content"
+	android:layout_height="wrap_content" android:background="#ffffff" android:scrollbars="vertical">
+		<!-- 标题 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+	<!-- 底部菜单 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+	    <LinearLayout android:orientation="vertical" 
+		    		  android:layout_width="wrap_content"
+					  android:layout_height="wrap_content" 
+					  android:layout_above="@id/bottommenu"
+				 	  android:layout_below="@id/title">
+	<ImageView android:id="@+id/servceImage"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		 android:scaleType="center" android:background="@drawable/warranty_image"/>
+		 </LinearLayout>
+	<include layout="@layout/common_listview" />
+</RelativeLayout>

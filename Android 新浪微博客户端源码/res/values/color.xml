@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!--
+/*
+ * Copyright 2011 Sina.
+ *
+ * Licensed under the Apache License and Weibo License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.open.weibo.com
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources> 
+    <color name="txt_blue">#FF007CB0</color>
+    <color name="txt_gray">#FF575756</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="txt_orange">#FFEB6100</color>
+    <color name="bg_gray">#FFE3E3E7</color>
+    <color name="orange">#FFE84E0E</color>
+    <color name="bg">#FFF39200</color>
+    <color name="lightblue">#FF007AA2</color>
+    <color name="lightorange">#FFACBA00</color>
+    <color name="red">#FFFF0000</color>
+    <color name="transparentdarkgray">#CC292929</color>
+    <color name="transparentgray">#CC666666</color>
+    <color name="yellow">#ff9933</color>
+    <color name="gray">#ff333333</color>
+    <color name="light_blue">#5CACEE</color>
+	<color name="light_gray">#87CEEB</color>
+	<color name="orange_red">#613030</color>
+	<color name="whiteGray">#ffC9CACB</color>
+	<color name="nomalGray">#838B83</color>
+	<color name="blue">#436EEE</color>
+	 <color name="light_orange">#FFFCBA00</color>
+	 <color name="coffee">#622f1b</color>
+     <color name="black2">#80000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_num_gray">#333</color>
+    <color name="dialog_title_blue">#9CCCF7</color>
+</resources> 

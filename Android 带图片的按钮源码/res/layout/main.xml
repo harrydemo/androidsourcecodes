@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+
+xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:custom="http://www.javaeye.com/custom"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    >  
+  
+    <lhq.com.cn.ImageTextButton    
+	    android:text="OK"  
+	    custom:icon="@drawable/icon"  
+	    android:id="@+id/button_0"    
+	    android:layout_width="80dip"    
+	    android:layout_height="80dip"/>
+	      
+    <lhq.com.cn.ImageTextButton    
+	    android:text="OK"  
+	    custom:icon="@drawable/icon"  
+	    android:id="@+id/button_1"    
+	    android:layout_width="80dip"    
+	    android:layout_height="100dip"  
+	    android:textSize="30dip"/>  
+       
+    <lhq.com.cn.ImageTextButton    
+	    android:text="OK"   
+	    custom:icon="@drawable/icon"  
+	    android:id="@+id/button_2"    
+	    android:layout_width="200dip"    
+	    android:layout_height="200dip"  
+	    android:textSize="30dip"/>  
+      
+</LinearLayout>  

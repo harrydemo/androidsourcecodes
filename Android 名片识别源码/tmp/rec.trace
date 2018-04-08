@@ -1,0 +1,309 @@
+*version
+1
+data-file-overflow=false
+clock=thread-cpu
+elapsed-time-usec=26075805
+num-method-calls=2072
+clock-call-overhead-nsec=4600
+vm=dalvik
+*threads
+3	main
+17	Binder Thread #4
+15	Binder Thread #3
+13	Binder Thread #2
+11	Binder Thread #1
+9	JDWP
+7	Signal Catcher
+5	HeapWorker
+*methods
+0x41242d10	java/util/Calendar	complete	()V	Calendar.java	-1
+0x41242df0	java/util/Calendar	get	(I)I	Calendar.java	994
+0x41242e98	java/util/Calendar	getFirstDayOfWeek	()I	Calendar.java	1067
+0x41242f78	java/util/Calendar	getMinimalDaysInFirstWeek	()I	Calendar.java	1168
+0x41243058	java/util/Calendar	getTimeZone	()Ljava/util/TimeZone;	Calendar.java	1221
+0x412432c0	java/util/Calendar	setFirstDayOfWeek	(I)V	Calendar.java	1405
+0x412432f8	java/util/Calendar	setLenient	(Z)V	Calendar.java	1417
+0x41243330	java/util/Calendar	setMinimalDaysInFirstWeek	(I)V	Calendar.java	1428
+0x412433a0	java/util/Calendar	setTimeInMillis	(J)V	Calendar.java	1450
+0x412433d8	java/util/Calendar	setTimeZone	(Ljava/util/TimeZone;)V	Calendar.java	1464
+0x41242950	java/util/Calendar	<init>	(Ljava/util/TimeZone;)V	Calendar.java	-1
+0x410d6e00	java/nio/charset/CharsetEncoder	encode	(Ljava/nio/CharBuffer;)Ljava/nio/ByteBuffer;	CharsetEncoder.java	-1
+0x410d6e38	java/nio/charset/CharsetEncoder	encode	(Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;	CharsetEncoder.java	-1
+0x410d6ea8	java/nio/charset/CharsetEncoder	flush	(Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;	CharsetEncoder.java	595
+0x410d7180	java/nio/charset/CharsetEncoder	reset	()Ljava/nio/charset/CharsetEncoder;	CharsetEncoder.java	824
+0x410d6ca8	java/nio/charset/CharsetEncoder	checkCoderResult	(Ljava/nio/charset/CoderResult;)V	CharsetEncoder.java	390
+0x410935a8	android/graphics/Bitmap	getHeight	()I	Bitmap.java	594
+0x41093650	android/graphics/Bitmap	getPixels	([IIIIIII)V	Bitmap.java	740
+0x41093810	android/graphics/Bitmap	getWidth	()I	Bitmap.java	589
+0x41093960	android/graphics/Bitmap	recycle	()V	Bitmap.java	153
+0x41092ae8	android/graphics/Bitmap	<init>	(IZ[B)V	Bitmap.java	-1
+0x41092b90	android/graphics/Bitmap	checkPixelsAccess	(IIIIII[I)V	Bitmap.java	779
+0x41092bc8	android/graphics/Bitmap	checkRecycled	(Ljava/lang/String;)V	Bitmap.java	175
+0x41092c38	android/graphics/Bitmap	checkXYSign	(II)V	Bitmap.java	187
+0x41092df8	android/graphics/Bitmap	getDefaultDensity	()I	Bitmap.java	65
+0x41093098	android/graphics/Bitmap	nativeGetPixels	(I[IIIIIII)V	Bitmap.java	-2
+0x41093108	android/graphics/Bitmap	nativeHeight	(I)I	Bitmap.java	-2
+0x41093178	android/graphics/Bitmap	nativeRecycle	(I)V	Bitmap.java	-2
+0x41093258	android/graphics/Bitmap	nativeWidth	(I)I	Bitmap.java	-2
+0x410d6390	java/nio/CharArrayBuffer	get	([CII)Ljava/nio/CharBuffer;	CharArrayBuffer.java	67
+0x410d6270	java/nio/CharArrayBuffer	<init>	(I)V	CharArrayBuffer.java	43
+0x410d62a8	java/nio/CharArrayBuffer	<init>	(I[CI)V	CharArrayBuffer.java	47
+0x410d62e0	java/nio/CharArrayBuffer	<init>	([C)V	CharArrayBuffer.java	39
+0x41054cf0	java/lang/Error	<init>	(Ljava/lang/String;)V	Error.java	53
+0x412a5048	cn/sharp/android/ncr/image/PgmImage	<init>	()V	PgmImage.java	14
+0x412a50b8	cn/sharp/android/ncr/image/PgmImage	fromBitmap	(Landroid/graphics/Bitmap;)Lcn/sharp/android/ncr/image/PgmImage;	PgmImage.java	73
+0x41065d98	java/lang/Math	abs	(I)I	Math.java	112
+0x41056f88	java/nio/ByteBuffer	array	()[B	ByteBuffer.java	153
+0x41057308	java/nio/ByteBuffer	get	([B)Ljava/nio/ByteBuffer;	ByteBuffer.java	458
+0x41057618	java/nio/ByteBuffer	hasArray	()Z	ByteBuffer.java	711
+0x41056df8	java/nio/ByteBuffer	<init>	(I)V	ByteBuffer.java	136
+0x41056e30	java/nio/ByteBuffer	allocate	(I)Ljava/nio/ByteBuffer;	ByteBuffer.java	51
+0x41056ed8	java/nio/ByteBuffer	wrap	([BII)Ljava/nio/ByteBuffer;	ByteBuffer.java	111
+0x410d69c8	com/ibm/icu4jni/charset/CharsetEncoderICU	encodeLoop	(Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;	CharsetEncoderICU.java	-1
+0x410d6a38	com/ibm/icu4jni/charset/CharsetEncoderICU	implFlush	(Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;	CharsetEncoderICU.java	168
+0x410d6b18	com/ibm/icu4jni/charset/CharsetEncoderICU	implReset	()V	CharsetEncoderICU.java	-1
+0x410d6870	com/ibm/icu4jni/charset/CharsetEncoderICU	getArray	(Ljava/nio/ByteBuffer;)I	CharsetEncoderICU.java	330
+0x410d68a8	com/ibm/icu4jni/charset/CharsetEncoderICU	getArray	(Ljava/nio/CharBuffer;)I	CharsetEncoderICU.java	350
+0x410d68e0	com/ibm/icu4jni/charset/CharsetEncoderICU	setPosition	(Ljava/nio/ByteBuffer;)V	CharsetEncoderICU.java	-1
+0x410d6918	com/ibm/icu4jni/charset/CharsetEncoderICU	setPosition	(Ljava/nio/CharBuffer;)V	CharsetEncoderICU.java	412
+0x41096010	com/android/internal/os/BinderInternal$GcWatcher	finalize	()V	BinderInternal.java	46
+0x41095fd0	com/android/internal/os/BinderInternal$GcWatcher	<init>	()V	BinderInternal.java	43
+0x41070c18	dalvik/system/VMStack	getCallingClassLoader	()Ljava/lang/ClassLoader;	VMStack.java	-2
+0x4106f930	java/util/HashMap	findNonNullKeyEntry	(Ljava/lang/Object;II)Ljava/util/HashMap$Entry;	HashMap.java	456
+0x4106f9a0	java/util/HashMap	get	(Ljava/lang/Object;)Ljava/lang/Object;	HashMap.java	442
+0x41269ef0	dalvik/system/DexFile	loadClass	(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Class;	DexFile.java	193
+0x41269cf0	dalvik/system/DexFile	defineClass	(Ljava/lang/String;Ljava/lang/ClassLoader;ILjava/security/ProtectionDomain;)Ljava/lang/Class;	DexFile.java	-2
+0x410e03c0	java/util/Arrays	binarySearch	([II)I	Arrays.java	-1
+0x410e0430	java/util/Arrays	binarySearch	([Ljava/lang/Object;Ljava/lang/Object;)I	Arrays.java	-1
+0x41080c10	java/io/FileInputStream	close	()V	FileInputStream.java	190
+0x41080d60	java/io/FileInputStream	read	([BII)I	FileInputStream.java	317
+0x41080d98	java/io/FileInputStream	skip	(J)J	FileInputStream.java	352
+0x41080af0	java/io/FileInputStream	<init>	(Ljava/io/File;)V	FileInputStream.java	-1
+0x41080b60	java/io/FileInputStream	<init>	(Ljava/lang/String;)V	FileInputStream.java	135
+0x41080b98	java/io/FileInputStream	openCheck	()V	FileInputStream.java	388
+0x4107bb20	java/lang/AbstractStringBuilder	append0	(Ljava/lang/String;)V	AbstractStringBuilder.java	-1
+0x4107c290	java/lang/AbstractStringBuilder	toString	()Ljava/lang/String;	AbstractStringBuilder.java	-1
+0x4107b990	java/lang/AbstractStringBuilder	<init>	()V	AbstractStringBuilder.java	77
+0x4107ba00	java/lang/AbstractStringBuilder	<init>	(Ljava/lang/String;)V	AbstractStringBuilder.java	-1
+0x4107ba38	java/lang/AbstractStringBuilder	enlargeBuffer	(I)V	AbstractStringBuilder.java	-1
+0x410d8008	com/ibm/icu4jni/common/ErrorCode	isFailure	(I)Z	ErrorCode.java	202
+0x410d0410	org/apache/harmony/luni/util/Util	getBytes	(Ljava/lang/String;)[B	Util.java	52
+0x41054b38	java/lang/Exception	<init>	(Ljava/lang/String;)V	Exception.java	52
+0x4108d8a8	dalvik/system/PathClassLoader	findClass	(Ljava/lang/String;)Ljava/lang/Class;	PathClassLoader.java	-1
+0x4108d788	dalvik/system/PathClassLoader	ensureInit	()V	PathClassLoader.java	-1
+0x410d0bc0	java/nio/charset/Charset	decode	(Ljava/nio/ByteBuffer;)Ljava/nio/CharBuffer;	Charset.java	765
+0x410d0ca0	java/nio/charset/Charset	encode	(Ljava/nio/CharBuffer;)Ljava/nio/ByteBuffer;	Charset.java	708
+0x410d0d80	java/nio/charset/Charset	name	()Ljava/lang/String;	Charset.java	628
+0x410d0838	java/nio/charset/Charset	getCachedCharsetDecoder	(Ljava/lang/String;)Ljava/nio/charset/CharsetDecoder;	Charset.java	779
+0x410d0870	java/nio/charset/Charset	getCachedCharsetEncoder	(Ljava/lang/String;)Ljava/nio/charset/CharsetEncoder;	Charset.java	722
+0x4108db30	java/lang/VMClassLoader	findLoadedClass	(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;	VMClassLoader.java	-2
+0x4108dc80	java/lang/VMClassLoader	loadClass	(Ljava/lang/String;Z)Ljava/lang/Class;	VMClassLoader.java	-2
+0x410d7650	com/ibm/icu4jni/charset/CharsetDecoderICU	decodeLoop	(Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult;	CharsetDecoderICU.java	-1
+0x410d76c0	com/ibm/icu4jni/charset/CharsetDecoderICU	implFlush	(Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult;	CharsetDecoderICU.java	172
+0x410d77a0	com/ibm/icu4jni/charset/CharsetDecoderICU	implReset	()V	CharsetDecoderICU.java	-1
+0x410d7568	com/ibm/icu4jni/charset/CharsetDecoderICU	getArray	(Ljava/nio/ByteBuffer;)I	CharsetDecoderICU.java	308
+0x410d75a0	com/ibm/icu4jni/charset/CharsetDecoderICU	getArray	(Ljava/nio/CharBuffer;)I	CharsetDecoderICU.java	288
+0x410d75d8	com/ibm/icu4jni/charset/CharsetDecoderICU	setPosition	(Ljava/nio/ByteBuffer;)V	CharsetDecoderICU.java	-1
+0x410d7610	com/ibm/icu4jni/charset/CharsetDecoderICU	setPosition	(Ljava/nio/CharBuffer;)V	CharsetDecoderICU.java	-1
+0x41080f90	java/lang/BootClassLoader	findClass	(Ljava/lang/String;)Ljava/lang/Class;	ClassLoader.java	1057
+0x410810e0	java/lang/BootClassLoader	loadClass	(Ljava/lang/String;Z)Ljava/lang/Class;	ClassLoader.java	1121
+0x41080f50	java/lang/BootClassLoader	getInstance	()Ljava/lang/BootClassLoader;	ClassLoader.java	1044
+0x41244ef8	java/util/GregorianCalendar	computeFields	()V	GregorianCalendar.java	622
+0x41245198	java/util/GregorianCalendar	isLeapYear	(I)Z	GregorianCalendar.java	-1
+0x41245240	java/util/GregorianCalendar	setFirstDayOfWeek	(I)V	GregorianCalendar.java	1450
+0x412452b0	java/util/GregorianCalendar	setMinimalDaysInFirstWeek	(I)V	GregorianCalendar.java	1456
+0x41244a90	java/util/GregorianCalendar	<init>	(J)V	GregorianCalendar.java	324
+0x41244b70	java/util/GregorianCalendar	<init>	(Z)V	GregorianCalendar.java	-1
+0x41244be0	java/util/GregorianCalendar	computeYearAndDay	(JJ)I	GregorianCalendar.java	-1
+0x41244c88	java/util/GregorianCalendar	daysInMonth	(ZI)I	GregorianCalendar.java	976
+0x41244cf8	java/util/GregorianCalendar	daysInYear	(ZI)I	GregorianCalendar.java	995
+0x41244d30	java/util/GregorianCalendar	fullFieldsCalc	(JII)V	GregorianCalendar.java	492
+0x41244d68	java/util/GregorianCalendar	julianError	()I	GregorianCalendar.java	1267
+0x41244dd8	java/util/GregorianCalendar	mod7	(J)I	GregorianCalendar.java	1279
+0x41061a70	java/io/FileDescriptor	<init>	()V	FileDescriptor.java	91
+0x41095f28	com/android/internal/os/BinderInternal	handleGc	()V	BinderInternal.java	-2
+0x41245e18	org/apache/harmony/luni/internal/util/ZoneInfoDB	_getTimeZone	(Ljava/lang/String;)Ljava/util/TimeZone;	ZoneInfoDB.java	199
+0x41245ec0	org/apache/harmony/luni/internal/util/ZoneInfoDB	getDefault	()Ljava/util/TimeZone;	ZoneInfoDB.java	313
+0x41245fa0	org/apache/harmony/luni/internal/util/ZoneInfoDB	read4	([BI)I	ZoneInfoDB.java	277
+0x411fb738	org/apache/harmony/luni/internal/util/TimezoneGetter	getInstance	()Lorg/apache/harmony/luni/internal/util/TimezoneGetter;	TimezoneGetter.java	33
+0x410bc2d8	android/os/SystemProperties	get	(Ljava/lang/String;)Ljava/lang/String;	SystemProperties.java	41
+0x410bc3f0	android/os/SystemProperties	native_get	(Ljava/lang/String;)Ljava/lang/String;	SystemProperties.java	-2
+0x410d87c0	java/nio/HeapByteBuffer	get	([BII)Ljava/nio/ByteBuffer;	HeapByteBuffer.java	66
+0x410d86a0	java/nio/HeapByteBuffer	<init>	(I)V	HeapByteBuffer.java	45
+0x410d86d8	java/nio/HeapByteBuffer	<init>	([B)V	HeapByteBuffer.java	41
+0x410d8710	java/nio/HeapByteBuffer	<init>	([BII)V	HeapByteBuffer.java	49
+0x410d82b0	java/nio/ReadWriteHeapByteBuffer	protectedArray	()[B	ReadWriteHeapByteBuffer.java	78
+0x410d8320	java/nio/ReadWriteHeapByteBuffer	protectedHasArray	()Z	ReadWriteHeapByteBuffer.java	86
+0x410d80e8	java/nio/ReadWriteHeapByteBuffer	<init>	(I)V	ReadWriteHeapByteBuffer.java	49
+0x410d8120	java/nio/ReadWriteHeapByteBuffer	<init>	([B)V	ReadWriteHeapByteBuffer.java	45
+0x411fb6c0	com/android/internal/os/RuntimeInit$1	getId	()Ljava/lang/String;	RuntimeInit.java	98
+0x41080e70	java/io/FileInputStream$RepositioningLock	<init>	()V	FileInputStream.java	54
+0x41080ea8	java/io/FileInputStream$RepositioningLock	<init>	(Ljava/io/FileInputStream$1;)V	FileInputStream.java	54
+0x4105bab0	dalvik/system/VMDebug	startAllocCounting	()V	VMDebug.java	-2
+0x4105bae8	dalvik/system/VMDebug	startClassPrep	()V	VMDebug.java	292
+0x4105bb58	dalvik/system/VMDebug	startGC	()V	VMDebug.java	285
+0x4105bc00	dalvik/system/VMDebug	startMethodTracing	(Ljava/lang/String;II)V	VMDebug.java	155
+0x4105bc70	dalvik/system/VMDebug	stopAllocCounting	()V	VMDebug.java	-2
+0x4105bd18	dalvik/system/VMDebug	stopMethodTracing	()V	VMDebug.java	-2
+0x4107e3a0	java/lang/ClassLoader	findLoadedClass	(Ljava/lang/String;)Ljava/lang/Class;	ClassLoader.java	400
+0x4107e720	java/lang/ClassLoader	loadClass	(Ljava/lang/String;)Ljava/lang/Class;	ClassLoader.java	532
+0x4107e758	java/lang/ClassLoader	loadClass	(Ljava/lang/String;Z)Ljava/lang/Class;	ClassLoader.java	563
+0x4105c110	java/lang/LinkageError	<init>	(Ljava/lang/String;)V	LinkageError.java	51
+0x41054738	java/lang/Throwable	fillInStackTrace	()Ljava/lang/Throwable;	Throwable.java	138
+0x41054538	java/lang/Throwable	<init>	()V	Throwable.java	79
+0x41054570	java/lang/Throwable	<init>	(Ljava/lang/String;)V	Throwable.java	92
+0x41054688	java/lang/Throwable	nativeFillInStackTrace	()Ljava/lang/Object;	Throwable.java	-2
+0x4105c258	java/lang/NoClassDefFoundError	<init>	(Ljava/lang/String;)V	NoClassDefFoundError.java	49
+0x410b0f10	android/graphics/BitmapFactory	decodeByteArray	([BII)Landroid/graphics/Bitmap;	BitmapFactory.java	397
+0x410b0f48	android/graphics/BitmapFactory	decodeByteArray	([BIILandroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;	BitmapFactory.java	381
+0x410b11b0	android/graphics/BitmapFactory	nativeDecodeByteArray	([BIILandroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;	BitmapFactory.java	-2
+0x4107b328	java/lang/StringBuilder	append	(I)Ljava/lang/StringBuilder;	StringBuilder.java	142
+0x4107b440	java/lang/StringBuilder	append	(Ljava/lang/String;)Ljava/lang/StringBuilder;	StringBuilder.java	224
+0x4107b910	java/lang/StringBuilder	toString	()Ljava/lang/String;	StringBuilder.java	692
+0x4107b080	java/lang/StringBuilder	<init>	()V	StringBuilder.java	55
+0x4107b128	java/lang/StringBuilder	<init>	(Ljava/lang/String;)V	StringBuilder.java	95
+0x410bb2f8	android/os/Debug	startAllocCounting	()V	Debug.java	439
+0x410bb368	android/os/Debug	startMethodTracing	(Ljava/lang/String;)V	Debug.java	-1
+0x410bb3d8	android/os/Debug	startMethodTracing	(Ljava/lang/String;II)V	Debug.java	-1
+0x410bb480	android/os/Debug	stopAllocCounting	()V	Debug.java	442
+0x410bb4b8	android/os/Debug	stopMethodTracing	()V	Debug.java	407
+0x410d5b30	java/nio/BufferFactory	newByteBuffer	(I)Ljava/nio/ByteBuffer;	BufferFactory.java	51
+0x410d5b68	java/nio/BufferFactory	newByteBuffer	([B)Ljava/nio/ByteBuffer;	BufferFactory.java	40
+0x410d5ba0	java/nio/BufferFactory	newCharBuffer	(I)Ljava/nio/CharBuffer;	BufferFactory.java	84
+0x410d5c10	java/nio/BufferFactory	newCharBuffer	([C)Ljava/nio/CharBuffer;	BufferFactory.java	62
+0x412437b0	java/util/TimeZone	clone	()Ljava/lang/Object;	TimeZone.java	166
+0x41243a50	java/util/TimeZone	setID	(Ljava/lang/String;)V	TimeZone.java	623
+0x412435b0	java/util/TimeZone	<init>	()V	TimeZone.java	142
+0x412436c8	java/util/TimeZone	getDefault	()Ljava/util/TimeZone;	TimeZone.java	241
+0x41243700	java/util/TimeZone	getTimeZone	(Ljava/lang/String;)Ljava/util/TimeZone;	TimeZone.java	-1
+0x41087050	com/ibm/icu4jni/charset/NativeConverter	decode	(J[BI[CI[IZ)I	NativeConverter.java	-2
+0x41087088	com/ibm/icu4jni/charset/NativeConverter	encode	(J[CI[BI[IZ)I	NativeConverter.java	-2
+0x410870c0	com/ibm/icu4jni/charset/NativeConverter	flushByteToChar	(J[CI[I)I	NativeConverter.java	-2
+0x410870f8	com/ibm/icu4jni/charset/NativeConverter	flushCharToByte	(J[BI[I)I	NativeConverter.java	-2
+0x410873d0	com/ibm/icu4jni/charset/NativeConverter	resetByteToChar	(J)V	NativeConverter.java	-2
+0x41087408	com/ibm/icu4jni/charset/NativeConverter	resetCharToByte	(J)V	NativeConverter.java	-2
+0x41246280	org/apache/harmony/luni/internal/util/ZoneInfo	getOffset	(IIIIII)I	ZoneInfo.java	136
+0x412462b8	org/apache/harmony/luni/internal/util/ZoneInfo	getOffset	(J)I	ZoneInfo.java	160
+0x412462f0	org/apache/harmony/luni/internal/util/ZoneInfo	getRawOffset	()I	ZoneInfo.java	175
+0x412463d0	org/apache/harmony/luni/internal/util/ZoneInfo	useDaylightTime	()Z	ZoneInfo.java	200
+0x41246198	org/apache/harmony/luni/internal/util/ZoneInfo	<init>	(Ljava/lang/String;[I[B[I[B[B[BI)V	ZoneInfo.java	-1
+0x412461d0	org/apache/harmony/luni/internal/util/ZoneInfo	getTimeZone	(Ljava/lang/String;)Ljava/util/TimeZone;	ZoneInfo.java	-1
+0x41246208	org/apache/harmony/luni/internal/util/ZoneInfo	nullName	([BII)Ljava/lang/String;	ZoneInfo.java	57
+0x41061288	java/io/File	exists	()Z	File.java	472
+0x41061790	java/io/File	properPath	(Z)[B	File.java	-1
+0x41060950	java/io/File	<init>	(Ljava/lang/String;)V	File.java	145
+0x41060b48	java/io/File	existsImpl	([B)Z	File.java	-2
+0x41060b80	java/io/File	fixSlashes	(Ljava/lang/String;)Ljava/lang/String;	File.java	284
+0x4108e8b0	android/util/Log	d	(Ljava/lang/String;Ljava/lang/String;)I	Log.java	115
+0x4108e9c8	android/util/Log	i	(Ljava/lang/String;Ljava/lang/String;)I	Log.java	136
+0x4108ea70	android/util/Log	println	(ILjava/lang/String;Ljava/lang/String;)I	Log.java	-2
+0x4108eaa8	android/util/Log	v	(Ljava/lang/String;Ljava/lang/String;)I	Log.java	94
+0x4108e320	android/os/SystemClock	uptimeMillis	()J	SystemClock.java	-2
+0x410d5250	java/nio/CharBuffer	array	()[C	CharBuffer.java	186
+0x410d54b8	java/nio/CharBuffer	get	([C)Ljava/nio/CharBuffer;	CharBuffer.java	390
+0x410d5528	java/nio/CharBuffer	hasArray	()Z	CharBuffer.java	448
+0x410d55d0	java/nio/CharBuffer	length	()I	CharBuffer.java	488
+0x410d57c8	java/nio/CharBuffer	put	(Ljava/nio/CharBuffer;)Ljava/nio/CharBuffer;	CharBuffer.java	617
+0x410d5800	java/nio/CharBuffer	put	([C)Ljava/nio/CharBuffer;	CharBuffer.java	559
+0x410d4f38	java/nio/CharBuffer	<init>	(I)V	CharBuffer.java	169
+0x410d4f70	java/nio/CharBuffer	allocate	(I)Ljava/nio/CharBuffer;	CharBuffer.java	54
+0x410d5050	java/nio/CharBuffer	wrap	([CII)Ljava/nio/CharBuffer;	CharBuffer.java	97
+0x41073ef8	java/lang/ref/Reference	<init>	()V	Reference.java	83
+0x410d9078	java/nio/charset/CoderResult	isMalformed	()Z	CoderResult.java	200
+0x410d90b0	java/nio/charset/CoderResult	isOverflow	()Z	CoderResult.java	210
+0x410d90e8	java/nio/charset/CoderResult	isUnderflow	()Z	CoderResult.java	-1
+0x410d9120	java/nio/charset/CoderResult	isUnmappable	()Z	CoderResult.java	220
+0x41073e28	java/lang/ref/WeakReference	<init>	(Ljava/lang/Object;)V	WeakReference.java	99
+0x412415f0	java/util/Date	getSeconds	()I	Date.java	318
+0x41241820	java/util/Date	setTime	(J)V	Date.java	664
+0x412411c0	java/util/Date	<init>	(J)V	Date.java	142
+0x41056b60	java/nio/BaseByteBuffer	<init>	(I)V	BaseByteBuffer.java	28
+0x4105f890	java/lang/Integer	toString	(I)Ljava/lang/String;	Integer.java	524
+0x4105f8c8	java/lang/Integer	toString	(II)Ljava/lang/String;	Integer.java	-1
+0x41071618	java/lang/String	_getChars	(II[CI)V	String.java	1006
+0x41071650	java/lang/String	charAt	(I)C	String.java	642
+0x41071730	java/lang/String	compareTo	(Ljava/lang/Object;)I	String.java	55
+0x41071768	java/lang/String	compareTo	(Ljava/lang/String;)I	String.java	669
+0x410718f0	java/lang/String	equals	(Ljava/lang/Object;)Z	String.java	-1
+0x41071928	java/lang/String	equalsIgnoreCase	(Ljava/lang/String;)Z	String.java	-1
+0x410719d0	java/lang/String	getBytes	(Ljava/lang/String;)[B	String.java	945
+0x41071a78	java/lang/String	hashCode	()I	String.java	1013
+0x41071ca8	java/lang/String	length	()I	String.java	1320
+0x41071dc0	java/lang/String	replace	(CC)Ljava/lang/String;	String.java	-1
+0x41072028	java/lang/String	toCharArray	()[C	String.java	1581
+0x41072178	java/lang/String	trim	()Ljava/lang/String;	String.java	-1
+0x41070f10	java/lang/String	<init>	(II[C)V	String.java	524
+0x410710d0	java/lang/String	<init>	([BII)V	String.java	-1
+0x410711e8	java/lang/String	<init>	([CII)V	String.java	-1
+0x410712c8	java/lang/String	defaultCharset	()Ljava/nio/charset/Charset;	String.java	773
+0x41071370	java/lang/String	getCharset	(Ljava/lang/String;)Ljava/nio/charset/Charset;	String.java	954
+0x41057d70	java/nio/Buffer	capacity	()I	Buffer.java	147
+0x41057de0	java/nio/Buffer	flip	()Ljava/nio/Buffer;	Buffer.java	183
+0x41057e18	java/nio/Buffer	hasRemaining	()Z	Buffer.java	198
+0x41057e88	java/nio/Buffer	limit	()I	Buffer.java	217
+0x41057f30	java/nio/Buffer	position	()I	Buffer.java	271
+0x41057f68	java/nio/Buffer	position	(I)Ljava/nio/Buffer;	Buffer.java	-1
+0x41057fa0	java/nio/Buffer	remaining	()I	Buffer.java	309
+0x41057cc0	java/nio/Buffer	<init>	(I)V	Buffer.java	-1
+0x410d7990	java/nio/charset/CharsetDecoder	decode	(Ljava/nio/ByteBuffer;)Ljava/nio/CharBuffer;	CharsetDecoder.java	240
+0x410d79c8	java/nio/charset/CharsetDecoder	decode	(Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;Z)Ljava/nio/charset/CoderResult;	CharsetDecoder.java	-1
+0x410d7a70	java/nio/charset/CharsetDecoder	flush	(Ljava/nio/CharBuffer;)Ljava/nio/charset/CoderResult;	CharsetDecoder.java	535
+0x410d7d80	java/nio/charset/CharsetDecoder	reset	()Ljava/nio/charset/CharsetDecoder;	CharsetDecoder.java	773
+0x410d78a8	java/nio/charset/CharsetDecoder	allocateMore	(Ljava/nio/CharBuffer;)Ljava/nio/CharBuffer;	CharsetDecoder.java	290
+0x410d78e0	java/nio/charset/CharsetDecoder	checkCoderResult	(Ljava/nio/charset/CoderResult;)V	CharsetDecoder.java	276
+0x410d60b0	java/nio/ReadWriteCharArrayBuffer	protectedArray	()[C	ReadWriteCharArrayBuffer.java	76
+0x410d6120	java/nio/ReadWriteCharArrayBuffer	protectedHasArray	()Z	ReadWriteCharArrayBuffer.java	84
+0x410d61c8	java/nio/ReadWriteCharArrayBuffer	put	([CII)Ljava/nio/CharBuffer;	ReadWriteCharArrayBuffer.java	104
+0x410d5ee8	java/nio/ReadWriteCharArrayBuffer	<init>	(I)V	ReadWriteCharArrayBuffer.java	47
+0x410d5f58	java/nio/ReadWriteCharArrayBuffer	<init>	([C)V	ReadWriteCharArrayBuffer.java	43
+0x41067580	java/lang/System	arraycopy	(Ljava/lang/Object;ILjava/lang/Object;II)V	System.java	-2
+0x410675f0	java/lang/System	currentTimeMillis	()J	System.java	-2
+0x410677b0	java/lang/System	getSecurityManager	()Ljava/lang/SecurityManager;	System.java	505
+0x41067fd8	org/apache/harmony/luni/platform/OSFileSystem	close	(I)V	OSFileSystem.java	210
+0x410680f0	org/apache/harmony/luni/platform/OSFileSystem	open	([BI)I	OSFileSystem.java	226
+0x41068128	org/apache/harmony/luni/platform/OSFileSystem	read	(I[BII)J	OSFileSystem.java	151
+0x410681d0	org/apache/harmony/luni/platform/OSFileSystem	seek	(IJI)J	OSFileSystem.java	108
+0x41067c50	org/apache/harmony/luni/platform/OSFileSystem	closeImpl	(I)I	OSFileSystem.java	-2
+0x41067cf8	org/apache/harmony/luni/platform/OSFileSystem	openImpl	([BI)I	OSFileSystem.java	-2
+0x41067d68	org/apache/harmony/luni/platform/OSFileSystem	readImpl	(I[BII)J	OSFileSystem.java	-2
+0x41067dd8	org/apache/harmony/luni/platform/OSFileSystem	seekImpl	(IJI)J	OSFileSystem.java	-2
+0x410648e8	java/io/InputStream	<init>	()V	InputStream.java	52
+0x41052fa8	java/lang/Object	clone	()Ljava/lang/Object;	Object.java	78
+0x41052f68	java/lang/Object	internalClone	(Ljava/lang/Cloneable;)Ljava/lang/Object;	Object.java	-2
+0x4126c380	java/lang/ClassNotFoundException	<init>	(Ljava/lang/String;Ljava/lang/Throwable;)V	ClassNotFoundException.java	65
+0x4106f0d0	org/apache/harmony/luni/platform/Platform	accessCheck	()V	Platform.java	45
+0x4106f140	org/apache/harmony/luni/platform/Platform	getFileSystem	()Lorg/apache/harmony/luni/platform/IFileSystem;	Platform.java	52
+*end
+SLOW   ~W>Ü/Ö                 ºA   ÿ≥Az   Ÿ≥Aò   i≥Aò   ¯≤An  ∞∫Aç  ±∫A´  ˘≤A´  Ë∫Aæ   ÁA‹  XÁAu  †„Aì  PAì  QAÔ  0€A  1€Ai  °„Ai  ‡Aà  †„Aà  PA¶  QA¶  0€A  1€A]  °„A]  ·A|  YÁA|  !ÁA|  È∫Aö  Aé  HAÀ  ∞Ad  XªA≠<  YªA5± `	A   (_	Az   )_	Aô    „Aô   !„A∑   –_	A   —_	AË  (>A  ¯>A  ˘>A  )>A  `	A%  Ë*	AŸò ¯-	A5ô ˘-	Aëô È*	AØô ±Afö IAÖö A£ö ∞ËAˇö pÍAˇö qÍANú ±ËANú uAaù ÒuAÄù Ë∫Ahü  ÁA√ü XÁA † †„A† PA\† QA{† 0€Aô† 1€A÷† °„A÷† ‡A° †„A2° PA2° QAP° 0€Aç° 1€A ° °„A ° êAÈ° Ä‹A¢ Ë∫A&¢ X¬A£ ¡A-§ LAK§ pEAà§ 8EAß§ 8GAß§ àFAß§ âFAõ• 9GAπ• 9EAπ• qEAπ• ÒLAÿ• ¡Aÿ• Y¬Aÿ• È∫Aˆ• Ä√&AÎ¶ 8KA(ß pEA(ß 8EA(ß 8GAFß àFAFß âFAÉß 9GA¢ß 9EA¢ß qEA¿ß 9KA¿ß Å√&A¿ß Å‹Aﬂß íA˝ß ‚A˝ß ®ÿA® à◊A:® â◊A:® ¿Aw® ÄuA© ÅuA.© A®© A«© ¡A«© û&AÂ© ú&A™ Ë∫AA™ È∫AH¨ Òú&Af¨ Òû&AÖ¨ ©ÿAÖ¨ YÁA£¨ !ÁA£¨ È∫A£¨ ∏P*AOÆ HP*AåÆ IP*A™Æ 8	A™Æ X2	A…Æ Y2	A…Æ 8	AÁÆ ®5	AÁÆ 1	AØ 	1	AØ ©5	AØ ∞ËAaØ pÍAaØ qÍA∞ ±ËA7∞ XªA+± YªAW `	Au  (_	Aî  )_	A≤   „A≤  !„A—  XªAπ  YªA€ë ∞ËAX pÍAv qÍAjÄ ±ËAâÄ Ë∫A˜Å  ÁASÇ XÁAqÇ †„AqÇ PAêÇ QAêÇ 0€AÆÇ 1€A
+É °„A(É ‡AGÉ †„AGÉ PAeÉ QAeÉ 0€AÑÉ 1€A¢É °„A¢É ·A¢É YÁA¡É !ÁA¡É È∫AﬂÉ (±AÚÑ  ∫AÚÑ ®ABÜ ©ABÜ AùÜ ÄuAùÜ ÅuAºÜ AºÜ ∫A⁄Ü )±A⁄Ü (≥A⁄Ü ê¯Aá »¯A6á …¯ATá ë¯ATá  ªATá ®Asá ©Asá Aëá ÄuA∞á ÅuA∞á A∞á !ªAŒá )≥AŒá πAà ê¬A*à Agà Agà ë¬AÜà πAÜà ∞ËAÜà pÍA§à qÍA â ±ËAâ XªAä YªAë” XªA\î YªAHF (±A=Ã  ∫A[Ã ®AzÃ ©AzÃ A∑Ã ÄuA’Ã ÅuA’Ã A’Ã ∫AÙÃ )±AÙÃ (≥AÕ ê¯AÕ »¯AÕ …¯A1Õ ë¯A1Õ  ªAOÕ ®AOÕ ©AOÕ AnÕ ÄuAnÕ ÅuAåÕ AåÕ !ªAåÕ )≥A´Õ πA´Õ ê¬A´Õ AËÕ AËÕ ë¬AËÕ πAŒ ∞ËAŒ pÍAŒ qÍAüŒ ±ËAΩŒ P6	A˙Œ »+	Aƒ– …+	A„– ê+	A{— 8,	Aö— 9,	Aö— 8	A∏— 8	A◊— ®5	A◊— ©5	A◊— ò]AÈ“ ô]A” ë+	A'” ò0	A‘ –_	A$I —_	ACI (>AÄI ¯>AûI ˘>AûI )>AΩI `	AΩI ô0	A”I Q6	AÚI (±A÷úø  ∫AÙúø ®AÙúø ©AÙúø A1ùø ÄuAPùø ÅuAPùø Anùø ∫Anùø )±Anùø (≥Açùø ê¯Açùø »¯A´ùø AËùø Aûø …¯Aûø ë¯Aûø  ªA%ûø ®A%ûø ©ADûø ADûø ÄuAbûø ÅuAbûø Abûø !ªAÅûø )≥AÅûø πAÅûø ê¬Aüûø Aæûø Aæûø ë¬A‹ûø πA‹ûø ∞ËA‹ûø pÍA˚ûø qÍA–üø ±ËAÔüø XªAi†ø YªA∫¡ `	Aç (_	A6ç )_	Asç  „Aëç !„A*é XªAˇé YªA˚ (±AE%¡  ∫Ad%¡ ®Ad%¡ ©AÇ%¡ A°%¡ ÄuAø%¡ ÅuAﬁ%¡ Aﬁ%¡ ∫Aﬁ%¡ )±A¸%¡ (≥A¸%¡ ê¯A&¡ »¯A&¡ …¯A:&¡ ë¯A:&¡  ªA:&¡ ®AX&¡ ©AX&¡ Aw&¡ ÄuAw&¡ ÅuAï&¡ Aï&¡ !ªAï&¡ )≥A¥&¡ πA¥&¡ ê¬A¥&¡ AÒ&¡ AÒ&¡ ë¬A'¡ πA'¡ ∞ËA'¡ pÍA.'¡ qÍA®'¡ ±ËA®'¡ P6	A∆'¡ »+	AÂ'¡ …+	AÂ'¡ ê+	A(¡ 8,	A(¡ 9,	A"(¡ 8	A"(¡ 8	A"(¡ ®5	A@(¡ ©5	A@(¡ ò]A_(¡ ô]A_(¡ ë+	A}(¡ ò0	A}(¡ –_	A⁄¸ —_	A¯¸ (>A¯¸ ¯>A˝ ˘>A˝ )>A˝ `	A˝ ô0	A§ü¬ Q6	A√ü¬ ®ÍAëÄopÍA∞ÄoqÍAÖÅo©ÍAÖÅoπP*A§ÅouA·ÅoÒuAˇÅo(±AyÇo ∫AòÇo®AòÇo©A∂ÇoA’ÇoÄuAÛÇoÅuAÛÇoAÉo∫AÉo)±AÉoË∫A´Éo ÁA…ÉoXÁA…Éo†„A…ÉoPAËÉoQAËÉo0€AÑo1€A%Ño°„ACÑo‡ACÑo†„AbÑoPAbÑoQAbÑo0€AÄÑo1€AüÑo°„AüÑo·AΩÑoYÁAΩÑo!ÁAΩÑoÈ∫A‹Ño¿$AtÖo $AìÖo!$A±Öo¡$A±Öo$A–ÖoêJ$A+ÜopK$AJÜo»6$AhÜo¿^$AƒÜo8∑A áo9∑A>áo¿∂A{áoÿ¬A¨ào®AÀào©AÀào√AÈàoÒ√A¸âoŸ¬Aäo¡∂Aäo®A9äo©AXäox!AXäoy!Aväo 7$Aïäo–a$A≥äo^$A≥äoÄ∞AäoêπAäoëπAãoÅ∞Aão@¥A-ão ªA-ão®ALão©ALão8∫ALãoÄuAâãoÅuAâão9∫AßãoAßãoÄuAßãoÅuA∆ãoA∆ão!ªA∆ãoA¥A‰ão@¥A‰ão ªA‰ão®Aåo©Aåo8∫AåoÄuA@åoÅuA@åo9∫A@åoA^åoÄuA^åoÅuA^åoA}åo!ªA}åoA¥A}åoπAõåoê¬AõåoA∫åoA∫åoë¬AÿåoπAÿåoP	AçoÄA4ço®A4ço©ARço( ARçoÄuAèçoÅuAÆço) AÆçoËA¢éoÄuA˛éoÅuA˛éoÈA˛éoAYèoÒAxèoÅAñèoQ	AñèoàAñèo®Aµèo©Aµèo∞wAµèo±wA”èoêAÚèo®A/êo©A/êoPA©êoQA©êoAëo–A#ëopA#ëoÄA`ëoÅAëo(Aëo)AºëoqAºëoPPA˘ëo\A6íoX_A∞ío‡bAŒío®bAŒío8OAÌío¿|AÌío¡|Aìo9OAìo©bAìo·bA*ìoY_A*ìo\A*ìoQPAHìo†AHìopAgìo†˘A§ìoxA¬ìoyA¬ìo0˘A·ìoAˇìoÒAˇìo1˘Aîo°˘AîoqA<îo nAzîo†Aòîo°AòîoÄqA∑îokA∑îotA’îo	tAN∆okAã∆oÅqAã∆o†A©∆o°A©∆o0nAÊ∆o0[A«oËÄAa«o†ÜAº«oáA»o`kA6»o¯mA6»o¿|AU»o¡|AU»o˘mAs»oakAs»oáAí»o°ÜAí»oÈÄAí»o1[A∞»o1nA∞»o8nA∞»o»iAœ»o~AÌ»o~AÌ»o®hAÌ»o(UA…o aA…o!aA…o)UA*…oPRA*…o∞`A*…o±`AI…oQRAI…oà~AI…oâ~AI…o0Ag…o1Ag…o©hAg…ophAÜ…ovAÜ…o ÉA§…o!ÉA§…ovA§…oàoA√…o∞ÇA√…o±ÇA√…oâoA√…oà~A·…oâ~A·…o0A·…o1A  oqhA  oàpA oâpAŸ‘oÄA’o	ÄA5’oiAS’o0AS’o1Ar’ohAê’oiAê’o0AØ’o1AØ’ohAØ’oiAÕ’oiAÕ’o‡hAÕ’ovAÏ’o ÉAÏ’o!ÉAÏ’ovAÏ’o0A
+÷o1A
+÷ohA
+÷oiA)÷o·hA)÷o…iA)÷oËêAf÷oÈêAÑ÷o†A£÷o°A£÷o9nA¡÷o®lA¡÷oxêA¡÷oyêA‡÷o ëA‡÷o!ëA‡÷o©lA˛÷oËêA˛÷oÈêA˛÷o8nA◊o»iA◊o~A;◊o~A;◊o…iA;◊oËêAZ◊oÈêAZ◊o†AZ◊o°Ax◊o9nANÿo®lAmÿoxêAmÿoyêAãÿo ëAãÿo!ëA™ÿo©lA™ÿo®nA»ÿo8jA»ÿophAÁÿovAÁÿo ÉAŸo!ÉAŸovAŸoàoA$Ÿo∞ÇA$Ÿo±ÇABŸoâoABŸoà~AaŸoâ~AaŸo0AaŸo1AŸoqhAŸo¯pAûŸo˘pA€ŸoÄA˘Ÿo	ÄA˘Ÿo‡hA⁄ovA6⁄o ÉA6⁄o!ÉA6⁄ovAU⁄o0AU⁄o1As⁄ohAs⁄oiAí⁄o·hAí⁄okA∞⁄otA∞⁄o	tAœ⁄okAÌ⁄o9jAÌ⁄o©nA€o®lA€oxêA*€oyêA*€o ëAI€o!ëAI€o©lAI€o∞êAg€o±êAg€o‡}AÜ€o·}AÜ€oxêA•€oyêA•€o ëA•€o!ëA√€onA√€o°A‚€oà~A ‹oâ~A ‹osA=‹o¿áA\‹o†Az‹o°Az‹oÄuAô‹oÅuA∑‹o¡áA∑‹o	sA∑‹o—A÷‹oA÷‹oëAÙ‹oHAÙ‹oIA ›oâAË›o`ADﬁoP	AbﬁoÄAÅﬁo®AÅﬁo©Aüﬁo( AæﬁoÄuA‹ﬁoÅuA˚ﬁo) A˚ﬁoËAÔﬂoÄuA,‡oÅuA,‡oÈAK‡oAK‡oÒAi‡oÅAi‡oQ	Aà‡o
+Aà‡oËHA„‡oÈHA·o@ÒA?·o–A]·oA]·oAπ·o—A◊·oAÒA◊·o®A‚opA3‚oqA3‚o©AQ‚o∞wAQ‚o±wAp‚opAè‚oqAè‚oêA≠‚o®AÃ‚o©AÃ‚oPAÍ‚oQAÍ‚oA	„o–A'„opA'„oÄAF„oÅAF„o(Ad„o)AÉ„oqA°„oPPA°„o\A¿„oX_A˝„o‡bA˝„o®bA‰o8OA‰o¿|A‰o¡|A:‰o9OA:‰o©bAX‰o·bAX‰oY_AX‰o\Aw‰oQPAw‰o†Aï‰opA¥‰o†˘A¥‰oxA“‰oyA“‰o0˘AÒ‰oAÂoÒAÂo1˘A.Âo°˘A.ÂoqALÂo nAkÂo†AkÂo°AâÂoÄqAâÂokA®ÂotA®Âo	tA«ÂokAÂÂoÅqAÂÂo†AÊo°AÊo0nA"Êo0[A"ÊoËÄA_Êo†ÜA_ÊoáAúÊo`kAúÊo¯mAªÊo¿|AªÊo¡|AŸÊo˘mAŸÊoakA¯ÊoáA¯Êo°ÜAÁoÈÄAÁo1[AÁo1nA5Áo8nA5Áo»iASÁo~ArÁo~ArÁo®hArÁo(UAêÁo aAêÁo!aAØÁo)UAØÁoPRAÕÁo∞`AÕÁo±`AÕÁoQRAÏÁoà~AÏÁoâ~A
+Ëo0A
+Ëo1A
+Ëo©hA)ËophA)ËovAGËo ÉAGËo!ÉAfËovAfËoàoAÑËo∞ÇAÑËo±ÇAÑËoâoA£Ëoà~A£Ëoâ~A¡Ëo0A¡Ëo1A¡ËoqhA‡ËoàpA˛ËoâpA<ÈoÄAZÈo	ÄAZÈoiAyÈo0AyÈo1AóÈohAóÈoiA∂Èo0A‘Èo1A‘ÈohA‘ÈoiAÛÈoiAÛÈo‡hAÍovAÍo ÉA0Ío!ÉA0ÍovANÍo0ANÍo1ANÍohAmÍoiAmÍo·hAãÍo…iAãÍoËêA™ÍoÈêA™Ío†A»Ío°A»Ío9nA»Ío®lAÁÍoxêAÁÍoyêAÎo ëAÎo!ëA$Îo©lA$ÎoËêABÎoÈêABÎo8nABÎo»iAaÎo~AaÎo~AÎo…iAÎoËêAûÎoÈêAûÎo†AºÎo°AºÎo9nA€Îo®lA€ÎoxêA˘ÎoyêA˘Îo ëAÏo!ëAÏo©lAÏo®nA6Ïo8jA6ÏophAUÏovAUÏo ÉAUÏo!ÉAsÏovAsÏoàoAíÏo∞ÇAíÏo±ÇA±ÏoâoA±Ïoà~A±Ïoâ~AœÏo0AœÏo1AœÏoqhAÓÏo¯pAÓÏo˘pA+ÌoÄA+Ìo	ÄAIÌo‡hAIÌovAhÌo ÉAÜÌo!ÉAÜÌovAÜÌo0A•Ìo1A•ÌohA•ÌoiA√Ìo·hA√ÌokA‚ÌotA‚Ìo	tA ÓokA Óo9jAÓo©nAÓo®lA=ÓoxêA=ÓoyêA\Óo ëA\Óo!ëA\Óo©lAzÓo∞êAzÓo±êAzÓo‡}AôÓo·}AôÓoxêA∑ÓoyêA∑Óo ëA÷Óo!ëA÷ÓonAÙÓo°AÙÓoà~AÔoâ~AÔosA1Ôo¿áAPÔo†AnÔo°AnÔoÄuAnÔoÅuAçÔo¡áA´Ôo	sA´Ôo—A´ÔoA ÔoëA ÔoÄA&o¯|ADo˘|A8ÒoÒÄAWÒoÒ
+AuÒoaAuÒo0A≤Òo0A,ÚohA≈ÚoiA„Úo1AÛo0A ÛohA ÛoiA?Ûo1A?Ûo0A^ÛohA|ÛoiA|Ûo1A|Ûo0AõÛohAõÛoiAπÛo1AπÛo0AÿÛohAÿÛoiAˆÛo1AˆÛo0AÙohAÙoiAÙo1A3Ùo0A3ÙohARÙoiARÙo1ApÙo0ApÙohApÙoiAèÙo1AèÙo1A≠ÙoòAÃÙoòAÃÙoôAÍÙo–ÅA'ıoÿ}A'ıoŸ}AFıo—ÅAdıo–ÅAÉıoÿ}AÉıoŸ}A°ıo—ÅA°ıoôA¿ıo`AˆoòAˆoôA:ˆo(ÅAXˆoh}AXˆoi}A¥ˆo)ÅA”ˆoaAÒˆoAÒˆoÿA˜oP|A.˜oQ|Aä˜oŸA«˜oA«˜o†_$A¯o°_$A"¯o†_$A"¯o°_$A"¯o†_$A~¯o°_$A~¯o†_$Aú¯o°_$Aª¯o†_$Aª¯o°_$AŸ¯o†_$AŸ¯o°_$A¯¯o†_$A¯¯o°_$A˘o†_$A˘o°_$A5˘o†_$A5˘o°_$AS˘o†_$AS˘o°_$Ar˘o†_$Ar˘o°_$Aê˘o†_$Aê˘o°_$AØ˘o†_$AØ˘o°_$AÕ˘o†_$AÕ˘o°_$AÏ˘o†_$AÏ˘o°_$A
+˙o†_$A
+˙o°_$A)˙o†_$AH˙o°_$AH˙o†_$Af˙o°_$Af˙o†_$AÖ˙o°_$AÖ˙o†_$Aˇ˙o°_$A˚o†_$A˚o°_$A<˚o†_$A<˚o°_$AZ˚oòa$Aó˚o∞5$Aó˚o±5$A∂˚oP:$A∂˚oQ:$A‘˚ob$Am¸o–A»¸o»AÁ¸o…A˝oÿnA˝oh[A$˝o ÅAa˝oÿÜAa˝oáA˝o`kA˝o¯mAû˝o¿|Aû˝o¡|AΩ˝o˘mAΩ˝oakAΩ˝oáAt˛oŸÜAt˛o!ÅAí˛oi[Aí˛oŸnA±˛o¿A±˛o8Aœ˛o†˘AÓ˛oxAÓ˛oyAˇo0˘A+ˇoAIˇoÒAIˇo1˘Ahˇo°˘Ahˇo9AÜˇoêyA\ pÄ}Az p†wAz p–sAô p—sAPp°wAçpÅ}Açp†A¨p°A¨ppOA p†[AÈpË^A&ppbA&p®bAcp8OAcp¿|Acp¡|AÅp9OAÅp©bA†pqbA†pÈ^A†p°[AæpqOAæp»yAæpPvA›p~A˚p~A˚phuApvAp ÉA8p!ÉA8pvA8pàoAWp∞ÇAWp±ÇAupâoAupà~Aîpâ~Aîp0Aîp1A≤piuA≤p†uA—p(UA—p aA—p!aAÔp)UAÔpPRAp∞`Ap±`ApQRA,pà~A,pâ~A,p0AKp1AKp°uAjpPpAjpQpA≈pÿuA‰p0Ap1AphApiA!p0A?p1A?phA?piA^pŸuA^pvA|p(UA|p aAõp!aAõp)UAõp0Aπp1AπphAπpiAÿpvAÿpQvAˆpËêAˆpÈêAp∞êAp±êA3p…yA3p‡xARpxêARpyêARp ëApp!ëApp·xAèpËêAèpÈêAèp∞êA≠p±êA≠p®xAÃpp}AÃpq}AÃpp}AÍpq}AÍppOA	p†[A	pË^A'ppbAFp®bAdp8OAÉp¿|AÉp¡|AÉp9OA°p©bA°pqbA°pÈ^A¿p°[A¿pqOA¿p‡}Aﬂp·}Aﬂp»WA˝p†A˝p°A˝p†Ap°Ap†A:p°A:p∏TAYpêcAYp†Awp°AñpÄuAñpÅuA¥pëcA¥pπTA”p XA”p»aAÒp†AÒp°AÒpÄuA	pÅuA	p…aA.	pXA.	p…WA.	p©xAM	p»yAM	pPvAk	p~Ak	p~Aä	phuAä	pvA®	p ÉA®	p!ÉA«	pvA«	pàoA«	p∞ÇAÂ	p±ÇAÂ	pâoA
+pà~A
+pâ~A
+p0A"
+p1A"
+piuAA
+p†uAA
+p(UAA
+p aA_
+p!aA_
+p)UA~
+pPRA~
+p∞`A~
+p±`Aú
+pQRAú
+pà~Aú
+pâ~Aª
+p0Aª
+p1AŸ
+p°uAŸ
+pPpA¯
+pQpApÿuA5p0ATp1ATphATpiArp0Arp1AëphAëpiAØpŸuAØpvAŒp(UAŒp aAŒp!aAÏp)UAÏp0AÏp1AphApiA)pvA)pQvA)pËêAHpÈêAHp∞êAfp±êAfp…yAÖp‡xAÖpxêAÖpyêA£p ëA£p!ëA¬p·xA¬pËêA¬pÈêA‡p∞êA‡p±êAˇp®xAˇpp}Apq}App}Apq}A<ppOA<p†[A<pË^AyppbAyp®bAóp8OA∂p¿|A∂p¡|A∂p9OA‘p©bA‘pqbA‘pÈ^AÛp°[AÛpqOAÛp‡}Ap·}Ap»WAp†A0p°A0p†ANp°ANp†ANp°Amp∏TAåpêcAåp†A™p°A™pÄuA…pÅuA…pëcAÁpπTAÁp XAÁp»aAp†Ap°A$pÄuA$pÅuACp…aACpXACp…WAap©xAap»yAÄpPvAÄp~Aûp~AûphuAûpvAΩp ÉAΩp!ÉA€pvA€pàoA˙p∞ÇA˙p±ÇA˙pâoApà~Apâ~Ap0A7p1A7piuAUp†uAUp(UAUp aAtp!aAtp)UAípPRAíp∞`Aíp±`A±pQRA±pà~A±pâ~Aœp0Aœp1AÓp°uAÓpPpApQpA+pÿuAIp0Ahp1AhphAÜpiAÜp0AÜp1A•phA•piA√pŸuA√pvA‚p(UA‚p aA‚p!aAp)UAp0Ap1AphApiA>pvA>pQvA\pËêA\pÈêA\p†A{p°A{p…yAôp‡xAôpxêA∏pyêA∏p ëA∏p!ëA÷p·xA÷pËêAıpÈêAıp»yAıpPvAp~Ap~A2pQvA2pËêAPpÈêAPp†Aop°Aop…yAop‡xAçpxêAçpyêA¨p ëA¨p!ëA¨p·xA ppzA p¿vAÈp†uAÈp(UAÈp aAp!aAp)UA&pPRA&p∞`A&p±`ADpQRADpà~ADpâ~Acp0Acp1AÅp°uAÅp¿pA†p¡pAæpÄA›p	ÄA›pvA˚p(UA˚p aA˚p!aAp)UAp0A8p1A8phA8piAWpvAWp†wAvp–sAvp—sAîp°wA≥p¡vA≥pqzA—p‡xA—pxêA—pyêAp ëAp!ëAp·xAp∞êAp±êA-p‡}A-p·}AKpëyAKp¡Ajp–UAjp†Ajp°Aàp—UAàpPRAßp∞`Aßp±`AßpQRA≈p—A≈p	b$A‰pb$A‰p–A!p»A?p…A?pÿnA^ph[A^p ÅAõpÿÜAõpáAπp`kAπp¯mAπp¿|Aÿp¡|Aÿp˘mAˆpakAˆpáApŸÜAp!ÅApi[A3pŸnA3p¿ARp8ARp†˘AppxAppyAèp0˘AèpAÆpÒAÃp1˘AÃp°˘AÎp9A	pêyA	pÄ}A	p†wA(p–sA(p—sAFp°wAepÅ}Aep†AÉp°AÉppOA¢p†[A¢pË^A¿ppbAﬂp®bA˝p8OAp¿|Ap¡|Ap9OA:p©bA:pqbA:pÈ^AYp°[AYpqOAYp»yAwpPvAwp~Añp~AñphuA¥pvA¥p ÉA”p!ÉA”pvA”pàoAÒp∞ÇAÒp±ÇApâoApà~A.pâ~A.p0A.p1AMpiuAMp†uAkp(UAkp aAkp!aAäp)UAäpPRAäp∞`A®p±`A®pQRA®pà~A«pâ~A«p0AÂp1AÂp°uAÂpPpApQpAApÿuA`p0A`p1A~phA~piAùp0Aùp1AªphAªpiAªpŸuA⁄pvA⁄p(UA¯p aA¯p!aAp)UAp0Ap1A5phA5piATpvATpQvATpËêArpÈêArp∞êAëp±êAëp…yAØp‡xAØpxêAØpyêAŒp ëAŒp!ëAÏp·xAÏpËêAÏpÈêAp∞êAp±êA)p®xA)pp}A)pq}AHpp}AHpq}AfppOAfp†[AfpË^A£ppbA£p®bA¬p8OA¬p¿|A‡p¡|A‡p9OAˇp©bAˇpqbAˇpÈ^Ap°[ApqOAp‡}A<p·}A<p»WA<p†AZp°AZp†Ayp°Ayp†Ayp°Aòp∏TA∂pêcA∂p†A’p°A’pÄuAÛpÅuAÛpëcA pπTA p XA p»aA0 p†AO p°AO pÄuAO pÅuAm p…aAm pXAm p…WAå p©xAå p»yA™ pPvA™ p~A… p~A… phuAÁ pvAÁ p ÉAÁ p!ÉA!pvA!pàoA$!p∞ÇA$!p±ÇA$!pâoAC!pà~AC!pâ~Aa!p0Aa!p1Aa!piuAÄ!p†uAÄ!p(UAû!p aAû!p!aAû!p)UAΩ!pPRAΩ!p∞`A€!p±`A€!pQRA€!pà~A˙!pâ~A˙!p0A"p1A"p°uA"pPpA7"pQpAU"pÿuAt"p0Aí"p1Aí"phA±"piA±"p0A–"p1A–"phA–"piAÓ"pŸuAÓ"pvA#p(UA#p aA+#p!aA+#p)UA+#p0AJ#p1AJ#phAJ#piAh#pvAh#pQvAá#pËêAá#pÈêA•#p∞êA•#p±êA•#p…yAƒ#p‡xAƒ#pxêA‚#pyêA‚#p ëA‚#p!ëA$p·xA$pËêA$pÈêA$p∞êA$p±êA>$p®xA>$pp}A>$pq}A\$pp}A\$pq}A\$ppOA{$p†[A{$pË^A∏$ppbA∏$p®bA÷$p8OA÷$p¿|A %p¡|AÈ%p9OAÈ%p©bA&pqbA&pÈ^A&p°[A&pqOA&&p‡}A&&p·}A&&p»WAE&p†AE&p°AE&p†AE&p°Ac&p†Ac&p°Ac&p∏TA†&pêcA†&p†Aø&p°Aø&pÄuA›&pÅuA›&pëcA›&pπTA¸&p XA¸&p»aA¸&p†A'p°A'pÄuA'pÅuA9'p…aA9'pXA9'p…WA9'p©xAW'p»yAW'pPvAv'p~Av'p~Av'phuAî'pvAî'p ÉAî'p!ÉAî'pvA≥'pàoA≥'p∞ÇA≥'p±ÇA—'pâoA—'pà~A—'pâ~A—'p0A'p1A'piuA'p†uA(p(UA(p aA(p!aA-(p)UA-(pPRA-(p∞`A-(p±`AK(pQRAK(pà~AK(pâ~AK(p0Aj(p1Aj(p°uAj(pPpAà(pQpA≈(pÿuA≈(p0A‰(p1A‰(phA)piA)p0A)p1A!)phA!)piA!)pŸuA?)pvA?)p(UA?)p aA^)p!aA^)p)UA^)p0A^)p1A|)phA|)piA|)pvA|)pQvAõ)pËêAõ)pÈêA∫)p†A∫)p°A∫)p…yAÿ)p‡xAÿ)pxêAÿ)pyêA˜)p ëA˜)p!ëA˜)p·xA*pËêA*pÈêA*p»yA4*pPvA4*p~A4*p~AR*pQvAR*pËêAR*pÈêAq*p†Aq*p°Aq*p…yAè*p‡xAè*pxêAè*pyêAè*p ëAÆ*p!ëAÆ*p·xAÆ*ppzAÃ*p¿vAÃ*p†uAÃ*p(UAÎ*p aAÎ*p!aAÎ*p)UAÎ*pPRA	+p∞`A	+p±`A	+pQRA	+pà~A(+pâ~A(+p0A(+p1AF+p°uAF+p¿pAF+p¡pAe+pÄAÉ+p	ÄAÉ+pvA¢+p(UA¢+p aA¢+p!aA¿+p)UA¿+p0A¿+p1A¿+phAﬂ+piAﬂ+pvA˝+p†wA˝+p–sA˝+p—sA,p°wA,p¡vA:,pqzA:,p‡xAY,pxêAY,pyêAY,p ëAw,p!ëAw,p·xAw,p∞êAw,p±êAñ,p‡}Añ,p·}Añ,pëyA¥,p¡A¥,p–UA”,p†A”,p°A”,p—UA”,pPRAÒ,p∞`AÒ,p±`AÒ,pQRA-p—A-p	b$A-pôa$A/-p^$AM-p—a$AM-p∞7$Al-p®/Al-ph/Aä-pi/A«-p©/A«-p±7$A«-p7$AÊ-p¡^$A.p∞7$A.p®/A.ph/A#.pi/A#.p©/AA.p±7$AA.p…6$A`.pP)$Aù.p¯2$A¯.p˘2$A/pÿ3$A/pŸ3$A5/pQ)$A5/phM$Aë/piM$AØ/p@R$A0p¿2$A)0p¡2$AH0pAR$AH0p∞R$Ag0p03$Ag0p13$Ag0p±R$AÖ0pqK$AÖ0p†3$AÖ0p-$A§0p¯N$A§0pX0$A¬0pY0$A¬0pb$A¬0pÒb$A·0p0M$A1p‡K$A<1p·K$A<1pòQ$A[1pôQ$Ay1p¯L$Ay1p˘L$Ay1pàL$Aò1pâL$Aò1pÿM$A∂1pŸM$A∂1pX0$A’1pY0$A’1pÄb$AÛ1p∏b$A2p¿A02p¡A02pπb$AO2pÅb$Am2pò.$Aå2pô.$Aå2pÿM$A™2pŸM$A™2pò.$A…2pô.$A…2pÿM$A…2pŸM$AÁ2px/$AÁ2py/$A3pÿM$A3pŸM$A$3p1M$A$3pX0$Aa3pY0$Aa3p–c$AÄ3p—c$AÄ3pX0$AÄ3pY0$AÄ3p˘N$Aû3p-$AΩ3p°3$AΩ3pëJ$AΩ3p-$A‹3p-$A‹3p-$A‹3pÒ-$A˙3pÒ$A˙3p(≥A˙3pê¯A4p»¯A4pAt4pAì4p…¯Aì4pë¯Aì4p ªA±4p®A±4p©A–4pA–4pÄuAÓ4pÅuAÓ4pAÓ4p!ªA5p)≥A5p@¥Ah5p ªAh5p®Ah5p©Ah5pAá5pÄuA•5pÅuA•5pA•5p!ªA•5pA¥Aƒ5pπAƒ5pê¬Aƒ5pA6pA6pë¬A6pπA6p»ÈA6ppÍA6pqÍA7p…ÈA27p`9	A27px1	Ao7py1	ALÇpa9	AkÇp∞ËAÂÇppÍAÂÇpqÍAúÉp±ËA∫ÉpÄ¥AÜppºA;ÜpqºAZÜpÅ¥AZÜp∏¥AóÜpΩA©áp

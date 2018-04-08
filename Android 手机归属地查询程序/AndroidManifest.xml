@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      package="com.wb.np" android:versionName="1.1">
+    <application android:icon="@drawable/logo" android:label="@string/app_name">
+        <activity android:name="com.np.activity.Main"
+                  android:label="@string/app_name"
+                  android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="com.np.activity.SavingList"
+                  android:label="@string/app_name"
+                  android:configChanges="keyboardHidden|orientation">
+		</activity>
+		<meta-data android:value="0b8528a3ee7b44adbd69488aab3f3488" android:name="Wooboo_PID"/>
+		<meta-data android:value="1" android:name="Market_ID"/>
+    </application>
+    <!-- 连接网络权限 ，用于请求广告(必须)-->  
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	  
+	<!-- 读取手机基本信息权限，用于精确统计用户的机型等信息(必须) -->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	
+	<!-- 读写sd卡的权限，用于缓存广告所用到的图片，节省流量 ，并可获得更好的用户体验(所有使用有米android 2.0版本以上sdk的应用都会共享缓存的图片)-->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	
+	<!-- 获取用户地理信息权限，用于帮助精确统计开发者的程序发布之后的用户分布情况 -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+		 
+	<!-- 读取网络信息权限，用于识别gprs网络的接入点的情况-->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	
+	<uses-permission android:name="android.permission.CALL_PHONE"/>
+	
+    <uses-sdk android:minSdkVersion="3" />
+
+</manifest> 

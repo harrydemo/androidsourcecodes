@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="30dp"
+       android:paddingLeft="30dp"
+	>
+	
+	<TextView
+		  android:layout_width="100dip"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/tvCity"
+		  android:text="@string/reply"
+		  android:textSize="20sp"
+		  >
+	</TextView>
+    
+    <Button
+        android:id="@+id/bt_reply"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt01" />
+    
+    <Button
+        android:id="@+id/bt_reply_set"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/set" />
+    
+    </LinearLayout>
+    
+    
+     <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="50dp"
+       android:paddingLeft="30dp"
+	>
+	<TextView
+		  android:layout_width="100dip"
+		  android:layout_height="wrap_content"
+		  android:id="@+id/tvCity"
+		  android:text="@string/filter"
+		  android:textSize="20sp"
+		  >
+	</TextView>
+    
+    
+    <Button
+        android:id="@+id/bt_filter"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt01"        
+        />
+    
+    <Button
+        android:id="@+id/bt_filter_set"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/set"      
+        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="menu_option_title_get_art">
+		Download Platenhoezen
+	</string>
+	<string name="menu_option_title_preferences">
+		Voorkeuren
+	</string>
+	<string name="menu_option_title_playlist_id">
+		Afspeellijsten
+	</string>
+	<string name="menu_option_title_concerts">
+		Concerten
+	</string>
+	<string name="menu_option_title_releases">
+		Uitgave
+	</string>
+	<string name="menu_option_title_view_mode">
+		Alleen kijken
+	</string>
+	<string name="menu_option_title_theme">
+		Thema
+	</string>
+	<string name="menu_option_title_equalizer">
+		Toonregeling
+	</string>
+</resources>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:id="@+id/main"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	<Button android:id="@+id/button02" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="to pop!!!!!!!!"
+		android:gravity="bottom"  />
+		
+	<Button android:id="@+id/button03" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="到list看看去"
+		android:layout_below="@+id/button02" />
+		
+	<Button android:id="@+id/button" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="to pop!"
+		android:layout_alignParentBottom="true" />
+</RelativeLayout>

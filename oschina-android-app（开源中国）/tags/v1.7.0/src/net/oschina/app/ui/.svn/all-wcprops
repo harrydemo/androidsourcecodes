@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui
+END
+NewsDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/NewsDetail.java
+END
+TweetPub.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/TweetPub.java
+END
+ImageDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/ImageDialog.java
+END
+BroadCast.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/BroadCast.java
+END
+QuestionTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/QuestionTag.java
+END
+Search.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/Search.java
+END
+BlogDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/BlogDetail.java
+END
+UserFriend.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/UserFriend.java
+END
+MessageDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/MessageDetail.java
+END
+ImageZoomDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/ImageZoomDialog.java
+END
+MessageForward.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/MessageForward.java
+END
+CommentPub.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/CommentPub.java
+END
+About.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/About.java
+END
+TweetDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/TweetDetail.java
+END
+Setting.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/Setting.java
+END
+SoftwareDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/SoftwareDetail.java
+END
+QuestionPub.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/QuestionPub.java
+END
+UserFavorite.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/UserFavorite.java
+END
+UserCenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/UserCenter.java
+END
+SoftwareLib.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/SoftwareLib.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/Main.java
+END
+FeedBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/FeedBack.java
+END
+LoginDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/LoginDialog.java
+END
+QuestionDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/QuestionDetail.java
+END
+UserInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/UserInfo.java
+END
+MessagePub.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/oschina/android-app.git/!svn/ver/6/tags/v1.7.0/src/net/oschina/app/ui/MessagePub.java
+END

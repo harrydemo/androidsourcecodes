@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/324/trunk/SMSPopup/res/drawable
+END
+stat_notify_sms_blue.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blue.png
+END
+stat_notify_sms_blur_purple.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blur_purple.png
+END
+stat_notify_sms_old_lb.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old_lb.png
+END
+stat_notify_sms_htc_lb.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_htc_lb.png
+END
+stat_notify_sms_lb.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_lb.png
+END
+stat_notify_sms_old_green.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old_green.png
+END
+stat_notify_sms_htc_green.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_htc_green.png
+END
+stat_notify_sms_blur_orange.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blur_orange.png
+END
+stat_notify_sms_blur_yellow.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blur_yellow.png
+END
+stat_notify_sms_green.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_green.png
+END
+stat_notify_sms_blur.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/272/trunk/SMSPopup/res/drawable/stat_notify_sms_blur.png
+END
+stat_notify_sms_old_purple.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old_purple.png
+END
+stat_notify_sms_htc_purple.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_htc_purple.png
+END
+stat_notify_sms_purple.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_purple.png
+END
+stat_notify_sms_htc_yellow.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_htc_yellow.png
+END
+stat_notify_sms_htc_orange.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_htc_orange.png
+END
+stat_notify_sms_old_orange.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old_orange.png
+END
+stat_notify_sms_old_yellow.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old_yellow.png
+END
+stat_notify_sms_orange.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_orange.png
+END
+stat_notify_sms_yellow.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_yellow.png
+END
+stat_notify_sms_old.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old.png
+END
+stat_notify_sms_htc.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/272/trunk/SMSPopup/res/drawable/stat_notify_sms_htc.png
+END
+stat_notify_sms.png
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/272/trunk/SMSPopup/res/drawable/stat_notify_sms.png
+END
+stat_notify_sms_failed_htc.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/272/trunk/SMSPopup/res/drawable/stat_notify_sms_failed_htc.png
+END
+stat_notify_sms_failed.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/272/trunk/SMSPopup/res/drawable/stat_notify_sms_failed.png
+END
+stat_notify_sms_blur_pink.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blur_pink.png
+END
+stat_notify_sms_blur_gray.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blur_gray.png
+END
+smspopup_icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/286/trunk/SMSPopup/res/drawable/smspopup_icon.png
+END
+stat_notify_sms_blur_red.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blur_red.png
+END
+quickcontact_nobadge_pressed.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/231/trunk/SMSPopup/res/drawable/quickcontact_nobadge_pressed.9.png
+END
+stat_notify_sms_old_pink.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old_pink.png
+END
+stat_notify_sms_htc_pink.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_htc_pink.png
+END
+quickcontact_nobadge_highlight.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/231/trunk/SMSPopup/res/drawable/quickcontact_nobadge_highlight.9.png
+END
+stat_notify_sms_htc_gray.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_htc_gray.png
+END
+stat_notify_sms_old_gray.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old_gray.png
+END
+stat_notify_sms_pink.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_pink.png
+END
+stat_notify_sms_gray.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_gray.png
+END
+stat_notify_sms_blur_white.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blur_white.png
+END
+stat_notify_sms_old_red.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old_red.png
+END
+stat_notify_sms_htc_red.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_htc_red.png
+END
+quickcontact_badge_small.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/231/trunk/SMSPopup/res/drawable/quickcontact_badge_small.xml
+END
+stat_notify_sms_red.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_red.png
+END
+stat_notify_sms_blur_blue.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blur_blue.png
+END
+stat_notify_sms_old_white.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old_white.png
+END
+stat_notify_sms_htc_white.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_htc_white.png
+END
+quickcontact_nobadge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/231/trunk/SMSPopup/res/drawable/quickcontact_nobadge.xml
+END
+stat_notify_sms_white.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_white.png
+END
+quickcontact_nobadge_normal.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/231/trunk/SMSPopup/res/drawable/quickcontact_nobadge_normal.9.png
+END
+stat_notify_sms_blur_lb.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blur_lb.png
+END
+stat_notify_sms_blur_green.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_blur_green.png
+END
+stat_notify_sms_old_blue.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_old_blue.png
+END
+stat_notify_sms_htc_blue.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/282/trunk/SMSPopup/res/drawable/stat_notify_sms_htc_blue.png
+END

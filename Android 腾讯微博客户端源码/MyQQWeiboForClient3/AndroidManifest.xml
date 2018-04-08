@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.android.caigang"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".view.LogoActivity" android:label="@string/app_name">//Logo界面
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".view.AccountActivity" android:launchMode="singleTask">//选择默认用户界面
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.BROWSABLE"/>
+				<data android:scheme="weibo" android:host="accountActivity"/>
+			</intent-filter>
+		</activity>>
+		<activity android:name=".view.AuthorizeActivity"/>
+		<activity android:name=".view.ImageActivity"/>
+		<activity android:name=".view.MainActivity">
+			
+		</activity>
+		<activity android:name=".view.HomeTimeLineActivity"/>
+		<activity android:name=".view.ImageActivity"/>
+		<activity android:name=".view.ReferActivity"/>
+		<activity android:name=".view.MessageActivity"/>
+		<activity android:name=".view.SearchActivity"/>
+		<activity android:name=".view.AttentionActivity"/>
+		<activity android:name=".view.WeiboDetailActivity"/>//一条微博具体显示详情
+		<activity android:name=".view.UserInfoActivity"/>//用户信息界面
+		<activity android:name=".view.TweetsActivity"/>//广播界面
+		<activity android:name=".view.FansActivity"/>//粉丝界面
+		<activity android:name=".view.IdolActivity"/>//偶像界面
+		<activity android:name=".view.AddWeiboActivity"/>//发送微博界面
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>

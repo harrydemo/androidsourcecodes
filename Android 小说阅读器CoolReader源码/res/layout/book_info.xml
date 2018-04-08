@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/book_info_layout"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" android:paddingLeft="10dip" android:paddingRight="10dip" android:paddingTop="10dip" android:paddingBottom="10dip">
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">	
+<ImageView
+	android:id="@+id/book_cover_image"
+	android:layout_width="120dip"
+    android:layout_height="160dip"
+	/>	
+<TableLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dip" android:layout_gravity="center_vertical|center_horizontal">
+    <TableRow>
+    <TextView
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:text="@string/bookTitle"/>
+	<TextView
+		android:id="@+id/book_title"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	/>    	
+    </TableRow>
+    <TableRow>
+    <TextView
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" android:text="@string/bookAuthor"/>
+	<TextView
+		android:id="@+id/book_author"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	/>    	
+    </TableRow>
+    <TableRow>
+    <TextView
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" android:text="@string/bookDate"/>
+	<TextView
+		android:id="@+id/book_date"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	/>    	
+    </TableRow>
+    <TableRow>
+    <TextView
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" android:text="@string/bookGender"/>
+	<TextView
+		android:id="@+id/book_gender"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	/>    	
+    </TableRow>
+    <TableRow>
+    <TextView
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" android:text="@string/bookPublisher"/>
+	<TextView
+		android:id="@+id/book_publisher"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	/>    	
+    </TableRow>
+</TableLayout>    
+</LinearLayout>	
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/catalog" android:gravity="center_vertical|center_horizontal" android:textSize="21dip"/>
+
+	<ListView
+		android:id="@+id/book_catalog_list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>	
+</LinearLayout>			

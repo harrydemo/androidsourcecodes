@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:scrollbars="vertical"
+	android:fadingEdge="vertical">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/hot_film"
+			android:id="@+id/hot_film" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/myhapiao"
+			android:id="@+id/myhapiao" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/all_films"
+			android:id="@+id/all_films" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

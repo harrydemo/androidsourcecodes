@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="24" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="Grass" tilewidth="20" tileheight="20">
+  <image source="gfx/Grass.png" width="80" height="160"/>
+ </tileset>
+ <tileset firstgid="33" name="horizontal2" tilewidth="192" tileheight="32">
+  <image source="gfx/horizontal2.png" width="192" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="60" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2V0QpAQBBFFyFE8UKx//+b5mVLcVsro8zMqVMe1jR3J8O5MxmZJ1hc1HhSh1vUZ0lWCdYv1eE21mdPDmQbsQN1mhvvfinqM+QdyQmckUTIi+YviZlcnOy8xz26kptLz+sZ+uIC7VGp80V7FO0zwzAM6fzpn8WJlnvQktMwtKD9m9aeXxMePBuYHQ1nKPiAFgAA
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="60" height="24">
+  <properties>
+   <property name="type" value="wall"/>
+  </properties>
+  <object x="20" y="120" width="140" height="60"/>
+  <object x="100" y="0" width="60" height="120"/>
+  <object x="160" y="0" width="200" height="60"/>
+  <object x="460" y="0" width="500" height="60"/>
+  <object x="360" y="120" width="20" height="20"/>
+  <object x="540" y="260" width="20" height="20"/>
+  <object x="620" y="300" width="20" height="20"/>
+  <object x="660" y="280" width="20" height="20"/>
+  <object x="720" y="380" width="20" height="20"/>
+  <object x="800" y="400" width="20" height="20"/>
+  <object x="860" y="440" width="20" height="20"/>
+  <object x="920" y="440" width="20" height="20"/>
+  <object x="1040" y="0" width="160" height="60"/>
+ </objectgroup>
+ <objectgroup color="#00ff7f" name="Elements" width="60" height="24">
+  <object name="goal" x="80" y="440" width="40" height="40">
+   <properties>
+    <property name="direction" value="right"/>
+    <property name="type" value="goal"/>
+   </properties>
+  </object>
+  <object name="ball" x="31" y="76" width="40" height="40">
+   <properties>
+    <property name="type" value="ball"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="1000" y="140">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="80" y="340" width="20" height="20">
+   <properties>
+    <property name="type" value="waypoint"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="1060" y="460">
+   <properties>
+    <property name="name" value="teleport1"/>
+    <property name="target" value="teleport2"/>
+    <property name="type" value="teleport"/>
+   </properties>
+  </object>
+  <object name="Waypoint" x="60" y="240">
+   <properties>
+    <property name="name" value="teleport2"/>
+    <property name="type" value="teleport"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff007f" name="Objects" width="60" height="24">
+  <properties>
+   <property name="type" value="object"/>
+  </properties>
+  <object gid="33" x="840" y="440"/>
+  <object gid="33" x="280" y="120"/>
+  <object gid="33" x="460" y="260"/>
+  <object gid="33" x="640" y="380"/>
+ </objectgroup>
+</map>

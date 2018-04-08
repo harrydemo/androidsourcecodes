@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="background">#515662</color>
+   <color name="hp_orange">#edb05a</color>
+   <color name="red">#f00</color>
+   <color name="frontred">#cc3232</color>
+   <color name="blue">#0000ff</color>
+   <color name="green">#00AF00</color>
+   <color name="yellow">#FFE400</color>
+   <color name="d_yellow">#F0D400</color>
+   <color name="orange">#f9983a</color>
+   <color name="gray">#CCC</color>
+   <color name="black">#000</color>
+</resources>

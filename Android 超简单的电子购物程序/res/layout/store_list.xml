@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget95"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/user_text"
+android:text="欢迎您!"
+ android:layout_width="wrap_content"
+       android:layout_height="wrap_content"></TextView>
+
+<ListView
+       android:id="@id/android:list"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       ></ListView>
+       <Button 
+       android:id="@+id/sure_button"
+        android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10px"
+       android:layout_marginLeft="120px"
+       android:text="返回继续选择"></Button>
+       
+
+
+</LinearLayout>

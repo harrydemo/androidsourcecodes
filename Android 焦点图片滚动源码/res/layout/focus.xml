@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/focus_mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:background="@drawable/focus_bg">
+    	<TextView
+    		android:id="@+id/focus_introText"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_alignParentTop="true"
+    		android:textColor="@color/white"
+    	/>
+    	<ImageView
+    		android:id="@+id/focus_pointImage"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@id/focus_introText"
+    	/>
+    </RelativeLayout>	
+</RelativeLayout>

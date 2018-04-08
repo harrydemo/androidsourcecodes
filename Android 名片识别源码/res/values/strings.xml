@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, NameCardRec!</string>
+	<string name="app_name">NameCardRec</string>
+	<string name="read_from_sdcard">Read Namecard from SDCARD</string>
+	<string name="rec_from_camera">Read Namecard from Camera Capture</string>
+
+	<string name="rec_success">Rec Successfully</string>
+	<string name="rec_failure">Rec Failed</string>
+	<string name="rec_result_title">Recognization Result</string>
+	<string name="rec_in_progress">Recognizing</string>
+	<string name="interrupt_rec_confirm">Recognization is in progress, stop it now?</string>
+	<string name="sdcard_not_ready">SD card not ready</string>
+	<string name="waiting">Waiting</string>
+	<string name="ok">OK</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="back">Back</string>
+	<string name="cancel">Cancel</string>
+	<string name="error">Error</string>
+	<string name="success">Success</string>
+	<string name="warning">Warning</string>
+	<string name="attention">Attention</string>
+
+	<!-- string value for NameCardImageGallery begin -->
+	<string name="rec_selected_namecard">Recognize</string>
+	<string name="no_image_in_sdcard">No image found</string>
+	<string name="sdcard_no_write_perm">SDcard is not ready to write, image will not be
+		saved</string>
+	<!-- string value for NameCardImageGallery end -->
+
+	<!-- contact info begin -->
+	<string name="contact_group">Group</string>
+	<string name="contact_label_name">Name</string>
+	<string name="contact_label_phone">Phone</string>
+	<string name="contact_label_email">Email</string>
+	<string name="contact_label_address">Address</string>
+	<string name="contact_label_org">Organization</string>
+	<string name="contact_label_url">Url</string>
+	<string name="contact_label_note">Note</string>
+	<string name="type_home">Home</string>
+	<string name="type_work">Work</string>
+	<string name="type_other">Other</string>
+	<string name="type_pager">Pager</string>
+	<string name="type_mobile">Mobile</string>
+	<string name="type_fax_home">Fax Home</string>
+	<string name="type_fax_work">Fax Work</string>
+	<string name="save_contact">Save</string>
+	<string name="discard">Discard</string>
+	<string name="contact_default_note">Created by Sharp OCR</string>
+	<string name="contact_saved">Contact saved</string>
+	<string name="discard_contact_confirm">Contact not saved, discard it?</string>
+	<string name="saving_contact_progress">Saving contact...</string>
+	<string name="contact_not_saved_warning">Contact not saved yet, save it now?</string>
+	<string name="stopping_rec">Stopping recognizing</string>
+	<string name="stopping_decode">Stopping decoding image</string>
+	<!--  contact info end -->
+
+	<string name="pref_title">Settings</string>
+	<string name="pref_settings">Settings</string>
+
+	<string name="pref_auto_focus">Auto focus</string>
+	<string name="pref_auto_rec">Auto recognize</string>
+	<string name="pref_auto_detect">Auto detect</string>
+	<string name="pref_save_rec_image">Save recognized image</string>
+	<string name="pref_select_rec_prog_style">Select rec progress style</string>
+
+	<string-array name="rec_progress_style_titles">
+		<item>Normal</item>
+		<item>Scanner</item>
+	</string-array>
+	<string-array name="rec_progress_style_values">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+</resources>

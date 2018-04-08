@@ -1,0 +1,21 @@
+<resources>
+    <string-array name="maps">
+        <item>Map 1: The field of long grass.</item>
+        <item>Map 2: The field of cold grass.</item>
+        <item>Map 3: The field of no grass.</item>
+        <item>Map 4: The field of long grass v2.</item>
+        <item>Map 5: The field of cold grass v2.</item>
+        <item>Map 6: The field of no grass v2.</item>
+        <item>Random</item>
+    </string-array>
+    <string-array name="difficulty">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="gamemode">
+        <item>Normal</item>
+        <item>Survival</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WeatherSearch!</string>
+    <string name="app_name">快捷查询</string>
+    
+    <string name="menu_tel">号码归属地查询</string>
+    <string name="menu_weather">天气查询</string>
+    <string name="menu_ems">快递查询</string>
+    <string name="menu_train">火车查询</string>
+    <string name="menu_ip">IP地址查询</string>
+    
+    <string name="tel_hint">请输入手机号</string>
+    <string name="tel_searching">获取号码归属地信息</string>
+
+    <string name="tel_invalid">请输入正确的号码</string>
+    
+    <string name="tel_mobile">电话号码:</string>
+    <string name="tel_province">所属省份:</string>
+    <string name="tel_city">所属城市:</string>
+    <string name="tel_areacode">区          号:</string>
+    <string name="tel_postcode">邮          编:</string>
+    <string name="tel_card">该卡类型:</string>
+    
+    <string name="wea_hint">请输入城市名称</string>
+    <string name="no_city">系统中没有该城市</string>
+    <string name="wea_searching">获取天气信息</string>
+    
+    <string name="wea_today">今    天:</string>
+	<string name="wea_tomorrow">明    天:</string>
+	<string name="wea_low">最低气温:</string>
+	<string name="wea_high">最高气温:</string>
+	
+	<string name="wea_unit"> ℃</string>
+	<string name="wea_undefine">未知</string>
+	
+	<string name="ems_prompt">选择快递公司</string>
+	<string name="ems_hint">请输入订单号</string>
+	<string name="ems_searching">获取快递信息</string>
+	<string name="ems_noselect">请选择快递公司</string>
+	<string name="ems_order_error">订单输入有误,只能为字母和数字</string>
+	<string name="ems_company">公    司:</string>
+	<string name="ems_order">单    号：</string>
+	<string name="ems_message">提    示：</string>
+	<string name="ems_time">时    间：</string>
+	<string name="ems_context">状    态：</string>
+	<string name="ems_tip">更多信息,请访问 快递100</string>
+	<string name="ems_fail">未能查询到信息</string>
+	
+	<string name="ip_searching">获取ip地址信息</string>
+	<string name="ip_hint">请输入IP</string>
+	<string name="ip_ip">IP  :</string>
+	<string name="ip_addr">地    址：</string>
+	<string name="ip_null">请输入正确的IP地址</string>
+	
+	<string name="train_searching">获取火车信息</string>
+	<string name="train_null">请输入地点名称</string>
+	
+	<string name="train_cls">车     次：</string>
+	<string name="train_type">车    型：</string>
+	<string name="train_fromstation">出    发    站:</string>
+	<string name="train_tostation">到    达    站:</string>
+	<string name="train_leavetime">发车时间:</string>
+	<string name="train_reachtime">到达时间:</string>
+	<string name="train_passduration">所需时间:</string>
+	<string name="train_passdistant">路段距离:</string>
+	<string name="train_yingzuo">硬座价格:</string>
+	<string name="train_yingwo">硬卧价格:</string>
+	<string name="train_startstation">起    点    站:</string>
+	<string name="train_endstation">终    点    站:</string>
+    
+    <string name="tip">提示</string>
+    <string name="getting">获取中,请稍后...</string>
+    <string name="get_nothing">获取失败，请重试</string>
+    <string name="xml_error">XML解析出错</string>
+    
+    <string name="ok">确定</string>
+    
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:orientation="vertical">
+	<ListView    
+        android:id="@+id/lv"    
+        android:layout_width="match_parent"     
+        android:layout_height="0dip"
+        android:layout_weight="1"/> 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnReplySMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reply"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/deallist_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/remove_from_list" 
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnViewSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_msg"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</LinearLayout>
+

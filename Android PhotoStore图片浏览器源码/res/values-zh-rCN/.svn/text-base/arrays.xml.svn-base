@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="file_type_entries">
+        <item>视频文件</item>
+        <item>音频文件</item>
+        <item>图像文件</item>
+        <item>安装文件</item>
+    </string-array>
+    
+    <string-array name="file_type_values">
+        <item>video</item>
+        <item>audio</item>
+        <item>image</item>
+        <item>apk</item>
+    </string-array>
+    
+    <string-array name="file_operation_entries">
+        <item>打开</item>
+        <item>上级</item>
+        <item>复制</item>
+        <item>剪切</item>
+        <item>粘贴</item>
+        <item>重命名</item>
+        <item>删除</item>
+        <item>属性</item>
+        <item>新建</item>
+    </string-array>
+</resources>

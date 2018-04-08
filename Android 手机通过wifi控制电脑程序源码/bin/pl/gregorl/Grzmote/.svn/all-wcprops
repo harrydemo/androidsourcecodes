@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/grzmote/!svn/ver/5/trunk/src/pl/gregorl/Grzmote
+END
+Settings.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/Settings.java
+END
+CommandSendingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/CommandSendingActivity.java
+END
+GrzmoteActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/GrzmoteActivity.java
+END
+VolumeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/VolumeActivity.java
+END
+BaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/BaseActivity.java
+END
+CommandSendingTabActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/CommandSendingTabActivity.java
+END
+ICommandSendingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/ICommandSendingActivity.java
+END
+MovieActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/grzmote/!svn/ver/4/trunk/src/pl/gregorl/Grzmote/MovieActivity.java
+END
+MusicActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/grzmote/!svn/ver/4/trunk/src/pl/gregorl/Grzmote/MusicActivity.java
+END
+SettingsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/grzmote/!svn/ver/5/trunk/src/pl/gregorl/Grzmote/SettingsActivity.java
+END
+BaseTabActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/grzmote/!svn/ver/2/trunk/src/pl/gregorl/Grzmote/BaseTabActivity.java
+END

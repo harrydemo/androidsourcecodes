@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="analogclock">更改系统时钟 - Runnable实现</string>
+    <string name="app_name">MyAnalogClock</string>
+<string name="timerclock">更改系统时钟 - TimerTask实现</string>
+<string name="rotate_animation_clock">自定义动画时钟 - RotateAnimation实现</string>
+</resources>

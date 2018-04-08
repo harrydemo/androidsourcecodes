@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.cmw.android.widgets"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainFrameActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name="com.cmw.android.widgets.examples.TextViewActivity"
+                  android:label="@string/app_textview_example">
+        </activity>
+ 		<activity android:name="com.cmw.android.widgets.examples.EditTextViewActivity"
+                  android:label="@string/app_edittextview_example">
+        </activity>
+       <activity android:name="com.cmw.android.widgets.examples.LinearLayoutActivity"
+                  android:label="@string/app_linearlayout_example">
+        </activity>
+        
+         <activity android:name="com.cmw.android.widgets.examples.TableLayoutActivity"
+                  android:label="@string/app_tablelayout_example">
+        </activity>
+        
+        <activity android:name="com.cmw.android.widgets.examples.LinearLayoutComplexActivity"
+                  android:label="@string/app_linearlayout_complex_example">
+        </activity>
+        
+        <activity android:name="com.cmw.android.widgets.examples.Linear_Table_LayoutComplexActivity"
+                  android:label="@string/app_linear_table_layout_complex_example">
+        </activity>
+        
+        <activity android:name="com.cmw.android.widgets.examples.RelativeLayoutActivity"
+                  android:label="@string/app_relative_layout_example">
+        </activity>
+        
+        <activity android:name="com.cmw.android.widgets.examples.RelativeLayoutComplexActivity"
+                  android:label="@string/app_relative_layout_complex_example">
+        </activity>
+        
+    </application>
+    <uses-sdk android:minSdkVersion="8" />
+
+</manifest> 

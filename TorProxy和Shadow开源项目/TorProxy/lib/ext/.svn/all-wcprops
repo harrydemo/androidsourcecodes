@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/research/dtg/code/svn/android-tor/!svn/ver/1/TorProxy/lib/ext
+END
+bc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/research/dtg/code/svn/android-tor/!svn/ver/1/TorProxy/lib/ext/bc.jar
+END
+GeoIP-1.1.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/research/dtg/code/svn/android-tor/!svn/ver/1/TorProxy/lib/ext/GeoIP-1.1.8.jar
+END
+bcpg-jdk14-133.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/research/dtg/code/svn/android-tor/!svn/ver/1/TorProxy/lib/ext/bcpg-jdk14-133.jar
+END
+bcprov-jdk14-133.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/research/dtg/code/svn/android-tor/!svn/ver/1/TorProxy/lib/ext/bcprov-jdk14-133.jar
+END

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item type="id" name="ioerror"/>
+<item type="id" name="argerror"/>
+<item type="id" name="reserror"/>
+<item type="id" name="unpark"/>
+<item type="id" name="awaiting_fix"/>
+<item type="id" name="plan"/>
+<item type="id" name="send"/>
+<item type="id" name="load" />
+<item type="id" name="plan_fail"/>
+<item type="id" name="network_error" />
+<item type="id" name="about"/>
+<item type="id" name="gps"/>
+<item type="id" name="result_ok"/>
+<item type="id" name="tts_check" />
+<item type="id" name="notifier" />
+<item type="id" name="thanks" />
+<item type="id" name="feedback_fail" />
+<item type="id" name="trace" />
+<item type="id" name="export" />
+<item type="id" name="save" />
+<item type="id" name="geocodeerror" />
+<item type="id" name="geocodeconnecterror" />
+</resources>

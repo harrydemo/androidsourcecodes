@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">OAuthExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="bind_sina">绑定新浪微博</string>
+    <string name="bind_tencent">绑定腾讯微博</string>
+    <string name="bind_qq">绑定QQ空间</string>
+    <string name="bind_renren">绑定人人</string>
+    <string name="bind_douban">绑定豆瓣</string>
+    <string name="bind_facebook">绑定Facebook</string>
+    <string name="bind_twitter">绑定Twitter</string>
+
+</resources>

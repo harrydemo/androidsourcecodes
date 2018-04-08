@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+ 	Copyright 2010 Cesar Valiente Gordo
+ 
+ 	This file is part of QuiteSleep.
+
+    QuiteSleep is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    QuiteSleep is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with QuiteSleep.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<!-- Previous QuiteSleep versions 1.0 and 1.1, QuiteSleep with new functionality in
+	 manage calls start on 2.0 -->
+	 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="es.cesar.quitesleep"
+      android:versionCode="9"
+      android:versionName="2.0.3"
+      android:installLocation="auto">
+      
+      <!-- If you want use the external storage functionality, uncomment the next
+      specification, and adding it into manifest node.
+      For QuiteSleep is not recommended use this functionallity since this app
+      makes use of the ACTION_BOOT_COMPLETE and when an user use his mobile with a computer
+      making use of the usb port, this action inhabilite the correct functionality 
+      od this broadcast message and reception
+      More info in: http://developer.android.com/intl/de/guide/appendix/install-location.html-->
+      
+     <!-- android:installLocation="auto" -->	
+      
+     <supports-screens 
+     	android:smallScreens="true"
+     	android:normalScreens="true"
+     	android:largeScreens="true"
+     	android:anyDensity="true" >     
+     </supports-screens>
+      
+      
+    <application android:icon="@drawable/quitesleep" android:label="@string/app_name">
+      
+      	<!-- Main Activity which launch the app with the TabWidgets -->
+      	<!-- if we don't have the up bar with the small app-ico and so
+                  we obtain more space for the tabs we put these line indicate this 
+                    android:theme="@android:style/Theme.NoTitleBar"                    
+             Orientation by sensor use: 
+                    android:screenOrientation="sensor"
+             Orientation by use the Keyboard release or the orientation:
+             		android:configChanges="keyboardHidden|orientation"  -->        
+        <activity android:name=".activities.Main"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait" >                  
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <!-- Activity with the Contacts Tab, which show options for addContacts and
+        		view de list selected contacts -->
+        <activity android:name=".activities.ContactsTab" />                                
+        
+        <!-- Activity with the Calendar Tab, which let to the user change the date and time -->
+        <activity android:name=".activities.ScheduleTab" />                                
+        
+        <!-- Activity with the Settings Tab where config and set up all concerning about send sms/mail messages
+        and start/stop phone incomig calls service -->
+        <activity android:name=".activities.SettingsTab" />
+        
+        <activity android:name=".activities.LogsTab" />
+        
+        <!-- Sub Activity that manage the AddContacts process -->
+        <activity android:name=".subactivities.AddBanned" />        
+        
+        <!-- Sub Activity that manage the ViewContacts process -->
+        <activity android:name=".subactivities.DeleteBanned" />
+        
+        <!-- Sub Activity for manage other incoming calls -->
+        <activity android:name=".subactivities.BlockCallsConfScreen" />
+        
+        <!-- Sub Activity that manage all sms settings, text, and activation -->
+        <activity 
+        	android:name=".subactivities.SmsSettings" 
+        	android:windowSoftInputMode="stateHidden"	/>
+        
+        <!-- Sub Activity that manage all mail settings, account, text, and activation -->
+        <activity 
+        	android:name=".subactivities.MailSettings" 
+        	android:windowSoftInputMode="stateHidden"/>
+        
+        <!-- Sub Activity that show all phone and mails from one contact, and the
+        user must be choose or not any for send message when incoming call arrive and
+        the mobile not sound. This activity also added to the banned list -->
+        <activity android:name=".subactivities.ContactDetails" />
+        
+        <!-- Sub Activiy that show all phone and mails from one banned contact, 
+        and the user can choose or not any and modify the previous selection
+        for all of this. This activity also remove the contact from the banned list -->
+        <activity android:name=".subactivities.EditContact" />
+        
+        <activity android:name=".subactivities.About" />
+        <activity android:name=".subactivities.Help" />               
+         
+        <!-- ................................................................ -->
+        
+        <!-- BroadCastReceiver for BootCompleted, IncomingCalls and SMSReceived broadcast messages -->
+        <receiver 
+        	android:name=".receivers.PhoneStateReceiver">
+        	<intent-filter>
+        		<action android:name="android.intent.action.PHONE_STATE" />
+        		<action android:name="android.intent.action.BOOT_COMPLETED" />
+        		<action android:name="android.provider.Telephony.SMS_RECEIVED" />
+        	</intent-filter>        	        
+        </receiver>        
+            
+         <!--  Important Note for Send SMS: I've implement two ways for send sms,
+         		a) Use Java Threads
+         		b) Use Android Services  
+         		you can choose one of them use. At the moment I choose Java Thread. 
+         		If you like choose Android Service, please uncomment the next service
+         		tag. 
+         -->                     
+		 <!--         
+        	<service android:enabled="true" android:name=".smsmessages.SendSMSService" />
+         -->                                                 
+                                 
+        <!-- Receiver for SENT_SMS_ACTION BroadCast signal -->
+      	<receiver 
+        	android:name=".receivers.SendActionSMSReceiver">
+        	<intent-filter>        		
+        		<action android:name="SENT_SMS_ACTION" />        		
+        	</intent-filter>        	        
+        </receiver>  
+		
+		<!-- Receiver for DELIVERED_SMS_ACTION BroadCast signal -->
+		<receiver 
+        	android:name=".receivers.DeliveredActionSMSReceiver">
+        	<intent-filter>        		
+        		<action android:name="DELIVERED_SMS_ACTION" />        		
+        	</intent-filter>        	        
+        </receiver>            
+        
+        <!-- ................................................................ -->
+        
+         <!-- Service for manage the incoming calls -->                   
+       	<service android:enabled="true" android:name=".callServices.SilentModeCallService" />
+       	<service android:enabled="true" android:name=".callServices.NormalModeCallService" />
+                                  
+    </application>
+    
+    <!-- Android 1.5 == api sdk version 3 -->
+    <!-- Android 2.0 == api sdk version 5 -->
+    <!-- Android 2.1 == api sdk version 7 -->
+    <!-- Android 2.2 (Froyo) == api sdk version 8 -->
+    <!-- Android 2.3 (Gingerbread) == api sdk version 9 -->
+    <uses-sdk 
+    	android:minSdkVersion="5"
+    	android:targetSdkVersion="8"
+    	 />
+    
+    <!-- Uses permission for the application -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />        
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />      
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> 
+    
+    <!-- This permission is used to do the hang up action, whitout this, doesn't run well -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />   
+        
+    <!-- <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" /> 
+    <uses-permission android:name="android.permission.CALL_PHONE" />  -->
+    
+    <permission 
+    	android:name="es.cesar.quitesleep.permission.SENT_SMS_ACTION"        
+       android:protectionLevel="dangerous" />
+     <permission 
+    	android:name="es.cesar.quitesleep.permission.DELIVERED_SMS_ACTION"        
+       android:protectionLevel="dangerous" />                  
+             
+</manifest>
+
+ 

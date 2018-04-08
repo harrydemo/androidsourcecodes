@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/heuristics
+END
+ClosestSquaredHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/heuristics/ClosestSquaredHeuristic.java
+END
+ManhattanHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/heuristics/ManhattanHeuristic.java
+END
+ClosestHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/heuristics/ClosestHeuristic.java
+END

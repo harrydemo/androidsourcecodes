@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="Color_Black">#000000</color>  
+  	<color name="Color_White">#FFFFFF</color>
+  	<color name="Color_Green">#356000</color>
+  	<color name="Color_Black_a_60">#1F000000</color>
+  	<color name="Color_Gray">#cccccc</color>
+  	<color name="Color_Yellow">#cccc00</color>
+  	<color name="Color_Link">#5a5dff</color>
+ 
+  	<color name="transparent">#00000000</color>
+  	
+	<drawable name="tv_normal">#FFFFFF</drawable>
+	<drawable name="tv_focused">#1F2FAB</drawable>
+	<drawable name="tv_pressed">#00cccc</drawable>
+	<drawable name="tv_selected">#0014AB</drawable>
+	<drawable name="tv_cut">#888888</drawable>
+	<drawable name="tv_in">#ffff00</drawable>
+	<drawable name="tab_bg">#20000000</drawable>
+	
+	<drawable name="iv_placeholder">#5C5A5A</drawable>
+	
+	<drawable name="btn_focus">#FFFFFF</drawable>
+	<drawable name="btn_normal">#000000</drawable>
+	
+	<drawable name="listview_item1">#1FE1E1E1</drawable>
+	<drawable name="listview_item2">#1FEBEBEB</drawable>
+	<drawable name="listview_item3">#1FB4B4B4</drawable>
+	
+	<drawable name="divide">#555555</drawable>
+</resources>

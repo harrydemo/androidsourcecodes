@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/paraList_rl"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="5dip">
+	<ImageView android:id="@+id/paraList_imgHead"
+			android:layout_width="56dip"
+			android:layout_height="56dip"
+			android:layout_marginLeft="5dip"
+			android:scaleType="centerInside"
+			android:layout_centerVertical="true"/>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/paraList_imgHead"
+		android:layout_centerVertical="true"
+		android:gravity="top"
+		>
+
+		<TextView android:id="@+id/paraList_title"
+			style="@style/tvInListView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:ellipsize="end"/>
+	    <RelativeLayout 
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginRight="30dip"
+	    	android:layout_marginLeft="10dip">
+	    	
+	    	<TextView android:id="@+id/paraList_size"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:visibility="gone"
+	    		android:singleLine="true"/>
+	    	<TextView android:id="@+id/paraList_updatetime"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:singleLine="true"
+	    		android:visibility="gone"
+	    		android:layout_alignParentRight="true"/>	
+	    </RelativeLayout>
+	</LinearLayout>
+	
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/dbo
+END
+MapCellImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/dbo/MapCellImpl.java
+END
+ImageGallery.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/dbo/ImageGallery.java
+END
+LocationAnchor.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/dbo/LocationAnchor.java
+END
+PlayerObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/dbo/PlayerObject.java
+END
+WorldMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/dbo/WorldMap.java
+END
+ImageCrop.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/dbo/ImageCrop.java
+END
+MapCell.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/dbo/MapCell.java
+END

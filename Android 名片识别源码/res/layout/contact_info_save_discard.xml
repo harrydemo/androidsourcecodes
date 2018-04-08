@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:gravity="center">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center">
+		<Button android:text="@string/save_contact" android:id="@+id/btn_save_contact"
+			android:layout_width="80dip" android:layout_alignParentLeft="true"
+			android:layout_height="wrap_content" />
+		<Button android:text="@string/discard" android:id="@+id/btn_discard"
+			android:layout_toRightOf="@id/btn_save_contact" android:layout_width="80dip"
+			android:layout_marginLeft="20dip" android:layout_height="wrap_content" />
+	</RelativeLayout>
+</LinearLayout>

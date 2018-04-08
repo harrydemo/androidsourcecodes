@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">图片截取</string>
+    <string name="running_face_detection" msgid="4094707964259463039">"请稍候..."</string>
+    <string name="saving_image" msgid="7270334453636349407">"正在保存照片..."</string>
+</resources>

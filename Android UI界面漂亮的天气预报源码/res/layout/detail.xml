@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:orientation="vertical" android:id="@+id/dContentLayout">
+	<AbsoluteLayout android:layout_height="wrap_content"
+		android:id="@+id/imagesLayout" android:layout_width="fill_parent"
+		android:minHeight="200dip">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/dForecastImage"
+			android:adjustViewBounds="true" android:maxHeight="131dip"
+			android:maxWidth="131dip" android:minHeight="131dip"
+			android:minWidth="131dip" android:layout_x="98dip" android:src="@drawable/weather_sunny"
+			android:layout_y="0dip"></ImageView>
+
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/dMoveLeftImage"
+			android:maxHeight="131dip" android:maxWidth="131dip"
+			android:minHeight="131dip" android:minWidth="131dip"
+			android:src="@drawable/weather_cloudy" android:layout_x="10dip"
+			android:adjustViewBounds="true" android:visibility="invisible"
+			android:layout_y="70dip"></ImageView>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/dMoveRightImage"
+			android:adjustViewBounds="true" android:maxHeight="131dip"
+			android:maxWidth="131dip" android:minHeight="131dip"
+			android:minWidth="131dip" android:src="@drawable/weather_cloudy"
+			android:layout_x="150dip" android:visibility="invisible"
+			android:layout_y="70dip"></ImageView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="20dip"
+			android:gravity="center" android:id="@+id/dCityText" android:text="ShenZhen, Guangdong"
+			android:textSize="20sp" android:width="280dip" android:textColor="@color/whiteColor"
+			android:layout_y="110dip"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/dConditionText"
+			android:layout_x="20dip" android:textColor="@color/whiteColor"
+			android:textSize="14sp" android:width="120dip" android:text="Light Rain"
+			android:layout_y="140dip"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="20dip"
+			android:id="@+id/dHumidityText" android:text="Humidity: 68%"
+			android:textColor="@color/whiteColor" android:textSize="12sp"
+			android:layout_y="160dip" android:width="160dip"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="20dip"
+			android:id="@+id/dWindText" android:text="Wind: S at 2 mph"
+			android:textColor="@color/whiteColor" android:textSize="12sp"
+			android:layout_y="180dip" android:width="160dip"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="200dip"
+			android:id="@+id/dTempCText" android:text="29°" android:textColor="@color/whiteColor"
+			android:gravity="center" android:textSize="50sp" android:width="100dip"
+			android:layout_y="140dip"></TextView>
+	</AbsoluteLayout>
+	<ListView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@android:id/list"></ListView>
+</LinearLayout>

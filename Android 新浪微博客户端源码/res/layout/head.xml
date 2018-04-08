@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/maintab_toolbar_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/head_new"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"
+        android:background="@drawable/head_left_btn" />
+
+    <Button
+        android:id="@+id/head_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/head_right_btn" />
+
+    <TextView
+        android:id="@+id/head_userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/red"
+        android:textSize="18dp"
+        android:text="" />
+
+</RelativeLayout>

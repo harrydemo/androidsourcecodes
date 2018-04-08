@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dddeeeff"
+    android:orientation="vertical" >	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+        android:textSize="18.0dp"
+        android:text="@string/qqfriend_list" >
+    </TextView>
+	<ListView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 	    
+   	 	android:padding="3dp"
+   	 	android:cacheColorHint="#dddeeeff"
+   	 	android:isScrollContainer="true"
+	    android:id="@+id/lvfriend_list"/>
+	
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.cellcom"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+		<activity android:name=".FrameLayoutActivity" />
+		<activity android:name=".RelativeAndLinearActivity" />
+		<activity android:name=".RelativeLayoutActivity" />
+		<activity android:name=".TableLayoutActivity" />
+		<activity android:name=".TabWidgetActivity"/>
+		<activity android:name=".CheckBoxActivity"/>
+		<activity android:name=".RadioGroupActivity"/>
+		<activity android:name=".SpinnerActivity"/>
+		<activity android:name=".AutoCompleteTextViewActivity"/>
+		<activity android:name=".DatePickerActivity"/>
+		<activity android:name=".ProgressBarHandlerActivity"/>
+		<activity android:name=".RatingBarActivity"/>
+		<activity android:name=".ImageShowActivity"/>
+		<activity android:name=".GridViewActivity"/>
+		<activity android:name=".TabDemoActivity"/>
+		<activity android:name=".OptionsMenuActivity"/>
+		<activity android:name=".ContextMenuActivity"/>
+		<activity android:name=".SubMenuActivity"/>
+		<activity android:name=".Bundle1Activity"></activity>
+		<activity android:name=".Bundle2Activity"></activity>
+		<activity android:name=".AlertDialogActivity"></activity>
+		<activity android:name=".NotificationActivity"></activity>
+		
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE" />
+</manifest>

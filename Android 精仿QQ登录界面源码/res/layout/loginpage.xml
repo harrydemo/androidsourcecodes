@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/loginRoot"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1.0"
+		android:background="@drawable/default_bg">
+		<RelativeLayout android:id="@+id/RelativeLayout02"
+			android:background="@drawable/login_back" android:paddingTop="21.0px"
+			android:paddingBottom="10.0px" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginLeft="15.0px"
+			android:layout_marginTop="62.0px" android:layout_marginRight="15.0px">
+			<ImageView android:id="@+id/faceImg" android:background="@drawable/login_head"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<EditText android:id="@+id/login_edit_account"
+				android:background="@drawable/qq_edit_login" android:paddingLeft="45.0sp"
+				android:saveEnabled="true" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginLeft="5.0dip"
+				android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip"
+				android:layout_marginBottom="5.0px" android:hint="@string/strInputAccHint"
+				android:maxLength="10" android:layout_toRightOf="@+id/faceImg"
+				android:layout_alignParentTop="true" android:inputType="number" />
+			<TextView android:textSize="16.0dip" android:textColor="#ff3f3f3f"
+				android:gravity="center_vertical" android:id="@+id/TextView01"
+				android:paddingLeft="7.0sp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginRight="15.0sp"
+				android:text="@string/strAccInputLabel" android:layout_alignLeft="@+id/login_edit_account"
+				android:layout_alignTop="@+id/login_edit_account"
+				android:layout_alignBottom="@+id/login_edit_account" />
+			<ImageButton android:id="@+id/ImageButton02"
+				android:background="@drawable/more_select" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginRight="1.0dip"
+				android:layout_alignTop="@+id/login_edit_account"
+				android:layout_alignRight="@+id/login_edit_account"
+				android:layout_alignBottom="@+id/login_edit_account" />
+			<EditText android:id="@+id/login_edit_pwd"
+				android:background="@drawable/qq_edit_login" android:paddingLeft="45.0sp"
+				android:saveEnabled="true" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginRight="1.0dip"
+				android:maxLength="16" android:layout_below="@+id/login_edit_account"
+				android:layout_alignLeft="@+id/login_edit_account"
+				android:layout_alignRight="@+id/login_edit_account"
+				android:inputType="textPassword" />
+			<TextView android:textSize="16.0dip" android:textColor="#ff3f3f3f"
+				android:gravity="center_vertical" android:id="@+id/TextView02"
+				android:paddingLeft="7.0sp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/strPswInputLabel"
+				android:layout_alignTop="@+id/login_edit_pwd"
+				android:layout_alignRight="@+id/TextView01"
+				android:layout_alignBottom="@+id/login_edit_pwd" />
+			<CheckBox android:textSize="16.0sp" android:textColor="#ff222222"
+				android:id="@+id/login_cb_savepwd" android:paddingLeft="25.0px"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:checked="true" android:button="@drawable/qq_btn_check"
+				android:text="@string/opt_remember" android:layout_alignBaseline="@+id/login_btn_login" />
+			<Button android:id="@+id/login_btn_login" android:layout_width="130.0px"
+				android:layout_height="42.0px" android:layout_marginTop="7.0px"
+				android:layout_marginRight="12.0dip" android:text="@string/login"
+				android:layout_below="@+id/TextView02"
+				android:layout_alignParentRight="true" />
+		</RelativeLayout>
+		<TableLayout android:id="@+id/TableLayout01"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="20.0px" android:layout_marginRight="20.0px"
+			android:stretchColumns="1">
+			<TableRow>
+				<CheckBox android:textColor="#7fffffff" android:id="@+id/login_cb_visible"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/opt_hideLogin" style="@style/MyCheckBox" />
+				<CheckBox android:textColor="#7fffffff"
+					android:layout_gravity="right" android:id="@+id/login_cb_openvibra"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/opt_openVibra" style="@style/MyCheckBox" />
+			</TableRow>
+			<TableRow>
+				<CheckBox android:textColor="#7fffffff" android:id="@+id/login_cb_receivegroupmsg"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/opt_acceptGroupMsg" style="@style/MyCheckBox" />
+				<CheckBox android:textColor="#7fffffff"
+					android:layout_gravity="right" android:id="@+id/login_cb_quite"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/opt_silent" style="@style/MyCheckBox" />
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+	<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:background="@drawable/bottom" android:layout_width="fill_parent"
+		android:layout_height="44.0dip">
+		<ImageButton android:id="@+id/login_option"
+			android:background="@drawable/option" android:clickable="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="13.0dip" android:layout_marginTop="2.0dip"
+			android:layout_centerVertical="true" />
+	</RelativeLayout>
+</LinearLayout>

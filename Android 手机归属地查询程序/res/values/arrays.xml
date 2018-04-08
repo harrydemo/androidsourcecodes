@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="code">
+	<item>号码：</item>
+	<item>省份：</item>
+	<item>城市：</item>
+	<item>区号：</item>
+	<item>邮编：</item>
+	<item>运营商：</item>
+	<item>卡类型：</item>
+</string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RockOn</string>
+    <string name="list_hint">Hold the song title to hear a song preview</string>
+    <string name="playlist_hint">EXPERIMENTAL - PLEASE GIVE FEEDBACK</string>
+    
+    <string name="settings_category_general">General</string>
+    <string name="settings_show_icon">Show Persistent Icon</string>
+    <string name="settings_show_icon_summary">Show persistent icon in the status bar</string>
+    <string name="settings_category_playlist">Dynamic Playlists</string>
+    <string name="settings_recent_period">Recent Songs</string>
+    <string name="settings_recent_period_summary">The Recently Added playlist will include songs that have been added in the last </string>
+    <string name="settings_category_lastfm_scrobbling">Last.FM scrobbling</string>
+    <string name="settings_scrobble_droid">Use ScrobbleDroid</string>
+    <string name="settings_scrobble_droid_summary">You must have ScrobbleDroid installed. Check this option to install.</string>
+    <string name="settings_category_look_and_feel">Look and Feel</string>
+    <string name="settings_show_art_while_scrolling">Show Art when Scrolling</string>
+    <string name="settings_show_art_while_scrolling_summary">Scrolling might become sluggish with large libraries >75 albums</string>
+	<string name="settings_show_frame">Show Frame</string>
+	<string name="settings_show_frame_summary">Show a white frame around the album art</string>
+	<string name="settings_always_landscape">Always Landscape</string>
+	<string name="settings_always_landscape_summary">Force the layout to show in landscape mode</string>
+	<string name="settings_auto_rotate">Auto-Rotate (Experimental)</string>
+	<string name="settings_auto_rotate_summary">Let the accelerometer choose screen orientation</string>
+	<string name="settings_custom_background">Custom Background (Experimental)</string>
+	<string name="settings_custom_background_summary">Choose a custom background for the main UI</string>
+	<string name="settings_custom_background_portrait">Portrait</string>
+	<string name="settings_custom_background_portrait_summary"></string>
+	<string name="settings_custom_background_landscape">Landscape</string>
+	<string name="settings_custom_background_landscape_summary"></string>
+	
+	<string name="sdcard_busy_title">Please re-insert SD Card</string>
+	<string name="sdcard_missing_title">Please insert SD Card</string>
+	<string name="emptyplaylist">No songs queued</string>
+	
+	<array name="album_options">
+        <item>Song List</item>
+        <item>Change Album Art</item>
+    </array> 
+	
+</resources>

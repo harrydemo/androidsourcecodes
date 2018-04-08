@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:gravity="center_vertical|right"
+  android:layout_width="fill_parent"
+  android:id="@+id/received_msg_layout"
+  android:layout_height="wrap_content">
+  
+    <LinearLayout android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center_vertical|right"
+    	android:layout_weight="1"
+    	android:orientation="vertical">
+    	<LinearLayout android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+    		<TextView android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:textColor="@drawable/blue"
+		    	android:id="@+id/received_msg_time"/>
+	    	<TextView android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:textColor="@drawable/blue"
+	    		android:layout_marginLeft="10dp"
+		    	android:id="@+id/received_nickename"/>
+	    </LinearLayout>
+    	<TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/received_msg_bg"
+    		android:textColor="@android:color/black"
+    		android:id="@+id/received_msg_content"/>
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:id="@+id/received_head_icon"/>
+</LinearLayout>

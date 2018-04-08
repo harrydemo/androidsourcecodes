@@ -1,0 +1,40 @@
+10
+
+dir
+8052
+http://192.168.15.194:7500/svn/repos/dev/android/pub_src/1.jiugong_jiesuo/bin/res
+http://192.168.15.194:7500/svn/repos
+
+
+
+2012-11-16T02:53:11.329699Z
+8052
+wanggs3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+224c47e8-e6aa-45eb-ad16-70329ca5bcec
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+

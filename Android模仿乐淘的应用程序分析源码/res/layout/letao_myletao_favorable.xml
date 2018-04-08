@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!-- 顶部标题 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+	<include layout="@layout/common_listview" />
+	<!-- 底部菜单 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+<Button android:id="@+id/mycoupon_addcoupon_btn"
+		android:layout_width="100dip" android:layout_height="30dip"
+		android:text="@string/addcoupan1" android:textColor="@color/white"
+		android:textSize="16sp" android:layout_marginRight="5dip"
+		android:layout_marginTop="5dip" android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true" android:background="@drawable/btn_spikeare_rule" />
+
+	<!-- 中间部分 -->
+	<LinearLayout android:id="@+id/mycoupon_gone_layout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_above="@id/bottommenu" android:layout_below="@id/title"
+		android:orientation="vertical" android:background="@color/background_color"
+		android:gravity="center" android:visibility="visible" android:padding="10dip">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:gravity="center">
+			<ImageView android:src="@drawable/hint_image"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/shopping_cartcoupon_nocoupon_str"
+				android:textColor="@color/gray" android:textSize="25sp"
+				android:textStyle="bold" />
+		</LinearLayout>
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/about_attention"
+			android:textColor="@color/orange" android:textSize="16sp"
+			android:textStyle="bold" android:gravity="center"
+			android:layout_marginTop="15dip" android:layout_marginBottom="15dip" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:gravity="center">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/shopping_cartcoupon_letaoinphone_str"
+				android:textColor="@color/gray" android:textSize="15sp" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="http://weibo.com/letaomobile"
+				android:textColor="@color/brand_gallery_blue" android:textSize="15sp" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/mycoupon_couponlist_layout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_above="@id/bottommenu" android:layout_below="@id/title"
+		android:orientation="vertical">
+		<ListView android:id="@+id/mycoupon_coupon_list"
+			android:layout_width="fill_parent" android:cacheColorHint="#00000000"
+			android:layout_height="wrap_content" android:layout_alignParentTop="true"
+			android:listSelector="@color/transparent" android:divider="@null">
+		</ListView>
+	</LinearLayout>
+
+</RelativeLayout>

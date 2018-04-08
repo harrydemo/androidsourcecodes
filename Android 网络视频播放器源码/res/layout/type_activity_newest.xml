@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/parent_lay_lev" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_area" android:background="@drawable/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" android:src="@drawable/today_new" 
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/bottom_tabbar" android:layout_below="@id/title_area">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/list_detail_views" android:layout_width="fill_parent" 
+                android:layout_height="fill_parent" android:cacheColorHint="@null" 
+                android:layout_alignParentLeft="true" android:divider="#ECEFF3"
+                android:dividerHeight="1.0px" android:footerDividersEnabled="false"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/layout_bottom_tab" android:background="@drawable/header" 
+         android:layout_width="fill_parent" android:layout_height="50.0dip" 
+         android:layout_alignParentBottom="true" >
+        
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            
+            <ImageView android:layout_width="10.0dip" android:layout_height="fill_parent" 
+                android:id="@+id/temp" android:layout_centerHorizontal="true"></ImageView>
+            
+            <ImageView android:id="@id/new_video" android:src="@drawable/today_news_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                android:layout_toLeftOf="@+id/temp" android:paddingRight="15dip"
+                android:paddingLeft="15dip"  android:layout_centerHorizontal="true"/>
+            
+            <ImageView android:id="@id/category_navigation" android:src="@drawable/home_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"  
+                android:paddingLeft="15dip" android:paddingRight="15dip"
+                android:layout_toLeftOf="@+id/new_video"
+                android:layout_centerHorizontal="true"/>
+            
+            
+            <ImageView android:id="@id/video_search" android:src="@drawable/search_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                 android:layout_toRightOf="@+id/temp" android:paddingLeft="15dip"
+                android:paddingRight="15dip" android:layout_centerHorizontal="true"/>
+            
+            <ImageView android:id="@id/video_collect" android:src="@drawable/favorite_normal"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                android:scaleType="fitXY" 
+                android:layout_toRightOf="@+id/video_search" android:paddingLeft="15dip"
+                android:paddingRight="15dip" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

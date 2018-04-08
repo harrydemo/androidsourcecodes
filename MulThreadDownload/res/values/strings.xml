@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">多线程断点下载器</string>
+    <string name="path">下载路径</string>
+    <string name="button">下载</string>
+    <string name="suceess">下载完成</string>
+    <string name="error">下载失败</string>
+    <string name="sdcarderror">SDCard不存在或写保护</string>
+</resources>

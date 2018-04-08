@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:focusableInTouchMode="false">
+    <TableLayout android:id="@+id/tableLayout1" 
+    	android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:stretchColumns="1" android:paddingTop="20px">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollbarAlwaysDrawVerticalTrack="false" android:paddingTop="10px">
+            <TextView android:layout_height="wrap_content" android:id="@+id/province_text" android:layout_width="wrap_content" android:text="省份："></TextView>
+            <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/province_spinner"></Spinner>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollbarAlwaysDrawVerticalTrack="false" android:paddingTop="10px">
+            <TextView android:layout_height="wrap_content" android:id="@+id/city_text" android:layout_width="wrap_content" android:text="城市："></TextView>
+            <Spinner android:layout_height="wrap_content" android:id="@+id/city_spinner" android:layout_width="wrap_content"></Spinner>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollbarAlwaysDrawVerticalTrack="false" android:paddingTop="10px">
+            <TextView android:layout_height="wrap_content" android:id="@+id/county_text" android:layout_width="wrap_content" android:text="县城镇："></TextView>
+            <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/county_spinner"></Spinner>
+        </TableRow>
+        <EditText android:focusableInTouchMode="false" android:id="@+id/display_edit" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingTop="10px" android:hint="输出结果"></EditText>
+    </TableLayout>
+</RelativeLayout>

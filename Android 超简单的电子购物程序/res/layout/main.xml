@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget95"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<EditText
+android:id="@+id/user"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="40px"
+android:layout_marginLeft="100px"
+android:text="    "
+android:textSize="18sp"
+>
+</EditText>
+<EditText
+android:id="@+id/password"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="10px"
+android:layout_marginLeft="100px"
+android:text="    "
+android:textSize="18sp"
+android:password="true"
+>
+</EditText>
+<Button
+android:id="@+id/login"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+
+android:layout_marginTop="10px"
+android:layout_marginLeft="110px"
+android:text="登录"
+>
+</Button>
+</LinearLayout>

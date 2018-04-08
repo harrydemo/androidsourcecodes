@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:layout_width="fill_parent" 
+  android:layout_height="82dip"
+  android:orientation="horizontal"
+  android:background="@drawable/selector"
+  xmlns:android="http://schemas.android.com/apk/res/android"> 
+<Button
+    android:id="@+id/foot_loadmore"
+    android:layout_width="fill_parent"
+    android:layout_height="82dip"
+    android:background="@drawable/selector"
+    android:text="加载更多"
+    android:textColor="#ff000000"
+    android:layout_gravity="center_horizontal"
+    android:textSize="20sp"
+    />
+<TextView 
+    android:text="正在加载,请稍候..."
+    android:textSize="20sp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginLeft="60dip"
+    android:layout_width="wrap_content"
+    android:layout_height="82dip"
+    android:textColor="#ff000000" 
+    android:id="@+id/foot_text"
+    android:visibility="gone"
+    />
+<ProgressBar 
+    android:layout_width="20dip"
+    android:layout_height="20dip"
+    android:layout_marginLeft="20dip"
+    android:layout_gravity="center"
+    android:id="@+id/foot_progressbar"
+    android:visibility="gone"
+    />
+</LinearLayout>

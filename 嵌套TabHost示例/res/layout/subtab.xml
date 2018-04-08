@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mytabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/default_bg">
+	<LinearLayout android:orientation="vertical" 
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<!-- 注意FrameLayout\TabWidget标签的位置-->
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_weight="1" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" >
+				<TextView
+					android:id="@+id/widget59"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="你在想什么？"
+					android:layout_alignParentTop="true"
+					android:layout_centerHorizontal="true"
+					>
+					</TextView>
+					<TextView
+					android:id="@+id/widget60"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="我在想Android"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentRight="true"
+					>
+					</TextView>
+		</FrameLayout>
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_alignParentBottom="true" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+</TabHost>

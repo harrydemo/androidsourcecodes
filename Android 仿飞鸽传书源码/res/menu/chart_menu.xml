@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grout_main">
+        <item android:id="@+id/chart_menu_file"
+            android:title="@string/send_file"
+            android:icon="@drawable/send_file_icon"
+            android:orderInCategory="1"/> 
+        <item android:id="@+id/chart_menu_talk" 
+            android:title="@string/call_label"
+            android:icon="@drawable/call_icon"
+            android:orderInCategory="2"/>
+    </group>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout android:id="@+id/top_layout"
+     android:orientation="horizontal" android:layout_width="fill_parent"
+     android:layout_height="wrap_content" android:background="@drawable/title_bar"
+     android:layout_weight="0">
+    
+     <TextView android:id="@+id/logo" android:layout_width="wrap_content"
+     android:layout_height="wrap_content" android:text="@string/tab_type_title" android:textColor="@android:color/white"
+     android:textSize="20sp" android:layout_marginLeft="10dip"
+     />
+     
+     
+      <Button android:layout_width="wrap_content"
+     android:layout_height="wrap_content" 
+     android:background="@drawable/search_button" 
+      android:layout_marginLeft="175dip"
+     />
+     
+    
+     </LinearLayout>
+     
+	
+	<ListView android:id="@+id/listview" android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:listSelector="@drawable/list_item_bg_selected"
+	android:cacheColorHint="#00000000"
+	 android:dividerHeight="1dip" 
+	android:background="@drawable/list_item_bg_normal"
+	android:paddingLeft="2dip"
+	android:paddingRight="2dip"/>
+	
+	
+</LinearLayout>

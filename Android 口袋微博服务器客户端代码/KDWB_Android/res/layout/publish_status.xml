@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	>
+	<TextView
+		android:text="@string/tvInputStatus"
+		style="@style/text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+	<EditText
+		android:id="@+id/etInputStatus"
+		android:hint="@string/hintStatus"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:lines="3"
+		/>
+</LinearLayout>

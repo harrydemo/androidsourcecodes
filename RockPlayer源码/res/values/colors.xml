@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<drawable name="transparent_bg">#0000</drawable>
+	
+	<color name="appwidget_text">#ff000000</color>
+    <color name="appwidget_shadow">#ffffffff</color>
+    
+</resources>

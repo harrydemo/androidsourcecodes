@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    	<view class="com.mrlans.play.VideoView"
+		android:id="@+id/video"
+		android:layout_width="fill_parent" 
+    	android:layout_height="288dip" 
+        tools:context=".MediaActivity" />
+
+    	<Button
+    	    android:id="@+id/playb"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_alignParentRight="true"
+    	    android:text="   播  放    " />
+
+    	<Button
+    	    android:id="@+id/stopb"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_marginRight="26dp"
+    	    android:layout_toLeftOf="@+id/playb"
+    	    android:text="   停  止    " />
+
+    	<EditText
+    	    android:id="@+id/rtsptxt"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_above="@+id/playb"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_alignParentRight="true"
+    	    android:ems="10"
+    	    android:text="rtsp://10.4.0.95/video" />
+
+    	<TextView
+    	    android:id="@+id/textView1"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_above="@+id/rtsptxt"
+    	    android:layout_alignParentLeft="true"
+    	    android:text="RTSP地址" />
+
+    	<TextView
+    	    android:id="@+id/textView2"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignRight="@+id/textView1"
+    	    android:layout_below="@+id/video"
+    	    android:layout_marginTop="10dp"
+    	    android:text="传输协议" />
+
+    	<EditText
+    	    android:id="@+id/rtspport"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_below="@+id/textView2"
+    	    android:ems="6"
+    	    android:inputType="numberSigned"
+    	    android:text="0" >
+    	</EditText>
+
+    	<TextView
+    	    android:id="@+id/textView3"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_above="@+id/rtspport"
+    	    android:layout_alignParentRight="true"
+    	    android:layout_marginRight="30dp"
+    	    android:text="分辨率(4:3/16:9)(0,1)" />
+
+    	<EditText
+    	    android:id="@+id/scaletxt"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_alignBaseline="@+id/rtspport"
+    	    android:layout_alignBottom="@+id/rtspport"
+    	    android:layout_alignLeft="@+id/textView3"
+    	    android:ems="6"
+    	    android:inputType="numberSigned"
+    	    android:text="0" />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="Routing Options">
+                <ListPreference
+                        android:title="Route Provider"
+                        android:summary="Select route provider"
+                        android:key="router"
+                        android:defaultValue="CycleStreets"
+                        android:entries="@array/routerArray"
+                        android:entryValues="@array/routerValues" />
+                        <ListPreference
+                        android:title="Journey Type (CycleStreets Routes)"
+                        android:summary="Fast, quiet or balanced route"
+                        android:key="cyclestreetsJourneyPref"
+                        android:defaultValue="balanced"
+                        android:entries="@array/journeyTypeArray"
+                        android:entryValues="@array/journeyTypeValues" />
+        </PreferenceCategory>
+        <PreferenceCategory
+        	android:title="Navigation Options">
+        	<CheckBoxPreference
+        		android:title="Speak directions"
+        		android:defaultValue="false"
+        		android:key="tts"
+        		/>
+        	<CheckBoxPreference
+        	android:title="Satnav on (not available with Google routes)"
+        	android:defaultValue="false"
+        		android:key="gps" />
+        	<CheckBoxPreference
+        	android:title="Keep screen awake while navigating"
+        	android:defaultValue="false"
+        		android:key="keepAwake" />
+        	</PreferenceCategory>
+        	<PreferenceCategory
+                android:title="Map Options">
+                <ListPreference
+                        android:title="Map Style"
+                        android:summary=""
+                        android:key="tilePref"
+                        android:defaultValue="Mapnik"
+                        android:entries="@array/tileEntries"
+                        android:entryValues="@array/tileValues" />
+        </PreferenceCategory>
+        	<PreferenceCategory
+                android:title="Distance Units">
+                <ListPreference
+                        android:title="Units"
+                        android:summary="Select unit of distance"
+                        android:key="unitsPref"
+                        android:defaultValue="km"
+                        android:entries="@array/unitsArray"
+                        android:entryValues="@array/unitsValues" />
+        </PreferenceCategory>
+        	<CheckBoxPreference android:key="acra.disable"
+        android:title="@string/pref_disable_acra"
+        android:defaultValue="false"/>
+</PreferenceScreen>

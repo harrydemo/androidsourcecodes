@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:padding="5dip"
+  android:layout_height="wrap_content">
+    <TextView
+    	android:id="@+id/disc_name" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="for test"
+    	style="@style/tvInListView"
+    />
+    <LinearLayout
+    	android:id="@+id/linear_1"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/disc_name"
+    	android:orientation="horizontal"
+    	android:paddingLeft="20dip"
+    >	
+    	<TextView
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/disc_size"
+    	/>
+	    <TextView
+	    	android:id="@+id/disc_size"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="for test"
+	    />
+    </LinearLayout>
+    <LinearLayout
+    	android:layout_below="@id/linear_1" 
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:paddingLeft="20dip"
+    >	
+    	<TextView
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/disc_capacity"
+    	/>
+    	<TextView
+    	android:id="@+id/disc_capacity"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="for test"
+    />
+    </LinearLayout>
+    
+</RelativeLayout>

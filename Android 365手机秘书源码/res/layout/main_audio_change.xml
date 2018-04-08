@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  
+<EditText android:id="@+id/edit_qingjing_ms" android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="请输入情景模式指令" android:singleLine="true"></EditText>
+<EditText android:id="@+id/edit_qingjing_jy" android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="请输入静音模式指令" android:singleLine="true"></EditText>
+<EditText android:id="@+id/edit_qingjing_zd" android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="请输入振动模式指令" android:singleLine="true"></EditText>
+<EditText android:id="@+id/edit_qingjing_xl" android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="请输入响铃模式指令" android:singleLine="true"></EditText>
+</LinearLayout>

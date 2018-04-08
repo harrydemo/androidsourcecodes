@@ -1,0 +1,10 @@
+target
+gen
+bin
+*DS_Store
+*~
+Thumbs.db
+.metadata
+.settings
+.project
+

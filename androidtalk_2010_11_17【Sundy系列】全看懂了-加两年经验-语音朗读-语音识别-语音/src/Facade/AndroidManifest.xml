@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="teleca.androidtalk.facade"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <activity android:name=".CommandListActivity"></activity>
+        <activity android:name=".ReadTextActivity"></activity>
+        <activity android:name=".HelpActivity"></activity>
+        <activity android:name=".FileReadActivity"></activity>
+        <activity android:name=".CommandDialingActivity"></activity>
+        <activity android:name=".CommandStartAppActivity"></activity>
+        <activity android:name=".CommandGotoWebActivity"></activity>
+        <activity android:name=".CommandSearchGoogleActivity"></activity>
+        <activity android:name="teleca.androidtalk.speechservice.BaseActivity"></activity>
+        <activity android:name=".PopActivity"></activity>
+       
+        <service android:name="teleca.androidtalk.speechservice.SpeechService">
+			<intent-filter>
+				<action android:name="teleca.androidtalk.speechservice.START_AUDIO_SERVICE" />
+				<category android:name="android.intent.category.default" />
+			</intent-filter>
+		</service>
+    <provider android:authorities="teleca.androidtalk.facade.util"
+    android:name="teleca.androidtalk.facade.util.DataProvider" >
+    </provider>    
+</application>
+    <uses-sdk android:minSdkVersion="4" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA"></uses-permission>
+</manifest>

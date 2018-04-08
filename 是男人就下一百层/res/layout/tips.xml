@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:admobsdk="http://schemas.android.com/apk/res/org.void1898.www.agilebuddy"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/bg_tips">
+	<ScrollView android:id="@+id/scrollview3"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:paddingTop="50dip"
+		android:paddingBottom="100dip" android:paddingLeft="15dip"
+		android:paddingRight="15dip">
+		<TextView android:id="@+id/tips_text" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:text="@string/tips_text"
+			android:textColor="#FFFFFFFF" android:textSize="16sp" />
+	</ScrollView>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_height="95dip" android:layout_width="fill_parent"
+			android:layout_gravity="center" android:layout_alignParentBottom="true">
+			<Button android:id="@+id/touch_to_start" android:layout_width="wrap_content"
+				android:layout_height="50dip" android:layout_gravity="center"
+				android:text="@string/touch_to_start" android:textColor="#FF292066"
+				android:textSize="17sp" />
+			<com.admob.android.ads.AdView
+				android:id="@+id/adbar3" android:layout_width="fill_parent"
+				android:layout_height="50dip" android:layout_alignParentBottom="true"
+				admobsdk:backgroundColor="#000000" admobsdk:primaryTextColor="#FFFFFF"
+				admobsdk:secondaryTextColor="#CCCCCC" admobsdk:keywords="Android game video discount"
+				admobsdk:refreshInterval="60" />
+		</LinearLayout>
+	</RelativeLayout>
+</FrameLayout>

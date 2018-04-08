@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:scrollbars="vertical" android:fadingEdge="vertical">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/ret"
+			android:id="@+id/login_ret" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20px"
+			android:text="用户登录" android:layout_marginTop="1px">
+		</TextView>
+		<Button android:text="注册"
+			android:id="@+id/login_zhuuce" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/yhm" android:layout_marginTop="20px"
+		android:gravity="center_horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:id="@+id/yhm_text" android:layout_width="80px"
+			android:text="用户名:" android:layout_height="wrap_content"
+			android:textSize="18px" />
+		<EditText android:id="@+id/yh_edit" android:layout_width="180px"
+			android:hint="我的账户" android:layout_height="wrap_content"
+			android:textSize="15px" android:phoneNumber="true"/>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/mm" android:layout_marginTop="10px"
+		android:gravity="center_horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:id="@+id/mm_text" android:layout_width="80px"
+			android:text="密   码:" android:layout_height="wrap_content"
+			android:textSize="18px" />
+		<EditText android:id="@+id/mm_edit" android:layout_width="180px"
+			android:hint="我的密码" android:layout_height="wrap_content"
+			android:textSize="15px" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_marginTop="10px"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/login"
+			android:id="@+id/login" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/dlsz" android:layout_marginTop="20px"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<TextView android:id="@+id/mm_text" android:layout_width="80px"
+			android:text="登录设置" android:layout_height="wrap_content"
+			android:textSize="18px" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+android:layout_marginTop="160px"
+		android:layout_height="fill_parent"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/hot_film"
+			android:id="@+id/hot_film" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/myhapiao"
+			android:id="@+id/myhapiao" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/all_films"
+			android:id="@+id/all_films" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

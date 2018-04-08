@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:autoLink="all"
+    android:text="story goes here...."
+    android:id="@+id/storybox"
+    />
+  <Button  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Back"
+    android:id="@+id/back"
+    />  
+</LinearLayout>

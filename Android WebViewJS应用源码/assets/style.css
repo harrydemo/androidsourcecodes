@@ -1,0 +1,49 @@
+@charset "utf-8";
+body {
+  font-family: tahoma,arial,宋体,sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+body > div {
+  margin: 20px 0;
+  width: 480px;
+}
+.class > a {
+  float: left;
+  width: 95px;
+  height: 35px;
+  line-height: 35px;
+  background: url("btn.png") no-repeat 0 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.recommend {
+  border-top: 1px solid #4579B8;  
+}
+.recommend > ul > li > span {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #548DD4;
+}
+.recommend > ul > li > a {
+  display: inline-block;
+  width: 102px;
+  height: 30px;
+  line-height: 30px;
+}

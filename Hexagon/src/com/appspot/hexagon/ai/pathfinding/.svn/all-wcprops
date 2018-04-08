@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding
+END
+AStarPathFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/AStarPathFinder.java
+END
+PathFindingContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/PathFindingContext.java
+END
+PathFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/PathFinder.java
+END
+Mover.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/Mover.java
+END
+TileBasedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/TileBasedMap.java
+END
+AStarHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/AStarHeuristic.java
+END
+Path.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/com/appspot/hexagon/ai/pathfinding/Path.java
+END

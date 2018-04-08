@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.53"
+        android:singleLine="false" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GetBaseStationInfo" />
+</LinearLayout>

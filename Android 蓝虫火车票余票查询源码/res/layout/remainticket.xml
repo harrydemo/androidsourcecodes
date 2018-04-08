@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_gravity="center"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" android:orientation="vertical"
+    android:padding="15dip" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="top"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:orientation="vertical">
+        <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+            <TableRow>
+                <ImageView android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" android:src="@drawable/logo"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="20dip"
+                    android:text="@string/remainSearcher_label" android:textSize="20sp"/>
+            </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:stretchColumns="1">
+            <TableRow>
+                <TextView android:text="日期："/>
+                <TextView android:gravity="left" android:id="@+id/startData_label"/>
+                <Button android:id="@+id/startData_button" android:text="设置"/>
+            </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:stretchColumns="3">
+            <TableRow>
+                <TextView android:text="始发："/>
+                <TextView android:id="@+id/startStation_label" android:text="北京"/>
+                <TextView android:text="--终到："/>
+                <TextView android:id="@+id/arriveStation_label" android:text="上海"/>
+                <Button android:id="@+id/start_arrive_button" android:text="设置"/>
+            </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content" android:stretchColumns="1">
+            <TableRow>
+                <TextView android:text="车次："/>
+                <EditText android:id="@+id/trainCode_editText" android:singleLine="true"/>
+                <Button android:id="@+id/trainCode_button" android:text="搜索"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="车型："/>
+                <TextView android:id="@+id/traintype_label" android:text="全部"/>
+                <Button android:id="@+id/traintype_button" android:text="设置"/>
+            </TableRow>
+        </TableLayout>
+        <TableLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingTop="20dip" android:stretchColumns="1">
+            <TableRow>
+                <TextView android:text=" "/>
+                <Button android:id="@+id/ticketSearch_button"
+                    android:layout_width="wrap_content" android:text="查询火车票余量"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

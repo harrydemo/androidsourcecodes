@@ -1,0 +1,305 @@
+<root mpb="461.7">
+	<pattern id="whole-rest">
+		<rest type="whole" />
+	</pattern>
+	
+	<pattern id="whole-hold">
+		<hold type="whole" />
+	</pattern>
+
+	<pattern id="intro-rest">
+		<rest type="eighth" />
+		<rest duration="75" />
+	</pattern>
+
+	<pattern id="one-quarter">
+		<beat type="quarter" />
+		<rest type="quarter" />
+		<rest type="quarter" />
+		<rest type="quarter" />
+	</pattern>
+
+	<pattern id="four-quarter">
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+	</pattern>
+	
+	<pattern id="two-and-four">
+		<rest type="quarter" />
+		<beat type="quarter" />
+		<rest type="quarter" />
+		<beat type="quarter" />		
+	</pattern>
+	
+	<pattern id="one-and-three">
+		<beat type="quarter" />
+		<rest type="quarter" />
+		<beat type="quarter" />
+		<rest type="quarter" />
+	</pattern>
+	
+	<pattern id="two-and-three">
+		<rest type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<rest type="quarter" />		
+	</pattern>
+
+	<pattern id="seven-eighths-rest">
+		<rest type="half" />
+		<rest type="quarter" />
+		<rest type="eighth" />
+	</pattern>
+		
+	<pattern id="fancy1">
+		<beat type="quarter" />
+		<rest type="quarter" />
+		<rest type="eighth" />
+		<beat type="sixteenth" />
+		<beat type="sixteenth" />
+		<rest type="eighth" />
+		<beat type="eighth" />	
+	</pattern>
+	
+	<pattern id="fancy2">
+		<beat type="quarter" />
+		<rest type="quarter" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<rest type="sixteenth" />
+		<beat type="sixteenth" />
+	</pattern>
+	
+	<pattern id="long-hold">
+		<hold duration="3692.32" />
+	</pattern>
+	
+	<pattern id="long-hold2">
+		<rest type="half" />
+		<hold duration="3692.32" />
+		<rest type="half" />
+	</pattern>
+	
+	<pattern id="fancy-hold">
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<beat type="quarter" />
+		<hold duration="3692.32" />
+		<rest type="quarter" />
+		<hold type="whole" />
+	</pattern>
+	
+	<pattern id="diddly">
+		<beat type="quarter" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="sixteenth" />
+		<beat type="sixteenth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+	</pattern>
+	
+	<pattern id="doodly">
+		<beat type="quarter" />
+		<beat type="eighth" />
+		<beat type="eighth" />
+		<rest type="quarter" />
+		<beat type="quarter" />
+	</pattern>
+	
+	<pattern id="three-rest">
+		<rest type="half" />
+		<rest type="quarter" />
+	</pattern>
+	
+	<pattern id="quarter-rest">
+		<rest type="quarter" />
+	</pattern>
+
+	<pattern id="beep1">
+		<rest type="eighth" />
+		<beat type="sixteenth" />
+		<beat type="sixteenth" />
+		<rest type="eighth" />		
+		<beat type="eighth" />
+		<rest type="eighth" />
+		<beat type="sixteenth" />
+		<beat type="sixteenth" />
+		<rest type="eighth" />		
+		<beat type="eighth" />
+	</pattern>
+	
+	<pattern id="beep2">
+		<beat type="half" />
+		<rest type="eighth" />
+		<beat type="sixteenth" />
+		<beat type="sixteenth" />
+		<rest type="eighth" />
+		<beat type="eighth" />
+	</pattern>
+
+	<song>
+		<load-pattern id="intro-rest" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="one-and-three" />		
+		<load-pattern id="one-and-three" />
+		<load-pattern id="one-and-three" />
+		<load-pattern id="one-and-three" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="fancy1" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="fancy1" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="fancy1" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="long-hold" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="four-quarter" />
+		<load-pattern id="fancy-hold" />
+		
+		<load-pattern id="fancy1" />
+		<load-pattern id="fancy2" />
+		<load-pattern id="fancy1" />
+		<load-pattern id="fancy2" />
+		<load-pattern id="one-quarter" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="one-and-three" />
+		<load-pattern id="diddly" />
+		<load-pattern id="one-and-three" />
+		<load-pattern id="diddly" />
+		<load-pattern id="one-and-three" />
+		<load-pattern id="doodly" />
+		<load-pattern id="one-and-three" />	
+		<load-pattern id="doodly" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="three-rest" />
+		<load-pattern id="long-hold" />
+		<load-pattern id="quarter-rest" />
+		<load-pattern id="one-and-three" />		
+		<load-pattern id="one-and-three" />
+		<load-pattern id="one-and-three" />
+		<load-pattern id="one-and-three" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="beep1" />
+		<load-pattern id="beep1" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="beep1" />
+		<load-pattern id="beep1" />
+		<load-pattern id="beep1" />
+		<load-pattern id="beep1" />
+		<load-pattern id="whole-hold" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="one-and-three" />
+		<load-pattern id="beep1" />
+		<load-pattern id="beep1" />
+		<load-pattern id="one-quarter" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="beep2" />
+		<load-pattern id="beep2" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="one-and-three" />		
+		<load-pattern id="one-and-three" />
+		<load-pattern id="one-and-three" />
+		<load-pattern id="one-and-three" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		
+		
+		
+		<load-pattern id="one-and-three" />
+		<load-pattern id="beep2" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="long-hold2" />
+		<load-pattern id="one-and-three" />		
+		<load-pattern id="one-and-three" />
+		<load-pattern id="one-and-three" />		
+		<load-pattern id="one-and-three" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+
+		<load-pattern id="fancy1" />
+		<load-pattern id="fancy2" />
+		<load-pattern id="fancy1" />
+		<load-pattern id="fancy2" />
+		<load-pattern id="one-quarter" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="whole-hold" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="two-and-four" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="beep1" />
+		<load-pattern id="beep1" />
+		<load-pattern id="beep1" />
+		<load-pattern id="beep1" />
+		<load-pattern id="whole-hold" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+		
+		<load-pattern id="long-hold" />
+		<load-pattern id="one-and-three" />		
+		<load-pattern id="one-and-three" />
+		<load-pattern id="one-and-three" />		
+		<load-pattern id="one-and-three" />
+		<load-pattern id="whole-rest" />
+		<load-pattern id="whole-rest" />
+
+		<load-pattern id="fancy1" />
+		<load-pattern id="fancy2" />
+		<load-pattern id="one-quarter" />
+		<load-pattern id="whole-rest" />
+	</song>
+</root>

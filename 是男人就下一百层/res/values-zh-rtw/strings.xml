@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Agile Buddy</string>
+	<string name="start_game">開始</string>
+	<string name="score_board">排行榜</string>
+	<string name="options">選項</string>
+	<string name="more_app">更多...</string>
+	<string name="exit">退出</string>
+	<string name="touch_to_start">點擊開始遊戲</string>
+	<string name="global_ranking">全球排行</string>
+	<string name="gameover_dialog_tip">遊戲結束!</string>
+	<string name="gameover_dialog_text_poolguy">可憐的傢伙 !</string>
+	<string name="gameover_dialog_text_notbad">還不錯嘛 !</string>
+	<string name="gameover_dialog_text_awesome">你真棒 !</string>
+	<string name="gameover_dialog_text_newrecord">個人新記錄 !</string>
+	<string name="gameover_dialog_positive_button">重來</string>
+	<string name="gameover_dialog_post_score_button">提交</string>
+	<string name="gameover_dialog_negative_button">返回</string>
+	<string name="gameover_username_required">您的大名 !</string>
+
+	<string name="ranking_title_loading_info">正在載入. 請等待...</string>
+	<string name="ranking_title_no">排行</string>
+	<string name="ranking_title_name">昵稱</string>
+	<string name="ranking_title_score">分數</string>
+	<string name="ranking_title_date">日期</string>
+
+	<string name="options_sounds_summary">-播放背景音效.</string>
+	<string name="options_vibrate_summary">-播放震動效果.</string>
+	<string name="options_showtips_summary">-開始遊戲前顯示提示信息.</string>
+    <string name="options_velocity_controller_summary">-敏捷度調節 ( 緩慢 -> 敏捷 )</string>
+	<string name="options_user_name_summary">-您在排行榜的昵稱:
+	</string>
+	<string name="options_best_record_summary">-您的最高紀錄: 
+	</string>
+	<string name="options_okay_summary">確定
+	</string>
+	<string name="options_upload_score_summary">提交成績
+	</string>
+	<string name="options_tips_summary">提示
+	</string>
+	<string name="options_toast_username_null">您的昵稱不能爲空!
+	</string>
+	<string name="options_toast_username_too_long">昵稱長度必須界于1到20.
+	</string>
+	<string name="options_toast_upload_success">成功提交.
+	</string>
+	<string name="options_toast_upload_failure">提交失敗.(請檢查您的網絡連接是否正常).
+	</string>
+	<string name="tips_text">- Agile Buddy是一款動作類小遊戲, 使用手機的重力感應器進行操作.\n\n- 左右傾斜手機可以控制主角左右移動, 傾斜角度越大, 主角移動速度越快.\n\n- 不要讓主角接觸到遊戲中的尖刺, 否則主角將損失部分生命值. 當生命值耗完時, 遊戲將結束.\n\n- 不要讓主角掉落到屏幕的下方, 否則遊戲將結束.\n\n- 遊戲分數取決於主角和踏板接觸的次數和遊戲的等級. 您可以將您的個人記錄提交到全球排名的列表中, 期待在這個列表中見到您的大名.
+	</string>
+</resources>

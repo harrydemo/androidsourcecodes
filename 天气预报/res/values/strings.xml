@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, zyjdeweatherActivity!</string>
+    <string name="app_name">天气预报</string>
+    <string name="title">天气预报</string>
+    <string name="city">城市</string>
+    <string name="province">省份</string>
+    <string name="today_wea">今日天气</string>
+    <string name="qiweng">气温：</string>
+    <string name="jinri">今日天气实况</string>
+    <string name="fengli">风力：</string>
+    <string name="shidu">湿度：</string>
+    <string name="kongqi">空气质量：</string>
+    <string name="zhiwai">紫外线强度：</string>
+    <color name="white">#FFFFFF</color>
+    <string name="city_str">城</string>
+    <string name="xiaotieshi">今日小贴士</string>
+    
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hostTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_host"
+        android:textAppearance="?android:attr/textAppearanceMedium" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit_host"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/portTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_port"
+        android:textAppearance="?android:attr/textAppearanceMedium" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/edit_port"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" >
+    </EditText>
+
+    <Button
+        android:id="@+id/button_use"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button_use" >
+    </Button>
+
+</LinearLayout>

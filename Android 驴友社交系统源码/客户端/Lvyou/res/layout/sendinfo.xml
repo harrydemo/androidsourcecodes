@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/ww1">
+	
+
+	<LinearLayout android:orientation="horizontal" android:id="@+id/llt4"
+	android:layout_marginTop="40dp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		>
+
+<ImageView android:id="@+id/ImageView01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+android:layout_marginLeft="20dp"
+android:src="@drawable/logo">
+</ImageView>
+
+<TextView android:text="给好友发送消息：" android:id="@+id/TvSendInfo"
+				android:textColor="#6495ED" 
+				android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+				android:textSize="20px"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</LinearLayout>
+	<LinearLayout android:orientation="vertical" android:id="@+id/llt7"
+		android:layout_marginTop="40dp" android:layout_marginLeft="20dp"
+		android:layout_width="280dp" android:layout_height="200dp"
+		android:background="@drawable/login">
+
+		<LinearLayout android:orientation="vertical"
+			android:id="@+id/llt6" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		
+			<EditText android:id="@+id/EtSendInfo" android:layout_width="260dp"
+				android:layout_height="120dp"
+				android:layout_marginTop="10dp"
+				android:layout_marginLeft="10dp"></EditText>	
+		
+	<Button android:text="发    布" android:id="@+id/BtnSendInfo"
+	android:layout_marginLeft="170dp"
+	android:textColor="#6495ED"
+	 
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+	
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+</LinearLayout>

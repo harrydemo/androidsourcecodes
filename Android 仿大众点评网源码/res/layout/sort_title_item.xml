@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <TextView 
+		android:textAppearance="?android:textAppearanceMediumInverse"
+		android:textSize="16.0sp" android:gravity="left|center"
+		android:paddingLeft="6.0dip" android:text="按价格筛选" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textColor="#ffffffff"
+		style="@style/CustomChannelItem" 
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		/>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/xieriji">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+            android:id="@+id/qingkong"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="清空"
+            android:textSize="20sp"
+            android:textColor="#CC0033"
+            android:layout_gravity="left"
+            android:background="@drawable/buttonstyle1"/>
+    <Button
+            android:id="@+id/baocun"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textSize="20sp"
+            android:textColor="#CC0033"
+            android:layout_gravity="right"
+            android:background="@drawable/buttonstyle1"/>
+</LinearLayout>       
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:gravity="center"
+            android:hint="标题:"
+            android:maxLines="2" />
+
+        <EditText
+            android:id="@+id/neirong"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|left" 
+            android:background="#00000000" 
+            android:hint="内容:"
+            android:singleLine="false"/>
+ 
+</LinearLayout>

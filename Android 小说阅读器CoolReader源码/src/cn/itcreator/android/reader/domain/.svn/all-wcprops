@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/domain
+END
+BookMark.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/domain/BookMark.java
+END
+BookInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/domain/BookInfo.java
+END
+Chapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/domain/Chapter.java
+END
+TxtLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/domain/TxtLine.java
+END
+Content.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/domain/Content.java
+END
+Book.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/CoolReader/src/cn/itcreator/android/reader/domain/Book.java
+END

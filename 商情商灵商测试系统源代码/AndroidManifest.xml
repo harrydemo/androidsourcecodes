@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.chenqi.activity"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".LoginActivity"
+                  android:label="@string/app_name">
+        </activity>
+         <activity android:name="LogoActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".MainActivity"/>
+		<activity android:name=".RegisterActivity"/>
+		<activity android:name=".ShengxiaoActivity"/>
+		<activity android:name=".XingzuoActivity"/>
+		<activity android:name=".XuexingActivity"/>
+    	<activity android:name=".PeiduiActivity"/>
+     	<activity android:name=".XingzuoListActivity"/>
+    </application>
+</manifest>

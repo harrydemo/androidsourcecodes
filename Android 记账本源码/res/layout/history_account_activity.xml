@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	 <!-- 和ListView一起，一定要将ListView的weight最小，否则会覆盖其他控件 -->
+	<ListView android:id="@+id/lstHistoryAccount"
+		  	  android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+        	  android:layout_weight="1"/>
+    <!--android:gravity是对元素本身说的，元素本身的文本显示在什么地方靠着换个属性设置，默认是在左侧的。
+    	和android:layout_width="fill_parent"配对使用
+    	android:layout_gravity是相对与它的父元素说的，说明元素显示在父元素的什么位置 
+    	和android:layout_width="wrap_content"配对使用
+    -->    
+	<TextView android:id="@+id/viewHistorySumMoney"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:layout_gravity="right"
+			  android:layout_marginRight="10dip"
+			  android:textSize="25dip"
+			  android:text="sdfdsfs"/>
+</LinearLayout>

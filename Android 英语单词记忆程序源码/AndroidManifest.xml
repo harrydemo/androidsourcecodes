@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="wordroid.model"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/logo" android:label="@string/app_name">
+        <activity android:name="wordroid.activitys.Main"
+                  android:label="@string/app_name"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="wordroid.activitys.ReviewMain">
+        </activity>
+        <activity android:name="wordroid.activitys.Review"
+        android:configChanges="orientation|keyboardHidden"
+        android:screenOrientation="portrait">
+        </activity>
+           <activity android:name="wordroid.activitys.Test"
+           android:configChanges="orientation|keyboardHidden"
+           android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="wordroid.activitys.study">
+        </activity>
+        <activity android:name="wordroid.activitys.studyWord"
+        android:configChanges="orientation|keyboardHidden"
+        android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="wordroid.activitys.ImportBook"
+        android:configChanges="orientation|keyboardHidden"
+        android:screenOrientation="portrait">
+        </activity>
+         <activity android:name="wordroid.activitys.about"
+        android:configChanges="orientation|keyboardHidden"
+        android:screenOrientation="portrait"/>
+        <activity android:name="wordroid.activitys.TestList">
+        </activity>
+        <activity android:name="wordroid.activitys.Help">
+        </activity>
+        <activity android:name="wordroid.activitys.Attention">
+        </activity>
+        <activity android:name="wordroid.activitys.EditWord">
+        </activity>
+         <activity android:name="wordroid.activitys.Preference">
+        </activity>
+        <receiver android:name="wordroid.widget.Wordroid_Widget"
+                android:label="wordroid"
+                android:icon="@drawable/logo" >
+            <intent-filter>
+                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+            <action android:name="NEXT"></action>
+            <action android:name="LAST"></action>
+            <action android:name="ADD"></action>
+            </intent-filter>
+                  <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info" />
+        </receiver>
+        <receiver android:name="wordroid.business.makeNotify"
+        android:process=":remote">
+        <intent-filter>
+                 <action android:name="android.intent.action.BOOT_COMPLETED" /> 
+                 <action android:name="shownotify"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+
+</manifest> 

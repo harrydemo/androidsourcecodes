@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+	
+	<TextView android:id="@+id/TextView01" android:layout_height="wrap_content"
+		android:text="@string/labelCity" android:layout_width="fill_parent"></TextView>
+		
+	<EditText android:layout_height="wrap_content" android:text="Shenzhen" android:editable="true" android:layout_width="fill_parent" android:id="@+id/editCity"></EditText>
+		
+	<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/lableUpdateTime" android:text="@string/lableUpdateTime"></TextView><EditText android:layout_height="wrap_content" android:id="@+id/editUpdatetime" android:text="2" android:layout_width="fill_parent"></EditText><Button android:layout_height="wrap_content" android:id="@+id/btnSave"
+		android:text="@string/btnSave" android:layout_width="fill_parent"></Button>
+		
+
+
+
+</LinearLayout>

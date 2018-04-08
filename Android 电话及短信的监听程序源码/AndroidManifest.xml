@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.thief" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/icon"
+		android:label="@string/app_name">
+		<activity android:name=".MainActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+       <!-- 短信接收监听-->
+       <!--  
+		<receiver android:name="com.thief.SmsReceiver" android:enabled="true">
+			<intent-filter>
+				<action
+					android:name="android.provider.Telephony.SMS_RECEIVED">
+				</action>
+			</intent-filter>
+		</receiver>
+		--> 
+		<!-- 电话拨打监听 -->
+		<!-- 
+		<receiver android:name="com.thief.DialReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.NEW_OUTGOING_CALL">
+				</action>
+			</intent-filter>
+		</receiver>
+		-->
+		<!-- 电话接听监听 -->
+		<!-- 
+		<receiver android:name="com.thief.CallHoldReceiver">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.PHONE_STATE">
+				</action>
+			</intent-filter>
+		</receiver>
+		-->
+	</application>
+
+
+	<uses-permission android:name="android.permission.SEND_SMS">
+	</uses-permission>
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	
+	<uses-permission  android:name="android.permission.PROCESS_OUTGOING_CALLS">	
+	</uses-permission>
+	
+</manifest>

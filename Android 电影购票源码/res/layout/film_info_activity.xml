@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/now_action"
+			android:id="@+id/now_action" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<TextView android:id="@+id/filminfo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="30px"
+			android:text="@string/fileinfo" android:layout_marginTop="1px">
+		</TextView>
+		<Button android:text="@string/area_search"
+			android:id="@+id/area_search" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_marginTop="10px" android:layout_height="330px">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<ImageView android:id="@+id/info_imgUrl"
+				android:layout_marginLeft="10px"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+			</ImageView>
+			<TextView android:id="@+id/info_filmName"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="10px"
+				android:layout_height="wrap_content"
+				android:layout_toRightOf="@+id/info_imgUrl" android:textSize="20px"
+				android:layout_marginTop="1px">
+			</TextView>
+			<TextView android:id="@+id/info_director"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="10px"
+				android:layout_toRightOf="@+id/info_imgUrl"
+				android:layout_below="@+id/info_filmName"
+				android:layout_height="wrap_content" android:textSize="15px"
+				android:layout_marginTop="1px">
+			</TextView>
+			<TextView android:id="@+id/info_starring"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="10px"
+				android:layout_toRightOf="@+id/info_imgUrl"
+				android:layout_below="@+id/info_director"
+				android:layout_height="wrap_content" android:textSize="15px"
+				android:layout_marginTop="1px">
+			</TextView>
+
+			<TextView android:id="@+id/info_produce"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="10px"
+				android:layout_toRightOf="@+id/info_imgUrl"
+				android:layout_below="@+id/info_starring"
+				android:layout_height="wrap_content" android:textSize="15px"
+				android:layout_marginTop="1px">
+			</TextView>
+			<TextView android:id="@+id/info_actionTime"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="10px"
+				android:layout_toRightOf="@+id/info_imgUrl"
+				android:layout_below="@+id/info_produce"
+				android:layout_height="wrap_content" android:textSize="15px"
+				android:layout_marginTop="1px">
+			</TextView>
+
+			<Button android:text="@string/juzhao"
+				android:layout_marginLeft="10px"
+				android:layout_toRightOf="@+id/info_imgUrl"
+				android:layout_below="@+id/info_actionTime"
+				android:id="@+id/info_juzhao" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</Button>
+			<Button android:text="@string/pianhua"
+				android:layout_toRightOf="@+id/info_juzhao"
+				android:layout_below="@+id/info_actionTime"
+				android:id="@+id/info_pianhua" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</Button>
+			<Button android:text="@string/goupiao"
+				android:layout_toRightOf="@+id/info_pianhua"
+				android:layout_below="@+id/info_actionTime"
+				android:id="@+id/info_goupiao" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</Button>
+
+			<TextView android:id="@+id/info_summary"
+				android:layout_width="wrap_content"
+				android:layout_below="@+id/info_actionTime"
+				android:layout_height="wrap_content" android:textSize="15px"
+				android:layout_marginTop="50px">
+			</TextView>
+
+
+
+		</RelativeLayout>
+	</ScrollView>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/hot_film"
+			android:id="@+id/hot_film" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/myhapiao"
+			android:id="@+id/myhapiao" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/all_films"
+			android:id="@+id/all_films" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

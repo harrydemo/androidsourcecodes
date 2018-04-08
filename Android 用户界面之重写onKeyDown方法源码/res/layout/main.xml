@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>  
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:orientation="vertical" >  
+      
+        <TextView  
+            android:layout_width="214dp"  
+            android:layout_height="wrap_content"  
+            android:text="Your Name"  
+            />  
+        <EditText  
+            android:id="@+id/txt1"  
+            android:layout_width="214dp"  
+            android:layout_height="wrap_content"  
+            />  
+        <Button  
+            android:id="@+id/btn1"  
+            android:layout_width="106dp"  
+            android:layout_height="wrap_content"  
+            android:text="OK"  
+            />  
+        <Button  
+            android:id="@+id/btn2"  
+            android:layout_width="106dp"  
+            android:layout_height="wrap_content"  
+            android:text="Cancel"  
+            />  
+      
+    </LinearLayout>  

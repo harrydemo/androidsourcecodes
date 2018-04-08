@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- 	RZ STUFF -->
+	<string name="rz_dlg_title">Return Zero</string>
+	<string name="rz_intro">Hi there! As you may have noticed, I have been quiet for a while... the main cause for that was that I\'ve been awfully busy developing a new game for Android -- which turned out a pretty cool tunnel racer called \'Return Zero\'. Feel free to check it out on the Market!</string>
+	<string name="rz_never_again">Don\'t show again.</string>
+	
+	<!--	BROWSING CATEGORIES-->
+	<string name="browse_cat_album">Albums</string>
+	<string name="browse_cat_artists">Artists</string>
+	<string name="browse_cat_songs">Songs</string>
+	
+	<!--	GENERAL STUFF -->
+	<string name="album">Album</string>
+	<string name="albums">Albums</string>
+	
+	
+	<!--	INTRO SCREEN-->
+    <string name="intro_text_1">Rock</string>
+    <string name="intro_text_2">On</string>
+    <string name="intro_text_3">NextGen</string>
+    <string name="app_name">³</string>
+    
+	<!--    ALBUM ART MESSAGES-->
+	<string name="get_art_dialog_title">³ Album Art</string>
+	<string name="get_art_dialog_message">
+		³ can fetch missing art for your albums from the Internet. Do you want to do it now? (It will take ~1 min for each 10 albums and it is recommended to be performed over a Wifi connection).
+	</string>
+	<string name="get_art_dialog_yes">Yes!</string>
+	<string name="get_art_dialog_no">I\'ll do it later.</string>
+	
+	<!--	ART DOWNLOAD MESSAGES-->
+	<string name="art_download_no_inet">Internet connection unavailable!</string>
+	<string name="art_download_progress_title">Downloading Album Art</string>
+	<string name="art_download_cancel">Cancel</string>
+	<string name="art_download_progress_initial_message">Searching album art...</string>
+	
+	<!--	NO SDCARD MESSAGES -->
+	<string name="no_sd_card_dialog_title">No SD card!</string>
+	<string name="no_sd_card_dialog_message">Please insert an SD card...</string>
+	<string name="no_sd_card_dialog_continue_anyway">Continue anyway</string>
+	<string name="no_sd_card_dialog_exit">Exit</string>
+	<!--	NO MUSIC MESSAGES -->
+	<string name="no_music_dialog_title">No music on this playlist!</string>
+	<string name="no_music_dialog_message">Could not find any music for this playlist on your SD card, please reload the application or change the playlist...</string>
+	<string name="no_music_dialog_continue_anyway">Continue anyway</string>
+	<string name="no_music_dialog_exit">Exit</string>
+	
+	<!--	DOWNLOAD CONCERTS APP MESSAGES-->
+	<string name="concert_app_install_dialog_title">Install Concerts³</string>
+	<string name="concert_app_install_dialog_message">This feature requires the installation of Concerts³. Do you want to do it now?</string>
+	<string name="concert_app_install_dialog_ok">Yes</string>
+	<string name="concert_app_install_dialog_cancel">No. Leave me alone!</string>
+	<string name="concert_app_install_no_market_app_msg">Ooops! Looks like there is no Market app installed.</string>
+	
+	<!--	DOWNLOAD RELEASES APP MESSAGES-->
+	<string name="releases_app_install_dialog_title">Install Releases³</string>
+	<string name="releases_app_install_dialog_message">This feature requires the installation of Releases³. Do you want to do it now?</string>
+	<string name="releases_app_install_dialog_ok">Yes</string>
+	<string name="releases_app_install_dialog_cancel">No. Leave me alone!</string>
+	<string name="releases_app_install_no_market_app_msg">Ooops! Looks like there is no Market app installed.</string>
+	
+	<!--	TOASTER MESSAGES	-->
+	<string name="song_added_to_playlist">Song queued</string>
+	<string name="song_removed_from_playlist">Song removed</string>
+	<string name="album_art_changed">Album art changed</string>
+	<string name="playlist_empty_toast">Error! Playlist is empty!</string>
+	<string name="playqueue_empty_toast">Queue is empty!</string>
+	<string name="not_an_album_toast">Sorry, this is an artist not an album!</string>
+	<string name="playlist_queued_toast">Playlist queued</string>
+	<string name="generic_error_toast">Error!</string>
+	<string name="playlist_deleted_toast">Playlist deleted!</string>
+	<string name="song_deleted_toast">Track deleted!</string>
+	
+	<!-- 	SEARCH -->
+	<string name="search_hint">Song Title or Artist Name</string>
+	
+	<!--	PLAY QUEUE	-->
+	<string name="play_queue_title">Play Queue</string>
+	<string name="clear_playlist_dialog_option">Clear</string>
+	<string name="create_playlist_dialog_option">Save</string>
+	
+	<!--	SONG LISTS MORE RESULTS -->
+	<string name="song_list_more_results">songs...</string>
+	
+	<!--	CREATE PLAYLIST DIALOG -->
+	<string name="create_playlist_dialog_title">Choose Playlist Name</string>
+	<string name="create_playlist_dialog_save_option">Save</string>
+	<string name="create_playlist_dialog_text_hint">Type playlist name...</string>
+	
+	<!--	DELETE SONG DIALOG	-->
+	<string name="song_delete_confirm_title">Delete song</string>
+	<string name="song_delete_message">Are you sure you want to delete the song? This operation is not reversible.</string>
+	<string name="song_delete_positive_button">Yes!</string>
+	<string name="song_delete_negative_button">No.</string>
+	
+	<!--	DELETE PLAYLIST DIALOG	-->
+	<string name="playlist_delete_confirm_title">Delete playlist</string>
+	<string name="playlist_delete_message">Are you sure you want to delete the playlist?</string>
+	<string name="playlist_delete_positive_button">Yes!</string>
+	<string name="playlist_delete_negative_button">No.</string>
+	
+	<!--	CREATE PLAYLIST TOASTER	-->
+	<string name="create_playlist_toaster_added_part_1">Songs added to playlist</string>
+	<string name="create_playlist_toaster_failed">Failed to create playlist!</string>
+	<string name="create_playlist_toaster_name_required">Playlist name is required...</string>
+	
+	<!--	-->
+	
+	<!--	ALBUM SONG LIST DIALOG -->
+	<string name="album_song_list_play_all">Play all</string>
+	<string name="album_song_list_queue_all">Queue all</string>
+	
+	<!--	SONG OPTIONS DIALOG	-->
+	<string name="song_option_play_now">Play now</string>
+	<string name="song_option_add_to_queue">Add to queue</string>
+	<string name="song_option_delete">Delete</string>
+	
+	<!--	PLAYLIST OPTIONS DIALOG	-->
+	<string name="playlist_option_play_now">Play now</string>
+	<string name="playlist_option_add_to_queue">Add to queue</string>
+	<string name="playlist_option_delete">Delete</string>
+	
+	<!--	PLAYLIST DIALOG		-->
+	<string name="playlist_dialog_title">Choose playlist</string>
+	<string name="playlist_dialog_cancel">Cancel</string>
+	<string name="playlist_all_title">Play all</string>
+	<string name="playlist_most_recent_title">Recent</string>
+	<string name="playlist_most_played_title">Most played</string>
+	
+	<!-- 	VIEW MODES DIALOG -->
+	<string name="view_mode_cube">³</string>
+	<string name="view_mode_wall">Wall</string>
+	<string name="view_mode_boring">Boring</string>
+	<string name="view_mode_morph">Morph Flow</string>
+	
+	<!-- 	THEMES DIALOG -->
+	<string name="theme_normal">Normal</string>
+	<string name="theme_halftone">Half tone</string>
+	<string name="theme_earthquake">Earthquake</string>
+	
+	<!--	THEME PROCESSING MESSAGES	-->
+	<string name="art_processing_progress_title">Processing Album Art</string>
+	<string name="art_processing_cancel">Cancel</string>
+	<string name="art_processing_go_background">Do it in the background</string>
+	<string name="art_processing_progress_initial_message">Searching album art...</string>
+	
+	<!--    HALF TONE DIALOG -->
+	<string name="half_tone_dialog_title">Half Tone Theme</string>
+	<string name="half_tone_dialog_message">
+		Half tone requires some processing of your current album art. It is a processor intensive task and it may take a while (~1 min for each 30 albums).
+	</string>
+	<string name="half_tone_dialog_yes">Do it!</string>
+	<string name="half_tone_dialog_no">It seems like trouble. Out!</string>
+	
+	<!--    EARTHQUAKE DIALOG -->
+	<string name="earthquake_dialog_title">Earthquake Theme</string>
+	<string name="earthquake_dialog_message">
+		Earthquake requires some processing of your current album art. But this one is fast don\'t worry (10 secs for 100 albums).
+	</string>
+	<string name="earthquake_dialog_yes">Do it!</string>
+	<string name="earthquake_dialog_no">It seems like trouble. Out!</string>
+	
+	
+	<!--	ACTIVITY INTENTS (some of them)-->
+	<string name="main_activity_intent">org.abrantix.rockon.rockonnggl.RockOnNextGenGL</string>
+	
+	<!--	NOTIFICATION STRINGS -->
+	<string name="unknown_album_name">Unknown Album</string>
+	<string name="unknown_artist_name">Unknown Artist</string>
+	
+	<!-- 	MANUAL ALBUM ART MSGS -->
+	<string name="manual_albumart_error">Error</string>
+	<string name="manual_albumart_no_album_specified">No album specified!</string>
+	<string name="manual_albumart_source">Source</string>
+	<string name="manual_albumart_source_local">local</string>
+	<string name="manual_albumart_source_internet">internet</string>
+	<string name="manual_albumart_resolution_loading">loading...</string>
+	<string name="manual_albumart_resolution_unavailable">unavailable</string>
+	
+	<string name="manual_input_enable">Manual search</string>
+	<string name="manual_input_artist">Artist</string>
+	<string name="manual_input_album">Album</string>
+	
+	<!--	DONATE MSG	-->
+	<string name="donate_title">Donate</string>
+	<string name="donate_msg">³ is a free, open source music player written entirely on my spare time. If you do like it, please consider donating to support further development of ³. You can do so using one of the following options:</string>
+	<string name="donate_using">Donate through</string>
+	<string name="donate_back_to_app">Go back to</string>
+	
+	<!--	UNLOCK SCREEN	-->
+	<string name="unlock_screen">Unlock</string>
+	
+	<!--	WIDGET STRINGS	-->
+	<string name="widget_app_start">Start ³</string>
+	
+	<!--	BUG REPORTS	-->
+	<string name="bug_report_intro_part_one">Sorry!\n\n3 (Cubed) v</string>
+	<string name="bug_report_intro_part_two">crashed! Please send this mail, so that we can analyze/fix the issue.\n</string>
+	
+<!--	<string name="bug_report_intro">-->
+<!--		"Sorry!\n\nRockOn v\"-->
+<!--		<xliff:g id="APP_VERSION">%s</xliff:g>-->
+<!--		\" crashed! Please send this mail, so that we can analyze/fix the issue.\n"-->
+<!--	</string>-->
+
+	<!--	DIRECTORY FILTER	-->
+	<string name="directories_on_sdcard">Your SD Card contains the following directories:</string>
+	<string name="select_all">Select all</string>
+	<string name="unselect_all">Unselect all</string>
+
+	<!--	GENERIC STUFF -->
+	<string name="ok">Ok</string>
+	<string name="back">Back</string>
+	<string name="all">All</string>
+	<string name="none">None</string>
+	<string name="on">On</string>
+	<string name="off">Off</string>
+	
+	<string name="genre_prefix">Genre:</string>
+
+</resources>

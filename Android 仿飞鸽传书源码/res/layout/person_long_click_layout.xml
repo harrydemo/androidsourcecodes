@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/dialog_bg"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+
+    <Button android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/send_msg"
+    	android:id="@+id/long_send_msg"
+    	android:gravity="center"
+    	android:drawableLeft="@drawable/send_msg_icon"/>
+    <Button android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/send_file"
+    	android:id="@+id/long_send_file"
+    	android:gravity="center"
+    	android:drawableLeft="@drawable/send_file_icon"/> 
+    <Button android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/call_label"
+    	android:id="@+id/long_click_call"
+    	android:gravity="center"
+    	android:drawableLeft="@drawable/call_icon"/>
+    <Button android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/cancel"
+    	android:gravity="center"
+    	android:id="@+id/long_click_cancel"
+    	android:drawableLeft="@drawable/long_cancel"/>
+</LinearLayout>

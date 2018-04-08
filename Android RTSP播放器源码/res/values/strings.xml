@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">RtspPlayer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_media">RTSP播放器@mrlans 2012</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>360Preview.ico</file>
+        <file>bg_bottom.png</file>
+        <file>bg_briangle.png</file>
+        <file>bg_top.png</file>
+        <file>btn_0.png</file>
+        <file>btn_1.png</file>
+        <file>btn_2.png</file>
+        <file>btn_3.png</file>
+        <file>btn_close.png</file>
+        <file>btn_open.png</file>
+        <file>btn_use.png</file>
+        <file>desktop_0.jpg</file>
+        <file>desktop_1.jpg</file>
+        <file>desktop_2.jpg</file>
+        <file>desktop_3.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * <arrys.>
+ *  Copyright (C) <2009>  <Wang XinFeng,ACC http://androidos.cc/dev>
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */ 
+ -->
+<resources>
+	<string-array name="colors">
+		<item>黑色</item>
+		<item>白色</item>
+		<item>灰色</item>
+		<item>黄色</item>
+		<item>绿色</item>
+		<item>蓝色</item>
+		<item>红色</item>
+	</string-array>
+	
+	<string-array name="fontsize">
+		<item>16</item>
+		<item>18</item>
+		<item>20</item>
+		<item>22</item>
+		<item>24</item>
+	</string-array>
+	
+	<string-array name="background">
+	<item>清新绿叶</item>
+	<item>火红烛心</item>
+	<item>黑夜灯桥</item>
+	<item>灰色书本</item>
+	<item>黄色书皮</item>
+	<item>苹果灰色</item>
+	<item>忆景思甜</item>
+	<item>蓝月星光</item>
+	
+	</string-array>
+</resources>

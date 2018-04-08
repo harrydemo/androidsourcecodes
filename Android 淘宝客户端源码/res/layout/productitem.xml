@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFFFFF" >
+	<!-- 图片 -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="2"
+		android:gravity="top">
+        <ImageView android:layout_width="fill_parent" android:layout_gravity="top"
+		android:layout_height="wrap_content" 
+		android:id="@+id/imgPhoto" 
+		android:src="@drawable/p1"></ImageView>
+        
+	</LinearLayout>
+	<!-- 产品名称及价格 -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		
+		android:layout_height="fill_parent" android:layout_weight="1" android:padding="15dip">
+           <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="摩托罗拉 Defy" 
+		android:id="@+id/txtName" android:textColor="#000000"/>
+		 <TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="￥1980" 
+		android:id="@+id/txtUnitPrice"  android:textColor="#000000"/>
+	</LinearLayout>
+</LinearLayout>

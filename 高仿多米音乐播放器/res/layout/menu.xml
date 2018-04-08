@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<GridView 
+		android:id="@+id/menuGridView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/menulayout_bg"
+		android:numColumns="4"
+		android:paddingBottom="10dp"
+		android:listSelector="@drawable/selector_menu_item">
+	</GridView>
+	
+		
+</RelativeLayout>

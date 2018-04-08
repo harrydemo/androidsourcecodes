@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dip"
+    android:layout_height="160dip"
+    android:background="#fefefe"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/city_name"
+        android:hint="@string/set_city"
+        android:layout_width="150dip"
+        android:layout_height="50dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/dialog_frm_edit"
+        android:maxLength="12"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/set_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/city_name"
+        android:layout_below="@id/city_name"
+        android:hint="@string/set_defulat_city"
+        android:textColorHint="@color/blue" />
+
+    <LinearLayout
+        android:id="@+id/error_img"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/opt_full"
+        android:layout_width="60dip"
+        android:layout_height="40dip"
+        android:layout_alignLeft="@+id/set_checkbox"
+        android:layout_below="@+id/set_checkbox"
+        android:background="@drawable/dialog_frm_list"
+        android:text="@string/str_ok" />
+
+    <Button
+        android:id="@+id/cancel_but"
+        android:layout_width="60dip"
+        android:layout_height="40dip"
+        android:layout_alignRight="@+id/city_name"
+        android:layout_below="@+id/set_checkbox"
+        android:background="@drawable/dialog_frm_list"
+        android:text="@string/str_no" />
+
+</RelativeLayout>

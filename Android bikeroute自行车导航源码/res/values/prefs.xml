@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="prefs_name">com.nanosheep.bikeroute</string>
+<string name="prefs_renderer">renderer</string>
+<string name="prefs_scrollx">scrollX</string>
+<string name="prefs_scrolly">scrollY</string>
+<string name="prefs_zoomlevel">zoomLevel</string>
+<string name="prefs_showlocation">showLocation</string>
+<string name="prefs_followlocation">followLocation</string>
+</resources>

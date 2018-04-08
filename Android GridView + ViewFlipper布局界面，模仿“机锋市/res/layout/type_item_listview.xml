@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="5dip"
+  android:paddingBottom="5dip">
+  
+  <ImageView android:id="@+id/image_item_1" android:layout_width="wrap_content" android:layout_centerVertical="true"
+  android:layout_height="wrap_content" android:src="@drawable/icon_qq"/>
+  
+  <LinearLayout android:id="@+id/linearlayout_out_1" android:layout_width="wrap_content" android:layout_marginLeft="5dip" android:layout_centerVertical="true"
+  android:layout_height="wrap_content" android:orientation="vertical" android:layout_toRightOf="@id/image_item_1">
+    <TextView android:id="@+id/text_item_1" android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+  android:textSize="16sp" android:textStyle="bold" android:text="腾讯QQ" android:textColor="#000000"
+   />
+ 
+   <TextView android:id="@+id/text_item_2" android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+  android:textSize="12sp" android:textStyle="italic" android:text="应用 > 通讯"
+  />
+  
+    </LinearLayout>
+    
+  <ImageView android:id="@+id/image_item_2" android:layout_width="1dip" android:src="@drawable/tab_divider" android:layout_centerVertical="true"
+  android:layout_height="wrap_content" android:layout_toRightOf="@id/linearlayout_out_1"  android:layout_marginLeft="140dip"/>
+  
+
+  
+   <TextView android:id="@+id/text_item_3" android:layout_width="wrap_content" android:layout_marginLeft="10dip" android:layout_toRightOf="@id/image_item_2"
+  android:layout_height="wrap_content" android:text="6666" android:layout_centerVertical="true"
+  android:textSize="14sp" android:textStyle="italic" 
+  />
+
+  
+</RelativeLayout>

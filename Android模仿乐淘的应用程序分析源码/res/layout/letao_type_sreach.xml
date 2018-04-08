@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#ffffff">
+	<!-- 顶部标题 -->
+	<include android:id="@+id/title" layout="@layout/title" />
+	<!-- 底部菜单 -->
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+
+	<RelativeLayout android:id="@+id/search_layout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_below="@id/title" android:padding="10dip">
+		<EditText android:layout_width="fill_parent" android:id="@+id/search_edit"
+			android:singleLine="true" android:layout_height="46dip"
+			android:layout_centerInParent="true" android:background="@drawable/input_box"
+			android:hint="@string/searchbar_hint" android:textAppearance="?android:attr/textAppearanceSmall"
+			android:paddingLeft="10dip" />
+		<ImageView android:layout_width="40dip"
+			android:layout_height="40dip" android:background="@drawable/home_search_btn"
+			android:layout_centerVertical="true" android:id="@+id/search_btn"
+			android:layout_alignRight="@+id/search_edit" android:clickable="true" />
+	</RelativeLayout>
+	<LinearLayout android:id="@+id/indexlist"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_below="@id/search_layout" android:layout_above="@id/bottommenu">
+		<include android:id="@id/android:list" layout="@layout/common_listview" />
+	</LinearLayout>
+</RelativeLayout>

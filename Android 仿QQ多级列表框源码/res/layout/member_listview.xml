@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="40dip" 
+	android:layout_gravity="center_horizontal">
+	
+	<LinearLayout android:orientation="horizontal" 
+	              android:layout_width="fill_parent"
+		          android:layout_height="40dip" 
+		          android:id="@+id/layout_013">
+		<ImageView android:id="@+id/ImageView01" 
+                  android:layout_width="wrap_content" 
+                  android:layout_height="wrap_content"
+                  android:gravity="center_vertical"
+                  android:paddingTop="10dip"
+                  android:src="@drawable/user_group"></ImageView>	
+	<RelativeLayout android:id="@+id/layout_013" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content">
+     <TextView android:id="@+id/content_001" 
+		          android:textSize="26px"
+			      android:layout_width="wrap_content" 
+			      android:layout_height="fill_parent"
+			      android:textColor="#FFFFFF" 
+			      android:gravity="center_vertical"
+			      android:paddingLeft="10px" 
+			      android:layout_gravity="center_vertical"></TextView>
+      <ImageView android:layout_width="wrap_content" 
+                 android:layout_height="wrap_content" 
+                 android:id="@+id/tubiao"
+                 android:layout_alignParentRight="true"></ImageView>
+   </RelativeLayout>	      
+	</LinearLayout>
+	
+		<!-- 
+   <RelativeLayout android:id="@+id/layout_013" 
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent">
+       <ImageView android:id="@+id/ImageView01" 
+                  android:layout_width="wrap_content" 
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/icon"></ImageView>
+       <TextView android:id="@+id/content_001" 
+                 android:text="@+id/TextView01" 
+                 android:layout_width="wrap_content" 
+                 android:layout_toRightOf="@+id/ImageView01" 
+                 android:layout_height="wrap_content"></TextView>
+      <ImageView android:layout_width="wrap_content" 
+                 android:layout_toRightOf="@+id/content_001" 
+                 android:layout_height="wrap_content" 
+                 android:id="@+id/tubiao"></ImageView>
+   </RelativeLayout>
+    -->
+</LinearLayout>

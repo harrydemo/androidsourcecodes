@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/cinema_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	 android:textSize="20px"
+		android:layout_marginTop="1px">
+	</TextView>
+	<TextView android:id="@+id/ciname_add"
+		android:layout_width="wrap_content"
+		android:layout_below="@+id/cinema_name"
+		android:layout_height="wrap_content" android:textSize="15px"
+		android:layout_marginTop="1px">
+	</TextView>
+	<TextView android:id="@+id/cinema_dianhua"
+		android:layout_width="wrap_content"
+		android:layout_below="@+id/ciname_add"
+		android:layout_height="wrap_content" android:textSize="15px"
+		android:layout_marginTop="1px">
+	</TextView>
+
+</RelativeLayout>
+

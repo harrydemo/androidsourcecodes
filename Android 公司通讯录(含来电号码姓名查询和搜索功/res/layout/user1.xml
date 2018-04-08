@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal" android:paddingLeft="10dip"
+	android:paddingRight="10dip" android:paddingTop="1dip"
+	android:paddingBottom="1dip">
+	<TextView android:id="@+id/user_name" android:layout_width="120dip"
+		android:layout_height="30dip" android:textSize="20dip"
+		android:singleLine="true" />
+	<TextView android:id="@+id/user_ip" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:gravity="right"
+		android:textSize="20dip" />
+</LinearLayout>

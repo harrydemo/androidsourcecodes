@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, IndexActivity!</string>
+    <string name="app_name">My361</string>
+    <string name="introduction">361°DAY,是361°品牌为广大运动爱好者倾力打造的运动升级体验项目，包含城市运动KE和高校联盟的两大主线活动，旨在为爱运动的人们提供零距离的热爱支持</string>
+    <string name="citysport">城市运动KE</string>
+    <string name="university">高校联盟</string>
+    <string name="citysport_info">361°DAY-城市运动KE,全国十座城市联动,每月2场,开设篮球,足球,羽毛球3大专属项目。在这里我们为运动客提供免费场馆,专业驻场教练,组织现场对抗比赛,打造专属城市运动课,激发你的热爱渴望。</string>
+    <string name="city_beijing">北京</string>
+    <string name="city_time">2012-5-13 16:00-18:00</string>
+    <string name="zhaoyang">朝阳体育中心</string>
+    <string name="renshu">27/40</string>
+    <string name="city_other">其他城市</string>
+    <string name="university_info">361°DAY-高校联盟,在全国16个城市22高校，以学校为单位组成运动爱好社团,开展篮球、跑步两大运动相关的丰富校际社团活动,还将不定期的组织大型嘉年华,明星见面会,挑战马拉松等主题活动</string>
+    <string name="u_item_time">2011.01</string>
+    <string name="u_item_renshu">55人</string>
+    <string name="u_item_sportmap_name">北京朝阳体育中心</string>
+    <string name="u_item_sportmap_juli">500m</string>
+    <string name="searchtab_buttom_left">附近场地</string>
+    <string name="searchtab_buttom_center">城市运动KE</string>
+    <string name="searchtab_buttom_right">高校联盟</string>
+    <string name="vip_myactivity">我的活动</string>
+    <string name="vip_lable">Lable</string>
+    <string name="vip_myactivity_record">游戏记录</string>
+    <string name="vip_myactivity_myfriend">我的好友</string>
+    <string name="vip_myactivity_email">个人邮箱</string>
+    <string name="vip_myactivity_mystadium">我的场馆</string>
+    <string name="vip_myactivity_register">预约报到</string>
+    <string name="vip_myactivity_sign">已签到</string>
+    <string name="vip_myactivity_favorable">优惠劵</string>
+
+</resources>

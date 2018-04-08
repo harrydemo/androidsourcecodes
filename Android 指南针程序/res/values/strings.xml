@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, compass!</string>
+    <string name="app_name">指南针</string>
+    <string name="app_ver">V1.0.1</string>
+<string name="alert_ok">确定</string>
+<string name="menuitem_about">关于</string>
+<string name="menuitem_quit">退出</string>
+<string name="aboutContent">
+　　 Author：逸嘉鱼@pisces\n
+　　GTalk: winton.chen@gmail.com\n\n
+</string>
+<string name="aboutMarquee"></string>
+</resources>

@@ -1,0 +1,153 @@
+<ScrollView android:id="@+id/ScrollView01"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:background="@drawable/ww1">
+		<ImageView android:id="@+id/ImageView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/pagetop"></ImageView>
+
+		
+			
+		<TextView android:text="在线记忆详情" android:id="@+id/TextView01"
+			android:textColor="#6495ED" android:textSize="20dp"
+			android:layout_marginTop="10dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<View android:layout_width="fill_parent" android:layout_height="1dp"
+			android:background="#ffffff" android:layout_marginTop="10dp"></View>
+
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:layout_gravity="center" android:layout_marginTop="10dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:orientation="vertical" android:background="@drawable/bg1">
+			<TextView android:text="标题:" android:id="@+id/TextView02"
+				android:textSize="18dp" android:textColor="#6495ED"
+				android:layout_marginTop="12dp" android:layout_marginLeft="15dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+			<TextView android:text="三峡游" android:id="@+id/TextView03"
+				android:textColor="#6495ED" android:layout_marginLeft="15dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+			<View android:layout_width="280dp" android:layout_height="1dp"
+				android:layout_gravity="center_horizontal" android:background="#ffffff"
+				android:layout_marginTop="10dp"></View>
+			<TextView android:text="地点:" android:id="@+id/TextView04"
+				android:textSize="18dp" android:textColor="#6495ED"
+				android:layout_marginLeft="15dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<TextView android:text="重庆" android:id="@+id/TextView05"
+				android:textColor="#6495ED" android:layout_marginLeft="15dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<View android:layout_width="280dp" android:layout_height="1dp"
+				android:layout_gravity="center_horizontal" android:background="#ffffff"
+				android:layout_marginTop="10dp"></View>
+			<TextView android:text="记忆内容:" android:id="@+id/TextView06"
+				android:textSize="18dp" android:textColor="#6495ED"
+				android:layout_marginLeft="15dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+			<TextView android:text="三峡。瞿塘峡，巫峡，西陵峡" android:id="@+id/TextView07"
+				android:textColor="#6495ED" android:layout_marginLeft="15dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+
+
+	
+
+</LinearLayout>
+
+		<LinearLayout android:id="@+id/LinearLayout03"
+			android:layout_marginTop="10dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<Button android:text="查看地标" android:id="@+id/Button01"
+				android:layout_marginLeft="2dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></Button>
+			<Button android:text="加作者为好友" android:id="@+id/Button02"
+				android:layout_marginLeft="2dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></Button>
+			<Button android:text="加作者为关注者" android:id="@+id/Button03"
+				android:layout_marginLeft="2dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></Button>
+
+		</LinearLayout>
+
+
+		<TextView android:text="目前存在的地标信息" android:id="@+id/TextView08"
+			android:layout_marginTop="10dp" android:layout_width="wrap_content"
+			android:textColor="#6495ED" android:layout_height="wrap_content"></TextView>
+		<!--<ImageView android:id="@+id/ImageView01"
+			android:layout_marginTop="10dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/qq066"></ImageView>
+		<TextView android:text="故宫" android:id="@+id/TextView09"
+			android:textColor="#6495ED" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+			
+			-->
+			<LinearLayout android:id="@+id/LinearLayout04"
+				android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:text="*标题：" android:id="@+id/TextView10" android:textColor="#6495ED"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView  android:id="@+id/TextView11" android:textColor="#6495ED"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="  *类型：" android:id="@+id/TextView12" android:textColor="#6495ED"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView  android:id="@+id/TextView13" android:textColor="#6495ED"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="  *内容：" android:id="@+id/TextView14" android:textColor="#6495ED"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView  android:id="@+id/TextView15" android:textColor="#6495ED"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</LinearLayout>
+		<TextView android:text="回复消息" android:id="@+id/TextView08"
+			android:layout_marginTop="30dp" android:layout_width="wrap_content"
+			android:textColor="#6495ED" android:layout_height="wrap_content"></TextView>
+		<ListView android:id="@+id/Lvreply01" android:layout_width="wrap_content"
+			android:layout_height="100dp"></ListView>
+
+		<LinearLayout android:orientation="vertical" android:id="@+id/llt7"
+			android:layout_marginTop="40dp" android:layout_marginLeft="10dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@drawable/reply">
+
+			<TextView android:text="回复本条记忆：" android:textColor="#6495ED"
+				android:layout_marginTop="10dp" android:layout_marginLeft="30dp"
+				android:textSize="15px" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</TextView>
+
+			<EditText android:id="@+id/EtSendInfo" android:layout_width="255dp"
+				android:layout_height="50dp" android:layout_marginTop="20dp"
+				android:layout_marginLeft="30dp"></EditText>
+			<LinearLayout android:orientation="horizontal"
+				android:id="@+id/llt7" android:layout_marginTop="5dp"
+				android:layout_marginLeft="10dp" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<!--<TextView android:text="评分：" android:textColor="#6495ED" android:layout_marginTop="10dp" 
+					android:layout_marginLeft="10dp" android:textSize="15px" android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"> </TextView> -->
+				<RatingBar android:id="@+id/RatingBar01"
+
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:numStars="5" android:stepSize="0.5" android:rating="4.5"
+					style="?android:attr/ratingBarStyle" android:layout_gravity="center_vertical">
+				</RatingBar>
+
+			</LinearLayout>
+			<Button android:text="发布回复" android:id="@+id/BtnSendInfo"
+				android:layout_marginLeft="170dp" android:textColor="#6495ED"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+
+
+		</LinearLayout>
+
+
+	
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,57 @@
+com.google.zxing.BarcodeFormat: com.google.zxing.BarcodeFormat[] values()
+com.google.zxing.BarcodeFormat: com.google.zxing.BarcodeFormat valueOf(java.lang.String)
+com.google.zxing.DecodeHintType: com.google.zxing.DecodeHintType[] values()
+com.google.zxing.DecodeHintType: com.google.zxing.DecodeHintType valueOf(java.lang.String)
+com.google.zxing.EncodeHintType: com.google.zxing.EncodeHintType[] values()
+com.google.zxing.EncodeHintType: com.google.zxing.EncodeHintType valueOf(java.lang.String)
+com.google.zxing.ResultMetadataType: com.google.zxing.ResultMetadataType[] values()
+com.google.zxing.ResultMetadataType: com.google.zxing.ResultMetadataType valueOf(java.lang.String)
+com.google.zxing.aztec.decoder.Decoder$Table: com.google.zxing.aztec.decoder.Decoder$Table[] values()
+com.google.zxing.aztec.decoder.Decoder$Table: com.google.zxing.aztec.decoder.Decoder$Table valueOf(java.lang.String)
+com.google.zxing.client.android.CaptureActivity
+com.google.zxing.client.android.CaptureActivity: CaptureActivity()
+com.google.zxing.client.android.CaptureActivityHandler$State: com.google.zxing.client.android.CaptureActivityHandler$State[] values()
+com.google.zxing.client.android.CaptureActivityHandler$State: com.google.zxing.client.android.CaptureActivityHandler$State valueOf(java.lang.String)
+com.google.zxing.client.android.HelpActivity
+com.google.zxing.client.android.HelpActivity: HelpActivity()
+com.google.zxing.client.android.HttpHelper$ContentType: com.google.zxing.client.android.HttpHelper$ContentType[] values()
+com.google.zxing.client.android.HttpHelper$ContentType: com.google.zxing.client.android.HttpHelper$ContentType valueOf(java.lang.String)
+com.google.zxing.client.android.IntentSource: com.google.zxing.client.android.IntentSource[] values()
+com.google.zxing.client.android.IntentSource: com.google.zxing.client.android.IntentSource valueOf(java.lang.String)
+com.google.zxing.client.android.PreferencesActivity
+com.google.zxing.client.android.PreferencesActivity: PreferencesActivity()
+com.google.zxing.client.android.ViewfinderView
+com.google.zxing.client.android.ViewfinderView: ViewfinderView(android.content.Context,android.util.AttributeSet)
+com.google.zxing.client.android.book.SearchBookContentsActivity
+com.google.zxing.client.android.book.SearchBookContentsActivity: SearchBookContentsActivity()
+com.google.zxing.client.android.book.SearchBookContentsListItem
+com.google.zxing.client.android.book.SearchBookContentsListItem: SearchBookContentsListItem(android.content.Context)
+com.google.zxing.client.android.book.SearchBookContentsListItem: SearchBookContentsListItem(android.content.Context,android.util.AttributeSet)
+com.google.zxing.client.android.encode.EncodeActivity
+com.google.zxing.client.android.encode.EncodeActivity: EncodeActivity()
+com.google.zxing.client.android.history.HistoryActivity
+com.google.zxing.client.android.history.HistoryActivity: HistoryActivity()
+com.google.zxing.client.android.share.AppPickerActivity
+com.google.zxing.client.android.share.AppPickerActivity: AppPickerActivity()
+com.google.zxing.client.android.share.BookmarkPickerActivity
+com.google.zxing.client.android.share.BookmarkPickerActivity: BookmarkPickerActivity()
+com.google.zxing.client.android.share.ShareActivity
+com.google.zxing.client.android.share.ShareActivity: ShareActivity()
+com.google.zxing.client.android.wifi.NetworkType: com.google.zxing.client.android.wifi.NetworkType[] values()
+com.google.zxing.client.android.wifi.NetworkType: com.google.zxing.client.android.wifi.NetworkType valueOf(java.lang.String)
+com.google.zxing.client.result.ParsedResultType: com.google.zxing.client.result.ParsedResultType[] values()
+com.google.zxing.client.result.ParsedResultType: com.google.zxing.client.result.ParsedResultType valueOf(java.lang.String)
+com.google.zxing.common.CharacterSetECI: com.google.zxing.common.CharacterSetECI[] values()
+com.google.zxing.common.CharacterSetECI: com.google.zxing.common.CharacterSetECI valueOf(java.lang.String)
+com.google.zxing.datamatrix.decoder.DecodedBitStreamParser$Mode: com.google.zxing.datamatrix.decoder.DecodedBitStreamParser$Mode[] values()
+com.google.zxing.datamatrix.decoder.DecodedBitStreamParser$Mode: com.google.zxing.datamatrix.decoder.DecodedBitStreamParser$Mode valueOf(java.lang.String)
+com.google.zxing.oned.rss.expanded.decoders.CurrentParsingState$State: com.google.zxing.oned.rss.expanded.decoders.CurrentParsingState$State[] values()
+com.google.zxing.oned.rss.expanded.decoders.CurrentParsingState$State: com.google.zxing.oned.rss.expanded.decoders.CurrentParsingState$State valueOf(java.lang.String)
+com.google.zxing.pdf417.decoder.DecodedBitStreamParser$Mode: com.google.zxing.pdf417.decoder.DecodedBitStreamParser$Mode[] values()
+com.google.zxing.pdf417.decoder.DecodedBitStreamParser$Mode: com.google.zxing.pdf417.decoder.DecodedBitStreamParser$Mode valueOf(java.lang.String)
+com.google.zxing.pdf417.encoder.Compaction: com.google.zxing.pdf417.encoder.Compaction[] values()
+com.google.zxing.pdf417.encoder.Compaction: com.google.zxing.pdf417.encoder.Compaction valueOf(java.lang.String)
+com.google.zxing.qrcode.decoder.ErrorCorrectionLevel: com.google.zxing.qrcode.decoder.ErrorCorrectionLevel[] values()
+com.google.zxing.qrcode.decoder.ErrorCorrectionLevel: com.google.zxing.qrcode.decoder.ErrorCorrectionLevel valueOf(java.lang.String)
+com.google.zxing.qrcode.decoder.Mode: com.google.zxing.qrcode.decoder.Mode[] values()
+com.google.zxing.qrcode.decoder.Mode: com.google.zxing.qrcode.decoder.Mode valueOf(java.lang.String)

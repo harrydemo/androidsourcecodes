@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:gravity="bottom"
+	android:orientation="vertical"
+	android:background="@android:color/transparent"
+	android:paddingBottom="16.0dip"
+	android:layout_width="wrap_content"
+	android:layout_height="137.0dip"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.chaozh.iReader.ui.extension.view.BookCoverView
+		android:layout_gravity="bottom"
+		android:id="@+id/bookcover"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scaleType="fitEnd"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+<include android:id="@+id/title" layout="@layout/title" />
+	<include android:id="@+id/bottommenu" layout="@layout/common_bottommenu" />
+	
+	
+	
+	
+	<LinearLayout 	android:id="@+id/userinfor"  
+					android:orientation="vertical" 
+		    		  android:layout_width="fill_parent"
+					  android:layout_height="wrap_content"
+					  android:layout_below="@id/title" 
+  							  android:background="#ffffff">
+	<RelativeLayout  
+	 					android:orientation="vertical"
+  					  android:layout_width="fill_parent"
+   					 android:layout_height="wrap_content"
+  					  android:background="#ffffff"
+  						  >
+  	<ImageView android:id="@+id/letao" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/my_letao_logo" />
+  	<TextView  android:id="@+id/login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login" android:textSize="7pt" android:layout_toRightOf="@id/letao"/>
+  	<TextView  android:id="@+id/time"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time" android:textSize="7pt"  android:layout_toRightOf="@id/letao" android:layout_below="@id/login"/>
+  	<TextView  android:id="@+id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/username" android:textColor="#000000" android:textSize="7pt" android:layout_toRightOf="@id/login"/>
+  	<TextView  android:id="@+id/usertime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usertime" android:textColor="#000000" android:textSize="7pt" android:layout_toRightOf="@id/time" android:layout_below="@id/username"/>
+  	</RelativeLayout>
+	<include  android:layout_below="@id/letao" android:id="@id/android:list"  layout="@layout/common_listview" />
+	</LinearLayout>
+	<ImageView android:id="@+id/exitlogin" android:src="@drawable/exitlogin" android:layout_centerHorizontal="true" android:layout_below="@id/userinfor" android:layout_above="@id/bottommenu" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</RelativeLayout>

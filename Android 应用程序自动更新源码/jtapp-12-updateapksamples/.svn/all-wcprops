@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/jtapp-12-updateapksamples
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/jtapp-12-updateapksamples/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/jtapp-12-updateapksamples/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/jtapp-12-updateapksamples/proguard.cfg
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/jtapp-12-updateapksamples/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/jtapp-12-updateapksamples/AndroidManifest.xml
+END

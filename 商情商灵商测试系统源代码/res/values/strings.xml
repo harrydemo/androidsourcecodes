@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">3QTest</string>
+     <string name="username">用户名:</string>
+    <string name="pwd">密码:</string>
+    <string name="login">登录</string>
+    <string name="exit">退出</string>
+     <string name="success">成功</string>
+    <string name="fail">失败</string>
+    <string name="about">关于</string>
+    <string name="xzpei">星座配对</string>
+    <string name="xuexing">血型</string>
+    <string name="xingzuo">星座</string>
+     <string name="timerange">时间段</string>
+      <string name="bianhao">编号</string>
+    <string name="xingzuoList">星座列表</string>
+     <string name="shengxiao">生肖</string>
+      <string name="shengxiaoresult">你属:</string>
+       <string name="shengxiaotedian">该生肖人的特点:</string>
+     <string name="birthdayYear">出生年份:</string>
+    <string name="register">注册</string>
+    <string name="OK">确定</string>
+     <string name="sex">性别:</string>
+     <string name="age">年龄:</string>
+     <string name="man">男</string>
+     <string name="woman">女</string>
+    <string name="telephone">电话:</string>
+    <string name="title">提示</string>
+    <string name="shengxiaowarning">你输入的年份要大于15才能查询</string>
+    <string name="Detail">欢迎使用该娱乐软件,作者:陈棋,联系QQ:419499748</string>
+	<string name="nanxingzuo">男星座</string>
+	<string name="nvxingzuo">女星座</string>
+	<string name="backgroundMusic">背景音乐</string>
+	<string name="xingzuosel">选择一个星座</string>
+    <string-array name="xingzuoarray">
+        <item>白羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+        <item>摩羯座</item>
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+    </string-array>
+    <string name="xuexingsel">选择血型</string>
+    <string-array name="xuexingarray">
+        <item>O型血</item>
+        <item>A型血</item>
+        <item>B型血</item>
+        <item>AB型血</item>
+    </string-array>
+    <color name="white">#ffffff</color>
+	<color name="black">#000000</color>
+</resources>

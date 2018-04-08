@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/centre_bg" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include
+            android:id="@+id/citysport_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/top_1" />
+
+        <RelativeLayout
+            android:id="@+id/rl_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/citysport_top"
+            android:background="@drawable/slyday_bg1" >
+
+            <ImageView
+                android:id="@+id/slyday_xian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/slyday_xian" />
+
+            <ImageView
+                android:id="@+id/logo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/slyday_xian"
+                android:background="@drawable/sportke_icon" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/logo1"
+                android:layout_below="@+id/logo1"
+                android:text="@string/citysport_info" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_city_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_1"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="10px"
+            android:background="@drawable/sportke_bg1" >
+
+            <RelativeLayout
+                android:id="@+id/rl_city_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_1" >
+
+                <ImageView
+                    android:id="@+id/beijinsport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="10px"
+                    android:background="@drawable/beijinsport_icon" />
+
+                <LinearLayout
+                    android:id="@+id/ll_city_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/beijinsport"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/city_text_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/city_beijing"
+                        android:textColor="#444444"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/icon55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_margin="10px"
+                        android:background="@drawable/icon55" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_city_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_city_1"
+                    android:layout_toRightOf="@+id/beijinsport"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/icon17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:background="@drawable/icon17" />
+
+                    <TextView
+                        android:id="@+id/city_text_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10px"
+                        android:text="@string/city_time"
+                        android:textColor="#444444"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_city_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_city_2"
+                    android:layout_toRightOf="@+id/beijinsport"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/icon24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:background="@drawable/icon24" />
+
+                    <TextView
+                        android:id="@+id/city_text_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10px"
+                        android:text="@string/zhaoyang"
+                        android:textColor="#444444"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_city_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_city_3"
+                    android:layout_toRightOf="@+id/beijinsport"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/icon18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:background="@drawable/icon18" />
+
+                    <TextView
+                        android:id="@+id/city_text_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10px"
+                        android:text="@string/renshu"
+                        android:textColor="#444444"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/slyday_right_bj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20px"
+                android:layout_toRightOf="@+id/rl_city_1"
+                android:src="@drawable/sportsmain_item_righicon" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/city_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_city_11"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10px"
+            android:text="@string/city_other"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/citysport_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/bottom" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/logo" />
+
+</FrameLayout>

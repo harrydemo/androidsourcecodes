@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	>
+
+	<ImageView
+		android:id="@+id/db_image"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/g"
+		android:layout_centerHorizontal="true"
+	/>
+	<Button   
+		android:id="@+id/createDateBase"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="创建数据库"
+		android:layout_below="@id/db_image"
+	/>
+	<Button   
+		android:id="@+id/deleteDateBase"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="删除数据库"
+		android:layout_below="@id/createDateBase"
+	/>
+</RelativeLayout>
+
+ 

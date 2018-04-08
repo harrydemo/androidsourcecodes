@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="60px"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	
+	>
+	<ImageView 
+		android:layout_marginTop="12px"
+		android:layout_marginLeft="10px"
+		android:id="@+id/fImg" 
+		android:layout_width="40dip" 
+		android:layout_height="40dip"
+		
+		android:layout_centerVertical="true">
+	</ImageView>
+	
+	<TextView
+		android:id="@+id/uname"
+		android:text="lala"
+		android:layout_below="@id/fImg"
+		android:layout_marginLeft="12px"
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="14px">
+	</TextView>
+	
+	<TextView
+		android:id="@+id/title0"
+		android:text="标题:"
+		android:layout_toRightOf="@id/fImg"
+		android:layout_marginTop="10px"
+		android:layout_marginLeft="10px"
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	>
+	</TextView>
+	
+	<TextView
+		android:id="@+id/title1"
+		android:layout_toRightOf="@id/title0"
+		android:layout_marginTop="10px"
+		android:layout_marginLeft="5px"
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	>
+	</TextView>
+	
+	
+	<TextView
+		android:id="@+id/address0"
+		android:text="发起时间:"
+		android:layout_toRightOf="@id/fImg"	
+		android:layout_below="@id/title1"
+		android:layout_marginLeft="10px"
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+	</TextView>
+	<TextView
+		android:id="@+id/address1"
+		android:text="lala"
+		android:layout_toRightOf="@id/address0"
+		android:layout_below="@id/title1"
+		android:layout_marginLeft="5px"
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+	</TextView>
+	
+	<TextView
+		android:id="@+id/content0"
+		android:text="详情:"
+		android:layout_toRightOf="@id/fImg"
+		android:layout_below="@id/address1"
+		android:layout_marginLeft="10px"
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+	</TextView>
+	<TextView
+		android:id="@+id/content1"
+		android:text="lala"
+		android:layout_toRightOf="@id/content0"
+		android:layout_below="@id/address1"
+		android:layout_marginLeft="5px"
+		android:textColor="#6495ED"
+		android:layout_width="100px"
+		android:layout_height="wrap_content"
+		 android:singleLine="true"
+  		android:ellipsize="end"
+		
+		>
+	</TextView>
+	<TextView
+		android:id="@+id/content2"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="55dp"
+		android:textSize="8px"
+		
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+	</TextView>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/back"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>									<!-- 声明一个线性布局 -->
+	<SurfaceView
+		android:id="@+id/svCamera"
+		android:layout_width="320px"
+		android:layout_height="250px"
+		/>								<!-- 声明用于显示照相机镜头画面的SurfaceView -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+		<ImageButton
+			android:id="@+id/ibShoot"
+			android:src="@drawable/camera"
+			android:layout_width="48px"
+			android:layout_height="48px"
+		/>				
+		<Button	
+			android:id="@+id/btnShootBack"
+			style="@style/button"
+			android:layout_width="100px"
+			android:layout_height="wrap_content"
+			android:text="@string/btnBack"
+			/>
+		<Button	
+			android:id="@+id/btnUploadPhoto"
+			style="@style/button"
+			android:layout_width="120px"
+			android:layout_height="wrap_content"
+			android:text="@string/btnUploadPhoto"
+			/>
+		</LinearLayout>
+	<ImageView 
+		android:id="@+id/ivCamera"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+	</LinearLayout>

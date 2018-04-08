@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--pressed-->
+	<item android:state_pressed="true" android:state_selected="false"
+		android:drawable="@drawable/snap_dn" />
+	<!-- focused -->
+	<item android:state_focused="true" android:drawable="@drawable/snap_dn" />
+	<!-- disabled -->
+	<item android:state_enabled="false" android:state_selected="false"
+		android:drawable="@drawable/snap_disable" />
+	<!-- default -->
+	<item android:drawable="@drawable/snap" android:state_selected="false"
+		android:state_pressed="false" />
+</selector>

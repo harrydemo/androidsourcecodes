@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">短信小助手</string>
+    
+    <string name="bt01">开通</string>
+    <string name="bt02">关闭</string>
+    <string name="reply">快速回复</string>
+    
+    <string name="bind_service">短信监控已启动</string>
+    <string name="unbind_service">短信监控已关闭</string>
+    <string name="msg_body">现在有事忙，待会儿再回复。</string>
+    <string name="bt_close">关闭</string>    
+    <string name="bt_send">发送</string>    
+    <string name="bt_no">取消</string>    
+    
+    
+    <string name="filter">短信过滤</string>
+    <string name="set">设置</string>
+        
+    <string name="number">黑名单</string>    
+        
+        
+        
+        
+    <string name="add">增加</string>
+    <string name="delete">删除</string>
+    <string name="back">返回</string>        
+        
+        
+        
+        
+    <string name="about">关于</string>        
+    <string name="exit">退出</string>        
+    <string name="message">
+			作者：yujie360
+	</string>
+    <string name="ok">确定</string>
+    
+</resources>

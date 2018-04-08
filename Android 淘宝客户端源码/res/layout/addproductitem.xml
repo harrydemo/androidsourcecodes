@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:gravity="center" android:orientation="horizontal"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingTop="15dip" android:paddingBottom="15dip" android:id="@+id/addproduct"
+	xmlns:android="http://schemas.android.com/apk/res/android" >
+   <TextView  android:layout_width="fill_parent" android:layout_height="wrap_content"
+   android:text="商品列表" android:textSize="18sp" android:gravity="center_horizontal"
+   android:focusable="false" android:clickable="false"
+   android:layout_alignBaseline="@+id/imgAdd"
+   />
+    <ImageView android:layout_width="wrap_content" android:layout_gravity="top"
+		android:layout_height="wrap_content" 
+		android:id="@+id/imgAdd" 
+		android:focusable="false" android:clickable="false"
+		android:layout_centerVertical="true"
+		android:src="@drawable/add" android:layout_alignParentRight="true"></ImageView>
+</RelativeLayout> 

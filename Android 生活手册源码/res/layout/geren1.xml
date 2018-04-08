@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/geren1"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="64dp"
+            android:layout_height="67dp"
+            android:layout_x="27dp"
+            android:layout_y="120dp"
+            android:background="#00000000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="78dp"
+            android:layout_height="64dp"
+            android:layout_x="83dp"
+            android:layout_y="214dp"
+            android:background="#00000000" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="133dp"
+            android:layout_height="129dp"
+            android:layout_x="29dp"
+            android:layout_y="357dp"
+            android:background="#00000000" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="131dp"
+            android:layout_height="123dp"
+            android:layout_x="160dp"
+            android:layout_y="359dp"
+            android:background="#00000000" />
+    </AbsoluteLayout>
+
+</LinearLayout>

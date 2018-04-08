@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="146dp"
+    android:minWidth="146dp"
+    android:background="@drawable/bgblack"
+    android:id="@+id/Base"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingTop="5dip"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Month"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/Date"
+            android:textStyle="bold"
+            android:textSize="70sp"
+            android:textColor="#FFFFFF"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/WeekDay"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            ></TextView>
+    </LinearLayout>
+</LinearLayout>

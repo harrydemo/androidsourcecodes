@@ -1,0 +1,146 @@
+<ScrollView android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:background="@drawable/ww1">
+
+		<ImageView android:id="@+id/ImageView01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/pagetop"></ImageView>
+		<TextView android:text="添加旅游记忆" android:id="@+id/TextView01"
+			android:textColor="#6495ED" android:textSize="20dp"
+			android:layout_marginTop="10dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<View android:layout_width="fill_parent" android:layout_height="1dp"
+			android:background="#ffffff" android:layout_marginTop="5dp"></View>
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="15px" android:orientation="vertical">
+			<TextView android:text="标题:" android:id="@+id/TextView01"
+				android:layout_marginLeft="15dp" android:textColor="#6495ED"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			
+			<EditText android:hint="ccw" android:id="@+id/EditText01"
+				android:layout_marginLeft="15dp" android:layout_marginTop="5px"
+				android:layout_width="180px" android:layout_height="wrap_content"></EditText>
+		
+			
+
+</LinearLayout>
+
+		<LinearLayout android:id="@+id/LinearLayout06" android:layout_marginTop="10dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="@drawable/bg2" android:orientation="vertical">
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical" android:layout_marginTop="15px">
+			<TextView android:text="地点:" android:id="@+id/TextView02"
+				android:layout_marginLeft="15dp" android:textColor="#6495ED"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<LinearLayout android:id="@+id/LinearLayout03"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:orientation="horizontal" android:layout_marginLeft="15dp">
+				
+				
+				<Spinner android:id="@+id/Spinner01" android:layout_width="wrap_content"
+					android:layout_marginTop="5px" android:layout_height="wrap_content"></Spinner>
+				<Spinner android:id="@+id/Spinner02" android:layout_width="wrap_content"
+					android:layout_marginTop="5px"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					></Spinner>
+				<Spinner 
+					android:id="@+id/Spinner03" android:layout_width="wrap_content"
+					android:layout_marginTop="5px" android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					></Spinner>
+			</LinearLayout>
+		</LinearLayout>
+
+
+		<LinearLayout android:id="@+id/LinearLayout04"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginTop="15px" android:orientation="vertical">
+
+			<TextView android:text="记忆内容:" android:id="@+id/TextView03"
+				android:layout_marginLeft="15dp" android:textColor="#6495ED"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:id="@+id/EditText02" android:layout_marginLeft="15dp"
+				android:layout_marginTop="5px" android:layout_width="290dp"
+				android:layout_height="190px"></EditText>
+
+		</LinearLayout>
+
+
+
+		<LinearLayout android:id="@+id/LinearLayout05"
+			android:layout_marginTop="15px" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<Button android:text="发布记忆" android:id="@+id/Button011"
+				android:layout_marginLeft="15dp"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+			<Button android:text="保存记忆" android:id="@+id/Button02"
+				android:layout_marginLeft="20px" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></Button>
+			<Button android:text="添加地标" android:id="@+id/Button03"
+				android:layout_marginLeft="20px" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></Button>
+			
+		</LinearLayout>
+		<Button android:text="查看地标" android:id="@+id/Button09"
+			android:layout_marginLeft="10dp"
+			android:layout_width="295dp" android:layout_height="wrap_content"></Button>
+		</LinearLayout>
+		
+			<LinearLayout android:id="@+id/LinearLayout07"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:orientation="vertical" android:layout_marginTop="5px"
+				android:layout_marginLeft="15px">
+				<LinearLayout android:id="@+id/LinearLayout010"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:orientation="horizontal" >
+				
+				<TextView android:text="标题:" android:id="@+id/TextView041"
+				 android:layout_width="wrap_content"
+				android:textColor="#6495ED" android:layout_height="wrap_content"></TextView>
+				<TextView  android:id="@+id/TextView05" android:textColor="#6495ED"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</LinearLayout>
+				<LinearLayout android:id="@+id/LinearLayout011"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:orientation="horizontal" >
+				
+				<TextView android:text="类型:" android:id="@+id/TextView042"
+				 android:layout_width="wrap_content"
+				android:textColor="#6495ED" android:layout_height="wrap_content"></TextView>
+				<TextView  android:id="@+id/TextView06" android:textColor="#6495ED"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</LinearLayout>
+				<LinearLayout android:id="@+id/LinearLayout012"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:orientation="horizontal" >
+				
+			<TextView android:text="内容:" android:id="@+id/TextView043"
+					 android:layout_width="wrap_content"
+					android:textColor="#6495ED" android:layout_height="wrap_content"></TextView>
+				<TextView  android:id="@+id/TextView07" android:textColor="#6495ED"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				</LinearLayout>
+				</LinearLayout>
+		
+		<TextView android:text="目前存在的地标信息:" android:id="@+id/TextView04"
+			android:layout_marginTop="15px" android:layout_width="wrap_content"
+			android:textColor="#6495ED"
+			android:layout_height="wrap_content"></TextView>
+		<View android:layout_width="fill_parent" android:layout_height="1dp"
+			android:background="#ffffff" android:layout_marginTop="10dp"></View>
+
+
+		<ListView android:id="@+id/ListView01" android:layout_width="wrap_content"
+			android:layout_height="200dp"></ListView>
+		<!--<ListView android:id="@+id/ListView02" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ListView>
+
+--></LinearLayout>
+</ScrollView>

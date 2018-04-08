@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:stretchColumns="*"
+  android:background="@color/gray"
+  android:padding="2pt"
+>
+  <TableRow>
+    <TextView
+      android:id="@+id/about_header"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="10pt"
+      android:text="@string/HelpHeader"
+      android:textColor="@color/black"
+      android:textStyle="bold"/>
+  </TableRow>
+  <TableRow>
+    <TextView
+      android:id="@+id/about_content"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:autoLink="all"
+      android:text="@string/HelpText"
+      android:textColor="@color/black"/>
+    </TableRow>
+</TableLayout>

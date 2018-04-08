@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!--  -->
+    <TextView  
+		android:id="@+id/note_textview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center_horizontal|center_vertical"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:paddingLeft="10dip"
+	    android:text="@string/alarm_list"
+	    android:textColor="#FF000000" 
+		android:textSize="30dip"
+		android:textStyle="bold"
+		android:paddingTop="6dip"
+		android:paddingBottom="6dip"
+     />
+    
+	<ListView
+		android:id="@+id/alarm_list"
+		   
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+	/>
+	<TextView  
+		android:id="@+id/add_textview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center_horizontal|center_vertical"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:paddingLeft="10dip"
+	    android:text="@string/str_add"
+	    android:textColor="#FF000000" 
+		android:textSize="20dip"
+		android:textStyle="bold"
+		android:paddingTop="6dip"
+		android:paddingBottom="6dip"
+     />
+</LinearLayout>

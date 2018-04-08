@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RingtonePro</string>
+    <string name="up_one_level">...</string>
+    <string name="none"> </string>
+    
+    
+    
+    <string name="confirm">确认</string>
+    <string name="exit">退出</string>
+    <string name="about">关于</string>
+    <string name="about_app_name">铃声管理软件\n</string>
+    <string name="about_app_moto">Make It Fun！\n</string>
+    <string name="about_app_ver">Version： 1.0.0\n</string>
+    <string name="about_app_homepage">WebSite：http://www.mifapps.com\n</string>
+    <string name="about_app_mail">Mail：tmddnr@gmail.com\n ffts133@gmail.com</string>
+    <string name="about_android">ANDROID</string>
+    
+    <string name="tips">提示：长按进行设置</string>
+	<string name="setRingtone">设置为电话铃声</string>
+	<string name="setNotification">设置为提示铃声</string>
+	<string name="setAlarm">设置为闹钟铃声</string>
+	<string name="delete">从列表中移除</string>
+	<string name="neverMind">取消</string>
+	<string name="setRingtoneSucceed">电话铃声已设置</string>
+	<string name="setNotificationSucceed">提示音已设置</string>
+	<string name="setAlarmSucceed">闹钟铃声已设置</string>
+	<string name="declaration">声明</string>
+</resources>
+

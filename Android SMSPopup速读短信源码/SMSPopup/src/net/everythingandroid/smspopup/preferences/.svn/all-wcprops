@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/322/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences
+END
+AppEnabledCheckBoxPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/77/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/AppEnabledCheckBoxPreference.java
+END
+CustomVibrateListPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/190/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/CustomVibrateListPreference.java
+END
+TestNotificationDialogPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/216/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/TestNotificationDialogPreference.java
+END
+DialogCheckBoxPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/80/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/DialogCheckBoxPreference.java
+END
+EmailDialogPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/239/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/EmailDialogPreference.java
+END
+ButtonListPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/184/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/ButtonListPreference.java
+END
+CustomLEDPatternListPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/190/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/CustomLEDPatternListPreference.java
+END
+CustomLEDColorListPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/190/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/CustomLEDColorListPreference.java
+END
+NotificationIconListPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/282/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/NotificationIconListPreference.java
+END
+QuickReplyCheckBoxPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/322/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/QuickReplyCheckBoxPreference.java
+END
+DialogPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/89/trunk/SMSPopup/src/net/everythingandroid/smspopup/preferences/DialogPreference.java
+END

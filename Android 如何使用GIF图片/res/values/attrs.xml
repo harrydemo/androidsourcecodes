@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<declare-styleable name="com.wooboo.adlib_android.WoobooAdView">
+		<attr name="backgroundColor" format="color" /> <!-- 广告背景颜色 默认为黑色 -->
+		<attr name="textColor" format="color" /><!-- 广告文字颜色 默认为白色 -->
+		<attr name="testing" format="boolean" /><!-- 广告是否处于测试状态 为保证您的收益，请你在上传或者发布apk之前把该参数设置成false，默认为false -->
+		<attr name="refreshInterval" format="integer" /><!-- 广告请求时间间隔 -->	
+	</declare-styleable>
+</resources>

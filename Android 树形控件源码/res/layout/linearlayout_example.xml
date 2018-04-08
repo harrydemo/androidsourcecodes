@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textColor="#ff00ff" android:textSize="12pt"
+		android:text="LinearLayout 水平布局时，可进行表单排版"	
+	/>
+	 <LinearLayout android:orientation="horizontal"
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="300dip"
+	 	android:layout_weight="1" android:background="#00000f"
+	 >
+	 	<TextView android:id="@+id/lbl_name" 
+	 		android:text="姓名：" android:textSize="12pt"
+	 		android:gravity="right"
+	 		android:layout_width="200dip" android:layout_height="wrap_content"
+			android:paddingRight="5dip" android:layout_weight="1" android:singleLine="true"
+	 	/>
+	 	<EditText android:id="@+id/txt_name" android:textSize="12pt"
+	 		android:gravity="center_vertical"
+	 		android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="2" android:singleLine="true" android:text="程明卫" 
+	 	/>
+	 </LinearLayout>
+	 <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textColor="#ff00ff" android:textSize="12pt"
+		android:text="----------------------------------"	
+	/>
+	
+	
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textColor="#ff00ff" android:textSize="12pt"
+		android:text="LinearLayout 垂直布局时，元素从上往下挨着排"	
+	/>
+	 <LinearLayout android:orientation="vertical"
+	 	android:layout_width="fill_parent"
+	 	android:layout_height="fill_parent"
+	 	android:layout_weight="1" android:background="#00000f"
+	 >
+	 	<TextView android:id="@+id/lbl_first" 
+	 		android:text="第一个：老大" android:textSize="12pt"
+	 		android:gravity="left"
+	 		android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingRight="5dip" android:layout_weight="1" android:singleLine="true"
+	 	/>
+	 		<TextView android:id="@+id/lbl_second" 
+	 		android:text="第一个：老二" android:textSize="12pt"
+	 		android:gravity="left"
+	 		android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingRight="5dip" android:layout_weight="1" android:singleLine="true"
+	 	/>
+	 		<TextView android:id="@+id/lbl_three" 
+	 		android:text="第一个：老三" android:textSize="12pt"
+	 		android:gravity="left"
+	 		android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingRight="5dip" android:layout_weight="2" android:singleLine="true"
+	 	/>
+	 </LinearLayout>
+ </LinearLayout>

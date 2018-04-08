@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gpstest/!svn/ver/24/AndroidApp1/src/com/orange/gpstest
+END
+Settings.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/gpstest/!svn/ver/24/AndroidApp1/src/com/orange/gpstest/Settings.java
+END
+MainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/gpstest/!svn/ver/22/AndroidApp1/src/com/orange/gpstest/MainActivity.java
+END
+StaticGPSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/gpstest/!svn/ver/24/AndroidApp1/src/com/orange/gpstest/StaticGPSTest.java
+END
+MainApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/gpstest/!svn/ver/23/AndroidApp1/src/com/orange/gpstest/MainApp.java
+END
+ChronoTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/gpstest/!svn/ver/22/AndroidApp1/src/com/orange/gpstest/ChronoTimer.java
+END
+GPSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/gpstest/!svn/ver/22/AndroidApp1/src/com/orange/gpstest/GPSTest.java
+END
+IChronoEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/gpstest/!svn/ver/22/AndroidApp1/src/com/orange/gpstest/IChronoEventListener.java
+END
+SatelitteView.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/gpstest/!svn/ver/24/AndroidApp1/src/com/orange/gpstest/SatelitteView.java
+END
+TrackingGPSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/gpstest/!svn/ver/24/AndroidApp1/src/com/orange/gpstest/TrackingGPSTest.java
+END
+SettingsUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/gpstest/!svn/ver/24/AndroidApp1/src/com/orange/gpstest/SettingsUI.java
+END

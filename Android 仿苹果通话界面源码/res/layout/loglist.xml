@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/peoplebg"
+    tools:context=".Notic" >
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp"
+        android:lines="2"
+        android:textColor="@drawable/dialcolor"
+        android:textSize="28sp" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/date"
+        android:gravity="center_vertical"
+        android:paddingLeft="3dp"
+        android:singleLine="true"
+        android:textColor="@drawable/dialcolor"
+        android:textSize="32sp" />
+
+</RelativeLayout>

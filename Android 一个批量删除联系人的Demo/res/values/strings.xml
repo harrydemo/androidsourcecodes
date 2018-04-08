@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ContactManagerActvity!</string>
+    <string name="app_name">Contact Manager</string>
+    <string name="call">拨打电话</string>
+    <string name="sms">发送短信</string>
+    <string name="delete">删除记录</string>
+    <string name="cancel">取消操作</string>
+</resources>

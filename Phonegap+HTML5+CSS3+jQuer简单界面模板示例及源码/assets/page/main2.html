@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <!--自适应界面,如果出现,在某些设备出现界面偏小的话,检查一下有没有加入这句 -->
+    <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+
+	<link rel="stylesheet" href="../css/jquery.mobile-1.0.1.min.css" />
+	
+	<script src="../js/jquery.js"></script>
+	<script src="../js/jquery.mobile-1.0.1.min.js"></script>
+	<script src="../js/cordova-1.5.0.js"></script>
+	
+</head>
+<body>
+
+    <div data-role="header" data-position="fixed">
+				<h1>资讯沟通</h1>
+	</div>
+	<div data-role="content" id="main2Content" >
+
+		<ol data-role="listview"  data-filter="true">
+			<li><a href="#">资讯1 <span class="ui-li-count">12</span></a></li>
+			<li><a href="#">资讯2 <span class="ui-li-count">1</span></a></li>
+			<li><a href="#">资讯3 <span class="ui-li-count">312</span></a></li>
+			<li><a href="#"><img src="../image/gf.png" alt="France" class="ui-li-icon">资讯4</a></li>
+			<li><a href="#"><img src="../image/de.png" alt="France" class="ui-li-icon">资讯5</a></li>
+			<li><a href="#"><img src="../image/gb.png" alt="France" class="ui-li-icon">资讯6</a></li>
+			<li><a href="#">资讯7</a></li>
+			<li><a href="#">资讯8</a></li>
+			<li><a href="#">资讯9</a></li>
+			
+		</ol>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="main.html" data-icon="grid"  rel="external">工作</a></li>
+				<li><a href="#" data-icon="info"  class="ui-btn-active" >资讯</a></li>
+				<li><a href="main3.html" data-icon="gear"  rel="external" >设置</a></li>
+				<li><a href="main4.html" data-icon="search"  rel="external"  >地图</a></li>
+			</ul>
+		</div>		
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/widLinear" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:clipChildren="true" android:background="@drawable/shortcallbg">
+<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/widImageCall" android:layout_gravity="center" android:layout_marginTop="8dip" android:background="@drawable/callbtn" android:focusable="true" android:clickable="true"></ImageView>
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:id="@+id/widNameText" android:layout_gravity="center" android:width="70dip" android:text="黄海燕" android:gravity="center" android:textColor="@color/fontColor"></TextView>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal">	
+
+	
+	<TextView
+		android:id="@+id/title1"
+		android:layout_marginLeft="20px"
+		
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	>
+	</TextView>
+	
+	
+	<TextView
+		android:id="@+id/address0"
+		android:text="对你说："
+		
+		android:layout_marginLeft="10px"
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+	</TextView>
+	<TextView
+		android:id="@+id/address1"
+		android:layout_marginLeft="5px"
+		
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+	</TextView>
+	<TextView
+		android:id="@+id/content2"
+		android:layout_marginLeft="10px"
+		android:textSize="8px"
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+</TextView>
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cn.daming.deskclock"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <original-package android:name="com.cn.daming.deskclock" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    
+    <application
+        android:icon="@drawable/clock_launcher"
+        android:label="@string/app_name" >
+        
+        <provider android:name="AlarmProvider"
+                android:authorities="com.cn.daming.deskclock"
+                android:exported="false" />
+        
+        <activity
+            android:label="@string/app_name"
+            android:name=".DeskClockMainActivity" 
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
+            android:icon="@drawable/clock_launcher"
+            android:launchMode="singleInstance"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation">
+            
+            <!-- while docked, this is our home application -->
+            <meta-data android:name="android.dock_home" android:value="true" />
+            
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DESK_DOCK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="SetAlarm" android:label="@string/set_alarm"
+                android:configChanges="orientation|keyboardHidden|keyboard|navigation" />
+        
+        <activity android:name="SettingsActivity"
+                android:label="@string/settings"
+                android:taskAffinity=""
+                android:excludeFromRecents="true"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+       <activity android:name="AlarmAlertFullScreen"
+           android:excludeFromRecents="true"
+           android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
+           android:launchMode="singleInstance"
+           android:taskAffinity=""
+           android:configChanges="orientation|keyboardHidden|keyboard|navigation"/>
+
+        <receiver android:name="AlarmReceiver">
+            <intent-filter>
+                <action android:name="com.cn.daming.deskclock.ALARM_ALERT" />
+                <action android:name="alarm_killed" />
+                <action android:name="cancel_snooze" />
+            </intent-filter>
+        </receiver>
+            
+        <activity android:name="AlarmAlert"
+            android:excludeFromRecents="true"
+            android:theme="@style/alarm_alert"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"/>
+            
+        
+        <activity android:name="HandleSetAlarm"
+                android:theme="@android:style/Theme.NoDisplay"
+                android:excludeFromRecents="true"
+                android:permission="com.android.alarm.permission.SET_ALARM">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- This service receives the same intent as AlarmReceiver but it does
+             not respond to the same broadcast. The AlarmReceiver will receive
+             the alert broadcast and will start this service with the same
+             intent. The service plays the alarm alert and vibrates the device.
+             This allows the alert to continue playing even if another activity
+             causes the AlarmAlert activity to pause. -->
+        <service android:name="AlarmKlaxon"
+                android:description="@string/alarm_klaxon_service_desc"
+                >
+            <intent-filter>
+                <action android:name="com.cn.daming.deskclock.ALARM_ALERT" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="AlarmInitReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

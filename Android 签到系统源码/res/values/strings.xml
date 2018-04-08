@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">SamG_CheckInApp</string>
+    <string name="title_activity_main">SamG_CheckInApp</string>
+    <string name="btn">--签到--</string>
+    <string name="txt1">姓名*</string>
+    <string name="txt2">学校</string>
+    <string name="txt3">性别</string>
+    <string name="txt4">联系电话*</string>
+    <string name="editText1">请输入姓名</string>
+    <string name="editText2">请输入电话</string>
+    <string name="radioBtn1">男</string>
+    <string name="radioBtn2">女</string>
+    <string name="btn1">清除数据库</string>
+
+</resources>

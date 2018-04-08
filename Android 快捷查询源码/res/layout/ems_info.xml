@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="260dp"
+  android:layout_height="200dp" 
+  android:layout_marginTop="100dp" 
+  android:background="@drawable/bg">
+  
+  
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/ems_company"/>
+						
+			  <TextView android:id="@+id/ems_company" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/ems_order"/>
+						
+			  <TextView android:id="@+id/ems_order" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/ems_time"/>
+						
+			  <TextView android:id="@+id/ems_time" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp"
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/ems_context"/>
+						
+			  <TextView android:id="@+id/ems_context" 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+	
+	<TableRow android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:layout_marginTop="10dp" 
+			  android:paddingLeft="10dp"
+			  >
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:textColor="@color/white"
+						android:text="@string/ems_message"/>
+						
+			  <TextView 
+			  		    android:layout_width="wrap_content" 
+			  		    android:layout_height="wrap_content" 
+			  		    android:layout_weight="0.5" 
+			  		    android:text="@string/ems_tip"
+			  		    android:textColor="@color/white"
+						/>						
+						
+	</TableRow>	
+
+  		    
+</TableLayout>

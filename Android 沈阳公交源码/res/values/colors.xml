@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="white">#FFFFFFFF</color>
+	<color name="transparency">#00000000</color>
+	<color name="title_bg">#FF00115F</color>
+	<color name="end_color">#A0cfef83</color>
+	<drawable name="white">#FFFFFFFF</drawable> 
+  <drawable name="black">#000000</drawable> 
+  <drawable name="blue">#0000FF</drawable> 
+ 
+  <drawable name="blue1">#3657FC</drawable> 
+  <drawable name="red">#FF0000</drawable> 
+  <drawable name="blu">#456E99</drawable> 
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">京东商城</string>
+    <string name="ActivityMainTitle">京东商城</string>
+    <string name="main_navigation_home">首页</string>
+    <string name="main_navigation_catagory">分类</string>
+    <string name="main_navigation_car">购物车</string>
+    <string name="main_code_buy">我的京东</string>
+    <string name="main_navigation_more">更多</string>
+    <string name="app_close">关闭应用程序</string>
+    <string name="btn_cancel">取 消</string>
+    <string name="btn_ok">确 定</string>
+    <string name="cart_item_hint">购物车还是空的,快去选购吧~ !</string>
+
+</resources>

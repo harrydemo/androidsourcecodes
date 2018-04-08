@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:Android="http://schemas.android.com/apk/res/android"
+    Android:layout_width="fill_parent"
+    Android:layout_height="fill_parent"
+    Android:background="@color/runbackground"
+    Android:orientation="vertical" >
+
+    <TextView
+        Android:id="@+id/marquee"
+        Android:layout_width="400px"
+        Android:layout_height="wrap_content"
+        Android:ellipsize="marquee"
+        Android:focusable="true"
+        Android:focusableInTouchMode="true"
+        Android:marqueeRepeatLimit="marquee_forever"
+        Android:scrollHorizontally="true"
+        Android:text="Marquee：look!this is marquee!!!"
+        Android:textColor="@android:color/white"
+        Android:textSize="50dip" />
+    <TextView 
+        Android:layout_width="wrap_content"
+        Android:layout_height="wrap_content"
+        Android:text="marquee test;"
+        
+        />
+
+</LinearLayout>

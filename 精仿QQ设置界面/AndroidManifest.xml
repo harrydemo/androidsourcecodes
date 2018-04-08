@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.genius.demo"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+
+    <application android:icon="@drawable/h001" >
+    
+        <activity android:name=".QQUIDemoActivity">
+        </activity>
+       
+        
+        <activity android:name=".SettingActivity"
+                  android:label="设置与帮助"
+                  android:theme="@style/Default"
+                  android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name=".SkinActivity"
+         		  android:alwaysRetainTaskState="true"
+         		  android:theme="@android:style/Theme.NoTitleBar"
+         		  android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        
+        <activity android:name=".TrafficStatActivity"
+        	  	  android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        
+        <activity android:name=".FriendInfoActivity"
+                    android:theme="@android:style/Theme.NoTitleBar"
+                    android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        
+    </application>
+</manifest>
+
+
+

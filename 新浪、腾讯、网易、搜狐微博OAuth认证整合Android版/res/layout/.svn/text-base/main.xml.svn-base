@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+    
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/qqBtn"
+		android:text="登录腾讯微薄"/>
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/sinaBtn"
+		android:text="登录新浪微薄"/>
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/sohuBtn"
+		android:text="登录搜狐微薄"/>
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/wangyiBtn"
+		android:text="登录网易微薄"/>
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="欢迎加入Android开发技术讨论组【68114641】"/>
+</LinearLayout>

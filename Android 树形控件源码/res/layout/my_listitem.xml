@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/MyListItem"
+    android:paddingLeft="10dip" android:paddingRight="10dip"
+    android:paddingBottom="1dip" android:paddingTop="1dip">
+	<TextView   
+       android:id="@+id/itemCaption"   
+       android:layout_height="30dip"   
+       android:layout_width="180dip"  
+       android:paddingTop="4dip" 
+       android:textSize="6pt"
+        android:singleLine="true">  
+    </TextView>  
+    <TextView   
+       android:layout_height="fill_parent"   
+       android:layout_width="fill_parent"   
+       android:id="@+id/itemActivityCls"
+       android:gravity="right"
+        android:paddingTop="4dip" 
+       android:textSize="6pt">  
+    </TextView>  
+</LinearLayout>

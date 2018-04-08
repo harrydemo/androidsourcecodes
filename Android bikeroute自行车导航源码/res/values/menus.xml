@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="park_title">Park</string>
+<string name="unpark_title">Unpark</string>
+<string name="center_title">My Location</string>
+<string name="navigate_title">Navigate</string>
+<string name="back_title">Back to bike</string>
+<string name="showstands_title">Nearby bike stands</string>
+<string name="directions_title">Directions</string>
+<string name="turnbyturn">Show turn by turn</string>
+<string name="map_title">Route map</string>
+<string name="prefs_title">Preferences</string>
+<string name="nearstands_title">Nearest stand</string>
+<string name="contacts_title">Navigate to Contact</string>
+<string name="feedback_title">Feedback on this route</string>
+<string name="save_title">Save</string>
+<string name="favourites">Favourites</string>
+</resources>

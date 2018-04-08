@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Karaoke4MobileActivity!</string>
+    <string name="app_name">Karaoke4Mobile</string>
+    
+    <string name="help">帮助</string>
+    <string name="site">网站</string>
+    <string name="reback">反馈</string>
+    <string name="download">下载</string>
+    <string name="set">设置</string>
+    <string name="back">返回</string>
+    
+    <string name="last">后退</string>
+    <string name="next">前进</string>
+    <string name="pause">暂停</string>
+    <string name="rec">跟读</string>
+
+</resources>

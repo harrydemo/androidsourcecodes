@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">QinZDLock</string>
+    <string name="hint_unlock">向右滑动结束提醒</string>
+</resources>

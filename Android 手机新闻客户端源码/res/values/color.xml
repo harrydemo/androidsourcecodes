@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="white">#0fff00</color>    
+<color name="grid_title_color">#b2b2b2</color>
+    <item type="drawable" name="background1">#D2D2D2</item>
+    <item type="drawable" name="pressbackground">#686B74</item>
+</resources>

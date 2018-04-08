@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="progressStyle" width="38" height="38" 
+    	parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/loading</item>
+    </style>
+</resources>

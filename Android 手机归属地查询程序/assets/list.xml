@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<QueryResponse xmlns="http://api.showji.com/Locating/">
+  <Mobile>15015888888</Mobile> 
+  <QueryResult>True</QueryResult> 
+  <Province>广东</Province> 
+  <City>佛山</City> 
+  <AreaCode>0757</AreaCode> 
+  <PostCode>528000</PostCode> 
+  <Corp>中国移动</Corp> 
+  <Card>GSM</Card> 
+ </QueryResponse>

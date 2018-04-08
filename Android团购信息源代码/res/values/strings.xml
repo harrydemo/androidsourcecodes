@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, 团购Activity!</string>
+	<string name="app_name">我团团</string>
+	<string name="buy">网上购买</string>
+	<string name="fav">加入收藏</string>
+	
+	<string name="top_title">今日最新团购</string>
+	<string name="city">城</string>
+	<string name="meituan">美团网</string>
+	<string name="lashou">拉手网</string>
+	<string name="ftuan">F团网</string>
+	<string name="nuomi">糯米网</string>
+	
+	<string name="mycollect">我的收藏</string>
+	
+	<string name="back">后退</string>
+	<string name="collect">我的收藏</string>
+	<string name="back_main">回首页</string>
+	<string name="delete">全部删除</string>
+	
+	<string name="author">作者</string>
+	<string name="QQ">QQ:32426262</string>
+	<string name="email">邮件:kangkangz4@126.com</string>
+	<string name="suggest">您有什么建议?</string>
+	
+	<string-array name="citys">
+		<item>beijing</item>
+		<item>shanghai</item>
+		<item>guangzhou</item>
+		<item>shenzhen</item>
+		<item>tianjin</item>
+		<item>wuhan</item>
+		<item>hangzhou</item>
+		<item>nanjing</item>
+		<item>chengdu</item>
+		<item>chongqing</item>
+
+		<item>xian</item>
+		<item>zhengzhou</item>
+		<item>dalian</item>
+		<item>qingdao</item>
+		<item>changsha</item>
+		<item>jinan</item>
+		<item>xiamen</item>
+		<item>haerbin</item>
+		<item>wuxi</item>
+		<item>suzhou</item>
+
+		<item>A</item>
+		<item>anshan</item>
+		<item>anyang</item>
+		
+		<item>B</item>
+		<item>beijing</item>
+		<item>baoding</item>
+		<item>baoji</item>
+		<item>baotou</item>
+		<item>beihai</item>
+		
+		<item>C</item>
+		<item>chengdu</item>
+		<item>chongqing</item>
+		<item>changsha</item>
+		<item>changzhou</item>
+		<item>changchun</item>
+		<item>changde</item>
+		<item>chifeng</item>
+		<item>chengde</item>
+		<item>chenzhou</item>
+		<item>chaozhou</item>
+		
+		<item>D</item>
+		<item>dalian</item>
+		<item>dongguan</item>
+		<item>dongying</item>
+		<item>dezhou</item>
+		<item>deyang</item>
+		<item>datong</item>
+		<item>daqing</item>
+		<item>dali</item>
+		
+		<item>F</item>
+		<item>fuzhou</item>
+		<item>fushun</item>
+		<item>foshan</item>
+		
+		<item>G</item>
+		<item>guangzhou</item>
+		<item>guilin</item>
+		<item>guiyang</item>
+		<item>ganzhou</item>
+		
+		<item>H</item>
+		<item>hangzhou</item>
+		<item>hefei</item>
+		<item>haerbin</item>
+		<item>haikou</item>
+		<item>huhehaote</item>
+		<item>huizhou</item>
+		<item>hengyang</item>
+		<item>heze</item>
+		<item>heyuan</item>
+		
+		<item>J</item>
+		<item>jinan</item>
+		<item>jilin</item>
+		<item>jiujiang</item>
+		<item>jinzhou</item>
+		<item>jinhua</item>
+		
+		<item>K</item>
+		<item>kunming</item>
+		<item>kunshan</item>
+		<item>kaifeng</item>
+		
+		<item>L</item>
+		<item>langfang</item>
+		<item>luoyang</item>
+		<item>lianyungang</item>
+		<item>lijiang</item>
+		<item>liuzhou</item>
+		<item>liaoyang</item>
+		<item>lanzhou</item>
+		<item>lasa</item>
+		
+		<item>M</item>
+		<item>mianyang</item>
+		<item>maoming</item>
+		
+		<item>N</item>
+		<item>nanjing</item>
+		<item>nanchang</item>
+		<item>ningbo</item>
+		<item>nanning</item>
+		
+		<item>Q</item>
+		<item>qingdao</item>
+		<item>qiqihaer</item>
+		<item>quanzhou</item>
+		<item>qinhuangdao</item>
+		
+		<item>S</item>
+		<item>shanghai</item>
+		<item>shenzhen</item>
+		<item>shenyang</item>
+		<item>suzhou</item>
+		<item>shijiazhuang</item>
+		<item>shaoxing</item>
+		<item>shantou</item>
+		<item>shunde</item>	
+		<item>shaoguan</item>
+		<item>sanya</item>
+		
+		<item>T</item>
+		<item>tianjin</item>
+		<item>taiyuan</item>
+		<item>taizhou</item>
+		<item>tangshan</item>
+		
+		<item>W</item>
+		<item>wuhan</item>
+		<item>wuxi</item>
+		<item>wenzhou</item>
+		<item>wulumuqi</item>
+		<item>weihai</item>
+		
+		<item>X</item>
+		<item>xian</item>
+		<item>xiamen</item>
+		<item>xuzhou</item>
+		<item>xining</item>
+		
+		<item>Y</item>
+		<item>yantai</item>
+		<item>yinchuan</item>
+		<item>yangzhou</item>
+		
+		<item>Z</item>
+		<item>zhengzhou</item>
+		<item>zibo</item>
+		<item>zhuhai</item>
+		<item>zhuzhou</item>
+		<item>zhongshan</item>
+		<item>zhanjiang</item>
+
+	</string-array>
+
+
+	<string-array name="citys_china">
+		<item>北京</item>
+		<item>上海</item>
+		<item>广州</item>
+		<item>深圳</item>
+		<item>天津</item>
+		<item>武汉</item>
+		<item>杭州</item>
+		<item>南京</item>
+		<item>成都</item>
+		<item>重庆</item>
+
+		<item>西安</item>
+		<item>郑州</item>
+		<item>大连</item>
+		<item>青岛</item>
+		<item>长沙</item>
+		<item>济南</item>
+		<item>厦门</item>
+		<item>哈尔滨</item>
+		<item>无锡</item>
+		<item>苏州</item>
+
+		<item>A</item>
+		<item>鞍山</item>
+		<item>安阳</item>
+		
+		<item>B</item>
+		<item>北京</item>
+		<item>保定</item>
+		<item>宝鸡</item>
+		<item>包头</item>
+		<item>北海</item>
+		
+		<item>C</item>
+		<item>成都</item>
+		<item>重庆</item>
+		<item>长沙</item>
+		<item>常州</item>
+		<item>长春</item>
+		<item>常德</item>
+		<item>赤峰</item>
+		<item>承德</item>
+		<item>郴州</item>
+		<item>潮州</item>
+		
+		<item>D</item>
+		<item>大连</item>
+		<item>东莞</item>
+		<item>东营</item>
+		<item>德州</item>
+		<item>德阳</item>
+		<item>大同</item>
+		<item>大庆</item>
+		<item>大理</item>
+		
+		<item>F</item>
+		<item>福州</item>
+		<item>抚顺</item>
+		<item>佛山</item>
+		
+		<item>G</item>
+		<item>广州</item>
+		<item>桂林</item>
+		<item>贵阳</item>
+		<item>赣州</item>
+		
+		<item>H</item>
+		<item>杭州</item>
+		<item>合肥</item>
+		<item>哈尔滨</item>
+		<item>海口</item>
+		<item>呼和浩特</item>
+		<item>惠州</item>
+		<item>衡阳</item>
+		<item>菏泽</item>
+		<item>河源</item>
+		
+		<item>J</item>
+		<item>济南</item>
+		<item>吉林</item>
+		<item>九江</item>
+		<item>锦州</item>
+		<item>金华</item>
+		
+		<item>K</item>
+		<item>昆明</item>
+		<item>昆山</item>
+		<item>开封</item>
+		
+		<item>L</item>
+		<item>廊坊</item>
+		<item>洛阳</item>
+		<item>连云港</item>
+		<item>丽江</item>
+		<item>柳州</item>
+		<item>辽阳</item>
+		<item>兰州</item>
+		<item>拉萨</item>
+		
+		<item>M</item>
+		<item>绵阳</item>
+		<item>茂名</item>
+		
+		<item>N</item>
+		<item>南京</item>
+		<item>南昌</item>
+		<item>宁波</item>
+		<item>南宁</item>
+		
+		<item>Q</item>
+		<item>青岛</item>
+		<item>齐齐哈尔</item>
+		<item>泉州</item>
+		<item>秦皇岛</item>
+		
+		<item>S</item>
+		<item>上海</item>
+		<item>深圳</item>
+		<item>沈阳</item>
+		<item>苏州</item>
+		<item>石家庄</item>
+		<item>绍兴</item>
+		<item>汕头</item>
+		<item>顺德</item>	
+		<item>韶关</item>
+		<item>三亚</item>
+		
+		<item>T</item>
+		<item>天津</item>
+		<item>太原</item>
+		<item>台州</item>
+		<item>唐山</item>
+		
+		<item>W</item>
+		<item>武汉</item>
+		<item>无锡</item>
+		<item>温州</item>
+		<item>乌鲁木齐</item>
+		<item>威海</item>
+		
+		<item>X</item>
+		<item>西安</item>
+		<item>厦门</item>
+		<item>徐州</item>
+		<item>西宁</item>
+		
+		<item>Y</item>
+		<item>烟台</item>
+		<item>银川</item>
+		<item>扬州</item>
+		
+		<item>Z</item>
+		<item>郑州</item>
+		<item>淄博</item>
+		<item>珠海</item>
+		<item>株洲</item>
+		<item>中山</item>
+		<item>湛江</item>
+	</string-array>
+	
+	
+</resources>

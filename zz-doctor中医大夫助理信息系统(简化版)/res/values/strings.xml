@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 eFANsoftware
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">杏林书童(ZZ)</string>
+    
+
+    <!-- Menus -->    
+    <string name="menu_item_home">首页</string>
+    <string name="menu_item_prescription">方剂</string>
+    <string name="menu_item_medicine">药物</string>
+    <string name="menu_item_patient">病患</string>
+    <string name="menu_item_statitics">统计</string>
+
+    <string name="menu_item_about">关于</string>
+    
+    
+    <!-- RX_RECIPE Query -->
+    <string name="rxFormula_query_title">方剂查询</string>
+    <string name="rxFormula_formula_label">方剂名称：</string>
+    <string name="rxFromula_selection_reminder">请选择方剂</string>
+
+    <string name="rxFormula_detail_title">方剂细节</string>
+    <string name="rxFormula_detail_tab_title_name">药物</string>
+    <string name="rxFormula_detail_tab_title_quantity">药量</string>
+    <string name="rxFormula_detail_tab_title_optional">可+-否? </string>
+    <string name="rxFormula_customize">加减／新增验方</string>
+
+    <string name="rxFormula_detail_edit_title">方剂加减／新增验方</string>
+    <string name="rxFormula_detail_edit_name_title">方名: </string>
+    <string name="rxFormula_detail_edit_alias_title">别名: </string>
+    <string name="rxFormula_detail_edit_key_code_title">代码: </string>
+    <string name="rxFormula_detail_edit_unit_hint">注: 药量单位 - 克 或 毫升 或 枚  或  份</string>
+
+    <string name="rxFormula_detail_edit_save_confirm_update">确定保存对该方剂的加减修改?</string>
+    <string name="rxFormula_detail_edit_save_confirm_insert">确定保存新增验方?</string>
+
+
+    <!-- Medicine -->
+    <string name="medicine_query_title">药物查询</string>
+    <string name="medicine_label">药物名称：</string>
+    <string name="medicine_selection_reminder">请选择药物</string>
+
+    <string name="medicine_detail_title">药物细节</string>
+
+
+    <!-- Common Shareble -->
+    <string name="syndrome_subject_label">辩证类别：</string>
+    <string name="syndrome_subject_prompt">请选择辩证类别：</string>
+    
+    <string name="name_code_hint">(中文名称, 或拼音首字母..)</string>
+    <string name="key_code_hint">(拼音首字母..)</string>
+
+    <string name="button_query">查询清单</string>
+    <string name="button_save">保存</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_edit">编辑修改</string>
+
+    <string name="alert_dialog_confirm_title">请确认!</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">不确定</string>
+
+
+    <!-- Support -->
+    <string name="efan_support">支持：问一凡知否? \nhttp://code.google.com/p/zz-doctor/issues/entry</string>
+    <string name="efan_logo">一凡风顺软件工作室 efansoftware@gmail.com</string>
+    <string name="efan_copy_left">EFANSOFTWARE (2008~2010)</string>
+</resources>

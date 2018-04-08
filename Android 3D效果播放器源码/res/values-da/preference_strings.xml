@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--	VERSION	-->
+    <string name="preference_key_version">Version</string>
+    
+	<!--	DOWNLOAD STATE    -->
+    <string name="preference_key_downloading_art_state">DownloadingArt</string>
+    
+	<!--	PLAYLIST STATE    -->
+<!--    <string name="preference_key_playlist_id">mPlaylistId</string>-->
+        
+	<!--	HEADSET BUTTONS    -->
+    <string name="preference_key_use_headset_buttons">UseHeadset</string>
+    <string name="preference_title_use_headset_buttons">BrugHeadset</string>
+    <string name="preference_summary_use_headset_buttons">Tryk på den knap fra dit headset til at spille, pause, eller springe i sange.</string>
+
+	<!--	LOCK PORTRAIT    -->
+    <string name="preference_key_lock_portrait">LockPortrait</string>
+    <string name="preference_title_lock_portrait">Lås Portræt</string>
+    <string name="preference_summary_lock_portrait">Undgå liggende skærmretning.</string>
+
+	<!--	LOCK SCREEN    -->
+    <string name="preference_key_lock_screen">LockScreen</string>
+    <string name="preference_title_lock_screen">Lock screen</string>
+    <string name="preference_summary_lock_screen">Vis kontrol, når skærmen er låst..</string>
+
+	<!--	FULL SCREEN    -->
+    <string name="preference_key_full_screen">mFullScreen</string>
+    <string name="preference_title_full_screen">Fuld skærm</string>
+    <string name="preference_summary_full_screen">Kør i fuld skærm.</string>
+
+	<!--	CONTROLS ON BOTTOM    -->
+    <string name="preference_key_controls_on_bottom">mControlsOnBottom</string>
+    <string name="preference_title_controls_on_bottom">Knapper i bunden</string>
+    <string name="preference_summary_controls_on_bottom">Placer Knapper i bunden af skærmen.</string>
+
+	<!-- 	QUEUE ON CLICK -->
+	<string name="preference_key_queue_on_click">mQueueOnClick</string>
+	<string name="preference_title_queue_on_click">Auto Kø</string>
+	<string name="preference_summary_queue_on_click">Ved click tilføjes sangen til køen i stedet for at spille med det samme</string>
+
+	<!--	PREFER ARTIST SORTING    -->
+    <string name="preference_key_prefer_artist_sorting">mPreferArtistSorting</string>
+    <string name="preference_title_prefer_artist_sorting">Foretræk kunstner sortering</string>
+    <string name="preference_summary_prefer_artist_sorting">Sorter albums efter kunstnerens navn i Stedet for end albummets navn.</string>
+
+	<!--	PREFERENCE CATEGORIES    -->
+    <string name="preference_category_general">Generelle</string>
+    <string name="preference_category_sorting">Sortering</string>
+    <string name="preference_category_album_art">Album covers</string>
+    <string name="preference_category_other">Andet</string>
+    
+	<!--	EMBEDDED ALBUM ART ONLY    -->
+	<string name="preference_key_embedded_album_art">mUseAlwaysEmbeddedAlbumArt</string>
+    <string name="preference_title_embedded_album_art">Brug altid ID3 Covers</string>
+    <string name="preference_summary_embedded_album_art">Selv om lav opløsning, vil det integrerede cover bruges.</string>
+
+    <!--    SCROBBLING -->
+    <string name="preference_scrobble_list_key">scrobbling</string>
+    <string name="preference_scrobble_list_title">Last.fm Scrobbling</string>
+    <string name="preference_scrobble_list_summary">Vælg scrobbler</string>
+    
+    <string name="preference_scrobble_name_dont">Ik scrobble</string>
+    <string name="preference_scrobble_name_sls">Simple Last.fm Scrobbler</string>
+    <string name="preference_scrobble_name_sd">Scrobble Droid</string>
+    <string name="preference_scrobble_value_dont">no</string>
+    <string name="preference_scrobble_value_sls">sls</string>
+    <string name="preference_scrobble_value_sd">sd</string>
+    
+	<!--	CLEAR ALBUM ART    -->
+	<string name="preference_key_clear_album_art">clearAlbumArtKey</string>
+    <string name="preference_title_clear_album_art">Nulstil covers</string>
+    <string name="preference_summary_clear_album_art">Brug dette, hvis albumcover er tildelt forkerte albums / kunstnere</string>
+    <string name="preference_dialog_title_clear_album_art">Clear album art</string>
+    <string name="preference_dialog_message_clear_album_art">Brug dette, hvis albumcover er tildelt forkert albums / kunstnere. Dette vil slette indholdet af mappen /sdcard/albumthumbs/RockOnNg. Glem ikke at køre \'Get Art\' menufunktion efter dette.</string>
+    <string name="preference_dialog_positive_text_clear_album_art">Gør det!</string>
+    <string name="preference_dialog_negative_text_clear_album_art">Nej de er fine som de er!</string>
+    
+	<!--	DONATE    -->
+    <string name="preference_key_donate">donate</string>
+    <string name="preference_title_donate">Doner</string>
+    
+	<!--	ADDITIONAL PREFERENCE CATEGORIES    -->
+    <string name="preference_category_storage">Hukommelse</string>
+    
+    <!--	STORAGE TYPE    -->
+    <string name="preference_key_storage_type">mStorageType</string>
+    <string name="preference_title_storage_type"></string>
+    <string name="preference_title_storage_type_internal">Intern</string>
+    <string name="preference_title_storage_type_external">Extern</string>
+    <string name="preference_summary_storage_type"></string>
+    <string name="preference_storage_free">Fri</string>
+    <string name="preference_storage_dialog_title">Hukommelses Type</string>
+    <string name="preference_storage_media_not_mounted">Medier ikke monteret.</string>
+    
+    <!--	DIRECTORY FILTER    -->
+    <string name="preference_key_directory_filter">mDirectoryFilter</string>
+    <string name="preference_title_directory_filter">Mappe filter</string>
+    <string name="preference_summary_directory_filter">Vælg, hvilke mapper der skal scannes for musik.</string>
+</resources>

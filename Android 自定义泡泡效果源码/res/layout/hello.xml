@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:id="@+id/helloButton" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="OK" />
+	<ViewFlipper android:id="@+id/flipper"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:flipInterval="2000">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="left"
+			android:textSize="26sp" android:text="animation_2_text_1" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="left"
+			android:textSize="26sp" android:text="animation_2_text_2" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="left"
+			android:textSize="26sp" android:text="animation_2_text_3" />
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:gravity="left"
+			android:textSize="26sp" android:text="animation_2_text_4" />
+	</ViewFlipper>
+	<ViewFlipper android:id="@+id/flipper02"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<ImageView android:src="@drawable/icon"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<ImageView android:src="@drawable/image"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<ImageView android:src="@drawable/icon"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<ImageView android:src="@drawable/image"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</LinearLayout>
+	</ViewFlipper>
+</LinearLayout>

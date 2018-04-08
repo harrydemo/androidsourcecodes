@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="uk.ac.cam.cl.dtg.android.tor.TorProxy"
+      android:versionCode="1"
+      android:versionName="1.0">
+    
+    <permission android:description="@string/control_permission_description" android:label="@string/control_permission_label" android:permissionGroup="android.permission-group.NETWORK" android:name="uk.ac.cam.cl.dtg.android.tor.TorProxy.CONTROL_PERMISSION" android:protectionLevel="normal"/>
+      
+      
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="TorProxySettings"
+                  android:label="@string/app_name" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    	<service android:name="TorProxyControlService" android:process="@string/tor_proxy_service_process" android:exported="true">
+	            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SCREEN_ON" />
+            </intent-filter>
+    	</service>
+	<activity android:name="AboutActivity"></activity>
+	<activity android:name="EditPreferences"></activity>
+
+	<uses-library android:name="android.test.runner"></uses-library>
+	<activity android:name="UnitTests"></activity>
+	<receiver android:name="TorProxyControlServiceReceiver">
+		<intent-filter>
+			<action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+		</intent-filter>
+	</receiver>
+</application>
+	
+	
+    <uses-sdk android:minSdkVersion="2" />
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+<instrumentation android:targetPackage="uk.ac.cam.cl.dtg.android.tor.TorProxy" android:label="Tests for TorProxy" android:name="android.test.InstrumentationTestRunner"></instrumentation>
+<uses-permission android:name="uk.ac.cam.cl.dtg.android.tor.TorProxy.CONTROL_PERMISSION"></uses-permission>
+
+</manifest> 

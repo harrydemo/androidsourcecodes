@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>KDWB</display-name>
+  <listener>
+    <listener-class>
+      wpf.MyServletContextListener
+     </listener-class>
+  </listener>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <resource-ref>
+    <description>DB Connection</description>
+    <res-ref-name>jdbc/mysql</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+  <servlet>
+    <description></description>
+    <display-name>MyServlet</display-name>
+    <servlet-name>MyServlet</servlet-name>
+    <servlet-class>wpf.MyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/MyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FileUploadServlet</display-name>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>wpf.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/FileUploadServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<picpath>
+		<item>http://www.kitco.cn/cn/live_charts/goldcny.gif</item>
+		<item>http://www.kitco.cn/cn/past_charts/au0030ldb_cny.gif</item>
+		<item>http://www.kitco.cn/cn/past_charts/au0060ldb_cny.gif</item>
+		<item>http://www.kitco.cn/cn/past_charts/au0182ldb_cny.gif</item>
+		<item>http://www.kitco.cn/cn/past_charts/au0365ldb_cny.gif</item>
+		<item>http://www.kitco.cn/cn/past_charts/au1825ldb_cny.gif</item>
+		<item>http://www.kitco.cn/cn/past_charts/au3650ldb_cny.gif</item>
+	</picpath>
+</config>

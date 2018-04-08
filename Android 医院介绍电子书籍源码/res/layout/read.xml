@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+ android:background="@drawable/mmbj"
+>
+             
+             <ScrollView   
+             android:id="@+id/scrollView"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+                 
+             android:paddingTop="5dip"  
+             android:scrollbars="vertical"
+             
+            
+             >
+   <!-- 显示文本界面 -->
+             <TextView 
+             android:id="@+id/text" 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:textStyle="normal" 
+             android:paddingTop="10dip"  
+             
+             android:layout_marginLeft="8.0dp" 
+             android:layout_marginRight="8.0dp" 
+             android:layout_centerHorizontal="true"
+     
+
+             android:scrollbars="none"
+             android:textColor="#000000"
+             android:textSize="20sp"
+             > 
+    
+             </TextView>
+
+</ScrollView>
+<EditText
+android:id="@+id/et_01"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+
+
+
+></EditText>
+             
+</LinearLayout>

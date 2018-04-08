@@ -1,0 +1,52 @@
+8
+
+dir
+46
+http://coolreader.googlecode.com/svn/trunk/CoolReader/src/cn/itcreator/android/reader/io
+http://coolreader.googlecode.com/svn
+
+
+
+2009-05-01T03:27:34.445832Z
+36
+mawei.81
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+72fe2aae-c5f7-11dd-a86e-7346a4b24aab
+
+ReadFile.java
+file
+
+
+
+
+2011-05-12T04:52:00.467125Z
+783c842ed80802ace51c9b9f544f302c
+2009-05-01T03:27:34.445832Z
+36
+mawei.81
+
+ReadFileRandom.java
+file
+
+
+
+
+2011-05-12T04:52:00.467125Z
+a3ff339b3011839b6d6a6e9eb2f42c07
+2009-05-01T03:27:34.445832Z
+36
+mawei.81
+

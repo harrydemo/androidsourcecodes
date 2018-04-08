@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/back" android:title="后退"
+		android:icon="@drawable/icon_backward" />
+	<item android:id="@+id/back_main" android:title="回首页"
+		android:icon="@drawable/icon_homepage" />
+	<item android:id="@+id/mycollect" android:title="@string/mycollect"
+		android:icon="@drawable/icon_mycollect" />
+	<item android:id="@+id/about" android:title="关于" android:icon="@drawable/icon_about" />
+
+	<item android:id="@+id/eixt" android:title="退出" android:icon="@drawable/icon_exit" />
+
+</menu>

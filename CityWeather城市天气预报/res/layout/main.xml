@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/bg">
+	<TextView android:id="@+id/TextView001" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/inputstr" android:textStyle="bold" android:textSize="16px" android:layout_marginLeft="10px" android:textColor="@color/black"></TextView>
+	<TableLayout android:id="@+id/TableLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg" android:textStyle="bold" android:textSize="16px" android:layout_marginLeft="10px" android:textColor="@color/black"></TextView>
+			<Spinner android:id="@+id/Spinner01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingLeft="10px" android:minWidth="200px"></Spinner>
+			<Button android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/OK" android:paddingLeft="10px"></Button>
+		</TableRow>
+	</TableLayout>
+	<TableLayout android:id="@+id/TableLayout002" android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TableRow android:id="@+id/TableRow001" android:layout_height="wrap_content" android:layout_width="fill_parent">
+			<TextView android:id="@+id/TextView002" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg" android:textStyle="bold" android:textSize="16px" android:layout_marginLeft="10px" android:textColor="@color/black"></TextView>
+			<EditText android:id="@+id/EditText001" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingLeft="10px" android:minWidth="200px"></EditText>
+			<Button android:id="@+id/Button001" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/OK" android:paddingLeft="10px"></Button>
+		</TableRow>
+	</TableLayout>
+	<TableLayout android:id="@+id/TableLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<com.yarin.android.CityWeather.SingleWeatherInfoView android:id="@+id/weather_0" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		</TableRow>
+		<TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<com.yarin.android.CityWeather.SingleWeatherInfoView android:id="@+id/weather_1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		</TableRow>
+		<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<com.yarin.android.CityWeather.SingleWeatherInfoView android:id="@+id/weather_2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		</TableRow>
+		<TableRow android:id="@+id/TableRow05" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<com.yarin.android.CityWeather.SingleWeatherInfoView android:id="@+id/weather_3" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		</TableRow>
+		<TableRow android:id="@+id/TableRow06" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<com.yarin.android.CityWeather.SingleWeatherInfoView android:id="@+id/weather_4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

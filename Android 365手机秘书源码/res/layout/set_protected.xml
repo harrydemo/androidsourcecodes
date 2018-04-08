@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  
+<EditText android:hint="请输入密码" android:id="@+id/protected_pw_enter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:password="true"></EditText>
+<EditText android:hint="请确认密码" android:id="@+id/protected_pw_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:password="true" android:singleLine="true"></EditText>
+<EditText android:id="@+id/protected_pw_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:hint="自定义您的密码取回问题"></EditText>
+<EditText android:id="@+id/protected_pw_answer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:hint="自定义您的密码取回答案"></EditText>
+</LinearLayout>

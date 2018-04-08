@@ -1,0 +1,76 @@
+<!-- Copyright (C) 2009 eFANsoftware
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+  <string name="SQL_LOAD_RX_RECIPE_FOR_AC"><![CDATA[
+select PK_ID, NAME, ALIAS, KEY_CODES 
+  from RX_RECIPE 
+ order by NAME COLLATE LOCALIZED, 
+           KEY_CODES 
+  ]]></string>
+
+  <string name="SQL_LOAD_RX_RECIPE_FOR_AC_BY_SYNDROME"><![CDATA[
+select PK_ID, NAME, ALIAS, KEY_CODES 
+  from RX_RECIPE 
+ where SYNDROME_ID = ? 
+    or SYNDROME_ID in (select PK_ID from SYNDROME_SUBJECT where PARENT_ID = ?)
+ order by NAME COLLATE LOCALIZED, 
+           KEY_CODES 
+  ]]></string>
+
+  <string name="SQL_LOAD_MEDICINE_FOR_AC"><![CDATA[
+select PK_ID, NAME, ALIAS, KEY_CODES 
+  from MEDICINE 
+ order by NAME COLLATE LOCALIZED, 
+          KEY_CODES 
+  ]]></string>
+
+  <string name="SQL_LOAD_MEDICINE_FOR_AC_BY_SYNDROME"><![CDATA[
+select PK_ID, NAME, ALIAS, KEY_CODES 
+  from MEDICINE 
+ where SYNDROME_ID = ? 
+    or SYNDROME_ID in (select PK_ID from SYNDROME_SUBJECT where PARENT_ID = ?)
+ order by NAME COLLATE LOCALIZED, 
+          KEY_CODES 
+  ]]></string>
+
+  <string name="SQL_LOAD_SYNDROME_FOR_AC"><![CDATA[
+select PK_ID, NAME, null, null 
+  from SYNDROME_SUBJECT 
+ order by PK_ID 
+  ]]></string>
+
+  <string name="SQL_QUERY_RX_RECIPE_BY_ID"><![CDATA[
+select NAME, KEY_CODES, DESCRIPTION, ALIAS, BASE_ID 
+  from RX_RECIPE 
+ where PK_ID = ? 
+  ]]></string>
+
+  <string name="SQL_QUERY_MEDICINE_BY_ID"><![CDATA[
+select NAME, ALIAS, KEY_CODES, UNIT, POISON, SYNDROME_ID, PROPERTY, EFFICACY, INDICATION, SYNERGIST, DESCRIPTION 
+  from MEDICINE 
+ where PK_ID = ? 
+  ]]></string>
+
+  <string name="SQL_LOAD_RX_MEDICINES_BY_ID"><![CDATA[
+select M.PK_ID, M.NAME, MAP.QUANTITY, M.UNIT, MAP.IS_OPTIONAL 
+  from MEDICINE M, MAP_RX_RECIPE_MEDICINE MAP
+ where M.PK_ID = MAP.MEDICINE_ID
+   and MAP.RX_RECIPE_ID = ?
+ order by MAP.ORDER_NUM 
+  ]]></string>
+
+</resources>

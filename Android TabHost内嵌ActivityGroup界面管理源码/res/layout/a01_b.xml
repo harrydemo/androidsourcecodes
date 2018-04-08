@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="界面-2"
+        android:textSize="60dp"
+        tools:context=".Tab_MainActivity" />
+
+    <Button
+        android:id="@+id/jump"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:text="按我去3"
+        android:textColor="#DC143C"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jump"
+        android:text="按我返回"
+        android:textColor="#DC143C"
+        android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_settings" android:title="设置" android:icon="@drawable/menu_settings" android:alphabeticShortcut="s"/>
+	<item android:id="@+id/menu_official" android:title="官方微博" android:icon="@drawable/menu_official" android:alphabeticShortcut="d"/>
+	<item android:id="@+id/menu_feedback" android:title="意见反馈" android:icon="@drawable/menu_feedback" android:alphabeticShortcut="b"/>
+	<item android:id="@+id/menu_account" android:title="账号管理" android:icon="@drawable/menu_account" android:alphabeticShortcut="h"/>
+	<item android:id="@+id/menu_about" android:title="关于" android:icon="@drawable/menu_about" android:alphabeticShortcut="f"/>
+	<item android:id="@+id/menu_quit" android:title="退出" android:icon="@drawable/menu_quit" android:alphabeticShortcut="n"/>
+</menu>

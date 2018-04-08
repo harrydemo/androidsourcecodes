@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">欢迎使用名片识别程序</string>
+	<string name="app_name">夏普名片识别</string>
+	<string name="read_from_sdcard">从SD卡识别</string>
+	<string name="rec_from_camera">从摄相头识别</string>
+
+	<string name="rec_success">识别成功</string>
+	<string name="rec_failure">识别失败</string>
+	<string name="rec_result_title">识别結果</string>
+	<string name="rec_in_progress">正在识别</string>
+	<string name="interrupt_rec_confirm">正在进行识别，是否立即中止?</string>
+	<string name="sdcard_not_ready">SD卡未准备好</string>
+	<string name="waiting">等待</string>
+	<string name="ok">好</string>
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	<string name="back">返回</string>
+	<string name="cancel">取消</string>
+	<string name="error">出错</string>
+	<string name="success">成功</string>
+	<string name="warning">警告</string>
+	<string name="attention">注意</string>
+
+	<!-- string value for NameCardImageGallery begin -->
+	<string name="rec_selected_namecard">识别</string>
+	<string name="no_image_in_sdcard">没有找到名片图片</string>
+	<string name="sdcard_no_write_perm">SD卡现在不可写，图片将不保存</string>
+	<!-- string value for NameCardImageGallery end -->
+
+	<!-- contact info begin -->
+	<string name="contact_group">组</string>
+	<string name="contact_label_name">姓名</string>
+	<string name="contact_label_phone">电话</string>
+	<string name="contact_label_email">邮箱</string>
+	<string name="contact_label_address">地址</string>
+	<string name="contact_label_org">组织</string>
+	<string name="contact_label_url">Url</string>
+	<string name="contact_label_note">备注</string>
+	<string name="type_home">家庭</string>
+	<string name="type_work">工作</string>
+	<string name="type_other">其它</string>
+	<string name="type_pager">呼叫机</string>
+	<string name="type_mobile">移动电话</string>
+	<string name="type_fax_home">家庭传真</string>
+	<string name="type_fax_work">工作传真</string>
+	<string name="save_contact">保存</string>
+	<string name="discard">放弃</string>
+	<string name="contact_default_note">由夏普名片识别程序添加</string>
+	<string name="contact_saved">联系人已保存</string>
+	<string name="discard_contact_confirm">联系人信息未保存，真的要放弃吗?</string>
+	<string name="saving_contact_progress">正在保存联系人...</string>
+	<string name="contact_not_saved_warning">联系人信息未保存, 是否现在保存?</string>
+	<string name="stopping_rec">正在停止识别...</string>
+	<!--  contact info end -->
+
+	<string name="pref_title">设置</string>
+	<string name="pref_settings">设置</string>
+
+	<string name="pref_auto_focus">自动对焦</string>
+	<string name="pref_auto_rec">自动识别</string>
+	<string name="pref_auto_detect">自动检测边界</string>
+	<string name="pref_save_rec_image">保存名片图片</string>
+	<string name="pref_select_rec_prog_style">识别等待效果</string>
+
+	<string-array name="rec_progress_style_titles">
+		<item>正常</item>
+		<item>扫描效果</item>
+	</string-array>
+	<string-array name="rec_progress_style_values">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+</resources>

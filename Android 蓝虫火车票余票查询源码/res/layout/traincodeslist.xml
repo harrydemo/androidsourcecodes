@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:stretchColumns="*">
+        <TableRow>
+            <TextView android:id="@+id/refreshTime_Label1"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:paddingBottom="10dip"
+                android:paddingLeft="10dip" android:paddingRight="10dip" android:textSize="10.5sp"/>
+        </TableRow>
+        <TableRow>
+            <ListView android:divider="#cc9966"
+                android:dividerHeight="1px"
+                android:id="@+id/trainCodesList"
+                android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

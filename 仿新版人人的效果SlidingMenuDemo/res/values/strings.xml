@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Sliding Menu Demo</string>
+	<string name="search">新鲜事</string>
+	<string name="message">消息</string>
+	<string name="browse_jamendo">常用</string>
+	<string name="my_library">推荐应用</string>
+	<string name="download"> 应用</string>
+	<string name="most_listened"> 好友</string>
+
+</resources>

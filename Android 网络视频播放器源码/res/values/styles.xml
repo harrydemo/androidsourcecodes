@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="player_seekbar">
+        <item name="android:focusable">true</item>
+        <item name="android:maxHeight">10.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar_style_drawable</item>
+        <item name="android:progressDrawable">@drawable/seekbar_style_drawable</item>
+        <item name="android:minHeight">10.0dip</item>
+        <item name="android:thumb">@drawable/controller_playhead_drawable</item>
+        <item name="android:thumbOffset">8.0px</item>
+    </style>
+</resources>

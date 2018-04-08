@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- base -->
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="alert">提示</string>
+    <string name="reply">回复</string>
+    <string name="send">发送</string>
+    <string name="entersms">请输入内容</string>
+    <string name="sample">模板</string>
+    <string name="start">开始</string>
+    <string name="setting">设置</string>
+    <string name="app_name">短信助手</string>
+    
+    <!-- main.java+main.xml -->
+    <string name="startmoritor">启动节日监控</string>
+    <string name="starttrust">启动后台代理</string>
+    <string name="startreply">启动快捷回复</string>
+    <string name="endmoritor">停止节日监控</string>
+    <string name="endtrust">停止后台代理</string>
+    <string name="endreply">停止快捷回复</string>
+    <string name="smstoast_randomsendfailed">随机发送失败，你有可能没有设置默认发送的模板</string>
+    <string name="main_service1">启动节日监控后，才可对您收到的短信进行节日相关处理。请放心，它们仍会被收到您的短信收件箱中。</string>
+    <string name="main_service2">启动后台托管后，所有短信会自动收入列表，不再弹出提示。待您有空时，可以在待回列表中找到它们，并作相应处理。</string>
+    <string name="main_service3">启动快捷回复后，会按您选择的短信模版进行回复。不过请放心，回复前会征求您的意见的。</string>
+
+    <string name="waiting_list">待回列表</string>
+    <string name="sample_manage">模板管理</string>
+    
+    <!-- service.java+receiver.java -->
+    <string name="bind_service">节日短信监控已启动</string>
+    <string name="unbind_service">节日短信监控已关闭</string>
+    <string name="start_succeed">启动成功</string>
+    <string name="stop_succeed">停止成功</string>
+    <string name="stop_failed">未启动监控</string>
+
+    <!-- smsadd.java+add.xml -->
+    <string name="add_succeed">添加成功</string>
+    <string name="edit_succeed">修改成功</string> 
+    <string name="add_tv_add_to_fast_reply">加入快捷回复短信库</string>
+    
+    <!-- deallist.java+deallist.xml -->
+    <string name="delete_comfirm">确定删除这条预存消息吗？</string>
+    <string name="delete_succeed">删除成功</string>
+    <string name="deallist_tv">快捷\t\t\t\t短信模板内容</string>
+    <string name="deallist_btn_addsample">添加短信模板</string>
+    
+    <!-- msgsend.java+msgsend.xml -->
+    <string name="_reply">回复: </string>
+    <string name="smssend_willsend">将发送给</string>
+    <string name="smssend_tonfriend">位好友</string>
+    <string name="smssend_succeed">发送成功</string>
+    <!-- smswaitlist.xml -->
+    <string name="remove_from_list">移出列表</string>
+    <string name="from">来自：</string>
+    <string name="view_msg">查看短信</string>
+    
+    <!-- smsex.db  -->
+   <string-array name="sample">
+        <item name="sample_1">欢欢喜喜迎新年，万事如意平安年，扬眉吐气顺心年，梦想成真发财年，事业辉煌成功年，祝君岁岁有好年！</item>
+        <item name="sample_2">新春佳节到，拜年要赶早，好运跟你跑，吉祥围你绕，财源进腰包，心想事就成，春节齐欢笑！我的祝福如此早，请你一定要收到。</item>
+        <item name="sample_3">赶个早，提个前，先来道声春节好；撞好运，遇好事，道个吉祥和如意。祝你新年拥有新气象，春天拥有春的希望，幸运之星照又照，生活快乐又美妙！</item>
+        <item name="sample_4">新年到向你问个好：办事处处顺、生活步步高、彩票期期中、好运天天交、打牌场场胜、口味顿顿好、越活越年轻、越长越俊俏、家里出黄金、墙上长钞票！</item>
+        <item name="sample_5">是否还记得年的味道？那一缸裹着冰渣的豆包，那一枚清脆炸响的鞭炮，那一声不需缘由的大笑，那一个永远敞开的怀抱。年的味道，中国制造。</item>
+        <item name="sample_6">祝您(吸气)一帆风顺二龙腾飞三羊开泰四季平安五福临门六六大顺七星高照八方来财九九同心十全十美百事亨通千事吉祥万事如意！祝新年吉祥如意！</item>
+        <item name="sample_7">新年到来，请遵守四项基本原则：将财神看守到底，将幸福紧握到底，将好运怀抱到底，将爱情进行到底！请严格遵守，直至革命胜利！</item>
+        <item name="sample_8">思念像车轮飞转，心情像汤圆蜜甜。幸福像烟花绽放，快乐像爆竹点燃。事业像春联红火，生活像饺子香甜。财源像脱兔狂奔，祝福像彩灯串串。</item>
+        <item name="sample_9">等不及了，我决定代全国人民提前祝你和家人新年快乐！身体健康！你以后几天收到的短信都是我安排他们发的，我为人很低调的，你知道就行，不要声张！</item>
+        <item name="sample_10">新年到放鞭炮，拱拱手祝福好，身体棒乐陶陶，事业成薪水高，夫妻间分红包，兄弟间酒不少，敬长辈送补药，会亲友真热闹，送旧符展新貌，春节乐天天笑！</item>
+        <item name="sample_11">春节到，拜年早：一拜全家好；二拜困难少；三拜烦恼消；四拜不变老；五拜儿女孝；六拜幸福绕；七拜忧愁抛；八拜收入高；九拜平安罩；十拜乐逍遥。</item>
+        <item name="sample_12">有人千般努力，却终不成功；有人平常庸碌，却好运连连。新的一年已经来到，祝天天好运，天天开心，天天幸福！春节快乐！</item>
+        <item name="sample_13">新年好运到，好事来得早！朋友微微笑，喜庆围你绕！花儿对你开，鸟儿向你叫。生活美满又如意！喜庆！喜庆！一生平安如意！</item>
+        <item name="sample_14">总有一副春联升华团圆年事，总有一张年画鲜活如意吉祥，总有一缕烟花激扬红火生活，总有一桌年饭围成欢乐人家，总有一条短信给您祝福拜年。</item>
+        <item name="sample_15">新年的钟声即将响起,愿这吉祥的钟声能为您及家人带来平安、幸福、健康和快乐！祝新年快乐、万事如意！</item>
+        <item name="sample_16">拜年啦！一拜祝您全家好，健康幸福团团圆圆美美满满；二拜祝您运气好，黄金白银堆满家；三拜祝您顺天顺地顺心顺意新年发！发！发！</item>
+    </string-array>
+    
+        
+        
+    <!-- smstoast.java+smstoast.xml -->
+    <string name="random_reply">随机自动回复</string>
+    <string name="save_sample">存为模板</string>
+    <string name="save_msg_to_reply_list">放入待回</string>
+    <string name="sample_reply">模板回复</string>
+    <string name="enter_nickname">请输入别名</string>
+</resources>

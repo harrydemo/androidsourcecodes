@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcherEx">
+    <!--  Far-left screen [0] -->
+
+    <!--  Left screen [1] -->
+    <appwidget
+        launcher:packageName="com.google.android.apps.genie.geniewidget"
+        launcher:className="com.google.android.apps.genie.geniewidget.miniwidget.MiniWidgetProvider"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+        
+    <!--  Middle screen [2] -->
+    <search
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <appwidget
+        launcher:packageName="com.android.protips"
+        launcher:className="com.android.protips.ProtipWidget"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+
+    <!--  Right screen [3] -->
+    <appwidget
+        launcher:packageName="com.android.music"
+        launcher:className="com.android.music.MediaAppWidgetProvider"
+        launcher:screen="3"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="1" />
+
+    <appwidget
+        launcher:packageName="com.android.vending"
+        launcher:className="com.android.vending.MarketWidgetProvider"
+        launcher:screen="3"
+        launcher:x="1"
+        launcher:y="1"
+        launcher:spanX="2"
+        launcher:spanY="2" />
+
+    <!--  Far-right screen [4] -->
+
+</favorites>

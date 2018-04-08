@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">秒表</string>
+<string name="start">开始</string>
+<string name="mark">分记</string>
+<string name="pause">暂停</string>
+<string name="reset">重置</string>
+</resources>

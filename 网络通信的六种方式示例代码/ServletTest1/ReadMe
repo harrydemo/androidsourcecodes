@@ -1,0 +1,37 @@
+1.第一句出错：
+JSONArray array = null;
+		 array = new JSONArray();
+		 for(int i=0;i<4;i++)
+		 { 
+			 JSONObject obj=new JSONObject();
+			 obj.put("name"+i, "song"+i); 
+			 array.add(obj);
+		 }
+		 
+java.lang.ClassNotFoundException: org.apache.commons.lang.exception.NestableRuntimeException
+需要导入下面的包
+commons-beanutils-1.7.0.jar 
+commons-lang-2.1.jar 
+ezmorph-1.0.2.jar 
+json-lib-1.1-jdk15.jar
+
+
+		 
+还需要导入这些包，确实，使用JSON必须加入这些包。
+	commons-beanutils-1.7.0.jar   
+	commons-lang-2.1.jar  
+	ezmorph-1.0.2.jar  
+	json-lib-1.1-jdk15.jar
+	
+	
+2.org.apache.commons.logging.LogFactory
+	缺少commons-logging.jar包
+	你检查一下你的ClassPath里,common-logging包的名字和你axis/lib里面对应的包名是不是不一致啊。 
+    直接从网上copy的classpath里,是common-logging.jar而axis/lib里面对应的包名是commons-logging-1.0.4.jar,难怪会发生这种错误了,呵呵。
+
+3.org.apache.commons.collections.map.MultiKeyMap
+	估计你这个包commons-collections.jar没有。
+	或者版本有问题或者冲突。。：用 commons-logging.jar 替换 commons-logging-1.0.4.jar包
+
+
+

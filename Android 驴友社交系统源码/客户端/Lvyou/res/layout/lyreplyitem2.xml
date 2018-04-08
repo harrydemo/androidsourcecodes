@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" 
+	android:layout_height="80px"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_marginTop="10px"
+	>
+	 
+	<!--<ImageView 
+		android:layout_marginTop="3px"
+		android:layout_marginLeft="3px"
+		android:id="@+id/img" 
+		android:layout_width="30dip" 
+		android:layout_height="30dip"
+		android:background="@drawable/pic22"
+		>
+	</ImageView>
+	
+	-->
+	<RelativeLayout
+		android:layout_marginLeft="3px"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+		<TextView
+			android:id="@+id/uname22"
+			android:textColor="#6495ED"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="15dp"
+			android:layout_alignParentRight="true">
+		</TextView>
+		<TextView
+			android:id="@+id/content22"
+			android:textColor="#6495ED"
+			
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15dp"
+			android:layout_alignParentLeft="true">
+		</TextView>
+		<!--<TextView
+			android:id="@+id/pls"
+			android:layout_alignParentRight="true"
+			android:text="评论(0)"
+
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</TextView> 
+	-->
+	</RelativeLayout>
+</LinearLayout>

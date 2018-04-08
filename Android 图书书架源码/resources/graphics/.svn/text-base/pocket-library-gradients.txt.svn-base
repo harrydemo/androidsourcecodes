@@ -1,0 +1,7 @@
+Book edge:
+- Gradient 50% to 0% black
+  0px to 7px
+
+Book fold:
+- Gradient 0% to 15% to 0% (pos: 0, 0.5, 1.0) black
+  15px to 29px

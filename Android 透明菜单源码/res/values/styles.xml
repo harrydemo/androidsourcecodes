@@ -1,0 +1,12 @@
+<resources>
+	<style name="Theme.Translucent" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+	</style>
+	<style name="Theme.TranslucentButton" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/transparent_button</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+	</style>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/back"
+	android:orientation="vertical"
+	android:layout_gravity="center_horizontal"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	>
+	<TextView
+		android:text="@string/tvAlbumName"
+		style="@style/text"
+		android:layout_gravity="left"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+	<EditText
+		android:id="@+id/etAlbumName"
+		android:layout_width="180px"
+		android:layout_height="wrap_content"
+		/>
+	</LinearLayout>

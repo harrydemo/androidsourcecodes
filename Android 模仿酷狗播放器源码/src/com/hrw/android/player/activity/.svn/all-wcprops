@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/145/trunk/AndroidPlayer/src/com/hrw/android/player/activity
+END
+BaseListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/139/trunk/AndroidPlayer/src/com/hrw/android/player/activity/BaseListActivity.java
+END
+SearchMusicActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/136/trunk/AndroidPlayer/src/com/hrw/android/player/activity/SearchMusicActivity.java
+END
+LocalMusicListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/138/trunk/AndroidPlayer/src/com/hrw/android/player/activity/LocalMusicListActivity.java
+END
+HomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/145/trunk/AndroidPlayer/src/com/hrw/android/player/activity/HomeActivity.java
+END
+SplashscreenActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/145/trunk/AndroidPlayer/src/com/hrw/android/player/activity/SplashscreenActivity.java
+END
+PlayerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/92/trunk/AndroidPlayer/src/com/hrw/android/player/activity/PlayerActivity.java
+END
+MusicListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/140/trunk/AndroidPlayer/src/com/hrw/android/player/activity/MusicListActivity.java
+END
+MenuListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/136/trunk/AndroidPlayer/src/com/hrw/android/player/activity/MenuListActivity.java
+END
+PlaylistActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/138/trunk/AndroidPlayer/src/com/hrw/android/player/activity/PlaylistActivity.java
+END

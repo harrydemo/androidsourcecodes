@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout 
+			android:id="@+id/LinearLayout0"
+			android:orientation="horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+	
+	<Button 
+		android:text="　拍　照　" 
+		android:id="@+id/Button01"
+		android:layout_width="155dp" 
+		android:layout_height="wrap_content">
+	</Button>
+
+	<Button 
+		android:text="录制视频" 
+		android:id="@+id/Button02"
+		android:layout_width="155dp" 
+		android:layout_height="wrap_content">
+	</Button>
+
+	</LinearLayout>
+	
+	<LinearLayout 
+			android:id="@+id/LinearLayout1"
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent">
+	
+	<SurfaceView 
+		android:id="@+id/SurfaceView01"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+	</SurfaceView>		
+				
+	<ImageView 
+		android:id="@+id/ImageView01"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+	</ImageView>
+	
+	</LinearLayout>
+		
+</LinearLayout>

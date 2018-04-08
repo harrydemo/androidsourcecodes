@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">盗贼</string>
+    <string name="titletips">请输入接收号码</string>
+    <string name="started">启动</string>
+    <string name="canceled">取消</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_vertical">
+	<!--
+		<ImageView
+		android:background="@drawable/pressed_application_background"
+	-->
+	<!--		android:id="@+id/name" android:layout_width="match_parent"-->
+	<!--		android:layout_height="100dip" android:padding="10dip"-->
+	<!--		android:ellipsize="marquee" android:fadingEdge="horizontal" />-->
+
+	<ImageSwitcher android:id="@+id/name"
+		android:background="@drawable/pressed_application_background"
+		android:layout_width="match_parent" android:layout_height="160dip"
+		android:padding="10dip" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" />
+</LinearLayout>

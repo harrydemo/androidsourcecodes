@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <!--自适应界面,如果出现,在某些设备出现界面偏小的话,检查一下有没有加入这句 -->
+    <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+
+	<link rel="stylesheet" href="../css/jquery.mobile-1.0.1.min.css" />
+	
+	<script src="../js/jquery.js"></script>
+	<script src="../js/jquery.mobile-1.0.1.min.js"></script>
+	<script src="../js/cordova-1.5.0.js"></script>
+	
+</head>
+<body>
+     
+ 	<div data-role="header" data-position="fixed">
+		<h1>工作任务</h1>
+	</div>
+	<div data-role="content" id="main1Content" >
+		
+		<p>功能九宫格/功能列表/功能块</p>
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><img src="../image/album-bb.jpg" width="80%" /><p>拜访任务</p></div>
+			<div class="ui-block-b"><img src="../image/album-bb.jpg"  width="80%"/></div>
+			<div class="ui-block-c"><img src="../image/album-bb.jpg"  width="80%"/></div>
+		</div>
+		<div class="ui-grid-b">
+			<div class="ui-block-a"><img src="../image/album-bb.jpg"  width="80%"/></div>
+			<div class="ui-block-b"><img src="../image/album-bb.jpg"  width="80%"/></div>
+			<div class="ui-block-c"></div>
+		</div>
+		<div class="ui-grid-b">
+			<div class="ui-block-a"></div>
+			<div class="ui-block-b"></div>
+			<div class="ui-block-c"></div>
+		</div>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#" data-icon="grid" class="ui-btn-active">工作</a></li>
+				<li><a href="main2.html" data-icon="info"  rel="external">资讯</a></li>
+				<li><a href="main3.html" data-icon="gear"   rel="external">设置</a></li>
+				<li><a href="main4.html" data-icon="search"  rel="external"  >地图</a></li>
+			</ul>
+		</div>		
+	</div>
+	
+</body>
+</html>

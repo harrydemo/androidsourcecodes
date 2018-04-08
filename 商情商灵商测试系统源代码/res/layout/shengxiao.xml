@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   
+	<LinearLayout
+     	android:orientation="horizontal"
+     	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+     >   
+	<TextView 
+    android:layout_width="100dip" 
+    android:layout_height="wrap_content" 
+    android:text="@string/birthdayYear"
+    />
+    <EditText 
+    android:id="@+id/birthdayYear"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+    </LinearLayout>
+    <LinearLayout
+    	android:orientation="horizontal"
+     	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+    		>
+    <TextView 
+	 android:layout_width="100dip" 
+     android:layout_height="wrap_content" 
+     android:text="@string/shengxiaoresult"
+    />
+    <TextView   
+    android:id="@+id/shengxiaoresult"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+   
+    />
+    </LinearLayout>
+    
+     
+    <TextView 
+	 android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text="@string/shengxiaotedian"
+    />
+    <EditText   
+    android:id="@+id/shengxiaotedian"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+   	android:minLines="7"
+    android:maxLines="10"
+    android:scrollbars="vertical"
+    android:editable="false"
+    />
+   
+    <LinearLayout
+    	android:orientation="horizontal"
+     	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+    >
+    <Button 
+    android:id="@+id/shengxiaoOK"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/OK"
+    />
+    <Button  
+    android:id="@+id/shengxiaoCancel"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/exit"
+    />
+    </LinearLayout>
+   
+</LinearLayout>

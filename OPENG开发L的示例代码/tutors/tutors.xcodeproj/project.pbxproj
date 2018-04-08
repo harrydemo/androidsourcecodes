@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43A0265D091EE75C00747DB3 /* fog.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02651091EE74800747DB3 /* fog.c */; };
+		43A0265E091EE76200747DB3 /* glm.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02652091EE74800747DB3 /* glm.c */; };
+		43A0265F091EE76400747DB3 /* glm.h in Sources */ = {isa = PBXBuildFile; fileRef = 43A02653091EE74800747DB3 /* glm.h */; };
+		43A02665091EE79700747DB3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A02664091EE79700747DB3 /* GLUT.framework */; };
+		43A0267F091EE8A800747DB3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A0267E091EE8A800747DB3 /* OpenGL.framework */; };
+		43A026A3091EE95600747DB3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A02664091EE79700747DB3 /* GLUT.framework */; };
+		43A026A4091EE95B00747DB3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A0267E091EE8A800747DB3 /* OpenGL.framework */; };
+		43A026A5091EE96300747DB3 /* lightmaterial.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02655091EE74800747DB3 /* lightmaterial.c */; };
+		43A026A6091EE96700747DB3 /* glm.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02652091EE74800747DB3 /* glm.c */; };
+		43A026A7091EE96A00747DB3 /* glm.h in Sources */ = {isa = PBXBuildFile; fileRef = 43A02653091EE74800747DB3 /* glm.h */; };
+		43A026A8091EE96D00747DB3 /* materials.h in Sources */ = {isa = PBXBuildFile; fileRef = 43A02658091EE74800747DB3 /* materials.h */; };
+		43A026B8091EEA4C00747DB3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A0267E091EE8A800747DB3 /* OpenGL.framework */; };
+		43A026B9091EEA4F00747DB3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A02664091EE79700747DB3 /* GLUT.framework */; };
+		43A026BA091EEA5400747DB3 /* lightposition.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02656091EE74800747DB3 /* lightposition.c */; };
+		43A026BB091EEA5B00747DB3 /* glm.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02652091EE74800747DB3 /* glm.c */; };
+		43A026BC091EEA5B00747DB3 /* glm.h in Sources */ = {isa = PBXBuildFile; fileRef = 43A02653091EE74800747DB3 /* glm.h */; };
+		43A026CE091EEB3900747DB3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A0267E091EE8A800747DB3 /* OpenGL.framework */; };
+		43A026CF091EEB3E00747DB3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A02664091EE79700747DB3 /* GLUT.framework */; };
+		43A026D0091EEB4500747DB3 /* glm.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02652091EE74800747DB3 /* glm.c */; };
+		43A026D1091EEB4500747DB3 /* glm.h in Sources */ = {isa = PBXBuildFile; fileRef = 43A02653091EE74800747DB3 /* glm.h */; };
+		43A026D2091EEB4B00747DB3 /* projection.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02659091EE74800747DB3 /* projection.c */; };
+		43A026E1091EEB8000747DB3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A0267E091EE8A800747DB3 /* OpenGL.framework */; };
+		43A026E2091EEB8500747DB3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A02664091EE79700747DB3 /* GLUT.framework */; };
+		43A026E3091EEB8B00747DB3 /* glm.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02652091EE74800747DB3 /* glm.c */; };
+		43A026E4091EEB8B00747DB3 /* glm.h in Sources */ = {isa = PBXBuildFile; fileRef = 43A02653091EE74800747DB3 /* glm.h */; };
+		43A026E5091EEB8E00747DB3 /* shapes.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A0265A091EE74800747DB3 /* shapes.c */; };
+		43A026F9091EEBED00747DB3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A0267E091EE8A800747DB3 /* OpenGL.framework */; };
+		43A026FA091EEBF100747DB3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A02664091EE79700747DB3 /* GLUT.framework */; };
+		43A026FB091EEBF600747DB3 /* glm.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02652091EE74800747DB3 /* glm.c */; };
+		43A026FC091EEBF600747DB3 /* glm.h in Sources */ = {isa = PBXBuildFile; fileRef = 43A02653091EE74800747DB3 /* glm.h */; };
+		43A026FD091EEBFA00747DB3 /* texture.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A0265B091EE74800747DB3 /* texture.c */; };
+		43A02723091EED7E00747DB3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A0267E091EE8A800747DB3 /* OpenGL.framework */; };
+		43A02724091EED8200747DB3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A02664091EE79700747DB3 /* GLUT.framework */; };
+		43A02725091EED8600747DB3 /* glm.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A02652091EE74800747DB3 /* glm.c */; };
+		43A02726091EED8600747DB3 /* glm.h in Sources */ = {isa = PBXBuildFile; fileRef = 43A02653091EE74800747DB3 /* glm.h */; };
+		43A02727091EED8900747DB3 /* transformation.c in Sources */ = {isa = PBXBuildFile; fileRef = 43A0265C091EE74800747DB3 /* transformation.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		014CEA520018CE5811CA2923 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		014CEA530018CE5811CA2923 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXFileReference section */
+		43A0264B091EE70E00747DB3 /* fog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fog; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A02651091EE74800747DB3 /* fog.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = fog.c; sourceTree = "<group>"; };
+		43A02652091EE74800747DB3 /* glm.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = glm.c; sourceTree = "<group>"; };
+		43A02653091EE74800747DB3 /* glm.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = glm.h; sourceTree = "<group>"; };
+		43A02655091EE74800747DB3 /* lightmaterial.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = lightmaterial.c; sourceTree = "<group>"; };
+		43A02656091EE74800747DB3 /* lightposition.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = lightposition.c; sourceTree = "<group>"; };
+		43A02658091EE74800747DB3 /* materials.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = materials.h; sourceTree = "<group>"; };
+		43A02659091EE74800747DB3 /* projection.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = projection.c; sourceTree = "<group>"; };
+		43A0265A091EE74800747DB3 /* shapes.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = shapes.c; sourceTree = "<group>"; };
+		43A0265B091EE74800747DB3 /* texture.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = texture.c; sourceTree = "<group>"; };
+		43A0265C091EE74800747DB3 /* transformation.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = transformation.c; sourceTree = "<group>"; };
+		43A02664091EE79700747DB3 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		43A0267E091EE8A800747DB3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		43A026A1091EE94900747DB3 /* lightmaterial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lightmaterial; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A026B6091EEA3F00747DB3 /* lightposition */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lightposition; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A026CC091EEB3000747DB3 /* projection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = projection; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A026DF091EEB7800747DB3 /* shapes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shapes; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A026F5091EEBE300747DB3 /* texture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = texture; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A02721091EED6200747DB3 /* transformation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = transformation; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43A02649091EE70E00747DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A02665091EE79700747DB3 /* GLUT.framework in Frameworks */,
+				43A0267F091EE8A800747DB3 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A0269F091EE94900747DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A026A3091EE95600747DB3 /* GLUT.framework in Frameworks */,
+				43A026A4091EE95B00747DB3 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A026B4091EEA3F00747DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A026B9091EEA4F00747DB3 /* GLUT.framework in Frameworks */,
+				43A026B8091EEA4C00747DB3 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A026CA091EEB3000747DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A026CF091EEB3E00747DB3 /* GLUT.framework in Frameworks */,
+				43A026CE091EEB3900747DB3 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A026DD091EEB7800747DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A026E2091EEB8500747DB3 /* GLUT.framework in Frameworks */,
+				43A026E1091EEB8000747DB3 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A026F3091EEBE300747DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A026FA091EEBF100747DB3 /* GLUT.framework in Frameworks */,
+				43A026F9091EEBED00747DB3 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A0271F091EED6200747DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A02724091EED8200747DB3 /* GLUT.framework in Frameworks */,
+				43A02723091EED7E00747DB3 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* tutors */ = {
+			isa = PBXGroup;
+			children = (
+				43A0267E091EE8A800747DB3 /* OpenGL.framework */,
+				43A02664091EE79700747DB3 /* GLUT.framework */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = tutors;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				43A02651091EE74800747DB3 /* fog.c */,
+				43A02652091EE74800747DB3 /* glm.c */,
+				43A02653091EE74800747DB3 /* glm.h */,
+				43A02655091EE74800747DB3 /* lightmaterial.c */,
+				43A02656091EE74800747DB3 /* lightposition.c */,
+				43A02658091EE74800747DB3 /* materials.h */,
+				43A02659091EE74800747DB3 /* projection.c */,
+				43A0265A091EE74800747DB3 /* shapes.c */,
+				43A0265B091EE74800747DB3 /* texture.c */,
+				43A0265C091EE74800747DB3 /* transformation.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43A0264B091EE70E00747DB3 /* fog */,
+				43A026A1091EE94900747DB3 /* lightmaterial */,
+				43A026B6091EEA3F00747DB3 /* lightposition */,
+				43A026CC091EEB3000747DB3 /* projection */,
+				43A026DF091EEB7800747DB3 /* shapes */,
+				43A026F5091EEBE300747DB3 /* texture */,
+				43A02721091EED6200747DB3 /* transformation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43A0264A091EE70E00747DB3 /* fog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A0264D091EE73500747DB3 /* Build configuration list for PBXNativeTarget "fog" */;
+			buildPhases = (
+				43A02648091EE70E00747DB3 /* Sources */,
+				43A02649091EE70E00747DB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = fog;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = fog;
+			productName = fog;
+			productReference = 43A0264B091EE70E00747DB3 /* fog */;
+			productType = "com.apple.product-type.tool";
+		};
+		43A026A0091EE94900747DB3 /* lightmaterial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A026A9091EE98000747DB3 /* Build configuration list for PBXNativeTarget "lightmaterial" */;
+			buildPhases = (
+				43A0269E091EE94900747DB3 /* Sources */,
+				43A0269F091EE94900747DB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = lightmaterial;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = lightmaterial;
+			productName = lightmaterial;
+			productReference = 43A026A1091EE94900747DB3 /* lightmaterial */;
+			productType = "com.apple.product-type.tool";
+		};
+		43A026B5091EEA3F00747DB3 /* lightposition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A026BD091EEA6100747DB3 /* Build configuration list for PBXNativeTarget "lightposition" */;
+			buildPhases = (
+				43A026B3091EEA3F00747DB3 /* Sources */,
+				43A026B4091EEA3F00747DB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = lightposition;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = lightposition;
+			productName = lightposition;
+			productReference = 43A026B6091EEA3F00747DB3 /* lightposition */;
+			productType = "com.apple.product-type.tool";
+		};
+		43A026CB091EEB3000747DB3 /* projection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A026D3091EEB5000747DB3 /* Build configuration list for PBXNativeTarget "projection" */;
+			buildPhases = (
+				43A026C9091EEB3000747DB3 /* Sources */,
+				43A026CA091EEB3000747DB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = projection;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = projection;
+			productName = projection;
+			productReference = 43A026CC091EEB3000747DB3 /* projection */;
+			productType = "com.apple.product-type.tool";
+		};
+		43A026DE091EEB7800747DB3 /* shapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A026E6091EEB9200747DB3 /* Build configuration list for PBXNativeTarget "shapes" */;
+			buildPhases = (
+				43A026DC091EEB7800747DB3 /* Sources */,
+				43A026DD091EEB7800747DB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = shapes;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = shapes;
+			productName = shapes;
+			productReference = 43A026DF091EEB7800747DB3 /* shapes */;
+			productType = "com.apple.product-type.tool";
+		};
+		43A026F4091EEBE300747DB3 /* texture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A026FE091EEBFE00747DB3 /* Build configuration list for PBXNativeTarget "texture" */;
+			buildPhases = (
+				43A026F2091EEBE300747DB3 /* Sources */,
+				43A026F3091EEBE300747DB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = texture;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = texture;
+			productName = texture;
+			productReference = 43A026F5091EEBE300747DB3 /* texture */;
+			productType = "com.apple.product-type.tool";
+		};
+		43A02720091EED6200747DB3 /* transformation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A02728091EED9100747DB3 /* Build configuration list for PBXNativeTarget "transformation" */;
+			buildPhases = (
+				43A0271E091EED6200747DB3 /* Sources */,
+				43A0271F091EED6200747DB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = transformation;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+			);
+			name = transformation;
+			productName = transformation;
+			productReference = 43A02721091EED6200747DB3 /* transformation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 43A02641091EE6A800747DB3 /* Build configuration list for PBXProject "tutors" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA520018CE5811CA2923 /* Debug */,
+				014CEA530018CE5811CA2923 /* Release */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* tutors */;
+			projectDirPath = "";
+			targets = (
+				43A0264A091EE70E00747DB3 /* fog */,
+				43A026A0091EE94900747DB3 /* lightmaterial */,
+				43A026B5091EEA3F00747DB3 /* lightposition */,
+				43A026CB091EEB3000747DB3 /* projection */,
+				43A026DE091EEB7800747DB3 /* shapes */,
+				43A026F4091EEBE300747DB3 /* texture */,
+				43A02720091EED6200747DB3 /* transformation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A02648091EE70E00747DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A0265D091EE75C00747DB3 /* fog.c in Sources */,
+				43A0265E091EE76200747DB3 /* glm.c in Sources */,
+				43A0265F091EE76400747DB3 /* glm.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A0269E091EE94900747DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A026A5091EE96300747DB3 /* lightmaterial.c in Sources */,
+				43A026A6091EE96700747DB3 /* glm.c in Sources */,
+				43A026A7091EE96A00747DB3 /* glm.h in Sources */,
+				43A026A8091EE96D00747DB3 /* materials.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A026B3091EEA3F00747DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A026BA091EEA5400747DB3 /* lightposition.c in Sources */,
+				43A026BB091EEA5B00747DB3 /* glm.c in Sources */,
+				43A026BC091EEA5B00747DB3 /* glm.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A026C9091EEB3000747DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A026D2091EEB4B00747DB3 /* projection.c in Sources */,
+				43A026D0091EEB4500747DB3 /* glm.c in Sources */,
+				43A026D1091EEB4500747DB3 /* glm.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A026DC091EEB7800747DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A026E5091EEB8E00747DB3 /* shapes.c in Sources */,
+				43A026E3091EEB8B00747DB3 /* glm.c in Sources */,
+				43A026E4091EEB8B00747DB3 /* glm.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A026F2091EEBE300747DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A026FD091EEBFA00747DB3 /* texture.c in Sources */,
+				43A026FB091EEBF600747DB3 /* glm.c in Sources */,
+				43A026FC091EEBF600747DB3 /* glm.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A0271E091EED6200747DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A02727091EED8900747DB3 /* transformation.c in Sources */,
+				43A02725091EED8600747DB3 /* glm.c in Sources */,
+				43A02726091EED8600747DB3 /* glm.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43A02642091EE6A800747DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		43A02643091EE6A800747DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+		43A02644091EE6A800747DB3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				WARNING_CFLAGS = "";
+			};
+			name = Default;
+		};
+		43A0264E091EE73500747DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = fog;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		43A0264F091EE73500747DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = fog;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		43A02650091EE73500747DB3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = fog;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		43A026AA091EE98000747DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = lightmaterial;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		43A026AB091EE98000747DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = lightmaterial;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		43A026AC091EE98000747DB3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = lightmaterial;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		43A026BE091EEA6100747DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = lightposition;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		43A026BF091EEA6100747DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = lightposition;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		43A026C0091EEA6100747DB3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = lightposition;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		43A026D4091EEB5000747DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = projection;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		43A026D5091EEB5000747DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = projection;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		43A026D6091EEB5000747DB3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = projection;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		43A026E7091EEB9200747DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = shapes;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		43A026E8091EEB9200747DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = shapes;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		43A026E9091EEB9200747DB3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = shapes;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		43A026FF091EEBFE00747DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = texture;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		43A02700091EEBFE00747DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = texture;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		43A02701091EEBFE00747DB3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = texture;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		43A02729091EED9100747DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = transformation;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		43A0272A091EED9100747DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = transformation;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		43A0272B091EED9100747DB3 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = transformation;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43A02641091EE6A800747DB3 /* Build configuration list for PBXProject "tutors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A02642091EE6A800747DB3 /* Debug */,
+				43A02643091EE6A800747DB3 /* Release */,
+				43A02644091EE6A800747DB3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		43A0264D091EE73500747DB3 /* Build configuration list for PBXNativeTarget "fog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A0264E091EE73500747DB3 /* Debug */,
+				43A0264F091EE73500747DB3 /* Release */,
+				43A02650091EE73500747DB3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43A026A9091EE98000747DB3 /* Build configuration list for PBXNativeTarget "lightmaterial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A026AA091EE98000747DB3 /* Debug */,
+				43A026AB091EE98000747DB3 /* Release */,
+				43A026AC091EE98000747DB3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43A026BD091EEA6100747DB3 /* Build configuration list for PBXNativeTarget "lightposition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A026BE091EEA6100747DB3 /* Debug */,
+				43A026BF091EEA6100747DB3 /* Release */,
+				43A026C0091EEA6100747DB3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43A026D3091EEB5000747DB3 /* Build configuration list for PBXNativeTarget "projection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A026D4091EEB5000747DB3 /* Debug */,
+				43A026D5091EEB5000747DB3 /* Release */,
+				43A026D6091EEB5000747DB3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43A026E6091EEB9200747DB3 /* Build configuration list for PBXNativeTarget "shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A026E7091EEB9200747DB3 /* Debug */,
+				43A026E8091EEB9200747DB3 /* Release */,
+				43A026E9091EEB9200747DB3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43A026FE091EEBFE00747DB3 /* Build configuration list for PBXNativeTarget "texture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A026FF091EEBFE00747DB3 /* Debug */,
+				43A02700091EEBFE00747DB3 /* Release */,
+				43A02701091EEBFE00747DB3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43A02728091EED9100747DB3 /* Build configuration list for PBXNativeTarget "transformation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A02729091EED9100747DB3 /* Debug */,
+				43A0272A091EED9100747DB3 /* Release */,
+				43A0272B091EED9100747DB3 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

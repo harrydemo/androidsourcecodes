@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/parent_lay_lev" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_area" android:background="@drawable/header" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shared_weibo" android:layout_centerInParent="true" />
+            <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/my_edit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/return_back" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_area">
+        <WebView android:id="@id/web_page_control" android:fadingEdge="vertical" android:fadingEdgeLength="12.0dip" android:animationCache="true" android:persistentDrawingCache="all" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

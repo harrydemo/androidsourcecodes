@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/love_top_r"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sporsmain_bg" >
+
+        <include
+            android:id="@+id/love_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            layout="@layout/top_1" />
+
+        <FrameLayout
+            android:id="@+id/love_ll_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/love_top" >
+
+            <ImageView
+                android:id="@+id/love_image_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/fingerlove_imgone" />
+
+            <ImageView
+                android:id="@+id/love_image_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/fingerlove_imgtwo" />
+
+            <ImageView
+                android:id="@+id/love_image_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/magicball_logo" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/love_ll_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/love_bottom" >
+
+            <ImageView
+                android:id="@+id/love_image_1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/fingerlove_imgthree" />
+
+            <ImageView
+                android:id="@+id/love_image_1_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/fingerlove_imgfour" />
+
+            <ImageView
+                android:id="@+id/love_image_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/loverun_logo" />
+        </FrameLayout>
+
+        <include
+            android:id="@+id/love_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/bottom" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/logo" />
+
+</FrameLayout>

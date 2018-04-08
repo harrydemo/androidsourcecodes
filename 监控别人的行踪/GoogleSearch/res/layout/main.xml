@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:text="看到本界面表明监听程序已经安装成功，可以放心退出。本服务会在系统后台运行，开机自动启动（不会再出现本界面）"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:text="定位测试" />
+
+</LinearLayout>

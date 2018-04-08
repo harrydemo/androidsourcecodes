@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- 首页        zhufanyu -->
+<RelativeLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/white">
+	<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:background="@drawable/first_main" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+	<include layout="@layout/common_listview" />
+</RelativeLayout>

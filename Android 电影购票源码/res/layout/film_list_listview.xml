@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView android:id="@+id/imgUrl" android:layout_height="60px"
+		android:layout_width="90px">
+	</ImageView>
+	<TextView android:id="@+id/film_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/imgUrl" android:textSize="20px"
+		android:layout_marginTop="1px">
+	</TextView>
+	<TextView android:id="@+id/daoyan"
+		android:layout_width="wrap_content"
+		android:layout_toRightOf="@+id/imgUrl"
+		android:layout_below="@+id/film_name"
+		android:layout_height="wrap_content" android:textSize="15px"
+		android:layout_marginTop="1px">
+	</TextView>
+	<TextView android:id="@+id/zhuyan"
+		android:layout_width="wrap_content"
+		android:layout_toRightOf="@+id/imgUrl"
+		android:layout_below="@+id/daoyan"
+		android:layout_height="wrap_content" android:textSize="15px"
+		android:layout_marginTop="1px">
+	</TextView>
+
+	<Button android:text="@string/goupiao" android:id="@+id/goupiao"
+		android:layout_toRightOf="@+id/imgUrl"
+		android:layout_marginLeft="150px" android:layout_below="@+id/zhuyan"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:focusable="false">
+	</Button>
+</RelativeLayout>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingTop="20dip">
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="60dip">
+		<Button android:id="@+id/singleChart"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Single Chart" />
+		<Button android:id="@+id/totalChart"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Total Chart" />
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/chartArea"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="340dip" />
+		
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:id="@+id/screenDesc"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:textSize="18sp"
+			android:visibility="invisible" />
+		<TextView android:id="@+id/powerDesc"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:textSize="18sp"
+			android:visibility="invisible" />
+	</LinearLayout>
+</LinearLayout>

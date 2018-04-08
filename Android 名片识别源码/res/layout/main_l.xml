@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#fff">
+	<ImageView android:src="@drawable/logo_sharp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginTop="10px" android:layout_marginLeft="10px"
+		android:layout_marginBottom="10px" />
+	<ImageView android:src="@drawable/banner_text"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center">
+		<ImageButton android:src="@drawable/shooter_m" android:id="@+id/btn_rec_from_camera"
+			android:layout_width="120px" android:layout_height="120px" />
+		<ImageButton android:src="@drawable/nvtv_m" android:id="@+id/btn_read_from_sdcard"
+			android:layout_width="120px" android:layout_height="120px" />
+		<ImageButton android:src="@drawable/contact_m"
+			android:id="@+id/btn_contact" android:layout_width="120px"
+			android:layout_height="120px" />
+		<ImageButton android:src="@drawable/setting_m" android:id="@+id/btn_setting"
+			android:layout_width="120px" android:layout_height="120px" />
+		
+	</LinearLayout>
+	<!--
+		<Button android:text="@string/read_from_sdcard"
+		android:id="@+id/btn_read_from_sdcard"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" /> <Button
+		android:text="@string/rec_from_camera"
+		android:id="@+id/btn_rec_from_camera"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" /> <Button android:text="Mock
+		OCR" android:id="@+id/btn_mock_ocr"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	-->
+	<ImageView android:src="@drawable/copyright_text"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="right" android:layout_marginRight="5px" />
+</LinearLayout>

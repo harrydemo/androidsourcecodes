@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/page1_bg" >
+
+    <TextView
+        android:id="@+id/page1_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/page1_title_bg"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/page1_title"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/page1_title_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/page1_title"
+        android:layout_centerHorizontal="true"
+        android:text="@string/page1_title_1"
+        android:textColor="#000000"
+        android:textSize="10dp" />
+
+    <ImageView
+        android:id="@+id/page1_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/page1_title_1"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="2dp"
+        android:src="@drawable/page1_image" />
+
+    <RelativeLayout
+        android:id="@+id/page1_login"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/page1_image"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+         <EditText
+            android:id="@+id/page1_login_user_edit"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingLeft="100dp"
+            android:paddingRight="80dp"
+            android:paddingBottom="17dp"
+            android:saveEnabled="true"
+            android:singleLine="true"
+            android:background="@drawable/page1_login_input"
+            style="@style/page1_text"
+            android:hint="@string/page1_login_userText_hint" />
+        <TextView
+            android:id="@+id/page1_login_user_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingLeft="20dp"
+            style="@style/page1_text"
+            android:text="@string/page1_login_userText" />
+         <TextView 
+             android:layout_width="37dp"
+             android:layout_height="37dp"
+             android:paddingTop="16dp"
+             android:paddingRight="10dp"
+             android:textStyle="bold"
+             android:textSize="17sp"
+             android:layout_alignRight="@+id/page1_login_user_edit"
+             android:text="@string/page1_login_right_image"
+             />
+        <EditText
+            android:id="@+id/page1_login_passwd_edit"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="16dp"
+            android:paddingLeft="180dp"
+            android:paddingRight="80dp"
+            android:paddingBottom="15dp"
+            android:layout_marginBottom="11dp"
+            android:saveEnabled="true"
+            android:singleLine="true"
+            android:background="@drawable/page1_login_input"
+            style="@style/page1_text"
+            android:password="true"/>
+        <TextView
+            android:id="@+id/page1_login_passwd_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/page1_login_user_text"
+            android:paddingTop="28dp"
+            android:paddingLeft="20dp"
+            style="@style/page1_text"
+            android:text="@string/page1_login_passwdText" />
+    </RelativeLayout>
+	<TableLayout 
+	    android:id="@+id/page1_tableLayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/page1_login"
+	    android:gravity="center_horizontal">
+	    <TableRow >
+	        <Button 
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:paddingLeft="30dp"
+	            android:layout_marginLeft="20dp"
+	            android:paddingRight="40dp"
+	            style="@style/page1_text"
+	            android:text="@string/page1_network_button"/>
+	        <Button 
+	            android:layout_width="wrap_content"
+	            android:layout_height="40dp"
+	            android:paddingLeft="30dp"
+	            android:paddingRight="30dp"
+	            android:layout_marginLeft="20dp"
+	            style="@style/page1_text"
+	            android:text="@string/page1_login_button1"/>
+	    </TableRow>
+	</TableLayout>
+	<RelativeLayout 
+	    android:id="@+id/checkbox_relativeLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/page1_tableLayout"
+	    >
+	    <CheckBox 
+	        android:id="@+id/page1_checbox1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="50dp"
+	        style="@style/page1_checbox_text"
+	        android:button="@drawable/page1_checbox_selector"
+	        android:text="@string/page1_checbox_text1"/>
+	     <CheckBox 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/page1_checbox1"
+	        android:layout_marginLeft="50dp"
+	        style="@style/page1_checbox_text"
+	        android:button="@drawable/page1_checbox_selector"
+	        android:text="@string/page1_checbox_text2"/>
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    >
+	     <TextView
+            android:id="@+id/page1_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	android:layout_centerHorizontal="true"
+           	android:textColor="#000000"
+            android:text="@string/page1_tex1" />
+	     <TextView
+            android:id="@+id/page1_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	android:layout_centerHorizontal="true"
+           	android:paddingLeft="60dp"
+           	android:paddingBottom="10dp"
+           	android:layout_alignLeft="@+id/page1_text1"
+           	android:textColor="#ff0000"
+            android:text="@string/page1_tex2" />
+	</RelativeLayout>
+</RelativeLayout>

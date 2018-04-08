@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/alpha"
+		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:paddingLeft="13dip"
+  		android:background="#333333"
+		android:textColor="#99CCFF"
+		android:textAppearance="?android:textAppearanceMedium"
+		android:visibility="gone" />
+		
+	<ImageView
+		android:id="@+id/image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_marginRight="5.0dip"
+		android:src="@drawable/contact_list_icon"
+		android:layout_below="@id/alpha" />
+		
+    <TextView
+    	android:id="@+id/name"
+    	android:textAppearance="?android:textAppearanceMedium"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginLeft="2.0dip"
+    	android:layout_marginTop="6.0dip"
+    	android:layout_marginRight="5.0dip"
+    	android:singleLine="true"
+    	android:layout_toRightOf="@id/image_view"
+    	android:layout_alignTop="@id/image_view" />
+    	
+    <TextView
+    	android:id="@+id/number"
+    	android:textAppearance="?android:textAppearanceSmall"
+    	android:ellipsize="marquee"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:singleLine="true"
+    	android:textColor="#AAAAAA"
+    	android:layout_below="@id/name"
+    	android:layout_alignLeft="@id/name"
+    	android:layout_alignWithParentIfMissing="true" />
+    	
+</RelativeLayout>

@@ -1,0 +1,104 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3075), pid=3916, tid=5428
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 7.0-b45
+# Java VM: Java HotSpot(TM) Client VM (14.0-b10 mixed mode windows-x86 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00866c00):  JavaThread "Unknown thread" [_thread_in_vm, id=5428, stack(0x00900000,0x00950000)]
+
+Stack: [0x00900000,0x00950000],  sp=0x0094f930,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x1e6f17]
+V  [jvm.dll+0xa0dc9]
+V  [jvm.dll+0x73582]
+V  [jvm.dll+0x74be4]
+V  [jvm.dll+0x1b6a66]
+V  [jvm.dll+0x1b70fe]
+V  [jvm.dll+0x1b74b5]
+V  [jvm.dll+0x1b74fb]
+V  [jvm.dll+0x1b7622]
+V  [jvm.dll+0x1b769a]
+V  [jvm.dll+0x1b774d]
+V  [jvm.dll+0x1b7962]
+V  [jvm.dll+0x1d6943]
+V  [jvm.dll+0x1d6d7c]
+V  [jvm.dll+0xd7831]
+V  [jvm.dll+0x1d0de2]
+V  [jvm.dll+0xfff50]
+C  [javaw.exe+0x12db]
+C  [javaw.exe+0x1d4d]
+C  [javaw.exe+0x884f]
+C  [kernel32.dll+0xb729]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00866c00 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5428, stack(0x00900000,0x00950000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00423000 	E:\ProgramFiles\Java\jdk1.7.0\bin\javaw.exe
+0x7c920000 - 0x7c9b6000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c91e000 	C:\WINDOWS\system32\kernel32.dll
+0x77da0000 - 0x77e49000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e50000 - 0x77ee2000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fc0000 - 0x77fd1000 	C:\WINDOWS\system32\Secur32.dll
+0x77d10000 - 0x77da0000 	C:\WINDOWS\system32\USER32.dll
+0x77ef0000 - 0x77f39000 	C:\WINDOWS\system32\GDI32.dll
+0x77180000 - 0x77283000 	C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\COMCTL32.dll
+0x77be0000 - 0x77c38000 	C:\WINDOWS\system32\msvcrt.dll
+0x77f40000 - 0x77fb6000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x76300000 - 0x7631d000 	C:\WINDOWS\system32\IMM32.DLL
+0x62c20000 - 0x62c29000 	C:\WINDOWS\system32\LPK.DLL
+0x73fa0000 - 0x7400b000 	C:\WINDOWS\system32\USP10.dll
+0x7c340000 - 0x7c396000 	E:\ProgramFiles\Java\jdk1.7.0\jre\bin\msvcr71.dll
+0x6d7e0000 - 0x6da6c000 	E:\ProgramFiles\Java\jdk1.7.0\jre\bin\client\jvm.dll
+0x76b10000 - 0x76b3a000 	C:\WINDOWS\system32\WINMM.dll
+0x6d790000 - 0x6d79b000 	E:\ProgramFiles\Java\jdk1.7.0\jre\bin\verify.dll
+0x6d2a0000 - 0x6d2bf000 	E:\ProgramFiles\Java\jdk1.7.0\jre\bin\java.dll
+0x6d210000 - 0x6d218000 	E:\ProgramFiles\Java\jdk1.7.0\jre\bin\hpi.dll
+0x76bc0000 - 0x76bcb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d7d0000 - 0x6d7df000 	E:\ProgramFiles\Java\jdk1.7.0\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:F:\Software\Java\android-sdk-windows\platforms\android-8\android.jar 
+java_command: org.android.computer.TestXMLResolve
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=.;.;C:\PROGRA~1\JMF21~1.1E\lib\sound.jar;C:\PROGRA~1\JMF21~1.1E\lib\jmf.jar;C:\PROGRA~1\JMF21~1.1E\lib;
+PATH=E:/ProgramFiles/Java/jdk1.7.0/bin/../jre/bin/client;E:/ProgramFiles/Java/jdk1.7.0/bin/../jre/bin;E:/ProgramFiles/Java/jdk1.7.0/bin/../jre/lib/i386;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;E:\PROGRA~1\IBM\SQLLIB\BIN;E:\PROGRA~1\IBM\SQLLIB\FUNCTION;E:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;E:\ProgramFiles\TortoiseSVN\bin;E:\ProgramFiles\CTEX\UserData\miktex\bin;E:\ProgramFiles\CTEX\MiKTeX\miktex\bin;E:\ProgramFiles\CTEX\CTeX\ctex\bin;E:\ProgramFiles\CTEX\CTeX\cct\bin;E:\ProgramFiles\CTEX\CTeX\ty\bin;E:\ProgramFiles\CTEX\Ghostscript\gs9.00\bin;E:\ProgramFiles\CTEX\GSview\gsview;E:\ProgramFiles\CTEX\WinEdt;E:\ProgramFiles\Java\jdk1.7.0\bin;C:\MinGW\bin;E:\ProgramFiles\T58KTV\9158VirtualCamera\bin;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\Common Files\Ulead Systems\MPEG;E:\ProgramFiles\Java\eclipse;
+USERNAME=db2admin
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 13, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 3
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 13, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2095468k(781768k free), swap 4033936k(2510612k free)
+
+vm_info: Java HotSpot(TM) Client VM (14.0-b10) for windows-x86 JRE (1.7.0-ea-b45), built on Jan 29 2009 10:13:08 by "java_re" with MS VC++ 7.1
+
+time: Thu Nov 17 23:02:06 2011
+elapsed time: 0 seconds
+

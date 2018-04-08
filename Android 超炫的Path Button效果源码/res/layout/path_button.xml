@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#ffffff">
+
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:background="@drawable/splash_shadow"
+		android:layout_marginLeft="50dip" />
+
+	<RelativeLayout android:id="@+id/relativeLayout_top_bar"
+		android:layout_width="fill_parent" android:layout_height="40dip"
+		android:background="@drawable/qa_bar">
+
+		<ImageView android:layout_width="60dip"
+			android:layout_height="20dip" android:background="@drawable/qa_logo"
+			android:layout_centerInParent="true" />
+
+	</RelativeLayout>
+
+	<TextView   android:id="@+id/refresh"   android:layout_below="@id/relativeLayout_top_bar"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textSize="20sp" android:text="Tap to Refresh"
+		android:layout_centerHorizontal="true" android:layout_marginTop="50dip" android:textStyle="bold"/>
+
+
+	<Button android:id="@+id/button_composer_sleep"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/composer_sleep"
+		android:layout_marginBottom="10dip" android:layout_marginLeft="10dip"
+		android:layout_alignParentBottom="true">
+	</Button>
+
+	<Button android:id="@+id/button_composer_thought"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/composer_thought"
+		android:layout_marginBottom="10dip" android:layout_marginLeft="10dip"
+		android:layout_alignParentBottom="true" android:layout_above="@id/button_composer_sleep">
+	</Button>
+
+	<Button android:id="@+id/button_composer_music"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/composer_music"
+		android:layout_marginBottom="10dip" android:layout_marginLeft="10dip"
+		android:layout_alignParentBottom="true">
+	</Button>
+
+	<Button android:id="@+id/button_composer_place"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/composer_place"
+		android:layout_marginBottom="10dip" android:layout_marginLeft="10dip"
+		android:layout_alignParentBottom="true" android:layout_above="@id/button_composer_music">
+	</Button>
+
+
+	<Button android:id="@+id/button_composer_with"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/composer_with"
+		android:layout_marginBottom="10dip" android:layout_marginLeft="10dip"
+		android:layout_alignParentBottom="true" android:layout_above="@id/button_composer_place">
+	</Button>
+
+
+	<Button android:id="@+id/button_composer_camera"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/composer_camera"
+		android:layout_marginBottom="10dip" android:layout_marginLeft="10dip"
+		android:layout_alignParentBottom="true" android:layout_above="@id/button_composer_with">
+	</Button>
+
+
+	<Button android:id="@+id/button_friends_delete"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/friends_delete"
+		android:layout_marginBottom="10dip" android:layout_marginLeft="10dip"
+		android:layout_alignParentBottom="true" android:layout_above="@id/button_composer_camera">
+	</Button>
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  	<TextView  android:id="@+id/view_start"
+  			   android:layout_width="wrap_content"
+  			   android:layout_height="wrap_content"
+  			   android:text="开始时间"/>
+  	<DatePicker android:id="@+id/date_start"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:layout_below="@id/view_start"
+  				android:layout_centerHorizontal="true"/>  	
+  	<TextView  android:id="@+id/view_end"
+  			   android:layout_width="wrap_content"
+  			   android:layout_height="wrap_content"
+  			   android:text="结束时间"
+  			   android:layout_below="@id/date_start"/>
+  	<DatePicker android:id="@+id/date_end"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:layout_below="@id/view_end"
+  				android:layout_centerHorizontal="true"/> 
+  				
+  	<Button    android:id="@+id/btn_setDateOK"
+  			   android:layout_width="wrap_content"
+  			   android:width="100dip"
+  			   android:layout_height="wrap_content"
+  			   android:layout_alignParentLeft="true"
+  			   android:layout_marginLeft="10dip"
+  			   android:layout_below="@id/date_end" 
+  			   android:text="确定"/>	
+  			   
+    <Button    android:id="@+id/btn_setDateCancel"
+    		   android:layout_width="wrap_content"
+  			   android:width="100dip"
+  			   android:layout_height="wrap_content"
+  			   android:layout_alignParentRight="true"
+  			   android:layout_marginRight="10dip"
+  			   android:layout_alignTop="@id/btn_setDateOK" 
+  			   android:text="取消"/>					
+</RelativeLayout>

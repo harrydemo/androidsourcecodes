@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <resources>
+    <string name="app_name">体重计算</string>
+    <string name="title">计算标准体重</string>
+    <string name="text1">身高：</string>
+    <string name="text2">性別：</string>
+  </resources>
+

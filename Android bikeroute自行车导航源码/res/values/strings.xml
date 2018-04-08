@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="minVersion">3</string>
+    <string name="version">Beta 1098</string>
+    <string name="app_name">BikeRoute</string>
+<string name="plan_msg">Planning route...</string>
+<string name="load_stands_msg">Loading stands from OpenStreetMap...</string>
+<string name="planfail_msg">Route planning failed.</string>
+<string name="ok">OK</string>
+<string name="arg_error_msg">Illegal argument.</string>
+<string name="io_error_msg">Failed to connect to routing service.</string>
+<string name="result_error_msg">Address not found.</string>
+<string name="fix_msg">Waiting for GPS fix...</string>
+<string name="send_msg">Sending...</string>
+
+    <string name="app_name_itemizedoverlay">OSMViewer ItemizedOverlay</string>
+    
+    <string name="unknown">Unknown</string>
+<string name="map_mode">Map mode</string>
+<string name="my_location">My location</string>
+<string name="samples">Samples</string>
+<string name="about">About</string>
+<string name="about_message">BikeRoute uses map and parking data provided by &lt;a href=&quot;http://openstreetmap.org&quot;&gt;OpenStreetMap.org&lt;/a&gt;; routing by &lt;a href=&quot;http://google.com&quot;&gt;Google&lt;/a&gt;, &lt;a href=&quot;http://open.mapquest.com&quot;&gt;MapQuest&lt;/a&gt; &amp; &lt;a href=&quot;http://cyclestreets.net&quot;&gt;CycleStreets.net&lt;/a&gt; and the &lt;a href=&quot;http://osmdroid.googlecode.com&quot;&gt;OSMDroid&lt;/a&gt; &amp; &lt;a href=&quot;http://achartengine.googlecode.com&quot;&gt;achartengine&lt;/a&gt; libraries.</string>
+
+<string name="about_menu">About</string>
+<string name="cs_copyright">Route planning by CycleStreets.net</string>
+<string name="replan_title">Replan</string>
+<string name="gps_msg">Show location options?</string>
+<string name="gps_msg_title">GPS is disabled</string>
+
+
+<string name="debug_tag">OPENSTREETMAP</string>
+<string name="plan_failed_speech">Planning failed.</string>
+<string name="bike_alert_intent">com.nanosheep.bikeroute.BIKE_ALERT</string>
+<string name="prefs_units">unitsPref</string>
+<string name="km">km</string>
+<string name="meters">m</string>
+<string name="ft">ft</string>
+
+<string name="replan">replan</string>
+<string name="arrived">Arrived</string>
+<string name="point">point</string>
+<string name="notify_title">BikeRoute</string>
+<string name="navigation_intent">com.nanosheep.bikeroute.service.NavigationService</string>
+<string name="replanning">Replanning...</string>
+<string name="stop_nav_title">Stop Navigating</string>
+<string name="arrived_speech">You have reached your destination.</string>
+<string name="jump_intent">jump</string>
+<string name="share_chooser_title">Share Route Using</string>
+<string name="cs_jump">http://cycle.st/j</string>
+<string name="thanks_message">Thanks for your feedback!</string>
+<string name="feedback_fail_message">Apologies, your feedback could not be submitted.</string>
+<string name="export_title">Send to another BikeRoute user</string>
+<string name="share_url_title">Share on CycleStreets.net</string>
+<string name="export_gpx_title">Share as GPX</string>
+<string name="sharing_title">Share</string>
+<string name="filename">route.bikeroute</string>
+<string name="filename_gpx">route.gpx</string>
+<string name="planfail_network_msg">No response from routing service.</string>
+<string name="save_hint">Nickname</string>
+<string name="load_msg">Loading...</string>
+<string name="pref_disable_acra">Disable Error Reporting</string>
+
+<string name="crash_notif_ticker_text">Unexpected error, please send a report...</string>
+<string name="crash_notif_title">BikeRoute has crashed</string>
+<string name="crash_notif_text">Please click here to help fix the issue.</string>
+        
+<string name="crash_dialog_title">BikeRoute has crashed</string>
+<string name="crash_dialog_text">An unexpected error occurred forcing the
+        application to stop. Please help us fix this by sending us error data,
+        all you have to do is click \'OK\'.</string>
+<string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+<string name="crash_dialog_ok_toast">Thank you!</string>
+<string name="geocodeerror">Address not recognised.</string>
+<string name="geocodeconnecterror">No response from geocoding service.</string>
+<string name="tts_msg">Spoken directions require text to speech to be installed. Install now?</string>
+<string name="tts_msg_title">Text to Speech</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结果"
+        android:textColor="@color/color_white" />
+
+    <GridView
+        android:id="@+id/chose_picture_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:gravity="center"
+        android:horizontalSpacing="6dip"
+        android:numColumns="4"
+        android:scrollbars="vertical"
+        android:verticalSpacing="6dip" >
+    </GridView>
+
+</LinearLayout>

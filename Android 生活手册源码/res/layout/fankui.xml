@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/guanyu"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="意见反馈："
+               android:textSize="22sp"
+               android:textColor="#DC143C"
+               android:gravity="left|center"/>
+           <Button android:id="@+id/tijiao"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="提交"
+               android:textColor="#B8860B"
+               android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/fankuiyijian"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.77"
+        android:hint="意见:"
+        android:singleLine="false"
+        android:gravity="top|left"/>
+
+</LinearLayout>

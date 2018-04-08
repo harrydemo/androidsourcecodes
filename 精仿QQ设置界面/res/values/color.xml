@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="window_bg">#fff0f3f6</color>
+    
+    <color name="transparent">#00000000</color>
+    
+    <color name="title_bg">#ff54acea</color>
+
+    <color name="button_unselected">#ff54acea</color>
+    <color name="button_selected">#ff419de4</color>
+
+    <color name="info_panel_bg">#ffeeeeee</color>
+     
+	<color name="chat_title_name">#ffffffff</color>
+    <color name="traffic_bg">#ffecf0f1</color>
+    <color name="traffic_txt">#ff414141</color>
+    <color name="traffic_data">#ff666666</color>
+    
+</resources>

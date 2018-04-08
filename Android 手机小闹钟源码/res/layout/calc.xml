@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="30px"
+    android:id="@+id/layout3"
+    >
+    
+    	<TextView android:id="@+id/title" 
+				android:layout_width="200px"
+				android:layout_height="wrap_content"
+				android:text="完成10个计算解除闹钟"
+				
+				/>
+	<TableLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TableRow>
+			<TextView android:id="@+id/expression" android:layout_span="2"
+				android:layout_width="100px"
+				android:layout_height="wrap_content"
+				android:text=""
+				android:textSize="20px"
+				/>
+			<EditText  android:id="@+id/result" android:layout_span="2"
+			    android:layout_width="100px" 
+			    android:layout_height="wrap_content"
+			    android:numeric="integer"
+				android:editable="false"  
+			    android:text=""
+			    />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/btn6"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="6" />
+			<Button android:id="@+id/btn7"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="7" />
+			<Button android:id="@+id/btn8"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="8" />
+			<Button android:id="@+id/btn9"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="9" />
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/btn2"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="2" />
+			<Button android:id="@+id/btn3"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="3" />
+			<Button android:id="@+id/btn4"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="4" />
+			<Button android:id="@+id/btn5"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="5" />
+			
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/btn0"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="0" />
+			<Button android:id="@+id/btn1"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="1" />
+			<Button android:id="@+id/btnZF" 
+				android:layout_width="50px" 
+				android:layout_height="wrap_content" 
+				android:text="+/-" /> 
+			<Button android:id="@+id/btnEqual"
+				android:layout_width="50px"
+				android:layout_height="wrap_content"
+				android:text="=" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

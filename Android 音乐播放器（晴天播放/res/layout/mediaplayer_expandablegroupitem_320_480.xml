@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal"
+	android:paddingLeft="1dip" android:paddingTop="1dip"
+	android:paddingRight="1dip" android:paddingBottom="1dip">
+
+	<TextView android:id="@+id/group_name" android:layout_height="35dip"
+		android:layout_width="wrap_content" android:textSize="10pt"
+		android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft" />
+		
+	<TextView android:id="@+id/count" android:layout_height="35dip"
+		android:layout_width="wrap_content" android:textSize="8pt"
+		 android:layout_marginLeft="10dip"
+		/>
+
+</LinearLayout>

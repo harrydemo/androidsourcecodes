@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Test!</string>
+    <string name="app_name">Test</string>
+    
+    <string name="city">城市名：</string>
+    <string name="code">市区号：</string>
+    
+    <string name="add">增加</string>
+    <string name="delete">删除</string>
+    <string name="modify">修改</string>
+    <string name="query">查询</string>
+</resources>

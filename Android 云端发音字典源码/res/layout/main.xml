@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@android:color/white"
+  > 
+  <EditText 
+    android:id="@+id/EditText01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:hint="請輸入中文" 
+    android:text="" /> 
+  <LinearLayout 
+    android:orientation="horizontal" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+  > 
+    <Button 
+      android:id="@+id/Button01" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="@string/str_button1" 
+    /> 
+  </LinearLayout>   
+  <TextView 
+    android:id="@+id/TextView01" 
+    android:text="@string/hello" 
+    android:layout_width="wrap_content" 
+    android:layout_height="40px"
+    android:textColor="@android:color/black"/>
+  <WebView 
+    android:id="@+id/myWebView1" 
+    android:visibility="gone" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:focusable="false"/> 
+    
+  <Button 
+    android:id="@+id/myButton2" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/str_button2" 
+  /> 
+</LinearLayout>

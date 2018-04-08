@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * <Book Mark list dialog layout.>
+ *  Copyright (C) <2009>  <Wang XinFeng,ACC http://androidos.cc/dev>
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */ 
+ -->
+
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListView android:id="@+id/bookmarklistview" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_weight="1.0"></ListView>
+	<TableLayout android:id="@+id/TableLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<Button android:id="@+id/deletebm" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/delete"></Button>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<Button android:id="@+id/skipbm" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/gomark"></Button>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<Button android:id="@+id/cancelbm" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/cancel"></Button>
+			</TableRow>
+	</TableLayout>
+</LinearLayout>

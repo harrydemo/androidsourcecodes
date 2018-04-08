@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   	android:weightSum="1" android:background="@color/white"
+   >
+	<LinearLayout android:id="@+id/topMenu"
+		android:layout_alignParentTop="true"
+		android:layout_width="fill_parent"	
+		android:layout_height="40dip"
+		android:gravity="bottom"
+		android:orientation="horizontal"
+		android:background="@drawable/topback"
+	>
+		<LinearLayout android:id="@+id/task"
+			android:orientation="horizontal"
+			android:layout_height="35dip"
+			android:layout_width="100dip"
+			android:background="@drawable/textback"
+		>
+			<TextView android:id="@+id/taskText" android:gravity="center"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:textSize="20sp" android:text="计划" android:textColor="@color/white"
+			/>
+		</LinearLayout>
+	
+		<LinearLayout android:id="@+id/accounts"
+			android:orientation="horizontal"
+			android:layout_height="35dip"
+			android:layout_width="100dip"
+		>
+			<TextView android:id="@+id/accountsText" android:gravity="center"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:textSize="20sp" android:text="帐号" android:textColor="@color/green"
+			/>
+		</LinearLayout>
+		
+			<LinearLayout android:id="@+id/sended"
+			android:orientation="horizontal"
+			android:layout_height="35dip"
+			android:layout_width="100dip"
+		>
+			<TextView android:id="@+id/sendedText" android:gravity="center"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:textSize="20sp" android:text="已发" android:textColor="@color/green"
+			/>
+		</LinearLayout>
+	</LinearLayout>
+	<Button android:id="@+id/btnBottom" android:layout_alignParentBottom="true"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:text="底部按钮"/>
+		
+	<LinearLayout android:id="@+id/content" 
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@id/topMenu"
+		android:layout_above="@id/btnBottom"
+	>
+		<!-- layout_below,当前控件放在设定控件下方 .
+				android:layout_above 当前控件放在设定控件上方
+			这里配合使用,就是放在顶部tab和底部Button的中间
+		-->
+	</LinearLayout>
+	
+</RelativeLayout>

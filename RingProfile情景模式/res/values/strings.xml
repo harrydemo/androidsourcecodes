@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">《情景模式》</string>
+<string name="ring_and_vibrate">铃声和振动</string>
+<string name="ring">铃声</string>
+<string name="vibrate">振动</string>
+<string name="silent">静音</string>
+<string name="help">设置时间:</string>
+</resources>

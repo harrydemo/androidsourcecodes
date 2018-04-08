@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--	android:layoutAnimation="@anim/layout_grid_fade"-->
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/theme_bg_17"
+	android:id="@+id/myGrid" android:layout_width="match_parent"
+	android:paddingLeft="5dp"
+	android:layout_height="match_parent" android:listSelector="@drawable/grid_selector"
+	android:verticalSpacing="10dp" android:horizontalSpacing="10dp"
+	android:numColumns="auto_fit" android:columnWidth="150dp"
+	android:stretchMode="columnWidth" android:gravity="center" />

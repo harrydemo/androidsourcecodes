@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:paddingLeft="8px"
+	android:background="@drawable/back"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<ScrollView
+		android:fillViewport="true"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+		<ListView
+			android:id="@+id/lvDiary"
+			android:divider="@color/listDivider"
+			android:dividerHeight="5px"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			/>
+		</ScrollView>
+	</LinearLayout>

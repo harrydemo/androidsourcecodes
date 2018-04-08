@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent" android:paddingBottom="4dip"
+    android:paddingLeft="12dip" android:paddingRight="12dip" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:id="@+id/Image_train_detail"
+        android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <TableRow android:id="@+id/TableRow01"
+            android:layout_height="wrap_content" android:layout_width="fill_parent">
+            <ImageView android:id="@+id/Image_train_detail"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" android:src="@drawable/train_detail"/>
+            <TableLayout android:layout_height="wrap_content"
+                android:layout_width="wrap_content" stretchColumns="1">
+                <TableRow>
+                    <TextView android:id="@+id/ItemTitle"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="TextView01"
+                        android:textColor="@color/traincode_textcolor" android:textSize="16dip"/>
+                    <TextView android:id="@+id/start_arriveStation"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="TextView01" android:textSize="16dip"/>
+                </TableRow>
+                <TableRow>
+                    <TextView android:text="            "/>
+                    <TextView android:id="@+id/ItemText1"
+                        android:layout_below="@+id/ItemTitle"
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:text="TextView02" android:textSize="10.5sp"/>
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <TableRow android:id="@+id/TableRow01"
+            android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+        <TextView android:id="@+id/ItemText2"
+            android:layout_below="@+id/ItemText1"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent" android:text="TextView03" android:textColor="@color/traincode_textcolor"/>
+        <TextView android:id="@+id/ItemText3"
+            android:layout_below="@+id/ItemText2"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent" android:text="TextView04" android:textColor="@color/traincode_textcolor"/>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" 
+android:id="@+id/tab1_layout" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+				<TableLayout android:layout_margin="0dip" android:id="@+id/tab1_layout1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+					<TableRow android:id="@+id/TableRow01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginLeft="2dip" android:layout_marginTop="5dip">
+						<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:text="@string/add_ip" android:width="60dip" android:layout_margin="0dip" android:height="16dip" android:layout_height="fill_parent"></TextView>
+						<EditText android:layout_marginLeft="1dip" android:width="250dip" android:text="Your App Address" android:layout_width="2dip" android:layout_height="36dip" android:id="@+id/FtpIp"></EditText>
+					</TableRow>
+					<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dip">
+						<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="60dip" android:text="@string/add_type"></TextView>
+
+						<Spinner android:layout_width="wrap_content" android:id="@+id/SpinnerFtpType" android:layout_height="36dip"></Spinner>
+					</TableRow>
+
+					<TableRow android:id="@+id/TableRow03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dip">
+						<TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_port" android:width="60dip"></TextView>
+						<EditText android:layout_width="wrap_content" android:width="250dip" android:numeric="integer" android:text="8888" android:layout_height="36dip" android:id="@+id/FtpPort"></EditText>
+					</TableRow>
+					<TableRow android:id="@+id/TableRow04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dip">
+						<TextView android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_username" android:width="60dip"></TextView>
+						<EditText android:layout_width="wrap_content" android:width="250dip" android:text="UserName" android:layout_height="36dip" android:id="@+id/FtpUsername"></EditText>
+					</TableRow>
+					<TableRow android:id="@+id/TableRow05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dip">
+						<TextView android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_password" android:width="60dip"></TextView>
+						<EditText android:layout_width="wrap_content" android:width="250dip" android:password="true" android:text="123456" android:layout_height="36dip" android:id="@+id/FtpPassword"></EditText>
+					</TableRow>
+					<TableRow android:id="@+id/TableRow06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dip">
+						<TextView android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_localdir" android:width="60dip"></TextView>
+						<EditText android:layout_width="wrap_content" android:width="250dip" android:text="/sdcard" android:layout_height="36dip" android:id="@+id/FtpLocalDir"></EditText>
+					</TableRow>
+
+					
+					
+				</TableLayout>
+				<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dip" android:layout_marginLeft="60dip"><Button android:id="@+id/BtnTest" android:text="@string/btn_test" android:layout_height="fill_parent" android:layout_margin="2dip" android:width="60dip" android:layout_width="60dip"></Button><Button android:text="@string/btn_save" android:id="@+id/BtnSave" android:layout_height="fill_parent" android:width="60dip" android:layout_margin="2dip" android:layout_width="60dip"></Button><Button android:text="@string/btn_cancle" android:id="@+id/BtnCancle" android:layout_height="fill_parent" android:width="60dip" android:layout_margin="2dip" android:layout_width="60dip" android:maxWidth="60dip"></Button></LinearLayout>
+</LinearLayout>
+

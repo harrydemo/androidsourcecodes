@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">本程序用来测试360手机卫士短信拦截与开机自启动</string>
+    <string name="app_name">Test360</string>
+
+</resources>

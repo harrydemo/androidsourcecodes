@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.tilltheendwjx.airplus.DontPressWithParentLayout
+        android:id="@+id/indicator"
+        style="@style/air_list_left_column"
+        android:gravity="center"
+        android:orientation="vertical">
+		<ToggleButton
+		    android:id="@+id/air_onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:duplicateParentState="true"
+            android:textOn=""
+            android:textOff=""
+            android:drawableBottom="@drawable/air"
+            android:focusable="false" />
+
+    </com.tilltheendwjx.airplus.DontPressWithParentLayout>
+     <com.tilltheendwjx.airplus.AirDigitalClock android:id="@+id/digitalClock"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <LinearLayout
+            android:id="@+id/time_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true">
+
+            <com.tilltheendwjx.airplus.AirClockTextView 
+                android:id="@+id/startTimeDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="6dip"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                useClockTypeface="false"/>
+
+            <com.tilltheendwjx.airplus.AirClockTextView 
+                android:id="@+id/start_am_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="6dip"
+                android:textStyle="bold"
+                useClockTypeface="false"/>
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="6dip"
+                android:gravity="center" 
+                android:layout_gravity="left"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:text="@string/to" />
+            <com.tilltheendwjx.airplus.AirClockTextView 
+                android:id="@+id/endTimeDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="6dip"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                useClockTypeface="false"/>
+
+            <com.tilltheendwjx.airplus.AirClockTextView 
+                android:id="@+id/end_am_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:paddingLeft="6dip"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                useClockTypeface="false"/>
+
+            <TextView android:id="@+id/label"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="6dip"
+                android:layout_gravity="right"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <TextView android:id="@+id/daysOfWeek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time_wrapper"
+            android:paddingTop="2dip"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorTertiary"
+            />
+
+    </com.tilltheendwjx.airplus.AirDigitalClock>
+</LinearLayout>

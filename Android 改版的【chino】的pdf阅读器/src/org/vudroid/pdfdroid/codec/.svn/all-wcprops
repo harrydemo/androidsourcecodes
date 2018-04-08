@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/29/trunk/DocumentViewer/src/org/vudroid/pdfdroid/codec
+END
+PdfPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/29/trunk/DocumentViewer/src/org/vudroid/pdfdroid/codec/PdfPage.java
+END
+PdfDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/29/trunk/DocumentViewer/src/org/vudroid/pdfdroid/codec/PdfDocument.java
+END
+PdfContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/29/trunk/DocumentViewer/src/org/vudroid/pdfdroid/codec/PdfContext.java
+END

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/bg">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/bar_bg"
+		android:layout_gravity="center">
+		<TextView android:text="Let's Run!" android:id="@+id/timeView" android:textColor="#ffffff" android:gravity="center"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="60dp"></TextView>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			>
+			
+			<Button android:id="@+id/start"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/start"
+				android:textSize="25dp"
+				android:paddingRight="20dp"
+				android:paddingLeft="20dp"
+				android:layout_marginRight="25dp"
+				></Button>
+			<Button android:id="@+id/pause"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/pause"
+				android:textSize="25dp"
+				android:paddingRight="20dp"
+				android:paddingLeft="20dp"
+				android:layout_marginRight="25dp"
+				android:visibility="gone"
+				></Button>
+			<Button android:id="@+id/mark"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/mark"
+				android:textSize="25dp"
+				android:paddingRight="20dp"
+				android:paddingLeft="20dp"
+				android:visibility="gone"
+				></Button>
+			<Button android:id="@+id/reset"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/reset"
+				android:textSize="25dp"
+				android:paddingRight="20dp"
+				android:paddingLeft="20dp"
+				android:visibility="visible"
+				android:enabled="false"
+				></Button>
+		</LinearLayout>
+			
+	</LinearLayout>
+
+
+<ListView android:id="@+id/ListView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ListView>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:shrinkColumns="0,1,2">
+ <TableRow><!--row1--> 
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/line"
+    android:layout_column="0"
+    />
+<EditText  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/key"
+    android:id="@+id/key"
+    android:layout_column="0"
+    android:width="80dip"
+    android:height="25dip"
+    android:singleLine="true"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/line2"
+    android:layout_column="1"
+    />
+<EditText  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/station"
+    android:id="@+id/station"
+    android:layout_column="1"
+    android:width="118dip"
+    android:height="25dip"
+    android:singleLine="true"
+    />
+</TableRow>
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/seach"
+    android:id="@+id/seach"
+    android:layout_column="2"
+	/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/result"
+    android:id="@+id/result"
+    android:background="@drawable/bg"
+    android:textColor="@color/red"
+    />
+</TableLayout>

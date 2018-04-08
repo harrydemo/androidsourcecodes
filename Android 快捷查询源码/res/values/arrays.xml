@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="menu">
+		<item>号码归属地查询</item>
+		<item>天气查询</item>
+		<item>快递查询</item>
+		<item>火车查询</item>
+		<item>IP地址查询</item>
+	</string-array>
+	<string-array name="weather">
+	
+		<item name="tornado">龙卷风</item>
+		<item name="tropical_storm">热带风暴</item>
+		<item name="hurricane">飓风</item>
+		
+		<item name="severe_thunderstorms">大暴风雨</item>
+		<item name="thunderstorms">雷阵雨</item>
+		<item name="mixed_rain_snow">雨夹雪</item>
+		
+		<item name="mixed_rain_sleet">雨夹冰雹</item>
+		<item name="mixed_snow_sleet">雪夹冰雹</item>
+		<item name="freezing_drizzle">冻毛毛雨</item>	
+		
+		<item name="drizzle">小雨</item>
+		<item name="freezing_rain">冻雨</item>
+		<item name="showers">阵雨</item>		
+		
+		<item name="showers2">阵雨</item>
+		<item name="snow_flurries">小雪</item>
+		<item name="light_snow_showers">小到中雪</item>	
+		
+		<item name="blowing_snow">高吹雪</item>
+		<item name="snow">降雪</item>
+		<item name="hail">冰雹</item>
+		
+		<item name="sleet">雨雪</item>
+		<item name="dust">浮尘</item>
+		<item name="foggy">有雾</item>	
+		
+		<item name="haze">薄雾</item>
+		<item name="smoky">烟雾</item>
+		<item name="blustery">大风</item>
+		
+		<item name="windy">有风</item>
+		<item name="cold">寒冷</item>
+		<item name="cloudy">多云</item>	
+		
+		<item name="mostly_cloudy1">大部多云(夜间)</item>
+		<item name="mostly_cloudy2">大部多云(白昼)</item>
+		<item name="partly_cloudy1">局部多云(夜间)</item>
+		<item name="partly_cloudy2">局部多云(白昼)</item>
+		<item name="clear">晴(夜间)</item>
+		<item name="sunny">晴朗(阳光)</item>
+		
+		<item name="fair1">晴(夜间)</item>
+		<item name="fair2">晴(白昼)</item>
+		<item name="mixed_rain_hail">雨夹冰雹</item>
+		<item name="hot">炎热</item>		
+		
+		<item name="isolated_thunderstorms">局部暴风雨</item>
+		<item name="scattered_thunderstorms">雷阵暴风雨</item>
+		<item name="scattered_thunderstorms2">雷阵暴风雨</item>
+		<item name="scattered_showers">局部阵雨</item>	
+		
+		<item name="heavy_snow">大雪</item>
+		<item name="scattered_snow_showers">阵雪</item>
+		<item name="heavy_snow2">大雪</item>
+		<item name="partly cloudy">局部多云</item>
+		
+		<item name="thundershowers">雷阵雨</item>
+		<item name="snow_showers">暴雪</item>
+		<item name="isolated_thundershowers">局部雷阵雨</item>
+																					
+		
+	</string-array>
+	
+	<string-array name="woeid">
+		
+		<!-- 安徽 -->
+		<item>2127875</item>
+		<item>2127868</item>
+		<item>2127869</item>
+		<item>2127866</item>
+		<item>2126620</item>
+		<item>2127870</item>
+		<item>2127876</item>
+		
+
+		<!-- 福建 -->
+		<item>12685770</item>
+		<item>2139965</item>
+		
+		<!-- 广东 -->
+		<item>2161838</item>
+		<item>2161842</item>
+		<item>2161853</item>
+		<item>2161852</item>
+		<item>2162312</item>
+		<item>2161845</item>
+		<item>2161878</item>
+		<item>2161839</item>
+		<item>2161855</item>
+		<item>2161846</item>
+		<item>2161865</item>
+		<item>2161868</item>
+		<item>2161847</item>
+		
+		<!-- 广西 -->
+		<item>2166473</item>
+		<item>2166478</item>
+		<item>2166474</item>
+		<item>2165890</item>
+		<item>2167053</item>
+		<item>2166533</item>
+		<item>2166484</item>
+		<item>2166475</item>
+		
+		<!-- 贵州 -->
+		<item>2146703</item>
+		<item>2146803</item>
+		<item>2146704</item>
+		<item>2146713</item>
+		<item>2146705</item>
+		
+		<!-- 海南 -->
+		<item>2160123</item>		
+		<item>2162784</item>
+		
+		<!-- 河北 -->
+		<item>2171287</item>		
+		<item>2171295</item>
+		<item>2171288</item>
+		<item>2171290</item>
+		<item>2169159</item>
+		<item>2171576</item>
+		<item>2171292</item>
+		<item>12686143</item>
+		<item>2171688</item>
+		
+		<!-- 黑龙江 -->
+		<item>2141166</item>
+		<item>2141180</item>
+		<item>2141176</item>
+		<item>2141168</item>
+		<item>2141192</item>
+		<item>2141171</item>
+		<item>2141167</item>
+			
+		
+		<!-- 河南 -->
+		<item>2172736</item>
+		<item>2172752</item>
+		<item>2172748</item>
+		<item>2172747</item>
+		<item>2172738</item>
+		<item>2172737</item>
+		<item>2172739</item>
+		<item>2172740</item>
+		<item>2172746</item>
+		<item>2172743</item>
+		
+		<!-- 湖北 -->
+		<item>2163866</item>
+		<item>2163913</item>
+		<item>2163878</item>
+		<item>2132619</item>
+		<item>12686285</item>
+		<item>2163885</item>
+		<item>2163779</item>
+		<item>2163875</item>
+		<item>2163872</item>
+		<item>2163874</item>
+
+		<!-- 湖南-->
+		<item>2142699</item>
+		<item>2142711</item>
+		<item>2141753</item>
+		<item>2142715</item>
+		<item>2142701</item>
+		<item>2142708</item>
+		<item>2142707</item>
+		<item>2142491</item>
+		<item>2142703</item>
+		<item>2143078</item>
+
+		<!-- 江苏-->
+		<item>2137081</item>
+		<item>2137093</item>
+		<item>2137085</item>
+		<item>12685623</item>
+		<item>2137082</item>
+		<item>2137084</item>
+		<item>12685560</item>
+		<item>2137088</item>
+		<item>12685624</item>
+		<item>12685578</item>
+		<item>12685554</item>
+		<item>2135286</item>
+		<item>12685572</item>
+		<item>2168162</item>
+		<item>2137092</item>
+		<item>12685610</item>
+
+		<!--江西-->
+		<item>2133704</item>
+		<item>2133709</item>
+		<item>2133707</item>
+		<item>2133361</item>
+		<item>2141180</item>
+		<item>2133708</item>
+
+		<!-- 吉林-->
+		<item>2137321</item>
+		<item>2138121</item>
+		<item>2138130</item>
+		<item>2138198</item>
+		<item>2138137</item>
+		<item>2138154</item>
+
+		<!-- 辽宁-->
+		<item>2148332</item>
+		<item>2148005</item>
+		<item>2147987</item>
+		<item>2147997</item>
+		<item>2147989</item>
+		<item>2148001</item>
+		<item>2147988</item>
+		<item>2148006</item>
+		<item>2147990</item>
+		<item>56043480</item>
+
+		<!-- 内蒙古-->
+		<item>2149760</item>
+		<item>2149787</item>
+		<item>2149774</item>
+		<item>12686855</item>
+		<item>2149762</item>
+		<item>2149765</item>
+		<item>2149763</item>
+		<item>2149778</item>
+		<item>2149767</item>
+		
+		<!-- 浙江 -->
+		<item>2132574</item>
+		<item>2132581</item>	
+		<item>2132577</item>	
+		<item>2132579</item>	
+		<item>2132498</item>	
+		<item>2132586</item>	
+		<item>2132580</item>	
+		<item>2132582</item>	
+		<item>12685449</item>	
+		<item>2132575</item>	
+		<item>2132616</item>	
+		<item>2132578</item>	
+		<item>2132588</item>
+		<item>12685431</item>	
+		
+		<!-- 云南 -->
+		<item>2160693</item>	
+		<item>2160699</item>	
+		<item>2160695</item>	
+		<item>2160704</item>	
+		<item>12687501</item>
+		<item>2160241</item>	
+		<item>2160703</item>	
+		<item>2160694</item>	
+		<item>2160696</item>	
+		<item>2160700</item>	
+		<item>2160239</item>	
+		
+		<!-- 天津 -->
+		<item>2159908</item>	
+		<item>2159909</item>	
+		<item>2159915</item>	
+		<item>2159910</item>
+		<item>12687456</item>	
+		<item>2159919</item>
+		
+		<!-- 上海 -->
+		<item>2151849</item>	
+		<item>12686935</item>	
+		<item>2151845</item>	
+		<item>2151668</item>	
+		<item>2151437</item>
+		<item>2151851</item>	
+		<item>2151633</item>	
+		<item>2151853</item>	
+		<item>2151568</item>
+		
+		
+		<!-- 青海 -->			
+		<item>2138941</item>	
+		<item>20264486</item>
+		
+		<!-- 山东 -->	
+		<item>2168327</item>	
+		<item>2168257</item>		
+		<item>2168606</item>	
+		<item>2168337</item>	
+		<item>2168334</item>	
+		<item>2167581</item>	
+		<item>2168348</item>	
+		<item>2168403</item>	
+		<item>2168328</item>
+		
+		<!-- 山西 -->		
+		<item>2154547</item>	
+		<item>2154561</item>	
+		<item>2154553</item>	
+		<item>2154548</item>
+		<item>2154552</item>	
+		
+		<!-- 陕西 -->
+		<item>2155661</item>	
+		<item>2156695</item>		
+		<item>2156963</item>	
+		<item>2156955</item>	
+		<item>2156959</item>	
+		<item>2156958</item>
+		<item>2156953</item>	
+		<item>2156954</item>	
+		
+		<!-- 四川 -->	
+		<item>2158433</item>	
+		<item>2158451</item>	
+		<item>2158452</item>	
+		<item>2158442</item>	
+		<item>2158440</item>	
+		<item>2158441</item>		
+		<item>2158444</item>	
+		<item>2158439</item>
+		<item>2157887</item>	
+		<item>12687281</item>	
+		<item>12687311</item>	
+		<item>2158438</item>
+			
+		<item>2151330</item>	
+		<item>2150987</item>	
+		<item>2151341</item>	
+		<item>2151342</item>																																									
+				
+	</string-array>
+	
+	<string-array name="city_names">
+	
+		<!-- 安徽 -->
+		<item>芜湖</item>
+		<item>安庆</item>
+		<item>蚌埠</item>
+		<item>合肥</item>
+		<item>黄山</item>
+		<item>阜阳</item>
+		<item>亳州</item>
+		
+
+		<!-- 福建 -->
+		<item>厦门</item>	
+		<item>泉州</item>
+		
+		<!-- 广东 -->
+		<item>广州</item>
+		<item>东莞</item>
+		<item>深圳</item>
+		<item>韶关</item>
+		<item>汕头</item>
+		<item>惠州</item>
+		<item>河源</item>
+		<item>湛江</item>
+		<item>肇庆</item>
+		<item>阳江</item>
+		<item>梅州</item>
+		<item>汕尾</item>
+		<item>江门</item>
+		
+		<!-- 广西 -->
+		<item>南宁</item>
+		<item>百色</item>
+		<item>桂林</item>
+		<item>柳州</item>
+		<item>河池</item>
+		<item>凭祥</item>
+		<item>钦州</item>
+		<item>梧州</item>
+		
+		<!-- 贵州 -->
+		<item>贵阳</item>
+		<item>赤水</item>
+		<item>安顺</item>
+		<item>遵义</item>
+		<item>毕节</item>
+		
+		<!-- 海南 -->
+		<item>海口</item>
+		<item>三亚</item>
+		
+		<!-- 河北 -->
+		<item>石家庄</item>
+		<item>邢台</item>
+		<item>唐山</item>
+		<item>保定</item>
+		<item>定州</item>
+		<item>沙河</item>
+		<item>承德</item>
+		<item>涿州</item>
+		<item>张家口</item>
+		
+		<!-- 黑龙江 -->
+		<item>哈尔滨</item>
+		<item>伊春</item>
+		<item>牡丹江</item>
+		<item>大庆</item>
+		<item>黑河</item>
+		<item>阿城</item>
+		<item>齐齐哈尔</item>
+		
+		<!-- 河南 -->
+		<item>郑州</item>
+		<item>鹤壁</item>
+		<item>驻马店</item>
+		<item>周口</item>
+		<item>洛阳</item>
+		<item>开封</item>
+		<item>新乡</item>
+		<item>安阳</item>
+		<item>信阳</item>
+		<item>南阳</item>
+		
+		<!-- 湖北 -->
+		<item>武汉</item>
+		<item>应城</item>
+		<item>老河口</item>
+		<item>枝城</item>
+		<item>麻城</item>
+		<item>孝感</item>
+		<item>安陆</item>
+		<item>黄石</item>
+		<item>宜昌</item>
+		<item>恩施</item>
+
+		<!-- 湖南-->
+		<item>长沙</item>
+		<item>怀化</item>
+		<item>邵阳</item>
+		<item>永州</item>
+		<item>湘潭</item>
+		<item>株洲</item>
+		<item>岳阳</item>
+		<item>常德</item>
+		<item>郴州</item>
+		<item>冷水滩</item>
+
+		<!-- 江苏-->
+		<item>南京</item>
+		<item>镇江</item>
+		<item>常州</item>
+		<item>宜兴</item>
+		<item>苏州</item>
+		<item>徐州</item>
+		<item>东台</item>
+		<item>南通</item>
+		<item>仪征</item>
+		<item>江阴</item>
+		<item>常熟</item>
+		<item>连云港</item>
+		<item>淮安</item>
+		<item>盐城</item>
+		<item>扬州</item>
+		<item>吴江</item>
+
+		<!--江西-->
+		<item>南昌</item>
+		<item>景德镇</item>
+		<item>赣州</item>
+		<item>九江</item>
+		<item>伊春</item>
+		<item>吉安</item>
+
+		<!-- 吉林-->
+		<item>长春</item>
+		<item>吉林</item>
+		<item>延吉</item>
+		<item>龙井</item>
+		<item>桦甸</item>
+		<item>图们</item>
+
+		<!-- 辽宁-->
+		<item>沈阳</item>
+		<item>铁岭</item>
+		<item>抚顺</item>
+		<item>海城</item>
+		<item>本溪</item>
+		<item>辽阳</item>
+		<item>鞍山</item>
+		<item>营口</item>
+		<item>丹东</item>
+		<item>朝阳</item>
+
+		<!-- 内蒙古-->
+		<item>呼和浩特</item>
+		<item>二连浩特</item>
+		<item>东胜</item>
+		<item>满洲里</item>
+		<item>赤峰</item>
+		<item>集宁</item>
+		<item>海拉尔</item>
+		<item>锡林浩特</item>
+		<item>通辽</item>
+		
+		<!-- 浙江 -->
+		<item>杭州</item>
+		<item>绍兴</item>	
+		<item>嘉兴</item>	
+		<item>宁波</item>	
+		<item>舟山</item>	
+		<item>兰溪</item>	
+		<item>衢州</item>	
+		<item>温州</item>	
+		<item>萧山</item>	
+		<item>湖州</item>	
+		<item>海宁</item>	
+		<item>金华</item>	
+		<item>丽水</item>
+		<item>瑞安</item>
+		
+		<!-- 云南 -->	
+		<item>昆明</item>	
+		<item>曲靖</item>	
+		<item>大理</item>	
+		<item>保山</item>	
+		<item>景洪</item>
+		<item>临沧</item>	
+		<item>昭通</item>	
+		<item>个旧</item>	
+		<item>楚雄</item>	
+		<item>思茅</item>	
+		<item>丽江</item>
+		
+		<!-- 天津 -->	
+		<item>天津</item>	
+		<item>汉沽</item>	
+		<item>静海</item>	
+		<item>塘沽</item>
+		<item>宁河</item>	
+		<item>武清</item>	
+		
+		<!-- 上海 -->
+		<item>上海</item>	
+		<item>南汇</item>	
+		<item>金山</item>	
+		<item>青浦</item>	
+		<item>宝山</item>
+		<item>川沙</item>	
+		<item>奉贤</item>	
+		<item>松江</item>	
+		<item>嘉定</item>
+		
+		<!-- 青海 -->		
+		<item>西宁</item>		
+		<item>玉树</item>
+		
+		<!-- 山东 -->	
+		<item>济南</item>	
+		<item>淄博</item>		
+		<item>青岛</item>	
+		<item>济宁</item>	
+		<item>德州</item>	
+		<item>日照</item>	
+		<item>潍坊</item>	
+		<item>青州</item>	
+		<item>泰安</item>	
+		
+		<!-- 山西 -->	
+		<item>太原</item>	
+		<item>运城</item>	
+		<item>榆次</item>	
+		<item>大同</item>
+		<item>阳泉</item>
+			
+		<!-- 陕西 -->
+		<item>西安</item>	
+		<item>延安</item>		
+		<item>榆林</item>	
+		<item>汉中</item>	
+		<item>咸阳</item>	
+		<item>渭南</item>
+		<item>安康</item>	
+		<item>宝鸡</item>	
+		
+		<!-- 四川 -->	
+		<item>成都</item>	
+		<item>西昌</item>	
+		<item>雅安</item>	
+		<item>遂宁</item>	
+		<item>南充</item>	
+		<item>内江</item>		
+		<item>宜宾</item>	
+		<item>绵阳</item>	
+		<item>马尔康</item>	
+		<item>达县</item>	
+		<item>华蓥</item>	
+		<item>泸州</item>	
+		
+		<!-- 北京 -->
+		<item>北京</item>	
+		<item>大兴</item>	
+		<item>顺义</item>	
+		<item>怀柔</item>
+		
+		<!-- 205个 -->	
+	</string-array>
+	
+	<!-- 快递公司对应代码 -->
+	<string-array name="ems_code">
+		<item>zhaijisong</item>
+		<item>yuantong</item>
+		<item>tiantian</item>	
+		<item>zhongtong</item>
+		<item>yunda</item>					
+		<item>aae</item>
+		<item>anjiekuaidi</item>
+		<item>anxindakuaixi</item>
+		<item>baifudongfang</item>
+		<item>biaojikuaidi</item>
+		<item>bht</item>
+		<item>cces</item>
+		<item>Coe</item>
+		<item>changyuwuliu</item>
+		<item>datianwuliu</item>
+		<item>debangwuliu</item>
+		<item>dpex</item>
+		<item>dhl</item>
+		<item>dsukuaidi</item>
+		<item>fedex</item>
+		<item>feikangda</item>
+		<item>fenghuangkuaidi</item>
+		<item>ganzhongnengda</item>
+		<item>guangdongyouzhengwuliu</item>
+		<item>huitongkuaidi</item>
+		<item>hengluwuliu</item>
+		<item>huaxialongwuliu</item>
+		<item>jiayiwuliu</item>
+		<item>jinguangsudikuaijian</item>
+		<item>jixianda</item>
+		<item>jiajiwuliu</item>
+		<item>jiayunmeiwuliu</item>
+		<item>kuaijiesudi</item>
+		<item>lianhaowuliu</item>
+		<item>longbanwuliu</item>
+		<item>minghangkuaidi</item>
+		<item>peisihuoyunkuaidi</item>
+		<item>quanchenkuaidi</item>
+		<item>quanjitong</item>
+		<item>quanritongkuaidi</item>
+		<item>quanyikuaidi</item>
+		<item>shenghuiwuliu</item>
+		<item>suer</item>
+		<item>shengfengwuliu</item>
+		<item>tiandihuayu</item>
+
+		<item>tnt</item>	
+		<item>ups</item>
+		<item>wanjiawuliu</item>
+		<item>wenjiesudi</item>
+		<item>wuyuansudi</item>
+		<item>wanxiangwuliu</item>
+		<item>xinbangwuliu</item>	
+		<item>xinfengwuliu</item>
+		<item>xingchengjibian</item>
+		<item>xinhongyukuaidi</item>
+		<item>yafengsudi</item>
+		<item>yibangwuliu</item>
+		<item>youshuwuliu</item>
+		<item>yuanchengwuliu</item>
+
+		<item>yuanweifeng</item>
+		<item>yuanzhijiecheng</item>
+		<item>yuefengwuliu</item>
+
+		<item>yuananda</item>
+		<item>yuntongkuaidi</item>
+		<item>zhongtiewuliu</item>	
+
+		<item>zhongyouwuliu</item>																			
+		
+	</string-array>
+	
+	<!-- 快递公司名称 -->
+	<string-array name="ems_company">
+		<item>请选择快递公司</item>
+		<item>宅急送</item>
+		<item>圆通速递</item>	
+		<item>天天快递</item>	
+		<item>中通速递</item>	
+		<item>韵达快运</item>			
+		<item>AAE全球专递</item>
+		<item>安捷快递</item>
+		<item>安信达快递</item>
+		<item>百福东方</item>
+		<item>彪记快递</item>
+		<item>BHT</item>
+		<item>希伊艾斯快递</item>
+		<item>中国东方（COE）</item>
+		<item>长宇物流</item>
+		<item>大田物流</item>
+		<item>德邦物流</item>
+		<item>DPEX</item>
+		<item>DHL</item>
+		<item>D速快递</item>
+		<item>fedex</item>
+		<item>飞康达物流</item>
+		<item>凤凰快递</item>
+		<item>港中能达物流</item>
+		<item>广东邮政物流</item>
+		<item>汇通快运</item>
+		<item>恒路物流</item>
+		<item>华夏龙物流</item>
+		<item>佳怡物流</item>
+		<item>京广速递</item>
+		<item>急先达</item>
+		<item>佳吉物流</item>
+		<item>加运美</item>
+		<item>快捷速递</item>
+		<item>联昊通物流</item>
+		<item>龙邦物流</item>
+		<item>民航快递</item>
+		<item>配思货运</item>
+		<item>全晨快递</item>
+		<item>全际通物流</item>
+		<item>全日通快递</item>
+		<item>全一快递</item>
+		<item>盛辉物流</item>
+		<item>速尔物流</item>
+		<item>盛丰物流</item>
+		<item>天地华宇</item>
+
+		<item>TNT</item>	
+		<item>UPS</item>
+		<item>万家物流</item>
+		<item>文捷航空速递</item>
+		<item>伍圆速递</item>
+		<item>万象物流</item>
+		<item>新邦物流</item>	
+		<item>信丰物流</item>
+		<item>星晨急便</item>
+		<item>鑫飞鸿物流快递</item>
+		<item>亚风速递</item>
+		<item>一邦速递</item>
+		<item>优速物流</item>
+		<item>远成物流</item>
+
+		<item>源伟丰快递</item>
+		<item>元智捷诚快递</item>
+		<item>越丰物流</item>
+
+		<item>源安达</item>
+		<item>运通快递</item>
+		<item>中铁快运</item>
+
+		<item>中邮物流</item>	
+	</string-array>
+		
+</resources>

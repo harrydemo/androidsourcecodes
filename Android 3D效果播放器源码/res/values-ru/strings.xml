@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--	BROWSING CATEGORIES-->
+	<string name="browse_cat_album">Альбомы</string>
+	<string name="browse_cat_artists">Исполнители</string>
+	<string name="browse_cat_songs">Песни</string>
+	
+	<!--	GENERAL STUFF -->
+	<string name="album">Альбом</string>
+	<string name="albums">Альбомы</string>
+	
+	
+<!-- INTRO SCREEN-->
+    <string name="intro_text_1">Rock</string>
+    <string name="intro_text_2">On</string>
+    <string name="intro_text_3">NextGen</string>
+    <string name="app_name">³ Плеер</string>
+   
+<!--    ALBUM ART MESSAGES-->
+<string name="get_art_dialog_title">³ Обложка</string>
+<string name="get_art_dialog_message">
+³ Плеер может найти отсутствующие обложки альбомов в Интернете. Продолжить? (~1 минута на 10 альбомов, рекомендуется использовать Wi-Fi соединение).
+</string>
+<string name="get_art_dialog_yes">Да</string>
+<string name="get_art_dialog_no">Не сейчас</string>
+
+<!-- ART DOWNLOAD MESSAGES-->
+<string name="art_download_no_inet">Отсутствует соединение с Интернетом!</string>
+<string name="art_download_progress_title">Загрузка обложек...</string>
+<string name="art_download_cancel">Отмена</string>
+<string name="art_download_progress_initial_message">Поиск обложек...</string>
+
+<!-- NO SDCARD MESSAGES -->
+<string name="no_sd_card_dialog_title">SD-карта не обнаружена!</string>
+<string name="no_sd_card_dialog_message">Вставьте SD-карту...</string>
+<string name="no_sd_card_dialog_continue_anyway">Продолжить</string>
+<string name="no_sd_card_dialog_exit">Выход</string>
+<!-- NO MUSIC MESSAGES -->
+<string name="no_music_dialog_title">Плейлист пуст!</string>
+<string name="no_music_dialog_message">Выбранный плейлист пуст. Перезагрузите приложение или смените плейлист.</string>
+<string name="no_music_dialog_continue_anyway">Продолжить</string>
+<string name="no_music_dialog_exit">Выход</string>
+
+
+<!-- DOWNLOAD CONCERTS APP MESSAGES-->
+<string name="concert_app_install_dialog_title">Установка Concerts³</string>
+<string name="concert_app_install_dialog_message">Для поиска расписания концертов требуется установить приложение Concerts³. Установить сейчас?</string>
+<string name="concert_app_install_dialog_ok">Да</string>
+<string name="concert_app_install_dialog_cancel">Нет</string>
+<string name="concert_app_install_no_market_app_msg">Ой! Приложение Маркет не найдено.</string>
+
+<!-- DOWNLOAD RELEASES APP MESSAGES-->
+<string name="releases_app_install_dialog_title">Установка Releases³</string>
+<string name="releases_app_install_dialog_message">Для поиска расписания концертов требуется установить приложение Releases³. Установить сейчас?</string>
+<string name="releases_app_install_dialog_ok">Да</string>
+<string name="releases_app_install_dialog_cancel">Нет</string>
+<string name="releases_app_install_no_market_app_msg">Ой! Приложение Маркет не найдено.</string>
+
+
+<!-- TOASTER MESSAGES -->
+<string name="song_added_to_playlist">Добавлено в плейлист</string>
+<string name="song_removed_from_playlist">Песня удалена</string>
+<string name="album_art_changed">Обложка изменена</string>
+<string name="playlist_empty_toast">Ошибка! Плейлист пуст.</string>
+<string name="playqueue_empty_toast">Плейлист пуст!</string>
+<string name="not_an_album_toast">Это исполнитель, а не альбом!</string>
+	<string name="playlist_queued_toast">Плейлист добавлен в очередь</string>
+	<string name="generic_error_toast">Ошибка!</string>
+	<!--	XXXXXXXXXXXXXXXXXXXXX	-->
+	<string name="playlist_deleted_toast">Плейлист удален!</string>
+	<string name="song_deleted_toast">Песня удалена!</string>
+	
+
+
+<!-- SEARCH -->
+<string name="search_hint">Песня или исполнитель</string>
+
+<!-- PLAY QUEUE -->
+<string name="play_queue_title">Воспроизвести список</string>
+<string name="clear_playlist_dialog_option">Очистить</string>
+<string name="create_playlist_dialog_option">Сохранить</string>
+
+	<!--	SONG LISTS MORE RESULTS -->
+	<string name="song_list_more_results">песни...</string>
+
+<!-- CREATE PLAYLIST DIALOG -->
+<string name="create_playlist_dialog_title">Название плейлиста</string>
+<string name="create_playlist_dialog_save_option">Сохранить</string>
+<string name="create_playlist_dialog_text_hint">Введите название</string>
+
+	<!--	XXXXXXXXXXXXXXXXXXXXXXXXXX	-->
+	<!--	DELETE SONG DIALOG	-->
+	<string name="song_delete_confirm_title">Удалить песню</string>
+	<string name="song_delete_message">Вы уверены, что хотите удалить эту песню? Вы не сможете ее восстановить.</string>
+	<string name="song_delete_positive_button">Да!</string>
+	<string name="song_delete_negative_button">Нет.</string>
+	<!--	XXXXXXXXXXXXXXXXXXXXXXXXXX	-->
+	<!--	DELETE PLAYLIST DIALOG	-->
+	<string name="playlist_delete_confirm_title">Удалить плейлист</string>
+	<string name="playlist_delete_message">Вы уверены, что хотите удалить этот плейлист?</string>
+	<string name="playlist_delete_positive_button">Да!</string>
+	<string name="playlist_delete_negative_button">Нет.</string>
+
+<!-- CREATE PLAYLIST TOASTER -->
+<string name="create_playlist_toaster_added_part_1">Песни добавлены в плейлист</string>
+<string name="create_playlist_toaster_failed">Невозможно создать плейлист!</string>
+<string name="create_playlist_toaster_name_required">Введите название плейлиста</string>
+
+<!-- ALBUM SONG LIST DIALOG -->
+<string name="album_song_list_play_all">Воспроизвести всё</string>
+<string name="album_song_list_queue_all">Добавить всё</string>
+
+	<!--	XXXXXXXXXXXXXXXXXXXXXXXXXX	-->
+	<!--	SONG OPTIONS DIALOG	-->
+	<string name="song_option_play_now">Играть сейчас</string>
+	<string name="song_option_add_to_queue">Добавить в очередь</string>
+	<string name="song_option_delete">Удалить</string>
+	<!--	XXXXXXXXXXXXXXXXXXXXXXXXXX	-->
+	<!--	PLAYLIST OPTIONS DIALOG	-->
+	<string name="playlist_option_play_now">Играть сейчас</string>
+	<string name="playlist_option_add_to_queue">Добавить в очередь</string>
+	<string name="playlist_option_delete">Удалить</string>
+	
+	<!-- PLAYLIST DIALOG -->
+	<string name="playlist_dialog_title">Выберите плейлист</string>
+	<string name="playlist_dialog_cancel">Отмена</string>
+	<string name="playlist_all_title">Воспроизвести всё</string>
+	<string name="playlist_most_recent_title">Недавние</string>
+	<string name="playlist_most_played_title">Самые частые</string>
+
+<!-- VIEW MODES DIALOG -->
+<string name="view_mode_cube">³ Куб</string>
+<string name="view_mode_wall">Плитка</string>
+<string name="view_mode_boring">Список</string>
+<string name="view_mode_morph">Morph Flow</string>
+
+<!-- THEMES DIALOG -->
+<string name="theme_normal">Стандартная</string>
+<string name="theme_halftone">Полутона</string>
+<string name="theme_earthquake">Землятресение</string>
+
+<!-- THEME PROCESSING MESSAGES -->
+<string name="art_processing_progress_title">Обработка обложек</string>
+<string name="art_processing_cancel">Отмена</string>
+<string name="art_processing_go_background">Фоновый режим</string>
+<string name="art_processing_progress_initial_message">Поиск обложек...</string>
+
+<!--    HALF TONE DIALOG -->
+<string name="half_tone_dialog_title">Тема "Полутона"</string>
+<string name="half_tone_dialog_message">
+Требуется некоторая обработка вида обложек альбомов. Этот процесс займет некоторое время (~1 минута на 30 альбомов).
+</string>
+<string name="half_tone_dialog_yes">Продолжить</string>
+<string name="half_tone_dialog_no">Отмена</string>
+
+<!--    EARTHQUAKE DIALOG -->
+<string name="earthquake_dialog_title">Тема "Землятресение"</string>
+<string name="earthquake_dialog_message">
+Требуется некоторая обработка вида обложек альбомов. Этот процесс займет некоторое время (10 секунд на 100 альбомов).
+</string>
+<string name="earthquake_dialog_yes">Продолжить</string>
+<string name="earthquake_dialog_no">Отмена</string>
+
+
+<!-- ACTIVITY INTENTS (some of them)-->
+<string name="main_activity_intent">org.abrantix.rockon.rockonnggl.RockOnNextGenGL</string>
+
+<!-- NOTIFICATION STRINGS -->
+<string name="unknown_album_name">Неизвестный альбом</string>
+<string name="unknown_artist_name">Неизвестный исполнитель</string>
+
+<!-- MANUAL ALBUM ART MSGS -->
+<string name="manual_albumart_error">Ошибка</string>
+<string name="manual_albumart_no_album_specified">Альбом не выбран!</string>
+<string name="manual_albumart_source">Источник</string>
+<string name="manual_albumart_source_local">устройство</string>
+<string name="manual_albumart_source_internet">Интернет</string>
+<string name="manual_albumart_resolution_loading">загрузка...</string>
+<string name="manual_albumart_resolution_unavailable">недоступно</string>
+
+	<string name="manual_input_enable">Ручной поиск</string>
+	<string name="manual_input_artist">Художник</string>
+	<string name="manual_input_album">Альбом</string>
+	
+<!--	DONATE MSG	-->
+	<string name="donate_title">Помочь разработчику</string>
+	<string name="donate_msg">³ Плеер - это бесплатный (с открытым кодом) аудиоплеер, разрабатываемый только в свободное время. Если Вы хотите поддержать его дальнейшее развитие, пожалуйста помогите разработчику материально.</string>
+	<string name="donate_using">Оплатить через</string>
+	<string name="donate_back_to_app">Вернуться</string>
+	
+	<!--	XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX	-->
+	<!--	UNLOCK SCREEN	-->
+	<string name="unlock_screen">Разблокировать</string>
+	
+<!--	WIDGET STRINGS	-->
+<string name="widget_app_start">Начало ³</string>
+	
+<!-- BUG REPORTS -->
+<string name="bug_report_intro_part_one">Извините!\n\nRockOn v</string>
+<string name="bug_report_intro_part_two">самоубился! Отправьте этот отчет, чтобы мы могли/исправить ошибку.\n</string>
+
+<!-- <string name="bug_report_intro">-->
+<!-- "Извините!\n\nRockOn v\"-->
+<!-- <xliff:g id="APP_VERSION">%s</xliff:g>-->
+<!-- \" самоубился! Отправьте этот отчет, чтобы мы могли/исправить ошибку.\n"-->
+<!-- </string>-->
+</resources>

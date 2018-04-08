@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/riji" 
+        android:fadingEdge="none"
+        android:scrollingCache="false"
+        android:paddingTop="3dp"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题:"
+                android:textColor="#33FF66" />
+
+            <TextView
+                android:id="@+id/biaoti"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3993C8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日期:"
+                android:textColor="#33FF66" />
+
+            <TextView
+                android:id="@+id/neirong"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3993C8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="内容:"
+                android:textColor="#33FF66" />
+
+            <TextView
+                android:id="@+id/riqi"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:textColor="#3993C8" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

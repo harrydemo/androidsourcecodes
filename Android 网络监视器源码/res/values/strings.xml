@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file contains resource definitions for displayed strings, allowing
+     them to be changed based on the locale and options. -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"> 
+    <string name="app_name">aNetMon</string>
+    <string name="monitor_title">Network Monitor</string>
+    <string name="info_app_name">aNetMon</string>
+    <string name="show_log_detail_name">Log Entry</string>
+    <string name="tools_app_name">Network Tools</string>
+    <string name="show_log_app_name">Show Log</string>
+    <string name="results_app_name">Test Results</string>
+    <string name="info_title">Network Information</string>
+    <string name="no_data_net"><b>No Data Network Available</b></string>
+    <string name="connected">Connected</string>
+    <string name="nettools_connected">Connected</string>
+    <string name="not_connected">Disconnected</string>
+    <string name="net_connectivity_changed">Network Connectivity Changed</string>
+    <string name="more_info">More Information..</string>
+    <string name="preferences_file">netmonitor_preferences</string>
+    <string name="date_format_ISO8601">yyyy-MM-dd\'T\'HH:mm:ss.SSS</string>
+    <string name="bad_gateway">Invalid gateway address</string>
+    <string name="bad_dns">Invalid DNS Server address</string>
+    <string name="about_network_monitor_title">About Android Network Monitor</string>
+    <string name="about_network_monitor_menu_title">About</string>
+    <string name="first_run_title">Welcome to aNetMon</string>
+    
+    <!--  Network types -->
+    <string name="net_type_mobile">Mobile</string>
+    <string name="net_type_wifi">WiFi</string>
+    <string name="net_type_unsupported">Unsupported</string>
+    <string name="roaming_yes">true</string>
+    <string name="roaming_no">false</string>
+    
+    <!-- Lables to use to display network information -->
+    <string name="key_date_name">Date</string>
+    <string name="key_time_name">Time</string>
+    <string name="key_state_name">Network State</string>
+    <string name="key_interface_name">Network Interface</string>
+    <string name="key_type_name">Network Type</string>
+    <string name="key_netid_name">Network ID</string>
+    <string name="key_roaming_name">Roaming</string>    
+    <string name="key_ip_name">IP Address</string>
+    <string name="key_gateway_name">Gateway</string>
+    <string name="key_speed_name">Network Speed</string>
+    <string name="key_bgdata_name">Background Data</string>
+    <string name="key_dns_name">DNS</string>    
+    <string name="key_nat_ip_name">External NAT IP</string>
+    <string name="permitted">allow</string>
+    <string name="denied">deny</string>
+    <string name="key_log_path_name">Log File</string>
+    <string name="key_log_size_name">Log Size</string>
+    <string name="key_data_activity_name">Data Activity</string>
+    <string name="key_cell_type_name">Network Type</string>
+    <string name="key_cell_location_name">Cell Location</string>  
+    <string name="key_phone_type_name">Phone Radio</string>
+    
+    	
+	<!-- Log entry lables -->
+    <string name="log_date_name">Date</string>
+    <string name="log_time_name">Time</string>    
+    <string name="log_state_name">Network_State</string>
+    <string name="log_type_name">Network_Type</string>
+    <string name="log_netid_name">Network_ID</string>
+    <string name="log_roaming_name">Roaming</string>    
+    <string name="log_bgdata_name">Background_Data</string>
+    <string name="log_interface_name">Network_Interface</string>
+    <string name="log_ip_name">IP_Address</string>
+    <string name="log_nat_ip_name">NAT_IP</string>
+    <string name="log_gateway_name">Gateway</string>
+    <string name="log_speed_name">Network_Speed</string>
+    <string name="log_dns_name">DNS</string>    
+    <string name="log_display_button_next">Next</string>
+    <string name="log_display_button_previous">Previous</string>
+    
+    <!-- Preference strings -->
+    <string name="preference_category_logging">Logging Options</string>
+    <string name="preference_category_notify">Notification Options</string>
+    <string name="preference_category_tools">Network Tools Options</string>
+    <string name="preference_category_other">Other Options</string>
+    
+    <string name="preference_monitor_title">Network Monitoring</string>
+    <string name="preference_monitor_default">true</string>
+    <string name="preference_monitor_summary">Show notifications when connectivity changes</string>    
+    
+    <string name="preference_monitor_type_title">Network Notifications</string>
+    <string name="preference_monitor_type_default">Status Bar</string>
+    <string name="preference_monitor_type_summary">Change notification method</string>
+    <string name="preference_monitor_type_dialog_title">Notification Options</string>       
+        
+    <string name="preference_log_title">Log Network Changes</string>
+    <string name="preference_log_default">true</string>
+    <string name="preference_log_summary">Log network events to a file on the sdcard</string>
+    
+    <string name="preference_log_name_title">Log File Name</string>
+    <string name="preference_log_name_default">aNetMon.csv</string>
+    <string name="preference_log_name_summary">File name to log network events to</string>   
+
+    <string name="preference_first_run_title">First Run</string>
+    <string name="preference_first_run_default">false</string>
+    <string name="preference_first_run_summary">Change this to see the opening screen again</string>
+
+    <string name="preference_ping_host_title">Host to ping</string>
+    <string name="preference_ping_host_default">google.com</string>
+    <string name="preference_ping_host_summary">Hostname to use as a "ping" target</string>
+    
+    <string name="preference_ping_host_port_title">Port to ping</string>
+    <string name="preference_ping_host_port_default">80</string>
+    <string name="preference_ping_host_port_summary">Port on the host to "ping" (only TCP ping available)</string>
+    		        
+    <string-array name="preference_monitor_type_options">
+        <item>Notify using the Status Bar</item>
+        <item>Notify using Toast</item>              
+    </string-array>
+
+    <!-- Notification preference values -->
+    <string-array name="preference_monitor_type_values">
+        <item>Status Bar</item>
+        <item>Toast</item>         
+    </string-array>
+    
+    <string name="log_turned_off">Logging disabled</string>
+    <string name="tools_menu_lable">Network Tools</string>
+    <string name="preferences_menu_lable">Options</string>
+    
+    <string name="show_log_title">Show Log</string>
+    <string name="clear_log_title">Clear Log</string>    
+       
+    <string name="monitoring_turned_off">Monitoring disabled</string>
+    <string name="monitoring_using">Monitoring uses</string>
+    <string name="cancel_lable">Cancel</string>  
+    
+    <!-- Tools lables -->
+    <string name="ping_google_list_string">Ping Host</string>
+    <string name="ping_dns_list_string">Ping DNS Server</string>
+    <string name="ping_gateway_list_string">Ping Gateway</string>
+    <string name="tools_ping_progress_dialog_text">Pinging..</string>
+    <string name="tools_other_progress_dialog_text">Loading..</string>
+    <string name="netstat_list_string">Netstat</string>    
+    <string name="getprop_list_string">System Properties</string>
+    <string name="netcfg_list_string">Interfaces</string>
+    <string name="services_list_string">Services</string>
+    <string name="disk_free_list_string">Disk Usage</string>
+    <string name="nat_ip_list_string">Show NAT IP</string>
+    <string name="clear_log_alert_dialog_text">Delete all log records?</string>
+    <string name="clear_log_alert_dialog_ok">Delete Log</string>
+    <string name="clear_log_alert_dialog_cancel">Cancel</string>
+    
+    <string name="pro_version">true</string>
+    <string name="not_pro_version_string"><b><em>Sorry, these tools are only available in the pro version</em></b></string>
+    
+    <!--  About text -->
+    <string name="about_text">Version 0.3\n\naNetMon was originally written so that I could track "roaming" use of my android. I got a bill for roaming usage when I was sure that my phone had not roamed so I felt I needed to track usage somehow and aNetMon was born.\n\nOriginally, it was only a monitor that kept a log but it sort of evolved into this tool.  I first added some routines to show more network information, then preferences and finally some network tools (sorry, only available in the pro version).\n\nTo give credit where it\'s due, my heart-felt thanks go out to all and sundry for the tutorials and forum threads I have used in putting this together.\n\nWhere I have copied whole chunks of stuff I have tried to attribute it properly in the source.  Otherwise, I have used ideas and routines from all over the shop and munged it all together to suit this application which makes it mine I guess.\n\nAndroid Network Monitor is <b>Copyright Davo (eddyspace.com)</b>\n\nNetwork Monitor is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nNetwork Monitor is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nPlease see  <a href='http://www.gnu.org/licenses/'>www.gnu.org/licenses</a> for a copy of the GNU General Public License.\n\nNote Carefully:\nThis tool is not safe for use in (or anywhere near) a Nuclear facility!\n\nYou should move a substantial distance away if you can\n\n
+    </string>
+    <string name="first_run">Welcome to android Network Monitor (aNetMon)\n\nThis was written for myself to track network usage. I needed a way to check my bills after I got a charge for roaming data when I was convinced that the phone had not been roaming.\n\nThe application is basically built to monitor and log network events like connections and disconnections.\n\nThe log is stored on the sdcard in a "csv" file which can be copied off for examination.  It has a header line at the top with the field names and should be readily readable in any spreadsheet.\n\nTimes and Dates are stored as strings in the phones timezone.  I initially used UTC but had some issues with timezone conversions that I was not willing to handle at the time.  Let me know if you think this would be a good feature and I will have another look at a UTC implementation.\n\nPlease let me know what you think of this either on the sourceforge project or on my web site <a href="http://www.eddyspace.com/">eddyspace</a>\n\nThere is a "pro" version of this application which has some additional network tools that you might find usefull\n\nThe tools are mainly aimed at network folks and include the following common network utilities: Ping (various sites), netstat (show network connections and listeners), ifconfig (show network interface states) and a couple of other things.\n\nIf you think you might find these useful, then you are welcome to install the pro version instead.\n\nYou can either do this from my sourceforge project or just pay the small charge to install it from the market.\n\nDave
+    </string> 
+    <color name="white">#fff</color>
+    <color name="blue">#00f</color>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">smsFilter</string>
+    
+    <!-- Main Activity -->
+    <string name="app_title">SMS Filter</string>
+    <string name="app_start_content">turn off notification sound for sms text messages sent from phone numbers not in your mobile phone address book.</string>
+	<string name="app_stop_content">turn on notification sound for all sms text messages.</string>
+	<string name="app_sure">are you sure?</string>
+	<string name="app_warning">warning</string>
+	<string name="app_need_update">please update to most recent version: V</string>
+	<string name="app_explain">(you can click the android ‘home’ or ‘back’ buttons, sms filter will continue doing its job.  if you turn your device off, sms filter continues working on reboot.)</string>
+	<!-- menu -->
+	<string name="menu_about">About</string>
+	<string name="menu_exit">Exit</string>
+	<string name="about_version">Version: 1.0.0\n\nemail the developer: pixtas@gmail.com</string>
+	<string name="about_title">smsFilter Version</string>
+</resources>

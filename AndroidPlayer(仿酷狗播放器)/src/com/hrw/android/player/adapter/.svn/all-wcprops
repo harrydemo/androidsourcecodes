@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/140/trunk/AndroidPlayer/src/com/hrw/android/player/adapter
+END
+MenuListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/23/trunk/AndroidPlayer/src/com/hrw/android/player/adapter/MenuListAdapter.java
+END
+PlaylistAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/54/trunk/AndroidPlayer/src/com/hrw/android/player/adapter/PlaylistAdapter.java
+END
+MusicListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/140/trunk/AndroidPlayer/src/com/hrw/android/player/adapter/MusicListAdapter.java
+END

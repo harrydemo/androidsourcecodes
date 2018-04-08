@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector android:dither="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:drawable="@drawable/quick_action_bar_item_normal" />
+    <item android:state_pressed="true" android:drawable="@drawable/quick_action_bar_item_pressed" />
+    <item android:state_focused="true" android:drawable="@drawable/quick_action_bar_item_selected" />
+    <item android:drawable="@drawable/quick_action_bar_item_normal" />
+</selector>

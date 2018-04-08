@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="CameraPreview" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+	</style>
+	<style name="simple" parent="android:Theme.Light">
+		<item name="android:textColor">#000</item>
+		<item name="android:background">#fff</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+</resources>

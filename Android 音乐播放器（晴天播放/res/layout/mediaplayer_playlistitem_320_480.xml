@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5dip" android:layout_marginBottom="5dip">
+		<TextView android:id="@+id/playlist_name"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_gravity="left" android:textSize="12pt" android:textColor="#000000"
+			 
+			/>
+	</FrameLayout>
+
+</LinearLayout>

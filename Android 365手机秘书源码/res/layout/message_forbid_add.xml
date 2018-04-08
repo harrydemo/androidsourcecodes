@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<EditText android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@+id/get_system_contact"
+		android:id="@+id/new_forbid_phone" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:hint="请输入11位手机号码" android:singleLine="true" android:numeric="integer">
+	</EditText>
+	<Button android:id="@+id/get_system_contact"
+		android:layout_alignParentRight="true"
+		android:layout_height="wrap_content"
+		android:text="联系人" android:layout_width="100sp">
+	</Button>
+</RelativeLayout>

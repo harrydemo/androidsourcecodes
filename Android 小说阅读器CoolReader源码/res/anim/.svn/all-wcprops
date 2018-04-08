@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/42/trunk/CoolReader/res/anim
+END
+slide_left_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/42/trunk/CoolReader/res/anim/slide_left_in.xml
+END
+slide_left_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/CoolReader/res/anim/slide_left_out.xml
+END
+slide_right_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/CoolReader/res/anim/slide_right_in.xml
+END
+slide_right_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/42/trunk/CoolReader/res/anim/slide_right_out.xml
+END

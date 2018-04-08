@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_cart_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#ffefebe7">
+  
+
+    <RelativeLayout
+        android:id="@+id/top_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip" >
+
+    <ImageView
+        android:id="@+id/titleBg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#106184" />
+
+    <ImageView
+        android:id="@+id/progressImage"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/android_title_bg_progress"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/titleRightButton"
+        style="\@style/title_right_button"
+        android:layout_width="100.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="2.0dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="15dp"
+        android:padding="10.0dip"
+        android:text="我的京东"
+        android:textColor="@color/white"
+        android:singleLine="true" />
+
+</RelativeLayout>
+
+         <ScrollView
+        android:id="@+id/regist_scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+         android:layout_below="@id/top_relative"
+         android:background="#ffefebe7">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/regist_scroller_relative"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10.0dip" >
+
+                <TextView
+                    android:id="@+id/login_page_input_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="20.0dip"
+                    android:paddingTop="10.0dip"
+                     android:textColor="@color/black"
+                    android:text="证书名称:" />
+
+                <EditText
+                    android:id="@+id/login_input_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/login_page_input_name"
+                    android:layout_toRightOf="@+id/login_page_input_name"
+                    android:background="@drawable/edit_text_x"
+                    android:hint="请选出证书"
+                    android:singleLine="true" 
+                    android:editable="false"/>
+
+                <TextView
+                    android:id="@+id/login_page_input_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/login_page_input_name"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="25.0dip"
+                    android:paddingTop="10.0dip"
+                    android:textColor="@color/black"
+                    android:text="证书密码:" />
+
+                <EditText
+                    android:id="@+id/login_input_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/login_input_name"
+                    android:layout_alignTop="@+id/login_page_input_password"
+                    android:layout_below="@+id/login_input_name"
+                    android:layout_toRightOf="@+id/login_page_input_password"
+                    android:background="@drawable/edit_text_x"
+                    android:hint="请输入证书密码"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+
+                <CheckBox
+                    android:id="@+id/remember_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/login_input_password"
+                    android:layout_below="@+id/login_input_password"
+                    android:layout_marginTop="15.0dip"
+                    android:button="@drawable/login_remember"
+                     android:textColor="@color/black"
+                    android:text="记住我" />
+
+                <Button
+                    android:id="@+id/login_comfirm_button"
+                    android:layout_width="145.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/remember_user"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:text="登录"
+                    android:background="@drawable/android_big_button_x"
+                    android:gravity="center"
+                    android:textColor="#ff000000"
+                    android:textSize="20.0sp" />
+                 
+
+                <Button
+                    android:id="@+id/register_link"
+                    android:layout_width="145.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/remember_user"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="15.0dip"
+                     android:background="@drawable/android_big_button_x"
+                    android:gravity="center"
+                    android:layout_toRightOf="@+id/login_comfirm_button"
+                    android:text="注册"
+                    android:textColor="#ff000000"
+                    android:textSize="20.0sp" />
+
+              
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

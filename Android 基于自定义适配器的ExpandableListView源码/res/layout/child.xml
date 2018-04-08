@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation = "horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <ImageView
+	android:layout_gravity = "center_vertical"
+  	android:id = "@+id/imageView01"
+  	android:layout_width = "70px"
+  	android:layout_height = "70px"
+  	android:paddingLeft = "30px"
+  	android:paddingTop = "2px"
+  	android:paddingBottom = "5px"
+  	android:src = "@drawable/abc"/>
+  <TextView
+  	android:layout_gravity = "center_vertical"
+  	android:id = "@+id/childTo"
+  	android:layout_width = "match_parent"
+  	android:layout_height = "match_parent"
+  	android:paddingLeft = "30px"
+  	android:paddingTop = "10px"
+  	android:paddingBottom = "5px"
+  	android:textSize = "30sp"/>
+</LinearLayout>

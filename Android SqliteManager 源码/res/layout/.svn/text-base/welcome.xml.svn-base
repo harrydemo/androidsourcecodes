@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:padding="5dip"
+>
+  <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical"
+    >
+      <TextView
+        android:text="@string/WelcomeMsg"
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt" />
+      <CheckBox
+        android:text="@string/ShowAtStartUp"
+        android:id="@+id/ShowAtStartUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true" />
+      <Button
+        android:text="@string/OK"
+        android:id="@+id/OK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

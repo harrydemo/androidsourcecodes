@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:background="@drawable/background" android:orientation="horizontal">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/left"
+			android:layout_marginTop="10px" android:layout_marginLeft="3px" />
+		<ImageButton android:id="@+id/phone" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/phone"
+			android:layout_marginTop="3px" android:layout_marginLeft="1px"
+			android:background="@xml/mainmenu_style" />
+		<!-- android:layout_toRightOf="@id/phone" -->
+		<ImageButton android:id="@+id/address"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/phone" android:layout_marginTop="3px"
+			android:layout_marginLeft="52px" android:background="@xml/mainmenu_style" />
+		<ImageButton android:id="@+id/msg" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/msg"
+			android:layout_marginTop="3px" android:layout_marginLeft="108px"
+			android:background="@xml/mainmenu_style" />
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/right"
+			android:layout_marginTop="10px" android:layout_marginLeft="155px" />
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="incoming">#121212</color>
+	<color name="black">#000000</color>
+	<color name="orange">#ff6600</color>
+	<color name="olive">#999900</color>
+	<color name="outgoing">#2fb7c3</color>
+	<color name="white">#FFFFFF</color>
+	<color name="missed">#ff2f2f</color>
+	<string name="warning">请填写正确数字！</string>
+	<string name="submit">确定</string>
+	<string name="cancal">取消</string>
+	<string name="today">今日</string>
+	<string name="week">本周</string>
+	<string name="month">本月</string>
+	<string name="outgoing">拨出(分钟)</string>
+	<string name="incoming">接入(分钟)</string>
+	<string name="missed">未接</string>
+	<string name="asc">升序</string>
+	<string name="desc">降序</string>
+	<string name="app">饭饭通话时间统计器</string>
+	<string name="no_data">暂时没有合适该选项卡的通话记录</string>
+	<string name="no_data_contact">没有通话记录</string>
+	<string name="call_time_setting">月套餐基本通话时间：</string>
+	<string name="txt_total">总计(分钟)</string>
+	<string name="call_total">月套餐包含拨出时间：</string>
+	<string name="call_reality">实际已拨通话时间：</string>
+	<string name="call_proportions">占月套餐拨出时间百分比：</string>
+	<string name="call_estimated">本月预估通话时间：</string>
+<string name="eula">饭饭出品\n必非精品</string>
+</resources>

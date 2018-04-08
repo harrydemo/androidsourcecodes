@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">蓝虫火车票助手</string>
+    <string name="app_name">蓝虫火车票助手</string>
+    <string name="price_label">票价查询</string>
+    <string name="remain_label">余票查询</string>
+    <string name="outlets_label">代售点查询</string>
+    <string name="record_label">查询记录</string>
+    <string name="about_label">关于Ticket Helper</string>
+    <string name="exit_label">退出程序</string>
+    
+    <string name="about_title">关于蓝虫火车票助手</string>
+    <string name="about_text">\n
+本软件提供火车票信息查询服务，与铁路客服中心同步。声明所有查询数据来自网络，如有数据错误或遗漏等问题，与本软件无关。\n\n
+
+名称:蓝虫火车票助手 免费\n\n
+版本:0.1.1beta\n\n
+    
+  
+    </string>
+    <string name="remainSearcher_title">余票查询-火车票助手</string>
+	<string name="remainSearcher_label">余票查询</string>
+	<string name="remainTicketsList">余票查询结果</string>
+</resources>

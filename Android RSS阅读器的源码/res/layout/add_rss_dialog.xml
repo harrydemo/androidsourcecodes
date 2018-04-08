@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+    	android:id="@+id/show_title"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/title_show"
+    	/>
+	<EditText
+		android:layout_marginTop="3dp"
+		android:id="@+id/rss_add"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""/>	
+		
+	<LinearLayout 
+		android:layout_marginTop="30dp"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/open_browser"
+			android:layout_width="80dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:text="@string/rss_browser"
+			/>
+		
+		<Button
+			android:id="@+id/verify_rss"
+			android:layout_width="80dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:text="@string/rss_verify"
+			/>
+		
+		<Button
+			android:id="@+id/add_rss"
+			android:layout_width="80dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:text="@string/rss_add"
+			/>
+		
+		<Button
+			android:id="@+id/quit_rss"
+			android:layout_width="80dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:text="@string/rss_quit"
+			/>
+	</LinearLayout>
+
+</LinearLayout>

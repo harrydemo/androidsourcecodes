@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">OssSystem</string>
+    <string name="list_manager">目录管理</string>
+    <string name="know_manager">知识管理</string>
+    <string name="know_search">知识搜索</string>
+    <string name="add">新增</string>
+    <string name="modify">修改</string>
+    <string name="submit">提交</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="selectAll">全选/反选</string>
+    <string name="firstpage">首页</string>
+    <string name="search">搜索</string>
+    <string name="flag">></string>
+    <string name="server_ip">183.62.48.226</string>
+    <string name="server_port">9996</string>
+    <string name="version">1.0</string>
+</resources>

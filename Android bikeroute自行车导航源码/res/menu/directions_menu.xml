@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/navigate"
+          android:title="@string/navigate_title" 
+          android:icon="@drawable/ic_menu_navigate">
+    </item>
+    <item android:id="@+id/map"
+    android:title="@string/map_title"
+    android:icon="@drawable/ic_menu_map"></item>
+    <item android:id="@+id/prefs"
+    android:title="@string/prefs_title"
+    android:icon="@drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/elevation"
+    android:title="Elevation"
+    android:icon="@drawable/ic_menu_elevation"></item>
+    <group android:id="@+id/cyclestreets" android:visible="false">
+<item android:id="@+id/feedback" android:title="@string/feedback_title"></item>
+</group><item android:id="@+id/sharing" android:visible="false" android:title="@string/sharing_title">
+<menu>
+<item android:id="@+id/share" android:title="Share Route" android:visible="false"></item>
+<item android:title="@string/export_title" android:id="@+id/export"></item>
+<item android:id="@+id/export_gpx" android:title="@string/export_gpx_title"></item>
+</menu>
+</item>
+    <item android:title="@string/about_menu" android:id="@+id/about" android:icon="@drawable/ic_menu_info_details"></item>
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Single>
+<Cabins>
+<ticket>
+	<key>经济舱A</key>
+	<price>900</price>
+	<leavecity>上海虹桥</leavecity>
+	<arrivecity>北京</arrivecity>
+	<leavetime>7:00</leavetime>
+	<endtime>9:15</endtime>
+	<Value>MU5137</Value>
+	<discount>85折</discount>
+</ticket>
+
+<ticket>
+	<key>经济舱B</key>
+	<price>1020</price>
+	<leavecity>上海虹桥</leavecity>
+	<arrivecity>北京</arrivecity>
+	<leavetime>7:55</leavetime>
+	<endtime>10:15</endtime>
+	<Value>CA1858</Value>
+	<discount>90折</discount>
+</ticket>
+<ticket>
+	<key>经济舱C</key>
+	<price>2000</price>
+	<leavecity>北京</leavecity>
+	<arrivecity>上海虹桥</arrivecity>
+	<leavetime>8:00</leavetime>
+	<endtime>10:15</endtime>
+	<Value>CA5101</Value>
+	<discount>85折</discount>
+</ticket>
+
+<ticket>
+	<key>公务舱</key>
+	<price>960</price>
+	<leavecity>南京</leavecity>
+	<arrivecity>广州</arrivecity>
+	<leavetime>8:00</leavetime>
+	<endtime>10:15</endtime>
+	<Value>MU9101</Value>
+	<discount>85折</discount>
+</ticket>
+
+
+
+
+
+</Cabins>
+</Single>

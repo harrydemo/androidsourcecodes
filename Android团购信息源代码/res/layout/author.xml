@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView android:id="@+id/qq" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:textColor="@color/white"
+		android:textSize="16px" android:text="@string/QQ"
+		android:layout_marginLeft="10px" android:layout_marginTop="10px" />
+
+	<TextView android:id="@+id/email" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:textColor="@color/white"
+		android:textSize="16px" android:text="@string/email"
+		android:layout_marginLeft="10px" android:layout_marginTop="10px" />
+
+	<TextView android:id="@+id/suggest" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:textColor="@color/white"
+		android:textSize="16px" android:text="@string/suggest"
+		android:layout_marginLeft="10px" android:layout_marginTop="10px" />
+
+	<EditText android:id="@+id/edit_suggest" android:layout_width="match_parent"
+		android:layout_marginLeft="10px" android:layout_marginRight="10px"
+		android:layout_height="wrap_content" android:singleLine="false"
+		android:minLines="2" android:layout_marginTop="10px" />
+</LinearLayout>

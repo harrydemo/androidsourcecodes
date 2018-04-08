@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bg" 
+    >
+    
+	<!-- title栏 -->
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:background="@color/title_bg"
+		>
+		<ImageView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:maxWidth="100dp" 
+			android:maxHeight="30dp" 
+			android:src="@drawable/logo" />
+		<TextView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_gravity="center_vertical" 
+			android:layout_marginLeft="5dp" 
+			android:textSize="18sp" 
+			android:textColor="@color/white" 
+			android:textStyle="bold" 
+			android:text="@string/menu_train"/> 
+	</LinearLayout>
+	
+	<!-- content栏 -->
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="2dp" 
+		android:background="@color/transparency"
+		>
+		<EditText
+			android:id="@+id/train_from"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="0.3" 
+			android:layout_marginLeft="5dp"
+			android:clickable="true"/>
+			
+		<TextView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="2dp" 
+			android:layout_marginRight="2dp" 
+			android:gravity="center_vertical" 
+			android:text="到" 
+			android:textColor="@color/white" />
+			
+		<EditText
+			android:id="@+id/train_to"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="0.3" 
+			android:layout_marginRight="10dp" 
+			android:clickable="true"/>			
+					
+		<ImageView 
+			android:id="@+id/train_search"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_marginRight="5dp" 
+			android:layout_marginTop="5dp"
+			android:maxWidth="40dp" 
+			android:maxHeight="40dp" 
+			android:src="@drawable/search" 
+			android:clickable="true" 
+			android:onClick="onClick"/>
+ 
+	</LinearLayout>	    
+
+</LinearLayout>

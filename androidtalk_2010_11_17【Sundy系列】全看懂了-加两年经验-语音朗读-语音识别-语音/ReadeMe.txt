@@ -1,0 +1,6 @@
+Requirement - 需求相关文档
+Design - 设计
+Planning&Log - 计划，日志，会议
+Test - 集成测试，系统测试 ， 测试报告 ， Buglist 
+Study - 学习资料，Demo等
+Deployment - 发布，部署

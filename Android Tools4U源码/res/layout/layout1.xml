@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"		android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/default_homebg_01" 	>
+
+            
+   <RelativeLayout android:id="@+id/ad_1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">
+	</RelativeLayout>
+     
+      <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:layout_centerInParent="true">
+    
+
+      <ImageView
+          android:id="@+id/weather"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="2dp"
+          android:scaleType="matrix"
+          android:src="@drawable/query" 
+             android:layout_centerInParent="true"/>
+   </RelativeLayout>
+ 
+</RelativeLayout>

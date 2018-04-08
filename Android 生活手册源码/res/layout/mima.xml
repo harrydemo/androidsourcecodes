@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shezhi"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/jiesao" 
+        android:textSize="18dp"
+        android:textColor="#00FFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旧密码:"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/jiumima"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新密码:"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/xinmima1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新密码:"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/xinmima2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_x="80dp"
+            android:layout_y="0dp"
+            android:text="重置" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_x="212dp"
+            android:layout_y="0dp"
+            android:text="确定" />
+    </AbsoluteLayout>
+
+</LinearLayout>

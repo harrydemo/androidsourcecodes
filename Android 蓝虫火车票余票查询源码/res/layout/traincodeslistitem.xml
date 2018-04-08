@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content" stretchColumns="1">
+        <TableRow>
+            <TextView android:id="@+id/trainCodeItemTitle"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="TextView01"
+                android:textColor="@color/traincode_textcolor" android:textSize="16dip"/>
+            <TextView android:id="@+id/start_arriveStation1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="TextView01" android:textSize="16dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="            "/>
+            <TextView android:id="@+id/start_arrive_time1"
+                android:layout_below="@+id/ItemTitle"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:text="TextView02" android:textSize="10.5sp"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

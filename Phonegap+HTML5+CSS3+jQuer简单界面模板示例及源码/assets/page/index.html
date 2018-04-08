@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <!--自适应界面,如果出现,在某些设备出现界面偏小的话,检查一下有没有加入这句 -->
+    <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+
+	<link rel="stylesheet" href="../css/jquery.mobile-1.0.1.min.css" />
+	
+	<script src="../js/jquery.js"></script>
+	<script src="../js/jquery.mobile-1.0.1.min.js"></script>
+	<script src="../js/cordova-1.5.0.js"></script>
+	
+	<script type="text/javascript">
+		//进行登录
+        $('#btnLogin').live("tap",function(){
+			var sQuery = $("#username").val();				
+			sQuery = "http://211.147.238.81:8088/login.aspx?UserName=" + sQuery;	
+			$.mobile.changePage('#result', { transition: "fade"});
+			$("#resultConftent").load("http://211.147.238.81:8088/login.aspx?username=Test");
+        });
+        
+        //为页面添加swip 事件
+        $("#home").live("pageinit",function(){
+            //当我们向左滑动的时候,进入result页面
+            $('#homeContent').bind("swipeleft",function(){
+              alert("向左滑");
+            });
+            //当我们向右滑动的时候,回到主页
+            $('#homeContent').bind("swiperight",function(){
+              alert("向右滑");
+            });
+        });
+            
+    </script>
+</head>
+<body>
+	<div data-role="page" id="home">
+		<div data-role="header" data-position="fixed">
+			<h1>个人登录</h1>
+			<a href="#setting" data-role="button" data-icon="gear" data-transition="slide">设置</a>
+		</div>
+		<div data-role="content" id="homeContent" >
+			<label for="username">用户名：</label>
+			<input type="text" id="username" placeholder="请输入用户名" />
+			<label for="userpassword">密码：</label>
+			<input type="password" id="userpassword"  placeholder="请输入密码 " />
+			<p></p>
+			<input type="checkbox"  id="checkbox-0" data-role="none" />
+			<label for="checkbox-0">记住密码</label>
+			<input type="checkbox"  id="checkbox-2" data-role="none" />
+			<label for="checkbox-2">自动登录</label>
+		</div>
+		<div data-role="footer" data-position="fixed" >
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#result" data-role="button" data-icon="forward" data-transition="slide">登 录提示</a></li>
+					<li><a href="main.html" data-role="button" data-icon="arrow-r" data-transition="slide" rel="external">直接登 录</a></li>
+				</ul>
+			</div>
+		</div>		
+		</div>
+		
+	</div>
+	
+	<div data-role="page" id="result">
+        <div data-role="header">
+            <h1>登录提示</h1>
+        </div>
+        <div data-role="Content"  id="resultContent">
+            	提示内容
+        </div>
+        <div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-role="button" data-icon="refresh" data-transition="slide">重新登录</a></li>
+				</ul>
+			</div>
+		</div>
+     </div>
+     
+     <div data-role="page" id="setting">
+        <div data-role="header">
+            <h1>登录设置</h1>
+        </div>
+        <div data-role="Content"  id="resultContent">
+            	设置内容
+        </div>
+        <div data-role="footer" data-position="fixed">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-role="button" data-icon="check" data-transition="slide">确认</a></li>
+					<li><a href="#home" data-role="button" data-icon="refresh" data-transition="slide">返回</a></li>
+				</ul>
+			</div>
+		</div>
+     </div>
+</body>
+</html>

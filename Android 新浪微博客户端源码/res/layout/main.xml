@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" >
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" >
+        </TabWidget>
+
+        <RadioGroup
+            android:id="@+id/main_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:background="@drawable/maintab_toolbar_bg"
+            android:gravity="center_vertical" >
+
+            <RadioButton
+                android:id="@+id/radio_button0"
+                android:drawableTop="@drawable/icon_1_n"
+                android:tag="radio_button0"
+                style="@style/main_tab_bottom"
+                android:text="主页" />
+
+            <RadioButton
+                android:id="@+id/radio_button1"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/icon_2_n"
+                android:tag="radio_button1"
+                style="@style/main_tab_bottom"
+                android:text="信息" />
+
+            <RadioButton
+                android:id="@+id/radio_button2"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/icon_3_n"
+                android:tag="radio_button2"
+                style="@style/main_tab_bottom"
+                android:text="资料" />
+
+            <RadioButton
+                android:id="@+id/radio_button3"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/icon_4_n"
+                android:tag="radio_button3"
+                style="@style/main_tab_bottom"
+                android:text="搜索" />
+
+            <RadioButton
+                android:id="@+id/radio_button4"
+                android:layout_marginTop="2.0dip"
+                android:drawableTop="@drawable/icon_5_n"
+                android:tag="radio_button4"
+                style="@style/main_tab_bottom"
+                android:text="更多" />
+
+         
+        </RadioGroup>
+    </LinearLayout>
+
+</TabHost>

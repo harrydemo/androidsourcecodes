@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="SQL 练习！（如果你使用的SD卡存储数据方式，为了保证正常操作，请你先点击创建一张表然后再操作）"
+		android:textSize="20sp" android:textColor="#ff0000" android:id="@+id/tv_title" />
+	<Button android:id="@+id/sql_addOne" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="插入一条记录"></Button>
+	<Button android:id="@+id/sql_check" android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:text="查询数据库"></Button>
+	<Button android:id="@+id/sql_edit" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="修改一条记录"></Button>
+	<Button android:id="@+id/sql_deleteOne" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="删除一条记录"></Button>
+	<Button android:id="@+id/sql_deleteTable" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="删除数据表单"></Button>
+	<Button android:id="@+id/sql_newTable" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="新建数据表单"></Button>
+</LinearLayout>
+
+
+

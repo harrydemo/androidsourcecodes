@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="lx_Search_Items">
+<item>普通查询</item>
+<item>学生团体查询</item>
+<item>农民工团体查询</item>
+</string-array>
+</resources>

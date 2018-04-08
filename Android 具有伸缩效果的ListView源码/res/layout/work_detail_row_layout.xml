@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<RelativeLayout android:id="@+id/workTitleLayout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@color/transparent">
+
+		<TextView android:id="@+id/workDetailTitle" style="@style/work_detail_row_style"
+			android:layout_alignParentLeft="true" android:layout_marginLeft="10dip"
+			android:layout_centerVertical="true" android:layout_marginRight="40dip"
+			android:text="我们都是幸运的人" />
+
+		<ImageView android:id="@+id/workStatusImg" style="@style/work_detail_row_style"
+			android:layout_alignParentRight="true" android:layout_marginRight="10dip"
+			android:layout_centerVertical="true" android:src="@color/transparent" />
+	</RelativeLayout>
+
+	<LinearLayout android:id="@+id/workDetailLayout"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical" android:background="@drawable/work_detail_unfold_bg">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="5dip">
+			<TextView android:id="@+id/workStartTime" style="@style/work_detail_row_style"
+				android:layout_alignParentLeft="true" android:layout_marginLeft="30dip"
+				android:text="2011-04-11" />
+
+			<TextView style="@style/work_detail_row_style"
+				android:layout_centerInParent="true" android:layout_marginLeft="5dip"
+				android:text="至" />
+
+			<TextView android:id="@+id/workEndTime" style="@style/work_detail_row_style"
+				android:layout_alignParentRight="true" android:layout_marginRight="20dip"
+				android:text="2011-05-21" />
+
+		</RelativeLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="3dip">
+			<TextView android:id="@+id/workName" style="@style/work_detail_row_style"
+				android:layout_marginLeft="30dip" android:text="张北，李西，王东，谭北，居中" />
+
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="3dip">
+			<TextView android:id="@+id/workDetail" style="@style/work_detail_row_style"
+				android:text="      在这个世界里，我们都是一群幸运的人，因为上天怜惜，赐与我们一副完整的身体，和健全的头脑，让我们在这世上走一遭，当是幸运无比的人。" />
+
+		</LinearLayout>
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="3dip">
+
+			<TextView android:id="@+id/workHeadname" style="@style/work_detail_row_style"
+				android:layout_alignParentRight="true" android:layout_marginRight="20dip"
+				android:text="国政" />
+
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

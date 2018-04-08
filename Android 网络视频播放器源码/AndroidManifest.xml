@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="2" android:versionName="1.0.2" package="com.sph.player"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:name=".Danmaku">
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.ui.LoadActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.ui.TypeActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.ui.TypeActivityCollect" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.ui.TypeActivityToday" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.ui.TypeActivityDetail" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.ui.TypeActivityItemDetail" android:screenOrientation="portrait" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.ui.SearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.ui.TestDemoActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.ui.MoreActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.ui.MoreActivityDetail" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:label="@string/app_name" android:name=".activity.TestActivity" android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name" android:name=".activity.FileBrowserActivity" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.weibo.WeiboActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@android:style/Theme.NoTitleBar" android:name="com.android.weibo.WeiboActivitySend" android:screenOrientation="portrait" />
+        <activity android:name="com.android.weibo.OAuthActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/app_name" android:host="OAuthActivity" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:label="@string/app_name" android:name=".activity.PlayerActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/vnd.rn-realmedia" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="video/x-flv" />
+                <data android:mimeType="video/x-hlv" />
+                <data android:mimeType="video/x-matroska" />
+                <data android:mimeType="video/x-msvideo" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="UMENG_APPKEY" android:value="4ea4ce9f5270156d2f00004d" />
+        <activity android:name="com.feedback.ui.SendFeedback" android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.feedback.ui.FeedbackConversations" />
+        <activity android:name="com.feedback.ui.FeedbackConversation" android:configChanges="keyboard" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-sdk android:minSdkVersion="7" />
+</manifest>

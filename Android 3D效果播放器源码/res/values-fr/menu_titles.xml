@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="menu_option_title_get_art">
+		Pochettes
+	</string>
+	<string name="menu_option_title_preferences">
+		Préférences
+	</string>
+	<string name="menu_option_title_playlist_id">
+		Playlists
+	</string>
+	<string name="menu_option_title_concerts">
+		Concerts
+	</string>
+	<string name="menu_option_title_releases">
+		Nouveaux Albums
+	</string>
+	<string name="menu_option_title_view_mode">
+		Mode de Visualisation
+	</string>
+	<string name="menu_option_title_theme">
+		Thème
+	</string>
+	<string name="menu_option_title_equalizer">
+		Égaliseur
+	</string>
+</resources>

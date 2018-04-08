@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ringer</string>
+    <string name="ring_and_vibrate">Ring &amp; Vibrate</string>
+    <string name="ring">Ring Only</string>
+    <string name="vibrate">Vibrate Only</string>
+    <string name="silent">Silent</string>
+<string name="help">Please select time :</string>
+</resources>

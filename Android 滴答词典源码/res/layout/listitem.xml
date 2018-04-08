@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="2dp"
+    android:background="#104E8B"
+    >
+	
+	<TextView
+		android:layout_marginTop="5dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="例句:"
+		></TextView>
+	
+	<TextView
+		android:id="@+id/text_orig"
+		android:bufferType="spannable"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		></TextView>
+	
+	<TextView
+		android:id="@+id/text_trans"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dip"
+		></TextView>
+	
+</LinearLayout>

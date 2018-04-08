@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="#eff3ef">
+	<LinearLayout android:layout_width="match_parent"
+		android:orientation="horizontal" android:layout_height="wrap_content"
+		android:background="@drawable/maintop">
+		<TextView android:id="@+id/deal_title" android:layout_width="match_parent"
+			android:layout_height="match_parent" android:textSize="16px"
+			android:gravity="center_vertical" android:textColor="@color/white"
+			android:ellipsize="marquee" android:singleLine="true"
+			android:marqueeRepeatLimit="marquee_forever"
+			android:focusableInTouchMode="true" android:focusable="true"
+			android:layout_marginLeft="10px" android:layout_marginRight="10px" />
+	</LinearLayout>
+
+	<ScrollView android:layout_width="match_parent"
+		android:layout_height="360dip">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="wrap_content">
+
+			<ImageView android:id="@+id/image" android:layout_height="168px"
+				android:layout_width="275px" android:scaleType="fitXY"
+				android:layout_marginTop="10px" android:background="@drawable/imageview_bg"
+				android:padding="3px" android:layout_gravity="center_horizontal" />
+
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="5px">
+				<TextView android:id="@+id/website" android:layout_width="wrap_content"
+					android:layout_height="match_parent" android:textColor="@color/website"
+					android:paddingLeft="10px" android:paddingRight="10px"
+					android:textSize="15px" />
+
+				<TextView android:id="@+id/deal_desc" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="15px"
+					android:textColor="@color/black" android:layout_marginRight="10px" />
+			</LinearLayout>
+
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:gravity="center">
+
+				<TextView android:id="@+id/start_time"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textColor="@color/red" />
+
+				<TextView android:text="----" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="@color/red" />
+
+
+				<TextView android:id="@+id/end_time" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="@color/red" />
+
+				<TextView android:id="@+id/last_time" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="@color/red"
+					android:layout_marginLeft="15px" />
+
+
+			</LinearLayout>
+
+			<LinearLayout android:orientation="horizontal"
+				android:layout_height="wrap_content" android:layout_width="match_parent"
+				android:layout_marginTop="5px" android:gravity="center">
+				<TextView android:id="@+id/price" android:layout_width="wrap_content"
+					android:layout_height="match_parent" android:textColor="@color/red"
+					android:textSize="16px" android:textStyle="bold"
+					android:paddingRight="15px" />
+
+				<TextView android:id="@+id/value" android:layout_width="wrap_content"
+					android:layout_height="match_parent" android:textColor="@color/red"
+					android:textStyle="italic|bold" android:paddingLeft="15px"
+					android:paddingRight="15px" />
+
+				<TextView android:id="@+id/rebate" android:layout_width="wrap_content"
+					android:layout_height="match_parent" android:textColor="@color/red"
+					android:textStyle="italic" android:paddingLeft="15px" />
+
+			</LinearLayout>
+
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="match_parent" android:layout_height="wrap_content">
+				<TextView android:id="@+id/sales_num" android:textColor="@color/red"
+					android:layout_width="match_parent" android:layout_height="wrap_content"
+					android:gravity="center" />
+
+				<TextView android:id="@+id/shop_addr" android:textColor="@color/blue"
+					android:layout_width="match_parent" android:layout_height="wrap_content"
+					android:layout_marginLeft="10px" android:layout_marginRight="10px" />
+
+				<TextView android:id="@+id/shop_name" android:textColor="@color/blue"
+					android:layout_width="match_parent" android:layout_height="wrap_content"
+					android:layout_marginLeft="10px" android:layout_marginRight="10px" />
+
+				<TextView android:id="@+id/shop_tel" android:textColor="@color/blue"
+					android:layout_width="match_parent" android:layout_height="wrap_content"
+					android:layout_marginLeft="10px" android:layout_marginRight="10px" />
+
+
+			</LinearLayout>
+
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="match_parent" android:layout_height="wrap_content">
+
+				<Button android:id="@+id/buy" android:text="@string/buy"
+					android:textColor="@color/white" android:background="@drawable/button_bt"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" android:layout_margin="10px"
+					android:textSize="15px" />
+
+				<Button android:id="@+id/fav" android:text="@string/fav"
+					android:textColor="@color/white" android:background="@drawable/button_bt"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_weight="1" android:layout_margin="10px"
+					android:textSize="15px" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:background="@drawable/mainbottom">
+		
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/back"
+			android:background="@drawable/menu_button_bt" android:text="@string/back"
+			android:textColor="@color/white" android:layout_weight="1"
+			android:textSize="15px" />
+
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/collect"
+			android:background="@drawable/menu_button_bt" android:text="@string/collect"
+			android:textColor="@color/white" android:layout_weight="1"
+			android:textSize="15px" />
+		
+		
+		</LinearLayout>
+
+</LinearLayout>

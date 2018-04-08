@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/ret" android:id="@+id/fsa_ret"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<TextView android:id="@+id/fsa_movice_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="20px"
+			android:layout_marginTop="1px">
+		</TextView>
+		<Button android:text="@string/film_info"
+			android:id="@+id/fsa_film_info" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+
+	<HorizontalScrollView android:layout_width="fill_parent"
+		android:layout_marginTop="1px" android:layout_height="50px"
+		android:scrollbars="horizontal|vertical">
+		<TableLayout android:id="@+id/fsa_tablelayout"
+			android:gravity="center_horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		</TableLayout>
+	</HorizontalScrollView>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<TextView android:id="@+id/fsa_time"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textSize="10px"
+			android:layout_marginTop="1px">
+		</TextView>
+	</LinearLayout>
+	<ViewFlipper android:id="@+id/layoutswitcher"
+		android:layout_below="@+id/time" android:layout_width="800dp"
+		android:layout_height="200px">
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/gameView" android:layout_height="fill_parent">
+			<com.wangwei.view.SeatsView
+				android:layout_width="fill_parent" android:id="@+id/view"
+				android:layout_height="fill_parent" />
+		</LinearLayout>
+	</ViewFlipper>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_below="@+id/layoutswitcher"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="缩小" android:id="@+id/smaller"
+			android:layout_width="60px" android:layout_height="38px">
+		</Button>
+		<Button android:text="放大" android:id="@+id/bigger"
+			android:layout_width="60px" android:layout_height="38px">
+		</Button>
+	</LinearLayout>
+	
+		<HorizontalScrollView android:layout_width="fill_parent"
+		android:layout_marginTop="1px" android:layout_height="wrap_content"
+		android:scrollbars="horizontal|vertical">
+			<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+			<TextView android:layout_width="wrap_content"
+				android:textSize="10px" android:layout_height="wrap_content"
+				android:id="@+id/t" />
+				<Button android:text="@string/sure" android:id="@+id/fsa_sure"
+			android:layout_width="wrap_content" android:layout_height="36px">
+		</Button>
+		
+		
+	</LinearLayout>
+	</HorizontalScrollView>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<Button android:text="@string/hot_film"
+			android:id="@+id/hot_film" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/myhapiao"
+			android:id="@+id/myhapiao" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+		<Button android:text="@string/all_films"
+			android:id="@+id/all_films" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

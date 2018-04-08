@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LYRegisterServlet</servlet-name>
+    <servlet-class>com.lv.control.LYRegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.ly.control.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendTogetherServlet</servlet-name>
+    <servlet-class>com.ly.control.SendTogetherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LYBuildMemoryServlet</servlet-name>
+    <servlet-class>com.ly.control.LYBuildMemoryServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AttentionServlet</servlet-name>
+    <servlet-class>com.ly.control.AttentionServlet</servlet-class>
+  </servlet><servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendListServlet</servlet-name>
+    <servlet-class>com.ly.control.FriendListServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <servlet-name>ReceiveServlet</servlet-name>
+    <servlet-class>com.ly.control.ReceiveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowMemoryServlet</servlet-name>
+    <servlet-class>com.ly.control.ShowMemoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LYAddAttentionServlet</servlet-name>
+    <servlet-class>com.ly.control.LYAddAttentionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LYReplyMemoryServlet</servlet-name>
+    <servlet-class>com.ly.control.LYReplyMemoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowRegisterServlet</servlet-name>
+    <servlet-class>com.ly.control.ShowRegisterServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LYAddFriendsServlet</servlet-name>
+    <servlet-class>com.ly.control.LYAddFriendsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FriendsMeServlet</servlet-name>
+    <servlet-class>com.ly.control.FriendsMeServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>LYApplyServlet</servlet-name>
+    <servlet-class>com.ly.control.LYApplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteApplyServlet</servlet-name>
+    <servlet-class>com.ly.control.DeleteApplyServlet</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>DeleteFriendsServlet</servlet-name>
+    <servlet-class>com.ly.control.DeleteFriendsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LYAddMsgServlet</servlet-name>
+    <servlet-class>com.ly.control.LYAddMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RMsgServlet</servlet-name>
+    <servlet-class>com.ly.control.RMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelMsgServlet</servlet-name>
+    <servlet-class>com.ly.control.DelMsgServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  
+
+  	
+	
+  <servlet-mapping>
+    <servlet-name>LYRegisterServlet</servlet-name>
+    <url-pattern>/LYRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendTogetherServlet</servlet-name>
+    <url-pattern>/SendTogetherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LYBuildMemoryServlet</servlet-name>
+    <url-pattern>/LYBuildMemoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReceiveServlet</servlet-name>
+    <url-pattern>/ReceiveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowMemoryServlet</servlet-name>
+    <url-pattern>/ShowMemoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LYAddAttentionServlet</servlet-name>
+    <url-pattern>/LYAddAttentionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LYReplyMemoryServlet</servlet-name>
+    <url-pattern>/LYReplyMemoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttentionServlet</servlet-name>
+    <url-pattern>/AttentionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendListServlet</servlet-name>
+    <url-pattern>/FriendListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowRegisterServlet</servlet-name>
+    <url-pattern>/ShowRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LYAddFriendsServlet</servlet-name>
+    <url-pattern>/LYAddFriendsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendsMeServlet</servlet-name>
+    <url-pattern>/FriendsMeServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>LYApplyServlet</servlet-name>
+    <url-pattern>/LYApplyServlet</url-pattern>
+  </servlet-mapping>
+     <servlet-mapping>
+    <servlet-name>DeleteApplyServlet</servlet-name>
+    <url-pattern>/DeleteApplyServlet</url-pattern>
+  </servlet-mapping>
+       <servlet-mapping>
+    <servlet-name>DeleteFriendsServlet</servlet-name>
+    <url-pattern>/DeleteFriendsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LYAddMsgServlet</servlet-name>
+    <url-pattern>/LYAddMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RMsgServlet</servlet-name>
+    <url-pattern>/RMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelMsgServlet</servlet-name>
+    <url-pattern>/DelMsgServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

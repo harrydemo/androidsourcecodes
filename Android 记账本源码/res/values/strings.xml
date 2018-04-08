@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小芸芸记账本</string>
+    <string name="writeaccounthelp">
+    	<i>步骤一:选择本次消费所属的种类\n</i>
+    	<i>步骤二:记录下本次消费金额并保存\n</i>
+    	<i>步骤三:确认提示对话框</i>
+    </string>
+    <color name="tabbar_1">#a8d3ff</color>
+	<color name="tabbar_2">#ffffff</color>
+	<!-- <color name="canlendar_border">#6b952f</color> -->
+	<color name="canlendar_border">#a4957a</color>
+	<color name="canlendar_header">#c38c2f</color>
+	<color name="canlendar_week_6">#0072ff</color>
+	<color name="canlendar_week_7">#f02f2f</color>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">水果相册</string>
+    <string name="str_text">文件操作</string>
+    <string name="welcome">请选择媒介</string>
+    <string name="redue">更新确认</string>
+    <string name="scan">正在扫描设备中的图片...</string>
+    <string name="scan_redue">重新扫描设备可能需要较长时间，请选择【确定】按钮更新图片库，选择【取消】按钮放弃更新操作。</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="album_scan">相册浏览</string>
+    <string name="no_sdcard">没有插入SD卡</string>
+    <string name="no_picture">没有检索到图片信息</string>
+    <string name="no_memory">内存不足</string>
+    <string name="animation">幻灯片播放</string>
+    <string name="stop_anim">停止播放</string>
+    <string name="set_effects">查看特效</string>
+    <string name="retate">旋转图片</string>
+    <string name="thumbnail">设置操作</string>
+    <string name="details">详细信息</string>
+    <string name="share">分  享</string>
+    <string name="setupfor">设置图片</string>
+    <string name="delete">删  除</string>
+     <string name="switchmodel">幻灯片效果</string>
+    <string name="retate_left">逆时针90度旋转</string>
+    <string name="retate_right">顺时针90度旋转</string>
+    <string name="retate_back">180度旋转照片</string>
+    <string name="tolarger">放大图片</string>
+    <string name="tosmaller">缩小图片</string>
+    <string name="setup_wallpaper">设置为壁纸</string>
+    <string name="setup_favarete">添加到最喜爱的图片库</string>
+    <string name="delete_redue">删除确认</string>
+    <string name="delete_redue_question_a">确定要删除图片</string>
+    <string name="delete_redue_question_b">吗？ 选择【确定】按钮以删除图片文件。</string>
+    <string name="picture_file">图片文件</string>
+    <string name="delete_success">删除成功</string>
+    <string name="picture_name">照片名称</string>
+    <string name="picture_path">所在位置</string>
+    <string name="picture_size">照片大小</string>
+    <string name="picture_modified_date">修改时间</string>
+    <string name="setup_wallpaper_success">手机壁纸设置成功！</string>
+    <string name="unkonw_err">抱歉，程序出现未知异常</string>
+    <string name="picture_count">张图片</string>
+    <string name="album">相册</string>
+    <string name="path">路径</string>
+    <string name="rescan">重新扫描图片</string>
+    <string name="internal">本地存储</string>
+      <string name="strTakeButton">分 享</string>
+    <string name="strEditButton">切换主题</string>
+    <string name="strNewButton">刷新</string>
+   <string name="strDeleteButton">关 于</string>
+   <string name="PhotosButton">拍照</string>
+    <string name="MoreButton">多个选择</string>
+    <string name="ShareButton">分享</string>
+    <string name="MoveButton">移动</string>
+   <string name="DeleteButton">删除</string>
+   <string name="Yes">确定</string>
+   <string name="No">取消</string>
+    <string name="ok_button">确定</string>
+    <string name="about_title">About Fruit Album</string>
+    <string name="about_msg">感谢您使用Fruit Album(水果相册)，
+        该应用程序由清远职业技术学院信息科技系的Dreamer安卓应用开发小组创作，
+        具有拍照、浏览、编辑图片、更换皮肤、分享、设置壁纸等功能。</string> 
+    
+</resources>

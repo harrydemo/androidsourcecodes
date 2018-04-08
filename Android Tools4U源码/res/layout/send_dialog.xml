@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="250dip"
+    android:background="#fefefe" >
+
+  
+
+    <Button
+        android:id="@+id/send_but"
+        android:layout_width="60dip"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:text="发送"
+        android:background="@drawable/dialog_frm_list" />
+
+    <Button
+        android:id="@+id/cancel_but"
+        android:layout_width="60dip"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+          android:text="取消"
+        android:background="@drawable/dialog_frm_list" />
+<EditText
+        android:id="@+id/number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+         android:background="@drawable/dialog_frm_edit"
+        android:ems="10" />
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:layout_below="@+id/number"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:background="@drawable/dialog_frm_edit" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/addressee"
+        android:textColor="@color/black"
+        android:textSize="16dip" />
+
+    
+
+</RelativeLayout>

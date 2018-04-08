@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--	BROWSING CATEGORIES-->
+	<string name="browse_cat_album">Álbuns</string>
+	<string name="browse_cat_artists">Artistas</string>
+	<string name="browse_cat_songs">Músicas</string>
+
+	<!--	GENERAL STUFF -->
+	<string name="album">Álbum</string>
+	<string name="albums">Álbuns</string>
+
+
+	<!--	INTRO SCREEN-->
+    <string name="intro_text_1">Rock</string>
+    <string name="intro_text_2">On</string>
+    <string name="intro_text_3">NextGen</string>
+    <string name="app_name">³</string>
+    
+	<!--    ALBUM ART MESSAGES-->
+	<string name="get_art_dialog_title">³ Busca de capas</string>
+	<string name="get_art_dialog_message">
+		³ Deseja baixar capas de álbuns faltantes? (Demora ~1 min para cada 10 capas e é recomendado o uso sob WiFi).
+	</string>
+	<string name="get_art_dialog_yes">Sim!</string>
+	<string name="get_art_dialog_no">Farei mais tarde</string>
+
+	<!--	ART DOWNLOAD MESSAGES-->
+	<string name="art_download_no_inet">Conexão com a Internet indisponível!</string>
+	<string name="art_download_progress_title">Baixando capas</string>
+	<string name="art_download_cancel">Cancelar</string>
+	<string name="art_download_progress_initial_message">Buscando por capas...</string>
+
+	<!--	NO SDCARD MESSAGES -->
+	<string name="no_sd_card_dialog_title">Sem cartão SD!</string>
+	<string name="no_sd_card_dialog_message">Insira um cartão SD...</string>
+	<string name="no_sd_card_dialog_continue_anyway">Ignorar</string>
+	<string name="no_sd_card_dialog_exit">Abortar</string>
+	<!--	NO MUSIC MESSAGES -->
+	<string name="no_music_dialog_title">Sem músicas!</string>
+	<string name="no_music_dialog_message">Nenhuma das músicas dessa lista de reprodução foi encontrada. Reveja a lista ou tente reiniciar o ³...</string>
+	<string name="no_music_dialog_continue_anyway">Ignorar</string>
+	<string name="no_music_dialog_exit">Abortar</string>
+
+	<!--	DOWNLOAD CONCERTS APP MESSAGES-->
+	<string name="concert_app_install_dialog_title">Instalar Concerts³</string>
+	<string name="concert_app_install_dialog_message">Este recurso requer a instalação do Concerts³. Instalar?</string>
+	<string name="concert_app_install_dialog_ok">Sim</string>
+	<string name="concert_app_install_dialog_cancel">Não, estou bem sem!</string>
+	<string name="concert_app_install_no_market_app_msg">Ooops! Não encontramos o Market instalado. Nada foi feito.</string>
+
+	<!--	DOWNLOAD RELEASES APP MESSAGES-->
+	<string name="releases_app_install_dialog_title">Instalar Releases³</string>
+	<string name="releases_app_install_dialog_message">Este recurso requer a instalação do Releases³. Instalar?</string>
+	<string name="releases_app_install_dialog_ok">Sim</string>
+	<string name="releases_app_install_dialog_cancel">Não, estou bem sem!</string>
+	<string name="releases_app_install_no_market_app_msg">Ooops! Não encontramos o Market instalado. Nada foi feito.</string>
+
+	<!--	TOASTER MESSAGES	-->
+	<string name="song_added_to_playlist">Música adicionada</string>
+	<string name="song_removed_from_playlist">Música removida da lista</string>
+	<string name="album_art_changed">Capa mudada</string>
+	<string name="playlist_empty_toast">Erro! A lista está vazia!</string>
+	<string name="playqueue_empty_toast">Lista vazia!</string>
+	<string name="not_an_album_toast">Desculpe, isso é um artista e não um álbum!</string>
+	<string name="playlist_queued_toast">Playlist queued</string>
+	<string name="generic_error_toast">Erro!</string>
+	<string name="playlist_deleted_toast">Lista apagada!</string>
+	<string name="song_deleted_toast">Música apagada!</string>
+
+	<!-- 	SEARCH -->
+	<string name="search_hint">Música ou Artista</string>
+
+	<!--	PLAY QUEUE	-->
+	<string name="play_queue_title">Tocar lista de reprodução</string>
+	<string name="clear_playlist_dialog_option">Limpar</string>
+	<string name="create_playlist_dialog_option">Salvar</string>
+
+	<!--	SONG LISTS MORE RESULTS -->
+	<string name="song_list_more_results">músicas...</string>
+
+	<!--	CREATE PLAYLIST DIALOG -->
+	<string name="create_playlist_dialog_title">Dar nome à lista de reprodução</string>
+	<string name="create_playlist_dialog_save_option">Salvar</string>
+	<string name="create_playlist_dialog_text_hint">Digite o nome da lista...</string>
+
+	<!--	DELETE SONG DIALOG	-->
+	<string name="song_delete_confirm_title">Apagar música</string>
+	<string name="song_delete_message">Tem certeza que deseja apagar a música? Esse processo é irreversível.</string>
+	<string name="song_delete_positive_button">Sim!</string>
+	<string name="song_delete_negative_button">Não.</string>
+
+	<!--	DELETE PLAYLIST DIALOG	-->
+	<string name="playlist_delete_confirm_title">Apagar lista de reprodução</string>
+	<string name="playlist_delete_message">Tem certeza que deseja apagar a lista?</string>
+	<string name="playlist_delete_positive_button">Sim!</string>
+	<string name="playlist_delete_negative_button">Não.</string>
+
+	<!--	CREATE PLAYLIST TOASTER	-->
+	<string name="create_playlist_toaster_added_part_1">Músicas adicionadas a lista</string>
+	<string name="create_playlist_toaster_failed">Erro ao criar a lista!</string>
+	<string name="create_playlist_toaster_name_required">É obrigatório dar um nome a lista...</string>
+
+	<!--	-->
+
+	<!--	ALBUM SONG LIST DIALOG -->
+	<string name="album_song_list_play_all">Tocar tudo</string>
+	<string name="album_song_list_queue_all">Adicionar à lista</string>
+
+	<!--	SONG OPTIONS DIALOG	-->
+	<string name="song_option_play_now">Tocar</string>
+	<string name="song_option_add_to_queue">Adicionar à lista</string>
+	<string name="song_option_delete">Apagar</string>
+
+	<!--	PLAYLIST OPTIONS DIALOG	-->
+	<string name="playlist_option_play_now">Tocar</string>
+	<string name="playlist_option_add_to_queue">Adicionar à lista</string>
+	<string name="playlist_option_delete">Apagar</string>
+
+	<!--	PLAYLIST DIALOG		-->
+	<string name="playlist_dialog_title">Escolher lista</string>
+	<string name="playlist_dialog_cancel">Cancelar</string>
+	<string name="playlist_all_title">Tocar tudo</string>
+	<string name="playlist_most_recent_title">Recente</string>
+	<string name="playlist_most_played_title">Mais tocadas</string>
+
+	<!-- 	VIEW MODES DIALOG -->
+	<string name="view_mode_cube">³</string>
+	<string name="view_mode_wall">Loja de CDs</string>
+	<string name="view_mode_boring">Chato</string>
+	<string name="view_mode_morph">Capas</string>
+
+	<!-- 	THEMES DIALOG -->
+	<string name="theme_normal">Normal</string>
+	<string name="theme_halftone">Old School</string>
+	<string name="theme_earthquake">Terremoto</string>
+
+	<!--	THEME PROCESSING MESSAGES	-->
+	<string name="art_processing_progress_title">Processando capas</string>
+	<string name="art_processing_cancel">Cancelar</string>
+	<string name="art_processing_go_background">Em segundo plano</string>
+	<string name="art_processing_progress_initial_message">Procurando álbuns...</string>
+
+	<!--    HALF TONE DIALOG -->
+	<string name="half_tone_dialog_title">Aparência Old School</string>
+	<string name="half_tone_dialog_message">
+		Old School requer algumas mudanças nas capas. Esse processo pode levar algum tempo (~1min para cada 30 álbuns).
+	</string>
+	<string name="half_tone_dialog_yes">Agora!</string>
+	<string name="half_tone_dialog_no">Não, obrigado.</string>
+
+	<!--    EARTHQUAKE DIALOG -->
+	<string name="earthquake_dialog_title">Aparência Terremoto</string>
+	<string name="earthquake_dialog_message">
+    Terremoto requer algumas mudanças nas capas. Mas esse não demora (~10s para cada 100 álbuns).
+	</string>
+	<string name="earthquake_dialog_yes">Agora!</string>
+	<string name="earthquake_dialog_no">Não, obrigado.</string>
+
+
+	<!--	ACTIVITY INTENTS (some of them)-->
+	<string name="main_activity_intent">org.abrantix.rockon.rockonnggl.RockOnNextGenGL</string>
+
+	<!--	NOTIFICATION STRINGS -->
+	<string name="unknown_album_name">Álbum desconhecido</string>
+	<string name="unknown_artist_name">Arista desconhecido</string>
+
+	<!-- 	MANUAL ALBUM ART MSGS -->
+	<string name="manual_albumart_error">Erro</string>
+	<string name="manual_albumart_no_album_specified">Nenhum álbum especificado!</string>
+	<string name="manual_albumart_source">Fonte</string>
+	<string name="manual_albumart_source_local">local</string>
+	<string name="manual_albumart_source_internet">internet</string>
+	<string name="manual_albumart_resolution_loading">carregando...</string>
+	<string name="manual_albumart_resolution_unavailable">indisponível</string>
+
+	<string name="manual_input_enable">Busca manual</string>
+	<string name="manual_input_artist">Artista</string>
+	<string name="manual_input_album">Álbum</string>
+
+	<!--	DONATE MSG	-->
+	<string name="donate_title">Doar</string>
+	<string name="donate_msg">³ é um player de música gratuito e de código livre feito somente no meu tempo livre. Se você o usa, considere doar para incentivar o desenvolvimento usando uma das opções:</string>
+	<string name="donate_using">Doar por</string>
+	<string name="donate_back_to_app">Voltar para</string>
+
+	<!--	UNLOCK SCREEN	-->
+	<string name="unlock_screen">Destravar</string>
+
+	<!--	WIDGET STRINGS	-->
+	<string name="widget_app_start">Abrir ³</string>
+
+	<!--	BUG REPORTS	-->
+	<string name="bug_report_intro_part_one">Desculpe-nos!\n\n3 (Cubed) v</string>
+	<string name="bug_report_intro_part_two">travou! Pedimos que envie esse e-mail para que possamos analizar e corrigir o problema.\n</string>
+
+<!--	<string name="bug_report_intro">-->
+<!--		"Sorry!\n\nRockOn v\"-->
+<!--		<xliff:g id="APP_VERSION">%s</xliff:g>-->
+<!--		\" crashed! Please send this mail, so that we can analyze/fix the issue.\n"-->
+<!--	</string>-->
+
+	<!--	DIRECTORY FILTER	-->
+	<string name="directories_on_sdcard">Seu cartão SD tem as seguintes pastas:</string>
+	<string name="select_all">Todas</string>
+	<string name="unselect_all">Nenhuma</string>
+
+	<!--	GENERIC STUFF -->
+	<string name="ok">Ok</string>
+	<string name="back">Voltar</string>
+	<string name="all">Todas</string>
+	<string name="none">Nenhuma</string>
+	<string name="on">On</string>
+	<string name="off">Off</string>
+
+	<string name="genre_prefix">Gênero:</string>
+
+</resources>
+

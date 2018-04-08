@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="radiobg_press">#ff43859d</color>
+    <color name="radiobg_normal">#ff555555</color>
+    <color name="white">#ffffffff</color>
+    <color name="snow">#fffffafa</color>
+    <color name="silver">#ffc0c0c0</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="skyblue">#ff87ceeb</color>
+    <color name="darkgrey">#ffa9a9a9</color>
+    <color name="common_font_color_2">#ff485361</color>
+    <color name="itemcolcor">#fff1f6fc</color>
+    <color name="bg">#fff1f6fc</color>
+    <color name="black">#ff000000</color>
+    <color name="titleBackground">#ffd90504</color>
+    <color name="titleBackground1">#ff6da700</color>
+    <color name="orange">#ffffa500</color>
+    <color name="titleBackground_half">#ffd90504</color>
+    <color name="colorstart">#ff6da700</color>
+    <color name="colormiddle">#ff7fffff</color>
+    <color name="colorend">#ff9258ff</color>
+    <color name="green">#ff43b44f</color>
+</resources>

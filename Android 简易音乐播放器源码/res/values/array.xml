@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lyric_download">
+        <item>禁止下载</item>
+        <item>始终下载</item>
+        <item>仅使用WIFI时下载</item>
+    </string-array>
+    <string-array name="lyric_download_value">
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+    </string-array>
+    <string-array name="photo_download">
+        <item>禁止下载</item>
+        <item>始终下载</item>
+        <item>仅使用WIFI时下载</item>
+    </string-array>
+    <string-array name="photo_download_value">
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+    </string-array>
+    <string-array name="switch_set">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="switch_set_value">
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+    </string-array>
+    <string-array name="about">
+        <item>自动获取SD卡全部音乐,并且过滤800K以下的文件\n(注:800K以下的文件一般为非音乐文件)\n\n界面最上方或最下方\n左右滑动到各种界面\n\n点击左上角闹钟图标开启休眠模式\n休眠启动后,再次点击取消休眠\n\n点击小喇叭按钮切换为声音控制条,可以音乐调节\n\n支持甩歌功能,左甩为上一曲,右甩为下一曲\n\n而后专辑显示我直接导用的是天天动听文件夹里面的\n\n因本人技术有限故此播放器尚未完善,往后会继续改善\n\n欢迎反馈:oooo7777777@sina.com</item>
+    </string-array>
+    <string-array name="about_value">
+        <item>001</item>
+    </string-array>
+
+</resources>

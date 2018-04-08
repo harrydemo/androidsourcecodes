@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/!svn/ver/294/trunk/res/layout
+END
+global_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/240/trunk/res/layout/global_settings.xml
+END
+viewcomments.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/256/trunk/res/layout/viewcomments.xml
+END
+select_categories.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/267/trunk/res/layout/select_categories.xml
+END
+add_account_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/240/trunk/res/layout/add_account_settings.xml
+END
+edit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/268/trunk/res/layout/edit.xml
+END
+dashboard.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/292/trunk/res/layout/dashboard.xml
+END
+add_quickpress_shortcut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/240/trunk/res/layout/add_quickpress_shortcut.xml
+END
+link.xml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/240/trunk/res/layout/link.xml
+END
+blogs_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/240/trunk/res/layout/blogs_row.xml
+END
+posts_tab_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/240/trunk/res/layout/posts_tab_selector.xml
+END
+select_blogs_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/240/trunk/res/layout/select_blogs_list.xml
+END
+popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/261/trunk/res/layout/popup.xml
+END
+signup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/256/trunk/res/layout/signup.xml
+END
+moderatecomments.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/291/trunk/res/layout/moderatecomments.xml
+END
+row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/256/trunk/res/layout/row.xml
+END
+post_fullscreen.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/261/trunk/res/layout/post_fullscreen.xml
+END
+row_post_page.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/240/trunk/res/layout/row_post_page.xml
+END
+about.xml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/284/trunk/res/layout/about.xml
+END
+categories_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/240/trunk/res/layout/categories_row.xml
+END
+spinner_textview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/240/trunk/res/layout/spinner_textview.xml
+END
+home_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/240/trunk/res/layout/home_row.xml
+END
+blogs_row_actionbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/291/trunk/res/layout/blogs_row_actionbar.xml
+END
+viewpost.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/266/trunk/res/layout/viewpost.xml
+END
+edit_page.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/268/trunk/res/layout/edit_page.xml
+END
+stats_tab_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/240/trunk/res/layout/stats_tab_selector.xml
+END
+pages_tab_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/240/trunk/res/layout/pages_tab_selector.xml
+END
+add_category.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/240/trunk/res/layout/add_category.xml
+END
+table_row_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/240/trunk/res/layout/table_row_header.xml
+END
+comment_tab_selector.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/240/trunk/res/layout/comment_tab_selector.xml
+END
+home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/240/trunk/res/layout/home.xml
+END
+view_stats.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/294/trunk/res/layout/view_stats.xml
+END
+reply.xml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/240/trunk/res/layout/reply.xml
+END
+action_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/261/trunk/res/layout/action_item.xml
+END
+list_footer_btn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/240/trunk/res/layout/list_footer_btn.xml
+END
+view_comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/240/trunk/res/layout/view_comment.xml
+END
+settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/240/trunk/res/layout/settings.xml
+END
+action_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/293/trunk/res/layout/action_bar.xml
+END
+viewposts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/292/trunk/res/layout/viewposts.xml
+END
+add_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/240/trunk/res/layout/add_account.xml
+END
+new_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/252/trunk/res/layout/new_account.xml
+END
+image_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/240/trunk/res/layout/image_view.xml
+END
+list_footer_progress.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/240/trunk/res/layout/list_footer_progress.xml
+END
+table_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/240/trunk/res/layout/table_row.xml
+END

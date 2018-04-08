@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1">
+		<TableRow>
+			<TextView android:text="用户名称：" android:id="@+id/TextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				></TextView>		
+			<EditText android:text="" android:id="@+id/userEditText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+		</TableRow>
+		<TableRow>
+			<TextView android:text="用户密码：" android:id="@+id/TextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				></TextView>		
+			<EditText android:text="" android:id="@+id/pwdEditText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:password="true"></EditText>
+		</TableRow>		
+		<TableRow android:gravity="right">
+			<Button android:text="取消" android:id="@+id/cancelButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+			<Button android:text="登陆" android:id="@+id/loginButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>	
+		</TableRow>
+	</TableLayout>
+		
+		
+	
+
+
+</LinearLayout>

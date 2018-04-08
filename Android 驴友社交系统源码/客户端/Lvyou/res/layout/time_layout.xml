@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="fill_parent"
+	android:background="@drawable/layout_bg">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content" android:layout_width="400dip"
+		android:layout_gravity="center_horizontal" android:paddingLeft="12dp"
+		android:paddingRight="12dp" android:paddingTop="10dp" android:id="@+id/timePicker1">
+
+		<com.amo.demo.wheelview.WheelView
+			android:id="@+id/year" android:layout_height="wrap_content"
+			android:layout_width="85dip" />
+		<com.amo.demo.wheelview.WheelView
+			android:id="@+id/month" android:layout_height="wrap_content"
+			android:layout_width="50dip" />
+		<com.amo.demo.wheelview.WheelView
+			android:id="@+id/day" android:layout_height="wrap_content"
+			android:layout_width="50dip" />
+		<com.amo.demo.wheelview.WheelView
+			android:id="@+id/hour" android:layout_height="wrap_content"
+			android:layout_width="44dip" />
+		<com.amo.demo.wheelview.WheelView
+			android:id="@+id/mins" android:layout_height="wrap_content"
+			android:layout_width="44dip" />
+	</LinearLayout>
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_below="@id/timePicker1" android:layout_marginTop="12dp"
+		android:layout_centerInParent="true">
+		<Button android:id="@+id/btn_datetime_sure"
+			android:layout_width="wrap_content" android:text="确  定"
+			android:layout_below="@id/timePicker1" android:layout_height="wrap_content" android:layout_marginRight="40dp"></Button>
+		<Button android:id="@+id/btn_datetime_cancel"
+			android:layout_toRightOf="@id/btn_datetime_sure"
+			android:layout_width="wrap_content" android:text="取  消"
+			android:layout_height="wrap_content" android:layout_below="@id/timePicker1"></Button>
+	</LinearLayout>
+
+</RelativeLayout>

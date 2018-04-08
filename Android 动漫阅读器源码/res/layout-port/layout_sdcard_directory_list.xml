@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/listrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl"
+        android:layout_alignParentTop="true" >
+
+        <ListView
+            android:id="@+id/filesList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FF999999" >
+
+        <Button
+            android:id="@+id/sdcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:text="@string/sdcard_name" />
+
+        <Button
+            android:id="@+id/fileParent"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/sdcard"
+            android:text="@string/sdcard_parentDirector" />
+
+        <Button
+            android:id="@+id/goBack"
+            android:layout_width="140dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:layout_toRightOf="@id/fileParent"
+            android:text="@string/sdcard_goback" />
+    </RelativeLayout>
+
+</RelativeLayout>

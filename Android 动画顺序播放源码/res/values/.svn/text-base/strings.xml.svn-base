@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Home activity -->
+    <string name="hello">Yoga to Go,from Carolina Vivas</string>
+    <string name="app_name">YogaPowerVinyasa</string>
+    <string name="play_title">out of</string>
+    
+    <string name="close">close</string>
+    <string name="warning">warning</string>
+    <string name="first_chapter">at first pose</string>
+    <string name="last_chapter">at last pose</string>
+    <string name="update_msg">new yoga content available.  update?</string>
+    <string name="reload">confirm: re-download all content?</string>
+    <string name="menu_settings">Settings</string>
+    <string name="re_download">re-download</string>
+    <string name="menu_about">About</string>
+    <string name="pause_first">pause the audio</string>
+    <string name="notEnoughSize">out of memory</string>
+    <!-- no_wifi activity -->
+    <string name="no_wifi">downloading audio not complete.  please check your internet connection and continue downloading.</string>
+    
+    <!-- download dialog -->
+    <string name="download_msg">the audio for this class downloading now.  this screen will disappear when completed.  feel free to close this window and return later, audio downloads in background.</string>
+    <string name="cancel">[cancel]</string>
+	<!-- menu -->
+	<string name="version">1.0.0</string>
+	<string name="about_title">Yoga Version</string>
+	
+	
+	<string name="main_need_update">please update to most recent version: V</string>
+	
+	<!-- String array chapters-->
+	<string name="spanner_title">pose</string>
+	<string-array name="chapters"> 
+		<item>1 child‘s pose</item>
+		<item>2 downard facing dog</item>
+		<item>3 forward fold</item>
+		<item>4 standing</item>
+		<item>5 forward fold</item>
+		<item>6 down dog splits</item>
+		<item>7 twisting side angle</item>
+		<item>8 flat back</item>
+		<item>9 foward bend</item>
+		<item>10 standing arms together at the heart</item>
+		<item>11 forward bend</item>
+		<item>12 flat back</item>
+		<item>13 down dog spilts</item>
+		<item>14 stacking</item>
+		<item>15 downdog splits</item>
+		<item>16 twisting side angle</item>
+		<item>17 flat back</item>
+		<item>18 foward fold</item>
+		<item>19 standing hands up</item>
+		<item>20 standing hands at heart</item>
+		<item>21 chair</item>
+		<item>22 foward fold</item>
+		<item>23 plank</item>
+		<item>24 chateronga sp?</item>
+		<item>25 up dog</item>
+		<item>26 downward facing dog</item>
+		<item>27 warrior 1</item>
+		<item>28 plank</item>
+		<item>29 chateronga sp?</item>
+		<item>30 up dog</item>
+		<item>31 down dog</item>
+		<item>32 warrior 1</item>
+		<item>33 chateronga sp?</item>
+		<item>34 up dog</item>
+		<item>35 down dog</item>
+		<item>36 one handed down dog</item>
+		<item>37 one handed down dog</item>
+		<item>38 down dog</item>
+		<item>39 flat back</item>
+		<item>40 forward fold</item>
+		<item>41 chair pose</item>
+		<item>42 arms behind you, fingers interlaced, forward fold ?</item>
+		<item>43 chair</item>
+		<item>44 forward fold</item>
+		<item>45 flat back</item>
+		<item>46 chateronga sp?</item>
+		<item>47 up dog</item>
+		<item>48 down dog</item>
+		<item>49 high lunge</item>
+		<item>50 plank</item>
+		<item>51 vinyasa</item>
+		<item>52 high lunge</item>
+		<item>53 down dog</item>
+		<item>54 down dog twist</item>
+		<item>55 down dog</item>
+		<item>56 flat back</item>
+		<item>57 foward fold</item>
+		<item>58 chair</item>
+		<item>59 sparrow</item>
+		<item>60 crane</item>
+		<item>61 chateronga sp?</item>
+		<item>62 low lunge</item>
+		<item>63 vinyasa</item>
+		<item>64 low lunge</item>
+		<item>65 chateronga sp?</item>
+		<item>66 dolphin</item>
+		<item>67 down dog</item>
+		<item>68 flat back</item>
+		<item>69 chair</item>
+		<item>70 eagle</item>
+		<item>71 high lunge</item>
+		<item>72 twisting side angle</item>
+		<item>73 side plank</item>
+		<item>74 dolphin</item>
+		<item>75 down dog</item>
+		<item>76 chair</item>
+		<item>77 eagle</item>
+		<item>78 crouching eagle</item>
+		<item>79 high lunge</item>
+		<item>80 twisting side angle</item>
+	</string-array>
+</resources>

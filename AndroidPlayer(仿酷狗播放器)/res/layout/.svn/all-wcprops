@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/124/trunk/AndroidPlayer/res/layout
+END
+audio_list_item_common.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/34/trunk/AndroidPlayer/res/layout/audio_list_item_common.xml
+END
+tab_menu_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/98/trunk/AndroidPlayer/res/layout/tab_menu_button.xml
+END
+playlist_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/layout/playlist_list.xml
+END
+main_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/114/trunk/AndroidPlayer/res/layout/main_activity.xml
+END
+pop_menu_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/layout/pop_menu_item.xml
+END
+tab_random_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/99/trunk/AndroidPlayer/res/layout/tab_random_button.xml
+END
+tabhost.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/96/trunk/AndroidPlayer/res/layout/tabhost.xml
+END
+auto_complete_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/106/trunk/AndroidPlayer/res/layout/auto_complete_text.xml
+END
+tab_main_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/97/trunk/AndroidPlayer/res/layout/tab_main_button.xml
+END
+search_bar_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/102/trunk/AndroidPlayer/res/layout/search_bar_item.xml
+END
+audio_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/34/trunk/AndroidPlayer/res/layout/audio_list_item.xml
+END
+loading_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/102/trunk/AndroidPlayer/res/layout/loading_layout.xml
+END
+playback_list_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/layout/playback_list_button.xml
+END
+common_list_item2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/layout/common_list_item2.xml
+END
+search_main_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/120/trunk/AndroidPlayer/res/layout/search_main_activity.xml
+END
+top_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/96/trunk/AndroidPlayer/res/layout/top_bar.xml
+END
+tab_search_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/97/trunk/AndroidPlayer/res/layout/tab_search_button.xml
+END
+bottom_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/96/trunk/AndroidPlayer/res/layout/bottom_menu.xml
+END
+refresh_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/102/trunk/AndroidPlayer/res/layout/refresh_layout.xml
+END
+local_main_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/61/trunk/AndroidPlayer/res/layout/local_main_layout.xml
+END
+audio_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/58/trunk/AndroidPlayer/res/layout/audio_list.xml
+END
+media_list_item_common.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/layout/media_list_item_common.xml
+END
+common_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/layout/common_list_item.xml
+END
+local_cate_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/61/trunk/AndroidPlayer/res/layout/local_cate_activity.xml
+END
+playback_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/93/trunk/AndroidPlayer/res/layout/playback_activity.xml
+END
+alert_dialog_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/124/trunk/AndroidPlayer/res/layout/alert_dialog_item.xml
+END
+local_audio_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/61/trunk/AndroidPlayer/res/layout/local_audio_list.xml
+END
+splash_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/88/trunk/AndroidPlayer/res/layout/splash_activity.xml
+END
+common_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/layout/common_dialog.xml
+END
+playlist_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/34/trunk/AndroidPlayer/res/layout/playlist_list_item.xml
+END
+common_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/AndroidPlayer/res/layout/common_listview.xml
+END
+pop_menu_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/108/trunk/AndroidPlayer/res/layout/pop_menu_layout.xml
+END

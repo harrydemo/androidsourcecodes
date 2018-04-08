@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="right"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add" />
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginLeft="5dp"
+ 	    android:layout_weight="1"
+ 	    >
+		<ScrollView
+			android:layout_width="fill_parent"
+			android:fadingEdge="none"
+			android:scrollbars="vertical"
+			android:layout_height="wrap_content">
+			
+	    
+			<TableLayout
+		    	android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+			    android:id="@+id/lla">
+			</TableLayout>
+		
+    	</ScrollView>
+    </LinearLayout>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_margin="10dp"
+  	    android:gravity="center" >
+			
+		<Button
+		    android:id="@+id/btnDefine"
+		    android:layout_width="150dp"
+        	android:layout_height="wrap_content"
+		    android:text="确定" 
+		    android:layout_marginLeft="10dp"/>
+		
+		<Button
+		    android:id="@+id/btnCancel"
+		    android:layout_width="150dp"
+        	android:layout_height="wrap_content"
+		    android:text="取消" 
+		    android:layout_marginLeft="10dp"/>
+		
+	</LinearLayout>
+</LinearLayout>

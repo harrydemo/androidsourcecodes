@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/43/trunk/CoolReader/res/layout
+END
+catalog_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/18/trunk/CoolReader/res/layout/catalog_row.xml
+END
+bookmarklist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/14/trunk/CoolReader/res/layout/bookmarklist.xml
+END
+reader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/14/trunk/CoolReader/res/layout/reader.xml
+END
+fontset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/14/trunk/CoolReader/res/layout/fontset.xml
+END
+indexactivity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/41/trunk/CoolReader/res/layout/indexactivity.xml
+END
+bookmark_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/14/trunk/CoolReader/res/layout/bookmark_dialog.xml
+END
+book_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/18/trunk/CoolReader/res/layout/book_info.xml
+END
+file_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/14/trunk/CoolReader/res/layout/file_row.xml
+END
+htmlbrowser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/14/trunk/CoolReader/res/layout/htmlbrowser.xml
+END
+custom_reader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/43/trunk/CoolReader/res/layout/custom_reader.xml
+END
+picturebrowser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/14/trunk/CoolReader/res/layout/picturebrowser.xml
+END

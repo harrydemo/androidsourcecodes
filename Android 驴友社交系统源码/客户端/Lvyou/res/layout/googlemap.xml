@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button 	
+		android:text="查看我的地理位置" 
+		android:id="@+id/Button01"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+	</Button>
+	
+	<com.google.android.maps.MapView
+		android:id="@+id/myMap"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:apiKey="0NWpizGi2kZE08UFQIX9WNAiXaWMddzaHdk9K-Q" />
+
+</LinearLayout>
